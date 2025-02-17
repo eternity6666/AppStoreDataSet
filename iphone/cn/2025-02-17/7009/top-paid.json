@@ -49,8 +49,8 @@
                         ],
                         "ariaLabelForRatings": "4.6 星"
                     },
-                    "name": "双子 Gemini",
                     "genreDisplayName": "家庭聚会",
+                    "name": "双子 Gemini",
                     "isPreorder": false,
                     "artistName": "X.D. Network Inc.",
                     "isIOSBinaryMacOSCompatible": false,
@@ -85,13 +85,13 @@
                                     ]
                                 }
                             ],
-                            "requires32bit": false,
                             "minimumMacOSVersion": "11.0",
+                            "requires32bit": false,
                             "releaseDate": "2017-03-29",
                             "hasInAppPurchases": false,
                             "bundleId": "com.xd.gemini",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -107,8 +107,8 @@
                             "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
+                            "minimumXROSVersion": "1.0",
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 1446,
@@ -151,25 +151,15 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "hasSafariExtension": false,
                             "editorialNotes": {
                                 "tagline": "两颗小球相互依偎 开启感人宇宙之旅"
                             },
-                            "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/1159266744/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "929034871",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/929034871?l=zh-Hans-CN"
-                            }
-                        ]
-                    },
                     "genres": {
                         "href": "/v1/catalog/cn/apps/1159266744/genres?l=zh-Hans-CN",
                         "data": [
@@ -202,17 +192,27 @@
                                 "attributes": {
                                     "parentName": "游戏",
                                     "name": "冒险",
-                                    "parentId": "6014",
-                                    "url": "https://itunes.apple.com/cn/genre/id7002"
+                                    "url": "https://itunes.apple.com/cn/genre/id7002",
+                                    "parentId": "6014"
                                 }
+                            }
+                        ]
+                    },
+                    "developer": {
+                        "href": "/v1/catalog/cn/apps/1159266744/developer?l=zh-Hans-CN",
+                        "data": [
+                            {
+                                "id": "929034871",
+                                "type": "developers",
+                                "href": "/v1/catalog/cn/developers/929034871?l=zh-Hans-CN"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "RTCI": 1732224347304,
-                        "MZ_INDEXER": 1739483460638
+                        "MZ_INDEXER": 1739483460638,
+                        "RTCI": 1732224347304
                     }
                 },
                 "supportsArcade": false,
@@ -253,8 +253,8 @@
                     ],
                     "ariaLabelForRatings": "4.6 星"
                 },
-                "name": "双子 Gemini",
                 "genreDisplayName": "家庭聚会",
+                "name": "双子 Gemini",
                 "isPreorder": false,
                 "artistName": "X.D. Network Inc.",
                 "isIOSBinaryMacOSCompatible": false,
@@ -289,13 +289,13 @@
                                 ]
                             }
                         ],
-                        "requires32bit": false,
                         "minimumMacOSVersion": "11.0",
+                        "requires32bit": false,
                         "releaseDate": "2017-03-29",
                         "hasInAppPurchases": false,
                         "bundleId": "com.xd.gemini",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -311,8 +311,8 @@
                         "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
+                        "minimumXROSVersion": "1.0",
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 1446,
@@ -355,10 +355,10 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "hasSafariExtension": false,
                         "editorialNotes": {
                             "tagline": "两颗小球相互依偎 开启感人宇宙之旅"
                         },
-                        "hasSafariExtension": false,
                         "requiresGameController": false
                     }
                 },

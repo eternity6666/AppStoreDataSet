@@ -51,11 +51,11 @@
                         "ariaLabelForRatings": "4.5 stars"
                     },
                     "watchBundleId": "com.jamawkinaw.downcast.watchkitapp",
-                    "genreDisplayName": "News",
                     "name": "Downcast",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": false,
                     "artistName": "Jamawkinaw Enterprises LLC",
+                    "isIOSBinaryMacOSCompatible": false,
                     "reviewsRestricted": false,
                     "minimumWatchOSVersion": "7.1",
                     "platformAttributes": {
@@ -88,8 +88,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.5",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.5",
                             "releaseDate": "2010-10-01",
                             "hasInAppPurchases": true,
                             "bundleId": "com.jamawkinaw.downcast",
@@ -107,9 +107,10 @@
                             },
                             "isAppleWatchSupported": true,
                             "requiredCapabilitiesForRealityDevice": "arm64 wifi ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": true,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": false,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -143,7 +144,6 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "subtitle": "Podcast player",
                             "hasSafariExtension": false,
                             "circularArtwork": {
@@ -161,6 +161,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/sg/apps/393858566/developer?l=en-GB",
+                        "data": [
+                            {
+                                "id": "393858569",
+                                "type": "developers",
+                                "href": "/v1/catalog/sg/developers/393858569?l=en-GB"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/sg/apps/393858566/genres?l=en-GB",
                         "data": [
@@ -171,8 +181,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -182,27 +192,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Entertainment",
-                                    "url": "https://itunes.apple.com/sg/genre/id6016",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6016"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/sg/apps/393858566/developer?l=en-GB",
-                        "data": [
-                            {
-                                "id": "393858569",
-                                "type": "developers",
-                                "href": "/v1/catalog/sg/developers/393858569?l=en-GB"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739506319645,
-                        "RTCI": 1737913395118
+                        "RTCI": 1737913395118,
+                        "MZ_INDEXER": 1739506319645
                     }
                 },
                 "supportsArcade": false,
@@ -245,11 +245,11 @@
                     "ariaLabelForRatings": "4.5 stars"
                 },
                 "watchBundleId": "com.jamawkinaw.downcast.watchkitapp",
-                "genreDisplayName": "News",
                 "name": "Downcast",
+                "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": false,
                 "artistName": "Jamawkinaw Enterprises LLC",
+                "isIOSBinaryMacOSCompatible": false,
                 "reviewsRestricted": false,
                 "minimumWatchOSVersion": "7.1",
                 "platformAttributes": {
@@ -282,8 +282,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.5",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.5",
                         "releaseDate": "2010-10-01",
                         "hasInAppPurchases": true,
                         "bundleId": "com.jamawkinaw.downcast",
@@ -301,9 +301,10 @@
                         },
                         "isAppleWatchSupported": true,
                         "requiredCapabilitiesForRealityDevice": "arm64 wifi ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": true,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": false,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -337,7 +338,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "subtitle": "Podcast player",
                         "hasSafariExtension": false,
                         "circularArtwork": {
@@ -411,8 +411,8 @@
                         ],
                         "ariaLabelForRatings": "4.9 stars"
                     },
-                    "genreDisplayName": "News",
                     "name": "Reeder Classic",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
                     "isIOSBinaryMacOSCompatible": false,
                     "artistName": "Silvio Rizzi",
@@ -447,13 +447,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2020-10-16",
                             "hasInAppPurchases": false,
                             "bundleId": "com.reederapp.5.iOS",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -466,8 +466,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": false,
                             "editorialArtwork": {
@@ -514,15 +514,25 @@
                             },
                             "minimumXROSVersion": "1.0",
                             "subtitle": "News Reader",
+                            "hasSafariExtension": false,
                             "editorialNotes": {
                                 "tagline": "Articles and news at a glance"
                             },
-                            "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/sg/apps/1529445840/developer?l=en-GB",
+                        "data": [
+                            {
+                                "id": "325502382",
+                                "type": "developers",
+                                "href": "/v1/catalog/sg/developers/325502382?l=en-GB"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/sg/apps/1529445840/genres?l=en-GB",
                         "data": [
@@ -533,27 +543,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/sg/apps/1529445840/developer?l=en-GB",
-                        "data": [
-                            {
-                                "id": "325502382",
-                                "type": "developers",
-                                "href": "/v1/catalog/sg/developers/325502382?l=en-GB"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739551330853,
-                        "RTCI": 1733528804631
+                        "RTCI": 1733528804631,
+                        "MZ_INDEXER": 1739551330853
                     }
                 },
                 "supportsArcade": false,
@@ -597,8 +597,8 @@
                     ],
                     "ariaLabelForRatings": "4.9 stars"
                 },
-                "genreDisplayName": "News",
                 "name": "Reeder Classic",
+                "genreDisplayName": "News",
                 "isPreorder": false,
                 "isIOSBinaryMacOSCompatible": false,
                 "artistName": "Silvio Rizzi",
@@ -633,13 +633,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2020-10-16",
                         "hasInAppPurchases": false,
                         "bundleId": "com.reederapp.5.iOS",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -652,8 +652,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": false,
                         "editorialArtwork": {
@@ -700,10 +700,10 @@
                         },
                         "minimumXROSVersion": "1.0",
                         "subtitle": "News Reader",
+                        "hasSafariExtension": false,
                         "editorialNotes": {
                             "tagline": "Articles and news at a glance"
                         },
-                        "hasSafariExtension": false,
                         "requiresGameController": false
                     }
                 },
@@ -803,13 +803,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "14.4",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "14.4",
                             "releaseDate": "2011-03-15",
                             "hasInAppPurchases": true,
                             "bundleId": "com.joeisanerd.icatcher",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -822,10 +822,9 @@
                             },
                             "isAppleWatchSupported": true,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": true,
-                            "minimumXROSVersion": "1.1",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -859,9 +858,9 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "minimumXROSVersion": "1.1",
                             "subtitle": "Podcast Player",
                             "hasSafariExtension": false,
-                            "requiresGameController": false,
                             "circularArtwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -871,7 +870,8 @@
                                 "textColor2": "d2d2d2",
                                 "textColor3": "cbcbcb",
                                 "textColor4": "a7a7a7"
-                            }
+                            },
+                            "requiresGameController": false
                         }
                     }
                 },
@@ -896,8 +896,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -907,8 +907,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Entertainment",
-                                    "url": "https://itunes.apple.com/sg/genre/id6016",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6016"
                                 }
                             }
                         ]
@@ -916,8 +916,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739490606882,
-                        "RTCI": 1738356706373
+                        "RTCI": 1738356706373,
+                        "MZ_INDEXER": 1739490606882
                     }
                 },
                 "supportsArcade": false,
@@ -999,13 +999,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "14.4",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "14.4",
                         "releaseDate": "2011-03-15",
                         "hasInAppPurchases": true,
                         "bundleId": "com.joeisanerd.icatcher",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -1018,10 +1018,9 @@
                         },
                         "isAppleWatchSupported": true,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": true,
-                        "minimumXROSVersion": "1.1",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -1055,9 +1054,9 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "minimumXROSVersion": "1.1",
                         "subtitle": "Podcast Player",
                         "hasSafariExtension": false,
-                        "requiresGameController": false,
                         "circularArtwork": {
                             "width": 1024,
                             "height": 1024,
@@ -1067,7 +1066,8 @@
                             "textColor2": "d2d2d2",
                             "textColor3": "cbcbcb",
                             "textColor4": "a7a7a7"
-                        }
+                        },
+                        "requiresGameController": false
                     }
                 },
                 "artwork": {
@@ -1130,11 +1130,11 @@
                         "ariaLabelForRatings": "4.7 stars"
                     },
                     "firstVersionSupportingInAppPurchaseApi": "1.3",
-                    "genreDisplayName": "News",
                     "name": "GoodLinks",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
-                    "artistName": "Ngoc Luu",
                     "isIOSBinaryMacOSCompatible": false,
+                    "artistName": "Ngoc Luu",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -1184,8 +1184,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 armv7 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -1248,8 +1248,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -1259,8 +1259,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Productivity",
-                                    "url": "https://itunes.apple.com/sg/genre/id6007",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6007"
                                 }
                             }
                         ]
@@ -1268,8 +1268,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739524576714,
-                        "RTCI": 1739413811970
+                        "RTCI": 1739413811970,
+                        "MZ_INDEXER": 1739524576714
                     }
                 },
                 "supportsArcade": false,
@@ -1315,11 +1315,11 @@
                     "ariaLabelForRatings": "4.7 stars"
                 },
                 "firstVersionSupportingInAppPurchaseApi": "1.3",
-                "genreDisplayName": "News",
                 "name": "GoodLinks",
+                "genreDisplayName": "News",
                 "isPreorder": false,
-                "artistName": "Ngoc Luu",
                 "isIOSBinaryMacOSCompatible": false,
+                "artistName": "Ngoc Luu",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -1369,8 +1369,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 armv7 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -1502,8 +1502,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2009-05-07",
                             "hasInAppPurchases": false,
                             "bundleId": "com.LateNightProjects.QuakeWatch",
@@ -1520,9 +1520,10 @@
                                 "textColor4": "4d4746"
                             },
                             "isAppleWatchSupported": false,
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -1556,7 +1557,6 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "subtitle": "Latest Earthquakes Info",
                             "hasSafariExtension": false,
                             "requiresGameController": false
@@ -1584,8 +1584,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -1595,8 +1595,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Weather",
-                                    "url": "https://itunes.apple.com/sg/genre/id6001",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6001"
                                 }
                             }
                         ]
@@ -1604,8 +1604,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739483452773,
-                        "RTCI": 1731354729522
+                        "RTCI": 1731354729522,
+                        "MZ_INDEXER": 1739483452773
                     }
                 },
                 "supportsArcade": false,
@@ -1682,8 +1682,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2009-05-07",
                         "hasInAppPurchases": false,
                         "bundleId": "com.LateNightProjects.QuakeWatch",
@@ -1700,9 +1700,10 @@
                             "textColor4": "4d4746"
                         },
                         "isAppleWatchSupported": false,
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -1736,7 +1737,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "subtitle": "Latest Earthquakes Info",
                         "hasSafariExtension": false,
                         "requiresGameController": false
@@ -1834,13 +1834,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2014-09-25",
                             "hasInAppPurchases": false,
                             "bundleId": "com.chebinliu.FeeddlerPro2",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -1853,10 +1853,9 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -1890,6 +1889,7 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "minimumXROSVersion": "1.0",
                             "subtitle": "Fast and powerful RSS reader",
                             "hasSafariExtension": false,
                             "requiresGameController": false
@@ -1917,8 +1917,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -1928,8 +1928,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Productivity",
-                                    "url": "https://itunes.apple.com/sg/genre/id6007",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6007"
                                 }
                             }
                         ]
@@ -1937,8 +1937,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739499251216,
-                        "RTCI": 1731351347991
+                        "RTCI": 1731351347991,
+                        "MZ_INDEXER": 1739499251216
                     }
                 },
                 "supportsArcade": false,
@@ -2016,13 +2016,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2014-09-25",
                         "hasInAppPurchases": false,
                         "bundleId": "com.chebinliu.FeeddlerPro2",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -2035,10 +2035,9 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -2072,6 +2071,7 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "minimumXROSVersion": "1.0",
                         "subtitle": "Fast and powerful RSS reader",
                         "hasSafariExtension": false,
                         "requiresGameController": false
@@ -2135,11 +2135,11 @@
                         ],
                         "ariaLabelForRatings": "5.0 stars"
                     },
-                    "name": "NewsTap (Usenet Newsreader)",
                     "genreDisplayName": "News",
+                    "name": "NewsTap (Usenet Newsreader)",
                     "isPreorder": false,
-                    "artistName": "Alexander Clauss",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Alexander Clauss",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -2171,8 +2171,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2008-10-08",
                             "hasInAppPurchases": false,
                             "bundleId": "de.icab.NewsTap",
@@ -2189,9 +2189,10 @@
                                 "textColor4": "353427"
                             },
                             "isAppleWatchSupported": false,
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -2225,7 +2226,6 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
@@ -2252,8 +2252,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -2263,8 +2263,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Social Networking",
-                                    "url": "https://itunes.apple.com/sg/genre/id6005",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6005"
                                 }
                             }
                         ]
@@ -2272,8 +2272,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739531411569,
-                        "RTCI": 1731356506925
+                        "RTCI": 1731356506925,
+                        "MZ_INDEXER": 1739531411569
                     }
                 },
                 "supportsArcade": false,
@@ -2317,11 +2317,11 @@
                     ],
                     "ariaLabelForRatings": "5.0 stars"
                 },
-                "name": "NewsTap (Usenet Newsreader)",
                 "genreDisplayName": "News",
+                "name": "NewsTap (Usenet Newsreader)",
                 "isPreorder": false,
-                "artistName": "Alexander Clauss",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Alexander Clauss",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -2353,8 +2353,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2008-10-08",
                         "hasInAppPurchases": false,
                         "bundleId": "de.icab.NewsTap",
@@ -2371,9 +2371,10 @@
                             "textColor4": "353427"
                         },
                         "isAppleWatchSupported": false,
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -2407,7 +2408,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -2467,8 +2467,8 @@
                         ],
                         "ariaLabelForRatings": "0 stars"
                     },
-                    "genreDisplayName": "News",
                     "name": "The Aviation Herald",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
                     "artistName": "The Aviation Herald",
                     "isIOSBinaryMacOSCompatible": true,
@@ -2503,8 +2503,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2014-08-02",
                             "hasInAppPurchases": false,
                             "bundleId": "the.aviationherald",
@@ -2522,8 +2522,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "armv7 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -2585,8 +2585,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             }
                         ]
@@ -2594,8 +2594,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739498147928,
-                        "RTCI": 1731364382488
+                        "RTCI": 1731364382488,
+                        "MZ_INDEXER": 1739498147928
                     }
                 },
                 "supportsArcade": false,
@@ -2636,8 +2636,8 @@
                     ],
                     "ariaLabelForRatings": "0 stars"
                 },
-                "genreDisplayName": "News",
                 "name": "The Aviation Herald",
+                "genreDisplayName": "News",
                 "isPreorder": false,
                 "artistName": "The Aviation Herald",
                 "isIOSBinaryMacOSCompatible": true,
@@ -2672,8 +2672,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2014-08-02",
                         "hasInAppPurchases": false,
                         "bundleId": "the.aviationherald",
@@ -2691,8 +2691,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "armv7 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -2790,8 +2790,8 @@
                     "genreDisplayName": "News",
                     "name": "Lottery (Thai) - ตรวจหวย",
                     "isPreorder": false,
-                    "artistName": "Orisma",
                     "isIOSBinaryMacOSCompatible": false,
+                    "artistName": "Orisma",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -2823,13 +2823,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2011-02-10",
                             "hasInAppPurchases": false,
                             "bundleId": "com.neoberry.lottery",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -2842,9 +2842,10 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -2878,7 +2879,6 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
@@ -2905,8 +2905,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -2925,8 +2925,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739524501128,
-                        "RTCI": 1738951313271
+                        "RTCI": 1738951313271,
+                        "MZ_INDEXER": 1739524501128
                     }
                 },
                 "supportsArcade": false,
@@ -2970,8 +2970,8 @@
                 "genreDisplayName": "News",
                 "name": "Lottery (Thai) - ตรวจหวย",
                 "isPreorder": false,
-                "artistName": "Orisma",
                 "isIOSBinaryMacOSCompatible": false,
+                "artistName": "Orisma",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -3003,13 +3003,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2011-02-10",
                         "hasInAppPurchases": false,
                         "bundleId": "com.neoberry.lottery",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -3022,9 +3022,10 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -3058,7 +3059,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -3126,8 +3126,8 @@
                         "ariaLabelForRatings": "4.4 stars"
                     },
                     "firstVersionSupportingInAppPurchaseApi": "46.0",
-                    "genreDisplayName": "News",
                     "name": "网易新闻（专业版）",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
                     "isIOSBinaryMacOSCompatible": true,
                     "artistName": "NetEase Media Technology (Beijing) Co., Ltd.",
@@ -3162,13 +3162,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2016-10-24",
                             "hasInAppPurchases": true,
                             "bundleId": "com.netease.newspro",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -3181,8 +3181,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -3225,6 +3225,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/sg/apps/1135890904/developer?l=en-GB",
+                        "data": [
+                            {
+                                "id": "910462528",
+                                "type": "developers",
+                                "href": "/v1/catalog/sg/developers/910462528?l=en-GB"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/sg/apps/1135890904/genres?l=en-GB",
                         "data": [
@@ -3235,8 +3245,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -3246,27 +3256,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Entertainment",
-                                    "url": "https://itunes.apple.com/sg/genre/id6016",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6016"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/sg/apps/1135890904/developer?l=en-GB",
-                        "data": [
-                            {
-                                "id": "910462528",
-                                "type": "developers",
-                                "href": "/v1/catalog/sg/developers/910462528?l=en-GB"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739487219391,
-                        "RTCI": 1738956128451
+                        "RTCI": 1738956128451,
+                        "MZ_INDEXER": 1739487219391
                     }
                 },
                 "supportsArcade": false,
@@ -3315,8 +3315,8 @@
                     "ariaLabelForRatings": "4.4 stars"
                 },
                 "firstVersionSupportingInAppPurchaseApi": "46.0",
-                "genreDisplayName": "News",
                 "name": "网易新闻（专业版）",
+                "genreDisplayName": "News",
                 "isPreorder": false,
                 "isIOSBinaryMacOSCompatible": true,
                 "artistName": "NetEase Media Technology (Beijing) Co., Ltd.",
@@ -3351,13 +3351,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2016-10-24",
                         "hasInAppPurchases": true,
                         "bundleId": "com.netease.newspro",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -3370,8 +3370,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -3506,8 +3506,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2020-09-16",
                             "hasInAppPurchases": true,
                             "bundleId": "com.lireapp.smilingAlpaca",
@@ -3525,9 +3525,10 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -3561,7 +3562,6 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "subtitle": "Full-text RSS",
                             "hasSafariExtension": false,
                             "requiresGameController": false
@@ -3589,8 +3589,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -3600,8 +3600,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Utilities",
-                                    "url": "https://itunes.apple.com/sg/genre/id6002",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6002"
                                 }
                             }
                         ]
@@ -3609,8 +3609,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739552250803,
-                        "RTCI": 1738964882356
+                        "RTCI": 1738964882356,
+                        "MZ_INDEXER": 1739552250803
                     }
                 },
                 "supportsArcade": false,
@@ -3690,8 +3690,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2020-09-16",
                         "hasInAppPurchases": true,
                         "bundleId": "com.lireapp.smilingAlpaca",
@@ -3709,9 +3709,10 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -3745,7 +3746,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "subtitle": "Full-text RSS",
                         "hasSafariExtension": false,
                         "requiresGameController": false
@@ -3809,11 +3809,11 @@
                         ],
                         "ariaLabelForRatings": "4.0 stars"
                     },
-                    "genreDisplayName": "News",
                     "name": "Hourly News",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
-                    "artistName": "Urban Apps",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Urban Apps",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -3845,8 +3845,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2012-01-21",
                             "hasInAppPurchases": true,
                             "bundleId": "com.urbanapps.hourlynews",
@@ -3864,8 +3864,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "armv7 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -3928,8 +3928,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -3939,8 +3939,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Education",
-                                    "url": "https://itunes.apple.com/sg/genre/id6017",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6017"
                                 }
                             }
                         ]
@@ -3948,8 +3948,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739496521390,
-                        "RTCI": 1731371376579
+                        "RTCI": 1731371376579,
+                        "MZ_INDEXER": 1739496521390
                     }
                 },
                 "supportsArcade": false,
@@ -3993,11 +3993,11 @@
                     ],
                     "ariaLabelForRatings": "4.0 stars"
                 },
-                "genreDisplayName": "News",
                 "name": "Hourly News",
+                "genreDisplayName": "News",
                 "isPreorder": false,
-                "artistName": "Urban Apps",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Urban Apps",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -4029,8 +4029,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2012-01-21",
                         "hasInAppPurchases": true,
                         "bundleId": "com.urbanapps.hourlynews",
@@ -4048,8 +4048,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "armv7 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -4187,13 +4187,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "15.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "15.0",
                             "releaseDate": "2016-09-02",
                             "hasInAppPurchases": false,
                             "bundleId": "betamagic.News-Explorer.mobile",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -4206,8 +4206,8 @@
                             },
                             "isAppleWatchSupported": true,
                             "requiredCapabilitiesForRealityDevice": "arm64 armv7 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": true,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -4245,7 +4245,6 @@
                             "minimumXROSVersion": "2.0",
                             "subtitle": "Newsreader with iCloud sync",
                             "hasSafariExtension": false,
-                            "requiresGameController": false,
                             "circularArtwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -4255,7 +4254,8 @@
                                 "textColor2": "fefefe",
                                 "textColor3": "d0dde9",
                                 "textColor4": "d0dde8"
-                            }
+                            },
+                            "requiresGameController": false
                         }
                     }
                 },
@@ -4280,8 +4280,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -4291,8 +4291,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Social Networking",
-                                    "url": "https://itunes.apple.com/sg/genre/id6005",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6005"
                                 }
                             }
                         ]
@@ -4300,8 +4300,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739492097333,
-                        "RTCI": 1736429482892
+                        "RTCI": 1736429482892,
+                        "MZ_INDEXER": 1739492097333
                     }
                 },
                 "supportsArcade": false,
@@ -4384,13 +4384,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "15.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "15.0",
                         "releaseDate": "2016-09-02",
                         "hasInAppPurchases": false,
                         "bundleId": "betamagic.News-Explorer.mobile",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -4403,8 +4403,8 @@
                         },
                         "isAppleWatchSupported": true,
                         "requiredCapabilitiesForRealityDevice": "arm64 armv7 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": true,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -4442,7 +4442,6 @@
                         "minimumXROSVersion": "2.0",
                         "subtitle": "Newsreader with iCloud sync",
                         "hasSafariExtension": false,
-                        "requiresGameController": false,
                         "circularArtwork": {
                             "width": 1024,
                             "height": 1024,
@@ -4452,7 +4451,8 @@
                             "textColor2": "fefefe",
                             "textColor3": "d0dde9",
                             "textColor4": "d0dde8"
-                        }
+                        },
+                        "requiresGameController": false
                     }
                 },
                 "artwork": {
@@ -4513,8 +4513,8 @@
                     "name": "Quake-Live",
                     "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
                     "artistName": "AGD Studio Inc.",
+                    "isIOSBinaryMacOSCompatible": true,
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -4546,13 +4546,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2011-02-04",
                             "hasInAppPurchases": false,
                             "bundleId": "com.agdstudio.quakereportlive",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -4565,10 +4565,9 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "armv7 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -4602,6 +4601,7 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "minimumXROSVersion": "1.0",
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
@@ -4628,8 +4628,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -4639,8 +4639,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Weather",
-                                    "url": "https://itunes.apple.com/sg/genre/id6001",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6001"
                                 }
                             }
                         ]
@@ -4648,8 +4648,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739512624705,
-                        "RTCI": 1738959739161
+                        "RTCI": 1738959739161,
+                        "MZ_INDEXER": 1739512624705
                     }
                 },
                 "supportsArcade": false,
@@ -4693,8 +4693,8 @@
                 "name": "Quake-Live",
                 "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
                 "artistName": "AGD Studio Inc.",
+                "isIOSBinaryMacOSCompatible": true,
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -4726,13 +4726,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2011-02-04",
                         "hasInAppPurchases": false,
                         "bundleId": "com.agdstudio.quakereportlive",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -4745,10 +4745,9 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "armv7 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -4782,6 +4781,7 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "minimumXROSVersion": "1.0",
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -4839,11 +4839,11 @@
                         ],
                         "ariaLabelForRatings": "0 stars"
                     },
-                    "genreDisplayName": "News",
                     "name": "金十数据终端",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Guangzhou Jinshi Information and Technology Co., Ltd.",
+                    "isIOSBinaryMacOSCompatible": true,
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -4875,13 +4875,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2020-12-19",
                             "hasInAppPurchases": false,
                             "bundleId": "com.jin10.GTDataHD",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -4894,8 +4894,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -4937,6 +4937,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/sg/apps/1540736199/developer?l=en-GB",
+                        "data": [
+                            {
+                                "id": "901284511",
+                                "type": "developers",
+                                "href": "/v1/catalog/sg/developers/901284511?l=en-GB"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/sg/apps/1540736199/genres?l=en-GB",
                         "data": [
@@ -4947,8 +4957,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -4958,27 +4968,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Finance",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6015"
+                                    "url": "https://itunes.apple.com/sg/genre/id6015",
+                                    "parentId": "36"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/sg/apps/1540736199/developer?l=en-GB",
-                        "data": [
-                            {
-                                "id": "901284511",
-                                "type": "developers",
-                                "href": "/v1/catalog/sg/developers/901284511?l=en-GB"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739525551747,
-                        "RTCI": 1738958625594
+                        "RTCI": 1738958625594,
+                        "MZ_INDEXER": 1739525551747
                     }
                 },
                 "supportsArcade": false,
@@ -5017,11 +5017,11 @@
                     ],
                     "ariaLabelForRatings": "0 stars"
                 },
-                "genreDisplayName": "News",
                 "name": "金十数据终端",
+                "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Guangzhou Jinshi Information and Technology Co., Ltd.",
+                "isIOSBinaryMacOSCompatible": true,
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -5053,13 +5053,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2020-12-19",
                         "hasInAppPurchases": false,
                         "bundleId": "com.jin10.GTDataHD",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -5072,8 +5072,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -5168,11 +5168,11 @@
                         ],
                         "ariaLabelForRatings": "0 stars"
                     },
-                    "genreDisplayName": "News",
                     "name": "iDaily · 2014 年度别册",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
-                    "artistName": "iDaily Corp.",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "iDaily Corp.",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -5204,8 +5204,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2014-12-30",
                             "hasInAppPurchases": false,
                             "bundleId": "com.chii.idaily.focus.2014",
@@ -5218,8 +5218,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "armv7 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": false,
                             "editorialArtwork": {
@@ -5280,8 +5280,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -5300,8 +5300,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739525458442,
-                        "RTCI": 1738954845139
+                        "RTCI": 1738954845139,
+                        "MZ_INDEXER": 1739525458442
                     }
                 },
                 "supportsArcade": false,
@@ -5342,11 +5342,11 @@
                     ],
                     "ariaLabelForRatings": "0 stars"
                 },
-                "genreDisplayName": "News",
                 "name": "iDaily · 2014 年度别册",
+                "genreDisplayName": "News",
                 "isPreorder": false,
-                "artistName": "iDaily Corp.",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "iDaily Corp.",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -5378,8 +5378,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2014-12-30",
                         "hasInAppPurchases": false,
                         "bundleId": "com.chii.idaily.focus.2014",
@@ -5392,8 +5392,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "armv7 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": false,
                         "editorialArtwork": {
@@ -5518,8 +5518,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": true,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2013-09-25",
                             "hasInAppPurchases": false,
                             "bundleId": "jp.cliq.Pinboard",
@@ -5532,9 +5532,10 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "armv7 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": false,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -5578,13 +5579,22 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/sg/apps/698220406/developer?l=en-GB",
+                        "data": [
+                            {
+                                "id": "698209510",
+                                "type": "developers",
+                                "href": "/v1/catalog/sg/developers/698209510?l=en-GB"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/sg/apps/698220406/genres?l=en-GB",
                         "data": [
@@ -5595,8 +5605,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -5606,27 +5616,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Productivity",
-                                    "url": "https://itunes.apple.com/sg/genre/id6007",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6007"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/sg/apps/698220406/developer?l=en-GB",
-                        "data": [
-                            {
-                                "id": "698209510",
-                                "type": "developers",
-                                "href": "/v1/catalog/sg/developers/698209510?l=en-GB"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739570153606,
-                        "RTCI": 1738956156503
+                        "RTCI": 1738956156503,
+                        "MZ_INDEXER": 1739570153606
                     }
                 },
                 "supportsArcade": false,
@@ -5703,8 +5703,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": true,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2013-09-25",
                         "hasInAppPurchases": false,
                         "bundleId": "jp.cliq.Pinboard",
@@ -5717,9 +5717,10 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "armv7 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": false,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -5763,7 +5764,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -5821,8 +5821,8 @@
                     "name": "Earthquake 3D",
                     "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Richard Wolton",
+                    "isIOSBinaryMacOSCompatible": true,
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -5854,8 +5854,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2011-07-15",
                             "hasInAppPurchases": false,
                             "bundleId": "net.wolton.earthquake3d",
@@ -5873,8 +5873,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 opengles-1 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
@@ -5936,8 +5936,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -5947,8 +5947,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Education",
-                                    "url": "https://itunes.apple.com/sg/genre/id6017",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6017"
                                 }
                             }
                         ]
@@ -5956,8 +5956,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739509812743,
-                        "RTCI": 1738959085960
+                        "RTCI": 1738959085960,
+                        "MZ_INDEXER": 1739509812743
                     }
                 },
                 "supportsArcade": false,
@@ -6001,8 +6001,8 @@
                 "name": "Earthquake 3D",
                 "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Richard Wolton",
+                "isIOSBinaryMacOSCompatible": true,
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -6034,8 +6034,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2011-07-15",
                         "hasInAppPurchases": false,
                         "bundleId": "net.wolton.earthquake3d",
@@ -6053,8 +6053,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 opengles-1 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
@@ -6150,11 +6150,11 @@
                         "ariaLabelForRatings": "0 stars"
                     },
                     "firstVersionSupportingInAppPurchaseApi": "1.1",
-                    "name": "Podcast Alarm - Player & Alarm",
                     "genreDisplayName": "News",
+                    "name": "Podcast Alarm - Player & Alarm",
                     "isPreorder": false,
-                    "artistName": "Jonathan Wilson",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Jonathan Wilson",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -6186,8 +6186,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2019-09-30",
                             "hasInAppPurchases": false,
                             "bundleId": "Jonathan-Wilson.Podcast-Alarm",
@@ -6205,8 +6205,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": false,
                             "editorialArtwork": {
@@ -6268,8 +6268,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -6279,8 +6279,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Utilities",
-                                    "url": "https://itunes.apple.com/sg/genre/id6002",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6002"
                                 }
                             }
                         ]
@@ -6288,8 +6288,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739538423125,
-                        "RTCI": 1731367802401
+                        "RTCI": 1731367802401,
+                        "MZ_INDEXER": 1739538423125
                     }
                 },
                 "supportsArcade": false,
@@ -6331,11 +6331,11 @@
                     "ariaLabelForRatings": "0 stars"
                 },
                 "firstVersionSupportingInAppPurchaseApi": "1.1",
-                "name": "Podcast Alarm - Player & Alarm",
                 "genreDisplayName": "News",
+                "name": "Podcast Alarm - Player & Alarm",
                 "isPreorder": false,
-                "artistName": "Jonathan Wilson",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Jonathan Wilson",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -6367,8 +6367,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2019-09-30",
                         "hasInAppPurchases": false,
                         "bundleId": "Jonathan-Wilson.Podcast-Alarm",
@@ -6386,8 +6386,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": false,
                         "editorialArtwork": {
@@ -6485,8 +6485,8 @@
                         ],
                         "ariaLabelForRatings": "0 stars"
                     },
-                    "genreDisplayName": "News",
                     "name": "Private Browser Pro !",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
                     "artistName": "Emanuele Floris",
                     "isIOSBinaryMacOSCompatible": false,
@@ -6521,8 +6521,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2014-10-05",
                             "hasInAppPurchases": false,
                             "bundleId": "com.domainname.BrowserPrivato",
@@ -6540,8 +6540,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "armv7 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -6604,8 +6604,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             }
                         ]
@@ -6613,8 +6613,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739551033259,
-                        "RTCI": 1731364098199
+                        "RTCI": 1731364098199,
+                        "MZ_INDEXER": 1739551033259
                     }
                 },
                 "supportsArcade": false,
@@ -6658,8 +6658,8 @@
                     ],
                     "ariaLabelForRatings": "0 stars"
                 },
-                "genreDisplayName": "News",
                 "name": "Private Browser Pro !",
+                "genreDisplayName": "News",
                 "isPreorder": false,
                 "artistName": "Emanuele Floris",
                 "isIOSBinaryMacOSCompatible": false,
@@ -6694,8 +6694,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2014-10-05",
                         "hasInAppPurchases": false,
                         "bundleId": "com.domainname.BrowserPrivato",
@@ -6713,8 +6713,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "armv7 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -6846,8 +6846,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2009-08-07",
                             "hasInAppPurchases": false,
                             "bundleId": "com.throwlab.TextTV",
@@ -6864,9 +6864,10 @@
                                 "textColor4": "a9a9a9"
                             },
                             "isAppleWatchSupported": false,
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -6900,7 +6901,6 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
@@ -6927,8 +6927,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -6938,8 +6938,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Business",
-                                    "url": "https://itunes.apple.com/sg/genre/id6000",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6000"
                                 }
                             }
                         ]
@@ -6947,8 +6947,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739579800854,
-                        "RTCI": 1739577303702
+                        "RTCI": 1739577303702,
+                        "MZ_INDEXER": 1739579800854
                     }
                 },
                 "supportsArcade": false,
@@ -7025,8 +7025,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2009-08-07",
                         "hasInAppPurchases": false,
                         "bundleId": "com.throwlab.TextTV",
@@ -7043,9 +7043,10 @@
                             "textColor4": "a9a9a9"
                         },
                         "isAppleWatchSupported": false,
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -7079,7 +7080,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -7142,8 +7142,8 @@
                         ],
                         "ariaLabelForRatings": "0 stars"
                     },
-                    "name": "World Newspapers - 200 countries",
                     "genreDisplayName": "News",
+                    "name": "World Newspapers - 200 countries",
                     "isPreorder": false,
                     "isIOSBinaryMacOSCompatible": true,
                     "artistName": "BoCoSoft,Inc.",
@@ -7178,8 +7178,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2009-05-07",
                             "hasInAppPurchases": false,
                             "bundleId": "BoCoSoft.WorldNewsTabs",
@@ -7196,8 +7196,8 @@
                                 "textColor4": "7d2f13"
                             },
                             "isAppleWatchSupported": false,
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
@@ -7259,8 +7259,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -7270,8 +7270,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Productivity",
-                                    "url": "https://itunes.apple.com/sg/genre/id6007",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6007"
                                 }
                             }
                         ]
@@ -7279,8 +7279,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739503991004,
-                        "RTCI": 1731371874095
+                        "RTCI": 1731371874095,
+                        "MZ_INDEXER": 1739503991004
                     }
                 },
                 "supportsArcade": false,
@@ -7324,8 +7324,8 @@
                     ],
                     "ariaLabelForRatings": "0 stars"
                 },
-                "name": "World Newspapers - 200 countries",
                 "genreDisplayName": "News",
+                "name": "World Newspapers - 200 countries",
                 "isPreorder": false,
                 "isIOSBinaryMacOSCompatible": true,
                 "artistName": "BoCoSoft,Inc.",
@@ -7360,8 +7360,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2009-05-07",
                         "hasInAppPurchases": false,
                         "bundleId": "BoCoSoft.WorldNewsTabs",
@@ -7378,8 +7378,8 @@
                             "textColor4": "7d2f13"
                         },
                         "isAppleWatchSupported": false,
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
@@ -7477,14 +7477,14 @@
                     "genreDisplayName": "News",
                     "name": "Yesterday For Old Reddit",
                     "isPreorder": false,
-                    "artistName": "Ritinkar Pramanik",
                     "isIOSBinaryMacOSCompatible": false,
+                    "artistName": "Ritinkar Pramanik",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
                             "offers": [
                                 {
-                                    "buyParams": "productType=C&price=3980&salableAdamId=1603279883&pricingParameters=STDQ&pg=default&appExtVrsId=870460418",
+                                    "buyParams": "productType=C&price=3980&salableAdamId=1603279883&pricingParameters=STDQ&pg=default&appExtVrsId=872531280",
                                     "type": "buy",
                                     "priceFormatted": "S$ 3.98",
                                     "price": 3.98,
@@ -7492,12 +7492,12 @@
                                     "assets": [
                                         {
                                             "flavor": "iosSoftware",
-                                            "size": 4088832
+                                            "size": 5469184
                                         }
                                     ]
                                 },
                                 {
-                                    "buyParams": "productType=C&price=0&salableAdamId=1603279883&pricingParameters=SWUPD&pg=default&appExtVrsId=870460418",
+                                    "buyParams": "productType=C&price=0&salableAdamId=1603279883&pricingParameters=SWUPD&pg=default&appExtVrsId=872531280",
                                     "type": "update",
                                     "priceFormatted": "S$ 0.00",
                                     "price": 0,
@@ -7505,7 +7505,7 @@
                                     "assets": [
                                         {
                                             "flavor": "iosSoftware",
-                                            "size": 4088832
+                                            "size": 5469184
                                         }
                                     ]
                                 }
@@ -7514,12 +7514,12 @@
                             "releaseDate": "2022-01-10",
                             "hasInAppPurchases": false,
                             "bundleId": "com.getdoko.old-switcharoo-for-reddit",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/2f/92/3d2f9274-58fd-8a6f-251c-88af3c2a280f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/{w}x{h}{c}.{f}",
+                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/19/85/091985a8-4d2b-59cc-90b4-d6055bc91be0/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/{w}x{h}{c}.{f}",
                                 "bgColor": "000000",
                                 "textColor1": "f1f1f1",
                                 "textColor2": "d0d0d0",
@@ -7528,9 +7528,10 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -7564,7 +7565,6 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "subtitle": "Fast. Clean. Classic.",
                             "hasSafariExtension": true,
                             "requiresGameController": false
@@ -7592,8 +7592,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -7603,8 +7603,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Utilities",
-                                    "url": "https://itunes.apple.com/sg/genre/id6002",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6002"
                                 }
                             }
                         ]
@@ -7612,8 +7612,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739701913488,
-                        "RTCI": 1739702404249
+                        "RTCI": 1739742860562,
+                        "MZ_INDEXER": 1739742344885
                     }
                 },
                 "supportsArcade": false,
@@ -7657,14 +7657,14 @@
                 "genreDisplayName": "News",
                 "name": "Yesterday For Old Reddit",
                 "isPreorder": false,
-                "artistName": "Ritinkar Pramanik",
                 "isIOSBinaryMacOSCompatible": false,
+                "artistName": "Ritinkar Pramanik",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
                         "offers": [
                             {
-                                "buyParams": "productType=C&price=3980&salableAdamId=1603279883&pricingParameters=STDQ&pg=default&appExtVrsId=870460418",
+                                "buyParams": "productType=C&price=3980&salableAdamId=1603279883&pricingParameters=STDQ&pg=default&appExtVrsId=872531280",
                                 "type": "buy",
                                 "priceFormatted": "S$ 3.98",
                                 "price": 3.98,
@@ -7672,12 +7672,12 @@
                                 "assets": [
                                     {
                                         "flavor": "iosSoftware",
-                                        "size": 4088832
+                                        "size": 5469184
                                     }
                                 ]
                             },
                             {
-                                "buyParams": "productType=C&price=0&salableAdamId=1603279883&pricingParameters=SWUPD&pg=default&appExtVrsId=870460418",
+                                "buyParams": "productType=C&price=0&salableAdamId=1603279883&pricingParameters=SWUPD&pg=default&appExtVrsId=872531280",
                                 "type": "update",
                                 "priceFormatted": "S$ 0.00",
                                 "price": 0,
@@ -7685,7 +7685,7 @@
                                 "assets": [
                                     {
                                         "flavor": "iosSoftware",
-                                        "size": 4088832
+                                        "size": 5469184
                                     }
                                 ]
                             }
@@ -7694,12 +7694,12 @@
                         "releaseDate": "2022-01-10",
                         "hasInAppPurchases": false,
                         "bundleId": "com.getdoko.old-switcharoo-for-reddit",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/2f/92/3d2f9274-58fd-8a6f-251c-88af3c2a280f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/{w}x{h}{c}.{f}",
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/19/85/091985a8-4d2b-59cc-90b4-d6055bc91be0/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/{w}x{h}{c}.{f}",
                             "bgColor": "000000",
                             "textColor1": "f1f1f1",
                             "textColor2": "d0d0d0",
@@ -7708,9 +7708,10 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -7744,7 +7745,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "subtitle": "Fast. Clean. Classic.",
                         "hasSafariExtension": true,
                         "requiresGameController": false
@@ -7753,7 +7753,7 @@
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/2f/92/3d2f9274-58fd-8a6f-251c-88af3c2a280f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/19/85/091985a8-4d2b-59cc-90b4-d6055bc91be0/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "000000",
                     "textColor1": "f1f1f1",
                     "textColor2": "d0d0d0",
@@ -7817,8 +7817,8 @@
                         ],
                         "ariaLabelForRatings": "0 stars"
                     },
-                    "watchBundleId": "com.peroxaan.Ruby.watchkitapp",
                     "firstVersionSupportingInAppPurchaseApi": "1.0",
+                    "watchBundleId": "com.peroxaan.Ruby.watchkitapp",
                     "name": "Ruby – Curated News Reader",
                     "genreDisplayName": "News",
                     "isPreorder": false,
@@ -7873,8 +7873,8 @@
                                 "textColor4": "433434"
                             },
                             "isAppleWatchSupported": true,
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": true,
                             "isXROSCompatible": false,
                             "editorialArtwork": {
@@ -7911,7 +7911,6 @@
                             },
                             "subtitle": "Read latest articles & trends",
                             "hasSafariExtension": false,
-                            "requiresGameController": false,
                             "circularArtwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -7921,7 +7920,8 @@
                                 "textColor2": "150b0c",
                                 "textColor3": "433232",
                                 "textColor4": "433434"
-                            }
+                            },
+                            "requiresGameController": false
                         }
                     }
                 },
@@ -7946,8 +7946,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -7957,8 +7957,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Reference",
-                                    "url": "https://itunes.apple.com/sg/genre/id6006",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6006"
                                 }
                             }
                         ]
@@ -7966,8 +7966,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739546278266,
-                        "RTCI": 1732283727386
+                        "RTCI": 1732283727386,
+                        "MZ_INDEXER": 1739546278266
                     }
                 },
                 "supportsArcade": false,
@@ -8020,8 +8020,8 @@
                     ],
                     "ariaLabelForRatings": "0 stars"
                 },
-                "watchBundleId": "com.peroxaan.Ruby.watchkitapp",
                 "firstVersionSupportingInAppPurchaseApi": "1.0",
+                "watchBundleId": "com.peroxaan.Ruby.watchkitapp",
                 "name": "Ruby – Curated News Reader",
                 "genreDisplayName": "News",
                 "isPreorder": false,
@@ -8076,8 +8076,8 @@
                             "textColor4": "433434"
                         },
                         "isAppleWatchSupported": true,
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": true,
                         "isXROSCompatible": false,
                         "editorialArtwork": {
@@ -8114,7 +8114,6 @@
                         },
                         "subtitle": "Read latest articles & trends",
                         "hasSafariExtension": false,
-                        "requiresGameController": false,
                         "circularArtwork": {
                             "width": 1024,
                             "height": 1024,
@@ -8124,7 +8123,8 @@
                             "textColor2": "150b0c",
                             "textColor3": "433232",
                             "textColor4": "433434"
-                        }
+                        },
+                        "requiresGameController": false
                     }
                 },
                 "artwork": {
@@ -8195,11 +8195,11 @@
                     },
                     "firstVersionSupportingInAppPurchaseApi": "2.2.0",
                     "watchBundleId": "com.shi.Cosmo.watchkitapp",
-                    "genreDisplayName": "News",
                     "name": "Cosmicast",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": false,
                     "artistName": "PoeticBytes Inc.",
+                    "isIOSBinaryMacOSCompatible": false,
                     "reviewsRestricted": false,
                     "minimumWatchOSVersion": "6.0",
                     "platformAttributes": {
@@ -8260,9 +8260,10 @@
                             },
                             "isAppleWatchSupported": true,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": true,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -8306,13 +8307,12 @@
                                     "textColor4": "9c84ef"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "subtitle": "Beautiful podcast player",
+                            "hasSafariExtension": false,
                             "editorialNotes": {
                                 "short": "Browse podcasts and hit play on your watch to listen on the go.",
                                 "tagline": "Browse and listen to podcasts."
                             },
-                            "hasSafariExtension": false,
                             "circularArtwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -8328,6 +8328,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/sg/apps/1435195637/developer?l=en-GB",
+                        "data": [
+                            {
+                                "id": "1012903170",
+                                "type": "developers",
+                                "href": "/v1/catalog/sg/developers/1012903170?l=en-GB"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/sg/apps/1435195637/genres?l=en-GB",
                         "data": [
@@ -8338,8 +8348,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -8349,27 +8359,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Entertainment",
-                                    "url": "https://itunes.apple.com/sg/genre/id6016",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6016"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/sg/apps/1435195637/developer?l=en-GB",
-                        "data": [
-                            {
-                                "id": "1012903170",
-                                "type": "developers",
-                                "href": "/v1/catalog/sg/developers/1012903170?l=en-GB"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739532011746,
-                        "RTCI": 1731351081943
+                        "RTCI": 1731351081943,
+                        "MZ_INDEXER": 1739532011746
                     }
                 },
                 "supportsArcade": false,
@@ -8423,11 +8423,11 @@
                 },
                 "firstVersionSupportingInAppPurchaseApi": "2.2.0",
                 "watchBundleId": "com.shi.Cosmo.watchkitapp",
-                "genreDisplayName": "News",
                 "name": "Cosmicast",
+                "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": false,
                 "artistName": "PoeticBytes Inc.",
+                "isIOSBinaryMacOSCompatible": false,
                 "reviewsRestricted": false,
                 "minimumWatchOSVersion": "6.0",
                 "platformAttributes": {
@@ -8488,9 +8488,10 @@
                         },
                         "isAppleWatchSupported": true,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": true,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -8534,13 +8535,12 @@
                                 "textColor4": "9c84ef"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "subtitle": "Beautiful podcast player",
+                        "hasSafariExtension": false,
                         "editorialNotes": {
                             "short": "Browse podcasts and hit play on your watch to listen on the go.",
                             "tagline": "Browse and listen to podcasts."
                         },
-                        "hasSafariExtension": false,
                         "circularArtwork": {
                             "width": 1024,
                             "height": 1024,
@@ -8617,8 +8617,8 @@
                     "name": "Legi (RSS Feed Reader)",
                     "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Alexander Clauss",
+                    "isIOSBinaryMacOSCompatible": true,
                     "reviewsRestricted": false,
                     "minimumWatchOSVersion": "5.0",
                     "platformAttributes": {
@@ -8651,13 +8651,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2018-01-03",
                             "hasInAppPurchases": false,
                             "bundleId": "de.icab.Legi",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -8670,10 +8670,9 @@
                             },
                             "isAppleWatchSupported": true,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": true,
-                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -8707,9 +8706,9 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "minimumXROSVersion": "1.0",
                             "subtitle": "RSS Reader with Speech Output",
                             "hasSafariExtension": false,
-                            "requiresGameController": false,
                             "circularArtwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -8719,7 +8718,8 @@
                                 "textColor2": "48c3ff",
                                 "textColor3": "40d345",
                                 "textColor4": "48abdb"
-                            }
+                            },
+                            "requiresGameController": false
                         }
                     }
                 },
@@ -8744,8 +8744,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -8755,8 +8755,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Utilities",
-                                    "url": "https://itunes.apple.com/sg/genre/id6002",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6002"
                                 }
                             }
                         ]
@@ -8764,8 +8764,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739529311455,
-                        "RTCI": 1731358617613
+                        "RTCI": 1731358617613,
+                        "MZ_INDEXER": 1739529311455
                     }
                 },
                 "supportsArcade": false,
@@ -8814,8 +8814,8 @@
                 "name": "Legi (RSS Feed Reader)",
                 "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Alexander Clauss",
+                "isIOSBinaryMacOSCompatible": true,
                 "reviewsRestricted": false,
                 "minimumWatchOSVersion": "5.0",
                 "platformAttributes": {
@@ -8848,13 +8848,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2018-01-03",
                         "hasInAppPurchases": false,
                         "bundleId": "de.icab.Legi",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -8867,10 +8867,9 @@
                         },
                         "isAppleWatchSupported": true,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": true,
-                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -8904,9 +8903,9 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "minimumXROSVersion": "1.0",
                         "subtitle": "RSS Reader with Speech Output",
                         "hasSafariExtension": false,
-                        "requiresGameController": false,
                         "circularArtwork": {
                             "width": 1024,
                             "height": 1024,
@@ -8916,7 +8915,8 @@
                             "textColor2": "48c3ff",
                             "textColor3": "40d345",
                             "textColor4": "48abdb"
-                        }
+                        },
+                        "requiresGameController": false
                     }
                 },
                 "artwork": {
@@ -8975,11 +8975,11 @@
                         ],
                         "ariaLabelForRatings": "0 stars"
                     },
-                    "genreDisplayName": "News",
                     "name": "CCTV LIVE Camera Footage",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Zaheer udeen Babar",
+                    "isIOSBinaryMacOSCompatible": true,
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -9011,13 +9011,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2017-02-19",
                             "hasInAppPurchases": false,
                             "bundleId": "ballatrix.cctvFootages",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -9030,8 +9030,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -9074,6 +9074,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/sg/apps/1207200983/developer?l=en-GB",
+                        "data": [
+                            {
+                                "id": "1151263671",
+                                "type": "developers",
+                                "href": "/v1/catalog/sg/developers/1151263671?l=en-GB"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/sg/apps/1207200983/genres?l=en-GB",
                         "data": [
@@ -9084,8 +9094,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -9095,27 +9105,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Entertainment",
-                                    "url": "https://itunes.apple.com/sg/genre/id6016",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6016"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/sg/apps/1207200983/developer?l=en-GB",
-                        "data": [
-                            {
-                                "id": "1151263671",
-                                "type": "developers",
-                                "href": "/v1/catalog/sg/developers/1151263671?l=en-GB"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739511188628,
-                        "RTCI": 1731351578962
+                        "RTCI": 1731351578962,
+                        "MZ_INDEXER": 1739511188628
                     }
                 },
                 "supportsArcade": false,
@@ -9157,11 +9157,11 @@
                     ],
                     "ariaLabelForRatings": "0 stars"
                 },
-                "genreDisplayName": "News",
                 "name": "CCTV LIVE Camera Footage",
+                "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Zaheer udeen Babar",
+                "isIOSBinaryMacOSCompatible": true,
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -9193,13 +9193,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2017-02-19",
                         "hasInAppPurchases": false,
                         "bundleId": "ballatrix.cctvFootages",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -9212,8 +9212,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -9312,8 +9312,8 @@
                     "name": "Color Keys Keyboard Pro",
                     "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Giacomo Guglielmi",
+                    "isIOSBinaryMacOSCompatible": true,
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -9345,8 +9345,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2016-01-13",
                             "hasInAppPurchases": false,
                             "bundleId": "com.domainname.ColorKeyKeyboard",
@@ -9364,8 +9364,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
@@ -9428,8 +9428,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -9439,8 +9439,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Finance",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6015"
+                                    "url": "https://itunes.apple.com/sg/genre/id6015",
+                                    "parentId": "36"
                                 }
                             }
                         ]
@@ -9448,8 +9448,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739548877255,
-                        "RTCI": 1731354205020
+                        "RTCI": 1731354205020,
+                        "MZ_INDEXER": 1739548877255
                     }
                 },
                 "supportsArcade": false,
@@ -9493,8 +9493,8 @@
                 "name": "Color Keys Keyboard Pro",
                 "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Giacomo Guglielmi",
+                "isIOSBinaryMacOSCompatible": true,
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -9526,8 +9526,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2016-01-13",
                         "hasInAppPurchases": false,
                         "bundleId": "com.domainname.ColorKeyKeyboard",
@@ -9545,8 +9545,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
@@ -9653,8 +9653,8 @@
                     "genreDisplayName": "News",
                     "name": "PDF Converter !",
                     "isPreorder": false,
-                    "artistName": "Emanuele Floris",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Emanuele Floris",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -9686,13 +9686,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2015-03-09",
                             "hasInAppPurchases": false,
                             "bundleId": "com.domainname.PdfConverter",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -9705,9 +9705,10 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -9741,7 +9742,6 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "subtitle": "convert the sites in pdf",
                             "hasSafariExtension": false,
                             "requiresGameController": false
@@ -9769,8 +9769,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -9780,8 +9780,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Productivity",
-                                    "url": "https://itunes.apple.com/sg/genre/id6007",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6007"
                                 }
                             }
                         ]
@@ -9789,8 +9789,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739517506718,
-                        "RTCI": 1731368923070
+                        "RTCI": 1731368923070,
+                        "MZ_INDEXER": 1739517506718
                     }
                 },
                 "supportsArcade": false,
@@ -9842,8 +9842,8 @@
                 "genreDisplayName": "News",
                 "name": "PDF Converter !",
                 "isPreorder": false,
-                "artistName": "Emanuele Floris",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Emanuele Floris",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -9875,13 +9875,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2015-03-09",
                         "hasInAppPurchases": false,
                         "bundleId": "com.domainname.PdfConverter",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -9894,9 +9894,10 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -9930,7 +9931,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "subtitle": "convert the sites in pdf",
                         "hasSafariExtension": false,
                         "requiresGameController": false
@@ -10000,8 +10000,8 @@
                     "name": "No Agenda Karma, Clips & More",
                     "genreDisplayName": "News",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Ronald Boyd",
+                    "isIOSBinaryMacOSCompatible": true,
                     "reviewsRestricted": false,
                     "minimumWatchOSVersion": "8.5",
                     "platformAttributes": {
@@ -10034,12 +10034,11 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "12.3",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "12.3",
                             "releaseDate": "2013-08-12",
                             "hasInAppPurchases": false,
                             "bundleId": "com.RonBoydDesign.No-Agenda-Karma-Generator",
-                            "hasMessagesExtension": true,
                             "isStandaloneWithCompanionForWatchOS": true,
                             "ovalArtwork": {
                                 "width": 1024,
@@ -10051,6 +10050,7 @@
                                 "textColor3": "3a2010",
                                 "textColor4": "4b3221"
                             },
+                            "hasMessagesExtension": true,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -10063,10 +10063,9 @@
                             },
                             "isAppleWatchSupported": true,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": true,
-                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -10100,9 +10099,9 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "minimumXROSVersion": "1.0",
                             "subtitle": "Show Audio, Notes, News & Art",
                             "hasSafariExtension": false,
-                            "requiresGameController": false,
                             "circularArtwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -10112,7 +10111,8 @@
                                 "textColor2": "1b1b1b",
                                 "textColor3": "341f10",
                                 "textColor4": "483324"
-                            }
+                            },
+                            "requiresGameController": false
                         }
                     }
                 },
@@ -10137,8 +10137,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -10148,8 +10148,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Entertainment",
-                                    "url": "https://itunes.apple.com/sg/genre/id6016",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6016"
                                 }
                             }
                         ]
@@ -10157,8 +10157,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739509979118,
-                        "RTCI": 1738953449700
+                        "RTCI": 1738953449700,
+                        "MZ_INDEXER": 1739509979118
                     }
                 },
                 "supportsArcade": false,
@@ -10208,8 +10208,8 @@
                 "name": "No Agenda Karma, Clips & More",
                 "genreDisplayName": "News",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Ronald Boyd",
+                "isIOSBinaryMacOSCompatible": true,
                 "reviewsRestricted": false,
                 "minimumWatchOSVersion": "8.5",
                 "platformAttributes": {
@@ -10242,12 +10242,11 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "12.3",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "12.3",
                         "releaseDate": "2013-08-12",
                         "hasInAppPurchases": false,
                         "bundleId": "com.RonBoydDesign.No-Agenda-Karma-Generator",
-                        "hasMessagesExtension": true,
                         "isStandaloneWithCompanionForWatchOS": true,
                         "ovalArtwork": {
                             "width": 1024,
@@ -10259,6 +10258,7 @@
                             "textColor3": "3a2010",
                             "textColor4": "4b3221"
                         },
+                        "hasMessagesExtension": true,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -10271,10 +10271,9 @@
                         },
                         "isAppleWatchSupported": true,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": true,
-                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -10308,9 +10307,9 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "minimumXROSVersion": "1.0",
                         "subtitle": "Show Audio, Notes, News & Art",
                         "hasSafariExtension": false,
-                        "requiresGameController": false,
                         "circularArtwork": {
                             "width": 1024,
                             "height": 1024,
@@ -10320,7 +10319,8 @@
                             "textColor2": "1b1b1b",
                             "textColor3": "341f10",
                             "textColor4": "483324"
-                        }
+                        },
+                        "requiresGameController": false
                     }
                 },
                 "artwork": {
@@ -10378,8 +10378,8 @@
                         ],
                         "ariaLabelForRatings": "4.8 stars"
                     },
-                    "genreDisplayName": "News",
                     "name": "NSW Fires",
+                    "genreDisplayName": "News",
                     "isPreorder": false,
                     "isIOSBinaryMacOSCompatible": true,
                     "artistName": "P4G Pty Ltd",
@@ -10414,13 +10414,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "11.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "11.0",
                             "releaseDate": "2010-01-14",
                             "hasInAppPurchases": false,
                             "bundleId": "com.p4g.NSWFires",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -10433,8 +10433,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -10476,6 +10476,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/sg/apps/350111353/developer?l=en-GB",
+                        "data": [
+                            {
+                                "id": "296948831",
+                                "type": "developers",
+                                "href": "/v1/catalog/sg/developers/296948831?l=en-GB"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/sg/apps/350111353/genres?l=en-GB",
                         "data": [
@@ -10486,8 +10496,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -10497,27 +10507,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Weather",
-                                    "url": "https://itunes.apple.com/sg/genre/id6001",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6001"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/sg/apps/350111353/developer?l=en-GB",
-                        "data": [
-                            {
-                                "id": "296948831",
-                                "type": "developers",
-                                "href": "/v1/catalog/sg/developers/296948831?l=en-GB"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739489210174,
-                        "RTCI": 1731380032874
+                        "RTCI": 1731380032874,
+                        "MZ_INDEXER": 1739489210174
                     }
                 },
                 "supportsArcade": false,
@@ -10558,8 +10558,8 @@
                     ],
                     "ariaLabelForRatings": "4.8 stars"
                 },
-                "genreDisplayName": "News",
                 "name": "NSW Fires",
+                "genreDisplayName": "News",
                 "isPreorder": false,
                 "isIOSBinaryMacOSCompatible": true,
                 "artistName": "P4G Pty Ltd",
@@ -10594,13 +10594,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "11.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "11.0",
                         "releaseDate": "2010-01-14",
                         "hasInAppPurchases": false,
                         "bundleId": "com.p4g.NSWFires",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -10613,8 +10613,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {
@@ -10709,8 +10709,8 @@
                         ],
                         "ariaLabelForRatings": "0 stars"
                     },
-                    "name": "VIC Fires",
                     "genreDisplayName": "News",
+                    "name": "VIC Fires",
                     "isPreorder": false,
                     "isIOSBinaryMacOSCompatible": true,
                     "artistName": "P4G Pty Ltd",
@@ -10745,8 +10745,8 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "12.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "12.0",
                             "releaseDate": "2009-12-29",
                             "hasInAppPurchases": false,
                             "bundleId": "com.p4g.VicFires",
@@ -10764,8 +10764,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
@@ -10827,8 +10827,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -10838,8 +10838,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Weather",
-                                    "url": "https://itunes.apple.com/sg/genre/id6001",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6001"
                                 }
                             }
                         ]
@@ -10847,8 +10847,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739506826061,
-                        "RTCI": 1731371764764
+                        "RTCI": 1731371764764,
+                        "MZ_INDEXER": 1739506826061
                     }
                 },
                 "supportsArcade": false,
@@ -10889,8 +10889,8 @@
                     ],
                     "ariaLabelForRatings": "0 stars"
                 },
-                "name": "VIC Fires",
                 "genreDisplayName": "News",
+                "name": "VIC Fires",
                 "isPreorder": false,
                 "isIOSBinaryMacOSCompatible": true,
                 "artistName": "P4G Pty Ltd",
@@ -10925,8 +10925,8 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "12.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "12.0",
                         "releaseDate": "2009-12-29",
                         "hasInAppPurchases": false,
                         "bundleId": "com.p4g.VicFires",
@@ -10944,8 +10944,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
@@ -11048,8 +11048,8 @@
                     "name": "BiH TV",
                     "genreDisplayName": "News",
                     "isPreorder": false,
-                    "artistName": "Kanta",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Kanta",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -11081,13 +11081,13 @@
                                     ]
                                 }
                             ],
-                            "minimumMacOSVersion": "12.0",
                             "requires32bit": false,
+                            "minimumMacOSVersion": "12.0",
                             "releaseDate": "2009-11-04",
                             "hasInAppPurchases": true,
                             "bundleId": "hr.sime.bihtvguide",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -11100,8 +11100,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
                             "editorialArtwork": {
@@ -11164,8 +11164,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "News",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/sg/genre/id6009"
+                                    "url": "https://itunes.apple.com/sg/genre/id6009",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -11175,8 +11175,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "Entertainment",
-                                    "url": "https://itunes.apple.com/sg/genre/id6016",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/sg/genre/id6016"
                                 }
                             }
                         ]
@@ -11184,8 +11184,8 @@
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739502863993,
-                        "RTCI": 1739461924158
+                        "RTCI": 1739461924158,
+                        "MZ_INDEXER": 1739502863993
                     }
                 },
                 "supportsArcade": false,
@@ -11234,8 +11234,8 @@
                 "name": "BiH TV",
                 "genreDisplayName": "News",
                 "isPreorder": false,
-                "artistName": "Kanta",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Kanta",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -11267,13 +11267,13 @@
                                 ]
                             }
                         ],
-                        "minimumMacOSVersion": "12.0",
                         "requires32bit": false,
+                        "minimumMacOSVersion": "12.0",
                         "releaseDate": "2009-11-04",
                         "hasInAppPurchases": true,
                         "bundleId": "hr.sime.bihtvguide",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -11286,8 +11286,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
                         "editorialArtwork": {

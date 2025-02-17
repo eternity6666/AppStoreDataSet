@@ -105,9 +105,11 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isStandaloneForWatchOS": false,
                             "isHiddenFromSpringboard": false,
+                            "isStandaloneForWatchOS": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
+                            "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 952,
@@ -150,19 +152,27 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "isXROSCompatible": true,
-                            "minimumXROSVersion": "1.0",
                             "subtitle": "价格便宜的超实惠音乐游戏",
+                            "hasSafariExtension": false,
                             "editorialNotes": {
                                 "short": "国内独立开发者佳作，唯美画面，流畅操作，高品质音乐，为二次元世界带来“萌萌哒”音游。",
                                 "tagline": "驾驭多样风格 视听双重享受"
                             },
-                            "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/cn/apps/935528099/developer?l=zh-Hans-CN",
+                        "data": [
+                            {
+                                "id": "935528098",
+                                "type": "developers",
+                                "href": "/v1/catalog/cn/developers/935528098?l=zh-Hans-CN"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/cn/apps/935528099/genres?l=zh-Hans-CN",
                         "data": [
@@ -173,8 +183,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "游戏",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/cn/genre/id6014"
+                                    "url": "https://itunes.apple.com/cn/genre/id6014",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -184,8 +194,8 @@
                                 "attributes": {
                                     "parentName": "游戏",
                                     "name": "竞速",
-                                    "parentId": "6014",
-                                    "url": "https://itunes.apple.com/cn/genre/id7013"
+                                    "url": "https://itunes.apple.com/cn/genre/id7013",
+                                    "parentId": "6014"
                                 }
                             },
                             {
@@ -195,8 +205,8 @@
                                 "attributes": {
                                     "parentName": "游戏",
                                     "name": "音乐",
-                                    "parentId": "6014",
-                                    "url": "https://itunes.apple.com/cn/genre/id7011"
+                                    "url": "https://itunes.apple.com/cn/genre/id7011",
+                                    "parentId": "6014"
                                 }
                             },
                             {
@@ -211,22 +221,12 @@
                                 }
                             }
                         ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/935528099/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "935528098",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/935528098?l=zh-Hans-CN"
-                            }
-                        ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739549062136,
-                        "RTCI": 1738951544469
+                        "RTCI": 1738951544469,
+                        "MZ_INDEXER": 1739549062136
                     }
                 },
                 "supportsArcade": false,
@@ -323,9 +323,11 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isStandaloneForWatchOS": false,
                         "isHiddenFromSpringboard": false,
+                        "isStandaloneForWatchOS": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
+                        "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 952,
@@ -368,14 +370,12 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "isXROSCompatible": true,
-                        "minimumXROSVersion": "1.0",
                         "subtitle": "价格便宜的超实惠音乐游戏",
+                        "hasSafariExtension": false,
                         "editorialNotes": {
                             "short": "国内独立开发者佳作，唯美画面，流畅操作，高品质音乐，为二次元世界带来“萌萌哒”音游。",
                             "tagline": "驾驭多样风格 视听双重享受"
                         },
-                        "hasSafariExtension": false,
                         "requiresGameController": false
                     }
                 },
@@ -424,18 +424,18 @@
                     "url": "https://apps.apple.com/cn/app/%E6%9E%81%E9%80%9F%E5%8F%98%E8%89%B2%E9%BE%99/id1626320298",
                     "userRating": {
                         "value": 4.7,
-                        "ratingCount": 8712,
+                        "ratingCount": 8720,
                         "ratingCountList": [
                             271,
                             71,
                             212,
-                            507,
-                            7651
+                            508,
+                            7658
                         ],
                         "ariaLabelForRatings": "4.7 星"
                     },
-                    "name": "极速变色龙",
                     "genreDisplayName": "休闲",
+                    "name": "极速变色龙",
                     "isPreorder": false,
                     "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Noodlecake",
@@ -475,8 +475,8 @@
                             "releaseDate": "2023-03-14",
                             "hasInAppPurchases": false,
                             "bundleId": "com.noodlecake.chameleonrunchina",
-                            "hasMessagesExtension": false,
                             "isStandaloneWithCompanionForWatchOS": false,
+                            "hasMessagesExtension": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -493,7 +493,6 @@
                             "isStandaloneForWatchOS": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "isXROSCompatible": true,
-                            "minimumXROSVersion": "1.0",
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 1188,
@@ -526,6 +525,7 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "minimumXROSVersion": "1.0",
                             "subtitle": "跑。跳。开关。",
                             "hasSafariExtension": false,
                             "requiresGameController": false
@@ -533,6 +533,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/cn/apps/1626320298/developer?l=zh-Hans-CN",
+                        "data": [
+                            {
+                                "id": "370828169",
+                                "type": "developers",
+                                "href": "/v1/catalog/cn/developers/370828169?l=zh-Hans-CN"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/cn/apps/1626320298/genres?l=zh-Hans-CN",
                         "data": [
@@ -543,8 +553,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "游戏",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/cn/genre/id6014"
+                                    "url": "https://itunes.apple.com/cn/genre/id6014",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -554,8 +564,8 @@
                                 "attributes": {
                                     "parentName": "游戏",
                                     "name": "竞速",
-                                    "parentId": "6014",
-                                    "url": "https://itunes.apple.com/cn/genre/id7013"
+                                    "url": "https://itunes.apple.com/cn/genre/id7013",
+                                    "parentId": "6014"
                                 }
                             },
                             {
@@ -570,22 +580,12 @@
                                 }
                             }
                         ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/1626320298/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "370828169",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/370828169?l=zh-Hans-CN"
-                            }
-                        ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739494340429,
-                        "RTCI": 1731373860199
+                        "RTCI": 1731373860199,
+                        "MZ_INDEXER": 1739494340429
                     }
                 },
                 "supportsArcade": false,
@@ -616,18 +616,18 @@
                 "url": "https://apps.apple.com/cn/app/%E6%9E%81%E9%80%9F%E5%8F%98%E8%89%B2%E9%BE%99/id1626320298",
                 "userRating": {
                     "value": 4.7,
-                    "ratingCount": 8712,
+                    "ratingCount": 8720,
                     "ratingCountList": [
                         271,
                         71,
                         212,
-                        507,
-                        7651
+                        508,
+                        7658
                     ],
                     "ariaLabelForRatings": "4.7 星"
                 },
-                "name": "极速变色龙",
                 "genreDisplayName": "休闲",
+                "name": "极速变色龙",
                 "isPreorder": false,
                 "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Noodlecake",
@@ -667,8 +667,8 @@
                         "releaseDate": "2023-03-14",
                         "hasInAppPurchases": false,
                         "bundleId": "com.noodlecake.chameleonrunchina",
-                        "hasMessagesExtension": false,
                         "isStandaloneWithCompanionForWatchOS": false,
+                        "hasMessagesExtension": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -685,7 +685,6 @@
                         "isStandaloneForWatchOS": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "isXROSCompatible": true,
-                        "minimumXROSVersion": "1.0",
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 1188,
@@ -718,6 +717,7 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "minimumXROSVersion": "1.0",
                         "subtitle": "跑。跳。开关。",
                         "hasSafariExtension": false,
                         "requiresGameController": false
@@ -781,11 +781,11 @@
                         ],
                         "ariaLabelForRatings": "3.6 星"
                     },
-                    "genreDisplayName": "竞速",
                     "name": "夏日追捕者",
+                    "genreDisplayName": "竞速",
                     "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Noodlecake",
+                    "isIOSBinaryMacOSCompatible": true,
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -822,8 +822,8 @@
                             "releaseDate": "2024-04-11",
                             "hasInAppPurchases": false,
                             "bundleId": "com.noodlecake.summercatcherschina",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -839,7 +839,6 @@
                             "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "minimumXROSVersion": "1.0",
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 1070,
@@ -872,6 +871,7 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "subtitle": "一个充满奥秘的驾驶冒险",
                             "hasSafariExtension": false,
@@ -880,6 +880,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/cn/apps/1665760937/developer?l=zh-Hans-CN",
+                        "data": [
+                            {
+                                "id": "370828169",
+                                "type": "developers",
+                                "href": "/v1/catalog/cn/developers/370828169?l=zh-Hans-CN"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/cn/apps/1665760937/genres?l=zh-Hans-CN",
                         "data": [
@@ -890,8 +900,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "游戏",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/cn/genre/id6014"
+                                    "url": "https://itunes.apple.com/cn/genre/id6014",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -901,8 +911,8 @@
                                 "attributes": {
                                     "parentName": "游戏",
                                     "name": "冒险",
-                                    "parentId": "6014",
-                                    "url": "https://itunes.apple.com/cn/genre/id7002"
+                                    "url": "https://itunes.apple.com/cn/genre/id7002",
+                                    "parentId": "6014"
                                 }
                             },
                             {
@@ -912,27 +922,17 @@
                                 "attributes": {
                                     "parentName": "游戏",
                                     "name": "竞速",
-                                    "parentId": "6014",
-                                    "url": "https://itunes.apple.com/cn/genre/id7013"
+                                    "url": "https://itunes.apple.com/cn/genre/id7013",
+                                    "parentId": "6014"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/1665760937/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "370828169",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/370828169?l=zh-Hans-CN"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739546530782,
-                        "RTCI": 1731361522087
+                        "RTCI": 1731361522087,
+                        "MZ_INDEXER": 1739546530782
                     }
                 },
                 "supportsArcade": false,
@@ -976,11 +976,11 @@
                     ],
                     "ariaLabelForRatings": "3.6 星"
                 },
-                "genreDisplayName": "竞速",
                 "name": "夏日追捕者",
+                "genreDisplayName": "竞速",
                 "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Noodlecake",
+                "isIOSBinaryMacOSCompatible": true,
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -1017,8 +1017,8 @@
                         "releaseDate": "2024-04-11",
                         "hasInAppPurchases": false,
                         "bundleId": "com.noodlecake.summercatcherschina",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -1034,7 +1034,6 @@
                         "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "minimumXROSVersion": "1.0",
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 1070,
@@ -1067,6 +1066,7 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "subtitle": "一个充满奥秘的驾驶冒险",
                         "hasSafariExtension": false,

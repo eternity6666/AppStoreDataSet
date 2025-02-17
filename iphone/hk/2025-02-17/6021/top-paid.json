@@ -49,11 +49,11 @@
                         ],
                         "ariaLabelForRatings": "3.6 粒星"
                     },
-                    "genreDisplayName": "相片與影片",
                     "name": "B&W Photography Magazine",
+                    "genreDisplayName": "相片與影片",
                     "isPreorder": false,
-                    "artistName": "Guild of Master Craftsman Publications Ltd",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Guild of Master Craftsman Publications Ltd",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -90,8 +90,8 @@
                             "releaseDate": "2011-03-29",
                             "hasInAppPurchases": true,
                             "bundleId": "com.triactivemedia.bwphoto",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -107,6 +107,8 @@
                             "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
+                            "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 1096,
@@ -149,14 +151,22 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
-                            "isXROSCompatible": true,
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/428498721/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "1545187960",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/428498721/genres?l=zh-Hant-HK",
                         "data": [
@@ -167,8 +177,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "相片與影片",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/hk/genre/id6008"
+                                    "url": "https://itunes.apple.com/hk/genre/id6008",
+                                    "parentId": "36"
                                 }
                             },
                             {
@@ -178,27 +188,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/428498721/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "1545187960",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739489180309,
-                        "RTCI": 1731353828757
+                        "RTCI": 1731353828757,
+                        "MZ_INDEXER": 1739489180309
                     }
                 },
                 "supportsArcade": false,
@@ -239,11 +239,11 @@
                     ],
                     "ariaLabelForRatings": "3.6 粒星"
                 },
-                "genreDisplayName": "相片與影片",
                 "name": "B&W Photography Magazine",
+                "genreDisplayName": "相片與影片",
                 "isPreorder": false,
-                "artistName": "Guild of Master Craftsman Publications Ltd",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Guild of Master Craftsman Publications Ltd",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -280,8 +280,8 @@
                         "releaseDate": "2011-03-29",
                         "hasInAppPurchases": true,
                         "bundleId": "com.triactivemedia.bwphoto",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -297,6 +297,8 @@
                         "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
+                        "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 1096,
@@ -339,8 +341,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
-                        "isXROSCompatible": true,
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -435,8 +435,8 @@
                                     ]
                                 }
                             ],
-                            "requires32bit": false,
                             "minimumMacOSVersion": "11.0",
+                            "requires32bit": false,
                             "releaseDate": "2015-12-01",
                             "hasInAppPurchases": false,
                             "bundleId": "com.abhayraj.DocScanner",
@@ -457,8 +457,6 @@
                             "isStandaloneForWatchOS": false,
                             "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "minimumXROSVersion": "1.0",
-                            "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 1050,
@@ -491,12 +489,24 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "minimumXROSVersion": "1.0",
+                            "isXROSCompatible": true,
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/1061473017/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "915927007",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/915927007?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/1061473017/genres?l=zh-Hant-HK",
                         "data": [
@@ -518,27 +528,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/1061473017/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "915927007",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/915927007?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739488197275,
-                        "RTCI": 1738954053302
+                        "RTCI": 1738954053302,
+                        "MZ_INDEXER": 1739488197275
                     }
                 },
                 "supportsArcade": false,
@@ -614,8 +614,8 @@
                                 ]
                             }
                         ],
-                        "requires32bit": false,
                         "minimumMacOSVersion": "11.0",
+                        "requires32bit": false,
                         "releaseDate": "2015-12-01",
                         "hasInAppPurchases": false,
                         "bundleId": "com.abhayraj.DocScanner",
@@ -636,8 +636,6 @@
                         "isStandaloneForWatchOS": false,
                         "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "minimumXROSVersion": "1.0",
-                        "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 1050,
@@ -670,6 +668,8 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "minimumXROSVersion": "1.0",
+                        "isXROSCompatible": true,
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -732,8 +732,8 @@
                     "genreDisplayName": "旅遊",
                     "name": "Outdoor Photography Magazine",
                     "isPreorder": false,
-                    "artistName": "Guild of Master Craftsman Publications Ltd",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Guild of Master Craftsman Publications Ltd",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -765,13 +765,13 @@
                                     ]
                                 }
                             ],
-                            "requires32bit": false,
                             "minimumMacOSVersion": "11.0",
+                            "requires32bit": false,
                             "releaseDate": "2011-03-29",
                             "hasInAppPurchases": true,
                             "bundleId": "com.triactivemedia.outdoorphotography",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -784,8 +784,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -827,6 +827,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/428912452/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "1545187960",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/428912452/genres?l=zh-Hant-HK",
                         "data": [
@@ -837,8 +847,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "旅遊",
-                                    "url": "https://itunes.apple.com/hk/genre/id6003",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6003"
                                 }
                             },
                             {
@@ -848,27 +858,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/428912452/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "1545187960",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739497344144,
-                        "RTCI": 1731357377849
+                        "RTCI": 1731357377849,
+                        "MZ_INDEXER": 1739497344144
                     }
                 },
                 "supportsArcade": false,
@@ -912,8 +912,8 @@
                 "genreDisplayName": "旅遊",
                 "name": "Outdoor Photography Magazine",
                 "isPreorder": false,
-                "artistName": "Guild of Master Craftsman Publications Ltd",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Guild of Master Craftsman Publications Ltd",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -945,13 +945,13 @@
                                 ]
                             }
                         ],
-                        "requires32bit": false,
                         "minimumMacOSVersion": "11.0",
+                        "requires32bit": false,
                         "releaseDate": "2011-03-29",
                         "hasInAppPurchases": true,
                         "bundleId": "com.triactivemedia.outdoorphotography",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -964,8 +964,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -1064,11 +1064,11 @@
                         "ariaLabelForRatings": "4.0 粒星"
                     },
                     "firstVersionSupportingInAppPurchaseApi": "2020",
-                    "name": "iDaily · 2020 年度别册",
                     "genreDisplayName": "報章雜誌",
+                    "name": "iDaily · 2020 年度别册",
                     "isPreorder": false,
-                    "artistName": "iDaily Corp.",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "iDaily Corp.",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -1100,13 +1100,13 @@
                                     ]
                                 }
                             ],
-                            "requires32bit": false,
                             "minimumMacOSVersion": "11.0",
+                            "requires32bit": false,
                             "releaseDate": "2020-12-29",
                             "hasInAppPurchases": true,
                             "bundleId": "com.chii.idaily.focus.2020",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -1122,7 +1122,6 @@
                             "isStandaloneForWatchOS": false,
                             "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "isXROSCompatible": false,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 788,
@@ -1155,6 +1154,7 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
+                            "isXROSCompatible": false,
                             "subtitle": "5000 张图片回顾人类星球的 2020",
                             "hasSafariExtension": false,
                             "requiresGameController": false
@@ -1162,6 +1162,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/1543359328/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "364264742",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/364264742?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/1543359328/genres?l=zh-Hant-HK",
                         "data": [
@@ -1172,8 +1182,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
                             },
                             {
@@ -1183,27 +1193,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "生活風格",
-                                    "url": "https://itunes.apple.com/hk/genre/id6012",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6012"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/1543359328/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "364264742",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/364264742?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739554876235,
-                        "RTCI": 1738954841432
+                        "RTCI": 1738954841432,
+                        "MZ_INDEXER": 1739554876235
                     }
                 },
                 "supportsArcade": false,
@@ -1248,11 +1248,11 @@
                     "ariaLabelForRatings": "4.0 粒星"
                 },
                 "firstVersionSupportingInAppPurchaseApi": "2020",
-                "name": "iDaily · 2020 年度别册",
                 "genreDisplayName": "報章雜誌",
+                "name": "iDaily · 2020 年度别册",
                 "isPreorder": false,
-                "artistName": "iDaily Corp.",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "iDaily Corp.",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -1284,13 +1284,13 @@
                                 ]
                             }
                         ],
-                        "requires32bit": false,
                         "minimumMacOSVersion": "11.0",
+                        "requires32bit": false,
                         "releaseDate": "2020-12-29",
                         "hasInAppPurchases": true,
                         "bundleId": "com.chii.idaily.focus.2020",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -1306,7 +1306,6 @@
                         "isStandaloneForWatchOS": false,
                         "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "isXROSCompatible": false,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 788,
@@ -1339,6 +1338,7 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
+                        "isXROSCompatible": false,
                         "subtitle": "5000 张图片回顾人类星球的 2020",
                         "hasSafariExtension": false,
                         "requiresGameController": false
@@ -1402,8 +1402,8 @@
                     "genreDisplayName": "參考",
                     "name": "Furniture & Cabinetmaking",
                     "isPreorder": false,
-                    "artistName": "Guild of Master Craftsman Publications Ltd",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Guild of Master Craftsman Publications Ltd",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -1435,8 +1435,8 @@
                                     ]
                                 }
                             ],
-                            "requires32bit": false,
                             "minimumMacOSVersion": "11.0",
+                            "requires32bit": false,
                             "releaseDate": "2011-05-16",
                             "hasInAppPurchases": true,
                             "bundleId": "com.triactivemedia.furnmake",
@@ -1457,7 +1457,6 @@
                             "isStandaloneForWatchOS": false,
                             "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 1096,
@@ -1491,12 +1490,23 @@
                                 }
                             },
                             "minimumXROSVersion": "1.0",
+                            "isXROSCompatible": true,
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/437194402/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "1545187960",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/437194402/genres?l=zh-Hant-HK",
                         "data": [
@@ -1518,27 +1528,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/437194402/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "1545187960",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739541761001,
-                        "RTCI": 1731362090948
+                        "RTCI": 1731362090948,
+                        "MZ_INDEXER": 1739541761001
                     }
                 },
                 "supportsArcade": false,
@@ -1582,8 +1582,8 @@
                 "genreDisplayName": "參考",
                 "name": "Furniture & Cabinetmaking",
                 "isPreorder": false,
-                "artistName": "Guild of Master Craftsman Publications Ltd",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Guild of Master Craftsman Publications Ltd",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -1615,8 +1615,8 @@
                                 ]
                             }
                         ],
-                        "requires32bit": false,
                         "minimumMacOSVersion": "11.0",
+                        "requires32bit": false,
                         "releaseDate": "2011-05-16",
                         "hasInAppPurchases": true,
                         "bundleId": "com.triactivemedia.furnmake",
@@ -1637,7 +1637,6 @@
                         "isStandaloneForWatchOS": false,
                         "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 1096,
@@ -1671,6 +1670,7 @@
                             }
                         },
                         "minimumXROSVersion": "1.0",
+                        "isXROSCompatible": true,
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -1730,8 +1730,8 @@
                         ],
                         "ariaLabelForRatings": "0 粒星"
                     },
-                    "genreDisplayName": "參考",
                     "name": "Woodworking Crafts Magazine",
+                    "genreDisplayName": "參考",
                     "isPreorder": false,
                     "isIOSBinaryMacOSCompatible": true,
                     "artistName": "Guild of Master Craftsman Publications Ltd",
@@ -1828,6 +1828,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/429886769/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "1545187960",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/429886769/genres?l=zh-Hant-HK",
                         "data": [
@@ -1849,27 +1859,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/429886769/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "1545187960",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739488874481,
-                        "RTCI": 1731352271015
+                        "RTCI": 1731352271015,
+                        "MZ_INDEXER": 1739488874481
                     }
                 },
                 "supportsArcade": false,
@@ -1910,8 +1910,8 @@
                     ],
                     "ariaLabelForRatings": "0 粒星"
                 },
-                "genreDisplayName": "參考",
                 "name": "Woodworking Crafts Magazine",
+                "genreDisplayName": "參考",
                 "isPreorder": false,
                 "isIOSBinaryMacOSCompatible": true,
                 "artistName": "Guild of Master Craftsman Publications Ltd",
@@ -2061,11 +2061,11 @@
                         ],
                         "ariaLabelForRatings": "0 粒星"
                     },
-                    "genreDisplayName": "參考",
                     "name": "Prehistoric Times Magazine",
+                    "genreDisplayName": "參考",
                     "isPreorder": false,
-                    "artistName": "Magazinecloner.com US LLC",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Magazinecloner.com US LLC",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -2118,6 +2118,7 @@
                             "isStandaloneForWatchOS": false,
                             "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
                             "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
@@ -2151,13 +2152,22 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/530088968/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "421104749",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/421104749?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/530088968/genres?l=zh-Hant-HK",
                         "data": [
@@ -2179,27 +2189,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/530088968/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "421104749",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/421104749?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739485077837,
-                        "RTCI": 1737896218706
+                        "RTCI": 1737896218706,
+                        "MZ_INDEXER": 1739485077837
                     }
                 },
                 "supportsArcade": false,
@@ -2240,11 +2240,11 @@
                     ],
                     "ariaLabelForRatings": "0 粒星"
                 },
-                "genreDisplayName": "參考",
                 "name": "Prehistoric Times Magazine",
+                "genreDisplayName": "參考",
                 "isPreorder": false,
-                "artistName": "Magazinecloner.com US LLC",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Magazinecloner.com US LLC",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -2297,6 +2297,7 @@
                         "isStandaloneForWatchOS": false,
                         "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
                         "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
@@ -2330,7 +2331,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -2390,11 +2390,11 @@
                         ],
                         "ariaLabelForRatings": "0 粒星"
                     },
-                    "name": "Knitting Magazine",
                     "genreDisplayName": "生活風格",
+                    "name": "Knitting Magazine",
                     "isPreorder": false,
-                    "artistName": "Guild of Master Craftsman Publications Ltd",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Guild of Master Craftsman Publications Ltd",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -2426,13 +2426,13 @@
                                     ]
                                 }
                             ],
-                            "requires32bit": false,
                             "minimumMacOSVersion": "11.0",
+                            "requires32bit": false,
                             "releaseDate": "2011-03-29",
                             "hasInAppPurchases": true,
                             "bundleId": "com.triactivemedia.knitting",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -2448,7 +2448,6 @@
                             "isStandaloneForWatchOS": false,
                             "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 996,
@@ -2482,12 +2481,23 @@
                                 }
                             },
                             "minimumXROSVersion": "1.0",
+                            "isXROSCompatible": true,
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/428503818/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "1545187960",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/428503818/genres?l=zh-Hant-HK",
                         "data": [
@@ -2498,8 +2508,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "生活風格",
-                                    "url": "https://itunes.apple.com/hk/genre/id6012",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6012"
                                 }
                             },
                             {
@@ -2509,27 +2519,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/428503818/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "1545187960",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/1545187960?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739548336734,
-                        "RTCI": 1731358785935
+                        "RTCI": 1731358785935,
+                        "MZ_INDEXER": 1739548336734
                     }
                 },
                 "supportsArcade": false,
@@ -2570,11 +2570,11 @@
                     ],
                     "ariaLabelForRatings": "0 粒星"
                 },
-                "name": "Knitting Magazine",
                 "genreDisplayName": "生活風格",
+                "name": "Knitting Magazine",
                 "isPreorder": false,
-                "artistName": "Guild of Master Craftsman Publications Ltd",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Guild of Master Craftsman Publications Ltd",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -2606,13 +2606,13 @@
                                 ]
                             }
                         ],
-                        "requires32bit": false,
                         "minimumMacOSVersion": "11.0",
+                        "requires32bit": false,
                         "releaseDate": "2011-03-29",
                         "hasInAppPurchases": true,
                         "bundleId": "com.triactivemedia.knitting",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -2628,7 +2628,6 @@
                         "isStandaloneForWatchOS": false,
                         "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 996,
@@ -2662,6 +2661,7 @@
                             }
                         },
                         "minimumXROSVersion": "1.0",
+                        "isXROSCompatible": true,
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -2720,11 +2720,11 @@
                         ],
                         "ariaLabelForRatings": "0 粒星"
                     },
-                    "genreDisplayName": "報章雜誌",
                     "name": "Presidential & US Election Pro",
+                    "genreDisplayName": "報章雜誌",
                     "isPreorder": false,
-                    "artistName": "FRIENDSAPP LISTING",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "FRIENDSAPP LISTING",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -2761,8 +2761,8 @@
                             "releaseDate": "2024-10-25",
                             "hasInAppPurchases": false,
                             "bundleId": "com.selfappdeveloper.USElectionPro",
-                            "isStandaloneWithCompanionForWatchOS": false,
                             "hasMessagesExtension": false,
+                            "isStandaloneWithCompanionForWatchOS": false,
                             "artwork": {
                                 "width": 1024,
                                 "height": 1024,
@@ -2775,9 +2775,11 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
                             "isStandaloneForWatchOS": false,
+                            "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
+                            "minimumXROSVersion": "1.0",
+                            "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 788,
@@ -2810,14 +2812,22 @@
                                     "textColor4": "b7b7b7"
                                 }
                             },
-                            "minimumXROSVersion": "1.0",
-                            "isXROSCompatible": true,
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/6737238435/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "1628261434",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/1628261434?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/6737238435/genres?l=zh-Hant-HK",
                         "data": [
@@ -2828,8 +2838,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
                             },
                             {
@@ -2844,22 +2854,12 @@
                                 }
                             }
                         ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/6737238435/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "1628261434",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/1628261434?l=zh-Hant-HK"
-                            }
-                        ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739534658279,
-                        "RTCI": 1731353804930
+                        "RTCI": 1731353804930,
+                        "MZ_INDEXER": 1739534658279
                     }
                 },
                 "supportsArcade": false,
@@ -2899,11 +2899,11 @@
                     ],
                     "ariaLabelForRatings": "0 粒星"
                 },
-                "genreDisplayName": "報章雜誌",
                 "name": "Presidential & US Election Pro",
+                "genreDisplayName": "報章雜誌",
                 "isPreorder": false,
-                "artistName": "FRIENDSAPP LISTING",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "FRIENDSAPP LISTING",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -2940,8 +2940,8 @@
                         "releaseDate": "2024-10-25",
                         "hasInAppPurchases": false,
                         "bundleId": "com.selfappdeveloper.USElectionPro",
-                        "isStandaloneWithCompanionForWatchOS": false,
                         "hasMessagesExtension": false,
+                        "isStandaloneWithCompanionForWatchOS": false,
                         "artwork": {
                             "width": 1024,
                             "height": 1024,
@@ -2954,9 +2954,11 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
                         "isStandaloneForWatchOS": false,
+                        "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
+                        "minimumXROSVersion": "1.0",
+                        "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 788,
@@ -2989,8 +2991,6 @@
                                 "textColor4": "b7b7b7"
                             }
                         },
-                        "minimumXROSVersion": "1.0",
-                        "isXROSCompatible": true,
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -3053,8 +3053,8 @@
                     "genreDisplayName": "生活風格",
                     "name": "Power of Angels - Oracle Cards",
                     "isPreorder": false,
-                    "artistName": "Miracle Academy S.R.L.",
                     "isIOSBinaryMacOSCompatible": true,
+                    "artistName": "Miracle Academy S.R.L.",
                     "reviewsRestricted": false,
                     "platformAttributes": {
                         "ios": {
@@ -3086,8 +3086,8 @@
                                     ]
                                 }
                             ],
-                            "requires32bit": false,
                             "minimumMacOSVersion": "11.0",
+                            "requires32bit": false,
                             "releaseDate": "2024-05-21",
                             "hasInAppPurchases": false,
                             "bundleId": "ios.codecross.tpoa",
@@ -3108,7 +3108,6 @@
                             "isStandaloneForWatchOS": false,
                             "isHiddenFromSpringboard": false,
                             "isDeliveredInIOSAppForWatchOS": false,
-                            "isXROSCompatible": true,
                             "editorialArtwork": {
                                 "contentIconTrimmedMonochrome": {
                                     "width": 996,
@@ -3142,12 +3141,23 @@
                                 }
                             },
                             "minimumXROSVersion": "1.0",
+                            "isXROSCompatible": true,
                             "hasSafariExtension": false,
                             "requiresGameController": false
                         }
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/6502944426/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "1747498573",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/1747498573?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/6502944426/genres?l=zh-Hant-HK",
                         "data": [
@@ -3158,8 +3168,8 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "生活風格",
-                                    "url": "https://itunes.apple.com/hk/genre/id6012",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6012"
                                 }
                             },
                             {
@@ -3169,27 +3179,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/6502944426/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "1747498573",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/1747498573?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739494019280,
-                        "RTCI": 1738960044129
+                        "RTCI": 1738960044129,
+                        "MZ_INDEXER": 1739494019280
                     }
                 },
                 "supportsArcade": false,
@@ -3233,8 +3233,8 @@
                 "genreDisplayName": "生活風格",
                 "name": "Power of Angels - Oracle Cards",
                 "isPreorder": false,
-                "artistName": "Miracle Academy S.R.L.",
                 "isIOSBinaryMacOSCompatible": true,
+                "artistName": "Miracle Academy S.R.L.",
                 "reviewsRestricted": false,
                 "platformAttributes": {
                     "ios": {
@@ -3266,8 +3266,8 @@
                                 ]
                             }
                         ],
-                        "requires32bit": false,
                         "minimumMacOSVersion": "11.0",
+                        "requires32bit": false,
                         "releaseDate": "2024-05-21",
                         "hasInAppPurchases": false,
                         "bundleId": "ios.codecross.tpoa",
@@ -3288,7 +3288,6 @@
                         "isStandaloneForWatchOS": false,
                         "isHiddenFromSpringboard": false,
                         "isDeliveredInIOSAppForWatchOS": false,
-                        "isXROSCompatible": true,
                         "editorialArtwork": {
                             "contentIconTrimmedMonochrome": {
                                 "width": 996,
@@ -3322,6 +3321,7 @@
                             }
                         },
                         "minimumXROSVersion": "1.0",
+                        "isXROSCompatible": true,
                         "hasSafariExtension": false,
                         "requiresGameController": false
                     }
@@ -3381,8 +3381,8 @@
                         ],
                         "ariaLabelForRatings": "0 粒星"
                     },
-                    "genreDisplayName": "參考",
                     "name": "The Globe & Laurel",
+                    "genreDisplayName": "參考",
                     "isPreorder": false,
                     "isIOSBinaryMacOSCompatible": true,
                     "artistName": "The Globe & Laurel Magazine",
@@ -3436,8 +3436,8 @@
                             },
                             "isAppleWatchSupported": false,
                             "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isStandaloneForWatchOS": false,
                             "isHiddenFromSpringboard": false,
+                            "isStandaloneForWatchOS": false,
                             "isDeliveredInIOSAppForWatchOS": false,
                             "minimumXROSVersion": "1.0",
                             "isXROSCompatible": false,
@@ -3479,6 +3479,16 @@
                     }
                 },
                 "relationships": {
+                    "developer": {
+                        "href": "/v1/catalog/hk/apps/796959725/developer?l=zh-Hant-HK",
+                        "data": [
+                            {
+                                "id": "796959728",
+                                "type": "developers",
+                                "href": "/v1/catalog/hk/developers/796959728?l=zh-Hant-HK"
+                            }
+                        ]
+                    },
                     "genres": {
                         "href": "/v1/catalog/hk/apps/796959725/genres?l=zh-Hant-HK",
                         "data": [
@@ -3500,27 +3510,17 @@
                                 "attributes": {
                                     "parentName": "App Store",
                                     "name": "報章雜誌",
-                                    "url": "https://itunes.apple.com/hk/genre/id6021",
-                                    "parentId": "36"
+                                    "parentId": "36",
+                                    "url": "https://itunes.apple.com/hk/genre/id6021"
                                 }
-                            }
-                        ]
-                    },
-                    "developer": {
-                        "href": "/v1/catalog/hk/apps/796959725/developer?l=zh-Hant-HK",
-                        "data": [
-                            {
-                                "id": "796959728",
-                                "type": "developers",
-                                "href": "/v1/catalog/hk/developers/796959728?l=zh-Hant-HK"
                             }
                         ]
                     }
                 },
                 "meta": {
                     "contentVersion": {
-                        "MZ_INDEXER": 1739507103585,
-                        "RTCI": 1731368861990
+                        "RTCI": 1731368861990,
+                        "MZ_INDEXER": 1739507103585
                     }
                 },
                 "supportsArcade": false,
@@ -3561,8 +3561,8 @@
                     ],
                     "ariaLabelForRatings": "0 粒星"
                 },
-                "genreDisplayName": "參考",
                 "name": "The Globe & Laurel",
+                "genreDisplayName": "參考",
                 "isPreorder": false,
                 "isIOSBinaryMacOSCompatible": true,
                 "artistName": "The Globe & Laurel Magazine",
@@ -3616,8 +3616,8 @@
                         },
                         "isAppleWatchSupported": false,
                         "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isStandaloneForWatchOS": false,
                         "isHiddenFromSpringboard": false,
+                        "isStandaloneForWatchOS": false,
                         "isDeliveredInIOSAppForWatchOS": false,
                         "minimumXROSVersion": "1.0",
                         "isXROSCompatible": false,
