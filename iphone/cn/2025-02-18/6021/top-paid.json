@@ -1,3162 +1,1098 @@
-{
-    "chartsList": {
-        "chart": "top-paid",
-        "name": "付费 App 排行",
-        "orderId": "top-paid:apps",
-        "shortName": "付费 App",
+[
+  {
+    "kind": "app",
+    "id": "6451397295",
+    "type": "apps",
+    "relationships": {
+      "developer": {
         "data": [
-            {
-                "kind": "app",
-                "id": "6451397295",
-                "type": "apps",
-                "href": "/v1/catalog/cn/apps/6451397295?l=zh-Hans-CN",
-                "attributes": {
-                    "supportsArcade": false,
-                    "isFirstPartyHideableApp": false,
-                    "contentRatingsBySystem": {
-                        "appsApple": {
-                            "name": "4+",
-                            "value": 100,
-                            "rank": 1
-                        }
-                    },
-                    "deviceFamilies": [
-                        "iphone",
-                        "ipad",
-                        "ipod"
-                    ],
-                    "chartPositions": {
-                        "appStore": {
-                            "position": 1,
-                            "genreName": "报刊杂志",
-                            "genre": 6021,
-                            "chart": "top-paid",
-                            "genreShortName": "杂志",
-                            "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                        }
-                    },
-                    "supportsStreamlinedBuy": true,
-                    "url": "https://apps.apple.com/cn/app/%E6%AF%8F%E6%97%A5%E6%96%87%E7%89%A9/id6451397295",
-                    "userRating": {
-                        "value": 4.2,
-                        "ratingCount": 65,
-                        "ratingCountList": [
-                            11,
-                            0,
-                            2,
-                            3,
-                            49
-                        ],
-                        "ariaLabelForRatings": "4.2 星"
-                    },
-                    "name": "每日文物",
-                    "genreDisplayName": "报刊杂志",
-                    "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
-                    "artistName": "Square Cosmos Press LLC.",
-                    "reviewsRestricted": false,
-                    "platformAttributes": {
-                        "ios": {
-                            "offers": [
-                                {
-                                    "buyParams": "productType=C&price=1000&salableAdamId=6451397295&pricingParameters=STDQ&pg=default&appExtVrsId=871903888",
-                                    "type": "buy",
-                                    "priceFormatted": "¥1.00",
-                                    "price": 1,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 22250496
-                                        }
-                                    ]
-                                },
-                                {
-                                    "buyParams": "productType=C&price=0&salableAdamId=6451397295&pricingParameters=SWUPD&pg=default&appExtVrsId=871903888",
-                                    "type": "update",
-                                    "priceFormatted": "¥0.00",
-                                    "price": 0,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 22250496
-                                        }
-                                    ]
-                                }
-                            ],
-                            "requires32bit": false,
-                            "minimumMacOSVersion": "11.0",
-                            "releaseDate": "2023-08-20",
-                            "hasInAppPurchases": false,
-                            "bundleId": "sqcosmos.com.relics",
-                            "hasMessagesExtension": false,
-                            "isStandaloneWithCompanionForWatchOS": false,
-                            "artwork": {
-                                "width": 1024,
-                                "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/b2/36/61b2360c-2623-3087-f4d3-ee584d58d4f4/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/{w}x{h}{c}.{f}",
-                                "bgColor": "ffffff",
-                                "textColor1": "2a0504",
-                                "textColor2": "410e0d",
-                                "textColor3": "553736",
-                                "textColor4": "673e3d"
-                            },
-                            "isAppleWatchSupported": false,
-                            "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isStandaloneForWatchOS": false,
-                            "isHiddenFromSpringboard": false,
-                            "isDeliveredInIOSAppForWatchOS": false,
-                            "isXROSCompatible": true,
-                            "editorialArtwork": {
-                                "contentIconTrimmedMonochrome": {
-                                    "width": 788,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                },
-                                "contentIconTrimmed": {
-                                    "width": 788,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "575c60",
-                                    "textColor1": "f9f9fa",
-                                    "textColor2": "dadde0",
-                                    "textColor3": "d8d9db",
-                                    "textColor4": "c0c3c7"
-                                },
-                                "brandLogo": {
-                                    "width": 1080,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                }
-                            },
-                            "minimumXROSVersion": "1.0",
-                            "subtitle": "一睹华夏文化瑰宝",
-                            "hasSafariExtension": false,
-                            "requiresGameController": false
-                        }
-                    }
-                },
-                "relationships": {
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/6451397295/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "1602633563",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/1602633563?l=zh-Hans-CN"
-                            }
-                        ]
-                    },
-                    "genres": {
-                        "href": "/v1/catalog/cn/apps/6451397295/genres?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "6021",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6021?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "报刊杂志",
-                                    "url": "https://itunes.apple.com/cn/genre/id6021",
-                                    "parentId": "36"
-                                }
-                            },
-                            {
-                                "id": "6018",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6018?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "图书",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/cn/genre/id6018"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "meta": {
-                    "contentVersion": {
-                        "MZ_INDEXER": 1739519524405,
-                        "RTCI": 1737613206018
-                    }
-                },
-                "supportsArcade": false,
-                "isFirstPartyHideableApp": false,
-                "contentRatingsBySystem": {
-                    "appsApple": {
-                        "name": "4+",
-                        "value": 100,
-                        "rank": 1
-                    }
-                },
-                "deviceFamilies": [
-                    "iphone",
-                    "ipad",
-                    "ipod"
-                ],
-                "chartPositions": {
-                    "appStore": {
-                        "position": 1,
-                        "genreName": "报刊杂志",
-                        "genre": 6021,
-                        "chart": "top-paid",
-                        "genreShortName": "杂志",
-                        "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                    }
-                },
-                "supportsStreamlinedBuy": true,
-                "url": "https://apps.apple.com/cn/app/%E6%AF%8F%E6%97%A5%E6%96%87%E7%89%A9/id6451397295",
-                "userRating": {
-                    "value": 4.2,
-                    "ratingCount": 65,
-                    "ratingCountList": [
-                        11,
-                        0,
-                        2,
-                        3,
-                        49
-                    ],
-                    "ariaLabelForRatings": "4.2 星"
-                },
-                "name": "每日文物",
-                "genreDisplayName": "报刊杂志",
-                "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
-                "artistName": "Square Cosmos Press LLC.",
-                "reviewsRestricted": false,
-                "platformAttributes": {
-                    "ios": {
-                        "offers": [
-                            {
-                                "buyParams": "productType=C&price=1000&salableAdamId=6451397295&pricingParameters=STDQ&pg=default&appExtVrsId=871903888",
-                                "type": "buy",
-                                "priceFormatted": "¥1.00",
-                                "price": 1,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 22250496
-                                    }
-                                ]
-                            },
-                            {
-                                "buyParams": "productType=C&price=0&salableAdamId=6451397295&pricingParameters=SWUPD&pg=default&appExtVrsId=871903888",
-                                "type": "update",
-                                "priceFormatted": "¥0.00",
-                                "price": 0,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 22250496
-                                    }
-                                ]
-                            }
-                        ],
-                        "requires32bit": false,
-                        "minimumMacOSVersion": "11.0",
-                        "releaseDate": "2023-08-20",
-                        "hasInAppPurchases": false,
-                        "bundleId": "sqcosmos.com.relics",
-                        "hasMessagesExtension": false,
-                        "isStandaloneWithCompanionForWatchOS": false,
-                        "artwork": {
-                            "width": 1024,
-                            "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/b2/36/61b2360c-2623-3087-f4d3-ee584d58d4f4/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/{w}x{h}{c}.{f}",
-                            "bgColor": "ffffff",
-                            "textColor1": "2a0504",
-                            "textColor2": "410e0d",
-                            "textColor3": "553736",
-                            "textColor4": "673e3d"
-                        },
-                        "isAppleWatchSupported": false,
-                        "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isStandaloneForWatchOS": false,
-                        "isHiddenFromSpringboard": false,
-                        "isDeliveredInIOSAppForWatchOS": false,
-                        "isXROSCompatible": true,
-                        "editorialArtwork": {
-                            "contentIconTrimmedMonochrome": {
-                                "width": 788,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            },
-                            "contentIconTrimmed": {
-                                "width": 788,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
-                                "bgColor": "575c60",
-                                "textColor1": "f9f9fa",
-                                "textColor2": "dadde0",
-                                "textColor3": "d8d9db",
-                                "textColor4": "c0c3c7"
-                            },
-                            "brandLogo": {
-                                "width": 1080,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            }
-                        },
-                        "minimumXROSVersion": "1.0",
-                        "subtitle": "一睹华夏文化瑰宝",
-                        "hasSafariExtension": false,
-                        "requiresGameController": false
-                    }
-                },
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/b2/36/61b2360c-2623-3087-f4d3-ee584d58d4f4/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "2a0504",
-                    "textColor2": "410e0d",
-                    "textColor3": "553736",
-                    "textColor4": "673e3d"
-                }
-            },
-            {
-                "kind": "app",
-                "id": "380926285",
-                "type": "apps",
-                "href": "/v1/catalog/cn/apps/380926285?l=zh-Hans-CN",
-                "attributes": {
-                    "supportsArcade": false,
-                    "isFirstPartyHideableApp": false,
-                    "contentRatingsBySystem": {
-                        "appsApple": {
-                            "name": "4+",
-                            "value": 100,
-                            "rank": 1
-                        }
-                    },
-                    "deviceFamilies": [
-                        "iphone",
-                        "ipad",
-                        "ipod"
-                    ],
-                    "chartPositions": {
-                        "appStore": {
-                            "position": 2,
-                            "genreName": "报刊杂志",
-                            "genre": 6021,
-                            "chart": "top-paid",
-                            "genreShortName": "杂志",
-                            "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                        }
-                    },
-                    "supportsStreamlinedBuy": true,
-                    "url": "https://apps.apple.com/cn/app/oggi-cucino-digital-edition/id380926285",
-                    "userRating": {
-                        "value": 0,
-                        "ratingCount": 0,
-                        "ratingCountList": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        "ariaLabelForRatings": "0 星"
-                    },
-                    "name": "Oggi Cucino - Digital Edition",
-                    "genreDisplayName": "生活",
-                    "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
-                    "artistName": "RCS MediaGroup S.p.A.",
-                    "reviewsRestricted": false,
-                    "platformAttributes": {
-                        "ios": {
-                            "offers": [
-                                {
-                                    "buyParams": "productType=C&price=3000&salableAdamId=380926285&pricingParameters=STDQ&pg=default&appExtVrsId=860280177",
-                                    "type": "buy",
-                                    "priceFormatted": "¥3.00",
-                                    "price": 3,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 28388352
-                                        }
-                                    ]
-                                },
-                                {
-                                    "buyParams": "productType=C&price=0&salableAdamId=380926285&pricingParameters=SWUPD&pg=default&appExtVrsId=860280177",
-                                    "type": "update",
-                                    "priceFormatted": "¥0.00",
-                                    "price": 0,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 28388352
-                                        }
-                                    ]
-                                }
-                            ],
-                            "requires32bit": false,
-                            "minimumMacOSVersion": "11.0",
-                            "releaseDate": "2010-07-13",
-                            "hasInAppPurchases": true,
-                            "bundleId": "com.paperlit.iocucino",
-                            "hasMessagesExtension": false,
-                            "isStandaloneWithCompanionForWatchOS": false,
-                            "artwork": {
-                                "width": 1024,
-                                "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/04/6a/72046aba-7c5c-4ef0-faaf-6e218c3c493e/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/{w}x{h}{c}.{f}",
-                                "bgColor": "ffffff",
-                                "textColor1": "140005",
-                                "textColor2": "65001a",
-                                "textColor3": "433337",
-                                "textColor4": "843348"
-                            },
-                            "isAppleWatchSupported": false,
-                            "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isStandaloneForWatchOS": false,
-                            "isHiddenFromSpringboard": false,
-                            "isDeliveredInIOSAppForWatchOS": false,
-                            "editorialArtwork": {
-                                "contentIconTrimmedMonochrome": {
-                                    "width": 996,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5a/ee/73/5aee7316-0729-7b2c-5569-674751c4ba41/a60c2697-deab-4e95-a21f-4a9cf3ac1335.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                },
-                                "contentIconTrimmed": {
-                                    "width": 996,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/66/c7/6c/66c76cce-2a4f-f042-2e85-8167b7f81008/5da69965-8053-4624-844d-60ed5411ce25.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "b60a0a",
-                                    "textColor1": "fab863",
-                                    "textColor2": "f8b762",
-                                    "textColor3": "ec9551",
-                                    "textColor4": "eb9551"
-                                },
-                                "originalFlowcaseBrick": {
-                                    "width": 3200,
-                                    "height": 600,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3a/9b/8c/3a9b8cac-0c09-3b25-e7fc-6ea3c1c711d5/mza_3004942591466789915.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "e4d7bc",
-                                    "textColor1": "140106",
-                                    "textColor2": "140307",
-                                    "textColor3": "3e2c2a",
-                                    "textColor4": "3e2d2b"
-                                },
-                                "brandLogo": {
-                                    "width": 1080,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/76/85/df/7685df3a-c79c-0a77-e55f-e85b16c173b9/8435fae0-cd9c-4867-8e00-9f91d40967ab.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                }
-                            },
-                            "minimumXROSVersion": "1.0",
-                            "isXROSCompatible": true,
-                            "hasSafariExtension": false,
-                            "requiresGameController": false
-                        }
-                    }
-                },
-                "relationships": {
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/380926285/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "326634019",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/326634019?l=zh-Hans-CN"
-                            }
-                        ]
-                    },
-                    "genres": {
-                        "href": "/v1/catalog/cn/apps/380926285/genres?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "6012",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6012?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "生活",
-                                    "url": "https://itunes.apple.com/cn/genre/id6012",
-                                    "parentId": "36"
-                                }
-                            },
-                            {
-                                "id": "6021",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6021?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "报刊杂志",
-                                    "url": "https://itunes.apple.com/cn/genre/id6021",
-                                    "parentId": "36"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "meta": {
-                    "contentVersion": {
-                        "MZ_INDEXER": 1739504907040,
-                        "RTCI": 1735638275967
-                    }
-                },
-                "supportsArcade": false,
-                "isFirstPartyHideableApp": false,
-                "contentRatingsBySystem": {
-                    "appsApple": {
-                        "name": "4+",
-                        "value": 100,
-                        "rank": 1
-                    }
-                },
-                "deviceFamilies": [
-                    "iphone",
-                    "ipad",
-                    "ipod"
-                ],
-                "chartPositions": {
-                    "appStore": {
-                        "position": 2,
-                        "genreName": "报刊杂志",
-                        "genre": 6021,
-                        "chart": "top-paid",
-                        "genreShortName": "杂志",
-                        "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                    }
-                },
-                "supportsStreamlinedBuy": true,
-                "url": "https://apps.apple.com/cn/app/oggi-cucino-digital-edition/id380926285",
-                "userRating": {
-                    "value": 0,
-                    "ratingCount": 0,
-                    "ratingCountList": [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "ariaLabelForRatings": "0 星"
-                },
-                "name": "Oggi Cucino - Digital Edition",
-                "genreDisplayName": "生活",
-                "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
-                "artistName": "RCS MediaGroup S.p.A.",
-                "reviewsRestricted": false,
-                "platformAttributes": {
-                    "ios": {
-                        "offers": [
-                            {
-                                "buyParams": "productType=C&price=3000&salableAdamId=380926285&pricingParameters=STDQ&pg=default&appExtVrsId=860280177",
-                                "type": "buy",
-                                "priceFormatted": "¥3.00",
-                                "price": 3,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 28388352
-                                    }
-                                ]
-                            },
-                            {
-                                "buyParams": "productType=C&price=0&salableAdamId=380926285&pricingParameters=SWUPD&pg=default&appExtVrsId=860280177",
-                                "type": "update",
-                                "priceFormatted": "¥0.00",
-                                "price": 0,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 28388352
-                                    }
-                                ]
-                            }
-                        ],
-                        "requires32bit": false,
-                        "minimumMacOSVersion": "11.0",
-                        "releaseDate": "2010-07-13",
-                        "hasInAppPurchases": true,
-                        "bundleId": "com.paperlit.iocucino",
-                        "hasMessagesExtension": false,
-                        "isStandaloneWithCompanionForWatchOS": false,
-                        "artwork": {
-                            "width": 1024,
-                            "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/04/6a/72046aba-7c5c-4ef0-faaf-6e218c3c493e/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/{w}x{h}{c}.{f}",
-                            "bgColor": "ffffff",
-                            "textColor1": "140005",
-                            "textColor2": "65001a",
-                            "textColor3": "433337",
-                            "textColor4": "843348"
-                        },
-                        "isAppleWatchSupported": false,
-                        "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isStandaloneForWatchOS": false,
-                        "isHiddenFromSpringboard": false,
-                        "isDeliveredInIOSAppForWatchOS": false,
-                        "editorialArtwork": {
-                            "contentIconTrimmedMonochrome": {
-                                "width": 996,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5a/ee/73/5aee7316-0729-7b2c-5569-674751c4ba41/a60c2697-deab-4e95-a21f-4a9cf3ac1335.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            },
-                            "contentIconTrimmed": {
-                                "width": 996,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/66/c7/6c/66c76cce-2a4f-f042-2e85-8167b7f81008/5da69965-8053-4624-844d-60ed5411ce25.png/{w}x{h}{c}.{f}",
-                                "bgColor": "b60a0a",
-                                "textColor1": "fab863",
-                                "textColor2": "f8b762",
-                                "textColor3": "ec9551",
-                                "textColor4": "eb9551"
-                            },
-                            "originalFlowcaseBrick": {
-                                "width": 3200,
-                                "height": 600,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3a/9b/8c/3a9b8cac-0c09-3b25-e7fc-6ea3c1c711d5/mza_3004942591466789915.png/{w}x{h}{c}.{f}",
-                                "bgColor": "e4d7bc",
-                                "textColor1": "140106",
-                                "textColor2": "140307",
-                                "textColor3": "3e2c2a",
-                                "textColor4": "3e2d2b"
-                            },
-                            "brandLogo": {
-                                "width": 1080,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/76/85/df/7685df3a-c79c-0a77-e55f-e85b16c173b9/8435fae0-cd9c-4867-8e00-9f91d40967ab.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            }
-                        },
-                        "minimumXROSVersion": "1.0",
-                        "isXROSCompatible": true,
-                        "hasSafariExtension": false,
-                        "requiresGameController": false
-                    }
-                },
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/04/6a/72046aba-7c5c-4ef0-faaf-6e218c3c493e/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "140005",
-                    "textColor2": "65001a",
-                    "textColor3": "433337",
-                    "textColor4": "843348"
-                }
-            },
-            {
-                "kind": "app",
-                "id": "1543359328",
-                "type": "apps",
-                "href": "/v1/catalog/cn/apps/1543359328?l=zh-Hans-CN",
-                "attributes": {
-                    "supportsArcade": false,
-                    "isFirstPartyHideableApp": false,
-                    "contentRatingsBySystem": {
-                        "appsApple": {
-                            "name": "9+",
-                            "value": 200,
-                            "rank": 2,
-                            "advisories": [
-                                "偶尔/轻微的成人或性暗示题材"
-                            ]
-                        }
-                    },
-                    "deviceFamilies": [
-                        "iphone",
-                        "ipad",
-                        "ipod"
-                    ],
-                    "chartPositions": {
-                        "appStore": {
-                            "position": 3,
-                            "genreName": "报刊杂志",
-                            "genre": 6021,
-                            "chart": "top-paid",
-                            "genreShortName": "杂志",
-                            "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                        }
-                    },
-                    "supportsStreamlinedBuy": true,
-                    "url": "https://apps.apple.com/cn/app/idaily-2020-%E5%B9%B4%E5%BA%A6%E5%88%AB%E5%86%8C/id1543359328",
-                    "userRating": {
-                        "value": 4.9,
-                        "ratingCount": 345,
-                        "ratingCountList": [
-                            5,
-                            2,
-                            3,
-                            9,
-                            326
-                        ],
-                        "ariaLabelForRatings": "4.9 星"
-                    },
-                    "firstVersionSupportingInAppPurchaseApi": "2020",
-                    "name": "iDaily · 2020 年度别册",
-                    "genreDisplayName": "报刊杂志",
-                    "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
-                    "artistName": "iDaily Corp.",
-                    "reviewsRestricted": false,
-                    "platformAttributes": {
-                        "ios": {
-                            "offers": [
-                                {
-                                    "buyParams": "productType=C&price=22000&salableAdamId=1543359328&pricingParameters=STDQ&pg=default&appExtVrsId=839967578",
-                                    "type": "buy",
-                                    "priceFormatted": "¥22.00",
-                                    "price": 22,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 93229056
-                                        }
-                                    ]
-                                },
-                                {
-                                    "buyParams": "productType=C&price=0&salableAdamId=1543359328&pricingParameters=SWUPD&pg=default&appExtVrsId=839967578",
-                                    "type": "update",
-                                    "priceFormatted": "¥0.00",
-                                    "price": 0,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 93229056
-                                        }
-                                    ]
-                                }
-                            ],
-                            "minimumMacOSVersion": "11.0",
-                            "requires32bit": false,
-                            "releaseDate": "2020-12-29",
-                            "hasInAppPurchases": true,
-                            "bundleId": "com.chii.idaily.focus.2020",
-                            "hasMessagesExtension": false,
-                            "isStandaloneWithCompanionForWatchOS": false,
-                            "artwork": {
-                                "width": 1024,
-                                "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/0a/07/06/0a07069a-08fb-8a5c-90c7-9c88b70c1ba4/AppIcon2020-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                                "bgColor": "22222c",
-                                "textColor1": "f4c55a",
-                                "textColor2": "f8ab43",
-                                "textColor3": "caa451",
-                                "textColor4": "cd8f3e"
-                            },
-                            "isAppleWatchSupported": false,
-                            "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": false,
-                            "isStandaloneForWatchOS": false,
-                            "isDeliveredInIOSAppForWatchOS": false,
-                            "isXROSCompatible": false,
-                            "editorialArtwork": {
-                                "contentIconTrimmedMonochrome": {
-                                    "width": 788,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                },
-                                "contentIconTrimmed": {
-                                    "width": 788,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "575c60",
-                                    "textColor1": "f9f9fa",
-                                    "textColor2": "dadde0",
-                                    "textColor3": "d8d9db",
-                                    "textColor4": "c0c3c7"
-                                },
-                                "brandLogo": {
-                                    "width": 1080,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                }
-                            },
-                            "subtitle": "5000 张图片回顾人类星球的 2020",
-                            "hasSafariExtension": false,
-                            "requiresGameController": false
-                        }
-                    }
-                },
-                "relationships": {
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/1543359328/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "364264742",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/364264742?l=zh-Hans-CN"
-                            }
-                        ]
-                    },
-                    "genres": {
-                        "href": "/v1/catalog/cn/apps/1543359328/genres?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "6021",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6021?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "报刊杂志",
-                                    "url": "https://itunes.apple.com/cn/genre/id6021",
-                                    "parentId": "36"
-                                }
-                            },
-                            {
-                                "id": "6012",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6012?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "生活",
-                                    "url": "https://itunes.apple.com/cn/genre/id6012",
-                                    "parentId": "36"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "meta": {
-                    "contentVersion": {
-                        "MZ_INDEXER": 1739554876235,
-                        "RTCI": 1738954841432
-                    }
-                },
-                "supportsArcade": false,
-                "isFirstPartyHideableApp": false,
-                "contentRatingsBySystem": {
-                    "appsApple": {
-                        "name": "9+",
-                        "value": 200,
-                        "rank": 2,
-                        "advisories": [
-                            "偶尔/轻微的成人或性暗示题材"
-                        ]
-                    }
-                },
-                "deviceFamilies": [
-                    "iphone",
-                    "ipad",
-                    "ipod"
-                ],
-                "chartPositions": {
-                    "appStore": {
-                        "position": 3,
-                        "genreName": "报刊杂志",
-                        "genre": 6021,
-                        "chart": "top-paid",
-                        "genreShortName": "杂志",
-                        "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                    }
-                },
-                "supportsStreamlinedBuy": true,
-                "url": "https://apps.apple.com/cn/app/idaily-2020-%E5%B9%B4%E5%BA%A6%E5%88%AB%E5%86%8C/id1543359328",
-                "userRating": {
-                    "value": 4.9,
-                    "ratingCount": 345,
-                    "ratingCountList": [
-                        5,
-                        2,
-                        3,
-                        9,
-                        326
-                    ],
-                    "ariaLabelForRatings": "4.9 星"
-                },
-                "firstVersionSupportingInAppPurchaseApi": "2020",
-                "name": "iDaily · 2020 年度别册",
-                "genreDisplayName": "报刊杂志",
-                "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
-                "artistName": "iDaily Corp.",
-                "reviewsRestricted": false,
-                "platformAttributes": {
-                    "ios": {
-                        "offers": [
-                            {
-                                "buyParams": "productType=C&price=22000&salableAdamId=1543359328&pricingParameters=STDQ&pg=default&appExtVrsId=839967578",
-                                "type": "buy",
-                                "priceFormatted": "¥22.00",
-                                "price": 22,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 93229056
-                                    }
-                                ]
-                            },
-                            {
-                                "buyParams": "productType=C&price=0&salableAdamId=1543359328&pricingParameters=SWUPD&pg=default&appExtVrsId=839967578",
-                                "type": "update",
-                                "priceFormatted": "¥0.00",
-                                "price": 0,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 93229056
-                                    }
-                                ]
-                            }
-                        ],
-                        "minimumMacOSVersion": "11.0",
-                        "requires32bit": false,
-                        "releaseDate": "2020-12-29",
-                        "hasInAppPurchases": true,
-                        "bundleId": "com.chii.idaily.focus.2020",
-                        "hasMessagesExtension": false,
-                        "isStandaloneWithCompanionForWatchOS": false,
-                        "artwork": {
-                            "width": 1024,
-                            "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/0a/07/06/0a07069a-08fb-8a5c-90c7-9c88b70c1ba4/AppIcon2020-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                            "bgColor": "22222c",
-                            "textColor1": "f4c55a",
-                            "textColor2": "f8ab43",
-                            "textColor3": "caa451",
-                            "textColor4": "cd8f3e"
-                        },
-                        "isAppleWatchSupported": false,
-                        "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": false,
-                        "isStandaloneForWatchOS": false,
-                        "isDeliveredInIOSAppForWatchOS": false,
-                        "isXROSCompatible": false,
-                        "editorialArtwork": {
-                            "contentIconTrimmedMonochrome": {
-                                "width": 788,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            },
-                            "contentIconTrimmed": {
-                                "width": 788,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
-                                "bgColor": "575c60",
-                                "textColor1": "f9f9fa",
-                                "textColor2": "dadde0",
-                                "textColor3": "d8d9db",
-                                "textColor4": "c0c3c7"
-                            },
-                            "brandLogo": {
-                                "width": 1080,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            }
-                        },
-                        "subtitle": "5000 张图片回顾人类星球的 2020",
-                        "hasSafariExtension": false,
-                        "requiresGameController": false
-                    }
-                },
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/0a/07/06/0a07069a-08fb-8a5c-90c7-9c88b70c1ba4/AppIcon2020-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "22222c",
-                    "textColor1": "f4c55a",
-                    "textColor2": "f8ab43",
-                    "textColor3": "caa451",
-                    "textColor4": "cd8f3e"
-                }
-            },
-            {
-                "kind": "app",
-                "id": "1061473017",
-                "type": "apps",
-                "href": "/v1/catalog/cn/apps/1061473017?l=zh-Hans-CN",
-                "attributes": {
-                    "supportsArcade": false,
-                    "isFirstPartyHideableApp": false,
-                    "contentRatingsBySystem": {
-                        "appsApple": {
-                            "name": "4+",
-                            "value": 100,
-                            "rank": 1
-                        }
-                    },
-                    "deviceFamilies": [
-                        "iphone",
-                        "ipod"
-                    ],
-                    "chartPositions": {
-                        "appStore": {
-                            "position": 4,
-                            "genreName": "报刊杂志",
-                            "genre": 6021,
-                            "chart": "top-paid",
-                            "genreShortName": "杂志",
-                            "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                        }
-                    },
-                    "supportsStreamlinedBuy": true,
-                    "url": "https://apps.apple.com/cn/app/docscanner-scan-documents-receipts-biz-cards/id1061473017",
-                    "userRating": {
-                        "value": 0,
-                        "ratingCount": 0,
-                        "ratingCountList": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        "ariaLabelForRatings": "0 星"
-                    },
-                    "name": "DocScanner - Scan Documents, Receipts, Biz Cards",
-                    "genreDisplayName": "商务",
-                    "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
-                    "artistName": "Abhay Vala",
-                    "reviewsRestricted": false,
-                    "platformAttributes": {
-                        "ios": {
-                            "offers": [
-                                {
-                                    "buyParams": "productType=C&price=15000&salableAdamId=1061473017&pricingParameters=STDQ&pg=default&appExtVrsId=841544607",
-                                    "type": "buy",
-                                    "priceFormatted": "¥15.00",
-                                    "price": 15,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 3451904
-                                        }
-                                    ]
-                                },
-                                {
-                                    "buyParams": "productType=C&price=0&salableAdamId=1061473017&pricingParameters=SWUPD&pg=default&appExtVrsId=841544607",
-                                    "type": "update",
-                                    "priceFormatted": "¥0.00",
-                                    "price": 0,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 3451904
-                                        }
-                                    ]
-                                }
-                            ],
-                            "requires32bit": false,
-                            "minimumMacOSVersion": "11.0",
-                            "releaseDate": "2015-12-01",
-                            "hasInAppPurchases": false,
-                            "bundleId": "com.abhayraj.DocScanner",
-                            "hasMessagesExtension": false,
-                            "isStandaloneWithCompanionForWatchOS": false,
-                            "artwork": {
-                                "width": 1024,
-                                "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/fb/f0/3e/fbf03e5d-0e64-cdd4-2b31-6149daa033d2/mzl.ynoeflvs.png/{w}x{h}{c}.{f}",
-                                "bgColor": "bde0fc",
-                                "textColor1": "0c184f",
-                                "textColor2": "28282a",
-                                "textColor3": "2f4071",
-                                "textColor4": "464d54"
-                            },
-                            "isAppleWatchSupported": false,
-                            "requiredCapabilitiesForRealityDevice": "armv7 ",
-                            "isStandaloneForWatchOS": false,
-                            "isHiddenFromSpringboard": false,
-                            "isDeliveredInIOSAppForWatchOS": false,
-                            "isXROSCompatible": true,
-                            "editorialArtwork": {
-                                "contentIconTrimmedMonochrome": {
-                                    "width": 1050,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6b/26/61/6b266131-b03c-10b8-5640-24ed75a1b527/9020ae77-3d4e-48fc-a546-8895dffe962b.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                },
-                                "contentIconTrimmed": {
-                                    "width": 1051,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/bb/46/6cbb4651-ad2b-b7d4-8c0b-da19ece82df1/bc8fd91d-08b5-4439-b99d-06b141f52ea5.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "b68549",
-                                    "textColor1": "090603",
-                                    "textColor2": "120d07",
-                                    "textColor3": "2b1f11",
-                                    "textColor4": "322514"
-                                },
-                                "brandLogo": {
-                                    "width": 1080,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/29/88/222988f5-d687-a390-7bd5-e7ff102c70d4/c11d0a2e-7af6-4725-a1a5-7ca61e6cb749.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                }
-                            },
-                            "minimumXROSVersion": "1.0",
-                            "hasSafariExtension": false,
-                            "requiresGameController": false
-                        }
-                    }
-                },
-                "relationships": {
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/1061473017/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "915927007",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/915927007?l=zh-Hans-CN"
-                            }
-                        ]
-                    },
-                    "genres": {
-                        "href": "/v1/catalog/cn/apps/1061473017/genres?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "6000",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6000?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "商务",
-                                    "url": "https://itunes.apple.com/cn/genre/id6000",
-                                    "parentId": "36"
-                                }
-                            },
-                            {
-                                "id": "6021",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6021?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "报刊杂志",
-                                    "url": "https://itunes.apple.com/cn/genre/id6021",
-                                    "parentId": "36"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "meta": {
-                    "contentVersion": {
-                        "MZ_INDEXER": 1739488197275,
-                        "RTCI": 1738954053302
-                    }
-                },
-                "supportsArcade": false,
-                "isFirstPartyHideableApp": false,
-                "contentRatingsBySystem": {
-                    "appsApple": {
-                        "name": "4+",
-                        "value": 100,
-                        "rank": 1
-                    }
-                },
-                "deviceFamilies": [
-                    "iphone",
-                    "ipod"
-                ],
-                "chartPositions": {
-                    "appStore": {
-                        "position": 4,
-                        "genreName": "报刊杂志",
-                        "genre": 6021,
-                        "chart": "top-paid",
-                        "genreShortName": "杂志",
-                        "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                    }
-                },
-                "supportsStreamlinedBuy": true,
-                "url": "https://apps.apple.com/cn/app/docscanner-scan-documents-receipts-biz-cards/id1061473017",
-                "userRating": {
-                    "value": 0,
-                    "ratingCount": 0,
-                    "ratingCountList": [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "ariaLabelForRatings": "0 星"
-                },
-                "name": "DocScanner - Scan Documents, Receipts, Biz Cards",
-                "genreDisplayName": "商务",
-                "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
-                "artistName": "Abhay Vala",
-                "reviewsRestricted": false,
-                "platformAttributes": {
-                    "ios": {
-                        "offers": [
-                            {
-                                "buyParams": "productType=C&price=15000&salableAdamId=1061473017&pricingParameters=STDQ&pg=default&appExtVrsId=841544607",
-                                "type": "buy",
-                                "priceFormatted": "¥15.00",
-                                "price": 15,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 3451904
-                                    }
-                                ]
-                            },
-                            {
-                                "buyParams": "productType=C&price=0&salableAdamId=1061473017&pricingParameters=SWUPD&pg=default&appExtVrsId=841544607",
-                                "type": "update",
-                                "priceFormatted": "¥0.00",
-                                "price": 0,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 3451904
-                                    }
-                                ]
-                            }
-                        ],
-                        "requires32bit": false,
-                        "minimumMacOSVersion": "11.0",
-                        "releaseDate": "2015-12-01",
-                        "hasInAppPurchases": false,
-                        "bundleId": "com.abhayraj.DocScanner",
-                        "hasMessagesExtension": false,
-                        "isStandaloneWithCompanionForWatchOS": false,
-                        "artwork": {
-                            "width": 1024,
-                            "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/fb/f0/3e/fbf03e5d-0e64-cdd4-2b31-6149daa033d2/mzl.ynoeflvs.png/{w}x{h}{c}.{f}",
-                            "bgColor": "bde0fc",
-                            "textColor1": "0c184f",
-                            "textColor2": "28282a",
-                            "textColor3": "2f4071",
-                            "textColor4": "464d54"
-                        },
-                        "isAppleWatchSupported": false,
-                        "requiredCapabilitiesForRealityDevice": "armv7 ",
-                        "isStandaloneForWatchOS": false,
-                        "isHiddenFromSpringboard": false,
-                        "isDeliveredInIOSAppForWatchOS": false,
-                        "isXROSCompatible": true,
-                        "editorialArtwork": {
-                            "contentIconTrimmedMonochrome": {
-                                "width": 1050,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6b/26/61/6b266131-b03c-10b8-5640-24ed75a1b527/9020ae77-3d4e-48fc-a546-8895dffe962b.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            },
-                            "contentIconTrimmed": {
-                                "width": 1051,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/bb/46/6cbb4651-ad2b-b7d4-8c0b-da19ece82df1/bc8fd91d-08b5-4439-b99d-06b141f52ea5.png/{w}x{h}{c}.{f}",
-                                "bgColor": "b68549",
-                                "textColor1": "090603",
-                                "textColor2": "120d07",
-                                "textColor3": "2b1f11",
-                                "textColor4": "322514"
-                            },
-                            "brandLogo": {
-                                "width": 1080,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/29/88/222988f5-d687-a390-7bd5-e7ff102c70d4/c11d0a2e-7af6-4725-a1a5-7ca61e6cb749.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            }
-                        },
-                        "minimumXROSVersion": "1.0",
-                        "hasSafariExtension": false,
-                        "requiresGameController": false
-                    }
-                },
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/fb/f0/3e/fbf03e5d-0e64-cdd4-2b31-6149daa033d2/mzl.ynoeflvs.png/{w}x{h}{c}.{f}",
-                    "bgColor": "bde0fc",
-                    "textColor1": "0c184f",
-                    "textColor2": "28282a",
-                    "textColor3": "2f4071",
-                    "textColor4": "464d54"
-                }
-            },
-            {
-                "kind": "app",
-                "id": "530088968",
-                "type": "apps",
-                "href": "/v1/catalog/cn/apps/530088968?l=zh-Hans-CN",
-                "attributes": {
-                    "supportsArcade": false,
-                    "isFirstPartyHideableApp": false,
-                    "contentRatingsBySystem": {
-                        "appsApple": {
-                            "name": "4+",
-                            "value": 100,
-                            "rank": 1
-                        }
-                    },
-                    "deviceFamilies": [
-                        "iphone",
-                        "ipad",
-                        "ipod"
-                    ],
-                    "chartPositions": {
-                        "appStore": {
-                            "position": 5,
-                            "genreName": "报刊杂志",
-                            "genre": 6021,
-                            "chart": "top-paid",
-                            "genreShortName": "杂志",
-                            "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                        }
-                    },
-                    "supportsStreamlinedBuy": true,
-                    "url": "https://apps.apple.com/cn/app/prehistoric-times-magazine/id530088968",
-                    "userRating": {
-                        "wasReset": true,
-                        "value": 5,
-                        "ratingCount": 1,
-                        "ratingCountList": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            1
-                        ],
-                        "ariaLabelForRatings": "5.0 星"
-                    },
-                    "name": "Prehistoric Times Magazine",
-                    "genreDisplayName": "参考资料",
-                    "isPreorder": false,
-                    "artistName": "Magazinecloner.com US LLC",
-                    "isIOSBinaryMacOSCompatible": true,
-                    "reviewsRestricted": false,
-                    "platformAttributes": {
-                        "ios": {
-                            "offers": [
-                                {
-                                    "buyParams": "productType=C&price=15000&salableAdamId=530088968&pricingParameters=STDQ&pg=default&appExtVrsId=841412763",
-                                    "type": "buy",
-                                    "priceFormatted": "¥15.00",
-                                    "price": 15,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 27589632
-                                        }
-                                    ]
-                                },
-                                {
-                                    "buyParams": "productType=C&price=0&salableAdamId=530088968&pricingParameters=SWUPD&pg=default&appExtVrsId=841412763",
-                                    "type": "update",
-                                    "priceFormatted": "¥0.00",
-                                    "price": 0,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 27589632
-                                        }
-                                    ]
-                                }
-                            ],
-                            "minimumMacOSVersion": "11.0",
-                            "requires32bit": false,
-                            "releaseDate": "2012-06-10",
-                            "hasInAppPurchases": true,
-                            "bundleId": "com.triactivemedia.prehistoric",
-                            "hasMessagesExtension": false,
-                            "isStandaloneWithCompanionForWatchOS": false,
-                            "artwork": {
-                                "width": 1024,
-                                "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/38/15/19/3815191d-b618-d14b-c703-624bbb6e403d/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/{w}x{h}{c}.{f}",
-                                "bgColor": "ffffff",
-                                "textColor1": "3a2825",
-                                "textColor2": "3a3034",
-                                "textColor3": "615350",
-                                "textColor4": "61595d"
-                            },
-                            "isAppleWatchSupported": false,
-                            "isStandaloneForWatchOS": false,
-                            "isHiddenFromSpringboard": false,
-                            "isDeliveredInIOSAppForWatchOS": false,
-                            "editorialArtwork": {
-                                "contentIconTrimmedMonochrome": {
-                                    "width": 1096,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a4/64/8a/a4648aa8-5e79-5648-fc5e-d28b823d7e98/b52fb5f5-1f61-4bf9-8ca8-1e9373a6475c.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                },
-                                "contentIconTrimmed": {
-                                    "width": 1096,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fa/f0/81/faf0810c-bdcd-2cf4-f7c6-81a2382fdf9e/50e580ad-ba56-4f94-bf90-5e414a23601f.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "575c61",
-                                    "textColor1": "f9fafc",
-                                    "textColor2": "eff0f2",
-                                    "textColor3": "d8dadd",
-                                    "textColor4": "d0d2d5"
-                                },
-                                "brandLogo": {
-                                    "width": 1080,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ab/fe/fb/abfefb6a-2301-1662-c5a0-828e21676ced/9bd3b293-98ee-4385-98a9-d1734b651b95.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                }
-                            },
-                            "minimumXROSVersion": "1.0",
-                            "isXROSCompatible": true,
-                            "hasSafariExtension": false,
-                            "requiresGameController": false
-                        }
-                    }
-                },
-                "relationships": {
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/530088968/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "421104749",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/421104749?l=zh-Hans-CN"
-                            }
-                        ]
-                    },
-                    "genres": {
-                        "href": "/v1/catalog/cn/apps/530088968/genres?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "6006",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6006?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "参考资料",
-                                    "url": "https://itunes.apple.com/cn/genre/id6006",
-                                    "parentId": "36"
-                                }
-                            },
-                            {
-                                "id": "6021",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6021?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "报刊杂志",
-                                    "url": "https://itunes.apple.com/cn/genre/id6021",
-                                    "parentId": "36"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "meta": {
-                    "contentVersion": {
-                        "MZ_INDEXER": 1739485077837,
-                        "RTCI": 1737896218706
-                    }
-                },
-                "supportsArcade": false,
-                "isFirstPartyHideableApp": false,
-                "contentRatingsBySystem": {
-                    "appsApple": {
-                        "name": "4+",
-                        "value": 100,
-                        "rank": 1
-                    }
-                },
-                "deviceFamilies": [
-                    "iphone",
-                    "ipad",
-                    "ipod"
-                ],
-                "chartPositions": {
-                    "appStore": {
-                        "position": 5,
-                        "genreName": "报刊杂志",
-                        "genre": 6021,
-                        "chart": "top-paid",
-                        "genreShortName": "杂志",
-                        "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                    }
-                },
-                "supportsStreamlinedBuy": true,
-                "url": "https://apps.apple.com/cn/app/prehistoric-times-magazine/id530088968",
-                "userRating": {
-                    "wasReset": true,
-                    "value": 5,
-                    "ratingCount": 1,
-                    "ratingCountList": [
-                        0,
-                        0,
-                        0,
-                        0,
-                        1
-                    ],
-                    "ariaLabelForRatings": "5.0 星"
-                },
-                "name": "Prehistoric Times Magazine",
-                "genreDisplayName": "参考资料",
-                "isPreorder": false,
-                "artistName": "Magazinecloner.com US LLC",
-                "isIOSBinaryMacOSCompatible": true,
-                "reviewsRestricted": false,
-                "platformAttributes": {
-                    "ios": {
-                        "offers": [
-                            {
-                                "buyParams": "productType=C&price=15000&salableAdamId=530088968&pricingParameters=STDQ&pg=default&appExtVrsId=841412763",
-                                "type": "buy",
-                                "priceFormatted": "¥15.00",
-                                "price": 15,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 27589632
-                                    }
-                                ]
-                            },
-                            {
-                                "buyParams": "productType=C&price=0&salableAdamId=530088968&pricingParameters=SWUPD&pg=default&appExtVrsId=841412763",
-                                "type": "update",
-                                "priceFormatted": "¥0.00",
-                                "price": 0,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 27589632
-                                    }
-                                ]
-                            }
-                        ],
-                        "minimumMacOSVersion": "11.0",
-                        "requires32bit": false,
-                        "releaseDate": "2012-06-10",
-                        "hasInAppPurchases": true,
-                        "bundleId": "com.triactivemedia.prehistoric",
-                        "hasMessagesExtension": false,
-                        "isStandaloneWithCompanionForWatchOS": false,
-                        "artwork": {
-                            "width": 1024,
-                            "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/38/15/19/3815191d-b618-d14b-c703-624bbb6e403d/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/{w}x{h}{c}.{f}",
-                            "bgColor": "ffffff",
-                            "textColor1": "3a2825",
-                            "textColor2": "3a3034",
-                            "textColor3": "615350",
-                            "textColor4": "61595d"
-                        },
-                        "isAppleWatchSupported": false,
-                        "isStandaloneForWatchOS": false,
-                        "isHiddenFromSpringboard": false,
-                        "isDeliveredInIOSAppForWatchOS": false,
-                        "editorialArtwork": {
-                            "contentIconTrimmedMonochrome": {
-                                "width": 1096,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a4/64/8a/a4648aa8-5e79-5648-fc5e-d28b823d7e98/b52fb5f5-1f61-4bf9-8ca8-1e9373a6475c.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            },
-                            "contentIconTrimmed": {
-                                "width": 1096,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fa/f0/81/faf0810c-bdcd-2cf4-f7c6-81a2382fdf9e/50e580ad-ba56-4f94-bf90-5e414a23601f.png/{w}x{h}{c}.{f}",
-                                "bgColor": "575c61",
-                                "textColor1": "f9fafc",
-                                "textColor2": "eff0f2",
-                                "textColor3": "d8dadd",
-                                "textColor4": "d0d2d5"
-                            },
-                            "brandLogo": {
-                                "width": 1080,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ab/fe/fb/abfefb6a-2301-1662-c5a0-828e21676ced/9bd3b293-98ee-4385-98a9-d1734b651b95.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            }
-                        },
-                        "minimumXROSVersion": "1.0",
-                        "isXROSCompatible": true,
-                        "hasSafariExtension": false,
-                        "requiresGameController": false
-                    }
-                },
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/38/15/19/3815191d-b618-d14b-c703-624bbb6e403d/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "3a2825",
-                    "textColor2": "3a3034",
-                    "textColor3": "615350",
-                    "textColor4": "61595d"
-                }
-            },
-            {
-                "kind": "app",
-                "id": "1586151492",
-                "type": "apps",
-                "href": "/v1/catalog/cn/apps/1586151492?l=zh-Hans-CN",
-                "attributes": {
-                    "supportsArcade": false,
-                    "isFirstPartyHideableApp": false,
-                    "contentRatingsBySystem": {
-                        "appsApple": {
-                            "name": "4+",
-                            "value": 100,
-                            "rank": 1
-                        }
-                    },
-                    "deviceFamilies": [
-                        "iphone",
-                        "ipad",
-                        "ipod"
-                    ],
-                    "chartPositions": {
-                        "appStore": {
-                            "position": 6,
-                            "genreName": "报刊杂志",
-                            "genre": 6021,
-                            "chart": "top-paid",
-                            "genreShortName": "杂志",
-                            "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                        }
-                    },
-                    "supportsStreamlinedBuy": true,
-                    "url": "https://apps.apple.com/cn/app/%E4%B9%9D%E5%AE%AB%E6%A0%BC%E5%88%87%E5%9B%BE-%E6%9C%8B%E5%8F%8B%E5%9C%88%E5%9B%BE%E7%89%87%E4%B8%80%E9%94%AE%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/id1586151492",
-                    "userRating": {
-                        "value": 4,
-                        "ratingCount": 1,
-                        "ratingCountList": [
-                            0,
-                            0,
-                            0,
-                            1,
-                            0
-                        ],
-                        "ariaLabelForRatings": "4.0 星"
-                    },
-                    "name": "九宫格切图-朋友圈图片一键制作工具",
-                    "genreDisplayName": "报刊杂志",
-                    "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": true,
-                    "artistName": "欣明 封",
-                    "reviewsRestricted": false,
-                    "platformAttributes": {
-                        "ios": {
-                            "offers": [
-                                {
-                                    "buyParams": "productType=C&price=15000&salableAdamId=1586151492&pricingParameters=STDQ&pg=default&appExtVrsId=849183129",
-                                    "type": "buy",
-                                    "priceFormatted": "¥15.00",
-                                    "price": 15,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 30471168
-                                        }
-                                    ]
-                                },
-                                {
-                                    "buyParams": "productType=C&price=0&salableAdamId=1586151492&pricingParameters=SWUPD&pg=default&appExtVrsId=849183129",
-                                    "type": "update",
-                                    "priceFormatted": "¥0.00",
-                                    "price": 0,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 30471168
-                                        }
-                                    ]
-                                }
-                            ],
-                            "requires32bit": false,
-                            "minimumMacOSVersion": "11.0",
-                            "releaseDate": "2021-10-09",
-                            "hasInAppPurchases": false,
-                            "bundleId": "top.vsworks.v9Picture",
-                            "hasMessagesExtension": false,
-                            "isStandaloneWithCompanionForWatchOS": false,
-                            "artwork": {
-                                "width": 1024,
-                                "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b4/b1/82/b4b182ef-420b-b711-23e3-7e2f01b60ebb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                                "bgColor": "af2923",
-                                "textColor1": "f8e3e1",
-                                "textColor2": "fccbc8",
-                                "textColor3": "e9bebb",
-                                "textColor4": "edaaa7"
-                            },
-                            "isAppleWatchSupported": false,
-                            "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isStandaloneForWatchOS": false,
-                            "isHiddenFromSpringboard": false,
-                            "isDeliveredInIOSAppForWatchOS": false,
-                            "editorialArtwork": {
-                                "contentIconTrimmedMonochrome": {
-                                    "width": 788,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                },
-                                "contentIconTrimmed": {
-                                    "width": 788,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "575c60",
-                                    "textColor1": "f9f9fa",
-                                    "textColor2": "dadde0",
-                                    "textColor3": "d8d9db",
-                                    "textColor4": "c0c3c7"
-                                },
-                                "brandLogo": {
-                                    "width": 1080,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                }
-                            },
-                            "minimumXROSVersion": "1.0",
-                            "isXROSCompatible": true,
-                            "subtitle": "快速方便优雅的自定义社交媒体信息流",
-                            "hasSafariExtension": false,
-                            "requiresGameController": false
-                        }
-                    }
-                },
-                "relationships": {
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/1586151492/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "1473431377",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/1473431377?l=zh-Hans-CN"
-                            }
-                        ]
-                    },
-                    "genres": {
-                        "href": "/v1/catalog/cn/apps/1586151492/genres?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "6021",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6021?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "报刊杂志",
-                                    "url": "https://itunes.apple.com/cn/genre/id6021",
-                                    "parentId": "36"
-                                }
-                            },
-                            {
-                                "id": "6006",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6006?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "参考资料",
-                                    "url": "https://itunes.apple.com/cn/genre/id6006",
-                                    "parentId": "36"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "meta": {
-                    "contentVersion": {
-                        "MZ_INDEXER": 1739500312161,
-                        "RTCI": 1738952564687
-                    }
-                },
-                "supportsArcade": false,
-                "isFirstPartyHideableApp": false,
-                "contentRatingsBySystem": {
-                    "appsApple": {
-                        "name": "4+",
-                        "value": 100,
-                        "rank": 1
-                    }
-                },
-                "deviceFamilies": [
-                    "iphone",
-                    "ipad",
-                    "ipod"
-                ],
-                "chartPositions": {
-                    "appStore": {
-                        "position": 6,
-                        "genreName": "报刊杂志",
-                        "genre": 6021,
-                        "chart": "top-paid",
-                        "genreShortName": "杂志",
-                        "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                    }
-                },
-                "supportsStreamlinedBuy": true,
-                "url": "https://apps.apple.com/cn/app/%E4%B9%9D%E5%AE%AB%E6%A0%BC%E5%88%87%E5%9B%BE-%E6%9C%8B%E5%8F%8B%E5%9C%88%E5%9B%BE%E7%89%87%E4%B8%80%E9%94%AE%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/id1586151492",
-                "userRating": {
-                    "value": 4,
-                    "ratingCount": 1,
-                    "ratingCountList": [
-                        0,
-                        0,
-                        0,
-                        1,
-                        0
-                    ],
-                    "ariaLabelForRatings": "4.0 星"
-                },
-                "name": "九宫格切图-朋友圈图片一键制作工具",
-                "genreDisplayName": "报刊杂志",
-                "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": true,
-                "artistName": "欣明 封",
-                "reviewsRestricted": false,
-                "platformAttributes": {
-                    "ios": {
-                        "offers": [
-                            {
-                                "buyParams": "productType=C&price=15000&salableAdamId=1586151492&pricingParameters=STDQ&pg=default&appExtVrsId=849183129",
-                                "type": "buy",
-                                "priceFormatted": "¥15.00",
-                                "price": 15,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 30471168
-                                    }
-                                ]
-                            },
-                            {
-                                "buyParams": "productType=C&price=0&salableAdamId=1586151492&pricingParameters=SWUPD&pg=default&appExtVrsId=849183129",
-                                "type": "update",
-                                "priceFormatted": "¥0.00",
-                                "price": 0,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 30471168
-                                    }
-                                ]
-                            }
-                        ],
-                        "requires32bit": false,
-                        "minimumMacOSVersion": "11.0",
-                        "releaseDate": "2021-10-09",
-                        "hasInAppPurchases": false,
-                        "bundleId": "top.vsworks.v9Picture",
-                        "hasMessagesExtension": false,
-                        "isStandaloneWithCompanionForWatchOS": false,
-                        "artwork": {
-                            "width": 1024,
-                            "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b4/b1/82/b4b182ef-420b-b711-23e3-7e2f01b60ebb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                            "bgColor": "af2923",
-                            "textColor1": "f8e3e1",
-                            "textColor2": "fccbc8",
-                            "textColor3": "e9bebb",
-                            "textColor4": "edaaa7"
-                        },
-                        "isAppleWatchSupported": false,
-                        "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isStandaloneForWatchOS": false,
-                        "isHiddenFromSpringboard": false,
-                        "isDeliveredInIOSAppForWatchOS": false,
-                        "editorialArtwork": {
-                            "contentIconTrimmedMonochrome": {
-                                "width": 788,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            },
-                            "contentIconTrimmed": {
-                                "width": 788,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
-                                "bgColor": "575c60",
-                                "textColor1": "f9f9fa",
-                                "textColor2": "dadde0",
-                                "textColor3": "d8d9db",
-                                "textColor4": "c0c3c7"
-                            },
-                            "brandLogo": {
-                                "width": 1080,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            }
-                        },
-                        "minimumXROSVersion": "1.0",
-                        "isXROSCompatible": true,
-                        "subtitle": "快速方便优雅的自定义社交媒体信息流",
-                        "hasSafariExtension": false,
-                        "requiresGameController": false
-                    }
-                },
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b4/b1/82/b4b182ef-420b-b711-23e3-7e2f01b60ebb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "af2923",
-                    "textColor1": "f8e3e1",
-                    "textColor2": "fccbc8",
-                    "textColor3": "e9bebb",
-                    "textColor4": "edaaa7"
-                }
-            },
-            {
-                "kind": "app",
-                "id": "6444249757",
-                "type": "apps",
-                "href": "/v1/catalog/cn/apps/6444249757?l=zh-Hans-CN",
-                "attributes": {
-                    "supportsArcade": false,
-                    "isFirstPartyHideableApp": false,
-                    "contentRatingsBySystem": {
-                        "appsApple": {
-                            "name": "4+",
-                            "value": 100,
-                            "rank": 1
-                        }
-                    },
-                    "deviceFamilies": [
-                        "watch",
-                        "iphone",
-                        "ipod"
-                    ],
-                    "chartPositions": {
-                        "appStore": {
-                            "position": 7,
-                            "genreName": "报刊杂志",
-                            "genre": 6021,
-                            "chart": "top-paid",
-                            "genreShortName": "杂志",
-                            "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                        }
-                    },
-                    "supportsStreamlinedBuy": true,
-                    "url": "https://apps.apple.com/cn/app/pocketnews-%EC%9B%8C%EC%B9%98%EB%A1%9C-%EB%B3%B4%EB%8A%94-%EB%89%B4%EC%8A%A4-%EA%B8%B0%EC%82%AC/id6444249757",
-                    "userRating": {
-                        "value": 0,
-                        "ratingCount": 0,
-                        "ratingCountList": [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        "ariaLabelForRatings": "0 星"
-                    },
-                    "watchBundleId": "com.jupydupy.PocketNews.watchkitapp",
-                    "name": "PocketNews - 워치로 보는 뉴스, 기사",
-                    "genreDisplayName": "新闻",
-                    "isPreorder": false,
-                    "isIOSBinaryMacOSCompatible": false,
-                    "artistName": "GEONJU CHOI",
-                    "reviewsRestricted": false,
-                    "minimumWatchOSVersion": "9.0",
-                    "platformAttributes": {
-                        "ios": {
-                            "offers": [
-                                {
-                                    "buyParams": "productType=C&price=28000&salableAdamId=6444249757&pricingParameters=STDQ&pg=default&appExtVrsId=862547539",
-                                    "type": "buy",
-                                    "priceFormatted": "¥28.00",
-                                    "price": 28,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 6178816
-                                        }
-                                    ]
-                                },
-                                {
-                                    "buyParams": "productType=C&price=0&salableAdamId=6444249757&pricingParameters=SWUPD&pg=default&appExtVrsId=862547539",
-                                    "type": "update",
-                                    "priceFormatted": "¥0.00",
-                                    "price": 0,
-                                    "currencyCode": "CNY",
-                                    "assets": [
-                                        {
-                                            "flavor": "iosSoftware",
-                                            "size": 6178816
-                                        }
-                                    ]
-                                }
-                            ],
-                            "requires32bit": false,
-                            "releaseDate": "2023-01-19",
-                            "hasInAppPurchases": false,
-                            "bundleId": "com.jupydupy.PocketNews",
-                            "hasMessagesExtension": false,
-                            "isStandaloneWithCompanionForWatchOS": false,
-                            "artwork": {
-                                "width": 1024,
-                                "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a5/3a/d9/a53ad9f2-35ce-da80-5c91-38e3ddc74672/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
-                                "bgColor": "efac98",
-                                "textColor1": "211a1f",
-                                "textColor2": "1d1c24",
-                                "textColor3": "4a3737",
-                                "textColor4": "47393b"
-                            },
-                            "isAppleWatchSupported": true,
-                            "requiredCapabilitiesForRealityDevice": "arm64 ",
-                            "isHiddenFromSpringboard": true,
-                            "isStandaloneForWatchOS": true,
-                            "isDeliveredInIOSAppForWatchOS": false,
-                            "isXROSCompatible": false,
-                            "editorialArtwork": {
-                                "contentIconTrimmedMonochrome": {
-                                    "width": 990,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                },
-                                "contentIconTrimmed": {
-                                    "width": 990,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "575c62",
-                                    "textColor1": "fafbfc",
-                                    "textColor2": "f0f1f2",
-                                    "textColor3": "d9dbdd",
-                                    "textColor4": "d1d3d5"
-                                },
-                                "brandLogo": {
-                                    "width": 1080,
-                                    "height": 1080,
-                                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
-                                    "bgColor": "000000",
-                                    "textColor1": "f2f2f2",
-                                    "textColor2": "e5e5e5",
-                                    "textColor3": "c1c1c1",
-                                    "textColor4": "b7b7b7"
-                                }
-                            },
-                            "hasSafariExtension": false,
-                            "circularArtwork": {
-                                "width": 1024,
-                                "height": 1024,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/11/83/5f/11835fd2-622c-ff0f-eb92-0ae748a31544/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
-                                "bgColor": "efac98",
-                                "textColor1": "211a1f",
-                                "textColor2": "1d1c24",
-                                "textColor3": "4a3737",
-                                "textColor4": "47393b"
-                            },
-                            "requiresGameController": false
-                        }
-                    }
-                },
-                "relationships": {
-                    "developer": {
-                        "href": "/v1/catalog/cn/apps/6444249757/developer?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "1606737505",
-                                "type": "developers",
-                                "href": "/v1/catalog/cn/developers/1606737505?l=zh-Hans-CN"
-                            }
-                        ]
-                    },
-                    "genres": {
-                        "href": "/v1/catalog/cn/apps/6444249757/genres?l=zh-Hans-CN",
-                        "data": [
-                            {
-                                "id": "6009",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6009?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "新闻",
-                                    "parentId": "36",
-                                    "url": "https://itunes.apple.com/cn/genre/id6009"
-                                }
-                            },
-                            {
-                                "id": "6021",
-                                "type": "genres",
-                                "href": "/v1/catalog/cn/genres/6021?l=zh-Hans-CN",
-                                "attributes": {
-                                    "parentName": "App Store",
-                                    "name": "报刊杂志",
-                                    "url": "https://itunes.apple.com/cn/genre/id6021",
-                                    "parentId": "36"
-                                }
-                            }
-                        ]
-                    }
-                },
-                "meta": {
-                    "contentVersion": {
-                        "MZ_INDEXER": 1739519880703,
-                        "RTCI": 1738956232798
-                    }
-                },
-                "supportsArcade": false,
-                "isFirstPartyHideableApp": false,
-                "contentRatingsBySystem": {
-                    "appsApple": {
-                        "name": "4+",
-                        "value": 100,
-                        "rank": 1
-                    }
-                },
-                "deviceFamilies": [
-                    "watch",
-                    "iphone",
-                    "ipod"
-                ],
-                "chartPositions": {
-                    "appStore": {
-                        "position": 7,
-                        "genreName": "报刊杂志",
-                        "genre": 6021,
-                        "chart": "top-paid",
-                        "genreShortName": "杂志",
-                        "chartLink": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-                    }
-                },
-                "supportsStreamlinedBuy": true,
-                "url": "https://apps.apple.com/cn/app/pocketnews-%EC%9B%8C%EC%B9%98%EB%A1%9C-%EB%B3%B4%EB%8A%94-%EB%89%B4%EC%8A%A4-%EA%B8%B0%EC%82%AC/id6444249757",
-                "userRating": {
-                    "value": 0,
-                    "ratingCount": 0,
-                    "ratingCountList": [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
-                    ],
-                    "ariaLabelForRatings": "0 星"
-                },
-                "watchBundleId": "com.jupydupy.PocketNews.watchkitapp",
-                "name": "PocketNews - 워치로 보는 뉴스, 기사",
-                "genreDisplayName": "新闻",
-                "isPreorder": false,
-                "isIOSBinaryMacOSCompatible": false,
-                "artistName": "GEONJU CHOI",
-                "reviewsRestricted": false,
-                "minimumWatchOSVersion": "9.0",
-                "platformAttributes": {
-                    "ios": {
-                        "offers": [
-                            {
-                                "buyParams": "productType=C&price=28000&salableAdamId=6444249757&pricingParameters=STDQ&pg=default&appExtVrsId=862547539",
-                                "type": "buy",
-                                "priceFormatted": "¥28.00",
-                                "price": 28,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 6178816
-                                    }
-                                ]
-                            },
-                            {
-                                "buyParams": "productType=C&price=0&salableAdamId=6444249757&pricingParameters=SWUPD&pg=default&appExtVrsId=862547539",
-                                "type": "update",
-                                "priceFormatted": "¥0.00",
-                                "price": 0,
-                                "currencyCode": "CNY",
-                                "assets": [
-                                    {
-                                        "flavor": "iosSoftware",
-                                        "size": 6178816
-                                    }
-                                ]
-                            }
-                        ],
-                        "requires32bit": false,
-                        "releaseDate": "2023-01-19",
-                        "hasInAppPurchases": false,
-                        "bundleId": "com.jupydupy.PocketNews",
-                        "hasMessagesExtension": false,
-                        "isStandaloneWithCompanionForWatchOS": false,
-                        "artwork": {
-                            "width": 1024,
-                            "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a5/3a/d9/a53ad9f2-35ce-da80-5c91-38e3ddc74672/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
-                            "bgColor": "efac98",
-                            "textColor1": "211a1f",
-                            "textColor2": "1d1c24",
-                            "textColor3": "4a3737",
-                            "textColor4": "47393b"
-                        },
-                        "isAppleWatchSupported": true,
-                        "requiredCapabilitiesForRealityDevice": "arm64 ",
-                        "isHiddenFromSpringboard": true,
-                        "isStandaloneForWatchOS": true,
-                        "isDeliveredInIOSAppForWatchOS": false,
-                        "isXROSCompatible": false,
-                        "editorialArtwork": {
-                            "contentIconTrimmedMonochrome": {
-                                "width": 990,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            },
-                            "contentIconTrimmed": {
-                                "width": 990,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
-                                "bgColor": "575c62",
-                                "textColor1": "fafbfc",
-                                "textColor2": "f0f1f2",
-                                "textColor3": "d9dbdd",
-                                "textColor4": "d1d3d5"
-                            },
-                            "brandLogo": {
-                                "width": 1080,
-                                "height": 1080,
-                                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
-                                "bgColor": "000000",
-                                "textColor1": "f2f2f2",
-                                "textColor2": "e5e5e5",
-                                "textColor3": "c1c1c1",
-                                "textColor4": "b7b7b7"
-                            }
-                        },
-                        "hasSafariExtension": false,
-                        "circularArtwork": {
-                            "width": 1024,
-                            "height": 1024,
-                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/11/83/5f/11835fd2-622c-ff0f-eb92-0ae748a31544/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
-                            "bgColor": "efac98",
-                            "textColor1": "211a1f",
-                            "textColor2": "1d1c24",
-                            "textColor3": "4a3737",
-                            "textColor4": "47393b"
-                        },
-                        "requiresGameController": false
-                    }
-                },
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a5/3a/d9/a53ad9f2-35ce-da80-5c91-38e3ddc74672/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "efac98",
-                    "textColor1": "211a1f",
-                    "textColor2": "1d1c24",
-                    "textColor3": "4a3737",
-                    "textColor4": "47393b"
-                }
-            }
-        ],
-        "href": "/v1/catalog/cn/charts?chart=top-paid&contexts=default&genre=6021&l=zh-Hans-CN&limit=100&platform=iphone&types=apps",
-        "seeAllLinkUrl": "/cn/charts/iphone/报刊杂志-apps/6021?chart=top-paid&chart=top-paid"
-    },
-    "genres": [
-        {
-            "name": "Apple Watch App",
-            "seoName": "apple-watch-app",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/76/3e/11/763e11bf-122b-cbdc-eaea-1a8ec6bb8b89/mza_5940104376706362079.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "dce6f2",
-                "textColor2": "dce6f2",
-                "textColor3": "b0b8c2",
-                "textColor4": "b0b8c2"
-            }
-        },
-        {
-            "name": "AR App",
-            "seoName": "ar-app",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a6/33/16/a63316ae-f553-d594-77f8-b4b758a7b345/mza_8644509268021521978.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "31c4ff",
-                "textColor2": "30bdf5",
-                "textColor3": "279dcb",
-                "textColor4": "2697c4"
-            }
-        },
-        {
-            "name": "Safari 浏览器扩展",
-            "seoName": "safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bd/7b/72/bd7b724b-f90a-1660-24d1-ce7541184dd0/mza_7896417207622314604.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "30bff6",
-                "textColor2": "ff0000",
-                "textColor3": "2799c5",
-                "textColor4": "cb0000"
-            }
-        },
-        {
-            "name": "体育",
-            "seoName": "%E4%BD%93%E8%82%B2",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E4%BD%93%E8%82%B2-apps/6004",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bc/58/a2/bc58a2f3-8b30-80e6-308b-078618b4ef4b/mza_3442592207829679359.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "79eb00",
-                "textColor2": "6bd200",
-                "textColor3": "60bc00",
-                "textColor4": "56a800"
-            },
-            "genre": 6004
-        },
-        {
-            "name": "健康健美",
-            "seoName": "%E5%81%A5%E5%BA%B7%E5%81%A5%E7%BE%8E",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%81%A5%E5%BA%B7%E5%81%A5%E7%BE%8E-apps/6013",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/c3/d9/a0/c3d9a050-7bea-131d-8fdc-aa9abbc673bb/mza_2190341764583005560.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "79eb00",
-                "textColor2": "6cd200",
-                "textColor3": "60bc00",
-                "textColor4": "56a700"
-            },
-            "genre": 6013
-        },
-        {
-            "name": "儿童",
-            "seoName": "%E5%84%BF%E7%AB%A5",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%84%BF%E7%AB%A5-apps/36?ageId=0",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/db/7c/0ddb7c7b-a538-cd3e-17ff-155dfaeac3aa/mza_4989433442268656901.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "fc2424",
-                "textColor2": "fc2424",
-                "textColor3": "c91c1c",
-                "textColor4": "c91c1c"
-            },
-            "genre": 36,
-            "ages": 0
-        },
-        {
-            "name": "医疗",
-            "seoName": "%E5%8C%BB%E7%96%97",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%8C%BB%E7%96%97-apps/6020",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/29/71/cf/2971cff4-a6c6-d8bf-5bc1-8cf22eee3435/mza_13758882395870696209.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "f2f2f2",
-                "textColor2": "e5e5e5",
-                "textColor3": "c1c1c1",
-                "textColor4": "b7b7b7"
-            },
-            "genre": 6020
-        },
-        {
-            "name": "参考资料",
-            "seoName": "%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99-apps/6006",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a6/92/53/a69253e9-4e24-df1a-8a8c-bb45e1ecd3c9/mza_3206634633751842831.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "ffffff",
-                "textColor2": "dddfe3",
-                "textColor3": "cbcbcb",
-                "textColor4": "b0b2b5"
-            },
-            "genre": 6006
-        },
-        {
-            "name": "商务",
-            "seoName": "%E5%95%86%E5%8A%A1",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%95%86%E5%8A%A1-apps/6000",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/e7/ab/93/e7ab93bd-29c3-c611-8812-85179a890fa9/mza_11644115140862631453.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "f8b662",
-                "textColor2": "dda258",
-                "textColor3": "c6914f",
-                "textColor4": "b18246"
-            },
-            "genre": 6000
-        },
-        {
-            "name": "图书",
-            "seoName": "%E5%9B%BE%E4%B9%A6",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%9B%BE%E4%B9%A6-apps/6018",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a4/02/11/a40211ab-568b-355c-d2fb-d2c0f6d9e193/mza_13802102953202808009.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "fbb800",
-                "textColor2": "d59d00",
-                "textColor3": "c99300",
-                "textColor4": "aa7d00"
-            },
-            "genre": 6018
-        },
-        {
-            "name": "图形与设计",
-            "seoName": "%E5%9B%BE%E5%BD%A2%E4%B8%8E%E8%AE%BE%E8%AE%A1",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%9B%BE%E5%BD%A2%E4%B8%8E%E8%AE%BE%E8%AE%A1-apps/6027",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/9a/90/96/9a90966c-ef36-9d56-5292-a6d2fc20080e/mza_17382613204946595868.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "fdc442",
-                "textColor2": "f6bf40",
-                "textColor3": "ca9d35",
-                "textColor4": "c59933"
-            },
-            "genre": 6027
-        },
-        {
-            "name": "天气",
-            "seoName": "%E5%A4%A9%E6%B0%94",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%A4%A9%E6%B0%94-apps/6001",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/4f/96/be/4f96beec-d8df-ac25-47f3-41422f8d2b9c/mza_11879495917056796645.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "fbb800",
-                "textColor2": "31c4ff",
-                "textColor3": "c99300",
-                "textColor4": "279dcb"
-            },
-            "genre": 6001
-        },
-        {
-            "name": "娱乐",
-            "seoName": "%E5%A8%B1%E4%B9%90",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%A8%B1%E4%B9%90-apps/6016",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/6c/a0/61/6ca06170-b163-1e2e-1a52-2334b7d00cc4/mza_1489821736402333498.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "fbb800",
-                "textColor2": "d39b00",
-                "textColor3": "c99300",
-                "textColor4": "a97c00"
-            },
-            "genre": 6016
-        },
-        {
-            "name": "导航",
-            "seoName": "%E5%AF%BC%E8%88%AA",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%AF%BC%E8%88%AA-apps/6010",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/8f/ee/a1/8feea154-03b4-df24-cb86-b550a88b433a/mza_5232260155207965952.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "008ffc",
-                "textColor2": "0087ed",
-                "textColor3": "0073c9",
-                "textColor4": "006cbd"
-            },
-            "genre": 6010
-        },
-        {
-            "name": "工具",
-            "seoName": "%E5%B7%A5%E5%85%B7",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%B7%A5%E5%85%B7-apps/6002",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/c0/73/52c073d1-e395-28ea-2e59-39472c35eabc/mza_14979362280646054079.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "ffffff",
-                "textColor2": "c6cad1",
-                "textColor3": "cbcbcb",
-                "textColor4": "9ea1a7"
-            },
-            "genre": 6002
-        },
-        {
-            "name": "报刊杂志",
-            "seoName": "%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ab/93/45/ab93459f-8eb0-3fc5-7d8a-3457dc4c4eee/mza_9310768942849254052.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "ffffff",
-                "textColor2": "e1e3e5",
-                "textColor3": "cbcbcb",
-                "textColor4": "b4b5b7"
-            },
-            "genre": 6021
-        },
-        {
-            "name": "摄影与录像",
-            "seoName": "%E6%91%84%E5%BD%B1%E4%B8%8E%E5%BD%95%E5%83%8F",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%91%84%E5%BD%B1%E4%B8%8E%E5%BD%95%E5%83%8F-apps/6008",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a1/d2/e7/a1d2e7c2-f2a5-cf28-a782-679eebf59517/mza_518984305318446107.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "dce6f2",
-                "textColor2": "dce6f2",
-                "textColor3": "b0b8c2",
-                "textColor4": "b0b8c2"
-            },
-            "genre": 6008
-        },
-        {
-            "name": "效率",
-            "seoName": "%E6%95%88%E7%8E%87",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%95%88%E7%8E%87-apps/6007",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5d/ba/78/5dba786a-5e9a-3744-ea2f-f522b3776cac/mza_12873241051299254900.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "0090ff",
-                "textColor2": "008cf5",
-                "textColor3": "0073cb",
-                "textColor4": "0070c4"
-            },
-            "genre": 6007
-        },
-        {
-            "name": "教育",
-            "seoName": "%E6%95%99%E8%82%B2",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%95%99%E8%82%B2-apps/6017",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/90/c2/58/90c25804-6885-3667-52d7-6c08a168d034/mza_5746375370589237558.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "dce6f2",
-                "textColor2": "dce6f2",
-                "textColor3": "b0b8c2",
-                "textColor4": "b0b8c2"
-            },
-            "genre": 6017
-        },
-        {
-            "name": "新闻",
-            "seoName": "%E6%96%B0%E9%97%BB",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%96%B0%E9%97%BB-apps/6009",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f8/c5/2f/f8c52ff5-3363-6c57-8f4e-f22bca977c83/mza_6901576393620193541.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "ffffff",
-                "textColor2": "dbdfe2",
-                "textColor3": "cbcbcb",
-                "textColor4": "afb2b5"
-            },
-            "genre": 6009
-        },
-        {
-            "name": "旅游",
-            "seoName": "%E6%97%85%E6%B8%B8",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%97%85%E6%B8%B8-apps/6003",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/88/58/c9/8858c907-8be7-d3bc-6af0-c3cc0ad86400/mza_10259861609911588785.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "31c4ff",
-                "textColor2": "2eb4e9",
-                "textColor3": "279dcb",
-                "textColor4": "2490ba"
-            },
-            "genre": 6003
-        },
-        {
-            "name": "生活",
-            "seoName": "%E7%94%9F%E6%B4%BB",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E7%94%9F%E6%B4%BB-apps/6012",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7a/9d/67/7a9d6793-148e-e1c0-d544-443bcdf6017a/mza_11856486810734579628.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "f5b462",
-                "textColor2": "dda258",
-                "textColor3": "c4904e",
-                "textColor4": "b18246"
-            },
-            "genre": 6012
-        },
-        {
-            "name": "社交",
-            "seoName": "%E7%A4%BE%E4%BA%A4",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E7%A4%BE%E4%BA%A4-apps/6005",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/b3/68/1e/b3681ea0-49c6-ab1a-36dc-606f747cf65b/mza_11588586428752927521.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "31c4ff",
-                "textColor2": "fc1852",
-                "textColor3": "279dcb",
-                "textColor4": "c91342"
-            },
-            "genre": 6005
-        },
-        {
-            "name": "美食佳饮",
-            "seoName": "%E7%BE%8E%E9%A3%9F%E4%BD%B3%E9%A5%AE",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E7%BE%8E%E9%A3%9F%E4%BD%B3%E9%A5%AE-apps/6023",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ad/dd/ec/adddec4e-3846-edbe-68eb-ab1f3babb592/mza_15969234337631621290.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "31c4ff",
-                "textColor2": "2aa7d7",
-                "textColor3": "279dcb",
-                "textColor4": "2286ac"
-            },
-            "genre": 6023
-        },
-        {
-            "name": "财务",
-            "seoName": "%E8%B4%A2%E5%8A%A1",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E8%B4%A2%E5%8A%A1-apps/6015",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/b4/4f/25/b44f2559-0f99-21c8-39b9-500591c4465f/mza_2348069392368330006.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "79eb00",
-                "textColor2": "6ace00",
-                "textColor3": "60bc00",
-                "textColor4": "54a500"
-            },
-            "genre": 6015
-        },
-        {
-            "name": "购物",
-            "seoName": "%E8%B4%AD%E7%89%A9",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E8%B4%AD%E7%89%A9-apps/6024",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/40/38/51/4038516e-eb58-6720-44be-bf29fd81380f/mza_6505206037981064338.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "79eb00",
-                "textColor2": "31c4ff",
-                "textColor3": "60bc00",
-                "textColor4": "279dcb"
-            },
-            "genre": 6024
-        },
-        {
-            "name": "软件开发工具",
-            "seoName": "%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7-apps/6026",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/80/31/80/80318079-8243-3b6d-e6e8-7b729e1dc8f4/mza_10979746777509694384.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "0090ff",
-                "textColor2": "008af2",
-                "textColor3": "0073cb",
-                "textColor4": "006fc1"
-            },
-            "genre": 6026
-        },
-        {
-            "name": "音乐",
-            "seoName": "%E9%9F%B3%E4%B9%90",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E9%9F%B3%E4%B9%90-apps/6011",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/9d/1d/3a/9d1d3a89-506f-30f8-6279-6992e1b6c581/mza_14671403253436941207.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "79eb00",
-                "textColor2": "31c4ff",
-                "textColor3": "60bc00",
-                "textColor4": "279dcb"
-            },
-            "genre": 6011
-        }
-    ],
-    "popularGenres": [
-        {
-            "name": "Apple Watch App",
-            "seoName": "apple-watch-app",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/76/3e/11/763e11bf-122b-cbdc-eaea-1a8ec6bb8b89/mza_5940104376706362079.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "dce6f2",
-                "textColor2": "dce6f2",
-                "textColor3": "b0b8c2",
-                "textColor4": "b0b8c2"
-            }
-        },
-        {
-            "name": "AR App",
-            "seoName": "ar-app",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a6/33/16/a63316ae-f553-d594-77f8-b4b758a7b345/mza_8644509268021521978.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "31c4ff",
-                "textColor2": "30bdf5",
-                "textColor3": "279dcb",
-                "textColor4": "2697c4"
-            }
-        },
-        {
-            "name": "Safari 浏览器扩展",
-            "seoName": "safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bd/7b/72/bd7b724b-f90a-1660-24d1-ce7541184dd0/mza_7896417207622314604.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "30bff6",
-                "textColor2": "ff0000",
-                "textColor3": "2799c5",
-                "textColor4": "cb0000"
-            }
-        },
-        {
-            "name": "体育",
-            "seoName": "%E4%BD%93%E8%82%B2",
-            "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E4%BD%93%E8%82%B2-apps/6004",
-            "artwork": {
-                "width": 1024,
-                "height": 1024,
-                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bc/58/a2/bc58a2f3-8b30-80e6-308b-078618b4ef4b/mza_3442592207829679359.png/{w}x{h}{c}.{f}",
-                "bgColor": "000000",
-                "textColor1": "79eb00",
-                "textColor2": "6bd200",
-                "textColor3": "60bc00",
-                "textColor4": "56a800"
-            },
-            "genre": 6004
-        }
-    ],
-    "extraGenres": [
-        [
-            {
-                "name": "AR 游戏",
-                "seoName": "ar-%E6%B8%B8%E6%88%8F",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a7/36/71/a73671b6-f69c-9555-b80c-3597d4297f9a/mza_8826019850454230526.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "31c4ff",
-                    "textColor2": "30bdf5",
-                    "textColor3": "279dcb",
-                    "textColor4": "2697c4"
-                }
-            },
-            {
-                "name": "休闲",
-                "seoName": "%E4%BC%91%E9%97%B2",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E4%BC%91%E9%97%B2-games/7003",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9e/31/66/9e3166d0-0156-fc8c-ac9d-f2d2e587acab/mza_3615682766952833567.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "fbb800",
-                    "textColor2": "0090ff",
-                    "textColor3": "c99300",
-                    "textColor4": "0073cb"
-                },
-                "genre": 7003
-            },
-            {
-                "name": "体育",
-                "seoName": "%E4%BD%93%E8%82%B2",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E4%BD%93%E8%82%B2-games/7016",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/0a/a4/11/0aa41129-72ce-14ab-ef82-1c841fc3a92d/mza_7444871824391639373.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "79eb00",
-                    "textColor2": "6bd200",
-                    "textColor3": "60bc00",
-                    "textColor4": "56a800"
-                },
-                "genre": 7016
-            },
-            {
-                "name": "儿童",
-                "seoName": "%E5%84%BF%E7%AB%A5",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%84%BF%E7%AB%A5-games/36?ageId=0",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/db/7c/0ddb7c7b-a538-cd3e-17ff-155dfaeac3aa/mza_4989433442268656901.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "fc2424",
-                    "textColor2": "fc2424",
-                    "textColor3": "c91c1c",
-                    "textColor4": "c91c1c"
-                },
-                "genre": 36,
-                "ages": 0
-            },
-            {
-                "name": "冒险",
-                "seoName": "%E5%86%92%E9%99%A9",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%86%92%E9%99%A9-games/7002",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2e/47/e6/2e47e663-4990-6f00-12e0-929cf74a1b30/mza_9059126088450242522.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "e4e6e8",
-                    "textColor2": "bec4cb",
-                    "textColor3": "b6b8ba",
-                    "textColor4": "989da2"
-                },
-                "genre": 7002
-            },
-            {
-                "name": "动作",
-                "seoName": "%E5%8A%A8%E4%BD%9C",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%8A%A8%E4%BD%9C-games/7001",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a1/9c/0a/a19c0a45-7459-8959-1b4a-224980bc062e/mza_6303075587561000734.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "fbb800",
-                    "textColor2": "d89f00",
-                    "textColor3": "c99300",
-                    "textColor4": "ad7f00"
-                },
-                "genre": 7001
-            },
-            {
-                "name": "卡牌",
-                "seoName": "%E5%8D%A1%E7%89%8C",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%8D%A1%E7%89%8C-games/7005",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ec/42/08/ec420827-e7a9-595a-dda6-7243c1d10279/mza_6953046900453279007.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "ffffff",
-                    "textColor2": "d4d8dc",
-                    "textColor3": "cbcbcb",
-                    "textColor4": "aaadb0"
-                },
-                "genre": 7005
-            },
-            {
-                "name": "字谜",
-                "seoName": "%E5%AD%97%E8%B0%9C",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%AD%97%E8%B0%9C-games/7019",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/fb/71/fcfb71a1-9f7b-450a-614f-e05f356c910b/mza_14739324786355040073.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "fefefe",
-                    "textColor2": "dce6f2",
-                    "textColor3": "cbcbcb",
-                    "textColor4": "b0b8c2"
-                },
-                "genre": 7019
-            },
-            {
-                "name": "家庭聚会",
-                "seoName": "%E5%AE%B6%E5%BA%AD%E8%81%9A%E4%BC%9A",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E5%AE%B6%E5%BA%AD%E8%81%9A%E4%BC%9A-games/7009",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/e1/a7/cde1a701-2882-8282-f5ec-eaa55134ca46/mza_10138387252994591836.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "79eb00",
-                    "textColor2": "31c4ff",
-                    "textColor3": "60bc00",
-                    "textColor4": "279dcb"
-                },
-                "genre": 7009
-            },
-            {
-                "name": "桌面",
-                "seoName": "%E6%A1%8C%E9%9D%A2",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%A1%8C%E9%9D%A2-games/7004",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/dd/16/ca/dd16ca33-1e7e-e43d-c5df-8947ad0e52d4/mza_11791528079931265171.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "dce6f2",
-                    "textColor2": "dce6f2",
-                    "textColor3": "b0b8c2",
-                    "textColor4": "b0b8c2"
-                },
-                "genre": 7004
-            },
-            {
-                "name": "模拟",
-                "seoName": "%E6%A8%A1%E6%8B%9F",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%A8%A1%E6%8B%9F-games/7015",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/99/22/36/99223685-3fbe-02aa-9033-e1ea601e9f18/mza_11919515783642756638.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "31c4ff",
-                    "textColor2": "30bdf4",
-                    "textColor3": "279dcb",
-                    "textColor4": "2697c3"
-                },
-                "genre": 7015
-            },
-            {
-                "name": "益智解谜",
-                "seoName": "%E7%9B%8A%E6%99%BA%E8%A7%A3%E8%B0%9C",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E7%9B%8A%E6%99%BA%E8%A7%A3%E8%B0%9C-games/7012",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/92/40/c2/9240c2f6-77fa-96ce-9357-69d017edc0b2/mza_18036605678339411245.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "31c4ff",
-                    "textColor2": "2bacde",
-                    "textColor3": "279dcb",
-                    "textColor4": "2389b1"
-                },
-                "genre": 7012
-            },
-            {
-                "name": "竞速",
-                "seoName": "%E7%AB%9E%E9%80%9F",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E7%AB%9E%E9%80%9F-games/7013",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/70/91/ea/7091ea48-5bb3-8e92-e9cd-70aceccc2e49/mza_12928456463207296909.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "ffffff",
-                    "textColor2": "cdd2d7",
-                    "textColor3": "cbcbcb",
-                    "textColor4": "a4a8ac"
-                },
-                "genre": 7013
-            },
-            {
-                "name": "策略",
-                "seoName": "%E7%AD%96%E7%95%A5",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E7%AD%96%E7%95%A5-games/7017",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1c/86/95/1c8695d4-956b-87bb-4daf-5e9ef61d24af/mza_12694082890713895882.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "dce6f2",
-                    "textColor2": "fc2424",
-                    "textColor3": "b0b8c2",
-                    "textColor4": "c91c1c"
-                },
-                "genre": 7017
-            },
-            {
-                "name": "角色扮演",
-                "seoName": "%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94-games/7014",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d9/89/ef/d989ef37-0262-8670-9406-e7babe800ba9/mza_15120237427709380847.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "fbb800",
-                    "textColor2": "ecac00",
-                    "textColor3": "c99300",
-                    "textColor4": "bc8a00"
-                },
-                "genre": 7014
-            },
-            {
-                "name": "问答",
-                "seoName": "%E9%97%AE%E7%AD%94",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E9%97%AE%E7%AD%94-games/7018",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1f/98/b0/1f98b0b3-df42-da93-2b33-bb27428d8676/mza_13775847412727281812.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "fbb800",
-                    "textColor2": "e4a800",
-                    "textColor3": "c99300",
-                    "textColor4": "b78600"
-                },
-                "genre": 7018
-            },
-            {
-                "name": "音乐",
-                "seoName": "%E9%9F%B3%E4%B9%90",
-                "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E9%9F%B3%E4%B9%90-games/7011",
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/99/ec/e1/99ece1c6-055c-a424-37d6-65118bdcd0b8/mza_2027163565629638320.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "5acafc",
-                    "textColor2": "f65185",
-                    "textColor3": "48a1ca",
-                    "textColor4": "c5416a"
-                },
-                "genre": 7011
-            }
+          {
+            "id": "1602633563",
+            "type": "developers"
+          }
         ]
+      }
+    },
+    "meta": {
+      "contentVersion": {
+        "MZ_INDEXER": 1739519524405,
+        "RTCI": 1737613206018
+      }
+    },
+    "supportsArcade": false,
+    "isFirstPartyHideableApp": false,
+    "contentRatingsBySystem": {
+      "appsApple": {
+        "name": "4+",
+        "value": 100,
+        "rank": 1
+      }
+    },
+    "deviceFamilies": [
+      "iphone",
+      "ipad",
+      "ipod"
     ],
-    "storefront": "cn",
-    "genreTitle": "报刊杂志",
-    "chartUrl": "https://apps.apple.com/cn/charts/iphone/%E6%8A%A5%E5%88%8A%E6%9D%82%E5%BF%97-apps/6021"
-}
+    "chartPositions": {
+      "appStore": {
+        "position": 1,
+        "genreName": "报刊杂志",
+        "genre": 6021,
+        "chart": "top-paid",
+        "genreShortName": "杂志"
+      }
+    },
+    "supportsStreamlinedBuy": true,
+    "userRating": {
+      "value": 4.2,
+      "ratingCount": 65,
+      "ratingCountList": [
+        11,
+        0,
+        2,
+        3,
+        49
+      ],
+      "ariaLabelForRatings": "4.2 星"
+    },
+    "name": "每日文物",
+    "genreDisplayName": "报刊杂志",
+    "isPreorder": false,
+    "isIOSBinaryMacOSCompatible": true,
+    "artistName": "Square Cosmos Press LLC.",
+    "reviewsRestricted": false,
+    "platformAttributes": {
+      "ios": {
+        "offers": [
+          {
+            "buyParams": "productType=C&price=1000&salableAdamId=6451397295&pricingParameters=STDQ&pg=default&appExtVrsId=871903888",
+            "type": "buy",
+            "priceFormatted": "¥1.00",
+            "price": 1,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 22250496
+              }
+            ]
+          },
+          {
+            "buyParams": "productType=C&price=0&salableAdamId=6451397295&pricingParameters=SWUPD&pg=default&appExtVrsId=871903888",
+            "type": "update",
+            "priceFormatted": "¥0.00",
+            "price": 0,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 22250496
+              }
+            ]
+          }
+        ],
+        "requires32bit": false,
+        "minimumMacOSVersion": "11.0",
+        "releaseDate": "2023-08-20",
+        "hasInAppPurchases": false,
+        "bundleId": "sqcosmos.com.relics",
+        "hasMessagesExtension": false,
+        "isStandaloneWithCompanionForWatchOS": false,
+        "artwork": {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/b2/36/61b2360c-2623-3087-f4d3-ee584d58d4f4/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/{w}x{h}{c}.{f}",
+          "bgColor": "ffffff",
+          "textColor1": "2a0504",
+          "textColor2": "410e0d",
+          "textColor3": "553736",
+          "textColor4": "673e3d"
+        },
+        "isAppleWatchSupported": false,
+        "requiredCapabilitiesForRealityDevice": "arm64 ",
+        "isStandaloneForWatchOS": false,
+        "isHiddenFromSpringboard": false,
+        "isDeliveredInIOSAppForWatchOS": false,
+        "isXROSCompatible": true,
+        "editorialArtwork": {
+          "contentIconTrimmedMonochrome": {
+            "width": 788,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          },
+          "contentIconTrimmed": {
+            "width": 788,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
+            "bgColor": "575c60",
+            "textColor1": "f9f9fa",
+            "textColor2": "dadde0",
+            "textColor3": "d8d9db",
+            "textColor4": "c0c3c7"
+          },
+          "brandLogo": {
+            "width": 1080,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          }
+        },
+        "minimumXROSVersion": "1.0",
+        "subtitle": "一睹华夏文化瑰宝",
+        "hasSafariExtension": false,
+        "requiresGameController": false
+      }
+    }
+  },
+  {
+    "kind": "app",
+    "id": "380926285",
+    "type": "apps",
+    "relationships": {
+      "developer": {
+        "data": [
+          {
+            "id": "326634019",
+            "type": "developers"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "contentVersion": {
+        "MZ_INDEXER": 1739504907040,
+        "RTCI": 1735638275967
+      }
+    },
+    "supportsArcade": false,
+    "isFirstPartyHideableApp": false,
+    "contentRatingsBySystem": {
+      "appsApple": {
+        "name": "4+",
+        "value": 100,
+        "rank": 1
+      }
+    },
+    "deviceFamilies": [
+      "iphone",
+      "ipad",
+      "ipod"
+    ],
+    "chartPositions": {
+      "appStore": {
+        "position": 2,
+        "genreName": "报刊杂志",
+        "genre": 6021,
+        "chart": "top-paid",
+        "genreShortName": "杂志"
+      }
+    },
+    "supportsStreamlinedBuy": true,
+    "userRating": {
+      "value": 0,
+      "ratingCount": 0,
+      "ratingCountList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ariaLabelForRatings": "0 星"
+    },
+    "name": "Oggi Cucino - Digital Edition",
+    "genreDisplayName": "生活",
+    "isPreorder": false,
+    "isIOSBinaryMacOSCompatible": true,
+    "artistName": "RCS MediaGroup S.p.A.",
+    "reviewsRestricted": false,
+    "platformAttributes": {
+      "ios": {
+        "offers": [
+          {
+            "buyParams": "productType=C&price=3000&salableAdamId=380926285&pricingParameters=STDQ&pg=default&appExtVrsId=860280177",
+            "type": "buy",
+            "priceFormatted": "¥3.00",
+            "price": 3,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 28388352
+              }
+            ]
+          },
+          {
+            "buyParams": "productType=C&price=0&salableAdamId=380926285&pricingParameters=SWUPD&pg=default&appExtVrsId=860280177",
+            "type": "update",
+            "priceFormatted": "¥0.00",
+            "price": 0,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 28388352
+              }
+            ]
+          }
+        ],
+        "requires32bit": false,
+        "minimumMacOSVersion": "11.0",
+        "releaseDate": "2010-07-13",
+        "hasInAppPurchases": true,
+        "bundleId": "com.paperlit.iocucino",
+        "hasMessagesExtension": false,
+        "isStandaloneWithCompanionForWatchOS": false,
+        "artwork": {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/72/04/6a/72046aba-7c5c-4ef0-faaf-6e218c3c493e/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/{w}x{h}{c}.{f}",
+          "bgColor": "ffffff",
+          "textColor1": "140005",
+          "textColor2": "65001a",
+          "textColor3": "433337",
+          "textColor4": "843348"
+        },
+        "isAppleWatchSupported": false,
+        "requiredCapabilitiesForRealityDevice": "arm64 ",
+        "isStandaloneForWatchOS": false,
+        "isHiddenFromSpringboard": false,
+        "isDeliveredInIOSAppForWatchOS": false,
+        "editorialArtwork": {
+          "contentIconTrimmedMonochrome": {
+            "width": 996,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5a/ee/73/5aee7316-0729-7b2c-5569-674751c4ba41/a60c2697-deab-4e95-a21f-4a9cf3ac1335.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          },
+          "contentIconTrimmed": {
+            "width": 996,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/66/c7/6c/66c76cce-2a4f-f042-2e85-8167b7f81008/5da69965-8053-4624-844d-60ed5411ce25.png/{w}x{h}{c}.{f}",
+            "bgColor": "b60a0a",
+            "textColor1": "fab863",
+            "textColor2": "f8b762",
+            "textColor3": "ec9551",
+            "textColor4": "eb9551"
+          },
+          "originalFlowcaseBrick": {
+            "width": 3200,
+            "height": 600,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3a/9b/8c/3a9b8cac-0c09-3b25-e7fc-6ea3c1c711d5/mza_3004942591466789915.png/{w}x{h}{c}.{f}",
+            "bgColor": "e4d7bc",
+            "textColor1": "140106",
+            "textColor2": "140307",
+            "textColor3": "3e2c2a",
+            "textColor4": "3e2d2b"
+          },
+          "brandLogo": {
+            "width": 1080,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/76/85/df/7685df3a-c79c-0a77-e55f-e85b16c173b9/8435fae0-cd9c-4867-8e00-9f91d40967ab.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          }
+        },
+        "minimumXROSVersion": "1.0",
+        "isXROSCompatible": true,
+        "hasSafariExtension": false,
+        "requiresGameController": false
+      }
+    }
+  },
+  {
+    "kind": "app",
+    "id": "1543359328",
+    "type": "apps",
+    "relationships": {
+      "developer": {
+        "data": [
+          {
+            "id": "364264742",
+            "type": "developers"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "contentVersion": {
+        "MZ_INDEXER": 1739554876235,
+        "RTCI": 1738954841432
+      }
+    },
+    "supportsArcade": false,
+    "isFirstPartyHideableApp": false,
+    "contentRatingsBySystem": {
+      "appsApple": {
+        "name": "9+",
+        "value": 200,
+        "rank": 2,
+        "advisories": [
+          "偶尔/轻微的成人或性暗示题材"
+        ]
+      }
+    },
+    "deviceFamilies": [
+      "iphone",
+      "ipad",
+      "ipod"
+    ],
+    "chartPositions": {
+      "appStore": {
+        "position": 3,
+        "genreName": "报刊杂志",
+        "genre": 6021,
+        "chart": "top-paid",
+        "genreShortName": "杂志"
+      }
+    },
+    "supportsStreamlinedBuy": true,
+    "userRating": {
+      "value": 4.9,
+      "ratingCount": 345,
+      "ratingCountList": [
+        5,
+        2,
+        3,
+        9,
+        326
+      ],
+      "ariaLabelForRatings": "4.9 星"
+    },
+    "firstVersionSupportingInAppPurchaseApi": "2020",
+    "name": "iDaily · 2020 年度别册",
+    "genreDisplayName": "报刊杂志",
+    "isPreorder": false,
+    "isIOSBinaryMacOSCompatible": true,
+    "artistName": "iDaily Corp.",
+    "reviewsRestricted": false,
+    "platformAttributes": {
+      "ios": {
+        "offers": [
+          {
+            "buyParams": "productType=C&price=22000&salableAdamId=1543359328&pricingParameters=STDQ&pg=default&appExtVrsId=839967578",
+            "type": "buy",
+            "priceFormatted": "¥22.00",
+            "price": 22,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 93229056
+              }
+            ]
+          },
+          {
+            "buyParams": "productType=C&price=0&salableAdamId=1543359328&pricingParameters=SWUPD&pg=default&appExtVrsId=839967578",
+            "type": "update",
+            "priceFormatted": "¥0.00",
+            "price": 0,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 93229056
+              }
+            ]
+          }
+        ],
+        "minimumMacOSVersion": "11.0",
+        "requires32bit": false,
+        "releaseDate": "2020-12-29",
+        "hasInAppPurchases": true,
+        "bundleId": "com.chii.idaily.focus.2020",
+        "hasMessagesExtension": false,
+        "isStandaloneWithCompanionForWatchOS": false,
+        "artwork": {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/0a/07/06/0a07069a-08fb-8a5c-90c7-9c88b70c1ba4/AppIcon2020-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+          "bgColor": "22222c",
+          "textColor1": "f4c55a",
+          "textColor2": "f8ab43",
+          "textColor3": "caa451",
+          "textColor4": "cd8f3e"
+        },
+        "isAppleWatchSupported": false,
+        "requiredCapabilitiesForRealityDevice": "arm64 ",
+        "isHiddenFromSpringboard": false,
+        "isStandaloneForWatchOS": false,
+        "isDeliveredInIOSAppForWatchOS": false,
+        "isXROSCompatible": false,
+        "editorialArtwork": {
+          "contentIconTrimmedMonochrome": {
+            "width": 788,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          },
+          "contentIconTrimmed": {
+            "width": 788,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
+            "bgColor": "575c60",
+            "textColor1": "f9f9fa",
+            "textColor2": "dadde0",
+            "textColor3": "d8d9db",
+            "textColor4": "c0c3c7"
+          },
+          "brandLogo": {
+            "width": 1080,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          }
+        },
+        "subtitle": "5000 张图片回顾人类星球的 2020",
+        "hasSafariExtension": false,
+        "requiresGameController": false
+      }
+    }
+  },
+  {
+    "kind": "app",
+    "id": "1061473017",
+    "type": "apps",
+    "relationships": {
+      "developer": {
+        "data": [
+          {
+            "id": "915927007",
+            "type": "developers"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "contentVersion": {
+        "MZ_INDEXER": 1739488197275,
+        "RTCI": 1738954053302
+      }
+    },
+    "supportsArcade": false,
+    "isFirstPartyHideableApp": false,
+    "contentRatingsBySystem": {
+      "appsApple": {
+        "name": "4+",
+        "value": 100,
+        "rank": 1
+      }
+    },
+    "deviceFamilies": [
+      "iphone",
+      "ipod"
+    ],
+    "chartPositions": {
+      "appStore": {
+        "position": 4,
+        "genreName": "报刊杂志",
+        "genre": 6021,
+        "chart": "top-paid",
+        "genreShortName": "杂志"
+      }
+    },
+    "supportsStreamlinedBuy": true,
+    "userRating": {
+      "value": 0,
+      "ratingCount": 0,
+      "ratingCountList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ariaLabelForRatings": "0 星"
+    },
+    "name": "DocScanner - Scan Documents, Receipts, Biz Cards",
+    "genreDisplayName": "商务",
+    "isPreorder": false,
+    "isIOSBinaryMacOSCompatible": true,
+    "artistName": "Abhay Vala",
+    "reviewsRestricted": false,
+    "platformAttributes": {
+      "ios": {
+        "offers": [
+          {
+            "buyParams": "productType=C&price=15000&salableAdamId=1061473017&pricingParameters=STDQ&pg=default&appExtVrsId=841544607",
+            "type": "buy",
+            "priceFormatted": "¥15.00",
+            "price": 15,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 3451904
+              }
+            ]
+          },
+          {
+            "buyParams": "productType=C&price=0&salableAdamId=1061473017&pricingParameters=SWUPD&pg=default&appExtVrsId=841544607",
+            "type": "update",
+            "priceFormatted": "¥0.00",
+            "price": 0,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 3451904
+              }
+            ]
+          }
+        ],
+        "requires32bit": false,
+        "minimumMacOSVersion": "11.0",
+        "releaseDate": "2015-12-01",
+        "hasInAppPurchases": false,
+        "bundleId": "com.abhayraj.DocScanner",
+        "hasMessagesExtension": false,
+        "isStandaloneWithCompanionForWatchOS": false,
+        "artwork": {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/fb/f0/3e/fbf03e5d-0e64-cdd4-2b31-6149daa033d2/mzl.ynoeflvs.png/{w}x{h}{c}.{f}",
+          "bgColor": "bde0fc",
+          "textColor1": "0c184f",
+          "textColor2": "28282a",
+          "textColor3": "2f4071",
+          "textColor4": "464d54"
+        },
+        "isAppleWatchSupported": false,
+        "requiredCapabilitiesForRealityDevice": "armv7 ",
+        "isStandaloneForWatchOS": false,
+        "isHiddenFromSpringboard": false,
+        "isDeliveredInIOSAppForWatchOS": false,
+        "isXROSCompatible": true,
+        "editorialArtwork": {
+          "contentIconTrimmedMonochrome": {
+            "width": 1050,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6b/26/61/6b266131-b03c-10b8-5640-24ed75a1b527/9020ae77-3d4e-48fc-a546-8895dffe962b.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          },
+          "contentIconTrimmed": {
+            "width": 1051,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/bb/46/6cbb4651-ad2b-b7d4-8c0b-da19ece82df1/bc8fd91d-08b5-4439-b99d-06b141f52ea5.png/{w}x{h}{c}.{f}",
+            "bgColor": "b68549",
+            "textColor1": "090603",
+            "textColor2": "120d07",
+            "textColor3": "2b1f11",
+            "textColor4": "322514"
+          },
+          "brandLogo": {
+            "width": 1080,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/29/88/222988f5-d687-a390-7bd5-e7ff102c70d4/c11d0a2e-7af6-4725-a1a5-7ca61e6cb749.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          }
+        },
+        "minimumXROSVersion": "1.0",
+        "hasSafariExtension": false,
+        "requiresGameController": false
+      }
+    }
+  },
+  {
+    "kind": "app",
+    "id": "530088968",
+    "type": "apps",
+    "relationships": {
+      "developer": {
+        "data": [
+          {
+            "id": "421104749",
+            "type": "developers"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "contentVersion": {
+        "MZ_INDEXER": 1739485077837,
+        "RTCI": 1737896218706
+      }
+    },
+    "supportsArcade": false,
+    "isFirstPartyHideableApp": false,
+    "contentRatingsBySystem": {
+      "appsApple": {
+        "name": "4+",
+        "value": 100,
+        "rank": 1
+      }
+    },
+    "deviceFamilies": [
+      "iphone",
+      "ipad",
+      "ipod"
+    ],
+    "chartPositions": {
+      "appStore": {
+        "position": 5,
+        "genreName": "报刊杂志",
+        "genre": 6021,
+        "chart": "top-paid",
+        "genreShortName": "杂志"
+      }
+    },
+    "supportsStreamlinedBuy": true,
+    "userRating": {
+      "wasReset": true,
+      "value": 5,
+      "ratingCount": 1,
+      "ratingCountList": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "ariaLabelForRatings": "5.0 星"
+    },
+    "name": "Prehistoric Times Magazine",
+    "genreDisplayName": "参考资料",
+    "isPreorder": false,
+    "artistName": "Magazinecloner.com US LLC",
+    "isIOSBinaryMacOSCompatible": true,
+    "reviewsRestricted": false,
+    "platformAttributes": {
+      "ios": {
+        "offers": [
+          {
+            "buyParams": "productType=C&price=15000&salableAdamId=530088968&pricingParameters=STDQ&pg=default&appExtVrsId=841412763",
+            "type": "buy",
+            "priceFormatted": "¥15.00",
+            "price": 15,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 27589632
+              }
+            ]
+          },
+          {
+            "buyParams": "productType=C&price=0&salableAdamId=530088968&pricingParameters=SWUPD&pg=default&appExtVrsId=841412763",
+            "type": "update",
+            "priceFormatted": "¥0.00",
+            "price": 0,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 27589632
+              }
+            ]
+          }
+        ],
+        "minimumMacOSVersion": "11.0",
+        "requires32bit": false,
+        "releaseDate": "2012-06-10",
+        "hasInAppPurchases": true,
+        "bundleId": "com.triactivemedia.prehistoric",
+        "hasMessagesExtension": false,
+        "isStandaloneWithCompanionForWatchOS": false,
+        "artwork": {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/38/15/19/3815191d-b618-d14b-c703-624bbb6e403d/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/{w}x{h}{c}.{f}",
+          "bgColor": "ffffff",
+          "textColor1": "3a2825",
+          "textColor2": "3a3034",
+          "textColor3": "615350",
+          "textColor4": "61595d"
+        },
+        "isAppleWatchSupported": false,
+        "isStandaloneForWatchOS": false,
+        "isHiddenFromSpringboard": false,
+        "isDeliveredInIOSAppForWatchOS": false,
+        "editorialArtwork": {
+          "contentIconTrimmedMonochrome": {
+            "width": 1096,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a4/64/8a/a4648aa8-5e79-5648-fc5e-d28b823d7e98/b52fb5f5-1f61-4bf9-8ca8-1e9373a6475c.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          },
+          "contentIconTrimmed": {
+            "width": 1096,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fa/f0/81/faf0810c-bdcd-2cf4-f7c6-81a2382fdf9e/50e580ad-ba56-4f94-bf90-5e414a23601f.png/{w}x{h}{c}.{f}",
+            "bgColor": "575c61",
+            "textColor1": "f9fafc",
+            "textColor2": "eff0f2",
+            "textColor3": "d8dadd",
+            "textColor4": "d0d2d5"
+          },
+          "brandLogo": {
+            "width": 1080,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ab/fe/fb/abfefb6a-2301-1662-c5a0-828e21676ced/9bd3b293-98ee-4385-98a9-d1734b651b95.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          }
+        },
+        "minimumXROSVersion": "1.0",
+        "isXROSCompatible": true,
+        "hasSafariExtension": false,
+        "requiresGameController": false
+      }
+    }
+  },
+  {
+    "kind": "app",
+    "id": "1586151492",
+    "type": "apps",
+    "relationships": {
+      "developer": {
+        "data": [
+          {
+            "id": "1473431377",
+            "type": "developers"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "contentVersion": {
+        "MZ_INDEXER": 1739500312161,
+        "RTCI": 1738952564687
+      }
+    },
+    "supportsArcade": false,
+    "isFirstPartyHideableApp": false,
+    "contentRatingsBySystem": {
+      "appsApple": {
+        "name": "4+",
+        "value": 100,
+        "rank": 1
+      }
+    },
+    "deviceFamilies": [
+      "iphone",
+      "ipad",
+      "ipod"
+    ],
+    "chartPositions": {
+      "appStore": {
+        "position": 6,
+        "genreName": "报刊杂志",
+        "genre": 6021,
+        "chart": "top-paid",
+        "genreShortName": "杂志"
+      }
+    },
+    "supportsStreamlinedBuy": true,
+    "userRating": {
+      "value": 4,
+      "ratingCount": 1,
+      "ratingCountList": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "ariaLabelForRatings": "4.0 星"
+    },
+    "name": "九宫格切图-朋友圈图片一键制作工具",
+    "genreDisplayName": "报刊杂志",
+    "isPreorder": false,
+    "isIOSBinaryMacOSCompatible": true,
+    "artistName": "欣明 封",
+    "reviewsRestricted": false,
+    "platformAttributes": {
+      "ios": {
+        "offers": [
+          {
+            "buyParams": "productType=C&price=15000&salableAdamId=1586151492&pricingParameters=STDQ&pg=default&appExtVrsId=849183129",
+            "type": "buy",
+            "priceFormatted": "¥15.00",
+            "price": 15,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 30471168
+              }
+            ]
+          },
+          {
+            "buyParams": "productType=C&price=0&salableAdamId=1586151492&pricingParameters=SWUPD&pg=default&appExtVrsId=849183129",
+            "type": "update",
+            "priceFormatted": "¥0.00",
+            "price": 0,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 30471168
+              }
+            ]
+          }
+        ],
+        "requires32bit": false,
+        "minimumMacOSVersion": "11.0",
+        "releaseDate": "2021-10-09",
+        "hasInAppPurchases": false,
+        "bundleId": "top.vsworks.v9Picture",
+        "hasMessagesExtension": false,
+        "isStandaloneWithCompanionForWatchOS": false,
+        "artwork": {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/b4/b1/82/b4b182ef-420b-b711-23e3-7e2f01b60ebb/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+          "bgColor": "af2923",
+          "textColor1": "f8e3e1",
+          "textColor2": "fccbc8",
+          "textColor3": "e9bebb",
+          "textColor4": "edaaa7"
+        },
+        "isAppleWatchSupported": false,
+        "requiredCapabilitiesForRealityDevice": "arm64 ",
+        "isStandaloneForWatchOS": false,
+        "isHiddenFromSpringboard": false,
+        "isDeliveredInIOSAppForWatchOS": false,
+        "editorialArtwork": {
+          "contentIconTrimmedMonochrome": {
+            "width": 788,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/09/a4/6f/09a46f71-6e51-8e1d-a911-a793a4033075/1d07a44e-ee7c-4fcd-a51b-15d75c0919fd.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          },
+          "contentIconTrimmed": {
+            "width": 788,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f4/b5/c9/f4b5c903-f94a-281c-bfed-41e53a7f0f97/10d716a3-c2b9-4478-8ed6-39083b9bf9df.png/{w}x{h}{c}.{f}",
+            "bgColor": "575c60",
+            "textColor1": "f9f9fa",
+            "textColor2": "dadde0",
+            "textColor3": "d8d9db",
+            "textColor4": "c0c3c7"
+          },
+          "brandLogo": {
+            "width": 1080,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2f/4c/77/2f4c7780-9ecc-fe0e-78d5-5c2b1205cbeb/be79a42c-0ab8-4d22-a5fd-02675aaeb1fd.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          }
+        },
+        "minimumXROSVersion": "1.0",
+        "isXROSCompatible": true,
+        "subtitle": "快速方便优雅的自定义社交媒体信息流",
+        "hasSafariExtension": false,
+        "requiresGameController": false
+      }
+    }
+  },
+  {
+    "kind": "app",
+    "id": "6444249757",
+    "type": "apps",
+    "relationships": {
+      "developer": {
+        "data": [
+          {
+            "id": "1606737505",
+            "type": "developers"
+          }
+        ]
+      }
+    },
+    "meta": {
+      "contentVersion": {
+        "MZ_INDEXER": 1739519880703,
+        "RTCI": 1738956232798
+      }
+    },
+    "supportsArcade": false,
+    "isFirstPartyHideableApp": false,
+    "contentRatingsBySystem": {
+      "appsApple": {
+        "name": "4+",
+        "value": 100,
+        "rank": 1
+      }
+    },
+    "deviceFamilies": [
+      "watch",
+      "iphone",
+      "ipod"
+    ],
+    "chartPositions": {
+      "appStore": {
+        "position": 7,
+        "genreName": "报刊杂志",
+        "genre": 6021,
+        "chart": "top-paid",
+        "genreShortName": "杂志"
+      }
+    },
+    "supportsStreamlinedBuy": true,
+    "userRating": {
+      "value": 0,
+      "ratingCount": 0,
+      "ratingCountList": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ariaLabelForRatings": "0 星"
+    },
+    "watchBundleId": "com.jupydupy.PocketNews.watchkitapp",
+    "name": "PocketNews - 워치로 보는 뉴스, 기사",
+    "genreDisplayName": "新闻",
+    "isPreorder": false,
+    "isIOSBinaryMacOSCompatible": false,
+    "artistName": "GEONJU CHOI",
+    "reviewsRestricted": false,
+    "minimumWatchOSVersion": "9.0",
+    "platformAttributes": {
+      "ios": {
+        "offers": [
+          {
+            "buyParams": "productType=C&price=28000&salableAdamId=6444249757&pricingParameters=STDQ&pg=default&appExtVrsId=862547539",
+            "type": "buy",
+            "priceFormatted": "¥28.00",
+            "price": 28,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 6178816
+              }
+            ]
+          },
+          {
+            "buyParams": "productType=C&price=0&salableAdamId=6444249757&pricingParameters=SWUPD&pg=default&appExtVrsId=862547539",
+            "type": "update",
+            "priceFormatted": "¥0.00",
+            "price": 0,
+            "currencyCode": "CNY",
+            "assets": [
+              {
+                "flavor": "iosSoftware",
+                "size": 6178816
+              }
+            ]
+          }
+        ],
+        "requires32bit": false,
+        "releaseDate": "2023-01-19",
+        "hasInAppPurchases": false,
+        "bundleId": "com.jupydupy.PocketNews",
+        "hasMessagesExtension": false,
+        "isStandaloneWithCompanionForWatchOS": false,
+        "artwork": {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a5/3a/d9/a53ad9f2-35ce-da80-5c91-38e3ddc74672/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
+          "bgColor": "efac98",
+          "textColor1": "211a1f",
+          "textColor2": "1d1c24",
+          "textColor3": "4a3737",
+          "textColor4": "47393b"
+        },
+        "isAppleWatchSupported": true,
+        "requiredCapabilitiesForRealityDevice": "arm64 ",
+        "isHiddenFromSpringboard": true,
+        "isStandaloneForWatchOS": true,
+        "isDeliveredInIOSAppForWatchOS": false,
+        "isXROSCompatible": false,
+        "editorialArtwork": {
+          "contentIconTrimmedMonochrome": {
+            "width": 990,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          },
+          "contentIconTrimmed": {
+            "width": 990,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
+            "bgColor": "575c62",
+            "textColor1": "fafbfc",
+            "textColor2": "f0f1f2",
+            "textColor3": "d9dbdd",
+            "textColor4": "d1d3d5"
+          },
+          "brandLogo": {
+            "width": 1080,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
+            "bgColor": "000000",
+            "textColor1": "f2f2f2",
+            "textColor2": "e5e5e5",
+            "textColor3": "c1c1c1",
+            "textColor4": "b7b7b7"
+          }
+        },
+        "hasSafariExtension": false,
+        "circularArtwork": {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/11/83/5f/11835fd2-622c-ff0f-eb92-0ae748a31544/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
+          "bgColor": "efac98",
+          "textColor1": "211a1f",
+          "textColor2": "1d1c24",
+          "textColor3": "4a3737",
+          "textColor4": "47393b"
+        },
+        "requiresGameController": false
+      }
+    }
+  }
+]
