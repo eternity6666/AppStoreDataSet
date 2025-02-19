@@ -93,8 +93,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2023-03-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.studios66.airshot",
@@ -115,7 +115,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -148,8 +148,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -159,8 +160,7 @@
                     "textColor2": "2b2b2b",
                     "textColor3": "333333",
                     "textColor4": "555555"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -181,7 +181,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739291530872,
-                "MZ_INDEXER": 1739583928719
+                "MZ_INDEXER": 1739910159716
             }
         },
         "supportsArcade": false,
@@ -224,8 +224,8 @@
         "genreDisplayName": "運動",
         "name": "Dive Log",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Greg Mclaughlin",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -257,8 +257,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.3",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.3",
                 "releaseDate": "2009-01-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.somemore.DiveLog",
@@ -279,7 +279,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -312,7 +312,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -410,8 +410,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-03-02",
                 "hasInAppPurchases": true,
                 "bundleId": "com.racechrono.pro",
@@ -432,7 +432,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -465,7 +465,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -488,7 +488,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739477953754,
-                "MZ_INDEXER": 1739887651486
+                "MZ_INDEXER": 1739929661059
             }
         },
         "supportsArcade": false,
@@ -532,8 +532,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "watchBundleId": "com.airkongfu.kungfu.watchapp",
         "firstVersionSupportingInAppPurchaseApi": "1.1",
+        "watchBundleId": "com.airkongfu.kungfu.watchapp",
         "genreDisplayName": "運動",
         "name": "Watch kung fu：Watch simulator",
         "isPreorder": false,
@@ -571,8 +571,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2025-01-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.airkongfu.kungfu",
@@ -593,7 +593,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -626,8 +626,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -637,8 +638,7 @@
                     "textColor2": "5b0334",
                     "textColor3": "0a2c20",
                     "textColor4": "532f4a"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -700,8 +700,8 @@
         "genreDisplayName": "運動",
         "name": "Flyskyhy",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Renevision",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -733,8 +733,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-04-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.Flyskyhy.Flyskyhy",
@@ -755,7 +755,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -788,7 +788,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -852,8 +852,8 @@
         "genreDisplayName": "運動",
         "name": "Baltic Deco Planner",
         "isPreorder": false,
-        "artistName": "Eskil Olsen",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Eskil Olsen",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -885,8 +885,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-02-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.balticdiveplanner.baltic",
@@ -907,7 +907,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -940,6 +939,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1038,8 +1038,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-09-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.vertigo.shoottracer",
@@ -1060,7 +1060,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -1093,7 +1093,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1191,8 +1191,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.palmerperformance.DashCommand",
@@ -1213,7 +1213,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -1246,7 +1246,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1347,8 +1347,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-04-15",
                 "hasInAppPurchases": true,
                 "bundleId": "sprintTimer",
@@ -1369,7 +1369,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -1402,8 +1402,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1413,8 +1414,7 @@
                     "textColor2": "fec014",
                     "textColor3": "d0dee7",
                     "textColor4": "d0ac2c"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1510,8 +1510,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-11-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.18000rpm.ilaptimer2",
@@ -1532,7 +1532,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -1565,7 +1565,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1630,8 +1630,8 @@
         "genreDisplayName": "運動",
         "name": "RacquetTune - String Tension",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Sten Kaiser",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1663,8 +1663,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-07",
                 "hasInAppPurchases": false,
                 "bundleId": "racquetTune",
@@ -1685,7 +1685,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -1718,7 +1718,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1741,7 +1741,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1735216585139,
-                "MZ_INDEXER": 1739484150365
+                "MZ_INDEXER": 1739907417084
             }
         },
         "supportsArcade": false,
@@ -1785,8 +1785,8 @@
         "genreDisplayName": "運動",
         "name": "Harry's LapTimer GrandPrix",
         "isPreorder": false,
-        "artistName": "Harald Schlangmann",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Harald Schlangmann",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -1819,8 +1819,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.harrys.LapTimerTrainer",
@@ -1841,7 +1841,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -1874,7 +1873,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1884,8 +1885,7 @@
                     "textColor2": "292929",
                     "textColor3": "414141",
                     "textColor4": "525252"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1981,8 +1981,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2012-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.matthewlberg.j23",
@@ -2003,7 +2003,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2036,7 +2036,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2100,8 +2100,8 @@
         "genreDisplayName": "運動",
         "name": "Sports Car Engines",
         "isPreorder": false,
-        "artistName": "ARE Apps Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "ARE Apps Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2133,8 +2133,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-12-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.arermes.sportscarengines",
@@ -2149,7 +2149,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2182,7 +2182,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2248,8 +2248,8 @@
         "genreDisplayName": "運動",
         "name": "My Jump 2",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Carlos Balsalobre",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2302,7 +2302,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2335,7 +2335,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2400,8 +2400,8 @@
         "genreDisplayName": "運動",
         "name": "Ski School Intermediate",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "ElateMedia.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2433,8 +2433,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-10-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.elatemedia.skischoolintermediate",
@@ -2454,7 +2454,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2487,7 +2487,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2554,8 +2554,8 @@
         "genreDisplayName": "運動",
         "name": "Harry's LapTimer Rookie",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Harald Schlangmann",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -2588,8 +2588,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-03-27",
                 "hasInAppPurchases": true,
                 "bundleId": "com.harrys.LapTimer",
@@ -2610,7 +2610,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2653,7 +2652,9 @@
                         "textColor4": "343431"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2663,8 +2664,7 @@
                     "textColor2": "292929",
                     "textColor3": "414141",
                     "textColor4": "525252"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -2764,8 +2764,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dmacpro91.jb4-mobile",
@@ -2786,7 +2786,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2819,7 +2819,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2917,8 +2917,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-09-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bufumufu.PRODUCTNAMErfc1034identifier",
@@ -2939,7 +2939,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2972,7 +2972,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3039,8 +3039,8 @@
         "genreDisplayName": "運動",
         "name": "Harry's LapTimer Petrolhead",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Harald Schlangmann",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -3073,8 +3073,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-11-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.harrys.LapTimerPro",
@@ -3095,7 +3095,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3128,7 +3127,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3138,8 +3139,7 @@
                     "textColor2": "292929",
                     "textColor3": "414141",
                     "textColor4": "525252"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -3202,8 +3202,8 @@
         "genreDisplayName": "運動",
         "name": "Ski School Advanced",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "ElateMedia.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3235,8 +3235,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-10-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.elatemedia.skischooladvanced",
@@ -3256,7 +3256,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3289,7 +3289,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3353,8 +3353,8 @@
         "genreDisplayName": "運動",
         "name": "圈速王 iLapTimer - 賽車 GPS 圈速計時器",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "18000rpm Limited",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3386,8 +3386,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-03-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.18000rpm.iLapTimer",
@@ -3408,7 +3408,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3441,7 +3441,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3538,8 +3538,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-02-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lapommechezvous.SizeMyBike",
@@ -3559,7 +3559,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3592,7 +3592,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3615,7 +3615,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731373322676,
-                "MZ_INDEXER": 1739829196322
+                "MZ_INDEXER": 1739909407185
             }
         },
         "supportsArcade": false,
@@ -3689,8 +3689,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jesherry.proknot",
@@ -3711,7 +3711,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3744,7 +3744,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3809,8 +3809,8 @@
         "genreDisplayName": "運動",
         "name": "Ski School Beginners",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "ElateMedia.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3842,8 +3842,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-10-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.elatemedia.skischoolbeginners",
@@ -3863,7 +3863,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3896,7 +3896,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3919,7 +3919,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738687059382,
-                "MZ_INDEXER": 1739484741589
+                "MZ_INDEXER": 1739906626029
             }
         },
         "supportsArcade": false,
@@ -3993,8 +3993,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.0",
                 "releaseDate": "2009-09-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tourtempo.totalgame",
@@ -4015,7 +4015,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4048,7 +4048,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4113,8 +4113,8 @@
         "genreDisplayName": "運動",
         "name": "Ratio Calc!",
         "isPreorder": false,
-        "artistName": "David Mills",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "David Mills",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4146,8 +4146,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.5",
                 "releaseDate": "2011-05-12",
                 "hasInAppPurchases": true,
                 "bundleId": "uk.co.ashdownapps.ratiocalcnoads",
@@ -4168,7 +4168,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4201,7 +4201,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4301,8 +4301,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-01-31",
                 "hasInAppPurchases": true,
                 "bundleId": "com.iphonewizard.iGolf",
@@ -4323,7 +4323,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4356,8 +4356,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4367,8 +4368,7 @@
                     "textColor2": "213800",
                     "textColor3": "383a34",
                     "textColor4": "4c5e31"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -4389,7 +4389,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731360221816,
-                "MZ_INDEXER": 1739552492788
+                "MZ_INDEXER": 1739911892032
             }
         },
         "supportsArcade": false,
@@ -4464,8 +4464,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-09-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dynamicsoftwaresolutions.idecopro",
@@ -4485,7 +4485,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4518,7 +4518,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4616,8 +4616,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2010-07-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.atomicsoftwares.bikerepair",
@@ -4638,7 +4638,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4671,7 +4671,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4773,8 +4773,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-03-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gottaGolf.golfTracerApp",
@@ -4795,7 +4795,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4828,7 +4828,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4929,8 +4929,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-08-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.zirak.easytrails",
@@ -4951,7 +4951,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5004,8 +5004,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5015,8 +5016,7 @@
                     "textColor2": "00193c",
                     "textColor3": "33333a",
                     "textColor4": "334763"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -5112,8 +5112,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-12-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mintsoftware.MacDive",
@@ -5134,7 +5134,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5167,7 +5167,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5235,8 +5235,8 @@
         "genreDisplayName": "運動",
         "name": "圍棋之眼",
         "isPreorder": false,
-        "artistName": "Wenzhang Zhu",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Wenzhang Zhu",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5268,8 +5268,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-09-25",
                 "hasInAppPurchases": false,
                 "bundleId": "hk.e-intuit.GoEye",
@@ -5289,7 +5289,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5322,7 +5322,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5386,8 +5386,8 @@
         "genreDisplayName": "運動",
         "name": "Fingy",
         "isPreorder": false,
-        "artistName": "forCandies s.r.o.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "forCandies s.r.o.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5419,8 +5419,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-05-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.forcandies.fingy",
@@ -5441,7 +5441,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5474,7 +5474,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5572,8 +5572,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-03-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.evlonsoft.coachBoard",
@@ -5594,7 +5594,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5627,7 +5627,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "戰術、陣容和訓練創造者",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5726,8 +5726,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-02-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bufumufu.boulder-trainer",
@@ -5748,7 +5748,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5781,7 +5781,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5878,8 +5878,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-17",
                 "hasInAppPurchases": false,
                 "bundleId": "FY39FW87A5.JakataiInc..FencingRef",
@@ -5894,7 +5894,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5927,7 +5927,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5992,8 +5992,8 @@
         "genreDisplayName": "運動",
         "name": "Ski School Experts",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "ElateMedia.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6025,8 +6025,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-01-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.elatemedia.skischoolexperts",
@@ -6046,7 +6046,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6079,7 +6079,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6177,8 +6177,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-05-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.evlonsoft.coachBasketballBoard",
@@ -6199,7 +6199,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6232,7 +6232,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "戰術、陣容和訓練創造者",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6331,8 +6331,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-10-18",
                 "hasInAppPurchases": false,
                 "bundleId": "tech.livesports.radioandscore",
@@ -6353,7 +6353,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6386,7 +6386,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6450,8 +6450,8 @@
         "genreDisplayName": "運動",
         "name": "Dive Signals",
         "isPreorder": false,
-        "artistName": "ok2dive UG",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "ok2dive UG",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6483,8 +6483,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-10-24",
                 "hasInAppPurchases": false,
                 "bundleId": "de.ok2dive.DiveSignals",
@@ -6505,7 +6505,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6538,7 +6538,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6636,8 +6636,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-12-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.RaceRenderLLC.TrackAddict",
@@ -6658,7 +6658,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6691,6 +6690,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6756,8 +6756,8 @@
         "genreDisplayName": "運動",
         "name": "What's My Vertical?",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Andreas Rauh",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6789,8 +6789,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-05-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.whatsmyvertical.whatsmyvert",
@@ -6811,7 +6811,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6844,7 +6844,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6943,8 +6943,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-03-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.winningedgeapps.iAnalyze",
@@ -6965,7 +6965,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6998,7 +6998,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7096,8 +7096,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-04-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.peterhohsy.My-Archery-Pro",
@@ -7118,7 +7118,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7151,7 +7151,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7249,8 +7249,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-12-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.raresoftware.HoopStats",
@@ -7270,7 +7270,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7303,7 +7303,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7368,8 +7368,8 @@
         "genreDisplayName": "運動",
         "name": "BaM Video Delay",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Orange Qube",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7401,8 +7401,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-04-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.orangeqube.bustamove",
@@ -7423,7 +7423,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7456,7 +7456,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7479,7 +7479,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738957640202,
-                "MZ_INDEXER": 1739549600308
+                "MZ_INDEXER": 1739930455622
             }
         },
         "supportsArcade": false,
@@ -7523,8 +7523,8 @@
         "genreDisplayName": "運動",
         "name": "YO YO Endurance Test",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "BIT AND WEB",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.1",
         "platformAttributes": {
@@ -7557,8 +7557,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2010-10-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bitandweb.yoyoendurance",
@@ -7579,7 +7579,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7612,8 +7612,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7623,8 +7624,7 @@
                     "textColor2": "150708",
                     "textColor3": "433939",
                     "textColor4": "433939"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -7687,8 +7687,8 @@
         "genreDisplayName": "運動",
         "name": "FitnessMeter - Test & Measure",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Sten Kaiser",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7720,8 +7720,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-11-11",
                 "hasInAppPurchases": false,
                 "bundleId": "fitnessMeter",
@@ -7742,7 +7742,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7775,7 +7775,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7872,8 +7872,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.xdt.GFORCE",
@@ -7893,7 +7893,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7926,7 +7926,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8027,8 +8027,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.splyza.ClipstroForGolf",
@@ -8049,7 +8049,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8102,9 +8102,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "揮桿和落點軌跡可視化工具",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8114,8 +8115,7 @@
                     "textColor2": "f6c1b4",
                     "textColor3": "ebcbc1",
                     "textColor4": "e6a594"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -8211,8 +8211,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-09-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.prcisionstriking.boxingcoachsupreme",
@@ -8233,7 +8233,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8266,7 +8266,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8365,8 +8365,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-10-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wyz.WyShouJin",
@@ -8387,7 +8387,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8420,7 +8420,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8518,8 +8518,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-06-17",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.nalgo.n01",
@@ -8539,7 +8539,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8572,7 +8572,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8670,8 +8670,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-15",
                 "hasInAppPurchases": false,
                 "bundleId": "swingTool",
@@ -8692,7 +8692,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8725,6 +8724,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8747,7 +8747,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738966098164,
-                "MZ_INDEXER": 1739543947326
+                "MZ_INDEXER": 1739930529128
             }
         },
         "supportsArcade": false,
@@ -8788,8 +8788,8 @@
         "genreDisplayName": "運動",
         "name": "Apnea Diver",
         "isPreorder": false,
-        "artistName": "Sport 77 Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Sport 77 Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8821,8 +8821,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-10-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.schleewoon.Apnea",
@@ -8843,7 +8843,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8876,7 +8876,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8974,8 +8974,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-07-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cychosis.br2",
@@ -8990,7 +8990,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9023,7 +9023,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9089,8 +9089,8 @@
         "genreDisplayName": "運動",
         "name": "Russ Bray Darts Scorer",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "TIG Apps Limited",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9122,8 +9122,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-06-18",
                 "hasInAppPurchases": false,
                 "bundleId": "RussBray",
@@ -9144,7 +9144,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9177,7 +9177,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9242,8 +9242,8 @@
         "genreDisplayName": "運動",
         "name": "Dive Plan",
         "isPreorder": false,
-        "artistName": "AXIS Productions",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "AXIS Productions",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9275,8 +9275,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-01-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.axisproductions.Dive-Plan",
@@ -9297,7 +9297,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9330,7 +9330,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9396,8 +9396,8 @@
         "genreDisplayName": "運動",
         "name": "Up Next Soccer",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Vinh Nguyen Van",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9450,7 +9450,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9483,7 +9483,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9581,8 +9581,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-01-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ivan.live.football.tv",
@@ -9597,7 +9597,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9630,7 +9630,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9653,7 +9653,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1735909370649,
-                "MZ_INDEXER": 1739543675384
+                "MZ_INDEXER": 1739930471963
             }
         },
         "supportsArcade": false,
@@ -9698,8 +9698,8 @@
         "genreDisplayName": "運動",
         "name": "TargetScan - Pistol & Rifle",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Deep Scoring Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9731,8 +9731,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-07-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gabrowski.targetscan",
@@ -9753,7 +9753,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9786,6 +9785,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9808,7 +9808,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1734520192440,
-                "MZ_INDEXER": 1739545720245
+                "MZ_INDEXER": 1739929135886
             }
         },
         "supportsArcade": false,
@@ -9852,8 +9852,8 @@
         "genreDisplayName": "運動",
         "name": "iRegatta Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Zifigo",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -9886,8 +9886,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-11-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.yourcompany.iRegatta",
@@ -9908,7 +9908,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9941,8 +9941,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9952,8 +9953,7 @@
                     "textColor2": "202020",
                     "textColor3": "3d2c0d",
                     "textColor4": "4d3c1d"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -9974,7 +9974,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1737562031580,
-                "MZ_INDEXER": 1739829287180
+                "MZ_INDEXER": 1739910066322
             }
         },
         "supportsArcade": false,
@@ -10015,8 +10015,8 @@
         "genreDisplayName": "運動",
         "name": "PinPal",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jeff Stuart",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10048,8 +10048,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pinpal.full",
@@ -10070,7 +10070,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10103,7 +10103,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10170,8 +10170,8 @@
         "genreDisplayName": "運動",
         "name": "AirExercise -  Watch Games",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "岳佳 高",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.0",
         "platformAttributes": {
@@ -10204,8 +10204,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2023-03-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jie.Health",
@@ -10226,7 +10226,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10259,7 +10258,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10269,8 +10270,7 @@
                     "textColor2": "1a1a1a",
                     "textColor3": "333333",
                     "textColor4": "484848"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -10290,8 +10290,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739879115448,
-                "MZ_INDEXER": 1739901138074
+                "RTCI": 1739920014987,
+                "MZ_INDEXER": 1739923546383
             }
         },
         "supportsArcade": false,
@@ -10341,7 +10341,7 @@
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=188000&salableAdamId=1524133184&pricingParameters=STDQ&pg=default&appExtVrsId=872585754",
+                        "buyParams": "productType=C&price=188000&salableAdamId=1524133184&pricingParameters=STDQ&pg=default&appExtVrsId=872604747",
                         "type": "buy",
                         "priceFormatted": "HK$ 188.00",
                         "price": 188,
@@ -10354,7 +10354,7 @@
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=1524133184&pricingParameters=SWUPD&pg=default&appExtVrsId=872585754",
+                        "buyParams": "productType=C&price=0&salableAdamId=1524133184&pricingParameters=SWUPD&pg=default&appExtVrsId=872604747",
                         "type": "update",
                         "priceFormatted": "HK$ 0.00",
                         "price": 0,
@@ -10367,8 +10367,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-04-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.basketballtemple.camera",
@@ -10377,7 +10377,7 @@
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/de/ab/0cdeab26-5d42-6b3d-3387-884469b3bf8a/AppIcon.camera-1x_U007emarketing-0-11-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/0e/14/ff0e14c6-571a-044f-9248-8a06d1287b48/AppIcon.camera-1x_U007emarketing-0-11-0-85-220-0.png/{w}x{h}{c}.{f}",
                     "bgColor": "000000",
                     "textColor1": "ffffff",
                     "textColor2": "e2dddb",
@@ -10389,7 +10389,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10422,7 +10422,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10520,8 +10520,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-08-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jameca.PerfExpert",
@@ -10542,7 +10542,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10575,7 +10575,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10673,8 +10673,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-12-06",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.wasabiapps.bestbowling",
@@ -10695,7 +10695,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10728,7 +10728,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10792,8 +10792,8 @@
         "genreDisplayName": "運動",
         "name": "Punches - measuring power and speed",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Alexander Petridi",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10825,8 +10825,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-04-06",
                 "hasInAppPurchases": false,
                 "bundleId": "Pugach.Punches",
@@ -10847,7 +10847,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10880,6 +10879,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10976,8 +10976,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-01-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.goldsteintech.skydroid",
@@ -10998,7 +10998,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11031,7 +11031,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11096,8 +11096,8 @@
         "genreDisplayName": "運動",
         "name": "Reserveer boot",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "My-Fleet VoF",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11129,8 +11129,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-05-08",
                 "hasInAppPurchases": false,
                 "bundleId": "myfleet.eu.ReserveerBootSwift",
@@ -11151,7 +11151,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11184,7 +11184,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11207,7 +11207,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738955115817,
-                "MZ_INDEXER": 1739483198949
+                "MZ_INDEXER": 1739910195632
             }
         },
         "supportsArcade": false,
@@ -11249,8 +11249,8 @@
         "genreDisplayName": "運動",
         "name": "JumpPower",
         "isPreorder": false,
-        "artistName": "Sten Kaiser",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Sten Kaiser",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11282,8 +11282,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-05-27",
                 "hasInAppPurchases": false,
                 "bundleId": "se.appmaker.JumpPower",
@@ -11304,7 +11304,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11337,7 +11337,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11360,7 +11360,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738966126140,
-                "MZ_INDEXER": 1739484717244
+                "MZ_INDEXER": 1739905885710
             }
         },
         "supportsArcade": false,
@@ -11402,8 +11402,8 @@
         "genreDisplayName": "運動",
         "name": "Tennis Australia Technique App",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Tennis Australia",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11435,8 +11435,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-01-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.au.tennis.tatechniqueapp",
@@ -11456,7 +11456,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11489,7 +11489,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11554,8 +11554,8 @@
         "genreDisplayName": "運動",
         "name": "Break Speed",
         "isPreorder": false,
-        "artistName": "Paul Nettle",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Paul Nettle",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11587,8 +11587,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-05-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.paulnettle.breakspeed",
@@ -11609,7 +11609,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11642,7 +11642,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11707,8 +11707,8 @@
         "genreDisplayName": "運動",
         "name": "LapTracker - Auto Timer",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Sten Kaiser",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11740,8 +11740,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-08-28",
                 "hasInAppPurchases": false,
                 "bundleId": "se.appmaker.LapTracker",
@@ -11762,7 +11762,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11795,7 +11795,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11860,8 +11860,8 @@
         "genreDisplayName": "運動",
         "name": "Cue Measure, learn the perfect cue action for snooker, pool and billiards.",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Gerard McManus",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11893,8 +11893,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-04-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hixfield.cuemeasure",
@@ -11915,7 +11915,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11948,7 +11948,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12012,8 +12012,8 @@
         "genreDisplayName": "運動",
         "name": "Billard Aiming Calculator Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "EscuSoft",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12045,8 +12045,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-06-17",
                 "hasInAppPurchases": false,
                 "bundleId": "ch.frommelt.BillardAimingCalculatorPlus",
@@ -12067,7 +12067,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12100,7 +12100,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12123,7 +12123,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731377300191,
-                "MZ_INDEXER": 1739829680223
+                "MZ_INDEXER": 1739911940980
             }
         },
         "supportsArcade": false,
@@ -12165,8 +12165,8 @@
         "genreDisplayName": "運動",
         "name": "Bowling Scoreboard",
         "isPreorder": false,
-        "artistName": "raketenpioniere",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "raketenpioniere",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12198,8 +12198,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-05-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.raketenpioniere.BowlScore",
@@ -12219,7 +12219,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12252,7 +12252,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12275,7 +12275,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1734628762062,
-                "MZ_INDEXER": 1739484755137
+                "MZ_INDEXER": 1739905313847
             }
         },
         "supportsArcade": false,
@@ -12321,8 +12321,8 @@
         "genreDisplayName": "運動",
         "name": "BoneX保齡球",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "博选科技",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "8.0",
         "platformAttributes": {
@@ -12355,8 +12355,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2024-05-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bonex.bowing",
@@ -12377,7 +12377,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12410,9 +12410,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Bowling Hero 隨身體感運動健身應用",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12422,8 +12423,7 @@
                     "textColor2": "0b0504",
                     "textColor3": "3d2100",
                     "textColor4": "3c2403"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -12522,8 +12522,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-08-27",
                 "hasInAppPurchases": false,
                 "bundleId": "se.appmaker.SprintTimerPro",
@@ -12544,7 +12544,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12577,8 +12577,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12588,8 +12589,7 @@
                     "textColor2": "fec014",
                     "textColor3": "d0dee7",
                     "textColor4": "d0ac2c"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -12652,8 +12652,8 @@
         "genreDisplayName": "運動",
         "name": "eMaxMobileApp",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Markus Schlegel",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12685,8 +12685,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-04-26",
                 "hasInAppPurchases": false,
                 "bundleId": "de.IBHardSoft",
@@ -12707,7 +12707,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12740,7 +12740,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12810,8 +12810,8 @@
         "genreDisplayName": "運動",
         "name": "Apnea Tables Trainer",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Aleh Rabchuk",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -12844,8 +12844,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-05-23",
                 "hasInAppPurchases": false,
                 "bundleId": "-.Apnea-tables",
@@ -12866,7 +12866,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12899,8 +12899,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12910,8 +12911,7 @@
                     "textColor2": "1e1554",
                     "textColor3": "423b6a",
                     "textColor4": "4b4476"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -13009,8 +13009,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.5",
                 "releaseDate": "2015-04-25",
                 "hasInAppPurchases": false,
                 "bundleId": "be.digitmedia.Regatta-Timer",
@@ -13031,7 +13031,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13064,8 +13064,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13075,8 +13076,7 @@
                     "textColor2": "000b19",
                     "textColor3": "001b3d",
                     "textColor4": "001f47"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -13141,8 +13141,8 @@
         "genreDisplayName": "運動",
         "name": "Video Delay Instant Replay Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "michal bojanowicz",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.1",
         "platformAttributes": {
@@ -13175,8 +13175,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-09-20",
                 "hasInAppPurchases": true,
                 "bundleId": "co.borama.VideoDelayInstantReplayPro",
@@ -13197,7 +13197,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13230,8 +13230,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13241,8 +13242,7 @@
                     "textColor2": "161616",
                     "textColor3": "122f41",
                     "textColor4": "122f41"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -13306,8 +13306,8 @@
         "genreDisplayName": "運動",
         "name": "Ballistic X",
         "isPreorder": false,
-        "artistName": "Nomad Innovations, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nomad Innovations, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13339,8 +13339,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.4.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.4.0",
                 "releaseDate": "2019-01-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ballisticx.ballisticx",
@@ -13361,7 +13361,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13394,7 +13394,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13492,8 +13492,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-03-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.excelpanda.Lineup",
@@ -13514,7 +13514,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13547,7 +13547,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13612,8 +13612,8 @@
         "genreDisplayName": "運動",
         "name": "排球教練戰術板++",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "BLUELINDEN",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13645,8 +13645,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-06-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.evlonsoft.coachVolleyballBoard",
@@ -13667,7 +13667,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13700,7 +13700,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "戰術、陣容和訓練創造者",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13764,13 +13764,13 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "watchBundleId": "com.ksdesign.footballFan.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "3.0.0",
+        "watchBundleId": "com.ksdesign.footballFan.watchkitapp",
         "genreDisplayName": "運動",
         "name": "足球戰術板 - 教練寶典 戰術平台",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "宇昌 何",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -13803,8 +13803,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-12-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ksdesign.footballFan",
@@ -13825,7 +13825,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13858,8 +13858,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13869,8 +13870,7 @@
                     "textColor2": "161300",
                     "textColor3": "062903",
                     "textColor4": "153203"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -13935,8 +13935,8 @@
         "genreDisplayName": "運動",
         "name": "tack X Sailing Regatta Timer",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Paul Wash",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "8.0",
         "platformAttributes": {
@@ -13969,8 +13969,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2015-11-24",
                 "hasInAppPurchases": false,
                 "bundleId": "net.webnext.TackMan",
@@ -13991,7 +13991,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14024,8 +14024,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14035,8 +14036,7 @@
                     "textColor2": "1f2d59",
                     "textColor3": "364674",
                     "textColor4": "4b577a"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -14097,8 +14097,8 @@
         "genreDisplayName": "運動",
         "name": "Rise - Archery Scoring Tracker",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Campbell Affleck",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14130,8 +14130,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2019-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "campbellaffleck.RiseArchery",
@@ -14152,7 +14152,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14185,7 +14185,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14286,8 +14286,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-12-10",
                 "hasInAppPurchases": true,
                 "bundleId": "org.cagnulein.qdomyoszwift",
@@ -14308,7 +14308,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14341,8 +14341,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14352,8 +14353,7 @@
                     "textColor2": "ff338c",
                     "textColor3": "97c60c",
                     "textColor4": "d12f75"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -14374,7 +14374,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738960846096,
-                "MZ_INDEXER": 1739549175264
+                "MZ_INDEXER": 1739930691730
             }
         },
         "supportsArcade": false,
@@ -14420,8 +14420,8 @@
         "genreDisplayName": "運動",
         "name": "足球預測",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Thomas Cole",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14453,8 +14453,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-08-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bigedev.footballtips",
@@ -14475,7 +14475,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14508,7 +14508,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "足球預測",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14574,8 +14574,8 @@
         "genreDisplayName": "運動",
         "name": "ArcherySuccess - Score & Plot",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "AllTen Software Limited",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14607,8 +14607,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-12-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.alltensoftware.archerysuccess",
@@ -14629,7 +14629,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14662,7 +14662,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14760,8 +14760,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-08-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ft.ivan",
@@ -14776,7 +14776,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14809,7 +14809,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14874,8 +14874,8 @@
         "genreDisplayName": "運動",
         "name": "Safe Skipper",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "The Other Hat",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14907,8 +14907,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-04-30",
                 "hasInAppPurchases": false,
                 "bundleId": "free.skipper.biz",
@@ -14928,7 +14928,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14961,7 +14961,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

@@ -53,8 +53,8 @@
             ],
             "ariaLabelForRatings": "4.3 粒星"
         },
-        "genreDisplayName": "圖像與設計",
         "name": "Procreate",
+        "genreDisplayName": "圖像與設計",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Savage Interactive Pty Ltd",
@@ -89,8 +89,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.2",
+                "requires32bit": false,
                 "releaseDate": "2011-03-16",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.savageinteractive.procreate",
@@ -111,8 +111,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -185,6 +183,8 @@
                         "textColor4": "ccc4d8"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "勾畫・描繪・創作",
                 "editorialNotes": {
                     "tagline": "新增手勢辨識，使用更便利",
@@ -252,8 +252,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "工具程式",
         "name": "Stash",
+        "genreDisplayName": "工具程式",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "STASH NETWORKS LIMITED",
@@ -288,13 +288,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2021-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "ws.stash.app",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -310,6 +310,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 746,
@@ -342,9 +344,160 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "subtitle": "易用且強勁的網絡工具",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1449584007",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "329604853",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739510981420,
+                "RTCI": 1736350875417
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 1,
+                "genreName": "音樂",
+                "genre": 6011,
+                "chart": "top-paid",
+                "genreShortName": "音樂"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 粒星"
+        },
+        "name": "Koala Sampler",
+        "genreDisplayName": "音樂",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mazbox Limited",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=4990&salableAdamId=1449584007&pricingParameters=STDQ&pg=default&appExtVrsId=871564014",
+                        "type": "buy",
+                        "priceFormatted": "USD 4.99",
+                        "price": 4.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 74216448
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1449584007&pricingParameters=SWUPD&pg=default&appExtVrsId=871564014",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 74216448
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2019-02-28",
+                "hasInAppPurchases": true,
+                "bundleId": "com.elf-audio.koala",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/78/51/f3785149-2a4d-542f-8821-d8a60afd9563/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "fb2d59",
+                    "textColor1": "160a0d",
+                    "textColor2": "160d0f",
+                    "textColor3": "43111c",
+                    "textColor4": "43141e"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/14/5d/a1/145da182-f482-11c3-610b-a8c80cd73351/bd46b3db-b3c6-45c3-90fd-8a117ada9a5e.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/31/1e/55/311e5579-0d15-3e60-484d-57bb1ac95c29/749bb2bd-d595-4955-85df-23ab4e74bc19.png/{w}x{h}{c}.{f}",
+                        "bgColor": "70da00",
+                        "textColor1": "041216",
+                        "textColor2": "041216",
+                        "textColor3": "1a3a12",
+                        "textColor4": "1a3a12"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/e3/03/3c/e3033c1d-d69c-c77e-2833-57a756c3a509/2836f4b8-26ef-4bc0-9493-d5d3b63f366f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "subtitle": "易用且強勁的網絡工具",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -442,13 +595,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-09-07",
                 "hasInAppPurchases": false,
                 "bundleId": "org.abrsm.TheoryWorks",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -557,8 +710,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "生產力",
         "name": "Endless Paper",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Epiphanie",
@@ -593,8 +746,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2019-11-15",
                 "hasInAppPurchases": false,
                 "bundleId": "xyz.there4iam.Endless-Paper",
@@ -615,8 +768,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1048,
@@ -649,6 +800,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -710,11 +863,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "動物大探索：動物世界(完整版) - 兒童教育遊戲",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "artistName": "philippe Bobis",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "philippe Bobis",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -765,8 +918,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "accelerometer arm64 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -863,11 +1016,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "動物大探索：狗和猫（完整版）",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "artistName": "philippe Bobis",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "philippe Bobis",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -918,8 +1071,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "accelerometer arm64 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -1016,11 +1169,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "Name That Category Fun Deck",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "artistName": "Super Duper Publications",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Super Duper Publications",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1057,8 +1210,8 @@
                 "releaseDate": "2011-08-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.superduperinc.Name-That-Category",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1108,327 +1261,6 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1053605807",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "433373206",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739511879745,
-                "RTCI": 1738953837130
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 5,
-                "genreName": "教育",
-                "genre": 6017,
-                "chart": "top-paid",
-                "genreShortName": "教育"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 1,
-            "ratingCount": 1,
-            "ratingCountList": [
-                1,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "1.0 粒星"
-        },
-        "genreDisplayName": "教育",
-        "name": "太空 - SPACE",
-        "isPreorder": false,
-        "artistName": "THIX LLC",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=2990&salableAdamId=1053605807&pricingParameters=STDQ&pg=default&appExtVrsId=839919718",
-                        "type": "buy",
-                        "priceFormatted": "USD 2.99",
-                        "price": 2.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 111671296
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1053605807&pricingParameters=SWUPD&pg=default&appExtVrsId=839919718",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 111671296
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2016-05-04",
-                "hasInAppPurchases": false,
-                "bundleId": "thix.sciencesense.space",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/60/c8/57/60c85725-938f-b13d-ca64-88868d79e4c8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "e8b6f4",
-                    "textColor2": "ddaeea",
-                    "textColor3": "ba92c3",
-                    "textColor4": "b18bbb"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1172,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/50/c4/8350c46e-ff22-a9af-1b3b-f85f54073593/6ff3dcf1-f625-4318-8e1b-bdd42045114f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1172,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a7/1d/a1/a71da1a0-cbe4-e2cf-0a5e-477f554ddc17/62ba1d49-8d35-4a5b-b0b6-a515d268d0ff.png/{w}x{h}{c}.{f}",
-                        "bgColor": "585b60",
-                        "textColor1": "f6f6f7",
-                        "textColor2": "eeeeef",
-                        "textColor3": "d6d7d9",
-                        "textColor4": "d0d1d2"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features111/v4/f7/3d/92/f73d92b7-aebc-bba1-5f91-b57bdd535c1d/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "26003d",
-                        "textColor1": "ed71ef",
-                        "textColor2": "cf40f1",
-                        "textColor3": "c55acc",
-                        "textColor4": "ad33cd"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/04/ce/60/04ce60cf-9368-2611-b8b8-2d80dc9bd282/22557539-64ca-44a4-b25e-ec133ec10ba5.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "subtitle": "創造屬於你的模擬宇宙",
-                "hasSafariExtension": false,
-                "editorialNotes": {
-                    "tagline": "虛擬宇宙，由你主宰"
-                },
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1098187391",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "998176000",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739523475056,
-                "RTCI": 1731359416760
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 7,
-                "genreName": "教育",
-                "genre": 6017,
-                "chart": "top-paid",
-                "genreShortName": "教育"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "wasReset": true,
-            "value": 4.3,
-            "ratingCount": 3,
-            "ratingCountList": [
-                0,
-                0,
-                1,
-                0,
-                2
-            ],
-            "ariaLabelForRatings": "4.3 粒星"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "1.5",
-        "genreDisplayName": "教育",
-        "name": "My Town : Wedding Day",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "My Town Games LTD",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=3990&salableAdamId=1098187391&pricingParameters=STDQ&pg=default&appExtVrsId=869537136",
-                        "type": "buy",
-                        "priceFormatted": "USD 3.99",
-                        "price": 3.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 270013440
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1098187391&pricingParameters=SWUPD&pg=default&appExtVrsId=869537136",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 270013440
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2016-04-13",
-                "hasInAppPurchases": false,
-                "bundleId": "mytown.wedding",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/aa/3d/a9aa3d2e-1e41-b6ca-239c-674d3ff23016/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "f6bc91",
-                    "textColor1": "250a03",
-                    "textColor2": "341513",
-                    "textColor3": "4f2d1f",
-                    "textColor4": "5b362c"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1172,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/50/c4/8350c46e-ff22-a9af-1b3b-f85f54073593/6ff3dcf1-f625-4318-8e1b-bdd42045114f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1172,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a7/1d/a1/a71da1a0-cbe4-e2cf-0a5e-477f554ddc17/62ba1d49-8d35-4a5b-b0b6-a515d268d0ff.png/{w}x{h}{c}.{f}",
-                        "bgColor": "585b60",
-                        "textColor1": "f6f6f7",
-                        "textColor2": "eeeeef",
-                        "textColor3": "d6d7d9",
-                        "textColor4": "d0d1d2"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/04/ce/60/04ce60cf-9368-2611-b8b8-2d80dc9bd282/22557539-64ca-44a4-b25e-ec133ec10ba5.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1505,8 +1337,8 @@
         "genreDisplayName": "工具程式",
         "name": "Puffin Cloud Browser",
         "isPreorder": false,
-        "artistName": "CloudMosa, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CloudMosa, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1569,6 +1401,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 746,
@@ -1601,8 +1435,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Access browser on the cloud",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1669,8 +1501,8 @@
         "genreDisplayName": "娛樂",
         "name": "AVPlayerHD",
         "isPreorder": false,
-        "artistName": "EPLAYWORKS",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "EPLAYWORKS",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1724,6 +1556,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 758,
@@ -1756,8 +1590,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1821,11 +1653,11 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "genreDisplayName": "工具程式",
         "name": "iSafe HD",
+        "genreDisplayName": "工具程式",
         "isPreorder": false,
-        "artistName": "Fanship",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Fanship",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1862,8 +1694,8 @@
                 "releaseDate": "2011-09-16",
                 "hasInAppPurchases": true,
                 "bundleId": "net.fanship.iSafePad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1975,11 +1807,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "工具程式",
         "name": "Shadowrocket",
+        "genreDisplayName": "工具程式",
         "isPreorder": false,
-        "artistName": "Shadow Launch Technology Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Shadow Launch Technology Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2030,8 +1862,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -2089,7 +1921,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550078954,
+                "MZ_INDEXER": 1739911992130,
                 "RTCI": 1738962785855
             }
         },
@@ -2165,8 +1997,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-05-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.learnw.crecipes",
@@ -2186,6 +2018,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2218,8 +2052,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2281,8 +2113,8 @@
             ],
             "ariaLabelForRatings": "1.7 粒星"
         },
-        "genreDisplayName": "導航",
         "name": "Good Maps - Google地圖,3D,離線,全球街景,公交,地鐵,導航",
+        "genreDisplayName": "導航",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "光宇 张",
@@ -2317,8 +2149,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-06-15",
                 "hasInAppPurchases": false,
                 "bundleId": "guangyu.zhang-gmap",
@@ -2339,8 +2171,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1034,
@@ -2373,6 +2203,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2435,11 +2267,11 @@
             "ariaLabelForRatings": "4.9 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "5.0.1",
-        "genreDisplayName": "生產力",
         "name": "GoodReader PDF Editor & Viewer",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
-        "artistName": "Good.iWare, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Good.iWare, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2490,11 +2322,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1048,
@@ -2547,6 +2377,8 @@
                         "textColor4": "2e2d2c"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2608,11 +2440,11 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "genreDisplayName": "圖像與設計",
         "name": "Nomad Sculpt - 3D雕刻建模",
+        "genreDisplayName": "圖像與設計",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Hexanomad",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2644,8 +2476,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2020-08-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.stephaneginier.Nomad",
@@ -2666,8 +2498,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 971,
@@ -2700,6 +2530,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "專業數字雕刻與模型繪畫",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2722,7 +2554,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739551255761,
+                "MZ_INDEXER": 1739922112743,
                 "RTCI": 1734811753982
             }
         },
@@ -2762,11 +2594,11 @@
             "ariaLabelForRatings": "4.8 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.7",
-        "genreDisplayName": "相片與影片",
         "name": "LumaFusion",
+        "genreDisplayName": "相片與影片",
         "isPreorder": false,
-        "artistName": "Luma Touch LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Luma Touch LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2817,8 +2649,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.3",
                 "isXROSCompatible": true,
@@ -2875,12 +2707,12 @@
                     }
                 },
                 "subtitle": "專業影片剪輯與效果",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "強大影片編輯工具",
                     "standard": "無論你是電影製作的新手還是專家，這款多軌影片編輯器都能幫到你。它擁有其他 iPad 影片編輯 App 所不具備的功能，而且所有內容都可以透過直覺易用的觸控介面取用。",
                     "short": "強大編輯工具，加入過場等眾多效果"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -2939,11 +2771,11 @@
             ],
             "ariaLabelForRatings": "3.8 粒星"
         },
-        "genreDisplayName": "娛樂",
         "name": "OPlayer HD - video player",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Suzhou Totoro Network Technology Co., Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2975,8 +2807,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-06-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.olimsoft.oplayer.hd",
@@ -2997,8 +2829,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 758,
@@ -3031,6 +2861,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "classic media player",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3053,7 +2885,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739482178170,
+                "MZ_INDEXER": 1739907345101,
                 "RTCI": 1731356912434
             }
         },
@@ -3154,6 +2986,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -3186,8 +3020,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3286,13 +3118,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-11-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pockeysoft.upad",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3383,7 +3215,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 5,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -3403,8 +3235,8 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "兒歌童謠 - 國語+粵語(廣東話)兒歌連歌詞",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "artistName": "AppsNice",
         "isIOSBinaryMacOSCompatible": true,
@@ -3444,8 +3276,8 @@
                 "releaseDate": "2012-02-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appsnice.kidsongschinese",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3553,11 +3385,11 @@
             ],
             "ariaLabelForRatings": "4.3 粒星"
         },
-        "genreDisplayName": "相片與影片",
         "name": "Procreate Dreams",
+        "genreDisplayName": "相片與影片",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Savage Interactive Pty Ltd",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3589,13 +3421,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.2",
+                "requires32bit": false,
                 "releaseDate": "2023-11-22",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.savageinteractive.Dreams",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3715,11 +3547,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "圖像與設計",
         "name": "畫板",
+        "genreDisplayName": "圖像與設計",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Murtha Design LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3751,13 +3583,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "org.pogi.dp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3865,11 +3697,11 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "genreDisplayName": "生產力",
         "name": "筆記本+ Pro",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Easy Tiger Apps, LLC.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3901,13 +3733,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-12-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.apalonapps.notepad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4032,8 +3864,8 @@
         "genreDisplayName": "娛樂",
         "name": "RushPlayer",
         "isPreorder": false,
-        "artistName": "华明 毛",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "华明 毛",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4070,8 +3902,8 @@
                 "releaseDate": "2011-08-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rush.rushplayer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4083,8 +3915,8 @@
                     "textColor4": "422c16"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -4180,8 +4012,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "娛樂",
         "name": "Amaziograph",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "AMAZIOGRAPH OOD",
@@ -4216,8 +4048,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-12-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hristostaykov.Amaziograph",
@@ -4334,8 +4166,8 @@
             ],
             "ariaLabelForRatings": "3.7 粒星"
         },
-        "genreDisplayName": "生產力",
         "name": "Notes Plus",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
         "artistName": "Viet Tran",
         "isIOSBinaryMacOSCompatible": false,
@@ -4389,11 +4221,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1048,
@@ -4436,6 +4266,8 @@
                         "textColor4": "413e3a"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "告別紙張，革新手寫體驗"
@@ -4460,7 +4292,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549319496,
+                "MZ_INDEXER": 1739928534444,
                 "RTCI": 1738958323513
             }
         },
@@ -4502,8 +4334,8 @@
             "ariaLabelForRatings": "3.8 粒星"
         },
         "watchBundleId": "hk.wing.iCJCode.watchkitapp",
-        "genreDisplayName": "生產力",
         "name": "倉頡解碼",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Wing Sin",
@@ -4544,8 +4376,8 @@
                 "releaseDate": "2010-09-20",
                 "hasInAppPurchases": false,
                 "bundleId": "hk.wing.iCJCode",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4644,7 +4476,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 6,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -4664,8 +4496,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "Star Walk HD - 星圖: 星星和星座",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Vito Technology Inc.",
@@ -4700,13 +4532,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vitotechnology.StarWalkiPad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4805,7 +4637,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 7,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -4825,8 +4657,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "iThrass",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "THRASS AUSTRALIA PTY LTD",
@@ -4861,8 +4693,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-07-30",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.thrass.iThrass",
@@ -4958,7 +4790,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 1,
+                "position": 2,
                 "genreName": "音樂",
                 "genre": 6011,
                 "chart": "top-paid",
@@ -4978,8 +4810,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "genreDisplayName": "音樂",
         "name": "Guitar Pro",
+        "genreDisplayName": "音樂",
         "isPreorder": false,
         "artistName": "Arobas Music",
         "isIOSBinaryMacOSCompatible": false,
@@ -5032,11 +4864,9 @@
                     "textColor4": "293445"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -5069,6 +4899,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "琴譜和樂譜音樂播放機",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5169,13 +5001,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2014-10-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pixelmatorteam.pixelmator.touch",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5266,11 +5098,11 @@
                         "textColor4": "ce6b76"
                     }
                 },
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "多種專業工具，助你細膩修圖",
                     "standard": "這款功能齊全的編輯 App 獨一無二，具備一系列強大工具、觸控螢幕控制、精美的範本和可自訂的效果。此外，你可透過 iCloud Drive，隨時隨地在 iPhone、iPad 或 Mac 上編輯。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -5291,7 +5123,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549392024,
+                "MZ_INDEXER": 1739914514423,
                 "RTCI": 1738960985901
             }
         },
@@ -5331,11 +5163,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "娛樂",
         "name": "Zen Brush 2",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
-        "artistName": "PSOFT",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "PSOFT",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5372,8 +5204,6 @@
                 "releaseDate": "2015-09-03",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.psoft.Zen-Brush-2",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -5384,6 +5214,8 @@
                     "textColor3": "403831",
                     "textColor4": "493c32"
                 },
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5396,8 +5228,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -5473,11 +5305,11 @@
                         "textColor4": "363534"
                     }
                 },
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "禪風畫板充滿東方美感，紅黑兩色極簡純粹，筆墨深淺中體驗靜心自在。",
                     "tagline": "即席揮毫寫揮春，送上節日祝福"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -5523,7 +5355,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "音樂",
                 "genre": 6011,
                 "chart": "top-paid",
@@ -5544,8 +5376,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "watchBundleId": "com.melodis.midomi.watchapp",
-        "genreDisplayName": "音樂",
         "name": "SoundHound∞ 音樂識別搜尋器及播放器",
+        "genreDisplayName": "音樂",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "SoundHound, Inc.",
@@ -5581,8 +5413,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.melodis.midomi",
@@ -5748,8 +5580,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-07-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.hianzinjong.Downloads-HD",
@@ -5770,6 +5602,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 746,
@@ -5802,8 +5636,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5868,11 +5700,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "生產力",
         "name": "iFiles",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Imagam.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5904,8 +5736,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-12-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.imagam.ifiles",
@@ -5926,8 +5758,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1048,
@@ -5960,6 +5790,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6007,7 +5839,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "音樂",
                 "genre": 6011,
                 "chart": "top-paid",
@@ -6027,10 +5859,10 @@
             ],
             "ariaLabelForRatings": "4.8 粒星"
         },
-        "firstVersionSupportingInAppPurchaseApi": "12.7",
         "watchBundleId": "com.alexanderben.RadioIn.watchkitapp",
-        "genreDisplayName": "音樂",
+        "firstVersionSupportingInAppPurchaseApi": "12.7",
         "name": "TuneIn Radio: Music & Sports",
+        "genreDisplayName": "音樂",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "TuneIn",
@@ -6066,13 +5898,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2009-09-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.alexanderben.RadioIn",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6088,6 +5920,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -6160,8 +5994,6 @@
                         "textColor4": "14202f"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Live News, Local FM Stations",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -6235,10 +6067,10 @@
             ],
             "ariaLabelForRatings": "4.4 粒星"
         },
-        "firstVersionSupportingInAppPurchaseApi": "11.1",
         "watchBundleId": "com.savysoda.documents.watchkitapp",
-        "genreDisplayName": "商業",
+        "firstVersionSupportingInAppPurchaseApi": "11.1",
         "name": "Documents",
+        "genreDisplayName": "商業",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Savy Soda Pty Ltd",
@@ -6274,13 +6106,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-03-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.savysoda.documents",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6361,8 +6193,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739885178527,
-                "RTCI": 1739885690638
+                "MZ_INDEXER": 1739922842357,
+                "RTCI": 1739921002226
             }
         },
         "supportsArcade": false,
@@ -6380,7 +6212,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "音樂",
                 "genre": 6011,
                 "chart": "top-paid",
@@ -6401,8 +6233,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "8.0.2",
-        "genreDisplayName": "音樂",
         "name": "iReal Pro",
+        "genreDisplayName": "音樂",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Technimo LLC",
@@ -6411,7 +6243,7 @@
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=19990&salableAdamId=298206806&pricingParameters=STDQ&pg=default&appExtVrsId=872039257",
+                        "buyParams": "productType=C&price=19990&salableAdamId=298206806&pricingParameters=STDQ&pg=default&appExtVrsId=872575750",
                         "type": "buy",
                         "priceFormatted": "USD 19.99",
                         "price": 19.99,
@@ -6419,12 +6251,12 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 126559232
+                                "size": 126571520
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=298206806&pricingParameters=SWUPD&pg=default&appExtVrsId=872039257",
+                        "buyParams": "productType=C&price=0&salableAdamId=298206806&pricingParameters=SWUPD&pg=default&appExtVrsId=872575750",
                         "type": "update",
                         "priceFormatted": "USD 0.00",
                         "price": 0,
@@ -6432,7 +6264,7 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 126559232
+                                "size": 126571520
                             }
                         ]
                     }
@@ -6442,12 +6274,12 @@
                 "releaseDate": "2009-03-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.massimobiolcati.iRealBook",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/83/a6/db83a63b-d8b0-bb45-00f0-6ff659fc39ad/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/68/42/b7684265-2ae0-a2f6-275a-37d20638151e/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "06456e",
                     "textColor1": "27e3ff",
                     "textColor2": "1cb2fb",
@@ -6459,6 +6291,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -6491,8 +6325,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6514,7 +6346,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739543318700,
+                "MZ_INDEXER": 1739922262289,
                 "RTCI": 1738957521881
             }
         },
@@ -6557,11 +6389,11 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "genreDisplayName": "娛樂",
         "name": "GoodPlayer",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
-        "artistName": "Wuhan TrustComputing IT Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Wuhan TrustComputing IT Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6612,8 +6444,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -6670,7 +6502,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739502570201,
+                "MZ_INDEXER": 1739917664325,
                 "RTCI": 1737629392410
             }
         },
@@ -6691,7 +6523,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 6,
                 "genreName": "音樂",
                 "genre": 6011,
                 "chart": "top-paid",
@@ -6711,8 +6543,8 @@
             ],
             "ariaLabelForRatings": "4.9 粒星"
         },
-        "genreDisplayName": "音樂",
         "name": "forScore",
+        "genreDisplayName": "音樂",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "forScore, LLC",
@@ -6751,8 +6583,8 @@
                 "releaseDate": "2010-04-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mgsdevelopment.forscore",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6878,8 +6710,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "watchBundleId": "com.fluidtouch.noteshelf.watchkitapp",
-        "genreDisplayName": "生產力",
         "name": "Noteshelf 2",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Fluid Touch Pte. Ltd.",
@@ -6915,13 +6747,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2017-10-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fluidtouch.noteshelf",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7066,8 +6898,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "娛樂",
         "name": "ArtRage",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Ambient Design Ltd.",
@@ -7102,8 +6934,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-09-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.AmbientDesign.ArtRageiPad",
@@ -7124,8 +6956,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 758,
@@ -7158,6 +6988,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7199,7 +7031,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 8,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -7220,8 +7052,8 @@
             "ariaLabelForRatings": "2.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "4.18",
-        "genreDisplayName": "教育",
         "name": "Monkey Preschool Lunchbox",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "THUP Games",
@@ -7256,13 +7088,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-08-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.thup.MonkeyPreschool",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7278,6 +7110,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1172,
@@ -7310,7 +7143,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7381,8 +7213,8 @@
         "genreDisplayName": "醫藥",
         "name": "Human Anatomy Atlas 2025",
         "isPreorder": false,
-        "artistName": "Visible Body",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Visible Body",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7419,8 +7251,8 @@
                 "releaseDate": "2016-07-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.argosy.vb.superatlas",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7433,8 +7265,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -7534,7 +7366,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 9,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -7555,11 +7387,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "3.0.2",
-        "genreDisplayName": "教育",
         "name": "Tinybop 人體探秘",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Tinybop Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7591,13 +7423,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-08-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tinybop.HumanBody",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7667,10 +7499,10 @@
                 },
                 "isXROSCompatible": false,
                 "subtitle": "用 40 種語言學習解剖學！ 有趣和有教育意義。",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "看得見、聽得到的動態身體模型"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -7735,8 +7567,8 @@
             ],
             "ariaLabelForRatings": "4.4 粒星"
         },
-        "genreDisplayName": "工具程式",
         "name": "iSafe Pro",
+        "genreDisplayName": "工具程式",
         "isPreorder": false,
         "artistName": "Fanship",
         "isIOSBinaryMacOSCompatible": false,
@@ -7790,11 +7622,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 746,
@@ -7827,6 +7657,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7868,7 +7700,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 10,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -7889,11 +7721,11 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "3.7.8",
-        "genreDisplayName": "教育",
         "name": "Elmo Loves ABCs",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Sesame Workshop (Apps)",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7925,13 +7757,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-04-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sesameworkshop.elmolovesabcipad1",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8031,7 +7863,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 11,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -8052,8 +7884,8 @@
             "ariaLabelForRatings": "4.4 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.4.3",
-        "genreDisplayName": "教育",
         "name": "Solar Walk - 探索宇宙和太陽系 3D",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "artistName": "Vito Technology Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -8093,8 +7925,8 @@
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.vitotechnology.SolarWalk",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8235,8 +8067,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "工具程式",
         "name": "ComicGlass [ComicReader]",
+        "genreDisplayName": "工具程式",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "RR Soft",
@@ -8271,8 +8103,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2010-07-29",
                 "hasInAppPurchases": true,
                 "bundleId": "net.ryusuke.comicglass",
@@ -8455,6 +8287,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -8487,8 +8321,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Annotate,edit & sign PDFs",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8531,7 +8363,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 12,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -8554,8 +8386,8 @@
         "genreDisplayName": "教育",
         "name": "熊貓博士餐廳 2",
         "isPreorder": false,
-        "artistName": "Dr. Panda Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dr. Panda Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8592,8 +8424,8 @@
                 "releaseDate": "2014-02-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tribeplay.pandarestaurant2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8606,8 +8438,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -8753,13 +8585,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dcco.apps.iSilo",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8869,11 +8701,11 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "genreDisplayName": "娛樂",
         "name": "Little Kitten-Kids Pet Cat Sim",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
-        "artistName": "Squeakosaurus ug & co. kg",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Squeakosaurus ug & co. kg",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8924,10 +8756,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 758,
@@ -8980,10 +8811,11 @@
                         "textColor4": "1d2627"
                     }
                 },
-                "hasSafariExtension": false,
+                "isXROSCompatible": false,
                 "editorialNotes": {
                     "tagline": "與可愛貓咪邊玩邊學習"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -9092,8 +8924,8 @@
                 "releaseDate": "2009-04-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.savysoda.documents2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9214,11 +9046,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "生產力",
         "name": "MyScript Calculator",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "MyScript",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9255,8 +9087,8 @@
                 "releaseDate": "2018-01-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.myscript.calculator",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9368,7 +9200,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 13,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -9388,11 +9220,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "Math Bingo",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "artistName": "Curiosity Media",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Curiosity Media",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9443,8 +9275,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "accelerometer opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -9543,8 +9375,8 @@
         "genreDisplayName": "工具程式",
         "name": "FileBrowser - Document Manager",
         "isPreorder": false,
-        "artistName": "Stratospherix Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Stratospherix Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9581,8 +9413,8 @@
                 "releaseDate": "2010-09-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stratospherix.filebrowser",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9595,8 +9427,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -9730,8 +9562,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-08-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.liability.Earth-Clock",
@@ -9752,6 +9584,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -9824,8 +9658,6 @@
                         "textColor4": "90b91f"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9949,6 +9781,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1048,
@@ -10011,14 +9845,11 @@
                         "textColor4": "1a271e"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "用高效率番茄工作法，開始自律時間管理！",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "加入鎖定畫面，即時追蹤狀態"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10028,7 +9859,8 @@
                     "textColor2": "3b250a",
                     "textColor3": "51501e",
                     "textColor4": "5a5027"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -10068,7 +9900,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 14,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -10088,11 +9920,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "熊貓博士機場",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "artistName": "Dr. Panda Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dr. Panda Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10129,8 +9961,8 @@
                 "releaseDate": "2013-08-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tribeplay.pandaairport",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10231,7 +10063,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 15,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -10288,8 +10120,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-03-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tribeplay.pandasupermarket",
@@ -10310,6 +10142,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1172,
@@ -10362,7 +10195,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "在雜貨店開心購物！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10405,7 +10237,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 19,
+                "position": 16,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -10425,8 +10257,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "熊貓博士動物醫院",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dr. Panda Ltd",
@@ -10466,8 +10298,8 @@
                 "releaseDate": "2012-06-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tribeplay.pandahospital",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10483,6 +10315,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1172,
@@ -10525,7 +10358,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "做個好醫生，幫助身邊好友",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10568,7 +10400,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 20,
+                "position": 17,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -10588,11 +10420,11 @@
             ],
             "ariaLabelForRatings": "4.9 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "RakugakiAR",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "artistName": "Whatever Co.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Whatever Co.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10643,8 +10475,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arkit arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -10689,10 +10521,10 @@
                         "textColor4": "2d2e32"
                     }
                 },
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "AR 掃描圖畫，手繪變出生命力"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -10760,8 +10592,8 @@
         },
         "watchBundleId": "com.imesart.USBDisk-Pro-iPad.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "2.11.0",
-        "genreDisplayName": "生產力",
         "name": "USB Disk Pro",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Imesart S.a.r.l.",
@@ -10802,8 +10634,8 @@
                 "releaseDate": "2011-01-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.imesart.USBDisk-Pro-iPad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10923,11 +10755,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "生活風格",
         "name": "懷舊日曆 - 十三行作品",
+        "genreDisplayName": "生活風格",
         "isPreorder": false,
-        "artistName": "Firm 13 Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Firm 13 Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10978,8 +10810,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -11129,8 +10961,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2009-04-21",
                 "hasInAppPurchases": true,
                 "bundleId": "de.icab.iCabMobile",
@@ -11151,6 +10983,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 746,
@@ -11183,10 +11017,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11196,7 +11027,8 @@
                     "textColor2": "090500",
                     "textColor3": "332a0f",
                     "textColor4": "392e0f"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -11236,7 +11068,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 21,
+                "position": 18,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -11256,8 +11088,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "iWriteWords",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Roy Winata",
@@ -11292,13 +11124,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-03-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ptgdi.iWriteWords",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11407,11 +11239,11 @@
             ],
             "ariaLabelForRatings": "4.8 粒星"
         },
-        "genreDisplayName": "相片與影片",
         "name": "Objet - Crop, mask with shape",
+        "genreDisplayName": "相片與影片",
         "isPreorder": false,
-        "artistName": "Hongmin Park",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Hongmin Park",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11462,11 +11294,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -11499,6 +11329,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11520,7 +11352,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739830369655,
+                "MZ_INDEXER": 1739923087723,
                 "RTCI": 1739399431852
             }
         },
@@ -11563,8 +11395,8 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "genreDisplayName": "娛樂",
         "name": "nPlayer Plus",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
         "artistName": "Newin Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -11604,8 +11436,8 @@
                 "releaseDate": "2012-07-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.newin.nplayer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11696,7 +11528,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 22,
+                "position": 19,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -11716,8 +11548,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "Interactive Alphabet ABC's",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Piikea St. LLC",
@@ -11752,13 +11584,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-08-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.piikeastreet.alphabot",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11847,7 +11679,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 23,
+                "position": 20,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -11867,8 +11699,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "熊貓博士消防隊",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dr. Panda Ltd",
@@ -11903,8 +11735,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-11-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tribeplay.pandafirestation",
@@ -11925,7 +11757,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1172,
@@ -11968,6 +11799,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "火場搶險，拯救世界！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11990,7 +11822,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739483364896,
+                "MZ_INDEXER": 1739909171141,
                 "RTCI": 1731362027569
             }
         },
@@ -12010,7 +11842,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 21,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -12034,8 +11866,8 @@
         "genreDisplayName": "教育",
         "name": "熊貓博士冰淇淋車",
         "isPreorder": false,
-        "artistName": "Dr. Panda Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dr. Panda Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12089,6 +11921,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1172,
@@ -12141,7 +11974,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "雪糕車來了！本週推薦的遊戲為 6 至 8 歲的小玩家而設，由專門開發益智遊戲的 Dr. Panda 團隊創作。小朋友可以在熊貓博士的雪糕車上自由創作新口味，滿足一班動物顧客的胃口，畫面可愛得令人垂涎欲滴。"
@@ -12186,7 +12018,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 22,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -12206,11 +12038,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "熊貓博士小巧匠",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dr. Panda Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12242,8 +12074,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-06-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tribeplay.pandahandyman",
@@ -12264,7 +12096,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1172,
@@ -12307,6 +12138,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "建屋和維修！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12370,13 +12202,13 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "firstVersionSupportingInAppPurchaseApi": "2.4",
         "watchBundleId": "com.ibearsoft.moneypro.watchkitapp",
-        "genreDisplayName": "理財",
+        "firstVersionSupportingInAppPurchaseApi": "2.4",
         "name": "Money Pro: 個人財務",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "iBear LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -12409,13 +12241,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-10-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ibearsoft.moneypro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12466,10 +12298,10 @@
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "輕鬆管理個人帳單、預算和帳號",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "全面專業的理財專家"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -12520,7 +12352,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 23,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -12540,11 +12372,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "熊貓博士幼稚園",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dr. Panda Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12581,8 +12413,8 @@
                 "releaseDate": "2012-11-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tribeplay.drpandakindergarten",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12702,11 +12534,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "生產力",
         "name": "Note Taker HD",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
-        "artistName": "Software Garden",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Software Garden",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12743,8 +12575,8 @@
                 "releaseDate": "2010-05-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softwaregarden.NoteTakerHD",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12835,7 +12667,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 27,
+                "position": 24,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -12855,11 +12687,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "AnkiMobile Flashcards",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "artistName": "Ankitects Pty Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Ankitects Pty Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12896,8 +12728,8 @@
                 "releaseDate": "2010-05-27",
                 "hasInAppPurchases": false,
                 "bundleId": "net.ichi2.anki",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12954,6 +12786,173 @@
     },
     {
         "kind": "app",
+        "id": "1053605807",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "433373206",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739511879745,
+                "RTCI": 1738953837130
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 25,
+                "genreName": "教育",
+                "genre": 6017,
+                "chart": "top-paid",
+                "genreShortName": "教育"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 1,
+            "ratingCount": 1,
+            "ratingCountList": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "1.0 粒星"
+        },
+        "name": "太空 - SPACE",
+        "genreDisplayName": "教育",
+        "isPreorder": false,
+        "artistName": "THIX LLC",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=2990&salableAdamId=1053605807&pricingParameters=STDQ&pg=default&appExtVrsId=839919718",
+                        "type": "buy",
+                        "priceFormatted": "USD 2.99",
+                        "price": 2.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 111671296
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1053605807&pricingParameters=SWUPD&pg=default&appExtVrsId=839919718",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 111671296
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2016-05-04",
+                "hasInAppPurchases": false,
+                "bundleId": "thix.sciencesense.space",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/60/c8/57/60c85725-938f-b13d-ca64-88868d79e4c8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "000000",
+                    "textColor1": "e8b6f4",
+                    "textColor2": "ddaeea",
+                    "textColor3": "ba92c3",
+                    "textColor4": "b18bbb"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1172,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/50/c4/8350c46e-ff22-a9af-1b3b-f85f54073593/6ff3dcf1-f625-4318-8e1b-bdd42045114f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1172,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a7/1d/a1/a71da1a0-cbe4-e2cf-0a5e-477f554ddc17/62ba1d49-8d35-4a5b-b0b6-a515d268d0ff.png/{w}x{h}{c}.{f}",
+                        "bgColor": "585b60",
+                        "textColor1": "f6f6f7",
+                        "textColor2": "eeeeef",
+                        "textColor3": "d6d7d9",
+                        "textColor4": "d0d1d2"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features111/v4/f7/3d/92/f73d92b7-aebc-bba1-5f91-b57bdd535c1d/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "26003d",
+                        "textColor1": "ed71ef",
+                        "textColor2": "cf40f1",
+                        "textColor3": "c55acc",
+                        "textColor4": "ad33cd"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/04/ce/60/04ce60cf-9368-2611-b8b8-2d80dc9bd282/22557539-64ca-44a4-b25e-ec133ec10ba5.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "subtitle": "創造屬於你的模擬宇宙",
+                "hasSafariExtension": false,
+                "editorialNotes": {
+                    "tagline": "虛擬宇宙，由你主宰"
+                },
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "451287325",
         "type": "apps",
         "relationships": {
@@ -12988,7 +12987,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 26,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -13009,11 +13008,11 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.99",
-        "genreDisplayName": "教育",
         "name": "Monkey Math School Sunshine",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "THUP Games",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13050,8 +13049,8 @@
                 "releaseDate": "2011-07-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.thup.MonkeyMath",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13140,7 +13139,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 7,
                 "genreName": "音樂",
                 "genre": 6011,
                 "chart": "top-paid",
@@ -13160,8 +13159,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "音樂",
         "name": "iGuzheng⁺ - 愛古箏專業版",
+        "genreDisplayName": "音樂",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Supertintin Co., Ltd",
@@ -13196,13 +13195,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-06-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.supertintin.Guzheng",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13294,7 +13293,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 27,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -13350,8 +13349,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-12-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rosapp.App4Kids",
@@ -13372,6 +13371,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1172,
@@ -13404,7 +13404,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13467,11 +13466,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.73",
-        "genreDisplayName": "娛樂",
         "name": "Let's create! Pottery HD",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
-        "artistName": "Infinite Dreams Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Infinite Dreams Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13522,11 +13521,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 758,
@@ -13569,6 +13566,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13632,8 +13631,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "參考",
         "name": "WolframAlpha Classic",
+        "genreDisplayName": "參考",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Wolfram Group LLC",
@@ -13668,8 +13667,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2009-10-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.wolframalpha.wolframalpha",
@@ -13742,334 +13741,6 @@
     },
     {
         "kind": "app",
-        "id": "1134126831",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "972210292",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739836559803,
-                "RTCI": 1739317494035
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 30,
-                "genreName": "教育",
-                "genre": 6017,
-                "chart": "top-paid",
-                "genreShortName": "教育"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 粒星"
-        },
-        "genreDisplayName": "教育",
-        "name": "PhET 互動式模擬教材",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "University of Colorado Boulder",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=990&salableAdamId=1134126831&pricingParameters=STDQ&pg=default&appExtVrsId=863126146",
-                        "type": "buy",
-                        "priceFormatted": "USD 0.99",
-                        "price": 0.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 130600960
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1134126831&pricingParameters=SWUPD&pg=default&appExtVrsId=863126146",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 130600960
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "12.0",
-                "releaseDate": "2016-10-05",
-                "hasInAppPurchases": false,
-                "bundleId": "edu.colorado.phet",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/b9/00/c2b90086-a408-5dd6-5c5d-128c03628bd1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "181818",
-                    "textColor1": "71d2fa",
-                    "textColor2": "65badd",
-                    "textColor3": "5faccd",
-                    "textColor4": "5699b6"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1172,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/50/c4/8350c46e-ff22-a9af-1b3b-f85f54073593/6ff3dcf1-f625-4318-8e1b-bdd42045114f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1172,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a7/1d/a1/a71da1a0-cbe4-e2cf-0a5e-477f554ddc17/62ba1d49-8d35-4a5b-b0b6-a515d268d0ff.png/{w}x{h}{c}.{f}",
-                        "bgColor": "585b60",
-                        "textColor1": "f6f6f7",
-                        "textColor2": "eeeeef",
-                        "textColor3": "d6d7d9",
-                        "textColor4": "d0d1d2"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/04/ce/60/04ce60cf-9368-2611-b8b8-2d80dc9bd282/22557539-64ca-44a4-b25e-ec133ec10ba5.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "subtitle": "互動、探索、學習",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "881404173",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "492853498",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739526831122,
-                "RTCI": 1731379331989
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 31,
-                "genreName": "教育",
-                "genre": 6017,
-                "chart": "top-paid",
-                "genreShortName": "教育"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 粒星"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "2.41",
-        "genreDisplayName": "教育",
-        "name": "胡帕城市",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Dr. Panda Ltd",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=3990&salableAdamId=881404173&pricingParameters=STDQ&pg=default&appExtVrsId=825131918",
-                        "type": "buy",
-                        "priceFormatted": "USD 3.99",
-                        "price": 3.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 249400320
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=881404173&pricingParameters=SWUPD&pg=default&appExtVrsId=825131918",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 249400320
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2014-06-26",
-                "hasInAppPurchases": false,
-                "bundleId": "com.tribeplay.pandacity",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/43/e4/d943e41d-bf1c-dd6c-e8cf-ff5472357a2f/AppIcon-0-1x_U007emarketing-0-85-220-7.png/{w}x{h}{c}.{f}",
-                    "bgColor": "56dafc",
-                    "textColor1": "281126",
-                    "textColor2": "302a2b",
-                    "textColor3": "313951",
-                    "textColor4": "374d55"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1172,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/50/c4/8350c46e-ff22-a9af-1b3b-f85f54073593/6ff3dcf1-f625-4318-8e1b-bdd42045114f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1172,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a7/1d/a1/a71da1a0-cbe4-e2cf-0a5e-477f554ddc17/62ba1d49-8d35-4a5b-b0b6-a515d268d0ff.png/{w}x{h}{c}.{f}",
-                        "bgColor": "585b60",
-                        "textColor1": "f6f6f7",
-                        "textColor2": "eeeeef",
-                        "textColor3": "d6d7d9",
-                        "textColor4": "d0d1d2"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/33/e4/c3/33e4c31b-623d-09a9-6025-396b2d608c94/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "692c94",
-                        "textColor1": "f1f1e8",
-                        "textColor2": "f0c462",
-                        "textColor3": "d5c9d7",
-                        "textColor4": "d5a56c"
-                    },
-                    "originalFlowcaseBrick": {
-                        "width": 3200,
-                        "height": 600,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features2/v4/14/b1/fe/14b1fe92-ec23-ba2d-078d-2947675d4721/mza_2284877592323287518.png/{w}x{h}{c}.{f}",
-                        "bgColor": "b3eaf8",
-                        "textColor1": "3a1108",
-                        "textColor2": "272c28",
-                        "textColor3": "523c38",
-                        "textColor4": "435251"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/04/ce/60/04ce60cf-9368-2611-b8b8-2d80dc9bd282/22557539-64ca-44a4-b25e-ec133ec10ba5.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "isXROSCompatible": false,
-                "subtitle": "建立屬於你的傑出巿鎮",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "1072276976",
         "type": "apps",
         "relationships": {
@@ -14084,7 +13755,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549716454,
+                "MZ_INDEXER": 1739921638460,
                 "RTCI": 1731369621354
             }
         },
@@ -14104,7 +13775,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 28,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -14124,11 +13795,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "熊貓博士賽車手",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dr. Panda Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14160,13 +13831,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-05-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.drpanda.racers",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14226,9 +13897,183 @@
                 },
                 "isXROSCompatible": false,
                 "subtitle": "製造汽車和賽道，開始賽車",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "親自設計屬於自己的賽車及賽道"
                 },
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "881404173",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "492853498",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739526831122,
+                "RTCI": 1731379331989
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 29,
+                "genreName": "教育",
+                "genre": 6017,
+                "chart": "top-paid",
+                "genreShortName": "教育"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 粒星"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "2.41",
+        "name": "胡帕城市",
+        "genreDisplayName": "教育",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dr. Panda Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=3990&salableAdamId=881404173&pricingParameters=STDQ&pg=default&appExtVrsId=825131918",
+                        "type": "buy",
+                        "priceFormatted": "USD 3.99",
+                        "price": 3.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 249400320
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=881404173&pricingParameters=SWUPD&pg=default&appExtVrsId=825131918",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 249400320
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2014-06-26",
+                "hasInAppPurchases": false,
+                "bundleId": "com.tribeplay.pandacity",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d9/43/e4/d943e41d-bf1c-dd6c-e8cf-ff5472357a2f/AppIcon-0-1x_U007emarketing-0-85-220-7.png/{w}x{h}{c}.{f}",
+                    "bgColor": "56dafc",
+                    "textColor1": "281126",
+                    "textColor2": "302a2b",
+                    "textColor3": "313951",
+                    "textColor4": "374d55"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1172,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/50/c4/8350c46e-ff22-a9af-1b3b-f85f54073593/6ff3dcf1-f625-4318-8e1b-bdd42045114f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1172,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a7/1d/a1/a71da1a0-cbe4-e2cf-0a5e-477f554ddc17/62ba1d49-8d35-4a5b-b0b6-a515d268d0ff.png/{w}x{h}{c}.{f}",
+                        "bgColor": "585b60",
+                        "textColor1": "f6f6f7",
+                        "textColor2": "eeeeef",
+                        "textColor3": "d6d7d9",
+                        "textColor4": "d0d1d2"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/33/e4/c3/33e4c31b-623d-09a9-6025-396b2d608c94/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "692c94",
+                        "textColor1": "f1f1e8",
+                        "textColor2": "f0c462",
+                        "textColor3": "d5c9d7",
+                        "textColor4": "d5a56c"
+                    },
+                    "originalFlowcaseBrick": {
+                        "width": 3200,
+                        "height": 600,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features2/v4/14/b1/fe/14b1fe92-ec23-ba2d-078d-2947675d4721/mza_2284877592323287518.png/{w}x{h}{c}.{f}",
+                        "bgColor": "b3eaf8",
+                        "textColor1": "3a1108",
+                        "textColor2": "272c28",
+                        "textColor3": "523c38",
+                        "textColor4": "435251"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/04/ce/60/04ce60cf-9368-2611-b8b8-2d80dc9bd282/22557539-64ca-44a4-b25e-ec133ec10ba5.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "建立屬於你的傑出巿鎮",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14290,11 +14135,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "生產力",
         "name": "Pythonista 3",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
-        "artistName": "omz:software",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "omz:software",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14345,8 +14190,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -14480,13 +14325,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2014-12-31",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tayasui.sketchespro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14568,11 +14413,11 @@
                     }
                 },
                 "subtitle": "Sketch & AR Tracing Projector",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "運用精細筆觸，繪出寫實大作",
                     "standard": "為手機、iPad 繪圖帶來仿真質感，《Tayasui Sketches Pro》不僅具備多種顏料和畫具，包括油粉彩、水彩、阿加力膠、噴筆等，細緻的調色及圖層功能，繪畫更隨心所欲。配合照片進行創作、加工，製作成精美的拼貼藝術，讓你的創意無限發揮。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -14613,7 +14458,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 33,
+                "position": 30,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -14634,11 +14479,11 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.56",
-        "genreDisplayName": "教育",
         "name": "熊貓博士果蔬園",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "artistName": "Dr. Panda Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dr. Panda Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14689,8 +14534,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -14726,10 +14571,10 @@
                     }
                 },
                 "subtitle": "了解蔬菜怎樣生長！",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "學習栽種過程，分享成果"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -14848,6 +14693,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 746,
@@ -14880,8 +14727,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14943,8 +14788,8 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "genreDisplayName": "旅遊",
         "name": "CityMaps2Go Pro 旅遊指南",
+        "genreDisplayName": "旅遊",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kulemba GmbH",
@@ -14979,13 +14824,11 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-09-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tymonwiedemair.maps2go",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -14996,6 +14839,8 @@
                     "textColor3": "f2d5d2",
                     "textColor4": "ef9e94"
                 },
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15087,7 +14932,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739836551878,
+                "MZ_INDEXER": 1739922398445,
                 "RTCI": 1739399449538
             }
         },
@@ -15130,8 +14975,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "娛樂",
         "name": "nPlayer",
+        "genreDisplayName": "娛樂",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Newin Inc.",
@@ -15166,8 +15011,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-07-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.newin.nplayer.basic",
@@ -15188,8 +15033,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 758,
@@ -15222,6 +15065,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15284,8 +15129,8 @@
             "ariaLabelForRatings": "4.2 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "4.3",
-        "genreDisplayName": "生產力",
         "name": "Home Design 3D - GOLD EDITION",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Anuman",
@@ -15320,8 +15165,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2012-04-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.anuman.HomeDesign3D-GoldEdition",
@@ -15342,8 +15187,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1048,
@@ -15396,6 +15239,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "創造你的夢想家園！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15438,7 +15283,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "音樂",
                 "genre": 6011,
                 "chart": "top-paid",
@@ -15495,13 +15340,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-01-07",
                 "hasInAppPurchases": true,
                 "bundleId": "com.xeapps.symphony",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15612,11 +15457,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "生產力",
         "name": "Popplet",
+        "genreDisplayName": "生產力",
         "isPreorder": false,
-        "artistName": "Notion",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Notion",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15667,8 +15512,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -15755,7 +15600,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 34,
+                "position": 31,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -15775,8 +15620,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "熊貓博士遊泳池",
+        "genreDisplayName": "教育",
         "isPreorder": false,
         "artistName": "Dr. Panda Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -15830,10 +15675,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1172,
@@ -15886,6 +15730,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "帶你的朋友去游泳",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15928,7 +15773,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 35,
+                "position": 32,
                 "genreName": "教育",
                 "genre": 6017,
                 "chart": "top-paid",
@@ -15948,11 +15793,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "教育",
         "name": "幼兒學數數123",
+        "genreDisplayName": "教育",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "GiggleUp Kids Apps And Educational Games Pty Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15989,8 +15834,8 @@
                 "releaseDate": "2012-07-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.giggleup.tc1",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16039,6 +15884,160 @@
                     }
                 },
                 "isXROSCompatible": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1134126831",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "972210292",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739836559803,
+                "RTCI": 1739317494035
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 34,
+                "genreName": "教育",
+                "genre": 6017,
+                "chart": "top-paid",
+                "genreShortName": "教育"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 粒星"
+        },
+        "genreDisplayName": "教育",
+        "name": "PhET 互動式模擬教材",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "University of Colorado Boulder",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=990&salableAdamId=1134126831&pricingParameters=STDQ&pg=default&appExtVrsId=863126146",
+                        "type": "buy",
+                        "priceFormatted": "USD 0.99",
+                        "price": 0.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 130600960
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1134126831&pricingParameters=SWUPD&pg=default&appExtVrsId=863126146",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 130600960
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
+                "releaseDate": "2016-10-05",
+                "hasInAppPurchases": false,
+                "bundleId": "edu.colorado.phet",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/b9/00/c2b90086-a408-5dd6-5c5d-128c03628bd1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "181818",
+                    "textColor1": "71d2fa",
+                    "textColor2": "65badd",
+                    "textColor3": "5faccd",
+                    "textColor4": "5699b6"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1172,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/50/c4/8350c46e-ff22-a9af-1b3b-f85f54073593/6ff3dcf1-f625-4318-8e1b-bdd42045114f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1172,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a7/1d/a1/a71da1a0-cbe4-e2cf-0a5e-477f554ddc17/62ba1d49-8d35-4a5b-b0b6-a515d268d0ff.png/{w}x{h}{c}.{f}",
+                        "bgColor": "585b60",
+                        "textColor1": "f6f6f7",
+                        "textColor2": "eeeeef",
+                        "textColor3": "d6d7d9",
+                        "textColor4": "d0d1d2"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/04/ce/60/04ce60cf-9368-2611-b8b8-2d80dc9bd282/22557539-64ca-44a4-b25e-ec133ec10ba5.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "互動、探索、學習",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -16100,11 +16099,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "圖像與設計",
         "name": "Tayasui Color",
+        "genreDisplayName": "圖像與設計",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Tayasui.com",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -16136,13 +16135,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-07-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tayasui.color",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16213,11 +16212,11 @@
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "subtitle": "一本极好的填色书",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "填色觸感音效，療癒抒情",
                     "standard": "用線條療癒心靈, 以色彩抒解壓力。由畫家用心設計, 包括花草樹木、飛鳥走獸及昆蟲等多款精美細緻的圖畫, 讓你可以無拘無束、自然隨心地塗上繽紛色彩。《Tayasui Color》逼真的填色工具, 模擬真實畫具, 其特色水彩濕畫筆會透過獨特的力度感應來調整顏色深淺。填色時發出的高度仿真聲效, 帶來極為真實的繪畫體驗, 助你紓緩都市壓力。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }

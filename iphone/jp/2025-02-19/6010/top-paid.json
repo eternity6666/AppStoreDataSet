@@ -97,8 +97,8 @@
                 "releaseDate": "2016-12-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pasoya.ios.orbispro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -156,6 +156,160 @@
     },
     {
         "kind": "app",
+        "id": "862469459",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "353417132",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738955272476,
+                "MZ_INDEXER": 1739498033850
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 2,
+                "genreName": "ナビゲーション",
+                "genre": 6010,
+                "chart": "top-paid",
+                "genreShortName": "ナビゲーション"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4,
+            "ratingCount": 448,
+            "ratingCountList": [
+                51,
+                23,
+                38,
+                102,
+                234
+            ],
+            "ariaLabelForRatings": "星 4.0 個"
+        },
+        "name": "オービス警報 - オービス/速度取締り&渋滞",
+        "genreDisplayName": "ナビゲーション",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "WAC.com Co.,Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=300000&salableAdamId=862469459&pricingParameters=STDQ&pg=default&appExtVrsId=871409520",
+                        "type": "buy",
+                        "priceFormatted": "¥300",
+                        "price": 300,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 40232960
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=862469459&pricingParameters=SWUPD&pg=default&appExtVrsId=871409520",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 40232960
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
+                "releaseDate": "2014-04-18",
+                "hasInAppPurchases": false,
+                "bundleId": "com.wac.orbis",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/76/fa/e276fa1f-ffa2-2b02-c358-0717dfd73a50/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "160f07",
+                    "textColor2": "16100a",
+                    "textColor3": "453f38",
+                    "textColor4": "45403b"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1034,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/17/56/b0/1756b0ad-51f3-a6dc-6197-9d14dadace37/c3abeac7-9c3e-45db-b960-0fab895db324.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1034,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5d/d4/be/5dd4be81-dad4-7b89-2622-7ab74e2eb354/4560417d-1461-462a-ae9a-2f6c76ec861a.png/{w}x{h}{c}.{f}",
+                        "bgColor": "0093ff",
+                        "textColor1": "00070c",
+                        "textColor2": "000e19",
+                        "textColor3": "00233d",
+                        "textColor4": "002947"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1f/37/ee/1f37ee54-5ac3-01b3-9136-ba7789d9b5b5/2bd041de-b0f6-4b99-aced-a102a4ec8642.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "最新オービスデータ搭載",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "6478748744",
         "type": "apps",
         "relationships": {
@@ -171,7 +325,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738967528158,
-                "MZ_INDEXER": 1739550560849
+                "MZ_INDEXER": 1739918618900
             }
         },
         "supportsArcade": false,
@@ -193,7 +347,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -313,13 +467,13 @@
     },
     {
         "kind": "app",
-        "id": "862469459",
+        "id": "365724094",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "353417132",
+                        "id": "294178619",
                         "type": "developers"
                     }
                 ]
@@ -327,8 +481,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955272476,
-                "MZ_INDEXER": 1739498033850
+                "RTCI": 1739793609278,
+                "MZ_INDEXER": 1739808850090
             }
         },
         "supportsArcade": false,
@@ -341,13 +495,13 @@
             }
         },
         "deviceFamilies": [
+            "watch",
             "iphone",
-            "ipad",
             "ipod"
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -356,28 +510,30 @@
         },
         "supportsStreamlinedBuy": true,
         "userRating": {
-            "value": 4,
-            "ratingCount": 448,
+            "value": 3.8,
+            "ratingCount": 52,
             "ratingCountList": [
-                51,
-                23,
-                38,
-                102,
-                234
+                9,
+                3,
+                3,
+                10,
+                27
             ],
-            "ariaLabelForRatings": "星 4.0 個"
+            "ariaLabelForRatings": "星 3.8 個"
         },
-        "name": "オービス警報 - オービス/速度取締り&渋滞",
+        "watchBundleId": "com.corecoders.SkiTracks.watchkitapp",
+        "name": "Ski Tracks",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "WAC.com Co.,Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Core Coders Ltd",
         "reviewsRestricted": false,
+        "minimumWatchOSVersion": "8.7",
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=300000&salableAdamId=862469459&pricingParameters=STDQ&pg=default&appExtVrsId=871409520",
+                        "buyParams": "productType=C&price=300000&salableAdamId=365724094&pricingParameters=STDQ&pg=default&appExtVrsId=871544508",
                         "type": "buy",
                         "priceFormatted": "¥300",
                         "price": 300,
@@ -385,12 +541,12 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 40232960
+                                "size": 26613760
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=862469459&pricingParameters=SWUPD&pg=default&appExtVrsId=871409520",
+                        "buyParams": "productType=C&price=0&salableAdamId=365724094&pricingParameters=SWUPD&pg=default&appExtVrsId=871544508",
                         "type": "update",
                         "priceFormatted": "¥0",
                         "price": 0,
@@ -398,34 +554,34 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 40232960
+                                "size": 26613760
                             }
                         ]
                     }
                 ],
+                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
-                "minimumMacOSVersion": "12.0",
-                "releaseDate": "2014-04-18",
+                "releaseDate": "2010-04-05",
                 "hasInAppPurchases": false,
-                "bundleId": "com.wac.orbis",
-                "hasMessagesExtension": false,
+                "bundleId": "com.corecoders.SkiTracks",
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/76/fa/e276fa1f-ffa2-2b02-c358-0717dfd73a50/AppIcon-1x_U007emarketing-0-6-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "160f07",
-                    "textColor2": "16100a",
-                    "textColor3": "453f38",
-                    "textColor4": "45403b"
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/fe/75/88fe7554-b86d-4df0-cb39-c26c9774e77c/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "006ffe",
+                    "textColor1": "00050c",
+                    "textColor2": "000b19",
+                    "textColor3": "001a3c",
+                    "textColor4": "001f47"
                 },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
+                "isAppleWatchSupported": true,
+                "requiredCapabilitiesForRealityDevice": "arm64 location-services ",
                 "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1034,
@@ -447,6 +603,16 @@
                         "textColor3": "00233d",
                         "textColor4": "002947"
                     },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/96/ae/5c/96ae5cc1-714e-a48c-777c-edcb4c15da75/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "004590",
+                        "textColor1": "c1d5f6",
+                        "textColor2": "accefc",
+                        "textColor3": "9ab8e1",
+                        "textColor4": "89b2e6"
+                    },
                     "brandLogo": {
                         "width": 1080,
                         "height": 1080,
@@ -456,12 +622,32 @@
                         "textColor2": "e5e5e5",
                         "textColor3": "c1c1c1",
                         "textColor4": "b7b7b7"
+                    },
+                    "subscriptionHero": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/86/e0/48/86e048cf-5fdb-5f88-8543-406b32630105/U0gtQVAtV1ctU2tpX1RyYWNrcy5wbmc.png/{w}x{h}{c}.{f}",
+                        "bgColor": "9db0e0",
+                        "textColor1": "060921",
+                        "textColor2": "0c1124",
+                        "textColor3": "1d2240",
+                        "textColor4": "212942"
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "subtitle": "最新オービスデータ搭載",
+                "subtitle": "Start your ski adventure today",
                 "hasSafariExtension": false,
-                "requiresGameController": false
+                "requiresGameController": false,
+                "circularArtwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/a8/91/c6a8919b-2d01-a38f-1bb1-87c6ac910e26/AppIcon-0-0-1x_U007emarketing-0-14-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "0053c8",
+                    "textColor1": "ffffff",
+                    "textColor2": "a9c0f7",
+                    "textColor3": "cbdcf3",
+                    "textColor4": "87abee"
+                }
             }
         }
     },
@@ -482,7 +668,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1737221791591,
-                "MZ_INDEXER": 1739551741532
+                "MZ_INDEXER": 1739920509075
             }
         },
         "supportsArcade": false,
@@ -501,7 +687,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -524,8 +710,8 @@
         "name": "スピードメーター 55 Pro - GPS速度計 ロガー。",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Stanislav Dvoychenko",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -655,7 +841,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 6,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -678,8 +864,8 @@
         "name": "東海道五十三次",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "GROUND-BASE INC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "GROUND-BASE INC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -711,13 +897,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-12-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ground-base.tokaido",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -729,8 +915,8 @@
                     "textColor4": "7e3230"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -773,6 +959,173 @@
     },
     {
         "kind": "app",
+        "id": "645384141",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "392666756",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1733433273045,
+                "MZ_INDEXER": 1739505745421
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "watch",
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 7,
+                "genreName": "ナビゲーション",
+                "genre": 6010,
+                "chart": "top-paid",
+                "genreShortName": "ナビゲーション"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.4,
+            "ratingCount": 78,
+            "ratingCountList": [
+                6,
+                2,
+                2,
+                12,
+                56
+            ],
+            "ariaLabelForRatings": "星 4.4 個"
+        },
+        "watchBundleId": "com.zedsaid.geocaching.watchkitapp",
+        "genreDisplayName": "ナビゲーション",
+        "name": "Cachly-ジオキャッシング",
+        "isPreorder": false,
+        "artistName": "Zed Said Studio LLC",
+        "isIOSBinaryMacOSCompatible": false,
+        "reviewsRestricted": false,
+        "minimumWatchOSVersion": "8.7",
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=800000&salableAdamId=645384141&pricingParameters=STDQ&pg=default&appExtVrsId=870925575",
+                        "type": "buy",
+                        "priceFormatted": "¥800",
+                        "price": 800,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 461588480
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=645384141&pricingParameters=SWUPD&pg=default&appExtVrsId=870925575",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 461588480
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2015-12-11",
+                "hasInAppPurchases": true,
+                "bundleId": "com.zedsaid.geocaching",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/ea/91/f0ea9166-d096-0480-6509-90588acb33cb/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "040e07",
+                    "textColor2": "040e07",
+                    "textColor3": "363e38",
+                    "textColor4": "363e38"
+                },
+                "isAppleWatchSupported": true,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1034,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/17/56/b0/1756b0ad-51f3-a6dc-6197-9d14dadace37/c3abeac7-9c3e-45db-b960-0fab895db324.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1034,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5d/d4/be/5dd4be81-dad4-7b89-2622-7ab74e2eb354/4560417d-1461-462a-ae9a-2f6c76ec861a.png/{w}x{h}{c}.{f}",
+                        "bgColor": "0093ff",
+                        "textColor1": "00070c",
+                        "textColor2": "000e19",
+                        "textColor3": "00233d",
+                        "textColor4": "002947"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1f/37/ee/1f37ee54-5ac3-01b3-9136-ba7789d9b5b5/2bd041de-b0f6-4b99-aced-a102a4ec8642.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "高度なジオキャッシング",
+                "hasSafariExtension": false,
+                "circularArtwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/b2/a0/eeb2a03d-170d-1afd-ea86-776c0faddf36/AppIcon-1x_U007emarketing-0-10-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "040e07",
+                    "textColor2": "040e07",
+                    "textColor3": "363e38",
+                    "textColor4": "363e38"
+                },
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "1003219962",
         "type": "apps",
         "relationships": {
@@ -807,7 +1160,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 8,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -830,8 +1183,8 @@
         "name": "用途地域",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "ASS Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "ASS Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -863,13 +1216,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-06-18",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.as-systems.UseDistricts",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -882,8 +1235,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -959,7 +1312,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 9,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -982,8 +1335,8 @@
         "name": "iステラ",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "AstroArts Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "AstroArts Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1015,8 +1368,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2008-10-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.astroarts.iStellar",
@@ -1034,8 +1387,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -1110,7 +1463,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 10,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -1130,8 +1483,8 @@
             ],
             "ariaLabelForRatings": "星 5.0 個"
         },
-        "name": "電柱番号ナビ",
         "genreDisplayName": "ナビゲーション",
+        "name": "電柱番号ナビ",
         "isPreorder": false,
         "artistName": "Toshitaka Suzuki",
         "isIOSBinaryMacOSCompatible": true,
@@ -1166,8 +1519,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2023-12-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.summerbanana.DenNavi",
@@ -1185,8 +1538,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -1230,192 +1583,6 @@
     },
     {
         "kind": "app",
-        "id": "365724094",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "294178619",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1739793609278,
-                "MZ_INDEXER": 1739808850090
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "watch",
-            "iphone",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 9,
-                "genreName": "ナビゲーション",
-                "genre": 6010,
-                "chart": "top-paid",
-                "genreShortName": "ナビゲーション"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 3.8,
-            "ratingCount": 52,
-            "ratingCountList": [
-                9,
-                3,
-                3,
-                10,
-                27
-            ],
-            "ariaLabelForRatings": "星 3.8 個"
-        },
-        "watchBundleId": "com.corecoders.SkiTracks.watchkitapp",
-        "name": "Ski Tracks",
-        "genreDisplayName": "ナビゲーション",
-        "isPreorder": false,
-        "artistName": "Core Coders Ltd",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "minimumWatchOSVersion": "8.7",
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=300000&salableAdamId=365724094&pricingParameters=STDQ&pg=default&appExtVrsId=871544508",
-                        "type": "buy",
-                        "priceFormatted": "¥300",
-                        "price": 300,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 26613760
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=365724094&pricingParameters=SWUPD&pg=default&appExtVrsId=871544508",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 26613760
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2010-04-05",
-                "hasInAppPurchases": false,
-                "bundleId": "com.corecoders.SkiTracks",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/fe/75/88fe7554-b86d-4df0-cb39-c26c9774e77c/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "006ffe",
-                    "textColor1": "00050c",
-                    "textColor2": "000b19",
-                    "textColor3": "001a3c",
-                    "textColor4": "001f47"
-                },
-                "isAppleWatchSupported": true,
-                "requiredCapabilitiesForRealityDevice": "arm64 location-services ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1034,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/17/56/b0/1756b0ad-51f3-a6dc-6197-9d14dadace37/c3abeac7-9c3e-45db-b960-0fab895db324.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1034,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5d/d4/be/5dd4be81-dad4-7b89-2622-7ab74e2eb354/4560417d-1461-462a-ae9a-2f6c76ec861a.png/{w}x{h}{c}.{f}",
-                        "bgColor": "0093ff",
-                        "textColor1": "00070c",
-                        "textColor2": "000e19",
-                        "textColor3": "00233d",
-                        "textColor4": "002947"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/96/ae/5c/96ae5cc1-714e-a48c-777c-edcb4c15da75/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "004590",
-                        "textColor1": "c1d5f6",
-                        "textColor2": "accefc",
-                        "textColor3": "9ab8e1",
-                        "textColor4": "89b2e6"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1f/37/ee/1f37ee54-5ac3-01b3-9136-ba7789d9b5b5/2bd041de-b0f6-4b99-aced-a102a4ec8642.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "subscriptionHero": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/86/e0/48/86e048cf-5fdb-5f88-8543-406b32630105/U0gtQVAtV1ctU2tpX1RyYWNrcy5wbmc.png/{w}x{h}{c}.{f}",
-                        "bgColor": "9db0e0",
-                        "textColor1": "060921",
-                        "textColor2": "0c1124",
-                        "textColor3": "1d2240",
-                        "textColor4": "212942"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "Start your ski adventure today",
-                "hasSafariExtension": false,
-                "circularArtwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/a8/91/c6a8919b-2d01-a38f-1bb1-87c6ac910e26/AppIcon-0-0-1x_U007emarketing-0-14-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "0053c8",
-                    "textColor1": "ffffff",
-                    "textColor2": "a9c0f7",
-                    "textColor3": "cbdcf3",
-                    "textColor4": "87abee"
-                },
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "1483519317",
         "type": "apps",
         "relationships": {
@@ -1450,7 +1617,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 11,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -1473,8 +1640,8 @@
         "name": "WikiFarms Australia",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Adrien Gardes",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Adrien Gardes",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1506,8 +1673,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-11-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.adrien.wikifarms",
@@ -1524,8 +1691,8 @@
                     "textColor4": "22392f"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -1603,7 +1770,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 12,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -1624,8 +1791,8 @@
             "ariaLabelForRatings": "星 4.7 個"
         },
         "watchBundleId": "com.yourcompany.SunSeeker.watchkitapp",
-        "name": "Sun Seeker - Tracker & Compass",
         "genreDisplayName": "ナビゲーション",
+        "name": "Sun Seeker - Tracker & Compass",
         "isPreorder": false,
         "artistName": "ozPDA",
         "isIOSBinaryMacOSCompatible": false,
@@ -1743,173 +1910,6 @@
     },
     {
         "kind": "app",
-        "id": "645384141",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "392666756",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1733433273045,
-                "MZ_INDEXER": 1739505745421
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "watch",
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 12,
-                "genreName": "ナビゲーション",
-                "genre": 6010,
-                "chart": "top-paid",
-                "genreShortName": "ナビゲーション"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.4,
-            "ratingCount": 78,
-            "ratingCountList": [
-                6,
-                2,
-                2,
-                12,
-                56
-            ],
-            "ariaLabelForRatings": "星 4.4 個"
-        },
-        "watchBundleId": "com.zedsaid.geocaching.watchkitapp",
-        "name": "Cachly-ジオキャッシング",
-        "genreDisplayName": "ナビゲーション",
-        "isPreorder": false,
-        "artistName": "Zed Said Studio LLC",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "minimumWatchOSVersion": "8.7",
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=800000&salableAdamId=645384141&pricingParameters=STDQ&pg=default&appExtVrsId=870925575",
-                        "type": "buy",
-                        "priceFormatted": "¥800",
-                        "price": 800,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 461588480
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=645384141&pricingParameters=SWUPD&pg=default&appExtVrsId=870925575",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 461588480
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2015-12-11",
-                "hasInAppPurchases": true,
-                "bundleId": "com.zedsaid.geocaching",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/ea/91/f0ea9166-d096-0480-6509-90588acb33cb/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "040e07",
-                    "textColor2": "040e07",
-                    "textColor3": "363e38",
-                    "textColor4": "363e38"
-                },
-                "isAppleWatchSupported": true,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1034,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/17/56/b0/1756b0ad-51f3-a6dc-6197-9d14dadace37/c3abeac7-9c3e-45db-b960-0fab895db324.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1034,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5d/d4/be/5dd4be81-dad4-7b89-2622-7ab74e2eb354/4560417d-1461-462a-ae9a-2f6c76ec861a.png/{w}x{h}{c}.{f}",
-                        "bgColor": "0093ff",
-                        "textColor1": "00070c",
-                        "textColor2": "000e19",
-                        "textColor3": "00233d",
-                        "textColor4": "002947"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1f/37/ee/1f37ee54-5ac3-01b3-9136-ba7789d9b5b5/2bd041de-b0f6-4b99-aced-a102a4ec8642.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "高度なジオキャッシング",
-                "hasSafariExtension": false,
-                "circularArtwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/b2/a0/eeb2a03d-170d-1afd-ea86-776c0faddf36/AppIcon-1x_U007emarketing-0-10-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "040e07",
-                    "textColor2": "040e07",
-                    "textColor3": "363e38",
-                    "textColor4": "363e38"
-                },
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "380838249",
         "type": "apps",
         "relationships": {
@@ -2010,8 +2010,8 @@
                 "releaseDate": "2010-07-15",
                 "hasInAppPurchases": true,
                 "bundleId": "artisanforce.roadStation",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2132,8 +2132,8 @@
             ],
             "ariaLabelForRatings": "星 4.3 個"
         },
-        "name": "東京時層地図",
         "genreDisplayName": "ナビゲーション",
+        "name": "東京時層地図",
         "isPreorder": false,
         "artistName": "Japan Map Center, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -2173,8 +2173,8 @@
                 "releaseDate": "2010-09-23",
                 "hasInAppPurchases": false,
                 "bundleId": "TokyoJisouMaps",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2187,6 +2187,158 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1034,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/17/56/b0/1756b0ad-51f3-a6dc-6197-9d14dadace37/c3abeac7-9c3e-45db-b960-0fab895db324.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1034,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5d/d4/be/5dd4be81-dad4-7b89-2622-7ab74e2eb354/4560417d-1461-462a-ae9a-2f6c76ec861a.png/{w}x{h}{c}.{f}",
+                        "bgColor": "0093ff",
+                        "textColor1": "00070c",
+                        "textColor2": "000e19",
+                        "textColor3": "00233d",
+                        "textColor4": "002947"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1f/37/ee/1f37ee54-5ac3-01b3-9136-ba7789d9b5b5/2bd041de-b0f6-4b99-aced-a102a4ec8642.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1158164502",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1158164501",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1735178830135,
+                "MZ_INDEXER": 1739836344683
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 15,
+                "genreName": "ナビゲーション",
+                "genre": 6010,
+                "chart": "top-paid",
+                "genreShortName": "ナビゲーション"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4,
+            "ratingCount": 3,
+            "ratingCountList": [
+                0,
+                0,
+                1,
+                1,
+                1
+            ],
+            "ariaLabelForRatings": "星 4.0 個"
+        },
+        "genreDisplayName": "ナビゲーション",
+        "name": "Cruzero",
+        "isPreorder": false,
+        "artistName": "jorge espinoza",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=150000&salableAdamId=1158164502&pricingParameters=STDQ&pg=default&appExtVrsId=868632260",
+                        "type": "buy",
+                        "priceFormatted": "¥150",
+                        "price": 150,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 45712384
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1158164502&pricingParameters=SWUPD&pg=default&appExtVrsId=868632260",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 45712384
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2016-10-04",
+                "hasInAppPurchases": false,
+                "bundleId": "com.superideas.Cruzero",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/d4/5c/03d45ca8-ed8e-60e9-a999-618f66afc859/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "000000",
+                    "textColor1": "cfe434",
+                    "textColor2": "c5da31",
+                    "textColor3": "a6b729",
+                    "textColor4": "9eae27"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
@@ -2264,7 +2416,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 16,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -2287,8 +2439,8 @@
         "name": "G-Bowl",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Takahiro Ike",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Takahiro Ike",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2320,13 +2472,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-08-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ifulsoft.G-Bowl",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2339,8 +2491,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -2417,7 +2569,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 17,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -2440,8 +2592,8 @@
         "name": "音読+",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Yukari Kikuchi",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Yukari Kikuchi",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2473,8 +2625,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2019-11-12",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.zekoo.TTVoicePlus",
@@ -2492,8 +2644,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -2571,7 +2723,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 18,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -2591,8 +2743,8 @@
             ],
             "ariaLabelForRatings": "星 4.7 個"
         },
-        "name": "T2RC",
         "genreDisplayName": "ナビゲーション",
+        "name": "T2RC",
         "isPreorder": false,
         "artistName": "TETSUSHI YAMAGUCHI",
         "isIOSBinaryMacOSCompatible": true,
@@ -2632,8 +2784,8 @@
                 "releaseDate": "2018-11-11",
                 "hasInAppPurchases": false,
                 "bundleId": "T2RCauth.T2RC",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2725,7 +2877,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 19,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -2745,8 +2897,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Blitzer.de PRO",
         "genreDisplayName": "ナビゲーション",
+        "name": "Blitzer.de PRO",
         "isPreorder": false,
         "artistName": "Eifrig Media",
         "isIOSBinaryMacOSCompatible": false,
@@ -2781,8 +2933,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2024-06-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.eifrig.blitzerdepro",
@@ -2800,8 +2952,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -2889,7 +3041,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 19,
+                "position": 20,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -2921,8 +3073,8 @@
         "name": "乗換案内Plus",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Jorudan Co.,Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Jorudan Co.,Ltd.",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -2955,11 +3107,12 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2010-01-20",
                 "hasInAppPurchases": true,
                 "bundleId": "jp.co.jorudan.NorikaeAnnaiPlus",
+                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
@@ -2971,7 +3124,6 @@
                     "textColor3": "312804",
                     "textColor4": "312804"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2984,8 +3136,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 location-services wifi ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -3022,6 +3174,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3031,8 +3184,7 @@
                     "textColor2": "000000",
                     "textColor3": "332500",
                     "textColor4": "332500"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -3053,7 +3205,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731377299008,
-                "MZ_INDEXER": 1739541104332
+                "MZ_INDEXER": 1739929031835
             }
         },
         "supportsArcade": false,
@@ -3072,7 +3224,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 20,
+                "position": 21,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -3096,8 +3248,8 @@
         "name": "Holding Pattern Trainer",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "FLEMINGER MEDIA LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "FLEMINGER MEDIA LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3129,13 +3281,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-08-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pilotscafe.holdtrainer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3148,8 +3300,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -3226,7 +3378,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 21,
+                "position": 22,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -3246,8 +3398,8 @@
             ],
             "ariaLabelForRatings": "星 3.2 個"
         },
-        "name": "Ship Finder",
         "genreDisplayName": "ナビゲーション",
+        "name": "Ship Finder",
         "isPreorder": false,
         "artistName": "pinkfroot limited",
         "isIOSBinaryMacOSCompatible": false,
@@ -3379,7 +3531,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 22,
+                "position": 23,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -3399,8 +3551,8 @@
             ],
             "ariaLabelForRatings": "星 3.3 個"
         },
-        "name": "Fourby",
         "genreDisplayName": "ナビゲーション",
+        "name": "Fourby",
         "isPreorder": false,
         "artistName": "Kemal Enver",
         "isIOSBinaryMacOSCompatible": false,
@@ -3531,7 +3683,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 23,
+                "position": 24,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -3552,8 +3704,8 @@
             "ariaLabelForRatings": "星 4.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "5.80.05",
-        "name": "NZ Topo50 South Island",
         "genreDisplayName": "ナビゲーション",
+        "name": "NZ Topo50 South Island",
         "isPreorder": false,
         "artistName": "Right Place Resources",
         "isIOSBinaryMacOSCompatible": true,
@@ -3684,7 +3836,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 25,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -3704,8 +3856,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Bikes Germany",
         "genreDisplayName": "ナビゲーション",
+        "name": "Bikes Germany",
         "isPreorder": false,
         "artistName": "Paul Clarke",
         "isIOSBinaryMacOSCompatible": true,
@@ -3837,7 +3989,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 26,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -3860,8 +4012,8 @@
         "name": "Light Pollution Map",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Jurij Stare",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Jurij Stare",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3893,13 +4045,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2020-09-20",
                 "hasInAppPurchases": false,
                 "bundleId": "info.lightpollutionmap.mobile",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3912,8 +4064,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -3990,7 +4142,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 27,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -4010,8 +4162,8 @@
             ],
             "ariaLabelForRatings": "星 4.3 個"
         },
-        "name": "中山道六十九次",
         "genreDisplayName": "ナビゲーション",
+        "name": "中山道六十九次",
         "isPreorder": false,
         "artistName": "GROUND-BASE INC",
         "isIOSBinaryMacOSCompatible": true,
@@ -4142,7 +4294,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 27,
+                "position": 28,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -4163,8 +4315,8 @@
             "ariaLabelForRatings": "星 3.8 個"
         },
         "watchBundleId": "sichtwerk.com.altimeter.watchkitapp",
-        "name": "高度計+",
         "genreDisplayName": "ナビゲーション",
+        "name": "高度計+",
         "isPreorder": false,
         "artistName": "Sichtwerk AG",
         "isIOSBinaryMacOSCompatible": false,
@@ -4205,8 +4357,8 @@
                 "releaseDate": "2011-02-03",
                 "hasInAppPurchases": false,
                 "bundleId": "sichtwerk.com.altimeter",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4289,7 +4441,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731377639839,
-                "MZ_INDEXER": 1739549104539
+                "MZ_INDEXER": 1739919102930
             }
         },
         "supportsArcade": false,
@@ -4308,7 +4460,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 29,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -4328,8 +4480,8 @@
             ],
             "ariaLabelForRatings": "星 5.0 個"
         },
-        "name": "甲州道中四十四次",
         "genreDisplayName": "ナビゲーション",
+        "name": "甲州道中四十四次",
         "isPreorder": false,
         "artistName": "GROUND-BASE INC",
         "isIOSBinaryMacOSCompatible": true,
@@ -4441,7 +4593,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738963260409,
-                "MZ_INDEXER": 1739541475617
+                "MZ_INDEXER": 1739919940356
             }
         },
         "supportsArcade": false,
@@ -4460,7 +4612,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 30,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -4484,8 +4636,8 @@
         "name": "Moon Calendar Watch",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "AppMosaic.com",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "AppMosaic.com",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -4518,13 +4670,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-11-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appmosaic.MoonWatch",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4537,8 +4689,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -4575,6 +4727,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4584,8 +4737,7 @@
                     "textColor2": "cacaca",
                     "textColor3": "b4b4b4",
                     "textColor4": "a1a1a1"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -4625,7 +4777,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 31,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -4646,8 +4798,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "ウェブ翻訳者（翻訳者） -  音声、テキスト翻訳",
         "genreDisplayName": "ナビゲーション",
+        "name": "ウェブ翻訳者（翻訳者） -  音声、テキスト翻訳",
         "isPreorder": false,
         "artistName": "Giacomo Guglielmi",
         "isIOSBinaryMacOSCompatible": true,
@@ -4780,7 +4932,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 31,
+                "position": 32,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -4803,8 +4955,8 @@
         "name": "FindShip Pro",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "灵芝 王",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "灵芝 王",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4836,13 +4988,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2014-01-20",
                 "hasInAppPurchases": false,
                 "bundleId": "co.findship.FindShip-Pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4855,8 +5007,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -4934,7 +5086,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 33,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -5087,7 +5239,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 33,
+                "position": 34,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -5111,8 +5263,8 @@
         "name": "Bike Tracks",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Core Coders Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Core Coders Ltd",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "8.7",
         "platformAttributes": {
@@ -5145,8 +5297,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-06-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.corecoders.BikeTracks",
@@ -5164,8 +5316,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 gps location-services ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -5202,6 +5354,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5211,8 +5364,7 @@
                     "textColor2": "161616",
                     "textColor3": "451916",
                     "textColor4": "451916"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -5252,7 +5404,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 34,
+                "position": 35,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -5272,8 +5424,8 @@
             ],
             "ariaLabelForRatings": "星 4.5 個"
         },
-        "name": "ジオメモ - 自分だけの地図が作れる",
         "genreDisplayName": "ナビゲーション",
+        "name": "ジオメモ - 自分だけの地図が作れる",
         "isPreorder": false,
         "artistName": "IMPATH Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -5313,8 +5465,8 @@
                 "releaseDate": "2012-06-10",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.impath.geomemo",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5405,7 +5557,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 35,
+                "position": 36,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -5428,8 +5580,8 @@
         "name": "iLocation+: ここ！",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Jeonghwan Kim",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Jeonghwan Kim",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5461,8 +5613,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-05-22",
                 "hasInAppPurchases": false,
                 "bundleId": "net.echoline.LocationPin",
@@ -5480,8 +5632,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -5559,7 +5711,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 36,
+                "position": 37,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -5582,8 +5734,8 @@
         "name": "GPS Recorder X",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Ainetmakoto",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Ainetmakoto",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5615,13 +5767,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-02-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.anetm.GPSRecorder",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5634,8 +5786,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -5711,7 +5863,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 37,
+                "position": 38,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -5734,8 +5886,8 @@
         "name": "Ryotei - GPSトラッカー",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Thirdware.jp",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Thirdware.jp",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5767,13 +5919,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "14.0",
+                "requires32bit": false,
                 "releaseDate": "2011-09-17",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.thirdware.Ryotei",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5786,8 +5938,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gps iphone-ipad-minimum-performance-a12 location-services ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -5866,7 +6018,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 38,
+                "position": 39,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -5887,11 +6039,11 @@
             "ariaLabelForRatings": "星 4.3 個"
         },
         "watchBundleId": "com.appannex.speedtracker.watchkitapp",
-        "name": "Speed Tracker Pro",
         "genreDisplayName": "ナビゲーション",
+        "name": "Speed Tracker Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Oxagile LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -6045,7 +6197,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 39,
+                "position": 40,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -6101,8 +6253,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cynapse.localscope",
@@ -6119,8 +6271,8 @@
                     "textColor4": "515151"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -6207,7 +6359,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 40,
+                "position": 41,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -6227,8 +6379,8 @@
             ],
             "ariaLabelForRatings": "星 4.6 個"
         },
-        "name": "GoSkyWatch プラネタリウム – スターガイド",
         "genreDisplayName": "ナビゲーション",
+        "name": "GoSkyWatch プラネタリウム – スターガイド",
         "isPreorder": false,
         "artistName": "GoSoftWorks",
         "isIOSBinaryMacOSCompatible": true,
@@ -6263,13 +6415,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gosoftworks.goskywatch",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6281,8 +6433,8 @@
                     "textColor4": "20b1cf"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -6359,7 +6511,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 41,
+                "position": 42,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -6379,8 +6531,8 @@
             ],
             "ariaLabelForRatings": "星 2.9 個"
         },
-        "name": "マルチドライブレコーダ2",
         "genreDisplayName": "ナビゲーション",
+        "name": "マルチドライブレコーダ2",
         "isPreorder": false,
         "artistName": "KYOWA Engineering Laboratory, Inc",
         "isIOSBinaryMacOSCompatible": false,
@@ -6415,8 +6567,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-04-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.trytech-jp.MDRSecond",
@@ -6434,8 +6586,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -6517,7 +6669,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 42,
+                "position": 43,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -6538,11 +6690,11 @@
             "ariaLabelForRatings": "星 3.6 個"
         },
         "watchBundleId": "jp.gr.javaconf.hatalab.iblbpro.watchkitapp",
-        "name": "バスあと何分？Pro",
         "genreDisplayName": "ナビゲーション",
+        "name": "バスあと何分？Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "hatalab",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -6681,7 +6833,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 43,
+                "position": 44,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -6704,8 +6856,8 @@
         "name": "aSmart HUD",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Atoll Ordenadores",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Atoll Ordenadores",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6737,8 +6889,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2009-02-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.atoll-ordenadores.smhud",
@@ -6756,8 +6908,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -6833,7 +6985,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 44,
+                "position": 45,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -6854,8 +7006,8 @@
             "ariaLabelForRatings": "星 4.6 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "4.0",
-        "name": "13:20:Sync",
         "genreDisplayName": "ナビゲーション",
+        "name": "13:20:Sync",
         "isPreorder": false,
         "artistName": "The RedHouse Apps",
         "isIOSBinaryMacOSCompatible": false,
@@ -6895,8 +7047,8 @@
                 "releaseDate": "2010-08-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.redhouseamsterdam.mayaapp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6987,7 +7139,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 45,
+                "position": 46,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -7008,8 +7160,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Speedometer Speed Box",
         "genreDisplayName": "ナビゲーション",
+        "name": "Speedometer Speed Box",
         "isPreorder": false,
         "artistName": "Hans Schneider",
         "isIOSBinaryMacOSCompatible": false,
@@ -7044,13 +7196,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yourcompany.SpeedBox",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7063,8 +7215,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -7142,7 +7294,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 46,
+                "position": 47,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -7163,8 +7315,8 @@
             "ariaLabelForRatings": "星 3.4 個"
         },
         "watchBundleId": "com.mipsoft.blindsquare.watchkitapp",
-        "name": "BlindSquare",
         "genreDisplayName": "ナビゲーション",
+        "name": "BlindSquare",
         "isPreorder": false,
         "artistName": "MIPsoft Oy",
         "isIOSBinaryMacOSCompatible": true,
@@ -7200,8 +7352,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-05-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mipsoft.blindsquare",
@@ -7219,8 +7371,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -7257,6 +7409,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7266,8 +7419,7 @@
                     "textColor2": "272726",
                     "textColor3": "3d3d3c",
                     "textColor4": "525251"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -7306,7 +7458,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 47,
+                "position": 48,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -7327,8 +7479,8 @@
             "ariaLabelForRatings": "星 5.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "6.1.2",
-        "name": "Theodolite",
         "genreDisplayName": "ナビゲーション",
+        "name": "Theodolite",
         "isPreorder": false,
         "artistName": "Craig Hunter",
         "isIOSBinaryMacOSCompatible": false,
@@ -7368,8 +7520,8 @@
                 "releaseDate": "2009-11-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.hunter.theodolite",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7460,7 +7612,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 48,
+                "position": 49,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -7523,8 +7675,8 @@
                 "releaseDate": "2011-03-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.movingworld.geoguide3d",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7655,7 +7807,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 49,
+                "position": 50,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -7678,8 +7830,8 @@
         "name": "GPS Kit - Offline GPS Tracker",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Garafa, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Garafa, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7711,13 +7863,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.garafa.GPSKit",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7729,8 +7881,8 @@
                     "textColor4": "474747"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -7806,7 +7958,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 50,
+                "position": 51,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -7826,8 +7978,8 @@
             ],
             "ariaLabelForRatings": "星 2.3 個"
         },
-        "name": "横濱時層地図",
         "genreDisplayName": "ナビゲーション",
+        "name": "横濱時層地図",
         "isPreorder": false,
         "artistName": "Japan Map Center, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -7959,7 +8111,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 51,
+                "position": 52,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -7982,8 +8134,8 @@
         "name": "Good Maps - for Google マップ, with Offline Map, Directions,Street view and More",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "光宇 张",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "光宇 张",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8015,13 +8167,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-06-15",
                 "hasInAppPurchases": false,
                 "bundleId": "guangyu.zhang-gmap",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8034,8 +8186,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -8112,7 +8264,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 53,
+                "position": 54,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -8135,8 +8287,8 @@
         "name": "Moon Seeker",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "ozPDA",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "ozPDA",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8168,8 +8320,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-06-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ajnaware.MoonSeeker",
@@ -8187,8 +8339,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -8266,7 +8418,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 54,
+                "position": 55,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -8420,7 +8572,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 55,
+                "position": 56,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -8484,8 +8636,8 @@
                 "releaseDate": "2013-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.scsiproshop.CorrectAltitude",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8586,7 +8738,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 56,
+                "position": 57,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -8606,8 +8758,8 @@
             ],
             "ariaLabelForRatings": "星 4.2 個"
         },
-        "name": "aprs.fi",
         "genreDisplayName": "ナビゲーション",
+        "name": "aprs.fi",
         "isPreorder": false,
         "artistName": "GainIO",
         "isIOSBinaryMacOSCompatible": false,
@@ -8647,8 +8799,8 @@
                 "releaseDate": "2015-12-03",
                 "hasInAppPurchases": true,
                 "bundleId": "fi.aprs.aprs-fi",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8739,7 +8891,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 57,
+                "position": 58,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -8759,11 +8911,11 @@
             ],
             "ariaLabelForRatings": "星 3.2 個"
         },
-        "name": "交通違反撲滅委員会EXECUTIVE",
         "genreDisplayName": "ナビゲーション",
+        "name": "交通違反撲滅委員会EXECUTIVE",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Hideki Ito",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8873,7 +9025,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1736760626468,
-                "MZ_INDEXER": 1739550144471
+                "MZ_INDEXER": 1739911099582
             }
         },
         "supportsArcade": false,
@@ -8891,7 +9043,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 58,
+                "position": 59,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -8952,8 +9104,8 @@
                 "releaseDate": "2009-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.atoll-ordenadores.smhudpl",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9043,7 +9195,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 59,
+                "position": 60,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -9073,8 +9225,8 @@
         },
         "firstVersionSupportingInAppPurchaseApi": "2.4.1",
         "watchBundleId": "com.eastwood.traffic.watchkitapp",
-        "name": "ETA - Arrive on time",
         "genreDisplayName": "ナビゲーション",
+        "name": "ETA - Arrive on time",
         "isPreorder": false,
         "artistName": "Eastwood",
         "isIOSBinaryMacOSCompatible": false,
@@ -9273,7 +9425,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 60,
+                "position": 61,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -9293,8 +9445,8 @@
             ],
             "ariaLabelForRatings": "星 4.6 個"
         },
-        "name": "ARCharaNavi",
         "genreDisplayName": "ナビゲーション",
+        "name": "ARCharaNavi",
         "isPreorder": false,
         "artistName": "Yuji Ueki",
         "isIOSBinaryMacOSCompatible": false,
@@ -9334,8 +9486,8 @@
                 "releaseDate": "2022-12-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.unagiken.ARCharaNavi",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9426,7 +9578,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 61,
+                "position": 62,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -9446,8 +9598,8 @@
             ],
             "ariaLabelForRatings": "星 2.3 個"
         },
-        "name": "Compass",
         "genreDisplayName": "ナビゲーション",
+        "name": "Compass",
         "isPreorder": false,
         "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
@@ -9578,7 +9730,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 62,
+                "position": 63,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -9598,8 +9750,8 @@
             ],
             "ariaLabelForRatings": "星 2.0 個"
         },
-        "name": "GPS",
         "genreDisplayName": "ナビゲーション",
+        "name": "GPS",
         "isPreorder": false,
         "artistName": "Void Stop Pty Ltd",
         "isIOSBinaryMacOSCompatible": false,
@@ -9639,8 +9791,8 @@
                 "releaseDate": "2008-12-03",
                 "hasInAppPurchases": false,
                 "bundleId": "net.onwhat.GPS",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9731,7 +9883,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 63,
+                "position": 64,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -9792,8 +9944,8 @@
                 "releaseDate": "2013-05-01",
                 "hasInAppPurchases": false,
                 "bundleId": "masashi012.address-map",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9885,7 +10037,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 64,
+                "position": 65,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -9905,8 +10057,8 @@
             ],
             "ariaLabelForRatings": "星 4.7 個"
         },
-        "name": "GPS Tracker - 携帯電話のトラッキング、情報記録",
         "genreDisplayName": "ナビゲーション",
+        "name": "GPS Tracker - 携帯電話のトラッキング、情報記録",
         "isPreorder": false,
         "artistName": "Sinoway",
         "isIOSBinaryMacOSCompatible": true,
@@ -10038,7 +10190,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 65,
+                "position": 66,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -10058,8 +10210,8 @@
             ],
             "ariaLabelForRatings": "星 1.0 個"
         },
-        "name": "マリン：ルールとシグナル",
         "genreDisplayName": "ナビゲーション",
+        "name": "マリン：ルールとシグナル",
         "isPreorder": false,
         "artistName": "Imray",
         "isIOSBinaryMacOSCompatible": false,
@@ -10172,7 +10324,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739272021320,
-                "MZ_INDEXER": 1739555470106
+                "MZ_INDEXER": 1739909206532
             }
         },
         "supportsArcade": false,
@@ -10191,7 +10343,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 66,
+                "position": 67,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -10214,8 +10366,8 @@
         "name": "Ariadne GPS (音声地図)",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Giovanni Ciaffoni",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Giovanni Ciaffoni",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10247,13 +10399,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-06-18",
                 "hasInAppPurchases": true,
                 "bundleId": "it.ciaffoni.ariadneGPS2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10265,8 +10417,8 @@
                     "textColor4": "cb7b18"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -10346,7 +10498,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 68,
+                "position": 69,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -10499,7 +10651,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 69,
+                "position": 70,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -10555,8 +10707,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-12-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ground-base.nikkodo",
@@ -10573,8 +10725,8 @@
                     "textColor4": "694e25"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -10651,7 +10803,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 70,
+                "position": 71,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -10674,8 +10826,8 @@
         "name": "ドライブレコーダーX",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "BecomingSystems",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "BecomingSystems",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10707,8 +10859,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2013-04-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.becomingsystems.driverecorderx",
@@ -10726,8 +10878,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -10784,8 +10936,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738894586648,
-                "MZ_INDEXER": 1739829412950
+                "RTCI": 1739925443101,
+                "MZ_INDEXER": 1739926397571
             }
         },
         "supportsArcade": false,
@@ -10805,7 +10957,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 71,
+                "position": 72,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -10826,8 +10978,8 @@
             "ariaLabelForRatings": "星 4.3 個"
         },
         "watchBundleId": "com.appdaddytech.tacticalnav.watchkitapp",
-        "name": "Tactical NAV",
         "genreDisplayName": "ナビゲーション",
+        "name": "Tactical NAV",
         "isPreorder": false,
         "artistName": "TacNav Systems LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -10863,8 +11015,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-02-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.appdaddytech.tacticalnav",
@@ -10882,8 +11034,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -10920,6 +11072,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10929,8 +11082,7 @@
                     "textColor2": "f64336",
                     "textColor3": "d5d5d5",
                     "textColor4": "ce3f35"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -10969,7 +11121,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 72,
+                "position": 73,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -10989,8 +11141,8 @@
             ],
             "ariaLabelForRatings": "星 4.0 個"
         },
-        "name": "aSmart HUD 3D +SpeedCams",
         "genreDisplayName": "ナビゲーション",
+        "name": "aSmart HUD 3D +SpeedCams",
         "isPreorder": false,
         "artistName": "Atoll Ordenadores",
         "isIOSBinaryMacOSCompatible": true,
@@ -11025,13 +11177,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2009-09-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.atoll-ordenadores.aSmrtHUD3D",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11044,8 +11196,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gps ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -11125,7 +11277,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 73,
+                "position": 74,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -11148,8 +11300,8 @@
         "name": "日本鉄道・日本の駅・最寄り駅",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Li Guo",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Li Guo",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11181,13 +11333,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-01-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.KongFuRailway",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11200,8 +11352,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -11278,7 +11430,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 74,
+                "position": 75,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -11301,8 +11453,8 @@
         "name": "GoalView for Chase",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "kazuya nakamura",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "kazuya nakamura",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11334,13 +11486,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-08-26",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.matrix.balloon.goalview4chase",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11353,8 +11505,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -11412,7 +11564,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731383360932,
-                "MZ_INDEXER": 1739832255304
+                "MZ_INDEXER": 1739923070895
             }
         },
         "supportsArcade": false,
@@ -11432,7 +11584,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 75,
+                "position": 76,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -11453,8 +11605,8 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "watchBundleId": "Sensonet.speedometer.watchkitapp",
-        "name": "GPS スピードメーター Pro",
         "genreDisplayName": "ナビゲーション",
+        "name": "GPS スピードメーター Pro",
         "isPreorder": false,
         "artistName": "Sensonet",
         "isIOSBinaryMacOSCompatible": true,
@@ -11490,13 +11642,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-04-08",
                 "hasInAppPurchases": false,
                 "bundleId": "Sensonet.speedometer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11509,8 +11661,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -11547,6 +11699,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11556,8 +11709,7 @@
                     "textColor2": "f89585",
                     "textColor3": "d5b9c1",
                     "textColor4": "d18887"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -11596,7 +11748,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 76,
+                "position": 77,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -11657,8 +11809,8 @@
                 "releaseDate": "2012-05-24",
                 "hasInAppPurchases": false,
                 "bundleId": "us.tojoy.TripRecorder",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11749,7 +11901,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 77,
+                "position": 78,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -11769,8 +11921,8 @@
             ],
             "ariaLabelForRatings": "星 5.0 個"
         },
-        "name": "オドメーター+",
         "genreDisplayName": "ナビゲーション",
+        "name": "オドメーター+",
         "isPreorder": false,
         "artistName": "Zed Said Studio LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -11902,7 +12054,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 78,
+                "position": 79,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -12056,7 +12208,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 79,
+                "position": 80,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -12079,8 +12231,8 @@
         "name": "Speedo社のGPSのスピードトラッカー、車のスピードメーター、サイクルコンピューター、トリップコンピュータ、ルートトラッキング、HUD",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Kevin Siml",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kevin Siml",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12112,13 +12264,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-06-22",
                 "hasInAppPurchases": false,
                 "bundleId": "de.appzer.Speedometer-GPS",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12126,8 +12278,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -12205,7 +12357,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 80,
+                "position": 81,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -12226,8 +12378,8 @@
             "ariaLabelForRatings": "星 4.0 個"
         },
         "watchBundleId": "com.electricpocket.ais.watchkitapp",
-        "name": "Boat Beacon",
         "genreDisplayName": "ナビゲーション",
+        "name": "Boat Beacon",
         "isPreorder": false,
         "artistName": "Pocket Mariner Ltd.",
         "isIOSBinaryMacOSCompatible": true,
@@ -12263,13 +12415,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2012-02-16",
                 "hasInAppPurchases": true,
                 "bundleId": "com.electricpocket.ais",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12282,8 +12434,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 location-services ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -12321,6 +12473,7 @@
                 "minimumXROSVersion": "1.0",
                 "subtitle": "AIS Marine Navigation",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12330,8 +12483,7 @@
                     "textColor2": "0b283f",
                     "textColor3": "26302f",
                     "textColor4": "2b4b62"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -12370,7 +12522,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 81,
+                "position": 82,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -12390,8 +12542,8 @@
             ],
             "ariaLabelForRatings": "星 4.6 個"
         },
-        "name": "MilGPS",
         "genreDisplayName": "ナビゲーション",
+        "name": "MilGPS",
         "isPreorder": false,
         "artistName": "Cascode Labs Pty Ltd",
         "isIOSBinaryMacOSCompatible": false,
@@ -12523,7 +12675,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 82,
+                "position": 83,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -12544,8 +12696,8 @@
             "ariaLabelForRatings": "星 4.6 個"
         },
         "watchBundleId": "name.gano.hotair.hotairiwatch",
-        "name": "Hot Air",
         "genreDisplayName": "ナビゲーション",
+        "name": "Hot Air",
         "isPreorder": false,
         "artistName": "Cato Technologies LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -12581,8 +12733,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-02-03",
                 "hasInAppPurchases": true,
                 "bundleId": "name.gano.hotair",
@@ -12600,8 +12752,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -12638,6 +12790,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12647,8 +12800,7 @@
                     "textColor2": "ffe7a2",
                     "textColor3": "cfdbea",
                     "textColor4": "cfc8a0"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -12688,7 +12840,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 83,
+                "position": 84,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -12711,8 +12863,8 @@
         "name": "Pocket Earth PRO",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "GeoMagik LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "GeoMagik LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12744,13 +12896,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-11-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.geomagik.pocketearth",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12763,8 +12915,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -12822,7 +12974,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738964460886,
-                "MZ_INDEXER": 1739482671347
+                "MZ_INDEXER": 1739909846337
             }
         },
         "supportsArcade": false,
@@ -12844,7 +12996,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 84,
+                "position": 85,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -12864,8 +13016,8 @@
             ],
             "ariaLabelForRatings": "星 1.0 個"
         },
-        "name": "日本道の駅",
         "genreDisplayName": "ナビゲーション",
+        "name": "日本道の駅",
         "isPreorder": false,
         "artistName": "Li Guo",
         "isIOSBinaryMacOSCompatible": true,
@@ -12900,13 +13052,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-01-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bingxuemamaRoadStation",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12919,8 +13071,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -12996,7 +13148,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 85,
+                "position": 86,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -13016,8 +13168,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Exit Strategy NYC Subway Map",
         "genreDisplayName": "ナビゲーション",
+        "name": "Exit Strategy NYC Subway Map",
         "isPreorder": false,
         "artistName": "JWeg Ventures LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -13057,8 +13209,8 @@
                 "releaseDate": "2009-07-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jwegventures.exitstrategy",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13148,7 +13300,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 86,
+                "position": 87,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -13168,8 +13320,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "交通カメラ+ Pro",
         "genreDisplayName": "ナビゲーション",
+        "name": "交通カメラ+ Pro",
         "isPreorder": false,
         "artistName": "Tapclay",
         "isIOSBinaryMacOSCompatible": true,
@@ -13209,8 +13361,8 @@
                 "releaseDate": "2011-11-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hongonn.utility.Traffic-Cam",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13304,7 +13456,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 87,
+                "position": 88,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -13325,8 +13477,8 @@
             "ariaLabelForRatings": "星 4.7 個"
         },
         "watchBundleId": "com.sportys.e6b.watchkitapp",
-        "name": "Sporty's E6B Flight Computer",
         "genreDisplayName": "ナビゲーション",
+        "name": "Sporty's E6B Flight Computer",
         "isPreorder": false,
         "artistName": "Sporty's Pilot Shop",
         "isIOSBinaryMacOSCompatible": false,
@@ -13471,7 +13623,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 88,
+                "position": 89,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -13491,8 +13643,8 @@
             ],
             "ariaLabelForRatings": "星 2.0 個"
         },
-        "name": "Parking+GPS Locations",
         "genreDisplayName": "ナビゲーション",
+        "name": "Parking+GPS Locations",
         "isPreorder": false,
         "artistName": "bioDigits LTD.",
         "isIOSBinaryMacOSCompatible": true,
@@ -13623,7 +13775,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 89,
+                "position": 90,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -13646,8 +13798,8 @@
         "name": "KickMap NYC",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "KICK Design Inc",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "KICK Design Inc",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13679,13 +13831,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.KICKDesign.KICKMap",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13698,8 +13850,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -13776,7 +13928,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 90,
+                "position": 91,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -13799,8 +13951,8 @@
         "name": "奥州道中十次",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "GROUND-BASE INC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "GROUND-BASE INC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13832,13 +13984,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-12-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ground-base.oshudo",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13850,8 +14002,8 @@
                     "textColor4": "3a3c41"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -13928,7 +14080,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 91,
+                "position": 92,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -13951,8 +14103,8 @@
         "name": "GPX-Viewer",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "William Modesitt",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "William Modesitt",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13984,8 +14136,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-05-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.modesittsoftware.GPX-Viewer",
@@ -14003,8 +14155,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -14081,7 +14233,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 92,
+                "position": 93,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -14101,8 +14253,8 @@
             ],
             "ariaLabelForRatings": "星 4.0 個"
         },
-        "name": "王立高度計",
         "genreDisplayName": "ナビゲーション",
+        "name": "王立高度計",
         "isPreorder": false,
         "artistName": "LionsApp di Nallbati Elton",
         "isIOSBinaryMacOSCompatible": true,
@@ -14142,8 +14294,8 @@
                 "releaseDate": "2014-08-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lionsapp.Altimeter",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14235,7 +14387,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 93,
+                "position": 94,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -14256,8 +14408,8 @@
             "ariaLabelForRatings": "星 4.5 個"
         },
         "watchBundleId": "jp.yuki.yoshinaga.PlaceNavigator.watchkitapp",
-        "name": "Great Arrow Navi",
         "genreDisplayName": "ナビゲーション",
+        "name": "Great Arrow Navi",
         "isPreorder": false,
         "artistName": "Yuki Yoshinaga",
         "isIOSBinaryMacOSCompatible": true,
@@ -14293,8 +14445,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-07-29",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.yuki.yoshinaga.PlaceNavigator",
@@ -14312,8 +14464,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -14351,6 +14503,7 @@
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Watchで距離と方向の快適ナビ！",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14360,8 +14513,7 @@
                     "textColor2": "f9d4de",
                     "textColor3": "f2cfd8",
                     "textColor4": "eeadbe"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -14400,7 +14552,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 94,
+                "position": 95,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -14420,8 +14572,8 @@
             ],
             "ariaLabelForRatings": "星 4.5 個"
         },
-        "name": "MapTool - GPS、コンパス、標高、スピード、UTM、MGRS",
         "genreDisplayName": "ナビゲーション",
+        "name": "MapTool - GPS、コンパス、標高、スピード、UTM、MGRS",
         "isPreorder": false,
         "artistName": "Dan Iatco",
         "isIOSBinaryMacOSCompatible": true,
@@ -14548,7 +14700,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 95,
+                "position": 96,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -14609,8 +14761,8 @@
                 "releaseDate": "2013-04-18",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.softbank.i-jseyama.Knots",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14683,7 +14835,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731371187360,
-                "MZ_INDEXER": 1739840775228
+                "MZ_INDEXER": 1739925401624
             }
         },
         "supportsArcade": false,
@@ -14702,7 +14854,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 96,
+                "position": 97,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -14758,8 +14910,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-04-07",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.lentek.rena-app.SpotNote",
@@ -14777,8 +14929,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -14860,7 +15012,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 97,
+                "position": 98,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -14885,8 +15037,8 @@
         "name": "TrafficCamNZ",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "David Wilson",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "David Wilson",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "10.6",
         "platformAttributes": {
@@ -14919,8 +15071,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2008-12-13",
                 "hasInAppPurchases": false,
                 "bundleId": "nz.co.DavidGWilson.TrafficCamNZ",
@@ -14938,8 +15090,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -14976,6 +15128,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14985,8 +15138,7 @@
                     "textColor2": "28272a",
                     "textColor3": "272928",
                     "textColor4": "424344"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -15026,7 +15178,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 98,
+                "position": 99,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -15049,8 +15201,8 @@
         "name": "Where's my MBTA Bus?",
         "genreDisplayName": "ナビゲーション",
         "isPreorder": false,
-        "artistName": "Vladimir Grinman",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Vladimir Grinman",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15082,13 +15234,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-10-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.grinmans.WheresMyBus",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15100,8 +15252,8 @@
                     "textColor4": "223244"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -15159,7 +15311,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731777556805,
-                "MZ_INDEXER": 1739549427622
+                "MZ_INDEXER": 1739929131475
             }
         },
         "supportsArcade": false,
@@ -15178,7 +15330,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 99,
+                "position": 100,
                 "genreName": "ナビゲーション",
                 "genre": 6010,
                 "chart": "top-paid",
@@ -15198,8 +15350,8 @@
             ],
             "ariaLabelForRatings": "星 3.0 個"
         },
-        "name": "Aircraft Horizon",
         "genreDisplayName": "ナビゲーション",
+        "name": "Aircraft Horizon",
         "isPreorder": false,
         "artistName": "iAware",
         "isIOSBinaryMacOSCompatible": false,
@@ -15252,159 +15404,6 @@
                     "textColor4": "6287bb"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1034,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/17/56/b0/1756b0ad-51f3-a6dc-6197-9d14dadace37/c3abeac7-9c3e-45db-b960-0fab895db324.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1034,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/5d/d4/be/5dd4be81-dad4-7b89-2622-7ab74e2eb354/4560417d-1461-462a-ae9a-2f6c76ec861a.png/{w}x{h}{c}.{f}",
-                        "bgColor": "0093ff",
-                        "textColor1": "00070c",
-                        "textColor2": "000e19",
-                        "textColor3": "00233d",
-                        "textColor4": "002947"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1f/37/ee/1f37ee54-5ac3-01b3-9136-ba7789d9b5b5/2bd041de-b0f6-4b99-aced-a102a4ec8642.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "477094081",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "312297700",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731376011035,
-                "MZ_INDEXER": 1739489240768
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 100,
-                "genreName": "ナビゲーション",
-                "genre": 6010,
-                "chart": "top-paid",
-                "genreShortName": "ナビゲーション"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 5,
-            "ratingCount": 4,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                4
-            ],
-            "ariaLabelForRatings": "星 5.0 個"
-        },
-        "name": "MapOut",
-        "genreDisplayName": "ナビゲーション",
-        "isPreorder": false,
-        "artistName": "Valnova",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=800000&salableAdamId=477094081&pricingParameters=STDQ&pg=default&appExtVrsId=862061805",
-                        "type": "buy",
-                        "priceFormatted": "¥800",
-                        "price": 800,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 76555264
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=477094081&pricingParameters=SWUPD&pg=default&appExtVrsId=862061805",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 76555264
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2012-03-20",
-                "hasInAppPurchases": false,
-                "bundleId": "ch.valnova.MapOut",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/cb/43/80/cb438003-ad06-7dcc-c77c-538acdd0ddfe/AppIcon-1x_U007emarketing-0-10-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "fffefe",
-                    "textColor1": "010c16",
-                    "textColor2": "030e16",
-                    "textColor3": "343c45",
-                    "textColor4": "353e45"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,

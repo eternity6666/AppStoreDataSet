@@ -15,8 +15,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739682740572,
-                "MZ_INDEXER": 1739846632149
+                "MZ_INDEXER": 1739846632149,
+                "RTCI": 1739682740572
             }
         },
         "supportsArcade": false,
@@ -62,8 +62,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Starri 星動旋律",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Nex",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -100,8 +100,8 @@
                 "releaseDate": "2022-09-09",
                 "hasInAppPurchases": true,
                 "bundleId": "team.nex.starri",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -114,10 +114,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -150,231 +150,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "跟著音樂一起運動！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1044950341",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1084571682",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731357952065,
-                "MZ_INDEXER": 1739501449156
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "tvos",
-            "watch",
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 2,
-                "genreName": "健康與健身",
-                "genre": 6013,
-                "chart": "top-paid",
-                "genreShortName": "健康與健身"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.8,
-            "ratingCount": 449,
-            "ratingCountList": [
-                5,
-                5,
-                10,
-                39,
-                390
-            ],
-            "ariaLabelForRatings": "4.8 顆星"
-        },
-        "watchBundleId": "com.streaksapp.streaks.workout.watchkitapp",
-        "genreDisplayName": "健康與健身",
-        "name": "Streaks Workout",
-        "isPreorder": false,
-        "artistName": "Crunchy Bagel",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "minimumWatchOSVersion": "9.0",
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=150000&salableAdamId=1044950341&pricingParameters=STDQ&pg=default&appExtVrsId=869637961",
-                        "type": "buy",
-                        "priceFormatted": "$150.00",
-                        "price": 150,
-                        "currencyCode": "TWD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 97744896
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1044950341&pricingParameters=SWUPD&pg=default&appExtVrsId=869637961",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "TWD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 97744896
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "12.3",
-                "requires32bit": false,
-                "releaseDate": "2015-10-26",
-                "hasInAppPurchases": false,
-                "bundleId": "com.streaksapp.streaks.workout",
-                "isStandaloneWithCompanionForWatchOS": true,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/c1/5c/14c15ca6-f464-02bb-e785-3eaf3f815f21/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ff704c",
-                    "textColor1": "161414",
-                    "textColor2": "161616",
-                    "textColor3": "44271f",
-                    "textColor4": "452821"
-                },
-                "isAppleWatchSupported": true,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 838,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ba/91/1a/ba911ac0-dae3-7dfc-46a5-3b2c1020955f/731619d1-37fa-4b57-ab3f-5621709a2343.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 838,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f7/11/ec/f711ec55-a26f-0924-5b57-a48528afecd2/8af0705f-56cc-4e7e-a515-b257ae086aae.png/{w}x{h}{c}.{f}",
-                        "bgColor": "6ed800",
-                        "textColor1": "050a00",
-                        "textColor2": "0b1500",
-                        "textColor3": "1a3300",
-                        "textColor4": "1f3c00"
-                    },
-                    "contentLogoTrimmed": {
-                        "width": 2254,
-                        "height": 284,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/bf/75/d1/bf75d199-88b8-ae34-1a68-49d17ee7c184/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "fcfcfc",
-                        "textColor1": "0e0e0e",
-                        "textColor2": "0e0e0e",
-                        "textColor3": "3e3e3e",
-                        "textColor4": "3e3e3e"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/1e/db/f1/1edbf153-39c5-051f-4601-5b7af7509bd2/pr_source.lsr/{w}x{h}{c}.{f}",
-                        "bgColor": "9e351b",
-                        "textColor1": "fadbd4",
-                        "textColor2": "fdc2b3",
-                        "textColor3": "e8baaf",
-                        "textColor4": "eaa695"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/8a/b2/d3/8ab2d336-42e5-8fa2-c63a-391ca6e11055/68d86312-2703-485f-903a-d0548d9bd221.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "subscriptionHero": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/cc/8d/ff/cc8dff5c-120c-93e3-bb01-75e3e435255f/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "ff704c",
-                        "textColor1": "161312",
-                        "textColor2": "161616",
-                        "textColor3": "45261e",
-                        "textColor4": "452821"
-                    },
-                    "fullscreenBackground": {
-                        "width": 4320,
-                        "height": 2160,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/10/da/0c/10da0c8b-507e-998e-d447-73997afa52fb/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "ff714d",
-                        "textColor1": "0d0806",
-                        "textColor2": "161413",
-                        "textColor3": "3d1d14",
-                        "textColor4": "45261f"
-                    },
-                    "contentLogo": {
-                        "width": 2400,
-                        "height": 390,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/1e/ab/2e/1eab2e7f-069d-188b-bb7f-4982b088dc48/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "fefefe",
-                        "textColor1": "0f0f0f",
-                        "textColor2": "0f0f0f",
-                        "textColor3": "3f3f3f",
-                        "textColor4": "3f3f3f"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "For all fitness levels",
-                "hasSafariExtension": false,
-                "editorialNotes": {
-                    "tagline": "徒手鍛鍊 把家裡變成健身房"
-                },
-                "requiresGameController": false,
-                "circularArtwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/72/79/4e727932-925a-d7a4-2e7e-f4457f37c632/AppIcon-0-0-1x_U007emarketing-0-14-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ff704c",
-                    "textColor1": "161514",
-                    "textColor2": "161514",
-                    "textColor3": "44271f",
-                    "textColor4": "44271f"
-                }
             }
         }
     },
@@ -394,8 +173,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738889189269,
-                "MZ_INDEXER": 1739832175983
+                "MZ_INDEXER": 1739832175983,
+                "RTCI": 1738889189269
             }
         },
         "supportsArcade": false,
@@ -412,7 +191,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 2,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -473,8 +252,8 @@
                 "releaseDate": "2013-12-14",
                 "hasInAppPurchases": true,
                 "bundleId": "net.7minworkoutapp.ipad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -490,6 +269,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -542,7 +322,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -565,8 +344,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731355292417,
-                "MZ_INDEXER": 1739525007852
+                "MZ_INDEXER": 1739525007852,
+                "RTCI": 1731355292417
             }
         },
         "supportsArcade": false,
@@ -583,7 +362,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 3,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -644,8 +423,8 @@
                 "releaseDate": "2011-04-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.3d4medical.iMuscleiPad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -662,6 +441,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -694,7 +474,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -716,8 +495,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357526547,
-                "MZ_INDEXER": 1739611202322
+                "MZ_INDEXER": 1739611202322,
+                "RTCI": 1731357526547
             }
         },
         "supportsArcade": false,
@@ -738,7 +517,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 4,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -761,8 +540,8 @@
         "genreDisplayName": "健康與健身",
         "name": "每日鍛煉",
         "isPreorder": false,
-        "artistName": "Daily Workout Apps, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daily Workout Apps, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -816,6 +595,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -848,7 +628,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "運動與健身教練,     快速且有效的鍛煉",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -871,8 +650,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738094298843,
-                "MZ_INDEXER": 1739521955240
+                "MZ_INDEXER": 1739521955240,
+                "RTCI": 1738094298843
             }
         },
         "supportsArcade": false,
@@ -896,7 +675,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 5,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -920,8 +699,8 @@
         "genreDisplayName": "健康與健身",
         "name": "WomanLog Pro 日曆",
         "isPreorder": false,
-        "artistName": "Pro Active App",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Pro Active App",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -977,6 +756,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1009,8 +789,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1020,8 +800,7 @@
                     "textColor2": "f64b66",
                     "textColor3": "d1a4ae",
                     "textColor4": "cd445a"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1041,8 +820,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737267680120,
-                "MZ_INDEXER": 1739523344910
+                "MZ_INDEXER": 1739523344910,
+                "RTCI": 1737267680120
             }
         },
         "supportsArcade": false,
@@ -1061,7 +840,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 6,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -1084,8 +863,8 @@
         "genreDisplayName": "健康與健身",
         "name": "SleepTown 睡眠小鎮",
         "isPreorder": false,
-        "artistName": "SEEKRTECH CO., LTD.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SEEKRTECH CO., LTD.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1117,8 +896,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-05-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.seekrtech.sleep",
@@ -1140,6 +919,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1192,12 +972,11 @@
                         "textColor4": "7ca396"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "培養健康睡眠習慣",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "用規律睡眠打造專屬小鎮"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1218,8 +997,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731369803969,
-                "MZ_INDEXER": 1739507103487
+                "MZ_INDEXER": 1739507103487,
+                "RTCI": 1731369803969
             }
         },
         "supportsArcade": false,
@@ -1242,7 +1021,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 7,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -1262,11 +1041,11 @@
             ],
             "ariaLabelForRatings": "4.0 顆星"
         },
-        "name": "iPeriod Period Tracker HD +",
         "genreDisplayName": "健康與健身",
+        "name": "iPeriod Period Tracker HD +",
         "isPreorder": false,
-        "artistName": "Winkpass Creations, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Winkpass Creations, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1303,8 +1082,8 @@
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.winkpass.iperiodip",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1321,6 +1100,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1353,7 +1133,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1375,8 +1154,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731368938782,
-                "MZ_INDEXER": 1739611104263
+                "MZ_INDEXER": 1739611104263,
+                "RTCI": 1731368938782
             }
         },
         "supportsArcade": false,
@@ -1395,7 +1174,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 8,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -1418,8 +1197,8 @@
         "genreDisplayName": "健康與健身",
         "name": "每日腹部鍛煉",
         "isPreorder": false,
-        "artistName": "Daily Workout Apps, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daily Workout Apps, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1474,6 +1253,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1506,7 +1286,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "腹部鍛煉程式",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1529,8 +1308,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378949467,
-                "MZ_INDEXER": 1739505962946
+                "MZ_INDEXER": 1739505962946,
+                "RTCI": 1731378949467
             }
         },
         "supportsArcade": false,
@@ -1549,7 +1328,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 9,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -1569,11 +1348,11 @@
             ],
             "ariaLabelForRatings": "4.7 顆星"
         },
-        "name": "心電圖儀經典版 (Cardiograph Classic)",
         "genreDisplayName": "健康與健身",
+        "name": "心電圖儀經典版 (Cardiograph Classic)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "MacroPinch Ltd.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1605,13 +1384,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-08-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.macropinch.cardiograph",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1627,7 +1406,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1660,7 +1439,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Your Personal Heart Rate Meter",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1683,8 +1462,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731376221209,
-                "MZ_INDEXER": 1739493127225
+                "MZ_INDEXER": 1739493127225,
+                "RTCI": 1731376221209
             }
         },
         "supportsArcade": false,
@@ -1704,7 +1483,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 10,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -1728,8 +1507,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Relax Meditation P: Mindfulness Sounds White Noise",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Ipnos Software Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -1767,6 +1546,7 @@
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ilbsoft.irelaxpremiumipad",
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -1778,7 +1558,6 @@
                     "textColor4": "c1c4ca"
                 },
                 "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1793,6 +1572,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1825,9 +1605,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1837,8 +1617,7 @@
                     "textColor2": "332861",
                     "textColor3": "343943",
                     "textColor4": "5c5381"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1858,8 +1637,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359524572,
-                "MZ_INDEXER": 1739540779055
+                "MZ_INDEXER": 1739540779055,
+                "RTCI": 1731359524572
             }
         },
         "supportsArcade": false,
@@ -1879,7 +1658,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 11,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -1903,8 +1682,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Pocket Yoga",
         "isPreorder": false,
-        "artistName": "Rainfrog, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Rainfrog, LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -1937,8 +1716,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2010-03-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rain-frog.Yoga",
@@ -1956,10 +1735,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -2022,7 +1801,7 @@
                         "textColor4": "7cb9dd"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "搭配豐富說明 隨時練瑜伽"
@@ -2057,8 +1836,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738602892041,
-                "MZ_INDEXER": 1739530966566
+                "MZ_INDEXER": 1739530966566,
+                "RTCI": 1738602892041
             }
         },
         "supportsArcade": false,
@@ -2079,7 +1858,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 12,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -2231,11 +2010,12 @@
                     }
                 },
                 "subtitle": "習慣養成待辦事項列表。",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "新的一年 戒掉那些壞習慣",
                     "standard": "這款設計簡潔、功能強大的 App ，能幫助你養成健康飲食、閱讀或潔牙等好習慣，朝勝利人生邁進。此外，這也是我們最喜歡的 Apple Watch 之一。"
                 },
-                "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2245,8 +2025,7 @@
                     "textColor2": "161616",
                     "textColor3": "452821",
                     "textColor4": "452821"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -2266,8 +2045,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354501459,
-                "MZ_INDEXER": 1739527321071
+                "MZ_INDEXER": 1739527321071,
+                "RTCI": 1731354501459
             }
         },
         "supportsArcade": false,
@@ -2290,7 +2069,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 13,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -2310,11 +2089,11 @@
             ],
             "ariaLabelForRatings": "1.0 顆星"
         },
-        "name": "WomanLog Pro 女性懷孕日曆",
         "genreDisplayName": "健康與健身",
+        "name": "WomanLog Pro 女性懷孕日曆",
         "isPreorder": false,
-        "artistName": "Pro Active App",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Pro Active App",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2369,6 +2148,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -2401,7 +2181,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2423,8 +2202,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731358732395,
-                "MZ_INDEXER": 1739611113900
+                "MZ_INDEXER": 1739611113900,
+                "RTCI": 1731358732395
             }
         },
         "supportsArcade": false,
@@ -2443,7 +2222,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 14,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -2466,8 +2245,8 @@
         "genreDisplayName": "健康與健身",
         "name": "每日有氧鍛煉",
         "isPreorder": false,
-        "artistName": "Daily Workout Apps, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daily Workout Apps, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2499,8 +2278,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.danielmiller.dailycardioworkout",
@@ -2518,10 +2297,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -2554,7 +2333,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "下半身鍛煉程式",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2577,8 +2356,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731377304111,
-                "MZ_INDEXER": 1739611212505
+                "MZ_INDEXER": 1739611212505,
+                "RTCI": 1731377304111
             }
         },
         "supportsArcade": false,
@@ -2599,7 +2378,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 15,
                 "genreName": "健康與健身",
                 "genre": 6013,
                 "chart": "top-paid",
@@ -2622,8 +2401,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Simply Yoga",
         "isPreorder": false,
-        "artistName": "Daily Workout Apps, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daily Workout Apps, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2677,6 +2456,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -2709,9 +2489,229 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1044950341",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1084571682",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739501449156,
+                "RTCI": 1731357952065
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "tvos",
+            "watch",
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 16,
+                "genreName": "健康與健身",
+                "genre": 6013,
+                "chart": "top-paid",
+                "genreShortName": "健康與健身"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.8,
+            "ratingCount": 449,
+            "ratingCountList": [
+                5,
+                5,
+                10,
+                39,
+                390
+            ],
+            "ariaLabelForRatings": "4.8 顆星"
+        },
+        "watchBundleId": "com.streaksapp.streaks.workout.watchkitapp",
+        "name": "Streaks Workout",
+        "genreDisplayName": "健康與健身",
+        "isPreorder": false,
+        "artistName": "Crunchy Bagel",
+        "isIOSBinaryMacOSCompatible": false,
+        "reviewsRestricted": false,
+        "minimumWatchOSVersion": "9.0",
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=150000&salableAdamId=1044950341&pricingParameters=STDQ&pg=default&appExtVrsId=869637961",
+                        "type": "buy",
+                        "priceFormatted": "$150.00",
+                        "price": 150,
+                        "currencyCode": "TWD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 97744896
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1044950341&pricingParameters=SWUPD&pg=default&appExtVrsId=869637961",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "TWD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 97744896
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "12.3",
+                "releaseDate": "2015-10-26",
+                "hasInAppPurchases": false,
+                "bundleId": "com.streaksapp.streaks.workout",
+                "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/c1/5c/14c15ca6-f464-02bb-e785-3eaf3f815f21/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ff704c",
+                    "textColor1": "161414",
+                    "textColor2": "161616",
+                    "textColor3": "44271f",
+                    "textColor4": "452821"
+                },
+                "isAppleWatchSupported": true,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 838,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ba/91/1a/ba911ac0-dae3-7dfc-46a5-3b2c1020955f/731619d1-37fa-4b57-ab3f-5621709a2343.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 838,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f7/11/ec/f711ec55-a26f-0924-5b57-a48528afecd2/8af0705f-56cc-4e7e-a515-b257ae086aae.png/{w}x{h}{c}.{f}",
+                        "bgColor": "6ed800",
+                        "textColor1": "050a00",
+                        "textColor2": "0b1500",
+                        "textColor3": "1a3300",
+                        "textColor4": "1f3c00"
+                    },
+                    "contentLogoTrimmed": {
+                        "width": 2254,
+                        "height": 284,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/bf/75/d1/bf75d199-88b8-ae34-1a68-49d17ee7c184/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "fcfcfc",
+                        "textColor1": "0e0e0e",
+                        "textColor2": "0e0e0e",
+                        "textColor3": "3e3e3e",
+                        "textColor4": "3e3e3e"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/1e/db/f1/1edbf153-39c5-051f-4601-5b7af7509bd2/pr_source.lsr/{w}x{h}{c}.{f}",
+                        "bgColor": "9e351b",
+                        "textColor1": "fadbd4",
+                        "textColor2": "fdc2b3",
+                        "textColor3": "e8baaf",
+                        "textColor4": "eaa695"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/8a/b2/d3/8ab2d336-42e5-8fa2-c63a-391ca6e11055/68d86312-2703-485f-903a-d0548d9bd221.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "subscriptionHero": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/cc/8d/ff/cc8dff5c-120c-93e3-bb01-75e3e435255f/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "ff704c",
+                        "textColor1": "161312",
+                        "textColor2": "161616",
+                        "textColor3": "45261e",
+                        "textColor4": "452821"
+                    },
+                    "fullscreenBackground": {
+                        "width": 4320,
+                        "height": 2160,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/10/da/0c/10da0c8b-507e-998e-d447-73997afa52fb/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "ff714d",
+                        "textColor1": "0d0806",
+                        "textColor2": "161413",
+                        "textColor3": "3d1d14",
+                        "textColor4": "45261f"
+                    },
+                    "contentLogo": {
+                        "width": 2400,
+                        "height": 390,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/1e/ab/2e/1eab2e7f-069d-188b-bb7f-4982b088dc48/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "fefefe",
+                        "textColor1": "0f0f0f",
+                        "textColor2": "0f0f0f",
+                        "textColor3": "3f3f3f",
+                        "textColor4": "3f3f3f"
+                    }
+                },
+                "isXROSCompatible": false,
+                "subtitle": "For all fitness levels",
+                "hasSafariExtension": false,
+                "editorialNotes": {
+                    "tagline": "徒手鍛鍊 把家裡變成健身房"
+                },
+                "requiresGameController": false,
+                "circularArtwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/72/79/4e727932-925a-d7a4-2e7e-f4457f37c632/AppIcon-0-0-1x_U007emarketing-0-14-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ff704c",
+                    "textColor1": "161514",
+                    "textColor2": "161514",
+                    "textColor3": "44271f",
+                    "textColor4": "44271f"
+                }
             }
         }
     },
@@ -2731,8 +2731,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731383594104,
-                "MZ_INDEXER": 1739538429512
+                "MZ_INDEXER": 1739538429512,
+                "RTCI": 1731383594104
             }
         },
         "supportsArcade": false,
@@ -2771,8 +2771,8 @@
             ],
             "ariaLabelForRatings": "4.9 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Stark Suspension",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "Virtual Trainer Sweden AB",
         "isIOSBinaryMacOSCompatible": true,
@@ -2825,10 +2825,10 @@
                     "textColor4": "cb8c00"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -2861,7 +2861,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2883,8 +2883,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364672402,
-                "MZ_INDEXER": 1739537356092
+                "MZ_INDEXER": 1739537356092,
+                "RTCI": 1731364672402
             }
         },
         "supportsArcade": false,
@@ -2926,8 +2926,8 @@
         "genreDisplayName": "健康與健身",
         "name": "BrainWave: 37 Binaural Series™",
         "isPreorder": false,
-        "artistName": "Banzai Labs",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Banzai Labs",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2959,8 +2959,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2009-03-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.banzaiabs.BrainWave",
@@ -2982,6 +2982,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3014,7 +3015,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3036,8 +3036,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361923141,
-                "MZ_INDEXER": 1739611105809
+                "MZ_INDEXER": 1739611105809,
+                "RTCI": 1731361923141
             }
         },
         "supportsArcade": false,
@@ -3135,6 +3135,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3167,7 +3168,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "下半身鍛煉程式",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3190,8 +3190,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955958071,
-                "MZ_INDEXER": 1739549898777
+                "MZ_INDEXER": 1739910940233,
+                "RTCI": 1738955958071
             }
         },
         "supportsArcade": false,
@@ -3267,8 +3267,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-02-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.taptanium.forest",
@@ -3289,6 +3289,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3331,8 +3333,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3354,8 +3354,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738880940067,
-                "MZ_INDEXER": 1739521766603
+                "MZ_INDEXER": 1739521766603,
+                "RTCI": 1738880940067
             }
         },
         "supportsArcade": false,
@@ -3398,10 +3398,10 @@
             ],
             "ariaLabelForRatings": "4.2 顆星"
         },
-        "firstVersionSupportingInAppPurchaseApi": "7.6.12",
         "watchBundleId": "com.mosesyan.ilya.fitnesspointpro.watchapp",
-        "name": "Fitness Point Pro: 健身與居家",
+        "firstVersionSupportingInAppPurchaseApi": "7.6.12",
         "genreDisplayName": "健康與健身",
+        "name": "Fitness Point Pro: 健身與居家",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "ZERO ONE GmbH",
@@ -3437,13 +3437,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-11-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mosesyan.ilya.fitnesspointpro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3459,7 +3459,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3512,9 +3512,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "運動和健身日記",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3524,8 +3525,7 @@
                     "textColor2": "000000",
                     "textColor3": "2f2f2f",
                     "textColor4": "2f2f2f"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -3545,8 +3545,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738113744082,
-                "MZ_INDEXER": 1739539858059
+                "MZ_INDEXER": 1739539858059,
+                "RTCI": 1738113744082
             }
         },
         "supportsArcade": false,
@@ -3640,10 +3640,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3676,7 +3676,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "跟著環境聲徜徉在海邊、鄉村或咖啡館，滴滴雨聲讓心更安然。"
@@ -3701,8 +3701,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378970391,
-                "MZ_INDEXER": 1739611105654
+                "MZ_INDEXER": 1739611105654,
+                "RTCI": 1731378970391
             }
         },
         "supportsArcade": false,
@@ -3744,8 +3744,8 @@
         "genreDisplayName": "健康與健身",
         "name": "每日手臂鍛煉",
         "isPreorder": false,
-        "artistName": "Daily Workout Apps, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daily Workout Apps, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3777,8 +3777,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-11-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.danielmiller.dailyarmworkout",
@@ -3796,10 +3796,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3832,7 +3832,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "上半身鍛煉程式",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3855,8 +3855,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731386185977,
-                "MZ_INDEXER": 1739611105522
+                "MZ_INDEXER": 1739611105522,
+                "RTCI": 1731386185977
             }
         },
         "supportsArcade": false,
@@ -3898,8 +3898,8 @@
         "genreDisplayName": "健康與健身",
         "name": "每日臀部鍛煉",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Daily Workout Apps, LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3936,8 +3936,8 @@
                 "releaseDate": "2010-11-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.danielmiller.dailybuttworkout",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3950,10 +3950,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3986,7 +3986,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "下半身鍛煉程式",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4009,8 +4009,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361731449,
-                "MZ_INDEXER": 1739487919449
+                "MZ_INDEXER": 1739487919449,
+                "RTCI": 1731361731449
             }
         },
         "supportsArcade": false,
@@ -4089,8 +4089,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.survivalguide",
@@ -4110,7 +4110,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -4143,7 +4143,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4165,8 +4165,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357199659,
-                "MZ_INDEXER": 1739495440753
+                "MZ_INDEXER": 1739495440753,
+                "RTCI": 1731357199659
             }
         },
         "supportsArcade": false,
@@ -4207,8 +4207,8 @@
             "ariaLabelForRatings": "4.8 顆星"
         },
         "watchBundleId": "com.runloop.seconds.watchkitapp",
-        "genreDisplayName": "健康與健身",
         "name": "Seconds Pro Interval Timer",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "Runloop Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -4249,8 +4249,8 @@
                 "releaseDate": "2010-07-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.runloop.seconds",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4266,6 +4266,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -4318,10 +4319,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "高強度間歇訓練計時器",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4331,8 +4332,7 @@
                     "textColor2": "fde8e7",
                     "textColor3": "efd0d0",
                     "textColor4": "edbebd"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -4352,8 +4352,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959355947,
-                "MZ_INDEXER": 1739527425642
+                "MZ_INDEXER": 1739527425642,
+                "RTCI": 1738959355947
             }
         },
         "supportsArcade": false,
@@ -4395,8 +4395,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "3D Yoga Anatomy",
         "genreDisplayName": "健康與健身",
+        "name": "3D Yoga Anatomy",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Body Culture",
@@ -4431,13 +4431,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-09-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gabrielvicente.yogaanatomy",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4453,6 +4453,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -4485,8 +4487,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4508,8 +4508,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739225932154,
-                "MZ_INDEXER": 1739544239705
+                "MZ_INDEXER": 1739544239705,
+                "RTCI": 1739225932154
             }
         },
         "supportsArcade": false,
@@ -4584,13 +4584,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-02-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.numerogroup.Environments",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4606,7 +4606,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -4639,7 +4639,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4661,8 +4661,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955957809,
-                "MZ_INDEXER": 1739487717751
+                "MZ_INDEXER": 1739487717751,
+                "RTCI": 1738955957809
             }
         },
         "supportsArcade": false,
@@ -4706,11 +4706,11 @@
             "ariaLabelForRatings": "4.8 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "3.1.2",
-        "genreDisplayName": "健康與健身",
         "name": "Sunny Sea Ocean Sleep Sounds",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "artistName": "Franz Bruckhoff",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Franz Bruckhoff",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4765,6 +4765,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -4807,7 +4808,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4829,8 +4829,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357048189,
-                "MZ_INDEXER": 1739500473600
+                "MZ_INDEXER": 1739500473600,
+                "RTCI": 1731357048189
             }
         },
         "supportsArcade": false,
@@ -4869,11 +4869,11 @@
             ],
             "ariaLabelForRatings": "4.8 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Stark 壺鈴",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Virtual Trainer Sweden AB",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4905,8 +4905,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-10-26",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-Kettlebell-EN",
@@ -4927,6 +4927,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -4959,8 +4961,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4982,8 +4982,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738925556472,
-                "MZ_INDEXER": 1739540716949
+                "MZ_INDEXER": 1739540716949,
+                "RTCI": 1738925556472
             }
         },
         "supportsArcade": false,
@@ -5063,8 +5063,8 @@
                 "releaseDate": "2014-05-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.noisli.Noisli",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5080,6 +5080,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5122,7 +5123,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5145,8 +5145,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732210819478,
-                "MZ_INDEXER": 1739504336858
+                "MZ_INDEXER": 1739504336858,
+                "RTCI": 1732210819478
             }
         },
         "supportsArcade": false,
@@ -5188,8 +5188,8 @@
         "genreDisplayName": "健康與健身",
         "name": "腦波調諧器 - 白噪音睡眠,開發大腦潛能及集中注意力訓練",
         "isPreorder": false,
-        "artistName": "iMobLife Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "iMobLife Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5244,6 +5244,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5276,7 +5277,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5298,8 +5298,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354154496,
-                "MZ_INDEXER": 1739531830739
+                "MZ_INDEXER": 1739531830739,
+                "RTCI": 1731354154496
             }
         },
         "supportsArcade": false,
@@ -5338,11 +5338,11 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "Stark 伸展",
         "genreDisplayName": "健康與健身",
+        "name": "Stark 伸展",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Virtual Trainer Sweden AB",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5379,8 +5379,8 @@
                 "releaseDate": "2012-12-31",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-STRETCH",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5396,6 +5396,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5428,7 +5429,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5451,8 +5451,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731356458742,
-                "MZ_INDEXER": 1739829806634
+                "MZ_INDEXER": 1739914843220,
+                "RTCI": 1731356458742
             }
         },
         "supportsArcade": false,
@@ -5494,8 +5494,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Relaxing Sounds Of Nature & SPA Music",
         "isPreorder": false,
-        "artistName": "Red Hammer Software",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Red Hammer Software",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5532,8 +5532,8 @@
                 "releaseDate": "2009-10-24",
                 "hasInAppPurchases": true,
                 "bundleId": "net.rhsoftware.SoundsOfNatureSoundboard",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5550,6 +5550,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5582,7 +5583,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5604,8 +5604,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731356172428,
-                "MZ_INDEXER": 1739535259186
+                "MZ_INDEXER": 1739535259186,
+                "RTCI": 1731356172428
             }
         },
         "supportsArcade": false,
@@ -5642,8 +5642,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "White Noise Ambience HD",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "logicworks",
         "isIOSBinaryMacOSCompatible": true,
@@ -5678,8 +5678,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-08-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.logicworks.whitenoisehd",
@@ -5696,10 +5696,10 @@
                     "textColor4": "cac7e9"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5732,7 +5732,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5754,8 +5754,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738954784391,
-                "MZ_INDEXER": 1739552529833
+                "MZ_INDEXER": 1739552529833,
+                "RTCI": 1738954784391
             }
         },
         "supportsArcade": false,
@@ -5794,11 +5794,11 @@
             ],
             "ariaLabelForRatings": "3.0 顆星"
         },
-        "name": "终极减肥法 - 低碳水食物健康瘦身",
         "genreDisplayName": "健康與健身",
+        "name": "终极减肥法 - 低碳水食物健康瘦身",
         "isPreorder": false,
-        "artistName": "宏伟 刘",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "宏伟 刘",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5853,6 +5853,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5885,7 +5886,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5907,8 +5907,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731371413713,
-                "MZ_INDEXER": 1739492710301
+                "MZ_INDEXER": 1739492710301,
+                "RTCI": 1731371413713
             }
         },
         "supportsArcade": false,
@@ -5951,8 +5951,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "Massage Techniques",
         "genreDisplayName": "健康與健身",
+        "name": "Massage Techniques",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Real Bodywork",
@@ -5987,13 +5987,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-01-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.realbodywork.massagepro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6010,6 +6010,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6042,7 +6043,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6064,8 +6064,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739641213451,
-                "MZ_INDEXER": 1739640708597
+                "MZ_INDEXER": 1739640708597,
+                "RTCI": 1739641213451
             }
         },
         "supportsArcade": false,
@@ -6106,8 +6106,8 @@
             ],
             "ariaLabelForRatings": "3.0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "PostureScreen Mobile",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "PostureCo, Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -6147,8 +6147,8 @@
                 "releaseDate": "2010-12-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.postureco.posturescreenmobile",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6219,8 +6219,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354594656,
-                "MZ_INDEXER": 1739522742385
+                "MZ_INDEXER": 1739522742385,
+                "RTCI": 1731354594656
             }
         },
         "supportsArcade": false,
@@ -6265,8 +6265,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Navy SEAL Fitness",
         "isPreorder": false,
-        "artistName": "Calculated Industries",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Calculated Industries",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6298,13 +6298,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.navysealphysicalfitnessguide",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6320,6 +6320,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6352,7 +6353,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6374,8 +6374,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731374765400,
-                "MZ_INDEXER": 1739829162250
+                "MZ_INDEXER": 1739829162250,
+                "RTCI": 1731374765400
             }
         },
         "supportsArcade": false,
@@ -6475,6 +6475,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6507,7 +6508,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6529,8 +6529,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957345292,
-                "MZ_INDEXER": 1739541121660
+                "MZ_INDEXER": 1739541121660,
+                "RTCI": 1738957345292
             }
         },
         "supportsArcade": false,
@@ -6572,8 +6572,8 @@
             "ariaLabelForRatings": "5.0 顆星"
         },
         "watchBundleId": "com.tmsoft.WhiteNoisePro.watchkitapp",
-        "name": "White Noise Pro",
         "genreDisplayName": "健康與健身",
+        "name": "White Noise Pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "TMSOFT",
@@ -6614,8 +6614,8 @@
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tmsoft.WhiteNoisePro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6632,6 +6632,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6664,8 +6665,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6675,8 +6676,7 @@
                     "textColor2": "092c08",
                     "textColor3": "0d3b0c",
                     "textColor4": "085407"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -6696,8 +6696,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738966858519,
-                "MZ_INDEXER": 1739545175822
+                "MZ_INDEXER": 1739545175822,
+                "RTCI": 1738966858519
             }
         },
         "supportsArcade": false,
@@ -6739,8 +6739,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Sleeping Sounds, Relax & Sleep",
         "isPreorder": false,
-        "artistName": "Ertan Eksi",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Ertan Eksi",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6795,6 +6795,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6827,7 +6828,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6849,8 +6849,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738954844055,
-                "MZ_INDEXER": 1739546702397
+                "MZ_INDEXER": 1739546702397,
+                "RTCI": 1738954844055
             }
         },
         "supportsArcade": false,
@@ -6892,8 +6892,8 @@
             ],
             "ariaLabelForRatings": "4.7 顆星"
         },
-        "name": "运动解剖",
         "genreDisplayName": "健康與健身",
+        "name": "运动解剖",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "彬 吴",
@@ -6933,8 +6933,8 @@
                 "releaseDate": "2018-07-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.digihumanbody.sports-anatomy",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6951,6 +6951,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6983,7 +6984,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7005,8 +7005,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738961700955,
-                "MZ_INDEXER": 1739512068497
+                "MZ_INDEXER": 1739512068497,
+                "RTCI": 1738961700955
             }
         },
         "supportsArcade": false,
@@ -7045,8 +7045,8 @@
             ],
             "ariaLabelForRatings": "4.9 顆星"
         },
-        "name": "Noizio — focus, relax, sleep",
         "genreDisplayName": "健康與健身",
+        "name": "Noizio — focus, relax, sleep",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kyrylo Kovalin",
@@ -7104,6 +7104,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7146,12 +7147,11 @@
                         "textColor4": "649f98"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Calm meditation nature sounds",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "自訂白噪音助你專注、舒眠"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -7172,8 +7172,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731363172270,
-                "MZ_INDEXER": 1739505520095
+                "MZ_INDEXER": 1739505520095,
+                "RTCI": 1731363172270
             }
         },
         "supportsArcade": false,
@@ -7215,8 +7215,8 @@
         "genreDisplayName": "健康與健身",
         "name": "寶寶美夢PRO－平靜而舒緩的搖籃曲和動畫",
         "isPreorder": false,
-        "artistName": "WonderApps AB",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "WonderApps AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7271,6 +7271,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7303,7 +7304,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "給小寶寶一個完美的睡覺環境",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7326,8 +7326,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378298717,
-                "MZ_INDEXER": 1739492384655
+                "MZ_INDEXER": 1739492384655,
+                "RTCI": 1731378298717
             }
         },
         "supportsArcade": false,
@@ -7369,8 +7369,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Pocket Yoga Teacher",
         "isPreorder": false,
-        "artistName": "Rainfrog, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Rainfrog, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7402,8 +7402,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2011-10-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rain-frog.pocketyogapracticebuilder",
@@ -7421,10 +7421,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7457,7 +7457,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7479,8 +7479,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738964691978,
-                "MZ_INDEXER": 1739528640765
+                "MZ_INDEXER": 1739528640765,
+                "RTCI": 1738964691978
             }
         },
         "supportsArcade": false,
@@ -7519,8 +7519,8 @@
             ],
             "ariaLabelForRatings": "4.2 顆星"
         },
-        "name": "一心院",
         "genreDisplayName": "健康與健身",
+        "name": "一心院",
         "isPreorder": false,
         "artistName": "力 杨",
         "isIOSBinaryMacOSCompatible": true,
@@ -7555,8 +7555,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-07-18",
                 "hasInAppPurchases": false,
                 "bundleId": "pinx.game.mindflow",
@@ -7577,7 +7577,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7620,7 +7620,7 @@
                         "textColor4": "3e3e3a"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "一座可以「感應」意念的禪院",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -7647,8 +7647,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957345117,
-                "MZ_INDEXER": 1739548147348
+                "MZ_INDEXER": 1739548147348,
+                "RTCI": 1738957345117
             }
         },
         "supportsArcade": false,
@@ -7690,8 +7690,8 @@
             "ariaLabelForRatings": "4.9 顆星"
         },
         "watchBundleId": "com.tmsoft.WhiteNoise.watchkitapp",
-        "name": "White Noise",
         "genreDisplayName": "健康與健身",
+        "name": "White Noise",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "TMSOFT",
@@ -7727,13 +7727,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-01-31",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tmsoft.WhiteNoise",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7750,6 +7750,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7782,7 +7783,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "精神放鬆 。睡得更香。感覺更好。",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -7815,8 +7815,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731379594463,
-                "MZ_INDEXER": 1739829700375
+                "MZ_INDEXER": 1739829700375,
+                "RTCI": 1731379594463
             }
         },
         "supportsArcade": false,
@@ -7861,8 +7861,8 @@
         "name": "Universal Breathing - Pranayama",
         "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Saagara",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7899,8 +7899,8 @@
                 "releaseDate": "2011-05-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.saagara.universalpranayama",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7913,10 +7913,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7949,7 +7949,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7971,8 +7971,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731374841836,
-                "MZ_INDEXER": 1739522336339
+                "MZ_INDEXER": 1739522336339,
+                "RTCI": 1731374841836
             }
         },
         "supportsArcade": false,
@@ -8052,8 +8052,8 @@
                 "releaseDate": "2012-12-21",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-DUMBBELL",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8070,6 +8070,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8102,7 +8103,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8124,8 +8124,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731371286530,
-                "MZ_INDEXER": 1739829587562
+                "MZ_INDEXER": 1739829587562,
+                "RTCI": 1731371286530
             }
         },
         "supportsArcade": false,
@@ -8166,11 +8166,11 @@
             "ariaLabelForRatings": "4.0 顆星"
         },
         "watchBundleId": "com.gorillaworkoutapp.watchkitapp",
-        "name": "Gorilla Workout: Build Muscle",
         "genreDisplayName": "健康與健身",
+        "name": "Gorilla Workout: Build Muscle",
         "isPreorder": false,
-        "artistName": "Heckr LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Heckr LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -8208,8 +8208,8 @@
                 "releaseDate": "2011-06-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gorillaworkoutapp",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8225,6 +8225,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8267,8 +8268,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8278,8 +8279,7 @@
                     "textColor2": "e8c0a9",
                     "textColor3": "88b60e",
                     "textColor4": "c29f8c"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -8299,8 +8299,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731374523249,
-                "MZ_INDEXER": 1739566234614
+                "MZ_INDEXER": 1739566234614,
+                "RTCI": 1731374523249
             }
         },
         "supportsArcade": false,
@@ -8342,8 +8342,8 @@
         "name": "自然美景白噪音機用於幫助睡眠、放鬆、冥想。",
         "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Infinite Wave Media, LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8398,6 +8398,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8430,7 +8431,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8452,8 +8452,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738961701759,
-                "MZ_INDEXER": 1739511259735
+                "MZ_INDEXER": 1739511259735,
+                "RTCI": 1738961701759
             }
         },
         "supportsArcade": false,
@@ -8492,8 +8492,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "Mind Monitor",
         "genreDisplayName": "健康與健身",
+        "name": "Mind Monitor",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "James Clutterbuck",
@@ -8528,8 +8528,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-07-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sonicPenguins.MuseMonitor",
@@ -8547,10 +8547,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8583,7 +8583,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8605,8 +8605,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738967388510,
-                "MZ_INDEXER": 1739482628711
+                "MZ_INDEXER": 1739906229175,
+                "RTCI": 1738967388510
             }
         },
         "supportsArcade": false,
@@ -8682,13 +8682,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2012-05-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kutapp22",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8704,7 +8704,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8737,7 +8737,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8759,8 +8759,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365760949,
-                "MZ_INDEXER": 1739509479908
+                "MZ_INDEXER": 1739509479908,
+                "RTCI": 1731365760949
             }
         },
         "supportsArcade": false,
@@ -8802,8 +8802,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Stark 彈力繩",
         "isPreorder": false,
-        "artistName": "Virtual Trainer Sweden AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Virtual Trainer Sweden AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8835,13 +8835,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-05-31",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-Exercise-Band",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8858,6 +8858,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8890,7 +8891,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8912,8 +8912,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733238564916,
-                "MZ_INDEXER": 1739545338943
+                "MZ_INDEXER": 1739545338943,
+                "RTCI": 1733238564916
             }
         },
         "supportsArcade": false,
@@ -8991,13 +8991,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2013-08-04",
                 "hasInAppPurchases": false,
                 "bundleId": "de.ralphsapps.snoreclock",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9010,9 +9010,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 microphone ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9045,7 +9046,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9068,8 +9068,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738963506982,
-                "MZ_INDEXER": 1739545192353
+                "MZ_INDEXER": 1739545192353,
+                "RTCI": 1738963506982
             }
         },
         "supportsArcade": false,
@@ -9167,7 +9167,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9200,7 +9200,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9222,8 +9222,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739831558952,
-                "MZ_INDEXER": 1739833317593
+                "MZ_INDEXER": 1739833317593,
+                "RTCI": 1739831558952
             }
         },
         "supportsArcade": false,
@@ -9266,8 +9266,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Relax & Rest Guided Meditation",
         "isPreorder": false,
-        "artistName": "Meditation Oasis",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Meditation Oasis",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9299,8 +9299,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.meditationoasis.relaxandrest1",
@@ -9321,6 +9321,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9353,8 +9355,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9376,8 +9376,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955957811,
-                "MZ_INDEXER": 1739534028495
+                "MZ_INDEXER": 1739534028495,
+                "RTCI": 1738955957811
             }
         },
         "supportsArcade": false,
@@ -9417,8 +9417,8 @@
             "ariaLabelForRatings": "4.8 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.3.1",
-        "genreDisplayName": "健康與健身",
         "name": "Flowing ~ Meditation in Nature",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "Franz Bruckhoff",
         "isIOSBinaryMacOSCompatible": true,
@@ -9453,13 +9453,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-09-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.taptanium.flowy",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9476,6 +9476,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9518,7 +9519,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "如果你對冥想有興趣，請來試試旨在讓人身心放鬆的《Flowing》。繼 2014 年結合優美配樂及動態插畫的《Windy》，這回他帶來六段以流水為題材的畫面與聲音，讓人釋放壓力、尋回身心平靜，輔助人們在睡前放鬆或進入冥想。您還可以自行組合聲效，塑造專屬的心靈淨土。"
@@ -9543,8 +9543,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737493109187,
-                "MZ_INDEXER": 1739509527788
+                "MZ_INDEXER": 1739509527788,
+                "RTCI": 1737493109187
             }
         },
         "supportsArcade": false,
@@ -9584,8 +9584,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Hearing Loss Simulator",
         "isPreorder": false,
-        "artistName": "Starkey Laboratories",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Starkey Laboratories",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9617,13 +9617,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-10-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.starkey.HearingLossSimulatorAppStore.Starkey",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9639,6 +9639,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9671,7 +9672,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9693,8 +9693,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731382924664,
-                "MZ_INDEXER": 1739543191237
+                "MZ_INDEXER": 1739543191237,
+                "RTCI": 1731382924664
             }
         },
         "supportsArcade": false,
@@ -9733,11 +9733,11 @@
             ],
             "ariaLabelForRatings": "3.0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "WomanLog 寶寶日曆 Pro",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Pro Active App",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9774,8 +9774,8 @@
                 "releaseDate": "2013-10-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.proactiveapp.womanlogbaby.pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9788,10 +9788,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9824,7 +9824,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9846,8 +9846,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731369467708,
-                "MZ_INDEXER": 1739519296876
+                "MZ_INDEXER": 1739519296876,
+                "RTCI": 1731369467708
             }
         },
         "supportsArcade": false,
@@ -9889,8 +9889,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Stark ViPR",
         "isPreorder": false,
-        "artistName": "Virtual Trainer Sweden AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Virtual Trainer Sweden AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9922,8 +9922,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-10-10",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-VIPR",
@@ -9944,6 +9944,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9976,8 +9978,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9999,8 +9999,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738960278903,
-                "MZ_INDEXER": 1739485357786
+                "MZ_INDEXER": 1739908751045,
+                "RTCI": 1738960278903
             }
         },
         "supportsArcade": false,
@@ -10039,8 +10039,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Monthly Cycles",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "Nova Mobile, Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -10080,8 +10080,8 @@
                 "releaseDate": "2010-04-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dworks.periodtracker",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10097,6 +10097,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10129,7 +10130,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10151,8 +10151,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731368140255,
-                "MZ_INDEXER": 1739545639548
+                "MZ_INDEXER": 1739932843223,
+                "RTCI": 1731368140255
             }
         },
         "supportsArcade": false,
@@ -10194,8 +10194,8 @@
         "genreDisplayName": "健康與健身",
         "name": "占星預測高清專業版 - Horoscope HD Pro",
         "isPreorder": false,
-        "artistName": "smalltech sarl",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "smalltech sarl",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10232,8 +10232,8 @@
                 "releaseDate": "2010-02-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.slema.cutehoroscopepro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10249,6 +10249,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10281,7 +10282,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10303,8 +10303,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955957905,
-                "MZ_INDEXER": 1739529390692
+                "MZ_INDEXER": 1739529390692,
+                "RTCI": 1738955957905
             }
         },
         "supportsArcade": false,
@@ -10346,8 +10346,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Sleep Better Fan ~ White Noise",
         "isPreorder": false,
-        "artistName": "Franz Bruckhoff",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Franz Bruckhoff",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10379,13 +10379,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-07-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.taptanium.fan",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10401,6 +10401,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10433,7 +10434,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10455,8 +10455,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373297755,
-                "MZ_INDEXER": 1739507632893
+                "MZ_INDEXER": 1739507632893,
+                "RTCI": 1731373297755
             }
         },
         "supportsArcade": false,
@@ -10497,8 +10497,8 @@
             ],
             "ariaLabelForRatings": "4.9 顆星"
         },
-        "firstVersionSupportingInAppPurchaseApi": "6.5",
         "watchBundleId": "com.ilbsoft.irelaxpremium.watchkitapp",
+        "firstVersionSupportingInAppPurchaseApi": "6.5",
         "genreDisplayName": "健康與健身",
         "name": "Relax Melodies P: Sleep Sounds",
         "isPreorder": false,
@@ -10565,10 +10565,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10601,8 +10601,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10612,8 +10613,7 @@
                     "textColor2": "d2dee9",
                     "textColor3": "bfc5d7",
                     "textColor4": "a8b4c8"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -10633,8 +10633,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731372047188,
-                "MZ_INDEXER": 1739831392287
+                "MZ_INDEXER": 1739831392287,
+                "RTCI": 1731372047188
             }
         },
         "supportsArcade": false,
@@ -10673,8 +10673,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "BeatStep",
         "genreDisplayName": "健康與健身",
+        "name": "BeatStep",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Daniel Schroth",
@@ -10709,8 +10709,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-03-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.DanielSchroth.BeatStep",
@@ -10731,6 +10731,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10763,8 +10765,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10786,8 +10786,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956900584,
-                "MZ_INDEXER": 1739529984004
+                "MZ_INDEXER": 1739529984004,
+                "RTCI": 1738956900584
             }
         },
         "supportsArcade": false,
@@ -10873,8 +10873,8 @@
                 "releaseDate": "2011-09-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.maxwell.contractionmonitor",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10887,10 +10887,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10923,9 +10923,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "分娩時記錄追跡宮縮或陣痛狀況，孕期必備胎動檢測和宮縮計時器",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10935,8 +10936,7 @@
                     "textColor2": "161616",
                     "textColor3": "422c32",
                     "textColor4": "422e34"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -10956,8 +10956,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738960278642,
-                "MZ_INDEXER": 1739546169381
+                "MZ_INDEXER": 1739930926650,
+                "RTCI": 1738960278642
             }
         },
         "supportsArcade": false,
@@ -10999,8 +10999,8 @@
         "name": "Interval Timer Pro",
         "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "artistName": "Nova Mobile, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nova Mobile, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11054,6 +11054,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11086,7 +11087,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11108,8 +11108,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731374330447,
-                "MZ_INDEXER": 1739507005461
+                "MZ_INDEXER": 1739507005461,
+                "RTCI": 1731374330447
             }
         },
         "supportsArcade": false,
@@ -11151,8 +11151,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Buddhify: Guided Meditation",
         "isPreorder": false,
-        "artistName": "Whistle Studios LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Whistle Studios LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11184,8 +11184,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-01-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.21awake.buddhify2",
@@ -11207,6 +11207,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11239,7 +11240,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11261,8 +11261,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739349669290,
-                "MZ_INDEXER": 1739831493807
+                "MZ_INDEXER": 1739831493807,
+                "RTCI": 1739349669290
             }
         },
         "supportsArcade": false,
@@ -11304,8 +11304,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "SleepStream 2 Ultimate",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "Explosive Apps",
         "isIOSBinaryMacOSCompatible": true,
@@ -11340,13 +11340,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-06-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cannonballconsulting.sleepstream2ultimate",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11358,9 +11358,10 @@
                     "textColor4": "a3a3b8"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11393,7 +11394,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11416,8 +11416,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731377324544,
-                "MZ_INDEXER": 1739530664099
+                "MZ_INDEXER": 1739530664099,
+                "RTCI": 1731377324544
             }
         },
         "supportsArcade": false,
@@ -11468,8 +11468,8 @@
         "genreDisplayName": "健康與健身",
         "name": "CARROT Fit",
         "isPreorder": false,
-        "artistName": "Grailr LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Grailr LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "3.0",
         "platformAttributes": {
@@ -11502,13 +11502,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-01-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.grailr.CARROTfit",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11521,9 +11521,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -11596,9 +11597,9 @@
                         "textColor4": "2f0e10"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11608,8 +11609,7 @@
                     "textColor2": "fad0d5",
                     "textColor3": "f0d3d6",
                     "textColor4": "efaeb5"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -11629,8 +11629,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738878898326,
-                "MZ_INDEXER": 1739830815461
+                "MZ_INDEXER": 1739830815461,
+                "RTCI": 1738878898326
             }
         },
         "supportsArcade": false,
@@ -11675,8 +11675,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Stretch for Pain Relief Upper",
         "isPreorder": false,
-        "artistName": "StretchAwayMusclePain",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "StretchAwayMusclePain",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11713,8 +11713,8 @@
                 "releaseDate": "2011-05-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stretchawaypain.neckpain",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11730,6 +11730,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11762,7 +11763,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11785,8 +11785,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739441168155,
-                "MZ_INDEXER": 1739515461494
+                "MZ_INDEXER": 1739515461494,
+                "RTCI": 1739441168155
             }
         },
         "supportsArcade": false,
@@ -11825,11 +11825,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Mr Smooth Pro",
         "genreDisplayName": "健康與健身",
+        "name": "Mr Smooth Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Swim Smooth Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11861,13 +11861,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-02-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.swimsmooth.perfectcouple",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11882,7 +11882,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11915,7 +11915,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11937,8 +11937,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737299618235,
-                "MZ_INDEXER": 1739484816068
+                "MZ_INDEXER": 1739908353882,
+                "RTCI": 1737299618235
             }
         },
         "supportsArcade": false,
@@ -11980,11 +11980,11 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Tabata Stopwatch Pro (Paid)",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "artistName": "Anuj Seth",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Anuj Seth",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12016,13 +12016,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2013-05-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.parabolicriver.Tabata-Stopwatch-Pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12038,6 +12038,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12070,8 +12072,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12093,8 +12093,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738878898326,
-                "MZ_INDEXER": 1739829759295
+                "MZ_INDEXER": 1739829759295,
+                "RTCI": 1738878898326
             }
         },
         "supportsArcade": false,
@@ -12136,11 +12136,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Stretch For Pain Relief Lower",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "artistName": "StretchAwayMusclePain",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "StretchAwayMusclePain",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12172,8 +12172,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-06-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stretchawaypain.lowback-hip",
@@ -12195,6 +12195,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12227,7 +12228,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12249,8 +12249,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353209219,
-                "MZ_INDEXER": 1739500126711
+                "MZ_INDEXER": 1739500126711,
+                "RTCI": 1731353209219
             }
         },
         "supportsArcade": false,
@@ -12289,11 +12289,11 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Stark 健身球",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Virtual Trainer Sweden AB",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12325,13 +12325,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-05-31",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-Gym-Ball",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12347,7 +12347,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12380,7 +12380,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12402,8 +12402,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357589870,
-                "MZ_INDEXER": 1739548369973
+                "MZ_INDEXER": 1739548369973,
+                "RTCI": 1731357589870
             }
         },
         "supportsArcade": false,
@@ -12445,8 +12445,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Stark 杠铃",
         "isPreorder": false,
-        "artistName": "Virtual Trainer Sweden AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Virtual Trainer Sweden AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12478,13 +12478,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-03-01",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-BARBELL",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12500,6 +12500,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12532,8 +12534,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12555,8 +12555,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378691737,
-                "MZ_INDEXER": 1739495545130
+                "MZ_INDEXER": 1739495545130,
+                "RTCI": 1731378691737
             }
         },
         "supportsArcade": false,
@@ -12598,8 +12598,8 @@
         "name": "Stark Rip",
         "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Virtual Trainer Sweden AB",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12636,8 +12636,8 @@
                 "releaseDate": "2012-10-10",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-RIP",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12650,10 +12650,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12686,7 +12686,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12708,8 +12708,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952717711,
-                "MZ_INDEXER": 1739547224320
+                "MZ_INDEXER": 1739928875930,
+                "RTCI": 1738952717711
             }
         },
         "supportsArcade": false,
@@ -12750,8 +12750,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Velogram for Strava Cycling",
         "isPreorder": false,
-        "artistName": "AppVision Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "AppVision Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12806,6 +12806,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.3",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12838,7 +12839,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.3",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12860,8 +12860,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378254184,
-                "MZ_INDEXER": 1739535104388
+                "MZ_INDEXER": 1739535104388,
+                "RTCI": 1731378254184
             }
         },
         "supportsArcade": false,
@@ -12905,8 +12905,8 @@
         "genreDisplayName": "健康與健身",
         "name": "白噪音和深度睡眠聲音 - Pro",
         "isPreorder": false,
-        "artistName": "Kitefaster",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kitefaster",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12957,10 +12957,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12993,7 +12993,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "風聲、雨聲、白噪聲讓你放鬆入眠",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13016,8 +13016,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361883521,
-                "MZ_INDEXER": 1739499126105
+                "MZ_INDEXER": 1739499126105,
+                "RTCI": 1731361883521
             }
         },
         "supportsArcade": false,
@@ -13059,11 +13059,11 @@
             ],
             "ariaLabelForRatings": "4.0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Brainwave Studio",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "artistName": "RCS LT",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "RCS LT",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13118,6 +13118,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13150,7 +13151,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13172,8 +13172,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737404594896,
-                "MZ_INDEXER": 1739518486282
+                "MZ_INDEXER": 1739518486282,
+                "RTCI": 1737404594896
             }
         },
         "supportsArcade": false,
@@ -13212,8 +13212,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "The Work App",
         "genreDisplayName": "健康與健身",
+        "name": "The Work App",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Byron Katie International, Inc",
@@ -13253,8 +13253,8 @@
                 "releaseDate": "2011-11-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cellerium.client.thework",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13267,10 +13267,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13303,7 +13303,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13325,8 +13325,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731379181182,
-                "MZ_INDEXER": 1739548346629
+                "MZ_INDEXER": 1739929807209,
+                "RTCI": 1731379181182
             }
         },
         "supportsArcade": false,
@@ -13371,8 +13371,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Marine Martial Arts",
         "isPreorder": false,
-        "artistName": "Calculated Industries",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Calculated Industries",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13404,8 +13404,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-10-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.martialarts",
@@ -13422,10 +13422,10 @@
                     "textColor4": "e2982b"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13458,7 +13458,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13480,8 +13480,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353222312,
-                "MZ_INDEXER": 1739531404784
+                "MZ_INDEXER": 1739531404784,
+                "RTCI": 1731353222312
             }
         },
         "supportsArcade": false,
@@ -13564,8 +13564,6 @@
                 "releaseDate": "2016-11-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.macropinch.cardiograph2",
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -13576,6 +13574,8 @@
                     "textColor3": "f4cfd4",
                     "textColor4": "f2989f"
                 },
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13592,6 +13592,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13624,8 +13625,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13635,8 +13636,7 @@
                     "textColor2": "fec8cb",
                     "textColor3": "f4d0d5",
                     "textColor4": "f4a4ac"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -13656,8 +13656,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738963506785,
-                "MZ_INDEXER": 1739490527590
+                "MZ_INDEXER": 1739490527590,
+                "RTCI": 1738963506785
             }
         },
         "supportsArcade": false,
@@ -13699,8 +13699,8 @@
         "genreDisplayName": "健康與健身",
         "name": "Sleep application",
         "isPreorder": false,
-        "artistName": "koikoi.biz",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "koikoi.biz",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13737,8 +13737,8 @@
                 "releaseDate": "2011-10-25",
                 "hasInAppPurchases": false,
                 "bundleId": "biz.koikoi.sleepapp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13808,8 +13808,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357438573,
-                "MZ_INDEXER": 1739494324813
+                "MZ_INDEXER": 1739494324813,
+                "RTCI": 1731357438573
             }
         },
         "supportsArcade": false,
@@ -13851,8 +13851,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Hand-to-Hand Combat",
         "genreDisplayName": "健康與健身",
+        "name": "Hand-to-Hand Combat",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Calculated Industries",
@@ -13892,8 +13892,8 @@
                 "releaseDate": "2009-09-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.handtohand",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13906,10 +13906,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13942,7 +13942,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13964,8 +13964,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738884046616,
-                "MZ_INDEXER": 1739840461554
+                "MZ_INDEXER": 1739840461554,
+                "RTCI": 1738884046616
             }
         },
         "supportsArcade": false,
@@ -14043,8 +14043,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-08-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.saltycrackers.Breath",
@@ -14065,7 +14065,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14098,11 +14098,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "專注深呼吸 拋開紛擾與壓力"
                 },
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14112,8 +14113,7 @@
                     "textColor2": "d9d9d6",
                     "textColor3": "d0cfcc",
                     "textColor4": "b4b4b3"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -14133,8 +14133,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958981359,
-                "MZ_INDEXER": 1739549675330
+                "MZ_INDEXER": 1739928006263,
+                "RTCI": 1738958981359
             }
         },
         "supportsArcade": false,
@@ -14209,13 +14209,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-02-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tianyi.ColorDetectionBook",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14228,9 +14228,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14263,7 +14264,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "辨色矯正,色彩拾色器,幫您從容應對醫院檢查",
                 "hasSafariExtension": false,
@@ -14287,8 +14287,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952007432,
-                "MZ_INDEXER": 1739550399295
+                "MZ_INDEXER": 1739930852582,
+                "RTCI": 1738952007432
             }
         },
         "supportsArcade": false,
@@ -14331,8 +14331,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "子午靈龜",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "Cheng-Ta Hsieh",
         "isIOSBinaryMacOSCompatible": true,
@@ -14367,8 +14367,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-05-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.utoappia.ChronoAcupunctureiOS",
@@ -14389,6 +14389,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14421,8 +14423,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14444,8 +14444,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354991629,
-                "MZ_INDEXER": 1739528726404
+                "MZ_INDEXER": 1739528726404,
+                "RTCI": 1731354991629
             }
         },
         "supportsArcade": false,
@@ -14525,8 +14525,8 @@
                 "releaseDate": "2016-02-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.deucks.Find-My-Fitbit-FULL",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14596,8 +14596,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731747688609,
-                "MZ_INDEXER": 1739493789276
+                "MZ_INDEXER": 1739493789276,
+                "RTCI": 1731747688609
             }
         },
         "supportsArcade": false,
@@ -14636,11 +14636,11 @@
             ],
             "ariaLabelForRatings": "4.7 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Wildfulness: Meditate & Relax",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Wild Ventures",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14677,8 +14677,8 @@
                 "releaseDate": "2016-05-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.workbymark.wildfulness",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14694,6 +14694,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -14756,7 +14757,6 @@
                         "textColor4": "3e2d25"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14779,8 +14779,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365197261,
-                "MZ_INDEXER": 1739517305405
+                "MZ_INDEXER": 1739517305405,
+                "RTCI": 1731365197261
             }
         },
         "supportsArcade": false,
@@ -14866,8 +14866,8 @@
                 "releaseDate": "2015-12-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mosesyan.ilya.fitnesspointprofemale",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14882,6 +14882,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14924,9 +14925,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14936,8 +14937,7 @@
                     "textColor2": "070707",
                     "textColor3": "303030",
                     "textColor4": "353535"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -14957,8 +14957,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738953114997,
-                "MZ_INDEXER": 1739485248466
+                "MZ_INDEXER": 1739911139119,
+                "RTCI": 1738953114997
             }
         },
         "supportsArcade": false,
@@ -15055,7 +15055,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -15088,7 +15088,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "噪音計",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15111,8 +15111,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739143317549,
-                "MZ_INDEXER": 1739496124406
+                "MZ_INDEXER": 1739496124406,
+                "RTCI": 1739143317549
             }
         },
         "supportsArcade": false,
@@ -15154,8 +15154,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "genreDisplayName": "健康與健身",
         "name": "Foam Roller Techniques",
+        "genreDisplayName": "健康與健身",
         "isPreorder": false,
         "artistName": "Ryan Emmons Professional Corporation",
         "isIOSBinaryMacOSCompatible": true,
@@ -15212,7 +15212,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -15245,7 +15245,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

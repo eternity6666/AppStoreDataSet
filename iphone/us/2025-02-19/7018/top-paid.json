@@ -54,23 +54,23 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.7,
-            "ratingCount": 100849,
+            "ratingCount": 100852,
             "ratingCountList": [
                 3151,
                 1054,
                 3275,
                 11422,
-                81947
+                81950
             ],
             "ariaLabelForRatings": "4.7 stars"
         },
-        "firstVersionSupportingInAppPurchaseApi": "2.79.0",
         "watchBundleId": "com.etermax.preguntados.pro.watchkitapp",
+        "firstVersionSupportingInAppPurchaseApi": "2.79.0",
         "genreDisplayName": "Trivia",
         "name": "Trivia Crack Premium Quiz Game",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Etermax",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.0",
         "platformAttributes": {
@@ -109,6 +109,7 @@
                 "hasInAppPurchases": true,
                 "bundleId": "com.etermax.preguntados.pro",
                 "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -119,7 +120,6 @@
                     "textColor3": "664b74",
                     "textColor4": "3a5d7d"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -210,10 +210,10 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Play Fun Ad-Free Friends Games",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "Ancient Egyptians loved cats, Metallica hasn’t played the Super Bowl, and the Ganges is India’s largest river—all our useless knowledge is now coming in handy thanks to Trivia Crack. This bite-sized trivia game is totally irresistible, whether we’re dominating our Facebook friends in classic mode, trouncing strangers in the 12-question challenge mode, or just sneaking in a game on our Apple Watch. With its cute characters, heaps of unlockable achievements, and a massive variety of questions, we simply can’t get enough."
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -225,6 +225,160 @@
                     "textColor3": "654b74",
                     "textColor4": "3a5d7d"
                 }
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "6499569262",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1721270573",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738965435008,
+                "MZ_INDEXER": 1739523521392
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 2,
+                "genreName": "Trivia",
+                "genre": 7018,
+                "chart": "top-paid",
+                "genreShortName": "Trivia"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.4,
+            "ratingCount": 91,
+            "ratingCountList": [
+                10,
+                0,
+                3,
+                10,
+                68
+            ],
+            "ariaLabelForRatings": "4.4 stars"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "1.0",
+        "genreDisplayName": "Trivia",
+        "name": "Tarbaa - ترَبَّع",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Abdulaziz Alenezi",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=19990&salableAdamId=6499569262&pricingParameters=STDQ&pg=default&appExtVrsId=872065774",
+                        "type": "buy",
+                        "priceFormatted": "$19.99",
+                        "price": 19.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 24474624
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6499569262&pricingParameters=SWUPD&pg=default&appExtVrsId=872065774",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 24474624
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
+                "releaseDate": "2024-05-01",
+                "hasInAppPurchases": false,
+                "bundleId": "com.azmenezi.tarbaa",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/98/64/9e986484-4bea-fdb2-1741-2921f6c82720/AppIcon-0-0-1x_U007epad-0-1-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "354268",
+                    "textColor1": "e7e0d2",
+                    "textColor2": "d6dad9",
+                    "textColor3": "c3c0bd",
+                    "textColor4": "b6bcc2"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1154,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a5/78/64/a5786418-8a14-fd29-f54e-a50cf76cbed4/2bfb160c-67ca-4af1-a249-cb5fccdfda82.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1154,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/42/68/44/42684481-2a6e-f5b3-c444-3a4129c56fcf/c12e366c-2bc3-4079-94d6-cfbf475cf934.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f6b500",
+                        "textColor1": "0c0900",
+                        "textColor2": "181200",
+                        "textColor3": "3b2b00",
+                        "textColor4": "443200"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/84/20/97842090-f1c2-1ec9-6246-1dcd35c65c19/b11322a7-2c31-458c-b160-c2b37f03ad05.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "hasSafariExtension": false,
+                "requiresGameController": false
             }
         }
     },
@@ -270,7 +424,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -280,13 +434,13 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.7,
-            "ratingCount": 5566,
+            "ratingCount": 5567,
             "ratingCountList": [
                 209,
                 66,
                 118,
                 338,
-                4835
+                4836
             ],
             "ariaLabelForRatings": "4.7 stars"
         },
@@ -348,7 +502,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -382,161 +535,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "subtitle": "Charades Game of Catch Phrases",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6499569262",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1721270573",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738965435008,
-                "MZ_INDEXER": 1739523521392
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 3,
-                "genreName": "Trivia",
-                "genre": 7018,
-                "chart": "top-paid",
-                "genreShortName": "Trivia"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.4,
-            "ratingCount": 91,
-            "ratingCountList": [
-                10,
-                0,
-                3,
-                10,
-                68
-            ],
-            "ariaLabelForRatings": "4.4 stars"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "1.0",
-        "name": "Tarbaa - ترَبَّع",
-        "genreDisplayName": "Trivia",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Abdulaziz Alenezi",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=19990&salableAdamId=6499569262&pricingParameters=STDQ&pg=default&appExtVrsId=872065774",
-                        "type": "buy",
-                        "priceFormatted": "$19.99",
-                        "price": 19.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 24474624
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6499569262&pricingParameters=SWUPD&pg=default&appExtVrsId=872065774",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 24474624
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "12.0",
-                "requires32bit": false,
-                "releaseDate": "2024-05-01",
-                "hasInAppPurchases": false,
-                "bundleId": "com.azmenezi.tarbaa",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/98/64/9e986484-4bea-fdb2-1741-2921f6c82720/AppIcon-0-0-1x_U007epad-0-1-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "354268",
-                    "textColor1": "e7e0d2",
-                    "textColor2": "d6dad9",
-                    "textColor3": "c3c0bd",
-                    "textColor4": "b6bcc2"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1154,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a5/78/64/a5786418-8a14-fd29-f54e-a50cf76cbed4/2bfb160c-67ca-4af1-a249-cb5fccdfda82.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1154,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/42/68/44/42684481-2a6e-f5b3-c444-3a4129c56fcf/c12e366c-2bc3-4079-94d6-cfbf475cf934.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f6b500",
-                        "textColor1": "0c0900",
-                        "textColor2": "181200",
-                        "textColor3": "3b2b00",
-                        "textColor4": "443200"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/84/20/97842090-f1c2-1ec9-6246-1dcd35c65c19/b11322a7-2c31-458c-b160-c2b37f03ad05.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
                 "minimumXROSVersion": "1.0",
+                "subtitle": "Charades Game of Catch Phrases",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -559,7 +559,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739856283306,
-                "MZ_INDEXER": 1739883429281
+                "MZ_INDEXER": 1739921020292
             }
         },
         "supportsArcade": false,
@@ -587,22 +587,23 @@
         },
         "supportsStreamlinedBuy": true,
         "userRating": {
-            "value": 1,
-            "ratingCount": 1,
+            "wasReset": true,
+            "value": 0,
+            "ratingCount": 0,
             "ratingCountList": [
-                1,
+                0,
                 0,
                 0,
                 0,
                 0
             ],
-            "ariaLabelForRatings": "1.0 stars"
+            "ariaLabelForRatings": "0 stars"
         },
-        "name": "Mandarin Challenge",
         "genreDisplayName": "Word",
+        "name": "Mandarin Challenge",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "洋 李",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -656,6 +657,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -689,7 +691,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Speak & Learn Mandarin Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -752,11 +753,11 @@
             ],
             "ariaLabelForRatings": "4.8 stars"
         },
-        "name": "Who Wants to Be a Millionaire?",
         "genreDisplayName": "Trivia",
+        "name": "Who Wants to Be a Millionaire?",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sony Pictures Television UK Rights Limited",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -810,6 +811,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -843,7 +845,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Play the Official TV Game Show",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -906,8 +907,8 @@
             ],
             "ariaLabelForRatings": "4.6 stars"
         },
-        "name": "GeoGuesser 2",
         "genreDisplayName": "Trivia",
+        "name": "GeoGuesser 2",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Shogo Studios LLC",
@@ -947,8 +948,8 @@
                 "releaseDate": "2020-07-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.NewGeoGameRNI",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -964,6 +965,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -997,8 +999,152 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Unlimited games on all maps!",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "318914584",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "318792218",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1734531239664,
+                "MZ_INDEXER": 1739903787000
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 7,
+                "genreName": "Trivia",
+                "genre": 7018,
+                "chart": "top-paid",
+                "genreShortName": "Trivia"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 3.5,
+            "ratingCount": 2,
+            "ratingCountList": [
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "ariaLabelForRatings": "3.5 stars"
+        },
+        "genreDisplayName": "Trivia",
+        "name": "Name This Country",
+        "isPreorder": false,
+        "artistName": "Alexander Mokrushin",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=990&salableAdamId=318914584&pricingParameters=STDQ&pg=default&appExtVrsId=837103669",
+                        "type": "buy",
+                        "priceFormatted": "$0.99",
+                        "price": 0.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 31289344
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=318914584&pricingParameters=SWUPD&pg=default&appExtVrsId=837103669",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 31289344
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2009-07-12",
+                "hasInAppPurchases": false,
+                "bundleId": "alex.mokrushin.namethiscountry",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/ab/a6/50/aba65043-c66c-aaf1-c7aa-2ce12ff7f4aa/pr_source.jpg/{w}x{h}{c}.{f}"
+                },
+                "isAppleWatchSupported": false,
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1154,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a5/78/64/a5786418-8a14-fd29-f54e-a50cf76cbed4/2bfb160c-67ca-4af1-a249-cb5fccdfda82.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1154,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/42/68/44/42684481-2a6e-f5b3-c444-3a4129c56fcf/c12e366c-2bc3-4079-94d6-cfbf475cf934.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f6b500",
+                        "textColor1": "0c0900",
+                        "textColor2": "181200",
+                        "textColor3": "3b2b00",
+                        "textColor4": "443200"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/84/20/97842090-f1c2-1ec9-6246-1dcd35c65c19/b11322a7-2c31-458c-b160-c2b37f03ad05.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1040,7 +1186,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -1060,11 +1206,11 @@
             ],
             "ariaLabelForRatings": "4.6 stars"
         },
-        "name": "Subwords: Word Game & Trivia",
         "genreDisplayName": "Word",
+        "name": "Subwords: Word Game & Trivia",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Klemens Strasser",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1101,8 +1247,8 @@
                 "releaseDate": "2018-09-02",
                 "hasInAppPurchases": false,
                 "bundleId": "at.klemensstrasser.Subwords",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1162,10 +1308,10 @@
                     }
                 },
                 "subtitle": "Fun Puzzles & Brain Training",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Find the words in the bubbles"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1214,7 +1360,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -1237,8 +1383,8 @@
         "genreDisplayName": "Adventure",
         "name": "Lamplight City mobile",
         "isPreorder": false,
-        "artistName": "Application Systems Heidelberg Software GmbH",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Application Systems Heidelberg Software GmbH",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1275,8 +1421,8 @@
                 "releaseDate": "2020-10-28",
                 "hasInAppPurchases": false,
                 "bundleId": "de.application-systems.lamplightCityiOS",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1291,7 +1437,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1325,6 +1470,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1366,7 +1512,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 10,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -1386,11 +1532,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "name": "ClimoGuesser",
         "genreDisplayName": "Trivia",
+        "name": "ClimoGuesser",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Fergus Keatinge",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1444,7 +1590,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1478,6 +1623,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1519,7 +1665,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 11,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -1542,8 +1688,8 @@
         "genreDisplayName": "Word",
         "name": "Another Year of Riddles",
         "isPreorder": false,
-        "artistName": "Pyrosphere, Lda",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Pyrosphere, Lda",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1638,6 +1784,159 @@
     },
     {
         "kind": "app",
+        "id": "516023543",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "416798604",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1731354975384,
+                "MZ_INDEXER": 1739518066321
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 12,
+                "genreName": "Trivia",
+                "genre": 7018,
+                "chart": "top-paid",
+                "genreShortName": "Trivia"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.5,
+            "ratingCount": 24,
+            "ratingCountList": [
+                2,
+                0,
+                0,
+                5,
+                17
+            ],
+            "ariaLabelForRatings": "4.5 stars"
+        },
+        "genreDisplayName": "Trivia",
+        "name": "Einstein™ Brain Training",
+        "isPreorder": false,
+        "artistName": "BBG Entertainment GmbH",
+        "isIOSBinaryMacOSCompatible": false,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=2990&salableAdamId=516023543&pricingParameters=STDQ&pg=default&appExtVrsId=833128633",
+                        "type": "buy",
+                        "priceFormatted": "$2.99",
+                        "price": 2.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1103662080
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=516023543&pricingParameters=SWUPD&pg=default&appExtVrsId=833128633",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1103662080
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2012-07-04",
+                "hasInAppPurchases": false,
+                "bundleId": "de.bbg.EinsteinIPhone",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/b4/84/74/b4847495-d05a-c44b-80a4-b24ccba9e986/AppIcon-0-0-1x_U007emarketing-0-0-0-9-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "04496a",
+                    "textColor1": "ffffff",
+                    "textColor2": "d5d5da",
+                    "textColor3": "ccdae1",
+                    "textColor4": "abb9c3"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1154,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a5/78/64/a5786418-8a14-fd29-f54e-a50cf76cbed4/2bfb160c-67ca-4af1-a249-cb5fccdfda82.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1154,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/42/68/44/42684481-2a6e-f5b3-c444-3a4129c56fcf/c12e366c-2bc3-4079-94d6-cfbf475cf934.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f6b500",
+                        "textColor1": "0c0900",
+                        "textColor2": "181200",
+                        "textColor3": "3b2b00",
+                        "textColor4": "443200"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/84/20/97842090-f1c2-1ec9-6246-1dcd35c65c19/b11322a7-2c31-458c-b160-c2b37f03ad05.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "30 Memory, Math & Logic Games",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "6739164495",
         "type": "apps",
         "relationships": {
@@ -1672,7 +1971,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 13,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -1695,8 +1994,8 @@
         "genreDisplayName": "Board",
         "name": "Next Station - Paris",
         "isPreorder": false,
-        "artistName": "BrettspielWelt",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "BrettspielWelt",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1733,8 +2032,8 @@
                 "releaseDate": "2025-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "de.brettspielwelt.nextparis",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1791,13 +2090,13 @@
     },
     {
         "kind": "app",
-        "id": "318914584",
+        "id": "983207200",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "318792218",
+                        "id": "983207199",
                         "type": "developers"
                     }
                 ]
@@ -1805,8 +2104,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1734531239664,
-                "MZ_INDEXER": 1739903787000
+                "RTCI": 1731367721784,
+                "MZ_INDEXER": 1739908791414
             }
         },
         "supportsArcade": false,
@@ -1819,12 +2118,15 @@
             }
         },
         "deviceFamilies": [
+            "tvos",
+            "watch",
             "iphone",
+            "ipad",
             "ipod"
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 14,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -1834,40 +2136,42 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 3.5,
-            "ratingCount": 2,
+            "ratingCount": 45,
             "ratingCountList": [
-                0,
-                0,
+                14,
                 1,
-                1,
-                0
+                3,
+                2,
+                25
             ],
             "ariaLabelForRatings": "3.5 stars"
         },
-        "name": "Name This Country",
+        "watchBundleId": "de.cupofsoftware.Nuggetz.watchkitapp",
         "genreDisplayName": "Trivia",
+        "name": "Nuggetz – Test Your Reflexes!",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Alexander Mokrushin",
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Tim Brueckner",
         "reviewsRestricted": false,
+        "minimumWatchOSVersion": "6.2",
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=990&salableAdamId=318914584&pricingParameters=STDQ&pg=default&appExtVrsId=837103669",
+                        "buyParams": "productType=C&price=290&salableAdamId=983207200&pricingParameters=STDQ&pg=default&appExtVrsId=868959444",
                         "type": "buy",
-                        "priceFormatted": "$0.99",
-                        "price": 0.99,
+                        "priceFormatted": "$0.29",
+                        "price": 0.29,
                         "currencyCode": "USD",
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 31289344
+                                "size": 17506304
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=318914584&pricingParameters=SWUPD&pg=default&appExtVrsId=837103669",
+                        "buyParams": "productType=C&price=0&salableAdamId=983207200&pricingParameters=SWUPD&pg=default&appExtVrsId=868959444",
                         "type": "update",
                         "priceFormatted": "$0.00",
                         "price": 0,
@@ -1875,27 +2179,34 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 31289344
+                                "size": 17506304
                             }
                         ]
                     }
                 ],
                 "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
-                "releaseDate": "2009-07-12",
-                "hasInAppPurchases": false,
-                "bundleId": "alex.mokrushin.namethiscountry",
+                "releaseDate": "2015-06-17",
+                "hasInAppPurchases": true,
+                "bundleId": "de.cupofsoftware.Nuggetz",
+                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple3/v4/ab/a6/50/aba65043-c66c-aaf1-c7aa-2ce12ff7f4aa/pr_source.jpg/{w}x{h}{c}.{f}"
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/18/b6/f618b6c4-b904-0c34-8352-c060c3fcc40d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "484b6b",
+                    "textColor1": "f9ecaa",
+                    "textColor2": "beee93",
+                    "textColor3": "d5cc9e",
+                    "textColor4": "a6cd8b"
                 },
-                "isAppleWatchSupported": false,
+                "isAppleWatchSupported": true,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1929,7 +2240,18 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "subtitle": "A game for the Apple Watch!",
                 "hasSafariExtension": false,
+                "circularArtwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/fb/d2/7bfbd2ab-c23d-4295-ae38-b173d059dad4/AppIcon-0-0-1x_U007emarketing-0-9-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "484b6b",
+                    "textColor1": "f9edaa",
+                    "textColor2": "bee7a0",
+                    "textColor3": "d6cc9d",
+                    "textColor4": "a6c896"
+                },
                 "requiresGameController": false
             }
         }
@@ -1951,7 +2273,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731377143528,
-                "MZ_INDEXER": 1739484892364
+                "MZ_INDEXER": 1739905074216
             }
         },
         "supportsArcade": false,
@@ -1970,7 +2292,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 15,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -1993,8 +2315,8 @@
         "genreDisplayName": "Trivia",
         "name": "Mexican States - Quiz about Mexico",
         "isPreorder": false,
-        "artistName": "Andrey Solovyev",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Andrey Solovyev",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2122,7 +2444,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 16,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -2179,13 +2501,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2022-04-04",
                 "hasInAppPurchases": false,
                 "bundleId": "net.appstoredev.nostalgie70strivia",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2275,7 +2597,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 17,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -2295,11 +2617,11 @@
             ],
             "ariaLabelForRatings": "4.7 stars"
         },
-        "name": "Bible Bowl Practice",
         "genreDisplayName": "Trivia",
+        "name": "Bible Bowl Practice",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Kevin Sisco",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2428,7 +2750,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 18,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -2451,8 +2773,8 @@
         "genreDisplayName": "Trivia",
         "name": "Spell&Speak",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mattia Confalonieri",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2484,8 +2806,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-07-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.alternativeindustries.SpellSpeak",
@@ -2579,7 +2901,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 19,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -2599,8 +2921,8 @@
             ],
             "ariaLabelForRatings": "3.5 stars"
         },
-        "name": "Trivia Mexicano! : Charades",
         "genreDisplayName": "Trivia",
+        "name": "Trivia Mexicano! : Charades",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Christian Navarrete",
@@ -2657,6 +2979,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2690,7 +3013,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "party game, latino, fun, juego",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2733,7 +3055,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 20,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -2794,8 +3116,8 @@
                 "releaseDate": "2011-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.distinctdev.tmt2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2885,7 +3207,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 19,
+                "position": 21,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -2908,8 +3230,8 @@
         "genreDisplayName": "Card",
         "name": "Dat's Law!",
         "isPreorder": false,
-        "artistName": "Tameika Thompson",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Tameika Thompson",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2946,8 +3268,8 @@
                 "releaseDate": "2024-08-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.meek.Dats-Law",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2963,7 +3285,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.2",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2997,6 +3318,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.2",
                 "subtitle": "Dat's Law ! Law Card Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3039,7 +3361,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 20,
+                "position": 22,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -3095,13 +3417,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-09-26",
                 "hasInAppPurchases": false,
                 "bundleId": "de.brettspielwelt.coffee",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3116,7 +3438,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3150,6 +3471,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Creating the perfect coffee",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3192,7 +3514,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 21,
+                "position": 23,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -3216,8 +3538,8 @@
         "genreDisplayName": "Trivia",
         "name": "Brain Test Premium",
         "isPreorder": false,
-        "artistName": "UNICO STUDIO",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "UNICO STUDIO",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3249,13 +3571,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2024-03-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.unicostudio.braintestpremium",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3271,7 +3593,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3305,6 +3626,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Can you solve them all?",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3346,7 +3668,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 22,
+                "position": 24,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -3402,13 +3724,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2020-05-30",
                 "hasInAppPurchases": false,
                 "bundleId": "spencert.gospeltrivia",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3423,7 +3745,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3457,6 +3778,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Quiz Fun Friends Gospel Trivia",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3499,7 +3821,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 23,
+                "position": 25,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -3520,11 +3842,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.0",
-        "name": "1980s Nostalgia Trivia",
         "genreDisplayName": "Trivia",
+        "name": "1980s Nostalgia Trivia",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Gulsen CAKIR",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3561,8 +3883,8 @@
                 "releaseDate": "2019-11-21",
                 "hasInAppPurchases": false,
                 "bundleId": "net.appstoredev.nostalgie80s",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3577,6 +3899,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3610,7 +3933,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3652,7 +3974,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 26,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -3731,7 +4053,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3765,160 +4086,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Doppelt so clever",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "516023543",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "416798604",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731354975384,
-                "MZ_INDEXER": 1739518066321
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 25,
-                "genreName": "Trivia",
-                "genre": 7018,
-                "chart": "top-paid",
-                "genreShortName": "Trivia"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.5,
-            "ratingCount": 24,
-            "ratingCountList": [
-                2,
-                0,
-                0,
-                5,
-                17
-            ],
-            "ariaLabelForRatings": "4.5 stars"
-        },
-        "name": "Einstein™ Brain Training",
-        "genreDisplayName": "Trivia",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "BBG Entertainment GmbH",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=2990&salableAdamId=516023543&pricingParameters=STDQ&pg=default&appExtVrsId=833128633",
-                        "type": "buy",
-                        "priceFormatted": "$2.99",
-                        "price": 2.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1103662080
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=516023543&pricingParameters=SWUPD&pg=default&appExtVrsId=833128633",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1103662080
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2012-07-04",
-                "hasInAppPurchases": false,
-                "bundleId": "de.bbg.EinsteinIPhone",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/b4/84/74/b4847495-d05a-c44b-80a4-b24ccba9e986/AppIcon-0-0-1x_U007emarketing-0-0-0-9-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "04496a",
-                    "textColor1": "ffffff",
-                    "textColor2": "d5d5da",
-                    "textColor3": "ccdae1",
-                    "textColor4": "abb9c3"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1154,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a5/78/64/a5786418-8a14-fd29-f54e-a50cf76cbed4/2bfb160c-67ca-4af1-a249-cb5fccdfda82.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1154,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/42/68/44/42684481-2a6e-f5b3-c444-3a4129c56fcf/c12e366c-2bc3-4079-94d6-cfbf475cf934.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f6b500",
-                        "textColor1": "0c0900",
-                        "textColor2": "181200",
-                        "textColor3": "3b2b00",
-                        "textColor4": "443200"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/84/20/97842090-f1c2-1ec9-6246-1dcd35c65c19/b11322a7-2c31-458c-b160-c2b37f03ad05.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "subtitle": "30 Memory, Math & Logic Games",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3941,7 +4110,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1733330866754,
-                "MZ_INDEXER": 1739551042143
+                "MZ_INDEXER": 1739929417314
             }
         },
         "supportsArcade": false,
@@ -3960,7 +4129,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 27,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -3981,11 +4150,11 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.4.0",
-        "name": "The Questions Game",
         "genreDisplayName": "Family",
+        "name": "The Questions Game",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Thirteen32 Pty Ltd",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4113,7 +4282,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 27,
+                "position": 28,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -4174,8 +4343,8 @@
                 "releaseDate": "2012-02-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rocketsplash.greekgodtrivia",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4191,7 +4360,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4225,6 +4393,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Quiz for Greek God & Mythology",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4247,7 +4416,7 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1736758127114,
+                "RTCI": 1739920082067,
                 "MZ_INDEXER": 1739527892015
             }
         },
@@ -4267,7 +4436,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 29,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -4287,8 +4456,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Question Please?",
         "genreDisplayName": "Trivia",
+        "name": "Question Please?",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Abdulrahman Alshimemeri",
@@ -4420,7 +4589,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 30,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -4444,8 +4613,8 @@
         "genreDisplayName": "Board",
         "name": "Blätterrauschen",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "BrettspielWelt",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4482,8 +4651,8 @@
                 "releaseDate": "2021-11-25",
                 "hasInAppPurchases": false,
                 "bundleId": "de.brettspielwelt.blaetterrauschen",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4555,7 +4724,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731367176596,
-                "MZ_INDEXER": 1739548166693
+                "MZ_INDEXER": 1739930197872
             }
         },
         "supportsArcade": false,
@@ -4574,7 +4743,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 31,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -4653,7 +4822,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4687,6 +4855,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Official TV Quiz Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4729,7 +4898,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 31,
+                "position": 32,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -4790,8 +4959,8 @@
                 "releaseDate": "2023-12-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.JINAJU.MentalCalculationAbacusPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4807,7 +4976,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4841,6 +5009,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Do Mental Calculation & Abacus",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4886,7 +5055,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 33,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -4965,7 +5134,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4999,6 +5167,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "1,700+ Clues, No Ads!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5021,8 +5190,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952498789,
-                "MZ_INDEXER": 1739897478810
+                "RTCI": 1739923179970,
+                "MZ_INDEXER": 1739922645984
             }
         },
         "supportsArcade": false,
@@ -5033,8 +5202,8 @@
                 "value": 200,
                 "rank": 2,
                 "advisories": [
-                    "Infrequent/Mild Mature/Suggestive Themes",
-                    "Infrequent/Mild Profanity or Crude Humor"
+                    "Infrequent/Mild Profanity or Crude Humor",
+                    "Infrequent/Mild Mature/Suggestive Themes"
                 ]
             }
         },
@@ -5045,7 +5214,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 33,
+                "position": 34,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -5075,7 +5244,7 @@
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=2990&salableAdamId=1481295291&pricingParameters=STDQ&pg=default&appExtVrsId=870475871",
+                        "buyParams": "productType=C&price=2990&salableAdamId=1481295291&pricingParameters=STDQ&pg=default&appExtVrsId=872601336",
                         "type": "buy",
                         "priceFormatted": "$2.99",
                         "price": 2.99,
@@ -5083,12 +5252,12 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 73985024
+                                "size": 73395200
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=1481295291&pricingParameters=SWUPD&pg=default&appExtVrsId=870475871",
+                        "buyParams": "productType=C&price=0&salableAdamId=1481295291&pricingParameters=SWUPD&pg=default&appExtVrsId=872601336",
                         "type": "update",
                         "priceFormatted": "$0.00",
                         "price": 0,
@@ -5096,22 +5265,22 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 73985024
+                                "size": 73395200
                             }
                         ]
                     }
                 ],
+                "minimumMacOSVersion": "12.5",
                 "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-09-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jacksonw765.phrasecatch2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/89/4a/69894ac0-b77e-17de-3317-81bc569b2760/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/2d/26/e82d26b7-aca6-a144-1aff-80758d3586e5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "f8c427",
                     "textColor1": "100303",
                     "textColor2": "0e0404",
@@ -5197,7 +5366,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 34,
+                "position": 35,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -5220,8 +5389,8 @@
         "genreDisplayName": "Trivia",
         "name": "Dunder Inc.",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Nigelware",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5258,8 +5427,8 @@
                 "releaseDate": "2019-03-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nigelware.dunderinc",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5275,7 +5444,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5309,6 +5477,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "The Office Trivia",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5332,7 +5501,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1734992973317,
-                "MZ_INDEXER": 1739487544824
+                "MZ_INDEXER": 1739921649509
             }
         },
         "supportsArcade": false,
@@ -5351,7 +5520,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 35,
+                "position": 36,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -5429,7 +5598,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5463,6 +5631,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5504,7 +5673,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 36,
+                "position": 37,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -5561,13 +5730,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2022-10-04",
                 "hasInAppPurchases": true,
                 "bundleId": "de.brettspielwelt.cleverforever",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5583,7 +5752,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5617,6 +5785,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5658,7 +5827,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 37,
+                "position": 38,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -5719,8 +5888,8 @@
                 "releaseDate": "2020-03-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.AnthonyHarvey.QuickThink",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5822,7 +5991,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 38,
+                "position": 39,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -5878,8 +6047,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2020-03-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mixtvision.interrogation",
@@ -5978,7 +6147,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 39,
+                "position": 40,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -6001,8 +6170,8 @@
         "genreDisplayName": "Trivia",
         "name": "Kids & Family Movie Trivia",
         "isPreorder": false,
-        "artistName": "Anson Bond",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Anson Bond",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6130,7 +6299,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 40,
+                "position": 41,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -6153,8 +6322,8 @@
         "genreDisplayName": "Games",
         "name": "Bird World - Quiz about Famous Birds of the Earth",
         "isPreorder": false,
-        "artistName": "Andrey Solovyev",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Andrey Solovyev",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6262,7 +6431,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 41,
+                "position": 42,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -6283,8 +6452,8 @@
             "ariaLabelForRatings": "4.8 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "4.0",
-        "name": "Trivia: Knowledge Trainer Pro",
         "genreDisplayName": "Games",
+        "name": "Trivia: Knowledge Trainer Pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "the binary family",
@@ -6341,6 +6510,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "brandLogo": {
@@ -6354,7 +6524,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "The quiz app for smart people",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6397,7 +6566,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 42,
+                "position": 43,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -6417,11 +6586,11 @@
             ],
             "ariaLabelForRatings": "4.4 stars"
         },
-        "name": "Shape Puzzle - Toddler games",
         "genreDisplayName": "Puzzle",
+        "name": "Shape Puzzle - Toddler games",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Jia Ningrui",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6458,8 +6627,8 @@
                 "releaseDate": "2011-09-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jpt.shapepuzzle",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6530,7 +6699,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738775322947,
-                "MZ_INDEXER": 1739548846115
+                "MZ_INDEXER": 1739921212028
             }
         },
         "supportsArcade": false,
@@ -6549,7 +6718,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 43,
+                "position": 44,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -6571,11 +6740,11 @@
             "ariaLabelForRatings": "1.0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.21.2",
-        "name": "Trivia Crack World",
         "genreDisplayName": "Trivia",
+        "name": "Trivia Crack World",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Etermax",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6612,8 +6781,8 @@
                 "releaseDate": "2024-05-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.etermax.triviacrackvr",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6629,6 +6798,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6662,7 +6832,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Explore & enjoy 3D Mini Games",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6686,7 +6855,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738963519038,
-                "MZ_INDEXER": 1739484678089
+                "MZ_INDEXER": 1739908187078
             }
         },
         "supportsArcade": false,
@@ -6707,7 +6876,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 44,
+                "position": 45,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -6730,8 +6899,8 @@
         "genreDisplayName": "Trivia",
         "name": "Bond Trivia",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Inifinite Options, LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6768,8 +6937,8 @@
                 "releaseDate": "2021-10-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.infiniteoptions.bond",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6785,7 +6954,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6819,6 +6987,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Test Your Bond Knowledge",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6861,7 +7030,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 45,
+                "position": 46,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -6885,8 +7054,8 @@
         "genreDisplayName": "Trivia",
         "name": "Maps of our World (Edu)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Theodor Mueller",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6918,8 +7087,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2014-04-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.trilliarden.welt-full",
@@ -7015,7 +7184,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 46,
+                "position": 47,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -7071,13 +7240,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-10-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.AsteroidBlues.Trivia-HipHop",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7093,7 +7262,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7127,6 +7295,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7149,7 +7318,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738956883988,
-                "MZ_INDEXER": 1739538689649
+                "MZ_INDEXER": 1739921771234
             }
         },
         "supportsArcade": false,
@@ -7168,7 +7337,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 47,
+                "position": 48,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -7229,8 +7398,8 @@
                 "releaseDate": "2021-05-23",
                 "hasInAppPurchases": false,
                 "bundleId": "net.multiplechoice.multiplechoice",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7246,7 +7415,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7280,6 +7448,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Trivia Questions",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7322,7 +7491,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 48,
+                "position": 49,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -7342,11 +7511,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Tube Figures",
         "genreDisplayName": "Trivia",
+        "name": "Tube Figures",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Marvin Heimke",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7400,7 +7569,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7434,6 +7602,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Train MCAT, UCAT & Laparoscopy",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7475,7 +7644,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 49,
+                "position": 50,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -7552,7 +7721,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7586,6 +7754,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Brain Training Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7628,7 +7797,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 50,
+                "position": 51,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -7648,11 +7817,11 @@
             ],
             "ariaLabelForRatings": "2.6 stars"
         },
-        "name": "Office Trivia Quiz",
         "genreDisplayName": "Trivia",
+        "name": "Office Trivia Quiz",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "jakechasan.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7706,6 +7875,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7739,7 +7909,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7781,7 +7950,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 51,
+                "position": 52,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -7837,13 +8006,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-03-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jpt.animalcircus",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7914,7 +8083,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731365769674,
-                "MZ_INDEXER": 1739483319292
+                "MZ_INDEXER": 1739904922873
             }
         },
         "supportsArcade": false,
@@ -7933,7 +8102,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 52,
+                "position": 53,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -7956,8 +8125,8 @@
         "genreDisplayName": "Word",
         "name": "Amazing Match for kids",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jia Ningrui",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8086,7 +8255,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 53,
+                "position": 54,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -8144,8 +8313,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-04-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rdamato.brainess",
@@ -8251,7 +8420,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 54,
+                "position": 55,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -8274,8 +8443,8 @@
         "genreDisplayName": "Trivia",
         "name": "GeoGuesser - Explore the World",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Shogo Studios LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8312,8 +8481,8 @@
                 "releaseDate": "2013-07-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.smnl.GeoGame",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8329,6 +8498,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8362,7 +8532,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8405,7 +8574,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 55,
+                "position": 56,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -8429,8 +8598,8 @@
         "genreDisplayName": "Trivia",
         "name": "Elementary Minute",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Klemens Strasser",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -8485,6 +8654,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8529,7 +8699,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Fast Paced Trivia Game",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -8586,7 +8755,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 56,
+                "position": 57,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -8609,8 +8778,8 @@
         "genreDisplayName": "Word",
         "name": "Concentration (universal)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "SIBA STYLE STUDIOS INC.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8642,13 +8811,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-03-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.sibastyle.memoryIphone",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8738,7 +8907,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 57,
+                "position": 58,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -8761,8 +8930,8 @@
         "genreDisplayName": "Trivia",
         "name": "مليونير العرب",
         "isPreorder": false,
-        "artistName": "NADsoft",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "NADsoft",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8891,7 +9060,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 58,
+                "position": 59,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -8914,8 +9083,8 @@
         "genreDisplayName": "Puzzle",
         "name": "Cessabit: a Stress Relief Game",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Tepes Ovidiu",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8952,8 +9121,8 @@
                 "releaseDate": "2019-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.crevasse.cessabit",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9058,7 +9227,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 59,
+                "position": 60,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -9078,11 +9247,11 @@
             ],
             "ariaLabelForRatings": "3.7 stars"
         },
-        "name": "First & Sight Words Games",
         "genreDisplayName": "Word",
+        "name": "First & Sight Words Games",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "JP Game LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9210,7 +9379,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 60,
+                "position": 61,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -9231,11 +9400,11 @@
             "ariaLabelForRatings": "4.5 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.2",
-        "name": "Word²",
         "genreDisplayName": "Word",
+        "name": "Word²",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "BorderLeap",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9288,7 +9457,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9332,6 +9500,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Decipher pairs of words",
                 "editorialNotes": {
                     "standard": "This ingenious take on crossword puzzles challenges you to rearrange a square of letters to create words.  As the game progresses, the grids get bigger, and the difficulty grows with every new solution. With endless possibilities and limited clues to help, it’s a devilishly clever test of logic and vocabulary that you’ll love."
@@ -9383,7 +9552,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 61,
+                "position": 62,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -9406,8 +9575,8 @@
         "genreDisplayName": "Word",
         "name": "Word Fill - Fill in puzzles",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Algoritmico Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9444,8 +9613,8 @@
                 "releaseDate": "2011-07-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.algoritmico.ios.Word-Fill",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9461,7 +9630,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9495,6 +9663,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Infinite fill in puzzles",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9537,7 +9706,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 62,
+                "position": 63,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -9560,8 +9729,8 @@
         "genreDisplayName": "Puzzle",
         "name": "ABC Circus - Learn Alphabets",
         "isPreorder": false,
-        "artistName": "JP Game LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "JP Game LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9593,13 +9762,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-04-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jpt.ABCCircus.en-universal-paid",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9689,7 +9858,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 63,
+                "position": 64,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -9712,8 +9881,8 @@
         "genreDisplayName": "Family",
         "name": "Country Quiz",
         "isPreorder": false,
-        "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Piet Jonas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9842,7 +10011,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 64,
+                "position": 65,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -9903,8 +10072,8 @@
                 "releaseDate": "2008-10-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.StateQuiz",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9920,7 +10089,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9954,6 +10122,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10017,8 +10186,8 @@
         "genreDisplayName": "Music",
         "name": "Who Sang the Song?",
         "isPreorder": false,
-        "artistName": "Apptown Studio AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Apptown Studio AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10147,7 +10316,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 66,
+                "position": 67,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -10208,8 +10377,8 @@
                 "releaseDate": "2014-04-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iphoneislam.m3lomatk2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10220,7 +10389,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10254,6 +10422,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10276,7 +10445,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731354677259,
-                "MZ_INDEXER": 1739831484962
+                "MZ_INDEXER": 1739923700837
             }
         },
         "supportsArcade": false,
@@ -10294,7 +10463,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 67,
+                "position": 68,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -10314,11 +10483,11 @@
             ],
             "ariaLabelForRatings": "3.7 stars"
         },
-        "name": "States And Plates, The License Plate Game",
         "genreDisplayName": "Trivia",
+        "name": "States And Plates, The License Plate Game",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "831 Apps",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10447,7 +10616,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 68,
+                "position": 69,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -10467,11 +10636,11 @@
             ],
             "ariaLabelForRatings": "4.8 stars"
         },
-        "name": "Penny Dell Jumbo Crosswords – Crossword Puzzles for Everyone!",
         "genreDisplayName": "Word",
+        "name": "Penny Dell Jumbo Crosswords – Crossword Puzzles for Everyone!",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "PuzzleNation",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10525,7 +10694,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10559,6 +10727,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10600,7 +10769,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 69,
+                "position": 70,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -10661,8 +10830,8 @@
                 "releaseDate": "2009-11-20",
                 "hasInAppPurchases": false,
                 "bundleId": "alex.mokrushin.magiceyequiz",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10774,8 +10943,8 @@
         "genreDisplayName": "Music",
         "name": "Music Quiz: Know Your Library?",
         "isPreorder": false,
-        "artistName": "Zach McGaughey",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Zach McGaughey",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10904,7 +11073,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 71,
+                "position": 72,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -10928,8 +11097,8 @@
         "genreDisplayName": "Word",
         "name": "Functional Groups in Chemistry",
         "isPreorder": false,
-        "artistName": "Andrey Solovyev",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Andrey Solovyev",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10966,8 +11135,8 @@
                 "releaseDate": "2014-04-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.asmolgam.functional",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11137,7 +11306,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11171,6 +11339,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Name Songs",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11194,7 +11363,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731380178956,
-                "MZ_INDEXER": 1739547489175
+                "MZ_INDEXER": 1739925149240
             }
         },
         "supportsArcade": false,
@@ -11212,7 +11381,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 73,
+                "position": 74,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -11273,8 +11442,8 @@
                 "releaseDate": "2009-01-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kudit.Buzzer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11289,7 +11458,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11323,6 +11491,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Tool for classroom game shows!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11365,7 +11534,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 74,
+                "position": 75,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -11389,8 +11558,8 @@
         "genreDisplayName": "Trivia",
         "name": "GeoExpert+ World Geography Map",
         "isPreorder": false,
-        "artistName": "Sierra Chica Software SL",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Sierra Chica Software SL",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11444,7 +11613,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11478,6 +11646,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Countries, Provinces & States",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11520,7 +11689,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 75,
+                "position": 76,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -11544,8 +11713,8 @@
         "genreDisplayName": "Board",
         "name": "Clever cubed",
         "isPreorder": false,
-        "artistName": "BrettspielWelt",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "BrettspielWelt",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11675,7 +11844,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 76,
+                "position": 77,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -11827,7 +11996,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 77,
+                "position": 78,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -11847,11 +12016,11 @@
             ],
             "ariaLabelForRatings": "3.7 stars"
         },
-        "name": "Capital Quiz",
         "genreDisplayName": "Trivia",
+        "name": "Capital Quiz",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Piet Jonas",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11905,6 +12074,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11938,7 +12108,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11983,7 +12152,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 78,
+                "position": 79,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -12044,8 +12213,8 @@
                 "releaseDate": "2017-03-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Majorariatto.Majotori",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12061,7 +12230,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12105,12 +12273,13 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "An interactive narratrivia",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Your answers are life-changing",
                     "tagline": "Your answers are life-changing"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -12151,7 +12320,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 79,
+                "position": 80,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -12172,11 +12341,11 @@
             "ariaLabelForRatings": "4.7 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.2.73",
-        "name": "Word Wow Seasons - No Ads",
         "genreDisplayName": "Family",
+        "name": "Word Wow Seasons - No Ads",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "DonkeySoft Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12306,7 +12475,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 80,
+                "position": 81,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -12362,13 +12531,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-05-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.puzzlenation.JumboCrosswords2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12384,7 +12553,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12418,6 +12586,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12440,7 +12609,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731377912137,
-                "MZ_INDEXER": 1739485266548
+                "MZ_INDEXER": 1739908764031
             }
         },
         "supportsArcade": false,
@@ -12459,7 +12628,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 81,
+                "position": 82,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -12593,7 +12762,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 82,
+                "position": 83,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -12649,8 +12818,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-02-04",
                 "hasInAppPurchases": true,
                 "bundleId": "net.pyrosphere.riddle4",
@@ -12746,7 +12915,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 83,
+                "position": 84,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -12766,11 +12935,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Who am I? Guessing Game",
         "genreDisplayName": "Word",
+        "name": "Who am I? Guessing Game",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mario Guenther-Bruns",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12900,7 +13069,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 84,
+                "position": 85,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -13054,7 +13223,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 86,
+                "position": 87,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -13077,8 +13246,8 @@
         "genreDisplayName": "Trivia",
         "name": "Kamisado",
         "isPreorder": false,
-        "artistName": "Scorpius Forge GmbH",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Scorpius Forge GmbH",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13115,8 +13284,8 @@
                 "releaseDate": "2016-03-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.scorpiusforge.kamisado",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13132,7 +13301,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13166,6 +13334,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13207,7 +13376,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 87,
+                "position": 88,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -13230,8 +13399,8 @@
         "genreDisplayName": "Trivia",
         "name": "Einstein™ Brain Training HD",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "BBG Entertainment GmbH",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13263,13 +13432,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-11-01",
                 "hasInAppPurchases": false,
                 "bundleId": "de.bbg.Einstein",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13363,7 +13532,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 88,
+                "position": 89,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -13387,8 +13556,8 @@
         "genreDisplayName": "Word",
         "name": "Logicals Pro",
         "isPreorder": false,
-        "artistName": "Christian Lueth",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Christian Lueth",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13516,7 +13685,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 89,
+                "position": 90,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -13668,7 +13837,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 90,
+                "position": 91,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -13724,13 +13893,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-11-19",
                 "hasInAppPurchases": false,
                 "bundleId": "alex.mokrushin.countrymapquiz",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13794,7 +13963,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 91,
+                "position": 92,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -13818,8 +13987,8 @@
         "genreDisplayName": "Games",
         "name": "Wissenstraining Pro. Das Quiz",
         "isPreorder": false,
-        "artistName": "the binary family",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "the binary family",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13851,13 +14020,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-05-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.thebinaryfamily.iphone.wissenstrainer-allgemeinbildung",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13873,7 +14042,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "brandLogo": {
@@ -13887,6 +14055,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Der Allgemeinbildungs-Trainer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13952,8 +14121,8 @@
         "genreDisplayName": "Music",
         "name": "Perfect Pitch.",
         "isPreorder": false,
-        "artistName": "Pavel Aristov",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Pavel Aristov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14082,7 +14251,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 93,
+                "position": 94,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -14105,8 +14274,8 @@
         "genreDisplayName": "Trivia",
         "name": "Миллионер викторина PRO",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dimitri Herber",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14138,13 +14307,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.5",
+                "requires32bit": false,
                 "releaseDate": "2012-12-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pradi.milli.full",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14160,7 +14329,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14194,6 +14362,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Интуиция и знания - полная",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14235,7 +14404,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 94,
+                "position": 95,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -14291,13 +14460,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2017-03-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.TriviaTwo",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14313,7 +14482,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14347,6 +14515,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14388,7 +14557,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 95,
+                "position": 96,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -14411,8 +14580,8 @@
         "genreDisplayName": "Puzzle",
         "name": "About Love and Hate 2",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Black Pants Studio GmbH",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14444,13 +14613,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2021-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.blackpants.loveandhate2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14511,10 +14680,10 @@
                     }
                 },
                 "subtitle": "hand drawn 3d puzzle fun",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "It’s a never-ending story"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -14536,7 +14705,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739413079516,
-                "MZ_INDEXER": 1739839325289
+                "MZ_INDEXER": 1739912574312
             }
         },
         "supportsArcade": false,
@@ -14555,7 +14724,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 96,
+                "position": 97,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -14611,8 +14780,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2017-05-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.botiki.trickytestpay",
@@ -14690,7 +14859,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738953164147,
-                "MZ_INDEXER": 1739484059127
+                "MZ_INDEXER": 1739905056490
             }
         },
         "supportsArcade": false,
@@ -14708,7 +14877,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 97,
+                "position": 98,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -14769,8 +14938,8 @@
                 "releaseDate": "2016-09-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wrc.Baseball-Trivia-Pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14862,7 +15031,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 98,
+                "position": 99,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -14885,8 +15054,8 @@
         "genreDisplayName": "Family",
         "name": "The fabulous Animal Playground",
         "isPreorder": false,
-        "artistName": "Jan Essig",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Jan Essig",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14918,8 +15087,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-10-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.essig.spielplatzhd",
@@ -15025,7 +15194,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 99,
+                "position": 100,
                 "genreName": "Trivia",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -15048,8 +15217,8 @@
         "genreDisplayName": "Trivia",
         "name": "Trivia for Ben 10",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jean Paul Reyna Gastello",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15130,168 +15299,6 @@
                         "width": 1080,
                         "height": 1080,
                         "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/84/20/97842090-f1c2-1ec9-6246-1dcd35c65c19/b11322a7-2c31-458c-b160-c2b37f03ad05.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "510246387",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "510246590",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738961626376,
-                "MZ_INDEXER": 1739495803590
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "Infrequent/Mild Sexual Content and Nudity",
-                    "Frequent/Intense Alcohol, Tobacco, or Drug Use or References",
-                    "Frequent/Intense Cartoon or Fantasy Violence",
-                    "Frequent/Intense Profanity or Crude Humor",
-                    "Infrequent/Mild Realistic Violence",
-                    "Infrequent/Mild Horror/Fear Themes",
-                    "Infrequent/Mild Mature/Suggestive Themes"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 100,
-                "genreName": "Trivia",
-                "genre": 7018,
-                "chart": "top-paid",
-                "genreShortName": "Trivia"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "wasReset": true,
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 stars"
-        },
-        "genreDisplayName": "Puzzle",
-        "name": "WikiHunt",
-        "isPreorder": false,
-        "artistName": "MurffWare Technologies, LLC.",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=990&salableAdamId=510246387&pricingParameters=STDQ&pg=default&appExtVrsId=867447967",
-                        "type": "buy",
-                        "priceFormatted": "$0.99",
-                        "price": 0.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 16025600
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=510246387&pricingParameters=SWUPD&pg=default&appExtVrsId=867447967",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 16025600
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2012-06-19",
-                "hasInAppPurchases": false,
-                "bundleId": "com.murffware.wikihunt",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/d7/91/6ed79152-23fe-8858-2786-5932be3aeebc/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "895936",
-                    "textColor1": "f1f5f8",
-                    "textColor2": "f9ebdd",
-                    "textColor3": "dcd5d1",
-                    "textColor4": "e3cebc"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1354,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/96/20/06/962006cc-fb81-f85e-4598-7d094a233d8c/134060f3-bfe0-45ad-b67c-d5b73181abaf.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1354,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/3f/1d/f4/3f1df490-0758-7373-f8a0-f1d7f4d2efef/05bb8930-f3bd-415c-991e-1de761c504d7.png/{w}x{h}{c}.{f}",
-                        "bgColor": "32cbff",
-                        "textColor1": "020a0c",
-                        "textColor2": "051419",
-                        "textColor3": "0c303d",
-                        "textColor4": "0e3847"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/dd/2a/ac/dd2aac8d-541a-e063-b864-ca0c6d4d53c5/c43e2752-6af2-42e8-81ca-06fab657982a.png/{w}x{h}{c}.{f}",
                         "bgColor": "000000",
                         "textColor1": "f2f2f2",
                         "textColor2": "e5e5e5",

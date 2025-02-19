@@ -1,13 +1,13 @@
 [
     {
         "kind": "app",
-        "id": "1620676041",
+        "id": "1550498827",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "1756754358",
+                        "id": "1411999676",
                         "type": "developers"
                     }
                 ]
@@ -15,17 +15,20 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731372260312,
-                "MZ_INDEXER": 1739488270719
+                "RTCI": 1738959075884,
+                "MZ_INDEXER": 1739496791191
             }
         },
         "supportsArcade": false,
         "isFirstPartyHideableApp": false,
         "contentRatingsBySystem": {
             "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
+                "name": "9+",
+                "value": 200,
+                "rank": 2,
+                "advisories": [
+                    "Infrequent/Mild Cartoon or Fantasy Violence"
+                ]
             }
         },
         "deviceFamilies": [
@@ -44,41 +47,41 @@
         },
         "supportsStreamlinedBuy": true,
         "userRating": {
-            "value": 0,
-            "ratingCount": 0,
+            "value": 5,
+            "ratingCount": 1,
             "ratingCountList": [
                 0,
                 0,
                 0,
                 0,
-                0
+                1
             ],
-            "ariaLabelForRatings": "0 stars"
+            "ariaLabelForRatings": "5.0 stars"
         },
         "genreDisplayName": "Card",
-        "name": "Gin Rummy Score Tracker",
+        "name": "Forward: Escape the Fold",
         "isPreorder": false,
-        "artistName": "Melbourne Tech, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Christophe Coyard",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=299000&salableAdamId=1620676041&pricingParameters=STDQ&pg=default&appExtVrsId=856904481",
+                        "buyParams": "productType=C&price=199000&salableAdamId=1550498827&pricingParameters=STDQ&pg=default&appExtVrsId=854915040",
                         "type": "buy",
-                        "priceFormatted": "₹ 299",
-                        "price": 299,
+                        "priceFormatted": "₹ 199",
+                        "price": 199,
                         "currencyCode": "INR",
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 18177024
+                                "size": 107963392
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=1620676041&pricingParameters=SWUPD&pg=default&appExtVrsId=856904481",
+                        "buyParams": "productType=C&price=0&salableAdamId=1550498827&pricingParameters=SWUPD&pg=default&appExtVrsId=854915040",
                         "type": "update",
                         "priceFormatted": "₹ 0",
                         "price": 0,
@@ -86,33 +89,34 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 18177024
+                                "size": 107963392
                             }
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
-                "releaseDate": "2022-08-07",
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2023-01-30",
                 "hasInAppPurchases": false,
-                "bundleId": "com.alaisteryoung.ginrummyscoring",
-                "isStandaloneWithCompanionForWatchOS": false,
+                "bundleId": "com.twotinydice.forward",
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/aa/4b/7baa4b21-2a61-1548-5f56-53ac2b8f1328/AppIcon-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "fcdf84",
-                    "textColor1": "0d0907",
-                    "textColor2": "28231f",
-                    "textColor3": "3d3420",
-                    "textColor4": "534833"
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ac/58/36/ac58360d-8d8a-b46c-e661-8b71cf5f7aaa/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "2b2a25",
+                    "textColor1": "fae8d0",
+                    "textColor2": "d7c9b5",
+                    "textColor3": "d0c2ad",
+                    "textColor4": "b5a998"
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -145,10 +149,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
-                "subtitle": "Track your scores & stats",
+                "subtitle": "Card-based roguelike",
                 "hasSafariExtension": false,
+                "editorialNotes": {
+                    "standard": "Battle through dungeons in this riveting roguelike card-based RPG that feels a little like solitaire but with a lot more tentacles and teeth."
+                },
                 "requiresGameController": false
             }
         }
@@ -170,7 +176,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739494106477,
-                "MZ_INDEXER": 1739542530933
+                "MZ_INDEXER": 1739931185503
             }
         },
         "supportsArcade": false,
@@ -195,10 +201,10 @@
         "chartPositions": {
             "appStore": {
                 "position": 2,
-                "genreName": "Word",
-                "genre": 7019,
+                "genreName": "Card",
+                "genre": 7005,
                 "chart": "top-paid",
-                "genreShortName": "Word"
+                "genreShortName": "Card"
             }
         },
         "supportsStreamlinedBuy": true,
@@ -250,8 +256,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-05-02",
                 "hasInAppPurchases": true,
                 "bundleId": "com.wb.Ellen.HeadsUp",
@@ -269,8 +275,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "bannerUber": {
@@ -344,14 +350,14 @@
                         "textColor4": "0e2c3f"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Play Charades with Friends!",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Show off your celebrity knowledge.",
                     "tagline": "Laughter guaranteed"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -415,8 +421,8 @@
         "genreDisplayName": "Puzzle",
         "name": "Threes!",
         "isPreorder": false,
-        "artistName": "Sirvo LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Sirvo LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -448,13 +454,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-02-06",
                 "hasInAppPurchases": false,
                 "bundleId": "vo.threes.exclaim",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -467,9 +473,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -522,7 +529,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "The original number slider",
                 "hasSafariExtension": false,
@@ -620,8 +626,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.EdgeRift.Solitaire",
@@ -639,8 +645,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -674,8 +680,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Classic Solitaire puzzle game.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -750,8 +756,8 @@
         "genreDisplayName": "Casino",
         "name": "Solitaire by MobilityWare",
         "isPreorder": false,
-        "artistName": "MobilityWare",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "MobilityWare",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -783,11 +789,12 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobilityware.Solitaire",
+                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
@@ -799,7 +806,6 @@
                     "textColor3": "1c290f",
                     "textColor4": "1d4d1e"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -815,6 +821,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1034,
@@ -847,8 +855,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Play Solitaire with NO ads!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -951,8 +957,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-01-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.explodingkittens.projectbombsquad",
@@ -970,11 +976,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -1140,13 +1146,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "us.digitalsmoke.solitairecity",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1159,9 +1165,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -1194,7 +1201,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "All Your Fave Solitaire Games!",
                 "hasSafariExtension": false,
@@ -1269,8 +1275,8 @@
         "genreDisplayName": "Card",
         "name": "Reigns",
         "isPreorder": false,
-        "artistName": "Devolver",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Devolver",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1331,9 +1337,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -1396,7 +1403,6 @@
                         "textColor4": "ac7960"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Swipe and be the King",
                 "hasSafariExtension": false,
@@ -1504,13 +1510,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-02-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.chillingo.bridge",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1523,11 +1529,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -1560,6 +1564,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Bridge tournaments for all.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1626,8 +1632,8 @@
         "genreDisplayName": "Card",
         "name": "Spider Solitaire MobilityWare",
         "isPreorder": false,
-        "artistName": "MobilityWare",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "MobilityWare",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1678,9 +1684,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -1723,9 +1731,178 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1491530147",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1491530146",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1736441186939,
+                "MZ_INDEXER": 1739538116603
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "Frequent/Intense Cartoon or Fantasy Violence",
+                    "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 11,
+                "genreName": "Card",
+                "genre": 7005,
+                "chart": "top-paid",
+                "genreShortName": "Card"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.5,
+            "ratingCount": 16,
+            "ratingCountList": [
+                1,
+                0,
+                2,
+                0,
+                13
+            ],
+            "ariaLabelForRatings": "4.5 stars"
+        },
+        "genreDisplayName": "Role-Playing",
+        "name": "Slay the Spire",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Humble Bundle",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=999000&salableAdamId=1491530147&pricingParameters=STDQ&pg=default&appExtVrsId=859746634",
+                        "type": "buy",
+                        "priceFormatted": "₹ 999",
+                        "price": 999,
+                        "currencyCode": "INR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 932229120
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1491530147&pricingParameters=SWUPD&pg=default&appExtVrsId=859746634",
+                        "type": "update",
+                        "priceFormatted": "₹ 0",
+                        "price": 0,
+                        "currencyCode": "INR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 932229120
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2020-06-13",
+                "hasInAppPurchases": false,
+                "bundleId": "com.humblebundle.slaythespire",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0d/b6/c7/0db6c7fd-466f-4834-0943-1b9857b53b35/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "362126",
+                    "textColor1": "e6a856",
+                    "textColor2": "d9a364",
+                    "textColor3": "c38d4c",
+                    "textColor4": "b88957"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1030,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/5b/b5/0d5bb51f-dc4c-01d1-2120-1794d156b1b0/f7b9c313-7432-442d-bd83-3a0f4cdd62ef.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1031,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f0/57/31/f05731b1-e951-79e7-0b77-b9fcd8db9c85/62c6ad47-ada9-4cd6-ada6-af3c6cd93eeb.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f7b400",
+                        "textColor1": "08090b",
+                        "textColor2": "0a0a0b",
+                        "textColor3": "382b09",
+                        "textColor4": "392c08"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/65/24/4f/65244f35-f4ee-b6bd-b6ce-d573dd01960e/9bfe0abf-33fd-4d42-a30c-c17aaaa61f19.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "subscriptionHero": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/45/a3/86/45a38690-7af1-b50e-a59d-87af6f9766c0/U0gtQVAtV1ctU2xheV90aGVfU3BpcmUtQURBTV9JRD0xNDkxNTMwMTQ3LnBuZw.png/{w}x{h}{c}.{f}",
+                        "bgColor": "472e32",
+                        "textColor1": "fac687",
+                        "textColor2": "f19e61",
+                        "textColor3": "d6a776",
+                        "textColor4": "cf8757"
+                    }
+                },
+                "subtitle": "Deckbuilding Dungeon Crawl",
+                "hasSafariExtension": false,
+                "editorialNotes": {
+                    "tagline": "Will you make it to the end?"
+                },
                 "requiresGameController": false
             }
         }
@@ -1771,7 +1948,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 12,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -1850,6 +2027,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -1882,181 +2061,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "When Poker Meets Solitaire",
                 "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1491530147",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1491530146",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1736441186939,
-                "MZ_INDEXER": 1739538116603
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "Frequent/Intense Cartoon or Fantasy Violence",
-                    "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 12,
-                "genreName": "Card",
-                "genre": 7005,
-                "chart": "top-paid",
-                "genreShortName": "Card"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.5,
-            "ratingCount": 16,
-            "ratingCountList": [
-                1,
-                0,
-                2,
-                0,
-                13
-            ],
-            "ariaLabelForRatings": "4.5 stars"
-        },
-        "genreDisplayName": "Role-Playing",
-        "name": "Slay the Spire",
-        "isPreorder": false,
-        "artistName": "Humble Bundle",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=999000&salableAdamId=1491530147&pricingParameters=STDQ&pg=default&appExtVrsId=859746634",
-                        "type": "buy",
-                        "priceFormatted": "₹ 999",
-                        "price": 999,
-                        "currencyCode": "INR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 932229120
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1491530147&pricingParameters=SWUPD&pg=default&appExtVrsId=859746634",
-                        "type": "update",
-                        "priceFormatted": "₹ 0",
-                        "price": 0,
-                        "currencyCode": "INR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 932229120
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2020-06-13",
-                "hasInAppPurchases": false,
-                "bundleId": "com.humblebundle.slaythespire",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/0d/b6/c7/0db6c7fd-466f-4834-0943-1b9857b53b35/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "362126",
-                    "textColor1": "e6a856",
-                    "textColor2": "d9a364",
-                    "textColor3": "c38d4c",
-                    "textColor4": "b88957"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1030,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/5b/b5/0d5bb51f-dc4c-01d1-2120-1794d156b1b0/f7b9c313-7432-442d-bd83-3a0f4cdd62ef.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1031,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f0/57/31/f05731b1-e951-79e7-0b77-b9fcd8db9c85/62c6ad47-ada9-4cd6-ada6-af3c6cd93eeb.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f7b400",
-                        "textColor1": "08090b",
-                        "textColor2": "0a0a0b",
-                        "textColor3": "382b09",
-                        "textColor4": "392c08"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/65/24/4f/65244f35-f4ee-b6bd-b6ce-d573dd01960e/9bfe0abf-33fd-4d42-a30c-c17aaaa61f19.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "subscriptionHero": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/45/a3/86/45a38690-7af1-b50e-a59d-87af6f9766c0/U0gtQVAtV1ctU2xheV90aGVfU3BpcmUtQURBTV9JRD0xNDkxNTMwMTQ3LnBuZw.png/{w}x{h}{c}.{f}",
-                        "bgColor": "472e32",
-                        "textColor1": "fac687",
-                        "textColor2": "f19e61",
-                        "textColor3": "d6a776",
-                        "textColor4": "cf8757"
-                    }
-                },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
-                "subtitle": "Deckbuilding Dungeon Crawl",
-                "hasSafariExtension": false,
-                "editorialNotes": {
-                    "tagline": "Will you make it to the end?"
-                },
                 "requiresGameController": false
             }
         }
@@ -2156,8 +2162,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-03-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.northernbytes.SharkSol",
@@ -2175,8 +2181,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2210,8 +2216,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2310,13 +2316,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobilityware.FreeCell",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2329,9 +2335,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -2364,8 +2372,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2387,8 +2393,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739000630986,
-                "MZ_INDEXER": 1739512204401
+                "RTCI": 1739914029218,
+                "MZ_INDEXER": 1739931767840
             }
         },
         "supportsArcade": false,
@@ -2466,8 +2472,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.doron.ipadMHBJ",
@@ -2485,8 +2491,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2520,8 +2526,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "7 Hands (Vegas Casino Fun)",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2631,8 +2637,8 @@
                 "releaseDate": "2010-12-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.iphonesoft3g.texaspoker100k",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2645,8 +2651,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2680,8 +2686,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "#1 Poker",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2797,9 +2803,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -2832,7 +2839,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "1, 2 or 4 Suit, and Spiderette",
                 "hasSafariExtension": false,
@@ -2932,8 +2938,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-05-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.asmodee-digital.jaipur",
@@ -2951,11 +2957,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -3087,8 +3093,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.optimesoftware.HeartsPremiumHD",
@@ -3105,11 +3111,11 @@
                     "textColor4": "cc311d"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -3213,8 +3219,8 @@
         "genreDisplayName": "Card",
         "name": "Reigns: Game of Thrones",
         "isPreorder": false,
-        "artistName": "Devolver",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Devolver",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3275,9 +3281,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -3330,7 +3337,6 @@
                         "textColor4": "bb7633"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Sit on the Iron Throne",
                 "hasSafariExtension": false,
@@ -3401,8 +3407,8 @@
         "genreDisplayName": "Strategy",
         "name": "7 Wonders",
         "isPreorder": false,
-        "artistName": "Repos Production",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Repos Production",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3434,8 +3440,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-11-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.rprod.7wonders",
@@ -3453,11 +3459,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -3589,13 +3595,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-05-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pokercruncher.PokerCruncherIPad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3611,6 +3617,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -3643,8 +3651,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Top Texas Hold'em odds calc",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3710,8 +3716,8 @@
         "genreDisplayName": "Card",
         "name": "Hand (Rummy)",
         "isPreorder": false,
-        "artistName": "Bojacob",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bojacob",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3765,6 +3771,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -3797,7 +3804,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3901,8 +3907,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-12-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.devolver.reigns2",
@@ -3920,8 +3926,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4005,8 +4011,8 @@
                         "textColor4": "583b3f"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Swipe and be the Queen!",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -4129,9 +4135,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -4164,7 +4171,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Ad Free Classic Card Game",
                 "hasSafariExtension": false,
@@ -4237,8 +4243,8 @@
         "genreDisplayName": "Card",
         "name": "Cultist Simulator",
         "isPreorder": false,
-        "artistName": "Playdigious",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Playdigious",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4270,13 +4276,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-04-02",
                 "hasInAppPurchases": true,
                 "bundleId": "com.playdigious.cultist",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4289,9 +4295,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -4334,13 +4341,12 @@
                         "textColor4": "153642"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Experiment. Die. Ascend.",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Sinister, beguiling, brilliant"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -4435,8 +4441,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-07-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.setgame.setgame",
@@ -4453,11 +4459,11 @@
                     "textColor4": "5f4868"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -4497,13 +4503,13 @@
     },
     {
         "kind": "app",
-        "id": "790729888",
+        "id": "1620676041",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "375196975",
+                        "id": "1756754358",
                         "type": "developers"
                     }
                 ]
@@ -4511,8 +4517,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1736250374962,
-                "MZ_INDEXER": 1739486618954
+                "RTCI": 1731372260312,
+                "MZ_INDEXER": 1739488270719
             }
         },
         "supportsArcade": false,
@@ -4532,6 +4538,160 @@
         "chartPositions": {
             "appStore": {
                 "position": 29,
+                "genreName": "Card",
+                "genre": 7005,
+                "chart": "top-paid",
+                "genreShortName": "Card"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 stars"
+        },
+        "genreDisplayName": "Card",
+        "name": "Gin Rummy Score Tracker",
+        "isPreorder": false,
+        "artistName": "Melbourne Tech, LLC",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=299000&salableAdamId=1620676041&pricingParameters=STDQ&pg=default&appExtVrsId=856904481",
+                        "type": "buy",
+                        "priceFormatted": "₹ 299",
+                        "price": 299,
+                        "currencyCode": "INR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 18177024
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1620676041&pricingParameters=SWUPD&pg=default&appExtVrsId=856904481",
+                        "type": "update",
+                        "priceFormatted": "₹ 0",
+                        "price": 0,
+                        "currencyCode": "INR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 18177024
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2022-08-07",
+                "hasInAppPurchases": false,
+                "bundleId": "com.alaisteryoung.ginrummyscoring",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/aa/4b/7baa4b21-2a61-1548-5f56-53ac2b8f1328/AppIcon-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "fcdf84",
+                    "textColor1": "0d0907",
+                    "textColor2": "28231f",
+                    "textColor3": "3d3420",
+                    "textColor4": "534833"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 985,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bf/22/0c/bf220c2c-ba6d-df5f-fb5c-2a8b8d96fcb8/8c54b2db-cb72-4d1a-bac8-9ae9e8b7741c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "ececec",
+                        "textColor2": "cdcdcd",
+                        "textColor3": "bcbcbc",
+                        "textColor4": "a4a4a4"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 985,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/74/52/c5/7452c527-f1ad-8341-ee2d-869278222df8/5f0f30fd-7937-49f6-b2bd-2854aef61773.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575a60",
+                        "textColor1": "f2f4f5",
+                        "textColor2": "e9eef6",
+                        "textColor3": "d3d5d7",
+                        "textColor4": "ccd0d8"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/c0/da/49/c0da49fe-c07e-116f-0619-02fc3283c631/e8f77579-8a79-4b3d-8a08-1dd0a7f102aa.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "subtitle": "Track your scores & stats",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "790729888",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "375196975",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1736250374962,
+                "MZ_INDEXER": 1739914527182
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 30,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -4606,9 +4766,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -4641,8 +4803,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "classic rummy card game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4685,7 +4845,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 31,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -4708,8 +4868,8 @@
         "genreDisplayName": "Strategy",
         "name": "7 Wonders Duel",
         "isPreorder": false,
-        "artistName": "Repos Production",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Repos Production",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4763,6 +4923,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -4795,8 +4957,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "2 players Civilization game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4843,7 +5003,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 31,
+                "position": 32,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -4866,8 +5026,8 @@
         "genreDisplayName": "Role-Playing",
         "name": "Guild of Dungeoneering",
         "isPreorder": false,
-        "artistName": "Gambrinous",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Gambrinous",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4899,13 +5059,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-07-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gambrinous.dungeoneering",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4921,6 +5081,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -4973,8 +5135,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Your dungeon, your rules",
@@ -5018,7 +5178,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 33,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -5074,8 +5234,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sniderware.FreeCellHDPaid",
@@ -5093,8 +5253,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5128,8 +5288,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Play FreeCell, 8 Off & Towers!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5198,8 +5358,8 @@
         "genreDisplayName": "Card",
         "name": "▻ Solitaire +",
         "isPreorder": false,
-        "artistName": "PeopleFun CG, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "PeopleFun CG, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5253,6 +5413,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -5285,8 +5447,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Best games, classic games :)",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5329,7 +5489,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 34,
+                "position": 35,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -5385,13 +5545,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-08-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.housefullofgames.tichu",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5404,9 +5564,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -5439,8 +5601,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5480,7 +5640,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 35,
+                "position": 36,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -5541,8 +5701,8 @@
                 "releaseDate": "2013-07-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.goodsol.PrettyGoodSolitaire.iOS",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5555,8 +5715,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5636,7 +5796,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 36,
+                "position": 37,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -5692,13 +5852,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-01-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.slothware.meteorfall",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5711,11 +5871,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -5748,6 +5906,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Card-based roguelike",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5790,7 +5950,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 37,
+                "position": 38,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -5813,8 +5973,8 @@
         "genreDisplayName": "Card",
         "name": "⋆FreeCell+",
         "isPreorder": false,
-        "artistName": "Brainium Studios LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Brainium Studios LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5846,13 +6006,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-03-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brainiumstudios.freecell",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5865,9 +6025,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -5900,8 +6062,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Classic FreeCell Card Puzzle",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5942,7 +6102,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 38,
+                "position": 39,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -5965,8 +6125,8 @@
         "genreDisplayName": "Card",
         "name": "Spades Pro HD",
         "isPreorder": false,
-        "artistName": "Optime Software LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Optime Software LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5998,13 +6158,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-05-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.optimesoftware.SpadesProHD",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6016,9 +6176,11 @@
                     "textColor4": "672e0d"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -6051,8 +6213,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Best-selling Spades card game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6118,8 +6278,8 @@
         "genreDisplayName": "Casino",
         "name": "Eric's Klondike Solitaire Pack",
         "isPreorder": false,
-        "artistName": "Eric Snider",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Eric Snider",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6151,13 +6311,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-10-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sniderware.solitaire",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6170,9 +6330,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1034,
@@ -6205,7 +6366,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Deal 1, deal 3, Casino & more!",
                 "hasSafariExtension": false,
@@ -6229,8 +6389,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739001619479,
-                "MZ_INDEXER": 1739491027063
+                "RTCI": 1739913968113,
+                "MZ_INDEXER": 1739930318603
             }
         },
         "supportsArcade": false,
@@ -6275,8 +6435,8 @@
         "genreDisplayName": "Casino",
         "name": "Blackjack 21 Pro Multi-Hand",
         "isPreorder": false,
-        "artistName": "Pepper Dog Soft LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Pepper Dog Soft LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6308,8 +6468,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.doron.i3Hand21",
@@ -6327,11 +6487,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1034,
@@ -6487,6 +6647,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -6519,8 +6681,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Learn Card Counting like a Pro",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6568,7 +6728,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 42,
+                "position": 43,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -6592,8 +6752,8 @@
         "genreDisplayName": "Card",
         "name": "Monster Train",
         "isPreorder": false,
-        "artistName": "Good Shepherd Entertainment",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Good Shepherd Entertainment",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6647,6 +6807,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -6689,13 +6851,11 @@
                         "textColor4": "d47b38"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Deckbuilding Roguelike Battles",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "Smartly positioning fighters in this roguelike deckbuilder helps the gameplay shine as brightly as the flame you’re tasked with defending."
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -6717,7 +6877,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738955990216,
-                "MZ_INDEXER": 1739547762214
+                "MZ_INDEXER": 1739920586562
             }
         },
         "supportsArcade": false,
@@ -6740,7 +6900,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 43,
+                "position": 44,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -6797,13 +6957,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-10-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.handelabra.Sentinels",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6816,9 +6976,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -6871,8 +7033,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Co-op comic book card battles!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6915,7 +7075,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 44,
+                "position": 45,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -6971,13 +7131,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-11",
                 "hasInAppPurchases": false,
                 "bundleId": "24GameSD",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6989,11 +7149,9 @@
                     "textColor4": "c80052"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "brandLogo": {
                         "width": 1080,
@@ -7006,6 +7164,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7047,7 +7207,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 45,
+                "position": 46,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -7070,8 +7230,8 @@
         "genreDisplayName": "Card",
         "name": "Mü",
         "isPreorder": false,
-        "artistName": "House Full of Games",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "House Full of Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7103,22 +7263,24 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-01-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.housefullofgames.mu",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
                     "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple1/v4/85/36/b6/8536b6ca-0af0-e058-a7c9-8895443f72a0/pr_source.jpg/{w}x{h}{c}.{f}"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -7151,8 +7313,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7197,7 +7357,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 46,
+                "position": 47,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -7220,8 +7380,8 @@
         "genreDisplayName": "Card",
         "name": "Solitairica",
         "isPreorder": false,
-        "artistName": "Righteous Hammer Games Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Righteous Hammer Games Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7272,9 +7432,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-2 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -7317,8 +7479,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Solitaire RPG battle card game",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -7367,7 +7527,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 47,
+                "position": 48,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -7429,8 +7589,8 @@
                 "releaseDate": "2019-03-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.piratesoutlaws.roguelikecard.fabled",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7443,8 +7603,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7478,8 +7638,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Indie roguelike card game",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -7523,7 +7683,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 48,
+                "position": 49,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -7600,6 +7760,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -7632,8 +7794,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7701,8 +7861,8 @@
         "genreDisplayName": "Casino",
         "name": "Blackjack & Card Counting Pro",
         "isPreorder": false,
-        "artistName": "Dealer Bust Time LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Dealer Bust Time LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7734,13 +7894,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-09-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.BlackjackApprenticeship.BJATrainerPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7753,9 +7913,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1034,
@@ -7788,7 +7949,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Learn to Beat Blackjack",
                 "hasSafariExtension": false,
@@ -7891,13 +8051,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-09-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fingerarts.SpiderPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7910,9 +8070,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -7945,7 +8106,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Best games, classic games :)",
                 "hasSafariExtension": false,
@@ -7989,7 +8149,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 51,
+                "position": 52,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -8045,13 +8205,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brainiumstudios.spider",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8064,11 +8224,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -8101,6 +8259,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Ad Free Classic Spider Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8146,7 +8306,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 52,
+                "position": 53,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -8224,6 +8384,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -8256,8 +8418,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "An Ultimate Mahjong Experience",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8281,7 +8441,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731379533734,
-                "MZ_INDEXER": 1739490072660
+                "MZ_INDEXER": 1739932709718
             }
         },
         "supportsArcade": false,
@@ -8300,7 +8460,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 53,
+                "position": 54,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -8356,13 +8516,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2008-12-01",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.dogmelon.iPhoneClassicSol",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8374,9 +8534,11 @@
                     "textColor4": "7f3333"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -8409,8 +8571,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8511,8 +8671,8 @@
                 "releaseDate": "2012-08-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.smallware.SolebonPro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8525,8 +8685,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8560,8 +8720,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Classic game play for iPad!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8604,7 +8764,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 55,
+                "position": 56,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -8627,8 +8787,8 @@
         "genreDisplayName": "Strategy",
         "name": "Mahjong!",
         "isPreorder": false,
-        "artistName": "POK",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "POK",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8665,8 +8825,8 @@
                 "releaseDate": "2010-03-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pokwong.mahjong",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8682,8 +8842,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -8757,7 +8917,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 56,
+                "position": 57,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -8781,8 +8941,8 @@
         "genreDisplayName": "Card",
         "name": "Everdell",
         "isPreorder": false,
-        "artistName": "Dire Wolf Digital",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dire Wolf Digital",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8814,13 +8974,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2022-07-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.direwolfdigital.everdell",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8836,6 +8996,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -8868,8 +9030,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Build a Colorful Critter City!",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -8924,7 +9084,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 57,
+                "position": 58,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -8948,8 +9108,8 @@
         "genreDisplayName": "Role-Playing",
         "name": "GWENT: Rogue Mage",
         "isPreorder": false,
-        "artistName": "CD PROJEKT S.A.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CD PROJEKT S.A.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8986,8 +9146,8 @@
                 "releaseDate": "2022-07-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cdprojekt.origins",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9003,8 +9163,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -9095,7 +9255,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 58,
+                "position": 59,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -9174,6 +9334,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -9206,8 +9368,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "An Epic Cardventure",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9253,7 +9413,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 59,
+                "position": 60,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -9310,8 +9470,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-05-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.handelabra.OneDeckDungeon",
@@ -9329,8 +9489,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9364,8 +9524,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Roll the dice for adventure!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9411,7 +9571,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 60,
+                "position": 61,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -9467,13 +9627,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-05-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.templegatesgames.raceios",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9486,9 +9646,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -9521,7 +9682,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9568,7 +9728,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 61,
+                "position": 62,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -9625,13 +9785,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-02-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mikecamilli.lostportal",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9644,9 +9804,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -9679,7 +9840,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Solo RPG card battle game",
                 "hasSafariExtension": false,
@@ -9721,7 +9881,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 62,
+                "position": 63,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -9744,8 +9904,8 @@
         "genreDisplayName": "Card",
         "name": "Romi for iPad",
         "isPreorder": false,
-        "artistName": "Gérard Brochu",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Gérard Brochu",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9777,8 +9937,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gb.romiPad",
@@ -9795,11 +9955,10 @@
                     "textColor4": "48413e"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -9832,6 +9991,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9854,7 +10014,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738955990491,
-                "MZ_INDEXER": 1739517305044
+                "MZ_INDEXER": 1739928413873
             }
         },
         "supportsArcade": false,
@@ -9875,7 +10035,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 63,
+                "position": 64,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -9932,8 +10092,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-10-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.handelabra.AeonsEnd",
@@ -9951,8 +10111,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9986,8 +10146,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Deck-building with a twist!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10031,7 +10191,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 64,
+                "position": 65,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -10109,6 +10269,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -10141,8 +10303,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10184,7 +10344,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 65,
+                "position": 66,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -10207,8 +10367,8 @@
         "genreDisplayName": "Card",
         "name": "Bridge Scorepad",
         "isPreorder": false,
-        "artistName": "Yannis S. Arvanitis",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Yannis S. Arvanitis",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10259,9 +10419,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -10294,7 +10455,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10360,8 +10520,8 @@
         "genreDisplayName": "Casino",
         "name": "Card Counter",
         "isPreorder": false,
-        "artistName": "TMSOFT",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "TMSOFT",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10393,13 +10553,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2008-10-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tmsoft.CardCounter",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10415,6 +10575,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1034,
@@ -10447,8 +10609,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Learn Blackjack Card Counting",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10495,7 +10655,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 67,
+                "position": 68,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -10552,8 +10712,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-10-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.asmodee-digital.smashup",
@@ -10571,8 +10731,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10616,8 +10776,8 @@
                         "textColor4": "402f1d"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10662,7 +10822,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 68,
+                "position": 69,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -10737,9 +10897,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -10772,7 +10933,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10874,13 +11034,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-08-20",
                 "hasInAppPurchases": false,
                 "bundleId": "biz.birdsoft.metalpoker",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10893,11 +11053,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -10930,6 +11088,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Offline Razz, Omaha, Stud, HE",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10972,7 +11132,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 70,
+                "position": 71,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -11048,9 +11208,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -11083,7 +11244,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "A Roll Player Tale",
                 "hasSafariExtension": false,
@@ -11108,7 +11268,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1732208609934,
-                "MZ_INDEXER": 1739487582134
+                "MZ_INDEXER": 1739932266766
             }
         },
         "supportsArcade": false,
@@ -11133,7 +11293,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 71,
+                "position": 72,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -11157,8 +11317,8 @@
         "genreDisplayName": "Card",
         "name": "Silent Abyss-fate of heroes",
         "isPreorder": false,
-        "artistName": "杭州游尘信息技术有限公司",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "杭州游尘信息技术有限公司",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11190,8 +11350,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-01-02",
                 "hasInAppPurchases": true,
                 "bundleId": "com.clovare.silentabyssen",
@@ -11209,11 +11369,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -11291,7 +11451,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 72,
+                "position": 73,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -11314,8 +11474,8 @@
         "genreDisplayName": "Board",
         "name": "Age of Rivals",
         "isPreorder": false,
-        "artistName": "Vijay Myneni",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Vijay Myneni",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11347,13 +11507,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-06-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.robotogames.CivCast",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11366,9 +11526,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -11421,8 +11583,6 @@
                         "textColor4": "b87e32"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Fast-paced strategy boardgame!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11469,7 +11629,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 73,
+                "position": 74,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -11493,8 +11653,8 @@
         "genreDisplayName": "Strategy",
         "name": "XenoShyft",
         "isPreorder": false,
-        "artistName": "TWIN SAILS INTERACTIVE",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "TWIN SAILS INTERACTIVE",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11526,13 +11686,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-07-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.cmon.Xenoshyft",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11545,9 +11705,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -11580,8 +11742,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11624,7 +11784,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 74,
+                "position": 75,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -11686,8 +11846,8 @@
                 "releaseDate": "2010-10-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mastersoftmobilesolutions.solitaire",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11700,9 +11860,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -11735,8 +11897,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "All your favorite card games!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11779,7 +11939,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 75,
+                "position": 76,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -11802,8 +11962,8 @@
         "genreDisplayName": "Board",
         "name": "Canasta Gold",
         "isPreorder": false,
-        "artistName": "Intent Software GmbH & Co. KG",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Intent Software GmbH & Co. KG",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11840,8 +12000,8 @@
                 "releaseDate": "2009-12-05",
                 "hasInAppPurchases": false,
                 "bundleId": "intentsoftware.canasta",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11856,8 +12016,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -11931,7 +12091,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 76,
+                "position": 77,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -11992,8 +12152,8 @@
                 "releaseDate": "2014-01-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.winningwords.Singular-Plural-Match",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12006,8 +12166,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12041,8 +12201,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12084,7 +12244,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 77,
+                "position": 78,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -12159,9 +12319,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -12194,8 +12356,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12260,8 +12420,8 @@
         "genreDisplayName": "Card",
         "name": "Solebon Solitaire - 50 Games",
         "isPreorder": false,
-        "artistName": "Solebon LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Solebon LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12315,6 +12475,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -12347,8 +12509,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Best Solitaire Card Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12395,7 +12555,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 79,
+                "position": 80,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -12457,8 +12617,8 @@
                 "releaseDate": "2024-08-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.marmalade.explodingkittens",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12474,8 +12634,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -12553,7 +12713,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 80,
+                "position": 81,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -12610,13 +12770,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-06-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.nomadgames.mysticvale",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12629,9 +12789,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -12664,7 +12825,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "The card-crafting deck-builder",
                 "hasSafariExtension": false,
@@ -12711,7 +12871,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 81,
+                "position": 82,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -12787,9 +12947,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -12822,7 +12983,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Conquer the whole world!",
                 "hasSafariExtension": false,
@@ -12864,7 +13024,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 82,
+                "position": 83,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -12920,8 +13080,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-04-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.goodsol.FreeCellPlus.iOS",
@@ -12939,8 +13099,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -13075,13 +13235,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-12-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fingerarts.FreeCellPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13094,9 +13254,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -13129,7 +13290,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Best games, classic games :)",
                 "hasSafariExtension": false,
@@ -13173,7 +13333,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 84,
+                "position": 85,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -13196,8 +13356,8 @@
         "genreDisplayName": "Board",
         "name": "Klued Up Pro Board Game Solver",
         "isPreorder": false,
-        "artistName": "BRIDGETECH SOLUTIONS LIMITED",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "BRIDGETECH SOLUTIONS LIMITED",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13229,8 +13389,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2012-03-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bridgetech.clued-up-pro",
@@ -13248,11 +13408,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -13285,6 +13444,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Cluedo® Unofficial Companion",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13331,7 +13491,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 85,
+                "position": 86,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -13410,6 +13570,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -13452,8 +13614,6 @@
                         "textColor4": "b0916b"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "A card-based dungeon crawler",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -13502,7 +13662,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 86,
+                "position": 87,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -13558,13 +13718,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-09-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.grlgames.prosolitaire",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13577,9 +13737,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -13612,8 +13774,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13655,7 +13815,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 87,
+                "position": 88,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -13716,8 +13876,8 @@
                 "releaseDate": "2012-08-01",
                 "hasInAppPurchases": false,
                 "bundleId": "de.application-systems.CafeInternational",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13730,8 +13890,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13765,8 +13925,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13809,7 +13969,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 88,
+                "position": 89,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -13870,8 +14030,8 @@
                 "releaseDate": "2011-10-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.anoshenko.solitaires",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13884,9 +14044,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -13919,8 +14081,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Collection of 253 solitaires",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13966,7 +14126,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 89,
+                "position": 90,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -14027,8 +14187,8 @@
                 "releaseDate": "2024-11-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.strayfawnstudio.dungeonclawlermobile",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14041,8 +14201,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14076,8 +14236,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Claw Machine Roguelike",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14101,7 +14261,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1732207824774,
-                "MZ_INDEXER": 1739548814686
+                "MZ_INDEXER": 1739916374456
             }
         },
         "supportsArcade": false,
@@ -14123,7 +14283,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 90,
+                "position": 91,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -14146,8 +14306,8 @@
         "genreDisplayName": "Card",
         "name": "Dark Mist",
         "isPreorder": false,
-        "artistName": "Pixel Cattle Games",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Pixel Cattle Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14179,8 +14339,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-06-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.PixelCattleGames.RedMist",
@@ -14198,11 +14358,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -14235,6 +14394,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Indie roguelike card game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14280,7 +14440,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 91,
+                "position": 92,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -14338,13 +14498,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-05-19",
                 "hasInAppPurchases": true,
                 "bundleId": "com.GameCoaster.DungeonMaker",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14357,9 +14517,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -14392,7 +14553,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14435,7 +14595,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 92,
+                "position": 93,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -14458,8 +14618,8 @@
         "genreDisplayName": "Board",
         "name": "Friday - by Friedemann Friese",
         "isPreorder": false,
-        "artistName": "BrettspielWelt",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "BrettspielWelt",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14491,8 +14651,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-06-29",
                 "hasInAppPurchases": false,
                 "bundleId": "de.brettspielwelt.freitag",
@@ -14510,11 +14670,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -14570,7 +14730,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731352544612,
-                "MZ_INDEXER": 1739487591795
+                "MZ_INDEXER": 1739932554035
             }
         },
         "supportsArcade": false,
@@ -14587,7 +14747,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 93,
+                "position": 94,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -14648,8 +14808,8 @@
                 "releaseDate": "2013-06-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.goodsol.GoodsolSolitaire101.iOS",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14739,7 +14899,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 94,
+                "position": 95,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -14795,13 +14955,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.5",
                 "releaseDate": "2013-04-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pozirk.allinonesolitaire.paid",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14814,11 +14974,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -14851,6 +15009,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Best solitaire collection!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14916,8 +15076,8 @@
         "genreDisplayName": "Card",
         "name": "FreeCell Royale Solitaire Pro",
         "isPreorder": false,
-        "artistName": "Richard Buckingham",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Richard Buckingham",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14970,6 +15130,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -15002,8 +15164,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Classic Solitaire Card Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15050,7 +15210,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 96,
+                "position": 97,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -15074,8 +15234,8 @@
         "genreDisplayName": "Card",
         "name": "Hardwood Solitaire IV Pro",
         "isPreorder": false,
-        "artistName": "Silver Creek Entertainment",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Silver Creek Entertainment",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15107,13 +15267,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12",
                 "releaseDate": "2012-01-19",
                 "hasInAppPurchases": true,
                 "bundleId": "com.silvercrk.solitaireiv",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15126,9 +15286,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 wifi ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -15161,7 +15322,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15205,7 +15365,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 97,
+                "position": 98,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -15265,8 +15425,8 @@
                 "releaseDate": "2011-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.springbok.kingscorner",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15279,11 +15439,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -15316,6 +15474,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "The new king of card games",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15419,8 +15579,8 @@
                 "releaseDate": "2010-06-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.trivialtechnology.SpiteHD",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15436,8 +15596,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1034,
@@ -15493,7 +15653,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1736678793682,
-                "MZ_INDEXER": 1739549222559
+                "MZ_INDEXER": 1739916479264
             }
         },
         "supportsArcade": false,
@@ -15512,7 +15672,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 99,
+                "position": 100,
                 "genreName": "Card",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -15573,8 +15733,8 @@
                 "releaseDate": "2010-06-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fishdog.heartsXL",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15587,8 +15747,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -15622,161 +15782,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "283268086",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "283268089",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731376240211,
-                "MZ_INDEXER": 1739508334600
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 100,
-                "genreName": "Card",
-                "genre": 7005,
-                "chart": "top-paid",
-                "genreShortName": "Card"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 2,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                1,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "2.0 stars"
-        },
-        "genreDisplayName": "Card",
-        "name": "Solitaire Forever",
-        "isPreorder": false,
-        "artistName": "Solitaire Forever",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=299000&salableAdamId=283268086&pricingParameters=STDQ&pg=default&appExtVrsId=833217255",
-                        "type": "buy",
-                        "priceFormatted": "₹ 299",
-                        "price": 299,
-                        "currencyCode": "INR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 27292672
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=283268086&pricingParameters=SWUPD&pg=default&appExtVrsId=833217255",
-                        "type": "update",
-                        "priceFormatted": "₹ 0",
-                        "price": 0,
-                        "currencyCode": "INR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 27292672
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2019-02-03",
-                "hasInAppPurchases": false,
-                "bundleId": "com.solitaireforever.SolitaireForever",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/39/1f/fd/391ffd99-aeb6-06a8-6104-1e30eb86244c/AppIcon-SF-0-0-1x_U007emarketing-0-0-0-7-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "90a9c1",
-                    "textColor1": "0e0e0e",
-                    "textColor2": "1d2023",
-                    "textColor3": "282d32",
-                    "textColor4": "343b43"
-                },
-                "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 985,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bf/22/0c/bf220c2c-ba6d-df5f-fb5c-2a8b8d96fcb8/8c54b2db-cb72-4d1a-bac8-9ae9e8b7741c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "ececec",
-                        "textColor2": "cdcdcd",
-                        "textColor3": "bcbcbc",
-                        "textColor4": "a4a4a4"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 985,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/74/52/c5/7452c527-f1ad-8341-ee2d-869278222df8/5f0f30fd-7937-49f6-b2bd-2854aef61773.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575a60",
-                        "textColor1": "f2f4f5",
-                        "textColor2": "e9eef6",
-                        "textColor3": "d3d5d7",
-                        "textColor4": "ccd0d8"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/c0/da/49/c0da49fe-c07e-116f-0619-02fc3283c631/e8f77579-8a79-4b3d-8a08-1dd0a7f102aa.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
-                "subtitle": "Over 150 Solitaire Games",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

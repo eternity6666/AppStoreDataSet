@@ -91,8 +91,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-03-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.triactivemedia.bwphoto",
@@ -113,7 +113,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -156,7 +156,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Black & White Photography",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -218,8 +218,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "DocScanner - Scan Documents, Receipts, Biz Cards",
         "genreDisplayName": "Business",
+        "name": "DocScanner - Scan Documents, Receipts, Biz Cards",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Abhay Vala",
@@ -254,8 +254,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-12-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.abhayraj.DocScanner",
@@ -277,7 +277,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -310,6 +309,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -379,8 +379,8 @@
         "genreDisplayName": "Magazines & Newspapers",
         "name": "Navakatha Potha",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "SIMATO VAS SOLUTIONS (PRIVATE) LIMITED",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -431,10 +431,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 788,
@@ -467,6 +466,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -565,8 +565,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-03-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.triactivemedia.outdoorphotography",
@@ -584,11 +584,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -621,6 +619,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Inspirational Wild Photography",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -683,8 +683,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Woodcarving Magazine",
         "genreDisplayName": "Reference",
+        "name": "Woodcarving Magazine",
         "isPreorder": false,
         "artistName": "Guild of Master Craftsman Publications Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -724,8 +724,8 @@
                 "releaseDate": "2011-05-16",
                 "hasInAppPurchases": true,
                 "bundleId": "com.triactivemedia.woodcarve",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -773,8 +773,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -836,11 +836,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Knitting Magazine",
         "genreDisplayName": "Lifestyle",
+        "name": "Knitting Magazine",
         "isPreorder": false,
-        "artistName": "Guild of Master Craftsman Publications Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Guild of Master Craftsman Publications Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -877,8 +877,8 @@
                 "releaseDate": "2011-03-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.triactivemedia.knitting",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -891,9 +891,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 996,
@@ -926,8 +928,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -949,7 +949,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739485077837,
+                "MZ_INDEXER": 1739909303519,
                 "RTCI": 1737896218706
             }
         },
@@ -1030,8 +1030,8 @@
                 "releaseDate": "2012-06-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.triactivemedia.prehistoric",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1047,6 +1047,7 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1079,7 +1080,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1177,8 +1177,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-05-16",
                 "hasInAppPurchases": true,
                 "bundleId": "com.triactivemedia.furnmake",
@@ -1196,11 +1196,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1233,6 +1231,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1294,11 +1294,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Woodworking Crafts Magazine",
         "genreDisplayName": "Reference",
+        "name": "Woodworking Crafts Magazine",
         "isPreorder": false,
-        "artistName": "Guild of Master Craftsman Publications Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Guild of Master Craftsman Publications Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1330,13 +1330,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-04-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.triactivemedia.woodw",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1349,9 +1349,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1384,7 +1385,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1450,8 +1450,8 @@
         "genreDisplayName": "Reference",
         "name": "The Globe & Laurel",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "The Globe & Laurel Magazine",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1488,8 +1488,8 @@
                 "releaseDate": "2014-03-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.btconnect.GlobenLaurel",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1502,10 +1502,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1538,6 +1537,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1641,8 +1641,8 @@
                 "releaseDate": "2013-05-14",
                 "hasInAppPurchases": true,
                 "bundleId": "au.com.smarterapps.hoofbeats",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1659,6 +1659,7 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1062,
@@ -1691,7 +1692,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

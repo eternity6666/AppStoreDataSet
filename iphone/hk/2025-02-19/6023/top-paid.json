@@ -1,6 +1,158 @@
 [
     {
         "kind": "app",
+        "id": "1238253310",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "869844210",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738959448261,
+                "MZ_INDEXER": 1739507736406
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 1,
+                "genreName": "美食佳飲",
+                "genre": 6023,
+                "chart": "top-paid",
+                "genreShortName": "美食佳飲"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.8,
+            "ratingCount": 177,
+            "ratingCountList": [
+                4,
+                2,
+                5,
+                2,
+                164
+            ],
+            "ariaLabelForRatings": "4.8 粒星"
+        },
+        "genreDisplayName": "美食佳飲",
+        "name": "宝宝辅食大全",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "森 袁",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=8000&salableAdamId=1238253310&pricingParameters=STDQ&pg=default&appExtVrsId=864858896",
+                        "type": "buy",
+                        "priceFormatted": "HK$ 8.00",
+                        "price": 8,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 25421824
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1238253310&pricingParameters=SWUPD&pg=default&appExtVrsId=864858896",
+                        "type": "update",
+                        "priceFormatted": "HK$ 0.00",
+                        "price": 0,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 25421824
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2017-05-24",
+                "hasInAppPurchases": true,
+                "bundleId": "com.jack.BaoBaoFuShi",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f1/aa/faf1aa9e-2ee2-c0ed-ca6a-6e8d184e0f78/AppIcon-0-0-1x_U007epad-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "bd3437",
+                    "textColor1": "fff9fb",
+                    "textColor2": "feb9be",
+                    "textColor3": "f1d1d3",
+                    "textColor4": "f19ea3"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "accelerometer arm64 opengles-1 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1256,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/90/01/44/900144b3-fdfd-f878-d169-3f479df1c516/f5381b70-8347-4ba0-96c8-71de7eca69ed.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1256,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/02/6a/ca/026acafe-8d69-b134-775f-b258dd2d3ec6/c5c6c7a6-1df6-4c6b-9419-9c20e8cba548.png/{w}x{h}{c}.{f}",
+                        "bgColor": "565b60",
+                        "textColor1": "32c9ff",
+                        "textColor2": "32c9ff",
+                        "textColor3": "3ab3df",
+                        "textColor4": "3ab3df"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7c/42/1b/7c421bb1-d140-ef54-5222-d879810e4653/cd716ae7-096c-401b-9501-b55ca47e8be6.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "1303222868",
         "type": "apps",
         "relationships": {
@@ -39,7 +191,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 1,
+                "position": 2,
                 "genreName": "美食佳飲",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -60,8 +212,8 @@
             "ariaLabelForRatings": "4.7 粒星"
         },
         "watchBundleId": "com.hindsightlabs.paprika.ios.v3.watchkit",
-        "name": "Paprika Recipe Manager 3",
         "genreDisplayName": "美食佳飲",
+        "name": "Paprika Recipe Manager 3",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Hindsight Labs LLC",
@@ -102,8 +254,8 @@
                 "releaseDate": "2017-11-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hindsightlabs.paprika.ios.v3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -119,7 +271,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -163,6 +314,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -212,7 +364,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "美食佳飲",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -232,8 +384,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "云味随食 StomaCloud - 每餐发现不一样的惊喜",
         "genreDisplayName": "美食佳飲",
+        "name": "云味随食 StomaCloud - 每餐发现不一样的惊喜",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "昊洋 孙",
@@ -273,8 +425,8 @@
                 "releaseDate": "2023-08-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.miuGrey.YunweiSuishi",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -290,7 +442,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -324,158 +475,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1238253310",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "869844210",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738959448261,
-                "MZ_INDEXER": 1739507736406
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 3,
-                "genreName": "美食佳飲",
-                "genre": 6023,
-                "chart": "top-paid",
-                "genreShortName": "美食佳飲"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.8,
-            "ratingCount": 177,
-            "ratingCountList": [
-                4,
-                2,
-                5,
-                2,
-                164
-            ],
-            "ariaLabelForRatings": "4.8 粒星"
-        },
-        "name": "宝宝辅食大全",
-        "genreDisplayName": "美食佳飲",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "森 袁",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=8000&salableAdamId=1238253310&pricingParameters=STDQ&pg=default&appExtVrsId=864858896",
-                        "type": "buy",
-                        "priceFormatted": "HK$ 8.00",
-                        "price": 8,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 25421824
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1238253310&pricingParameters=SWUPD&pg=default&appExtVrsId=864858896",
-                        "type": "update",
-                        "priceFormatted": "HK$ 0.00",
-                        "price": 0,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 25421824
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2017-05-24",
-                "hasInAppPurchases": true,
-                "bundleId": "com.jack.BaoBaoFuShi",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/f1/aa/faf1aa9e-2ee2-c0ed-ca6a-6e8d184e0f78/AppIcon-0-0-1x_U007epad-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "bd3437",
-                    "textColor1": "fff9fb",
-                    "textColor2": "feb9be",
-                    "textColor3": "f1d1d3",
-                    "textColor4": "f19ea3"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "accelerometer arm64 opengles-1 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1256,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/90/01/44/900144b3-fdfd-f878-d169-3f479df1c516/f5381b70-8347-4ba0-96c8-71de7eca69ed.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1256,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/02/6a/ca/026acafe-8d69-b134-775f-b258dd2d3ec6/c5c6c7a6-1df6-4c6b-9419-9c20e8cba548.png/{w}x{h}{c}.{f}",
-                        "bgColor": "565b60",
-                        "textColor1": "32c9ff",
-                        "textColor2": "32c9ff",
-                        "textColor3": "3ab3df",
-                        "textColor4": "3ab3df"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7c/42/1b/7c421bb1-d140-ef54-5222-d879810e4653/cd716ae7-096c-401b-9501-b55ca47e8be6.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -537,8 +537,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Kitchen Stock",
         "genreDisplayName": "美食佳飲",
+        "name": "Kitchen Stock",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Omni-Soft, Inc.",
@@ -578,8 +578,8 @@
                 "releaseDate": "2021-03-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Omni-Soft.KitchenStock",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -595,7 +595,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -629,6 +628,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -651,7 +651,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738962785855,
-                "MZ_INDEXER": 1739550078954
+                "MZ_INDEXER": 1739911992130
             }
         },
         "supportsArcade": false,
@@ -690,8 +690,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "实用家常菜谱大全",
         "genreDisplayName": "美食佳飲",
+        "name": "实用家常菜谱大全",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Xiaofei Tang",
@@ -731,8 +731,8 @@
                 "releaseDate": "2009-05-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.learnw.crecipes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -747,7 +747,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -781,6 +780,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -841,8 +841,8 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "name": "Forks Plant-Based Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "Forks Plant-Based Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Forks Over Knives, LLC",
@@ -882,8 +882,8 @@
                 "releaseDate": "2014-08-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.forksoverknives.forks",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -899,7 +899,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -953,6 +952,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1017,8 +1017,8 @@
         },
         "firstVersionSupportingInAppPurchaseApi": "5.28",
         "watchBundleId": "com.nibbleapps.FitMenCook.watchkitapp",
-        "name": "FitMenCook - Healthy Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "FitMenCook - Healthy Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Nibble Apps Ltd",
@@ -1059,6 +1059,8 @@
                 "releaseDate": "2015-05-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.nibbleapps.FitMenCook",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -1069,8 +1071,6 @@
                     "textColor3": "42231e",
                     "textColor4": "42231e"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1086,7 +1086,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -1170,10 +1169,11 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "加入 25 個全新食譜"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -1205,7 +1205,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731379796166,
-                "MZ_INDEXER": 1739547188490
+                "MZ_INDEXER": 1739908832239
             }
         },
         "supportsArcade": false,
@@ -1245,8 +1245,8 @@
             "ariaLabelForRatings": "4.8 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.2.1",
-        "name": "Oh She Glows",
         "genreDisplayName": "美食佳飲",
+        "name": "Oh She Glows",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Glo Bakery Corporation",
@@ -1286,8 +1286,8 @@
                 "releaseDate": "2016-04-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.globakeryco.ohsheglows",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1303,7 +1303,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -1367,10 +1366,11 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "炮製最好味的素食菜式"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1435,8 +1435,8 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "name": "Wine Maps",
         "genreDisplayName": "美食佳飲",
+        "name": "Wine Maps",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jonathan Lord",
@@ -1476,8 +1476,8 @@
                 "releaseDate": "2012-08-28",
                 "hasInAppPurchases": true,
                 "bundleId": "co.uk.thunderbluff.Wine-Maps",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1493,7 +1493,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1527,6 +1526,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1587,8 +1587,8 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "name": "坐月子食譜",
         "genreDisplayName": "美食佳飲",
+        "name": "坐月子食譜",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Dennis Ko",
@@ -1628,8 +1628,8 @@
                 "releaseDate": "2015-01-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.greedyplay.postnatalRecipe",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1645,7 +1645,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1679,6 +1678,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1741,8 +1741,8 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "name": "Fromage",
         "genreDisplayName": "美食佳飲",
+        "name": "Fromage",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Steve Welch",
@@ -1781,8 +1781,8 @@
                 "releaseDate": "2008-12-04",
                 "hasInAppPurchases": false,
                 "bundleId": "3EKA4Q3X7Q.Fromage",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1798,7 +1798,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1832,6 +1831,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1854,7 +1854,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731381547487,
-                "MZ_INDEXER": 1739482455418
+                "MZ_INDEXER": 1739909022678
             }
         },
         "supportsArcade": false,
@@ -1896,8 +1896,8 @@
             ],
             "ariaLabelForRatings": "3.4 粒星"
         },
-        "name": "The Great Coffee App",
         "genreDisplayName": "美食佳飲",
+        "name": "The Great Coffee App",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Baglan Dosmagambetov",
@@ -1937,8 +1937,8 @@
                 "releaseDate": "2012-09-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mobicreators.GreatCoffeeApp",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1954,7 +1954,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1998,10 +1997,11 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "來自專家的沖泡指南，以橫切面剖析咖啡層次，配合影片解構沖泡竅妙。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -2062,8 +2062,8 @@
             ],
             "ariaLabelForRatings": "4.3 粒星"
         },
-        "name": "Sous Vide °Celsius",
         "genreDisplayName": "美食佳飲",
+        "name": "Sous Vide °Celsius",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jonas Frei",
@@ -2103,8 +2103,8 @@
                 "releaseDate": "2011-02-16",
                 "hasInAppPurchases": false,
                 "bundleId": "ch.eatthis.celsius",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2120,7 +2120,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2154,6 +2153,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2176,7 +2176,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1737399140724,
-                "MZ_INDEXER": 1739549782735
+                "MZ_INDEXER": 1739909244303
             }
         },
         "supportsArcade": false,
@@ -2218,8 +2218,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "iBartender Cocktail Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "iBartender Cocktail Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kevin Kozan",
@@ -2259,8 +2259,8 @@
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.droidspot.ibartender",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2276,7 +2276,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2310,6 +2309,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2375,8 +2375,8 @@
             "ariaLabelForRatings": "4.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "12.0",
-        "name": "Wine Vintages Rating Guide",
         "genreDisplayName": "美食佳飲",
+        "name": "Wine Vintages Rating Guide",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "VinoMobile",
@@ -2416,8 +2416,8 @@
                 "releaseDate": "2009-08-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.avinis.VinoAges",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2433,7 +2433,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2467,6 +2466,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2489,7 +2489,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738951269164,
-                "MZ_INDEXER": 1739482387470
+                "MZ_INDEXER": 1739906439101
             }
         },
         "supportsArcade": false,
@@ -2530,8 +2530,8 @@
             "ariaLabelForRatings": "4.1 粒星"
         },
         "watchBundleId": "com.PomegranateSoftware.MyFood.watchkitapp",
-        "name": "Nutrients - Nutrition Facts",
         "genreDisplayName": "美食佳飲",
+        "name": "Nutrients - Nutrition Facts",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Pomegranate Apps LLC",
@@ -2572,8 +2572,8 @@
                 "releaseDate": "2010-10-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.PomegranateSoftware.MyFood",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2589,7 +2589,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2623,6 +2622,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -2655,7 +2655,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739105190934,
-                "MZ_INDEXER": 1739544015048
+                "MZ_INDEXER": 1739925790595
             }
         },
         "supportsArcade": false,
@@ -2697,8 +2697,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Jason Vale’s 7-Day Juice Diet",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s 7-Day Juice Diet",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -2738,8 +2738,8 @@
                 "releaseDate": "2011-01-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.juicemaster.7lbsIn7Days",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2755,7 +2755,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2789,6 +2788,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2853,8 +2853,8 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "name": "VinoCell - wine cellar manager",
         "genreDisplayName": "美食佳飲",
+        "name": "VinoCell - wine cellar manager",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "VinoDev",
@@ -2894,8 +2894,8 @@
                 "releaseDate": "2012-06-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pixyapps.Vinicava",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2911,7 +2911,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2945,6 +2944,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3005,8 +3005,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "すし手帳",
         "genreDisplayName": "美食佳飲",
+        "name": "すし手帳",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Ea, Inc.",
@@ -3046,8 +3046,8 @@
                 "releaseDate": "2010-06-16",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.eainc.sushi.jlogos",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3062,7 +3062,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3096,6 +3095,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3161,8 +3161,8 @@
         },
         "firstVersionSupportingInAppPurchaseApi": "3.3",
         "watchBundleId": "com.matovsky.HEWLen.watchkitapp",
-        "name": "ROMAN: 進食計畫、減肥、減脂一體化。體重管理。",
         "genreDisplayName": "美食佳飲",
+        "name": "ROMAN: 進食計畫、減肥、減脂一體化。體重管理。",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Roman Kuryanov",
@@ -3202,6 +3202,8 @@
                 "releaseDate": "2018-08-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.matovsky.HEWLen",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -3212,8 +3214,6 @@
                     "textColor3": "0d1e23",
                     "textColor4": "15282b"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3229,7 +3229,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3263,6 +3262,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "輕鬆達成理想的健康減重目標，搭配飲食指南和身體塑造建議",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -3336,8 +3336,8 @@
             "ariaLabelForRatings": "4.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.7.8",
-        "name": "Hippie Lane",
         "genreDisplayName": "美食佳飲",
+        "name": "Hippie Lane",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Hippie Lane",
@@ -3377,8 +3377,8 @@
                 "releaseDate": "2015-01-18",
                 "hasInAppPurchases": true,
                 "bundleId": "au.com.hippielane.app.HippieLane",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3393,7 +3393,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3447,6 +3446,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3511,8 +3511,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Get Juiced",
         "genreDisplayName": "美食佳飲",
+        "name": "Get Juiced",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Burleigh Creative",
@@ -3552,8 +3552,8 @@
                 "releaseDate": "2014-10-16",
                 "hasInAppPurchases": false,
                 "bundleId": "burleigh-labs.Get-Juiced",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3569,7 +3569,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3603,6 +3602,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3663,8 +3663,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Maja Vase",
         "genreDisplayName": "美食佳飲",
+        "name": "Maja Vase",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Jakob Ambeck Vase",
@@ -3704,8 +3704,8 @@
                 "releaseDate": "2019-04-14",
                 "hasInAppPurchases": false,
                 "bundleId": "org.jakobambeckvase.MajaVase",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3721,7 +3721,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3755,6 +3754,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3815,8 +3815,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "AeroPress Timer",
         "genreDisplayName": "美食佳飲",
+        "name": "AeroPress Timer",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Beloved Robot, LLC",
@@ -3856,8 +3856,8 @@
                 "releaseDate": "2013-03-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.belovedrobot.aeropresstimer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3873,7 +3873,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3907,6 +3906,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3967,8 +3967,8 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "name": "Food Guide",
         "genreDisplayName": "美食佳飲",
+        "name": "Food Guide",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "ditter.projektagentur GmbH",
@@ -4008,8 +4008,8 @@
                 "releaseDate": "2009-10-20",
                 "hasInAppPurchases": false,
                 "bundleId": "net.ditter.FoodGuide",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4025,7 +4025,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4059,6 +4058,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4120,8 +4120,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Love, Manuela",
         "genreDisplayName": "美食佳飲",
+        "name": "Love, Manuela",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Passion For Baking AS",
@@ -4161,8 +4161,8 @@
                 "releaseDate": "2020-04-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ios.LoveManuellas",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4178,7 +4178,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4212,6 +4211,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4276,8 +4276,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Food Additives 2",
         "genreDisplayName": "美食佳飲",
+        "name": "Food Additives 2",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "IGRASS PTY LTD",
@@ -4317,8 +4317,8 @@
                 "releaseDate": "2019-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.webartisan.FoodAdditives",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4334,7 +4334,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4368,6 +4367,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4429,8 +4429,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Jason Vale’s Super Juice Me!",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s Super Juice Me!",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -4470,8 +4470,8 @@
                 "releaseDate": "2014-04-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superJuiceMe",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4487,7 +4487,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4541,6 +4540,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4607,8 +4607,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "watchBundleId": "com.nibbleapps.Krautkopf.watchkitapp",
-        "name": "Krautkopf",
         "genreDisplayName": "美食佳飲",
+        "name": "Krautkopf",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Nibble Apps Ltd",
@@ -4649,8 +4649,8 @@
                 "releaseDate": "2016-08-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nibbleapps.Krautkopf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4666,7 +4666,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4720,6 +4719,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -4794,8 +4794,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "Jason Vale’s 5-Day Juice Diet",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s 5-Day Juice Diet",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -4835,8 +4835,8 @@
                 "releaseDate": "2013-03-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.fiveDayDetox",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4852,7 +4852,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4886,6 +4885,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4908,7 +4908,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739105190932,
-                "MZ_INDEXER": 1739483060431
+                "MZ_INDEXER": 1739909005212
             }
         },
         "supportsArcade": false,
@@ -4950,8 +4950,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Jason Vale’s 3-Day Juice Diet",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s 3-Day Juice Diet",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -4991,8 +4991,8 @@
                 "releaseDate": "2012-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.three-day-detox",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5008,7 +5008,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5042,6 +5041,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5103,8 +5103,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "到期日期檢查器",
         "genreDisplayName": "美食佳飲",
+        "name": "到期日期檢查器",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sunil Bhagane",
@@ -5144,8 +5144,8 @@
                 "releaseDate": "2023-02-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sunil.ExpiryDateChecker",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5161,7 +5161,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5194,6 +5193,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "到期的提醒食品組織者",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5255,8 +5255,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Maunika's Indian Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "Maunika's Indian Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Maunika Gowardhan",
@@ -5296,8 +5296,8 @@
                 "releaseDate": "2018-01-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.phonegap.maunika-gowardhan",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5313,7 +5313,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5347,6 +5346,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5411,8 +5411,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "Substitutions",
         "genreDisplayName": "美食佳飲",
+        "name": "Substitutions",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Gormaya",
@@ -5452,8 +5452,8 @@
                 "releaseDate": "2010-05-20",
                 "hasInAppPurchases": false,
                 "bundleId": "JWTDFGKG9X.com.gormaya.substitutions",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5469,7 +5469,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5523,6 +5522,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5584,8 +5584,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Baby Led Kitchen",
         "genreDisplayName": "美食佳飲",
+        "name": "Baby Led Kitchen",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "fluffyegg",
@@ -5625,8 +5625,8 @@
                 "releaseDate": "2018-08-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.babyledkitchen",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5642,7 +5642,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5676,6 +5675,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5736,8 +5736,8 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "name": "VST CoffeeTools PRO for iPhone",
         "genreDisplayName": "美食佳飲",
+        "name": "VST CoffeeTools PRO for iPhone",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "VST",
@@ -5777,8 +5777,8 @@
                 "releaseDate": "2015-12-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vst.coffeetools",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5794,7 +5794,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5828,6 +5827,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5889,8 +5889,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Green Smoothies by Young & Raw",
         "genreDisplayName": "美食佳飲",
+        "name": "Green Smoothies by Young & Raw",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Nibble Apps Ltd",
@@ -5930,8 +5930,8 @@
                 "releaseDate": "2014-04-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fatburningman.smoothiechallenge",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5947,7 +5947,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6001,6 +6000,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6023,7 +6023,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739426263326,
-                "MZ_INDEXER": 1739830022450
+                "MZ_INDEXER": 1739912014728
             }
         },
         "supportsArcade": false,
@@ -6064,8 +6064,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "DreamCocktail",
         "genreDisplayName": "美食佳飲",
+        "name": "DreamCocktail",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dreamonline,inc.",
@@ -6105,8 +6105,8 @@
                 "releaseDate": "2009-03-27",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.dreamonline.DreamCocktail",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6122,7 +6122,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6156,6 +6155,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6217,8 +6217,8 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "name": "The Tea App: 關於茶的應用程序",
         "genreDisplayName": "美食佳飲",
+        "name": "The Tea App: 關於茶的應用程序",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Baglan Dosmagambetov",
@@ -6258,8 +6258,8 @@
                 "releaseDate": "2016-10-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobicreators.Tea",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6275,7 +6275,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6319,6 +6318,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6380,8 +6380,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Catador Cupping",
         "genreDisplayName": "美食佳飲",
+        "name": "Catador Cupping",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Softlogic, S.A.",
@@ -6421,8 +6421,8 @@
                 "releaseDate": "2012-05-22",
                 "hasInAppPurchases": true,
                 "bundleId": "cs.com.gt.catador",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6438,7 +6438,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6472,6 +6471,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6536,8 +6536,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "BeerSmith Mobile Home Brewing",
         "genreDisplayName": "美食佳飲",
+        "name": "BeerSmith Mobile Home Brewing",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "BeerSmith LLC",
@@ -6577,8 +6577,8 @@
                 "releaseDate": "2013-05-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.beersmith.beersmith2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6594,7 +6594,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6628,6 +6627,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6650,7 +6650,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731352313968,
-                "MZ_INDEXER": 1739549415782
+                "MZ_INDEXER": 1739925327047
             }
         },
         "supportsArcade": false,
@@ -6689,8 +6689,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "放大鏡 + 手電筒 (Magnifier + Torch)",
         "genreDisplayName": "美食佳飲",
+        "name": "放大鏡 + 手電筒 (Magnifier + Torch)",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "RV AppStudios LLC",
@@ -6730,8 +6730,8 @@
                 "releaseDate": "2014-07-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iTankster.MagnifyGlassPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6747,7 +6747,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6781,6 +6780,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "最快的LED手電筒放大鏡",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6847,8 +6847,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "PDT Cocktails",
         "genreDisplayName": "美食佳飲",
+        "name": "PDT Cocktails",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Doudoroff LLC",
@@ -6888,8 +6888,8 @@
                 "releaseDate": "2015-03-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doudoroff.pdt",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6905,7 +6905,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6939,6 +6938,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7000,8 +7000,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Jason Vale’s 5:2 Juice Diet",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s 5:2 Juice Diet",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -7041,8 +7041,8 @@
                 "releaseDate": "2015-02-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.fiveTwoDiet",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7058,7 +7058,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7092,6 +7091,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7153,8 +7153,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Roastmaster",
         "genreDisplayName": "美食佳飲",
+        "name": "Roastmaster",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Rainfrog, Inc.",
@@ -7194,8 +7194,8 @@
                 "releaseDate": "2010-06-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.rainfroginc.roastmaster",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7211,7 +7211,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7245,6 +7244,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7310,8 +7310,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Cocktail Party: Drink Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "Cocktail Party: Drink Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Cooper Bold Interactive",
@@ -7351,8 +7351,8 @@
                 "releaseDate": "2014-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cooperbold.cocktailparty",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7368,7 +7368,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7402,6 +7401,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7462,8 +7462,8 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "name": "Ratio",
         "genreDisplayName": "美食佳飲",
+        "name": "Ratio",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Ruhlman Enterprises, Inc.",
@@ -7503,8 +7503,8 @@
                 "releaseDate": "2009-12-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wubbahed.ratio",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7520,7 +7520,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7554,6 +7553,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7614,8 +7614,8 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "name": "Steak Master - Perfekte Steaks",
         "genreDisplayName": "美食佳飲",
+        "name": "Steak Master - Perfekte Steaks",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mirko Müller",
@@ -7655,8 +7655,8 @@
                 "releaseDate": "2010-10-16",
                 "hasInAppPurchases": false,
                 "bundleId": "de.tipps-tricks-kniffe.steakmaker",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7671,7 +7671,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7715,6 +7714,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7737,7 +7737,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739813521335,
-                "MZ_INDEXER": 1739839162234
+                "MZ_INDEXER": 1739912871631
             }
         },
         "supportsArcade": false,
@@ -7776,8 +7776,8 @@
             ],
             "ariaLabelForRatings": "4.9 粒星"
         },
-        "name": "美食杰VIP-视频菜谱大全",
         "genreDisplayName": "美食佳飲",
+        "name": "美食杰VIP-视频菜谱大全",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Beijing MeiShiJie Information Technology Co.,Ltd.",
@@ -7817,8 +7817,8 @@
                 "releaseDate": "2012-02-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.xmobileapp.meishijielocal",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7834,7 +7834,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7868,6 +7867,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7929,8 +7929,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "KitchenPad® Timer",
         "genreDisplayName": "美食佳飲",
+        "name": "KitchenPad® Timer",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Stehlik & Co Ltd",
@@ -7970,8 +7970,8 @@
                 "releaseDate": "2010-11-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.prativo.kpt",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7986,7 +7986,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8030,6 +8029,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8089,8 +8089,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "My Fussy Eater",
         "genreDisplayName": "美食佳飲",
+        "name": "My Fussy Eater",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Ciara Mullan",
@@ -8130,8 +8130,8 @@
                 "releaseDate": "2018-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.myfussyeater.myfussyeater",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8147,7 +8147,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8181,6 +8180,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.3",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8241,8 +8241,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Ask The Butcher",
         "genreDisplayName": "美食佳飲",
+        "name": "Ask The Butcher",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Vic's Premium Quality Meat",
@@ -8282,8 +8282,8 @@
                 "releaseDate": "2012-03-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vicsmeat.askthebutcher",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8299,7 +8299,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8333,6 +8332,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8397,8 +8397,8 @@
             "ariaLabelForRatings": "3.8 粒星"
         },
         "watchBundleId": "com.mobicreators.Drinks.watchkitapp",
-        "name": "The Great Tea App",
         "genreDisplayName": "美食佳飲",
+        "name": "The Great Tea App",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Baglan Dosmagambetov",
@@ -8439,8 +8439,8 @@
                 "releaseDate": "2020-03-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobicreators.Drinks",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8456,7 +8456,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8500,11 +8499,12 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Wield gaiwans with confidence!",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "結合教學影片，掌握沏茶之道"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -8578,8 +8578,8 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "name": "我的私房菜-早餐 食譜 廚房 料理 美食 烹飪 做菜 筆記",
         "genreDisplayName": "美食佳飲",
+        "name": "我的私房菜-早餐 食譜 廚房 料理 美食 烹飪 做菜 筆記",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Chi Kau Wan",
@@ -8619,8 +8619,8 @@
                 "releaseDate": "2020-02-04",
                 "hasInAppPurchases": true,
                 "bundleId": "hk.com.medinfo.CookingRecipe",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8636,7 +8636,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8670,6 +8669,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "單位換算 計時器 記事本 烹飪日記 廚師 煮飯 飲食記錄",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8693,7 +8693,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731370175517,
-                "MZ_INDEXER": 1739549700212
+                "MZ_INDEXER": 1739911378234
             }
         },
         "supportsArcade": false,
@@ -8735,8 +8735,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "5:2 Fast Diet Calculator, Tracker & Planner",
         "genreDisplayName": "美食佳飲",
+        "name": "5:2 Fast Diet Calculator, Tracker & Planner",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "App Ktchn Ltd",
@@ -8776,8 +8776,8 @@
                 "releaseDate": "2013-09-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.janakshah.52fastdiet",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8793,7 +8793,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8827,6 +8826,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8890,8 +8890,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "WineUni",
         "genreDisplayName": "美食佳飲",
+        "name": "WineUni",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jakub Jurkiewicz",
@@ -8931,8 +8931,8 @@
                 "releaseDate": "2017-05-16",
                 "hasInAppPurchases": false,
                 "bundleId": "pl.czerwoneczybiale.wineuni",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8948,7 +8948,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8982,6 +8981,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9048,8 +9048,8 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "watchBundleId": "com.fatburningman.cavemanfeast.watchkitapp",
-        "name": "Caveman Feast - Paleo Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "Caveman Feast - Paleo Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Nibble Apps Ltd",
@@ -9090,8 +9090,8 @@
                 "releaseDate": "2013-07-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.fatburningman.cavemanfeast",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9107,7 +9107,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9161,6 +9160,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -9234,8 +9234,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "OpenCellar gestion cave à vins",
         "genreDisplayName": "美食佳飲",
+        "name": "OpenCellar gestion cave à vins",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Matthieu DUCROCQ",
@@ -9275,8 +9275,8 @@
                 "releaseDate": "2009-05-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.matthieuducrocq.opencellardist",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9291,7 +9291,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9325,6 +9324,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9387,8 +9387,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.3",
-        "name": "FRYY - Perfect Steak Timer",
         "genreDisplayName": "美食佳飲",
+        "name": "FRYY - Perfect Steak Timer",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Aexol Studio",
@@ -9428,8 +9428,8 @@
                 "releaseDate": "2015-01-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.aexol.fryysteaktimer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9445,7 +9445,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9479,6 +9478,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9540,8 +9540,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Jason Vale’s Soup & Juice Diet",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s Soup & Juice Diet",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -9581,8 +9581,8 @@
                 "releaseDate": "2014-12-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.soupJuiceMe",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9598,7 +9598,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9632,6 +9631,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9696,8 +9696,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Jason Vale’s Super Blend Me!",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s Super Blend Me!",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -9737,8 +9737,8 @@
                 "releaseDate": "2017-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superblend",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9754,7 +9754,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9788,6 +9787,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9854,8 +9854,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "watchBundleId": "com.filibaba.vegourmet.watchkitapp",
-        "name": "Vegourmet",
         "genreDisplayName": "美食佳飲",
+        "name": "Vegourmet",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Filibaba AB",
@@ -9896,8 +9896,8 @@
                 "releaseDate": "2015-08-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.filibaba.vegourmet",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9913,7 +9913,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9967,6 +9966,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -10040,8 +10040,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "watchBundleId": "com.filibaba.veryveggie.watchkitapp",
-        "name": "Very Veggie",
         "genreDisplayName": "美食佳飲",
+        "name": "Very Veggie",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Filibaba AB",
@@ -10082,8 +10082,8 @@
                 "releaseDate": "2017-12-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.filibaba.veryveggie",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10099,7 +10099,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10143,6 +10142,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -10214,8 +10214,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Jason Vale’s Super Fast Food",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s Super Fast Food",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Juice Master",
@@ -10255,8 +10255,8 @@
                 "releaseDate": "2016-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superFastFood",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10272,7 +10272,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10316,6 +10315,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10376,8 +10376,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Food Lover’s Guide to Paris",
         "genreDisplayName": "美食佳飲",
+        "name": "Food Lover’s Guide to Paris",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Food Lovers & Co. Inc",
@@ -10417,8 +10417,8 @@
                 "releaseDate": "2012-04-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.patriciawells.FoodLovers",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10434,7 +10434,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10468,6 +10467,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10531,8 +10531,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "The Recipe Box To Go",
         "genreDisplayName": "美食佳飲",
+        "name": "The Recipe Box To Go",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Kathleen Tafel",
@@ -10572,8 +10572,8 @@
                 "releaseDate": "2012-01-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.corpuscollusion.therecipeboxtogo",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10589,7 +10589,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10623,6 +10622,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10687,8 +10687,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Whisky Rating",
         "genreDisplayName": "美食佳飲",
+        "name": "Whisky Rating",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Klaas Kremer",
@@ -10728,8 +10728,8 @@
                 "releaseDate": "2018-05-25",
                 "hasInAppPurchases": false,
                 "bundleId": "nl.ksoft.Whiskytasting",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10745,7 +10745,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10779,6 +10778,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10839,8 +10839,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "FODMAPLAB: Low FODMAP Diet App",
         "genreDisplayName": "美食佳飲",
+        "name": "FODMAPLAB: Low FODMAP Diet App",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Friebe Mobile",
@@ -10880,8 +10880,8 @@
                 "releaseDate": "2015-06-11",
                 "hasInAppPurchases": false,
                 "bundleId": "Hundredeni.ODMP",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10897,7 +10897,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10931,6 +10930,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10953,7 +10953,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738951511722,
-                "MZ_INDEXER": 1739546334122
+                "MZ_INDEXER": 1739931194124
             }
         },
         "supportsArcade": false,
@@ -10992,8 +10992,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Cook With Me",
         "genreDisplayName": "美食佳飲",
+        "name": "Cook With Me",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "DESIGNX6 LLC",
@@ -11033,8 +11033,8 @@
                 "releaseDate": "2014-12-17",
                 "hasInAppPurchases": false,
                 "bundleId": "designX6.RecipeApp2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11050,7 +11050,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11084,6 +11083,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11145,8 +11145,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Wolfram Culinary Mathematics Reference App",
         "genreDisplayName": "美食佳飲",
+        "name": "Wolfram Culinary Mathematics Reference App",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Wolfram Group LLC",
@@ -11186,8 +11186,8 @@
                 "releaseDate": "2012-10-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wolframalpha.culinarymath",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11202,7 +11202,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11236,6 +11235,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11297,8 +11297,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Rawtarian's Raw Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "Rawtarian's Raw Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Brightflock",
@@ -11338,8 +11338,8 @@
                 "releaseDate": "2012-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brightflock.rawrec",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11354,7 +11354,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11388,6 +11387,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11448,8 +11448,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "100 Lebanese Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "100 Lebanese Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "LebGuide.com",
@@ -11489,8 +11489,8 @@
                 "releaseDate": "2010-12-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lebguide.100lebaneserecipes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11506,7 +11506,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11540,6 +11539,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11601,8 +11601,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Fussy Toddler Recipes",
         "genreDisplayName": "美食佳飲",
+        "name": "Fussy Toddler Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Natalie Peall",
@@ -11642,8 +11642,8 @@
                 "releaseDate": "2017-05-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.significant.Fussy-Toddler-Recipes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11659,7 +11659,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11693,6 +11692,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11758,8 +11758,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Modern Classics",
         "genreDisplayName": "美食佳飲",
+        "name": "Modern Classics",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Doudoroff LLC",
@@ -11799,8 +11799,8 @@
                 "releaseDate": "2016-02-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doudoroff.modern",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11816,7 +11816,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11850,6 +11849,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11872,7 +11872,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731356320880,
-                "MZ_INDEXER": 1739550497770
+                "MZ_INDEXER": 1739918601526
             }
         },
         "supportsArcade": false,
@@ -11913,8 +11913,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Enogea Barolo docg Map",
         "genreDisplayName": "美食佳飲",
+        "name": "Enogea Barolo docg Map",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Alessandro Masnaghetti Editore",
@@ -11954,8 +11954,8 @@
                 "releaseDate": "2011-11-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.enogea.iphone",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11971,7 +11971,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12005,6 +12004,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12067,8 +12067,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "watchBundleId": "com.weagle.igrillmaster.watchkitapp",
-        "name": "GrillTime",
         "genreDisplayName": "美食佳飲",
+        "name": "GrillTime",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Christopher Delvizis",
@@ -12109,8 +12109,8 @@
                 "releaseDate": "2011-02-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.weagle.igrillmaster",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12125,7 +12125,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12159,6 +12158,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -12230,8 +12230,8 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "name": "孕婦食譜大全",
         "genreDisplayName": "美食佳飲",
+        "name": "孕婦食譜大全",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "森 袁",
@@ -12271,8 +12271,8 @@
                 "releaseDate": "2017-06-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jack.MaMaShiPu",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12288,7 +12288,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12321,6 +12320,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12385,8 +12385,8 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "watchBundleId": "com.falldaysoftware.mealplan.watchkitapp",
-        "name": "MealPlan+",
         "genreDisplayName": "美食佳飲",
+        "name": "MealPlan+",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Fall Day Software Inc.",
@@ -12427,8 +12427,8 @@
                 "releaseDate": "2012-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.falldaysoftware.mealplan",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12444,7 +12444,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12488,6 +12487,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -12560,8 +12560,8 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.3",
-        "name": "Ultimate Cookies",
         "genreDisplayName": "美食佳飲",
+        "name": "Ultimate Cookies",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Trellisys.net",
@@ -12601,8 +12601,8 @@
                 "releaseDate": "2013-11-07",
                 "hasInAppPurchases": false,
                 "bundleId": "net.trellisys.papertrell.book81001013039",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12618,7 +12618,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12652,6 +12651,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12715,8 +12715,8 @@
             "ariaLabelForRatings": "3.0 粒星"
         },
         "watchBundleId": "com.bbla.datelimite.watchkitapp",
-        "name": "Date Limite",
         "genreDisplayName": "美食佳飲",
+        "name": "Date Limite",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Loïc SENCE",
@@ -12757,8 +12757,8 @@
                 "releaseDate": "2012-02-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.bbla.datelimite",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12774,7 +12774,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12808,6 +12807,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -12881,8 +12881,8 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "watchBundleId": "com.filibaba.veggiemeals.watchkitapp",
-        "name": "Veggie Meals",
         "genreDisplayName": "美食佳飲",
+        "name": "Veggie Meals",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Filibaba AB",
@@ -12923,8 +12923,8 @@
                 "releaseDate": "2012-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.filibaba.veggiemeals",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12940,7 +12940,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12974,6 +12973,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -13047,8 +13047,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "Wine Cellar",
         "genreDisplayName": "美食佳飲",
+        "name": "Wine Cellar",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Simon Guertin",
@@ -13088,8 +13088,8 @@
                 "releaseDate": "2009-01-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.simonguertin.WineCellar",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13105,7 +13105,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13139,6 +13138,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13199,8 +13199,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Insect Food Scan",
         "genreDisplayName": "美食佳飲",
+        "name": "Insect Food Scan",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Fussy Vegan Pty Ltd",
@@ -13240,8 +13240,8 @@
                 "releaseDate": "2023-11-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fussyvegan.insectfoodscan",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13257,7 +13257,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13291,6 +13290,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13313,7 +13313,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731366977886,
-                "MZ_INDEXER": 1739842805822
+                "MZ_INDEXER": 1739930929690
             }
         },
         "supportsArcade": false,
@@ -13352,8 +13352,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "App for Whole Foods Market",
         "genreDisplayName": "美食佳飲",
+        "name": "App for Whole Foods Market",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "GUNDA GAYATRI",
@@ -13393,8 +13393,8 @@
                 "releaseDate": "2020-01-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appsfactoryid.Whole",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13410,7 +13410,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13444,6 +13443,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13504,8 +13504,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Oystour",
         "genreDisplayName": "美食佳飲",
+        "name": "Oystour",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "4Foodies, LLC",
@@ -13545,8 +13545,8 @@
                 "releaseDate": "2014-09-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.4Foodies.Oystour",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13562,7 +13562,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13596,6 +13595,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13618,7 +13618,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731370469704,
-                "MZ_INDEXER": 1739483194382
+                "MZ_INDEXER": 1739905369865
             }
         },
         "supportsArcade": false,
@@ -13657,8 +13657,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Italian Food Decoder",
         "genreDisplayName": "美食佳飲",
+        "name": "Italian Food Decoder",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Agorite",
@@ -13698,8 +13698,8 @@
                 "releaseDate": "2013-06-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sutromedia.ItalianMenuDecoder-803",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13715,7 +13715,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13749,6 +13748,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13810,8 +13810,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Rawtarian's Raw Meal Plans",
         "genreDisplayName": "美食佳飲",
+        "name": "Rawtarian's Raw Meal Plans",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Brightflock",
@@ -13851,8 +13851,8 @@
                 "releaseDate": "2013-05-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brightflock.rawmeal",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13867,7 +13867,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13901,6 +13900,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13962,8 +13962,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Conversions - Bake & Cook",
         "genreDisplayName": "美食佳飲",
+        "name": "Conversions - Bake & Cook",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Gormaya",
@@ -14003,8 +14003,8 @@
                 "releaseDate": "2010-04-20",
                 "hasInAppPurchases": false,
                 "bundleId": "K6LTK8V6GC.com.gormaya.conversions",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14019,7 +14019,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14073,6 +14072,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14134,8 +14134,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Measuring Cup & Kitchen Scale",
         "genreDisplayName": "美食佳飲",
+        "name": "Measuring Cup & Kitchen Scale",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Klaas Kremer",
@@ -14175,8 +14175,8 @@
                 "releaseDate": "2017-01-16",
                 "hasInAppPurchases": false,
                 "bundleId": "nl.ksoft.jugandscale",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14192,7 +14192,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14226,6 +14225,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14291,8 +14291,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "香哈菜谱VIP-专业的家常菜谱大全 无广告版",
         "genreDisplayName": "美食佳飲",
+        "name": "香哈菜谱VIP-专业的家常菜谱大全 无广告版",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Beijing XiangHa Network Co,.Ltd",
@@ -14332,8 +14332,8 @@
                 "releaseDate": "2016-03-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.xiangha.fufei",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14349,7 +14349,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14383,6 +14382,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14443,8 +14443,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Kitchen Scales",
         "genreDisplayName": "美食佳飲",
+        "name": "Kitchen Scales",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Valgy",
@@ -14484,8 +14484,8 @@
                 "releaseDate": "2013-09-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.valgy.Bilancia",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14501,7 +14501,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14535,6 +14534,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14557,7 +14557,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739223204851,
-                "MZ_INDEXER": 1739486443189
+                "MZ_INDEXER": 1739910597921
             }
         },
         "supportsArcade": false,
@@ -14596,8 +14596,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Insekten Lebensmittel Scanner",
         "genreDisplayName": "美食佳飲",
+        "name": "Insekten Lebensmittel Scanner",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Marcel Bartecki",
@@ -14637,8 +14637,8 @@
                 "releaseDate": "2023-05-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.maba.insektenscanner",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14654,7 +14654,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14688,6 +14687,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14752,8 +14752,8 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "name": "Essential Cocktails",
         "genreDisplayName": "美食佳飲",
+        "name": "Essential Cocktails",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jacket Industries, LLC",
@@ -14793,8 +14793,8 @@
                 "releaseDate": "2021-09-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jacket.cocktailsbysteve",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14810,7 +14810,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14844,6 +14843,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14911,8 +14911,8 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "watchBundleId": "de.foodwithlove.foodwithloveDev.watchkitapp",
-        "name": "food with love: Rezepte",
         "genreDisplayName": "美食佳飲",
+        "name": "food with love: Rezepte",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Food with love",
@@ -14953,8 +14953,8 @@
                 "releaseDate": "2020-04-03",
                 "hasInAppPurchases": true,
                 "bundleId": "de.foodwithlove.foodwithloveDev",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14969,7 +14969,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15012,10 +15011,11 @@
                         "textColor4": "322d30"
                     }
                 },
+                "isXROSCompatible": false,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "煮食靈感泉源"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -15088,8 +15088,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Delipair - Food and Wine",
         "genreDisplayName": "美食佳飲",
+        "name": "Delipair - Food and Wine",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Konrad Jagodzinski",
@@ -15129,8 +15129,8 @@
                 "releaseDate": "2019-12-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.delipair.application",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15146,7 +15146,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15180,6 +15179,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15241,8 +15241,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Jason Vale’s Juice & Blend",
         "genreDisplayName": "美食佳飲",
+        "name": "Jason Vale’s Juice & Blend",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -15282,8 +15282,8 @@
                 "releaseDate": "2019-09-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.juiceblend",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15299,7 +15299,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15333,6 +15332,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15396,8 +15396,8 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.0.7",
-        "name": "CoffeeDice",
         "genreDisplayName": "美食佳飲",
+        "name": "CoffeeDice",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Campion Fellin",
@@ -15436,8 +15436,8 @@
                 "releaseDate": "2017-12-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.campion.CoffeeDice",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15453,7 +15453,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15487,6 +15486,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15547,8 +15547,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "菜谱大全Pro－小白学做家常菜做法必备烹饪助手",
         "genreDisplayName": "美食佳飲",
+        "name": "菜谱大全Pro－小白学做家常菜做法必备烹饪助手",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "优艺互动",
@@ -15588,8 +15588,8 @@
                 "releaseDate": "2016-12-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jnzc.recipebookpro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15605,7 +15605,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15639,6 +15638,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15700,8 +15700,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "中华煲汤大全",
         "genreDisplayName": "美食佳飲",
+        "name": "中华煲汤大全",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Shanghai Yuanhao Information Technology Co., Ltd.",
@@ -15741,8 +15741,8 @@
                 "releaseDate": "2015-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cq.soups",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15758,7 +15758,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15792,6 +15791,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15859,8 +15859,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Beachbum Berry’s Total Tiki",
         "genreDisplayName": "美食佳飲",
+        "name": "Beachbum Berry’s Total Tiki",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Doudoroff LLC",
@@ -15900,8 +15900,8 @@
                 "releaseDate": "2014-04-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doudoroff.tiki3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15917,7 +15917,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15951,6 +15950,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

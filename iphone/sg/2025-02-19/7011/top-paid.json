@@ -36,10 +36,10 @@
         "chartPositions": {
             "appStore": {
                 "position": 1,
-                "genreName": "Casual",
-                "genre": 7003,
+                "genreName": "Music",
+                "genre": 7011,
                 "chart": "top-paid",
-                "genreShortName": "Casual"
+                "genreShortName": "Music"
             }
         },
         "supportsStreamlinedBuy": true,
@@ -96,8 +96,8 @@
                 "releaseDate": "2013-08-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.robtop.geometryjump",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -110,10 +110,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-1 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -146,7 +147,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -269,10 +269,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -325,352 +326,9 @@
                         "textColor4": "c9c5d3"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Can you hear me?",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Remarkable rhythm action"
-                },
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1361473095",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1593529836",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739515147947,
-                "RTCI": 1737586561862
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "Frequent/Intense Mature/Suggestive Themes",
-                    "Infrequent/Mild Sexual Content and Nudity"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 3,
-                "genreName": "Music",
-                "genre": 7011,
-                "chart": "top-paid",
-                "genreShortName": "Music"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.9,
-            "ratingCount": 189,
-            "ratingCountList": [
-                2,
-                0,
-                3,
-                9,
-                175
-            ],
-            "ariaLabelForRatings": "4.9 stars"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "0.8.7",
-        "genreDisplayName": "Music",
-        "name": "MuseDash",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "HasuHasu Co.,Ltd.",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=3980&salableAdamId=1361473095&pricingParameters=STDQ&pg=default&appExtVrsId=871815860",
-                        "type": "buy",
-                        "priceFormatted": "S$ 3.98",
-                        "price": 3.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1652744192
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1361473095&pricingParameters=SWUPD&pg=default&appExtVrsId=871815860",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1652744192
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2018-06-14",
-                "hasInAppPurchases": true,
-                "bundleId": "com.xd.musedash",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/08/0a/07080a2e-bd17-8f38-172c-26ade7e0b360/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ff0070",
-                    "textColor1": "060008",
-                    "textColor2": "161616",
-                    "textColor3": "38001d",
-                    "textColor4": "451228"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 952,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/99/ec/a4/99eca420-3f0e-2f4b-c81a-a443b9a4db9b/8c224127-256a-4edb-8ad6-2677b8b49a7f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 952,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/c4/2e/fcc42e7e-e709-5e32-9fbb-bcbd6f94419c/b9790994-11cf-44b5-9bb7-424cdae66e52.png/{w}x{h}{c}.{f}",
-                        "bgColor": "70da00",
-                        "textColor1": "041216",
-                        "textColor2": "041216",
-                        "textColor3": "1a3a12",
-                        "textColor4": "1a3a12"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/39/8b/d2/398bd2dd-73cd-bc79-c49b-46598d42f5de/dff97c27-bf37-4c59-aa98-f90f8b9d0c3b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "subscriptionHero": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ef/2c/36/ef2c365b-225e-c966-5f02-9647d4b290b4/mza_4244835542704153829.png/{w}x{h}{c}.{f}",
-                        "bgColor": "9700a0",
-                        "textColor1": "f3d7ec",
-                        "textColor2": "e8b0da",
-                        "textColor3": "e1acdd",
-                        "textColor4": "d78dce"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "CRAZY MUSIC PARKOUR GAME",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "700637744",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "483529071",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739552488575,
-                "RTCI": 1731371996060
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 4,
-                "genreName": "Music",
-                "genre": 7011,
-                "chart": "top-paid",
-                "genreShortName": "Music"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.8,
-            "ratingCount": 219,
-            "ratingCountList": [
-                3,
-                2,
-                6,
-                12,
-                196
-            ],
-            "ariaLabelForRatings": "4.8 stars"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "3.3.1",
-        "genreDisplayName": "Music",
-        "name": "DEEMO",
-        "isPreorder": false,
-        "artistName": "Rayark International Limited",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=2980&salableAdamId=700637744&pricingParameters=STDQ&pg=default&appExtVrsId=857689211",
-                        "type": "buy",
-                        "priceFormatted": "S$ 2.98",
-                        "price": 2.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 2933910528
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=700637744&pricingParameters=SWUPD&pg=default&appExtVrsId=857689211",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 2933910528
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2013-11-13",
-                "hasInAppPurchases": true,
-                "bundleId": "com.rayark.pluto",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9e/f5/71/9ef5716c-d5ae-3cbb-2d85-9cbe57b09559/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "f8de5f",
-                    "textColor2": "feb331",
-                    "textColor3": "c6b14c",
-                    "textColor4": "cb8f27"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 gyroscope ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 952,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/99/ec/a4/99eca420-3f0e-2f4b-c81a-a443b9a4db9b/8c224127-256a-4edb-8ad6-2677b8b49a7f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 952,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/c4/2e/fcc42e7e-e709-5e32-9fbb-bcbd6f94419c/b9790994-11cf-44b5-9bb7-424cdae66e52.png/{w}x{h}{c}.{f}",
-                        "bgColor": "70da00",
-                        "textColor1": "041216",
-                        "textColor2": "041216",
-                        "textColor3": "1a3a12",
-                        "textColor4": "1a3a12"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features111/v4/e3/23/6d/e3236d60-b2e9-1287-e234-de75b20a8735/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "3f331a",
-                        "textColor1": "f6d4b6",
-                        "textColor2": "f8bd78",
-                        "textColor3": "d1b497",
-                        "textColor4": "d3a165"
-                    },
-                    "originalFlowcaseBrick": {
-                        "width": 3200,
-                        "height": 600,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features20/v4/36/6e/46/366e469b-c969-d17d-2469-20379729f1c0/mzm.dalbbfkx.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "e8bd54",
-                        "textColor2": "d5b441",
-                        "textColor3": "b99743",
-                        "textColor4": "aa9034"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/39/8b/d2/398bd2dd-73cd-bc79-c49b-46598d42f5de/dff97c27-bf37-4c59-aa98-f90f8b9d0c3b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
                 },
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -693,7 +351,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739878303432,
+                "MZ_INDEXER": 1739931648621,
                 "RTCI": 1739877962017
             }
         },
@@ -713,7 +371,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 3,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -734,8 +392,8 @@
             "ariaLabelForRatings": "4.6 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "10.0.13",
-        "genreDisplayName": "Music",
         "name": "Cytus",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Rayark International Limited",
@@ -770,13 +428,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-01-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.rayark.Cytus.full",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -792,7 +450,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -855,6 +512,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "editorialNotes": {
                     "tagline": "Show off your rhythm"
                 },
@@ -865,13 +523,13 @@
     },
     {
         "kind": "app",
-        "id": "1584362594",
+        "id": "1361473095",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "608306412",
+                        "id": "1593529836",
                         "type": "developers"
                     }
                 ]
@@ -879,8 +537,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739548615452,
-                "RTCI": 1738959844442
+                "MZ_INDEXER": 1739515147947,
+                "RTCI": 1737586561862
             }
         },
         "supportsArcade": false,
@@ -891,10 +549,8 @@
                 "value": 600,
                 "rank": 4,
                 "advisories": [
-                    "Infrequent/Mild Mature/Suggestive Themes",
-                    "Infrequent/Mild Horror/Fear Themes",
-                    "Infrequent/Mild Sexual Content and Nudity",
-                    "Frequent/Intense Alcohol, Tobacco, or Drug Use or References"
+                    "Frequent/Intense Mature/Suggestive Themes",
+                    "Infrequent/Mild Sexual Content and Nudity"
                 ]
             }
         },
@@ -905,7 +561,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 4,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -914,41 +570,42 @@
         },
         "supportsStreamlinedBuy": true,
         "userRating": {
-            "value": 5,
-            "ratingCount": 1,
+            "value": 4.9,
+            "ratingCount": 189,
             "ratingCountList": [
+                2,
                 0,
-                0,
-                0,
-                0,
-                1
+                3,
+                9,
+                175
             ],
-            "ariaLabelForRatings": "5.0 stars"
+            "ariaLabelForRatings": "4.9 stars"
         },
-        "name": "A Musical Story",
+        "firstVersionSupportingInAppPurchaseApi": "0.8.7",
+        "name": "MuseDash",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Plug In Digital",
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "HasuHasu Co.,Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=6980&salableAdamId=1584362594&pricingParameters=STDQ&pg=default&appExtVrsId=847334722",
+                        "buyParams": "productType=C&price=3980&salableAdamId=1361473095&pricingParameters=STDQ&pg=default&appExtVrsId=871815860",
                         "type": "buy",
-                        "priceFormatted": "S$ 6.98",
-                        "price": 6.98,
+                        "priceFormatted": "S$ 3.98",
+                        "price": 3.98,
                         "currencyCode": "SGD",
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 892682240
+                                "size": 1652744192
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=1584362594&pricingParameters=SWUPD&pg=default&appExtVrsId=847334722",
+                        "buyParams": "productType=C&price=0&salableAdamId=1361473095&pricingParameters=SWUPD&pg=default&appExtVrsId=871815860",
                         "type": "update",
                         "priceFormatted": "S$ 0.00",
                         "price": 0,
@@ -956,34 +613,33 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 892682240
+                                "size": 1652744192
                             }
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
-                "releaseDate": "2022-03-04",
-                "hasInAppPurchases": false,
-                "bundleId": "com.GleeCheeseStudio.MusicalStory",
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2018-06-14",
+                "hasInAppPurchases": true,
+                "bundleId": "com.xd.musedash",
                 "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6b/ee/b9/6beeb909-d47d-d69a-ddcd-b8186f07bf82/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "005e7c",
-                    "textColor1": "f5fbd8",
-                    "textColor2": "bae9dd",
-                    "textColor3": "c4dcc5",
-                    "textColor4": "95cec9"
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/08/0a/07080a2e-bd17-8f38-172c-26ade7e0b360/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ff0070",
+                    "textColor1": "060008",
+                    "textColor2": "161616",
+                    "textColor3": "38001d",
+                    "textColor4": "451228"
                 },
                 "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -1018,19 +674,190 @@
                     "subscriptionHero": {
                         "width": 4320,
                         "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d7/5d/f7/d75df704-1923-d93b-afe9-6e4474d92598/U0gtQVAtV1ctQV9NdXNpY2FsX1N0b3J5LnBuZw.png/{w}x{h}{c}.{f}",
-                        "bgColor": "3d171f",
-                        "textColor1": "ec9d34",
-                        "textColor2": "d68635",
-                        "textColor3": "c57e30",
-                        "textColor4": "b46d30"
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ef/2c/36/ef2c365b-225e-c966-5f02-9647d4b290b4/mza_4244835542704153829.png/{w}x{h}{c}.{f}",
+                        "bgColor": "9700a0",
+                        "textColor1": "f3d7ec",
+                        "textColor2": "e8b0da",
+                        "textColor3": "e1acdd",
+                        "textColor4": "d78dce"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
-                "editorialNotes": {
-                    "tagline": "Explore music memories",
-                    "standard": "Master groovy rhythm puzzles while this wonderfully illustrated tale takes you on a trip through love and loss."
+                "subtitle": "CRAZY MUSIC PARKOUR GAME",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "700637744",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "483529071",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739923070741,
+                "RTCI": 1731371996060
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 5,
+                "genreName": "Music",
+                "genre": 7011,
+                "chart": "top-paid",
+                "genreShortName": "Music"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.8,
+            "ratingCount": 219,
+            "ratingCountList": [
+                3,
+                2,
+                6,
+                12,
+                196
+            ],
+            "ariaLabelForRatings": "4.8 stars"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "3.3.1",
+        "name": "DEEMO",
+        "genreDisplayName": "Music",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Rayark International Limited",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=2980&salableAdamId=700637744&pricingParameters=STDQ&pg=default&appExtVrsId=857689211",
+                        "type": "buy",
+                        "priceFormatted": "S$ 2.98",
+                        "price": 2.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 2933910528
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=700637744&pricingParameters=SWUPD&pg=default&appExtVrsId=857689211",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 2933910528
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2013-11-13",
+                "hasInAppPurchases": true,
+                "bundleId": "com.rayark.pluto",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/9e/f5/71/9ef5716c-d5ae-3cbb-2d85-9cbe57b09559/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "000000",
+                    "textColor1": "f8de5f",
+                    "textColor2": "feb331",
+                    "textColor3": "c6b14c",
+                    "textColor4": "cb8f27"
                 },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 gyroscope ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/99/ec/a4/99eca420-3f0e-2f4b-c81a-a443b9a4db9b/8c224127-256a-4edb-8ad6-2677b8b49a7f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/c4/2e/fcc42e7e-e709-5e32-9fbb-bcbd6f94419c/b9790994-11cf-44b5-9bb7-424cdae66e52.png/{w}x{h}{c}.{f}",
+                        "bgColor": "70da00",
+                        "textColor1": "041216",
+                        "textColor2": "041216",
+                        "textColor3": "1a3a12",
+                        "textColor4": "1a3a12"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features111/v4/e3/23/6d/e3236d60-b2e9-1287-e234-de75b20a8735/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "3f331a",
+                        "textColor1": "f6d4b6",
+                        "textColor2": "f8bd78",
+                        "textColor3": "d1b497",
+                        "textColor4": "d3a165"
+                    },
+                    "originalFlowcaseBrick": {
+                        "width": 3200,
+                        "height": 600,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features20/v4/36/6e/46/366e469b-c969-d17d-2469-20379729f1c0/mzm.dalbbfkx.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "e8bd54",
+                        "textColor2": "d5b441",
+                        "textColor3": "b99743",
+                        "textColor4": "aa9034"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/39/8b/d2/398bd2dd-73cd-bc79-c49b-46598d42f5de/dff97c27-bf37-4c59-aa98-f90f8b9d0c3b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1052,7 +879,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739548753040,
+                "MZ_INDEXER": 1739918435438,
                 "RTCI": 1731845247904
             }
         },
@@ -1071,7 +898,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 6,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -1127,13 +954,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-20",
                 "hasInAppPurchases": true,
                 "bundleId": "com.FlukeDude.TheImpossibleGame",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1148,7 +975,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -1191,12 +1017,13 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Possibly world's hardest game!",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "If you think the concept of simply jumping over objects in an endlessly side-scrolling landscape sounds too basic, think again. This tough-as-nails platformer plays more like a relentless obstacle race, throwing out spikes, pits, and multi-tier pathways that demand impeccable timing to avoid and navigate. Your reflexes and memory will be put to the test."
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1237,7 +1064,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 7,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -1257,11 +1084,11 @@
             ],
             "ariaLabelForRatings": "4.9 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Incredibox",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "So Far So Good",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "So Far So Good",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1293,8 +1120,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2016-03-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sofarsogood.incredibox",
@@ -1312,10 +1139,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -1348,6 +1174,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Pump it up and chill!",
                 "hasSafariExtension": false,
@@ -1394,7 +1221,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 8,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -1415,8 +1242,8 @@
             "ariaLabelForRatings": "4.8 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.4.0",
-        "genreDisplayName": "Music",
         "name": "A Dance of Fire and Ice",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "artistName": "7th Beat Games S.A.C.",
         "isIOSBinaryMacOSCompatible": false,
@@ -1473,7 +1300,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -1506,7 +1333,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "One-button rhythm challenge",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -1556,7 +1383,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 9,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -1577,11 +1404,11 @@
             "ariaLabelForRatings": "4.8 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.7.2",
-        "genreDisplayName": "Music",
         "name": "Lanota - Music game with story",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Noxy Games Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1618,8 +1445,8 @@
                 "releaseDate": "2016-07-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.Noxygames.Lanota",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1632,10 +1459,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -1698,12 +1525,12 @@
                         "textColor4": "6f4531"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "A musical journey awaits",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Fill the world with music"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1744,7 +1571,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 10,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -1805,8 +1632,8 @@
                 "releaseDate": "2017-01-26",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.ongaku2EN",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1823,6 +1650,7 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -1855,7 +1683,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1896,7 +1723,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 11,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -1916,8 +1743,8 @@
             ],
             "ariaLabelForRatings": "1.0 stars"
         },
-        "genreDisplayName": "Family",
         "name": "Giraffe's PreSchool Playground",
+        "genreDisplayName": "Family",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Tomato Interactive LLC",
@@ -1952,8 +1779,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-05-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tomatointeractive.preschoolsafari",
@@ -1974,7 +1801,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -2007,6 +1833,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Kids Have Fun Learning",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2049,7 +1876,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 12,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -2125,10 +1952,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -2161,7 +1989,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2203,7 +2030,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 13,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -2224,11 +2051,11 @@
             "ariaLabelForRatings": "4.5 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.9.6",
-        "genreDisplayName": "Action",
         "name": "Give It Up! - Jump to the Beat",
+        "genreDisplayName": "Action",
         "isPreorder": false,
-        "artistName": "Invictus",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Invictus",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2282,7 +2109,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -2325,7 +2152,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Music Rhythm Games: Tiles hop",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2371,7 +2198,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 14,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -2391,8 +2218,8 @@
             ],
             "ariaLabelForRatings": "4.8 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Rotaeno",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "X.D. Network Inc.",
@@ -2427,8 +2254,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2022-05-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.xd.rotaeno",
@@ -2446,10 +2273,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -2492,6 +2318,7 @@
                         "textColor4": "1b1f2a"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Rotation-Control Rhythm Game",
                 "editorialNotes": {
@@ -2538,7 +2365,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 15,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -2613,9 +2440,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -2668,8 +2497,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2714,7 +2541,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 16,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -2734,11 +2561,11 @@
             ],
             "ariaLabelForRatings": "4.5 stars"
         },
-        "genreDisplayName": "Adventure",
         "name": "The Sailor’s Dream",
+        "genreDisplayName": "Adventure",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Simogo AB",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2775,8 +2602,8 @@
                 "releaseDate": "2014-11-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.simogo.thesailorsdream",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2793,6 +2620,7 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -2845,7 +2673,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "editorialNotes": {
                     "short": "Sail the seas in a meditative, lyrical story-based puzzle experience.",
                     "tagline": "Part-game, part-instrument"
@@ -2891,7 +2718,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 17,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -2915,8 +2742,8 @@
         "name": "Five Little Monkeys",
         "genreDisplayName": "Family",
         "isPreorder": false,
-        "artistName": "LoeschWare",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "LoeschWare",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2969,7 +2796,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -3002,6 +2828,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3047,7 +2874,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 19,
+                "position": 18,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -3067,8 +2894,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Action",
         "name": "Thumper: Pocket Edition",
+        "genreDisplayName": "Action",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Drool LLC",
@@ -3108,8 +2935,8 @@
                 "releaseDate": "2018-01-23",
                 "hasInAppPurchases": false,
                 "bundleId": "ws.drool.thumper",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3126,6 +2953,7 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -3178,7 +3006,6 @@
                         "textColor4": "999ea6"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Rhythm Violence",
                 "editorialNotes": {
                     "tagline": "Robo beetle, bumpin' beats",
@@ -3226,7 +3053,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 20,
+                "position": 19,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -3250,8 +3077,8 @@
         "name": "同步音律",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "秋驰 张",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "秋驰 张",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3305,7 +3132,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -3348,8 +3175,163 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "超萌音乐游戏",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1099554407",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "554717910",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739514166200,
+                "RTCI": 1738953739238
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 20,
+                "genreName": "Music",
+                "genre": 7011,
+                "chart": "top-paid",
+                "genreShortName": "Music"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 5,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "ariaLabelForRatings": "5.0 stars"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "1.8",
+        "genreDisplayName": "Music",
+        "name": "STELLIGHTS",
+        "isPreorder": false,
+        "artistName": "COLLESTA, Inc.",
+        "isIOSBinaryMacOSCompatible": false,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=2980&salableAdamId=1099554407&pricingParameters=STDQ&pg=default&appExtVrsId=827976818",
+                        "type": "buy",
+                        "priceFormatted": "S$ 2.98",
+                        "price": 2.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 787373056
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1099554407&pricingParameters=SWUPD&pg=default&appExtVrsId=827976818",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 787373056
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2017-01-07",
+                "hasInAppPurchases": false,
+                "bundleId": "com.collesta.StellightMusicGame",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/25/f0/c5/25f0c5c8-e78e-f64c-1c32-177cd43a6681/mzl.lgxitrkp.png/{w}x{h}{c}.{f}",
+                    "bgColor": "819dce",
+                    "textColor1": "03060a",
+                    "textColor2": "05070c",
+                    "textColor3": "1c2431",
+                    "textColor4": "1e2533"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/99/ec/a4/99eca420-3f0e-2f4b-c81a-a443b9a4db9b/8c224127-256a-4edb-8ad6-2677b8b49a7f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/c4/2e/fcc42e7e-e709-5e32-9fbb-bcbd6f94419c/b9790994-11cf-44b5-9bb7-424cdae66e52.png/{w}x{h}{c}.{f}",
+                        "bgColor": "70da00",
+                        "textColor1": "041216",
+                        "textColor2": "041216",
+                        "textColor3": "1a3a12",
+                        "textColor4": "1a3a12"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/39/8b/d2/398bd2dd-73cd-bc79-c49b-46598d42f5de/dff97c27-bf37-4c59-aa98-f90f8b9d0c3b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "The most beautiful music game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3468,9 +3450,11 @@
                     "textColor4": "cbdae1"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -3503,8 +3487,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Ultimate music game simulator",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3513,13 +3495,13 @@
     },
     {
         "kind": "app",
-        "id": "1099554407",
+        "id": "1406382064",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "554717910",
+                        "id": "394127428",
                         "type": "developers"
                     }
                 ]
@@ -3527,8 +3509,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739514166200,
-                "RTCI": 1738953739238
+                "MZ_INDEXER": 1739914040844,
+                "RTCI": 1731366032962
             }
         },
         "supportsArcade": false,
@@ -3556,161 +3538,6 @@
         },
         "supportsStreamlinedBuy": true,
         "userRating": {
-            "value": 5,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                1
-            ],
-            "ariaLabelForRatings": "5.0 stars"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "1.8",
-        "genreDisplayName": "Music",
-        "name": "STELLIGHTS",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "COLLESTA, Inc.",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=2980&salableAdamId=1099554407&pricingParameters=STDQ&pg=default&appExtVrsId=827976818",
-                        "type": "buy",
-                        "priceFormatted": "S$ 2.98",
-                        "price": 2.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 787373056
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1099554407&pricingParameters=SWUPD&pg=default&appExtVrsId=827976818",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 787373056
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2017-01-07",
-                "hasInAppPurchases": false,
-                "bundleId": "com.collesta.StellightMusicGame",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/25/f0/c5/25f0c5c8-e78e-f64c-1c32-177cd43a6681/mzl.lgxitrkp.png/{w}x{h}{c}.{f}",
-                    "bgColor": "819dce",
-                    "textColor1": "03060a",
-                    "textColor2": "05070c",
-                    "textColor3": "1c2431",
-                    "textColor4": "1e2533"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 952,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/99/ec/a4/99eca420-3f0e-2f4b-c81a-a443b9a4db9b/8c224127-256a-4edb-8ad6-2677b8b49a7f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 952,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/c4/2e/fcc42e7e-e709-5e32-9fbb-bcbd6f94419c/b9790994-11cf-44b5-9bb7-424cdae66e52.png/{w}x{h}{c}.{f}",
-                        "bgColor": "70da00",
-                        "textColor1": "041216",
-                        "textColor2": "041216",
-                        "textColor3": "1a3a12",
-                        "textColor4": "1a3a12"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/39/8b/d2/398bd2dd-73cd-bc79-c49b-46598d42f5de/dff97c27-bf37-4c59-aa98-f90f8b9d0c3b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "The most beautiful music game",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1406382064",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "394127428",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739555690568,
-                "RTCI": 1731366032962
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 23,
-                "genreName": "Music",
-                "genre": 7011,
-                "chart": "top-paid",
-                "genreShortName": "Music"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
             "value": 4.7,
             "ratingCount": 24,
             "ratingCountList": [
@@ -3722,11 +3549,11 @@
             ],
             "ariaLabelForRatings": "4.7 stars"
         },
-        "genreDisplayName": "Puzzle",
         "name": "ELOH",
+        "genreDisplayName": "Puzzle",
         "isPreorder": false,
-        "artistName": "Broken Rules",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Broken Rules",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3758,8 +3585,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-10-13",
                 "hasInAppPurchases": false,
                 "bundleId": "es.brokenrul.eloh",
@@ -3777,10 +3604,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -3823,14 +3649,15 @@
                         "textColor4": "aba2a0"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Let the rhythm fill your soul",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Brilliant musical puzzles",
                     "standard": "This chilled-out title has a rhythm all of its own. By dropping tiny spirits into place, you’re not just solving the puzzle – you’re adding beats to the jam. Sit back, pop on your headphones and enjoy the relaxed grooves as you work your way through some delightfully animated levels.",
                     "short": "Marvelous music puzzles"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -3870,7 +3697,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 23,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -3890,8 +3717,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Family",
         "name": "Bounden",
+        "genreDisplayName": "Family",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Adriaan de Jongh",
@@ -3931,8 +3758,8 @@
                 "releaseDate": "2014-05-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.GameOven.Bounden",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3945,10 +3772,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -3991,13 +3818,13 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "A unique dancing game for two",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Jump up and play with a friend.",
                     "tagline": "Play with a friend"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -4038,7 +3865,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 24,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -4058,11 +3885,11 @@
             ],
             "ariaLabelForRatings": "4.0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "My Singing Monsters Composer",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Big Blue Bubble",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Big Blue Bubble",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4094,13 +3921,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-04-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bigbluebubble.msmcomposer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4148,8 +3975,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Create monstrous music",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4192,7 +4019,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 25,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -4212,8 +4039,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Lethe",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Changyou.com HK Limited",
@@ -4279,7 +4106,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -4322,6 +4148,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "A Music Scroll",
                 "hasSafariExtension": false,
@@ -4365,7 +4192,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 27,
+                "position": 26,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -4426,8 +4253,8 @@
                 "releaseDate": "2011-07-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.streamingcolour.games.BabysMusicalHands",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4440,8 +4267,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -4524,7 +4351,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 27,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -4544,11 +4371,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "A Noble Circle",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Amirali Rajan",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Amirali Rajan",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4580,8 +4407,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.scratchworkdevelopment.flatland",
@@ -4599,8 +4426,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4634,8 +4461,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Hope, Awe, Sorrow, and Farts",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4678,7 +4505,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 28,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -4701,8 +4528,8 @@
         "name": "har•mo•ny",
         "genreDisplayName": "Puzzle",
         "isPreorder": false,
-        "artistName": "BorderLeap",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "BorderLeap",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4734,13 +4561,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-10-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.borderleap.harmony",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4797,8 +4624,339 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "430845597",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "430845600",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739519543832,
+                "RTCI": 1738970770501
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 29,
+                "genreName": "Music",
+                "genre": 7011,
+                "chart": "top-paid",
+                "genreShortName": "Music"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 5,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "ariaLabelForRatings": "5.0 stars"
+        },
+        "name": "Isle of Tune Mobile",
+        "genreDisplayName": "Music",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Happylander Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=3980&salableAdamId=430845597&pricingParameters=STDQ&pg=default&appExtVrsId=840215788",
+                        "type": "buy",
+                        "priceFormatted": "S$ 3.98",
+                        "price": 3.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 23309312
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=430845597&pricingParameters=SWUPD&pg=default&appExtVrsId=840215788",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 23309312
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2011-10-06",
+                "hasInAppPurchases": false,
+                "bundleId": "com.happylander.isleoftune",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/ce/f8/c9/cef8c9d8-a3b5-6b36-11e0-5d26a35f8827/AppIcon-1x_U007emarketing-0-7-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "cac573",
+                    "textColor1": "1d0e13",
+                    "textColor2": "2d1b14",
+                    "textColor3": "403226",
+                    "textColor4": "4c3d27"
+                },
+                "isAppleWatchSupported": false,
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/99/ec/a4/99eca420-3f0e-2f4b-c81a-a443b9a4db9b/8c224127-256a-4edb-8ad6-2677b8b49a7f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/c4/2e/fcc42e7e-e709-5e32-9fbb-bcbd6f94419c/b9790994-11cf-44b5-9bb7-424cdae66e52.png/{w}x{h}{c}.{f}",
+                        "bgColor": "70da00",
+                        "textColor1": "041216",
+                        "textColor2": "041216",
+                        "textColor3": "1a3a12",
+                        "textColor4": "1a3a12"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/39/8b/d2/398bd2dd-73cd-bc79-c49b-46598d42f5de/dff97c27-bf37-4c59-aa98-f90f8b9d0c3b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
+                "subtitle": "Create unique musical islands!",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1286609624",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1286609623",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739928861678,
+                "RTCI": 1732661234224
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "9+",
+                "value": 200,
+                "rank": 2,
+                "advisories": [
+                    "Infrequent/Mild Cartoon or Fantasy Violence"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 30,
+                "genreName": "Music",
+                "genre": 7011,
+                "chart": "top-paid",
+                "genreShortName": "Music"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 5,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "ariaLabelForRatings": "5.0 stars"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "1.22",
+        "name": "Lyrica: Drunken Moon",
+        "genreDisplayName": "Music",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Han Chuang Culture and Art Co., Ltd.",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=2980&salableAdamId=1286609624&pricingParameters=STDQ&pg=default&appExtVrsId=870689173",
+                        "type": "buy",
+                        "priceFormatted": "S$ 2.98",
+                        "price": 2.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 821242880
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1286609624&pricingParameters=SWUPD&pg=default&appExtVrsId=870689173",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 821242880
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2018-08-16",
+                "hasInAppPurchases": true,
+                "bundleId": "com.hgca.lyrica",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/ed/5c/a1ed5c38-8991-1f1b-4945-d188bbc8d893/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "1d57b5",
+                    "textColor1": "fefefe",
+                    "textColor2": "acd1fc",
+                    "textColor3": "d1ddef",
+                    "textColor4": "90b8ee"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/99/ec/a4/99eca420-3f0e-2f4b-c81a-a443b9a4db9b/8c224127-256a-4edb-8ad6-2677b8b49a7f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 952,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/c4/2e/fcc42e7e-e709-5e32-9fbb-bcbd6f94419c/b9790994-11cf-44b5-9bb7-424cdae66e52.png/{w}x{h}{c}.{f}",
+                        "bgColor": "70da00",
+                        "textColor1": "041216",
+                        "textColor2": "041216",
+                        "textColor3": "1a3a12",
+                        "textColor4": "1a3a12"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/c8/08/fd/c808fd16-ec5c-20c1-9b95-f6769b68cf4e/mza_7024115053759008909.png/{w}x{h}{c}.{f}",
+                        "bgColor": "33565c",
+                        "textColor1": "dfebf6",
+                        "textColor2": "c9ddf5",
+                        "textColor3": "bdcdd8",
+                        "textColor4": "abc2d6"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/39/8b/d2/398bd2dd-73cd-bc79-c49b-46598d42f5de/dff97c27-bf37-4c59-aa98-f90f8b9d0c3b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "subscriptionHero": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/cc/26/99/cc269950-bcba-e730-634d-7d8d33d0b699/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "ffffff",
+                        "textColor1": "1f2833",
+                        "textColor2": "223148",
+                        "textColor3": "4c535c",
+                        "textColor4": "4e5a6d"
+                    }
+                },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "subtitle": "Lyrics-Combined Music Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4840,7 +4998,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 31,
                 "genreName": "Music",
                 "genre": 7011,
                 "chart": "top-paid",
@@ -4919,7 +5077,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -4952,160 +5110,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "430845597",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "430845600",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739519543832,
-                "RTCI": 1738970770501
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 31,
-                "genreName": "Music",
-                "genre": 7011,
-                "chart": "top-paid",
-                "genreShortName": "Music"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 5,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                1
-            ],
-            "ariaLabelForRatings": "5.0 stars"
-        },
-        "genreDisplayName": "Music",
-        "name": "Isle of Tune Mobile",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Happylander Ltd",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=3980&salableAdamId=430845597&pricingParameters=STDQ&pg=default&appExtVrsId=840215788",
-                        "type": "buy",
-                        "priceFormatted": "S$ 3.98",
-                        "price": 3.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 23309312
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=430845597&pricingParameters=SWUPD&pg=default&appExtVrsId=840215788",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 23309312
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2011-10-06",
-                "hasInAppPurchases": false,
-                "bundleId": "com.happylander.isleoftune",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/ce/f8/c9/cef8c9d8-a3b5-6b36-11e0-5d26a35f8827/AppIcon-1x_U007emarketing-0-7-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "cac573",
-                    "textColor1": "1d0e13",
-                    "textColor2": "2d1b14",
-                    "textColor3": "403226",
-                    "textColor4": "4c3d27"
-                },
-                "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 952,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/99/ec/a4/99eca420-3f0e-2f4b-c81a-a443b9a4db9b/8c224127-256a-4edb-8ad6-2677b8b49a7f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 952,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fc/c4/2e/fcc42e7e-e709-5e32-9fbb-bcbd6f94419c/b9790994-11cf-44b5-9bb7-424cdae66e52.png/{w}x{h}{c}.{f}",
-                        "bgColor": "70da00",
-                        "textColor1": "041216",
-                        "textColor2": "041216",
-                        "textColor3": "1a3a12",
-                        "textColor4": "1a3a12"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/39/8b/d2/398bd2dd-73cd-bc79-c49b-46598d42f5de/dff97c27-bf37-4c59-aa98-f90f8b9d0c3b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "Create unique musical islands!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5113,13 +5118,13 @@
     },
     {
         "kind": "app",
-        "id": "1286609624",
+        "id": "1584362594",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "1286609623",
+                        "id": "608306412",
                         "type": "developers"
                     }
                 ]
@@ -5127,19 +5132,22 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549867027,
-                "RTCI": 1732661234224
+                "MZ_INDEXER": 1739548615452,
+                "RTCI": 1738959844442
             }
         },
         "supportsArcade": false,
         "isFirstPartyHideableApp": false,
         "contentRatingsBySystem": {
             "appsApple": {
-                "name": "9+",
-                "value": 200,
-                "rank": 2,
+                "name": "17+",
+                "value": 600,
+                "rank": 4,
                 "advisories": [
-                    "Infrequent/Mild Cartoon or Fantasy Violence"
+                    "Infrequent/Mild Mature/Suggestive Themes",
+                    "Infrequent/Mild Horror/Fear Themes",
+                    "Infrequent/Mild Sexual Content and Nudity",
+                    "Frequent/Intense Alcohol, Tobacco, or Drug Use or References"
                 ]
             }
         },
@@ -5170,31 +5178,30 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "firstVersionSupportingInAppPurchaseApi": "1.22",
         "genreDisplayName": "Music",
-        "name": "Lyrica: Drunken Moon",
+        "name": "A Musical Story",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "Han Chuang Culture and Art Co., Ltd.",
+        "artistName": "Plug In Digital",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=2980&salableAdamId=1286609624&pricingParameters=STDQ&pg=default&appExtVrsId=870689173",
+                        "buyParams": "productType=C&price=6980&salableAdamId=1584362594&pricingParameters=STDQ&pg=default&appExtVrsId=847334722",
                         "type": "buy",
-                        "priceFormatted": "S$ 2.98",
-                        "price": 2.98,
+                        "priceFormatted": "S$ 6.98",
+                        "price": 6.98,
                         "currencyCode": "SGD",
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 821242880
+                                "size": 892682240
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=1286609624&pricingParameters=SWUPD&pg=default&appExtVrsId=870689173",
+                        "buyParams": "productType=C&price=0&salableAdamId=1584362594&pricingParameters=SWUPD&pg=default&appExtVrsId=847334722",
                         "type": "update",
                         "priceFormatted": "S$ 0.00",
                         "price": 0,
@@ -5202,34 +5209,35 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 821242880
+                                "size": 892682240
                             }
                         ]
                     }
                 ],
                 "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
-                "releaseDate": "2018-08-16",
-                "hasInAppPurchases": true,
-                "bundleId": "com.hgca.lyrica",
-                "isStandaloneWithCompanionForWatchOS": false,
+                "releaseDate": "2022-03-04",
+                "hasInAppPurchases": false,
+                "bundleId": "com.GleeCheeseStudio.MusicalStory",
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/ed/5c/a1ed5c38-8991-1f1b-4945-d188bbc8d893/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "1d57b5",
-                    "textColor1": "fefefe",
-                    "textColor2": "acd1fc",
-                    "textColor3": "d1ddef",
-                    "textColor4": "90b8ee"
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6b/ee/b9/6beeb909-d47d-d69a-ddcd-b8186f07bf82/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "005e7c",
+                    "textColor1": "f5fbd8",
+                    "textColor2": "bae9dd",
+                    "textColor3": "c4dcc5",
+                    "textColor4": "95cec9"
                 },
                 "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
+                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -5251,16 +5259,6 @@
                         "textColor3": "1a3a12",
                         "textColor4": "1a3a12"
                     },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/c8/08/fd/c808fd16-ec5c-20c1-9b95-f6769b68cf4e/mza_7024115053759008909.png/{w}x{h}{c}.{f}",
-                        "bgColor": "33565c",
-                        "textColor1": "dfebf6",
-                        "textColor2": "c9ddf5",
-                        "textColor3": "bdcdd8",
-                        "textColor4": "abc2d6"
-                    },
                     "brandLogo": {
                         "width": 1080,
                         "height": 1080,
@@ -5274,16 +5272,18 @@
                     "subscriptionHero": {
                         "width": 4320,
                         "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/cc/26/99/cc269950-bcba-e730-634d-7d8d33d0b699/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "ffffff",
-                        "textColor1": "1f2833",
-                        "textColor2": "223148",
-                        "textColor3": "4c535c",
-                        "textColor4": "4e5a6d"
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/d7/5d/f7/d75df704-1923-d93b-afe9-6e4474d92598/U0gtQVAtV1ctQV9NdXNpY2FsX1N0b3J5LnBuZw.png/{w}x{h}{c}.{f}",
+                        "bgColor": "3d171f",
+                        "textColor1": "ec9d34",
+                        "textColor2": "d68635",
+                        "textColor3": "c57e30",
+                        "textColor4": "b46d30"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "Lyrics-Combined Music Game",
+                "editorialNotes": {
+                    "tagline": "Explore music memories",
+                    "standard": "Master groovy rhythm puzzles while this wonderfully illustrated tale takes you on a trip through love and loss."
+                },
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5345,8 +5345,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "The Wheels on the Bus",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "OkiPlay Ltd",
@@ -5381,13 +5381,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-12-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.okiplay.starringmewob",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5400,10 +5400,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -5436,6 +5435,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Nursery rhymes, 2-4 year olds",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5499,11 +5499,11 @@
             "ariaLabelForRatings": "4.3 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.4.1",
-        "genreDisplayName": "Music",
         "name": "LONER",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Kunpo",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Kunpo",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5535,8 +5535,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-05-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kunpo.loner",
@@ -5554,8 +5554,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5589,8 +5589,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Quiet Flight",
                 "editorialNotes": {
                     "short": "Fly through tranquil space and coast on mellow moods."
@@ -5656,8 +5656,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "M.A.S.H.",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "teatime media",
@@ -5692,13 +5692,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-03-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.teatime.mash",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5713,7 +5713,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -5746,6 +5745,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5808,8 +5808,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "name": "Piano Master",
         "genreDisplayName": "Music",
+        "name": "Piano Master",
         "isPreorder": false,
         "artistName": "B77 ENTERTAINMENT SRL",
         "isIOSBinaryMacOSCompatible": true,
@@ -5849,8 +5849,8 @@
                 "releaseDate": "2012-09-25",
                 "hasInAppPurchases": true,
                 "bundleId": "it.b77.pianomaster",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5863,10 +5863,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -5899,7 +5900,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "The funniest music game!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5922,7 +5922,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739545751241,
+                "MZ_INDEXER": 1739929522493,
                 "RTCI": 1731381123020
             }
         },
@@ -5964,11 +5964,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.0.4",
-        "genreDisplayName": "Music",
         "name": "Vectronom",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "ARTE Experience",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "ARTE Experience",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6000,13 +6000,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-10-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ArteExperience.Vectronom",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6022,7 +6022,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -6065,6 +6064,7 @@
                         "textColor4": "1e2a28"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Puzzles + Platformer + Rhythm",
                 "editorialNotes": {
@@ -6091,7 +6091,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739546639337,
+                "MZ_INDEXER": 1739929151123,
                 "RTCI": 1738961268656
             }
         },
@@ -6131,11 +6131,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "inReverse Party Game",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Daniils Silov",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daniils Silov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6189,6 +6189,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -6221,7 +6222,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "subtitle": "Funny Backwards Karaoke",
                 "hasSafariExtension": false,
@@ -6288,11 +6288,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Adventure",
         "name": "One Hand Clapping - OHC",
+        "genreDisplayName": "Adventure",
         "isPreorder": false,
-        "artistName": "HandyGames",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "HandyGames",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6324,8 +6324,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-12-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hg.ohc",
@@ -6343,10 +6343,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -6389,12 +6388,13 @@
                         "textColor4": "af87d6"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Sing your Song",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Sing your song"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -6458,8 +6458,8 @@
         "genreDisplayName": "Action",
         "name": "The Most Amazing Sheep Game",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Just So",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6491,8 +6491,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-08-15",
                 "hasInAppPurchases": false,
                 "bundleId": "net.justinsouthey.gamedev.tmasg",
@@ -6513,7 +6513,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -6546,6 +6545,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Run, jump and roll to the beat",
                 "editorialNotes": {
@@ -6613,8 +6613,8 @@
             ],
             "ariaLabelForRatings": "4.5 stars"
         },
-        "genreDisplayName": "Family",
         "name": "Pango Musical March",
+        "genreDisplayName": "Family",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Studio Pango",
@@ -6654,8 +6654,8 @@
                 "releaseDate": "2019-07-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.studiopango.musicalmarch",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6671,7 +6671,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -6714,11 +6713,12 @@
                         "textColor4": "312528"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Create your own marching band!",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Make music with cute animals"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -6781,11 +6781,11 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.4",
-        "genreDisplayName": "Music",
         "name": "har•mo•ny 3",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "BorderLeap",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "BorderLeap",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6817,13 +6817,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-06-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.borderleap.harmony3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6838,7 +6838,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -6901,6 +6900,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Experience the sound of color",
                 "hasSafariExtension": false,
@@ -6964,8 +6964,8 @@
             ],
             "ariaLabelForRatings": "4.0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Melody Jams",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Melody Jams Inc.",
@@ -7000,13 +7000,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-04-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.melodyjams.MelodyJams",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7022,7 +7022,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -7065,6 +7064,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "editorialNotes": {
                     "short": "Compose your own tunes.",
                     "tagline": "Compose your own tunes"
@@ -7090,7 +7090,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739845616693,
+                "MZ_INDEXER": 1739912602690,
                 "RTCI": 1739498017838
             }
         },
@@ -7135,11 +7135,11 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "6.0.0",
-        "genreDisplayName": "Music",
         "name": "Malody V",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "京容 何",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "京容 何",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7171,8 +7171,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2022-06-07",
                 "hasInAppPurchases": true,
                 "bundleId": "me.mugzone.emiria",
@@ -7190,8 +7190,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7225,8 +7225,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "The Next Generation Simulator",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7292,8 +7292,8 @@
         "name": "Piano Notes!  -  Learn To Read Music",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Visions Encoded Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Visions Encoded Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7325,13 +7325,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-09-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.visionsencoded.PianoNotes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7343,10 +7343,9 @@
                     "textColor4": "7e3439"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -7379,6 +7378,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7652,10 +7652,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -7698,7 +7699,6 @@
                         "textColor4": "231f1d"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Music. Kaijus. Destruction.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7764,8 +7764,8 @@
         "name": "My Singing Monsters Thumpies",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Big Blue Bubble",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Big Blue Bubble",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7797,13 +7797,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2024-03-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bigbluebubble.thumpies2023",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7819,7 +7819,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -7852,6 +7851,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "An odd-ball rhythm game",
                 "hasSafariExtension": false,
@@ -7918,11 +7918,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Beat Hazard 2",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Cold Beam Games Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Cold Beam Games Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7976,6 +7976,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -8008,7 +8009,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Gameplay Powered by YOUR Music",
                 "hasSafariExtension": false,
@@ -8032,7 +8032,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739831993489,
+                "MZ_INDEXER": 1739915590696,
                 "RTCI": 1731355184089
             }
         },
@@ -8072,11 +8072,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Board",
         "name": "Pass the Parcel",
+        "genreDisplayName": "Board",
         "isPreorder": false,
-        "artistName": "Christopher Harrison",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Christopher Harrison",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8108,8 +8108,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-12-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Sassy-Games.Pass-the-Parcel",
@@ -8130,7 +8130,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -8163,6 +8162,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "The classic party game",
                 "hasSafariExtension": false,
@@ -8231,11 +8231,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "The Longest Road On Earth",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Raw Fury",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Raw Fury",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8272,8 +8272,8 @@
                 "releaseDate": "2021-05-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rawfury.tlroe",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8289,7 +8289,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -8332,12 +8332,12 @@
                         "textColor4": "989898"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Play in a song",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Tales of ordinary lives"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -8401,8 +8401,8 @@
         "genreDisplayName": "Music",
         "name": "Wonder Parade",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Pawoofur",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8439,8 +8439,8 @@
                 "releaseDate": "2017-08-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.StudioQuare.WP",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8457,6 +8457,7 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -8489,7 +8490,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8555,8 +8555,8 @@
         "genreDisplayName": "Trivia",
         "name": "iSong Quiz",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Imesart S.a.r.l.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8593,8 +8593,8 @@
                 "releaseDate": "2009-07-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.imesart.iSongQuiz",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8611,6 +8611,7 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -8643,7 +8644,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Name Songs",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8709,11 +8709,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Adventure",
         "name": "Blue Wednesday",
+        "genreDisplayName": "Adventure",
         "isPreorder": false,
-        "artistName": "Buff Studio Co.Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Buff Studio Co.Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8750,8 +8750,8 @@
                 "releaseDate": "2024-04-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.buffstudio.bluewednesday",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8764,10 +8764,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -8800,12 +8800,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Cozy game about jazz, love",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "This jazzy adventure game’s fantastic soundtrack and cool mini-games pair well with its sweet, cosy story."
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -8874,11 +8874,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.0.0",
-        "genreDisplayName": "Music",
         "name": "WAVEAT ReLIGHT ウェビートリライト - 音ゲー",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "SHO AOKI",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8929,10 +8929,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -8965,7 +8966,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9031,8 +9031,8 @@
         "name": "Grow Recycling : Kids Games",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Gro Play",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Gro Play",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9064,13 +9064,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-06-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.groplay.grorecycling",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9083,10 +9083,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -9119,6 +9118,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Become a recycling superhero!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9181,8 +9181,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Childrens Nursery Rhymes Girls & Boys",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "artistName": "OkiPlay Ltd",
         "isIOSBinaryMacOSCompatible": false,
@@ -9236,8 +9236,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -9339,11 +9339,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.0",
-        "genreDisplayName": "Puzzle",
         "name": "All Mods Phase World",
+        "genreDisplayName": "Puzzle",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Nguyen Nguyen Thi Hong",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9380,8 +9380,8 @@
                 "releaseDate": "2024-11-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hd.mods.normal.world",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9394,10 +9394,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -9430,7 +9431,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Play is All Mods Phase World",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9498,8 +9498,8 @@
         "name": "Neon Beats",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Plug In Digital",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Plug In Digital",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9535,8 +9535,8 @@
                 "releaseDate": "2021-01-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pid.neonbeats",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9552,7 +9552,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -9595,6 +9594,7 @@
                         "textColor4": "a295a1"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Feel the beat",
                 "hasSafariExtension": false,
@@ -9661,8 +9661,8 @@
         "name": "Kalimba Royal",
         "genreDisplayName": "Simulation",
         "isPreorder": false,
-        "artistName": "Son Truong Ngoc",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Son Truong Ngoc",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9694,13 +9694,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-04-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sonoscore.kalimba.royal",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9716,7 +9716,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -9749,6 +9748,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Vip version of Kalimba Real",
                 "hasSafariExtension": false,
@@ -9815,11 +9815,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Casual",
         "name": "Dark Witch: Music Episode -Rudymical- Rhythm Fun Meow!",
+        "genreDisplayName": "Casual",
         "isPreorder": false,
-        "artistName": "Flyhighworks",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Flyhighworks",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9851,13 +9851,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-06-17",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.flyhighworks.rudymical",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9870,10 +9870,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -9916,6 +9915,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9978,8 +9978,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Voice Through",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "洋 李",
@@ -10014,8 +10014,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2025-01-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nexthacode.voicegames",
@@ -10036,7 +10036,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -10069,6 +10068,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Perfect Pitch Challenge",
                 "hasSafariExtension": false,
@@ -10136,8 +10136,8 @@
         "genreDisplayName": "Music",
         "name": "Kalimba Connect",
         "isPreorder": false,
-        "artistName": "SENSOR NOTES JOINT STOCK COMPANY",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SENSOR NOTES JOINT STOCK COMPANY",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10169,8 +10169,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-12-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.sensornotes.kalimbaconnect",
@@ -10187,8 +10187,8 @@
                     "textColor4": "eab13f"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10222,8 +10222,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10288,8 +10288,8 @@
         "genreDisplayName": "Music",
         "name": "永不言弃AR",
         "isPreorder": false,
-        "artistName": "重庆星漫科技有限公司",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "重庆星漫科技有限公司",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10321,13 +10321,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-10-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.invictus.argiu",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10340,10 +10340,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arkit arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -10376,6 +10375,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "跳跃休闲解压游戏",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10438,11 +10438,11 @@
             ],
             "ariaLabelForRatings": "4.0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Music Quiz: Know Your Library?",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Zach McGaughey",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Zach McGaughey",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10474,8 +10474,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-05-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.zachmcgaughey.Music-Quiz",
@@ -10493,10 +10493,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -10529,6 +10528,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10551,7 +10551,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550469332,
+                "MZ_INDEXER": 1739918584972,
                 "RTCI": 1738966480421
             }
         },
@@ -10593,8 +10593,8 @@
         "name": "ham ham!-) Tiere füttern für Kleinkinder und Kinder",
         "genreDisplayName": "Family",
         "isPreorder": false,
-        "artistName": "Hartmut Welsch",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hartmut Welsch",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10703,7 +10703,7 @@
         "meta": {
             "contentVersion": {
                 "MZ_INDEXER": 1739846558931,
-                "RTCI": 1731357891711
+                "RTCI": 1739908999429
             }
         },
         "supportsArcade": false,
@@ -10782,8 +10782,8 @@
                 "releaseDate": "2022-07-01",
                 "hasInAppPurchases": false,
                 "bundleId": "josephmalam.pianodash",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10796,10 +10796,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -10832,7 +10833,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10898,8 +10898,8 @@
         "name": "Piano Monsters: Fun music game",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Mikhail Bakunovich",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mikhail Bakunovich",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10953,7 +10953,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -10996,7 +10996,7 @@
                         "textColor4": "63a95b"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Play and improve your ear!",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -11022,7 +11022,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739836396939,
+                "MZ_INDEXER": 1739921660999,
                 "RTCI": 1731366607128
             }
         },
@@ -11066,8 +11066,8 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.0",
-        "genreDisplayName": "Music",
         "name": "Azrael",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "CHEN HUANG",
@@ -11102,13 +11102,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-04-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gamster.azrael",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11121,10 +11121,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -11157,6 +11156,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11225,8 +11225,8 @@
         "name": "Note Fighter",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "MYTHICOWL SP Z O O",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "MYTHICOWL SP Z O O",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11258,8 +11258,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-04-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.middlecmedia.notefighter",
@@ -11280,7 +11280,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -11313,6 +11312,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11378,8 +11378,8 @@
         "name": "Sounds of Music",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Aleksey Neronov",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Aleksey Neronov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11411,13 +11411,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-04-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.alekseyneronov.SoundsOfMusic",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11465,8 +11465,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11529,11 +11529,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "5.2",
-        "genreDisplayName": "Music",
         "name": "Rhythm Cat - Read Music",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "James Uhart",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "James Uhart",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11565,13 +11565,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-01-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.melodycats.RhythmCatProHD",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11619,8 +11619,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Learn to read music rhythms",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11683,8 +11683,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Sensory Sound Box",
         "genreDisplayName": "Games",
+        "name": "Sensory Sound Box",
         "isPreorder": false,
         "artistName": "Cognable",
         "isIOSBinaryMacOSCompatible": false,
@@ -11738,9 +11738,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "brandLogo": {
                         "width": 1080,
@@ -11753,7 +11754,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Cause and Effect Skills",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11776,7 +11776,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739554619020,
+                "MZ_INDEXER": 1739921244815,
                 "RTCI": 1738955658397
             }
         },
@@ -11815,8 +11815,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Joey Kramer Hit Hard",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Paid, Inc.",
@@ -11856,8 +11856,8 @@
                 "releaseDate": "2010-02-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.paid.HitHard",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 512,
                     "height": 512,
@@ -11867,7 +11867,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -11900,7 +11900,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11969,8 +11969,8 @@
         "name": "VoltHopper～ヴォルトホッパー～",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "Naoya Okubo",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Naoya Okubo",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12024,6 +12024,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -12056,7 +12057,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12119,8 +12119,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "Beat Workers",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "NaturalPad",
@@ -12160,8 +12160,8 @@
                 "releaseDate": "2021-03-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.naturalpad.beatworkers",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12174,10 +12174,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -12210,7 +12210,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Tap the beat & build monuments",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12329,9 +12329,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -12364,8 +12366,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12430,8 +12430,8 @@
         "name": "Sitar Pro",
         "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "YASH FUTURE TECH SOLUTIONS PVT. LTD.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "YASH FUTURE TECH SOLUTIONS PVT. LTD.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12463,8 +12463,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-08-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yft.sitarprop",
@@ -12482,8 +12482,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12517,8 +12517,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12636,10 +12636,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -12672,7 +12673,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Learn to read music",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12734,8 +12734,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Music",
         "name": "BeatX Rhythm Game",
+        "genreDisplayName": "Music",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mai Tuan Viet",
@@ -12770,8 +12770,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-04-05",
                 "hasInAppPurchases": false,
                 "bundleId": "tuanviet.studio.BeatX",
@@ -12789,10 +12789,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -12825,6 +12824,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Best Beat Music 2021",
                 "hasSafariExtension": false,
@@ -12888,8 +12888,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Puzzle",
         "name": "WOVE - Rhythmatic Puzzle",
+        "genreDisplayName": "Puzzle",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "MakeBestGame",
@@ -12924,13 +12924,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-02-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.makebestgame.wovepuzz",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12943,10 +12943,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -12979,6 +12978,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Listen, Think, Relax.",
                 "hasSafariExtension": false,
@@ -13041,8 +13041,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Puzzle",
         "name": "Piano Cube !",
+        "genreDisplayName": "Puzzle",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Emilian Brenici",
@@ -13082,8 +13082,8 @@
                 "releaseDate": "2018-08-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.calcmath.pianocube",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13096,10 +13096,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -13132,7 +13132,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Play Piano to Solve the Cube!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13196,11 +13196,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.2.0",
-        "genreDisplayName": "Simulation",
         "name": "Lowriders Comeback 2: Cruising",
+        "genreDisplayName": "Simulation",
         "isPreorder": false,
-        "artistName": "Anton Lebed",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Anton Lebed",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13254,6 +13254,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -13286,7 +13287,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Best game about Lowriders",
                 "hasSafariExtension": false,
@@ -13310,7 +13310,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739483845423,
+                "MZ_INDEXER": 1739906254590,
                 "RTCI": 1731376735418
             }
         },
@@ -13351,11 +13351,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "14.9",
-        "genreDisplayName": "Music",
         "name": "Baby Phone For Kids and Babies",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "App Family AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "App Family AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13387,13 +13387,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-09-07",
                 "hasInAppPurchases": false,
                 "bundleId": "se.appfamily.babyphone.free",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13409,7 +13409,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -13442,6 +13441,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Musical toy game with animals!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13505,11 +13505,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.7",
-        "genreDisplayName": "Music",
         "name": "Guitar Sight Reading Workout",
+        "genreDisplayName": "Music",
         "isPreorder": false,
-        "artistName": "5 Diamond Music Services, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "5 Diamond Music Services, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13541,13 +13541,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wgo.gsrw",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13595,8 +13595,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13693,13 +13693,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-10-02",
                 "hasInAppPurchases": true,
                 "bundleId": "com.orchidstudio.Orion",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13846,8 +13846,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-08-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stockmusicboutique.BassCatHD",
@@ -13865,10 +13865,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -13901,6 +13900,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Learn To Read Music",
                 "hasSafariExtension": false,

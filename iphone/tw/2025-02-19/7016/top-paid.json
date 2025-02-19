@@ -15,8 +15,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738954507464,
-                "MZ_INDEXER": 1739507912856
+                "MZ_INDEXER": 1739507912856,
+                "RTCI": 1738954507464
             }
         },
         "supportsArcade": false,
@@ -36,10 +36,10 @@
         "chartPositions": {
             "appStore": {
                 "position": 1,
-                "genreName": "運動",
-                "genre": 7016,
+                "genreName": "休閒",
+                "genre": 7003,
                 "chart": "top-paid",
-                "genreShortName": "運動"
+                "genreShortName": "休閒"
             }
         },
         "supportsStreamlinedBuy": true,
@@ -96,8 +96,8 @@
                 "releaseDate": "2024-01-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.sharktotz.sologolf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -113,7 +113,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -146,7 +146,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -168,8 +168,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733896721292,
-                "MZ_INDEXER": 1739540944940
+                "MZ_INDEXER": 1739540944940,
+                "RTCI": 1733896721292
             }
         },
         "supportsArcade": false,
@@ -250,8 +250,8 @@
                 "releaseDate": "2012-10-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.trueaxis.skate",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -267,7 +267,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -341,8 +341,314 @@
                         "textColor4": "9f9f98"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "The ultimate skateboarding sim",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1471323296",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "381477233",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739923062843,
+                "RTCI": 1739852964923
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 3,
+                "genreName": "運動",
+                "genre": 7016,
+                "chart": "top-paid",
+                "genreShortName": "運動"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.2,
+            "ratingCount": 35,
+            "ratingCountList": [
+                5,
+                1,
+                0,
+                5,
+                24
+            ],
+            "ariaLabelForRatings": "4.2 顆星"
+        },
+        "name": "籃球熱潮物語",
+        "genreDisplayName": "運動",
+        "isPreorder": false,
+        "artistName": "Kairosoft Co.,Ltd",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=190000&salableAdamId=1471323296&pricingParameters=STDQ&pg=default&appExtVrsId=857653372",
+                        "type": "buy",
+                        "priceFormatted": "$190.00",
+                        "price": 190,
+                        "currencyCode": "TWD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 86075392
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1471323296&pricingParameters=SWUPD&pg=default&appExtVrsId=857653372",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "TWD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 86075392
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2019-07-19",
+                "hasInAppPurchases": false,
+                "bundleId": "net.kairosoft.iOS.basket",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/3d/e2/063de219-d491-237b-79a5-74ba61381701/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "01084f",
+                    "textColor2": "182965",
+                    "textColor3": "343972",
+                    "textColor4": "465484"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1082,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/d3/24/dd/d324ddc2-1f55-a2d7-2e94-e3c722e427ff/c3843d72-ee24-404f-a318-34329a2d03d3.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1082,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/cc/c2/f9ccc2ba-d0e4-be57-d87e-3aa4677035b1/05a49652-62a3-46cf-a759-6db76a2bd83c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "6dd500",
+                        "textColor1": "050a00",
+                        "textColor2": "0a1500",
+                        "textColor3": "1a3300",
+                        "textColor4": "1e3b00"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/43/1e/3d/431e3d3a-5f59-971a-fb29-1cc5e6059163/3f255c39-a78b-4f85-83f3-499ad7b24cbb.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1007479011",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "395591289",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739798988489,
+                "RTCI": 1738955534529
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 4,
+                "genreName": "運動",
+                "genre": 7016,
+                "chart": "top-paid",
+                "genreShortName": "運動"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.3,
+            "ratingCount": 9,
+            "ratingCountList": [
+                1,
+                0,
+                0,
+                2,
+                6
+            ],
+            "ariaLabelForRatings": "4.3 顆星"
+        },
+        "name": "競技體育: Athletics 2",
+        "genreDisplayName": "競速",
+        "isPreorder": false,
+        "artistName": "Tangram3D",
+        "isIOSBinaryMacOSCompatible": false,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=60000&salableAdamId=1007479011&pricingParameters=STDQ&pg=default&appExtVrsId=844398821",
+                        "type": "buy",
+                        "priceFormatted": "$60.00",
+                        "price": 60,
+                        "currencyCode": "TWD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 246002688
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1007479011&pricingParameters=SWUPD&pg=default&appExtVrsId=844398821",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "TWD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 246002688
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2015-06-29",
+                "hasInAppPurchases": false,
+                "bundleId": "com.tangram3D.Athletics2",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/ec/c6/8e/ecc68edd-65f9-96a0-3189-8a5bfd885403/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "d1d2d0",
+                    "textColor1": "06080a",
+                    "textColor2": "273440",
+                    "textColor3": "2e3031",
+                    "textColor4": "49535d"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1070,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/06/e1/20/06e1205c-6072-f402-9330-741486b77e08/027a6dd9-38e6-4529-9dfc-4b2215cc068e.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1070,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a1/7f/b3/a17fb38a-a24f-c275-a8b1-ad33c74c7506/89e45806-fece-4410-8eb5-a6964d9094f4.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575b60",
+                        "textColor1": "fbfcfd",
+                        "textColor2": "f5f6f7",
+                        "textColor3": "dadcde",
+                        "textColor4": "d6d7d9"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/0e/de/e1/0edee1e1-f823-cc23-0d10-da748ad2d891/cb594d7e-a723-41f6-a287-cd6c00552db0.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -364,8 +670,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373374499,
-                "MZ_INDEXER": 1739898130103
+                "MZ_INDEXER": 1739898130103,
+                "RTCI": 1731373374499
             }
         },
         "supportsArcade": false,
@@ -388,7 +694,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 5,
                 "genreName": "運動",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -449,8 +755,8 @@
                 "releaseDate": "2015-02-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.snowman.alto",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -466,7 +772,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -559,10 +865,167 @@
                         "textColor4": "80ada2"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialNotes": {
                     "tagline": "歡慶五週年 限時半價優惠"
                 },
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "6505046490",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "381477233",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739492864440,
+                "RTCI": 1737381330666
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "偶而/輕微的卡通或幻想暴力",
+                    "偶而/輕微的現實暴力"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 6,
+                "genreName": "運動",
+                "genre": 7016,
+                "chart": "top-paid",
+                "genreShortName": "運動"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.4,
+            "ratingCount": 33,
+            "ratingCountList": [
+                1,
+                3,
+                3,
+                1,
+                25
+            ],
+            "ariaLabelForRatings": "4.4 顆星"
+        },
+        "name": "摔角擂臺物語",
+        "genreDisplayName": "運動",
+        "isPreorder": false,
+        "artistName": "Kairosoft Co.,Ltd",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=220000&salableAdamId=6505046490&pricingParameters=STDQ&pg=default&appExtVrsId=871876528",
+                        "type": "buy",
+                        "priceFormatted": "$220.00",
+                        "price": 220,
+                        "currencyCode": "TWD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 87520256
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6505046490&pricingParameters=SWUPD&pg=default&appExtVrsId=871876528",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "TWD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 87520256
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2024-10-15",
+                "hasInAppPurchases": false,
+                "bundleId": "net.kairosoft.iOS.wrestling",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/c1/bd/a9c1bdfa-51ca-cfc6-38f7-328aa6f4e0b6/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "f37200",
+                    "textColor1": "000000",
+                    "textColor2": "221f20",
+                    "textColor3": "301700",
+                    "textColor4": "4b2f19"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1082,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/d3/24/dd/d324ddc2-1f55-a2d7-2e94-e3c722e427ff/c3843d72-ee24-404f-a318-34329a2d03d3.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1082,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/cc/c2/f9ccc2ba-d0e4-be57-d87e-3aa4677035b1/05a49652-62a3-46cf-a759-6db76a2bd83c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "6dd500",
+                        "textColor1": "050a00",
+                        "textColor2": "0a1500",
+                        "textColor3": "1a3300",
+                        "textColor4": "1e3b00"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/43/1e/3d/431e3d3a-5f59-971a-fb29-1cc5e6059163/3f255c39-a78b-4f85-83f3-499ad7b24cbb.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -584,8 +1047,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731352826773,
-                "MZ_INDEXER": 1739899435468
+                "MZ_INDEXER": 1739899435468,
+                "RTCI": 1731352826773
             }
         },
         "supportsArcade": false,
@@ -608,7 +1071,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 7,
                 "genreName": "運動",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -669,8 +1132,8 @@
                 "releaseDate": "2018-02-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.snowman.altos-odyssey",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -686,7 +1149,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -739,164 +1202,11 @@
                         "textColor4": "d49fb3"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "探索無盡的沙漠",
                 "editorialNotes": {
                     "tagline": "滑過沙漠祕境 欣賞絕世美景"
                 },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1471323296",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "381477233",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1739852964923,
-                "MZ_INDEXER": 1739853260904
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 5,
-                "genreName": "運動",
-                "genre": 7016,
-                "chart": "top-paid",
-                "genreShortName": "運動"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.2,
-            "ratingCount": 35,
-            "ratingCountList": [
-                5,
-                1,
-                0,
-                5,
-                24
-            ],
-            "ariaLabelForRatings": "4.2 顆星"
-        },
-        "name": "籃球熱潮物語",
-        "genreDisplayName": "運動",
-        "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=190000&salableAdamId=1471323296&pricingParameters=STDQ&pg=default&appExtVrsId=857653372",
-                        "type": "buy",
-                        "priceFormatted": "$190.00",
-                        "price": 190,
-                        "currencyCode": "TWD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 86075392
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1471323296&pricingParameters=SWUPD&pg=default&appExtVrsId=857653372",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "TWD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 86075392
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2019-07-19",
-                "hasInAppPurchases": false,
-                "bundleId": "net.kairosoft.iOS.basket",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/3d/e2/063de219-d491-237b-79a5-74ba61381701/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "01084f",
-                    "textColor2": "182965",
-                    "textColor3": "343972",
-                    "textColor4": "465484"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1082,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/d3/24/dd/d324ddc2-1f55-a2d7-2e94-e3c722e427ff/c3843d72-ee24-404f-a318-34329a2d03d3.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1082,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/cc/c2/f9ccc2ba-d0e4-be57-d87e-3aa4677035b1/05a49652-62a3-46cf-a759-6db76a2bd83c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "6dd500",
-                        "textColor1": "050a00",
-                        "textColor2": "0a1500",
-                        "textColor3": "1a3300",
-                        "textColor4": "1e3b00"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/43/1e/3d/431e3d3a-5f59-971a-fb29-1cc5e6059163/3f255c39-a78b-4f85-83f3-499ad7b24cbb.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -918,8 +1228,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1735895021176,
-                "MZ_INDEXER": 1739528444101
+                "MZ_INDEXER": 1739528444101,
+                "RTCI": 1735895021176
             }
         },
         "supportsArcade": false,
@@ -938,7 +1248,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 8,
                 "genreName": "運動",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -1000,8 +1310,8 @@
                 "releaseDate": "2024-04-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.com2us.ootpbbgo25.ios.apple.global.normal",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1017,7 +1327,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -1050,160 +1360,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1007479011",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "395591289",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738955534529,
-                "MZ_INDEXER": 1739798988489
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 7,
-                "genreName": "競速",
-                "genre": 7013,
-                "chart": "top-paid",
-                "genreShortName": "競速"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.3,
-            "ratingCount": 9,
-            "ratingCountList": [
-                1,
-                0,
-                0,
-                2,
-                6
-            ],
-            "ariaLabelForRatings": "4.3 顆星"
-        },
-        "name": "競技體育: Athletics 2",
-        "genreDisplayName": "競速",
-        "isPreorder": false,
-        "artistName": "Tangram3D",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=60000&salableAdamId=1007479011&pricingParameters=STDQ&pg=default&appExtVrsId=844398821",
-                        "type": "buy",
-                        "priceFormatted": "$60.00",
-                        "price": 60,
-                        "currencyCode": "TWD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 246002688
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1007479011&pricingParameters=SWUPD&pg=default&appExtVrsId=844398821",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "TWD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 246002688
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2015-06-29",
-                "hasInAppPurchases": false,
-                "bundleId": "com.tangram3D.Athletics2",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/ec/c6/8e/ecc68edd-65f9-96a0-3189-8a5bfd885403/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "d1d2d0",
-                    "textColor1": "06080a",
-                    "textColor2": "273440",
-                    "textColor3": "2e3031",
-                    "textColor4": "49535d"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1070,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/06/e1/20/06e1205c-6072-f402-9330-741486b77e08/027a6dd9-38e6-4529-9dfc-4b2215cc068e.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1070,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a1/7f/b3/a17fb38a-a24f-c275-a8b1-ad33c74c7506/89e45806-fece-4410-8eb5-a6964d9094f4.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575b60",
-                        "textColor1": "fbfcfd",
-                        "textColor2": "f5f6f7",
-                        "textColor3": "dadcde",
-                        "textColor4": "d6d7d9"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/0e/de/e1/0edee1e1-f823-cc23-0d10-da748ad2d891/cb594d7e-a723-41f6-a287-cd6c00552db0.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1225,8 +1382,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738960808658,
-                "MZ_INDEXER": 1739503222369
+                "MZ_INDEXER": 1739503222369,
+                "RTCI": 1738960808658
             }
         },
         "supportsArcade": false,
@@ -1246,7 +1403,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "運動",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -1309,8 +1466,8 @@
                 "releaseDate": "2017-09-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ezone.minigolf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1326,7 +1483,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -1369,7 +1526,7 @@
                         "textColor4": "474446"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "終極 AR 技術展示",
                 "editorialNotes": {
                     "short": "回到史前時代，與原始人、長毛象和各種原生猛獸以高爾夫一決高下。"
@@ -1405,8 +1562,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364174901,
-                "MZ_INDEXER": 1739523225694
+                "MZ_INDEXER": 1739523225694,
+                "RTCI": 1731364174901
             }
         },
         "supportsArcade": false,
@@ -1425,7 +1582,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 10,
                 "genreName": "運動",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -1486,8 +1643,8 @@
                 "releaseDate": "2024-03-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.velocidrone.velocidronemobile",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1503,7 +1660,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -1536,164 +1693,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6505046490",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "381477233",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1737381330666,
-                "MZ_INDEXER": 1739492864440
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "偶而/輕微的卡通或幻想暴力",
-                    "偶而/輕微的現實暴力"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 10,
-                "genreName": "運動",
-                "genre": 7016,
-                "chart": "top-paid",
-                "genreShortName": "運動"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.4,
-            "ratingCount": 33,
-            "ratingCountList": [
-                1,
-                3,
-                3,
-                1,
-                25
-            ],
-            "ariaLabelForRatings": "4.4 顆星"
-        },
-        "name": "摔角擂臺物語",
-        "genreDisplayName": "運動",
-        "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=220000&salableAdamId=6505046490&pricingParameters=STDQ&pg=default&appExtVrsId=871876528",
-                        "type": "buy",
-                        "priceFormatted": "$220.00",
-                        "price": 220,
-                        "currencyCode": "TWD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 87520256
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6505046490&pricingParameters=SWUPD&pg=default&appExtVrsId=871876528",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "TWD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 87520256
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2024-10-15",
-                "hasInAppPurchases": false,
-                "bundleId": "net.kairosoft.iOS.wrestling",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/c1/bd/a9c1bdfa-51ca-cfc6-38f7-328aa6f4e0b6/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "f37200",
-                    "textColor1": "000000",
-                    "textColor2": "221f20",
-                    "textColor3": "301700",
-                    "textColor4": "4b2f19"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1082,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/d3/24/dd/d324ddc2-1f55-a2d7-2e94-e3c722e427ff/c3843d72-ee24-404f-a318-34329a2d03d3.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1082,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/cc/c2/f9ccc2ba-d0e4-be57-d87e-3aa4677035b1/05a49652-62a3-46cf-a759-6db76a2bd83c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "6dd500",
-                        "textColor1": "050a00",
-                        "textColor2": "0a1500",
-                        "textColor3": "1a3300",
-                        "textColor4": "1e3b00"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/43/1e/3d/431e3d3a-5f59-971a-fb29-1cc5e6059163/3f255c39-a78b-4f85-83f3-499ad7b24cbb.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1715,8 +1715,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737882344353,
-                "MZ_INDEXER": 1739527528969
+                "MZ_INDEXER": 1739527528969,
+                "RTCI": 1737882344353
             }
         },
         "supportsArcade": false,
@@ -1802,8 +1802,8 @@
                 "releaseDate": "2023-08-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rdamato.arcadiasports",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1818,7 +1818,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -1851,6 +1850,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -1882,8 +1882,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365718733,
-                "MZ_INDEXER": 1739497094912
+                "MZ_INDEXER": 1739497094912,
+                "RTCI": 1731365718733
             }
         },
         "supportsArcade": false,
@@ -1963,8 +1963,8 @@
                 "releaseDate": "2017-12-22",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.pool",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1980,7 +1980,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -2013,7 +2013,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2035,8 +2035,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731368421372,
-                "MZ_INDEXER": 1739496519336
+                "MZ_INDEXER": 1739496519336,
+                "RTCI": 1731368421372
             }
         },
         "supportsArcade": false,
@@ -2116,8 +2116,8 @@
                 "releaseDate": "2012-01-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kairosoft.gm55E",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2132,7 +2132,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -2165,7 +2165,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2187,8 +2187,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738964954918,
-                "MZ_INDEXER": 1739519265205
+                "MZ_INDEXER": 1739519265205,
+                "RTCI": 1738964954918
             }
         },
         "supportsArcade": false,
@@ -2207,11 +2207,11 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
-                "genreName": "競速",
-                "genre": 7013,
+                "position": 14,
+                "genreName": "運動",
+                "genre": 7016,
                 "chart": "top-paid",
-                "genreShortName": "競速"
+                "genreShortName": "運動"
             }
         },
         "supportsStreamlinedBuy": true,
@@ -2269,8 +2269,8 @@
                 "releaseDate": "2017-08-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gabama.monoposto",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2286,7 +2286,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -2319,7 +2319,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2341,8 +2341,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731351071522,
-                "MZ_INDEXER": 1739507901037
+                "MZ_INDEXER": 1739507901037,
+                "RTCI": 1731351071522
             }
         },
         "supportsArcade": false,
@@ -2422,8 +2422,8 @@
                 "releaseDate": "2017-05-04",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.baseballEN",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2439,7 +2439,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2472,7 +2472,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2494,8 +2494,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733172855846,
-                "MZ_INDEXER": 1739501618541
+                "MZ_INDEXER": 1739501618541,
+                "RTCI": 1733172855846
             }
         },
         "supportsArcade": false,
@@ -2574,8 +2574,8 @@
                 "releaseDate": "2024-10-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pocketgm.basketball",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2591,7 +2591,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2624,7 +2624,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2646,8 +2646,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353369049,
-                "MZ_INDEXER": 1739543926592
+                "MZ_INDEXER": 1739920490644,
+                "RTCI": 1731353369049
             }
         },
         "supportsArcade": false,
@@ -2731,8 +2731,8 @@
                 "releaseDate": "2021-02-10",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.boxing",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2748,7 +2748,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2781,7 +2781,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2803,8 +2803,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738968632640,
-                "MZ_INDEXER": 1739514895910
+                "MZ_INDEXER": 1739514895910,
+                "RTCI": 1738968632640
             }
         },
         "supportsArcade": false,
@@ -2883,8 +2883,8 @@
                 "releaseDate": "2021-08-13",
                 "hasInAppPurchases": false,
                 "bundleId": "tw.fun4u.dev.catch-the-ball",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2900,7 +2900,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -2933,6 +2932,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2954,8 +2954,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731358246097,
-                "MZ_INDEXER": 1739530809323
+                "MZ_INDEXER": 1739530809323,
+                "RTCI": 1731358246097
             }
         },
         "supportsArcade": false,
@@ -3034,8 +3034,8 @@
                 "releaseDate": "2013-04-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doowid.badminton",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3051,7 +3051,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3084,7 +3084,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3106,8 +3106,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739208471872,
-                "MZ_INDEXER": 1739642121989
+                "MZ_INDEXER": 1739642121989,
+                "RTCI": 1739208471872
             }
         },
         "supportsArcade": false,
@@ -3191,8 +3191,8 @@
                 "releaseDate": "2024-05-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gamesoulstudio.Backflip-Madness-2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3208,7 +3208,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3241,7 +3241,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "終極跑酷沙盒",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3264,8 +3264,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731369747190,
-                "MZ_INDEXER": 1739511475605
+                "MZ_INDEXER": 1739511475605,
+                "RTCI": 1731369747190
             }
         },
         "supportsArcade": false,
@@ -3345,8 +3345,8 @@
                 "releaseDate": "2011-09-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kairosoft.gm46E",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3362,7 +3362,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -3395,7 +3395,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3417,8 +3417,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739227462751,
-                "MZ_INDEXER": 1739513450970
+                "MZ_INDEXER": 1739513450970,
+                "RTCI": 1739227462751
             }
         },
         "supportsArcade": false,
@@ -3497,8 +3497,8 @@
                 "releaseDate": "2009-04-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.skyworks.PingPong",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3514,7 +3514,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -3557,7 +3557,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3579,8 +3579,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731380150676,
-                "MZ_INDEXER": 1739549707586
+                "MZ_INDEXER": 1739921913660,
+                "RTCI": 1731380150676
             }
         },
         "supportsArcade": false,
@@ -3660,8 +3660,8 @@
                 "releaseDate": "2013-11-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kairosoft.gm82E",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3677,7 +3677,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -3710,7 +3710,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3732,8 +3732,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731356197636,
-                "MZ_INDEXER": 1739546332092
+                "MZ_INDEXER": 1739929467688,
+                "RTCI": 1731356197636
             }
         },
         "supportsArcade": false,
@@ -3813,8 +3813,8 @@
                 "releaseDate": "2016-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.tennisEN",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3830,7 +3830,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -3863,7 +3863,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3885,8 +3885,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731536067330,
-                "MZ_INDEXER": 1739519075831
+                "MZ_INDEXER": 1739519075831,
+                "RTCI": 1731536067330
             }
         },
         "supportsArcade": false,
@@ -3965,8 +3965,8 @@
                 "releaseDate": "2011-10-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.infinitypocket.flickhomerun",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3982,7 +3982,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -4015,7 +4015,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4037,8 +4037,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739227462747,
-                "MZ_INDEXER": 1739512183720
+                "MZ_INDEXER": 1739512183720,
+                "RTCI": 1739227462747
             }
         },
         "supportsArcade": false,
@@ -4120,8 +4120,8 @@
                 "releaseDate": "2008-11-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.skyworks.ArcadeHoops",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4137,7 +4137,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -4170,7 +4170,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4192,8 +4192,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737048981932,
-                "MZ_INDEXER": 1739528663975
+                "MZ_INDEXER": 1739528663975,
+                "RTCI": 1737048981932
             }
         },
         "supportsArcade": false,
@@ -4272,8 +4272,8 @@
                 "releaseDate": "2009-09-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.natenai.glowhockey",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4289,7 +4289,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -4322,7 +4322,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4344,8 +4344,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354649031,
-                "MZ_INDEXER": 1739497957936
+                "MZ_INDEXER": 1739497957936,
+                "RTCI": 1731354649031
             }
         },
         "supportsArcade": false,
@@ -4425,8 +4425,8 @@
                 "releaseDate": "2022-02-20",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.golf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4442,7 +4442,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4475,7 +4475,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4497,8 +4497,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359237020,
-                "MZ_INDEXER": 1739541864584
+                "MZ_INDEXER": 1739541864584,
+                "RTCI": 1731359237020
             }
         },
         "supportsArcade": false,
@@ -4583,8 +4583,8 @@
                 "releaseDate": "2017-07-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.playsportgames.mmm2017",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4600,7 +4600,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -4643,7 +4643,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialNotes": {
                     "tagline": "運籌帷幄 打造冠軍車隊"
                 },
@@ -4668,8 +4668,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731370387040,
-                "MZ_INDEXER": 1739550702144
+                "MZ_INDEXER": 1739925390048,
+                "RTCI": 1731370387040
             }
         },
         "supportsArcade": false,
@@ -4750,8 +4750,8 @@
                 "releaseDate": "2009-05-25",
                 "hasInAppPurchases": false,
                 "bundleId": "us.digitalsmoke.10pinshuffle",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4767,7 +4767,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4800,7 +4800,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4822,8 +4822,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738966086570,
-                "MZ_INDEXER": 1739487116412
+                "MZ_INDEXER": 1739927051983,
+                "RTCI": 1738966086570
             }
         },
         "supportsArcade": false,
@@ -4903,8 +4903,8 @@
                 "releaseDate": "2008-10-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.RockingPocketGames.iFishing",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4919,7 +4919,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -4952,7 +4952,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4974,8 +4974,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731360110658,
-                "MZ_INDEXER": 1739483158869
+                "MZ_INDEXER": 1739907995820,
+                "RTCI": 1731360110658
             }
         },
         "supportsArcade": false,
@@ -5055,8 +5055,8 @@
                 "releaseDate": "2010-11-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.full-fat.flickgolf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5072,7 +5072,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -5115,7 +5115,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5137,8 +5137,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739385116024,
-                "MZ_INDEXER": 1739830103507
+                "MZ_INDEXER": 1739830103507,
+                "RTCI": 1739385116024
             }
         },
         "supportsArcade": false,
@@ -5218,8 +5218,8 @@
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.acceleroto.airhockey",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5235,7 +5235,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5268,7 +5268,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5290,8 +5290,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364142691,
-                "MZ_INDEXER": 1739546162489
+                "MZ_INDEXER": 1739546162489,
+                "RTCI": 1731364142691
             }
         },
         "supportsArcade": false,
@@ -5376,8 +5376,8 @@
                 "releaseDate": "2016-01-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tinybuildgames.punchclub",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5393,7 +5393,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -5436,7 +5436,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5458,8 +5458,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534715,
-                "MZ_INDEXER": 1739798988878
+                "MZ_INDEXER": 1739798988878,
+                "RTCI": 1738955534715
             }
         },
         "supportsArcade": false,
@@ -5539,8 +5539,8 @@
                 "releaseDate": "2012-12-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tangram3d.AthleticsFull",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5556,7 +5556,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5589,7 +5589,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5611,8 +5611,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364776870,
-                "MZ_INDEXER": 1739829775802
+                "MZ_INDEXER": 1739829775802,
+                "RTCI": 1731364776870
             }
         },
         "supportsArcade": false,
@@ -5692,8 +5692,8 @@
                 "releaseDate": "2011-12-14",
                 "hasInAppPurchases": true,
                 "bundleId": "ms.games.icerage",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5709,7 +5709,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -5752,7 +5752,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5774,8 +5774,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373170857,
-                "MZ_INDEXER": 1739536485344
+                "MZ_INDEXER": 1739536485344,
+                "RTCI": 1731373170857
             }
         },
         "supportsArcade": false,
@@ -5861,8 +5861,8 @@
                 "releaseDate": "2018-08-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.playsportgames.mmm3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5878,7 +5878,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -5931,7 +5931,7 @@
                         "textColor4": "29554f"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5953,8 +5953,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737343801048,
-                "MZ_INDEXER": 1739514418652
+                "MZ_INDEXER": 1739514418652,
+                "RTCI": 1737343801048
             }
         },
         "supportsArcade": false,
@@ -6035,8 +6035,8 @@
                 "releaseDate": "2017-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.okidokico.okgolf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6052,7 +6052,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6135,7 +6135,7 @@
                         "textColor4": "c2c2c2"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6157,8 +6157,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739470812435,
-                "MZ_INDEXER": 1739829460030
+                "MZ_INDEXER": 1739829460030,
+                "RTCI": 1739470812435
             }
         },
         "supportsArcade": false,
@@ -6238,8 +6238,8 @@
                 "releaseDate": "2010-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "net.foddy.QWOP",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6254,7 +6254,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -6287,7 +6287,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6309,8 +6309,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731372127081,
-                "MZ_INDEXER": 1739517330721
+                "MZ_INDEXER": 1739517330721,
+                "RTCI": 1731372127081
             }
         },
         "supportsArcade": false,
@@ -6339,13 +6339,13 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.5,
-            "ratingCount": 15,
+            "ratingCount": 16,
             "ratingCountList": [
                 2,
                 0,
                 0,
                 0,
-                13
+                14
             ],
             "ariaLabelForRatings": "4.5 顆星"
         },
@@ -6390,8 +6390,8 @@
                 "releaseDate": "2018-11-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sennep.holes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6407,7 +6407,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6450,7 +6450,7 @@
                         "textColor4": "4a3934"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Crazy alphabet golf",
                 "editorialNotes": {
                     "tagline": "英文字母成球道 推桿進洞樂趣多"
@@ -6476,8 +6476,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534714,
-                "MZ_INDEXER": 1739798965352
+                "MZ_INDEXER": 1739798965352,
+                "RTCI": 1738955534714
             }
         },
         "supportsArcade": false,
@@ -6557,8 +6557,8 @@
                 "releaseDate": "2012-12-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tangram3d.AthleticsWomenFull",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6574,7 +6574,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -6607,7 +6607,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6629,8 +6629,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732210452760,
-                "MZ_INDEXER": 1739535591311
+                "MZ_INDEXER": 1739535591311,
+                "RTCI": 1732210452760
             }
         },
         "supportsArcade": false,
@@ -6715,8 +6715,8 @@
                 "releaseDate": "2018-01-02",
                 "hasInAppPurchases": true,
                 "bundleId": "com.femalepresidentgames.loveme.cn",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6731,7 +6731,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -6764,7 +6764,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6786,8 +6786,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359882308,
-                "MZ_INDEXER": 1739829352261
+                "MZ_INDEXER": 1739829352261,
+                "RTCI": 1731359882308
             }
         },
         "supportsArcade": false,
@@ -6867,8 +6867,8 @@
                 "releaseDate": "2010-08-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gamerizon.chopchopsoccer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6884,7 +6884,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6917,7 +6917,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6939,8 +6939,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955260876,
-                "MZ_INDEXER": 1739545145302
+                "MZ_INDEXER": 1739545145302,
+                "RTCI": 1738955260876
             }
         },
         "supportsArcade": false,
@@ -7020,8 +7020,8 @@
                 "releaseDate": "2019-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.chillingo.par72golf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7036,7 +7036,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7069,7 +7069,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7091,8 +7091,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738966086746,
-                "MZ_INDEXER": 1739517638489
+                "MZ_INDEXER": 1739517638489,
+                "RTCI": 1738966086746
             }
         },
         "supportsArcade": false,
@@ -7171,8 +7171,8 @@
                 "releaseDate": "2009-06-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.RockingPocketGames.iFishingSE",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7188,7 +7188,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7221,7 +7221,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7243,8 +7243,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738272994312,
-                "MZ_INDEXER": 1739519921467
+                "MZ_INDEXER": 1739519921467,
+                "RTCI": 1738272994312
             }
         },
         "supportsArcade": false,
@@ -7324,6 +7324,8 @@
                 "releaseDate": "2018-11-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Afterburn.GolfPeaks",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -7334,8 +7336,6 @@
                     "textColor3": "414236",
                     "textColor4": "4c4b3a"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7351,7 +7351,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -7394,7 +7394,7 @@
                         "textColor4": "4a555b"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "高爾夫 + 謎題 + 卡片",
                 "editorialNotes": {
                     "tagline": "翻轉高爾夫球場 讓小白球登頂"
@@ -7420,8 +7420,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361016888,
-                "MZ_INDEXER": 1739543122215
+                "MZ_INDEXER": 1739543122215,
+                "RTCI": 1731361016888
             }
         },
         "supportsArcade": false,
@@ -7501,8 +7501,8 @@
                 "releaseDate": "2018-07-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Vince.Alamobile",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7518,7 +7518,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -7551,7 +7551,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7573,8 +7573,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731366494234,
-                "MZ_INDEXER": 1739503533987
+                "MZ_INDEXER": 1739503533987,
+                "RTCI": 1731366494234
             }
         },
         "supportsArcade": false,
@@ -7654,8 +7654,8 @@
                 "releaseDate": "2016-06-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tuokio.soccersumos",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7671,7 +7671,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7714,7 +7714,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7736,8 +7736,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373591228,
-                "MZ_INDEXER": 1739542224075
+                "MZ_INDEXER": 1739542224075,
+                "RTCI": 1731373591228
             }
         },
         "supportsArcade": false,
@@ -7817,8 +7817,8 @@
                 "releaseDate": "2010-08-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.MobileGamesPro.Ciclis",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7834,7 +7834,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7867,7 +7867,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "The cyclist simulator",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7890,8 +7890,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365418231,
-                "MZ_INDEXER": 1739540322169
+                "MZ_INDEXER": 1739540322169,
+                "RTCI": 1731365418231
             }
         },
         "supportsArcade": false,
@@ -7971,8 +7971,8 @@
                 "releaseDate": "2013-03-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.noodlecake.ssgpuzzle",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7988,7 +7988,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8031,6 +8030,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8052,8 +8052,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738968951370,
-                "MZ_INDEXER": 1739490345534
+                "MZ_INDEXER": 1739490345534,
+                "RTCI": 1738968951370
             }
         },
         "supportsArcade": false,
@@ -8133,8 +8133,8 @@
                 "releaseDate": "2014-08-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.captain-games.desertgolf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8150,7 +8150,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8193,7 +8193,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialNotes": {
                     "tagline": "蒼茫荒漠中的高爾夫修行"
                 },
@@ -8218,8 +8218,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731377830255,
-                "MZ_INDEXER": 1739835845895
+                "MZ_INDEXER": 1739835845895,
+                "RTCI": 1731377830255
             }
         },
         "supportsArcade": false,
@@ -8299,8 +8299,8 @@
                 "releaseDate": "2016-09-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yeahus.pumped3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8316,7 +8316,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8349,7 +8349,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8371,8 +8371,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359344560,
-                "MZ_INDEXER": 1739829321566
+                "MZ_INDEXER": 1739829321566,
+                "RTCI": 1731359344560
             }
         },
         "supportsArcade": false,
@@ -8455,8 +8455,8 @@
                 "releaseDate": "2010-11-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gamerizon.chopchophockey",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8472,7 +8472,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -8505,7 +8505,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8527,8 +8527,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378981629,
-                "MZ_INDEXER": 1739501304319
+                "MZ_INDEXER": 1739501304319,
+                "RTCI": 1731378981629
             }
         },
         "supportsArcade": false,
@@ -8615,8 +8615,8 @@
                 "releaseDate": "2023-09-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.playsportgames.mmm2023",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8632,7 +8632,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -8675,7 +8675,7 @@
                         "textColor4": "7897da"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8697,8 +8697,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353024545,
-                "MZ_INDEXER": 1739527643891
+                "MZ_INDEXER": 1739527643891,
+                "RTCI": 1731353024545
             }
         },
         "supportsArcade": false,
@@ -8779,8 +8779,8 @@
                 "releaseDate": "2015-11-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ratrodstudio.snowparty2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8796,7 +8796,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8839,7 +8839,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Extreme Snowboarding Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8862,8 +8862,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731370037210,
-                "MZ_INDEXER": 1739539756103
+                "MZ_INDEXER": 1739539756103,
+                "RTCI": 1731370037210
             }
         },
         "supportsArcade": false,
@@ -8943,8 +8943,8 @@
                 "releaseDate": "2014-05-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.HangXun.iphonechesspay",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8960,7 +8960,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -8993,7 +8993,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "殘局挑戰，棋譜學習",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9016,8 +9016,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959523230,
-                "MZ_INDEXER": 1739492286642
+                "MZ_INDEXER": 1739492286642,
+                "RTCI": 1738959523230
             }
         },
         "supportsArcade": false,
@@ -9098,8 +9098,8 @@
                 "releaseDate": "2012-03-16",
                 "hasInAppPurchases": true,
                 "bundleId": "com.rcflightsim.cvapp1",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9115,7 +9115,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -9148,7 +9148,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9170,8 +9170,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952948433,
-                "MZ_INDEXER": 1739518167755
+                "MZ_INDEXER": 1739518167755,
+                "RTCI": 1738952948433
             }
         },
         "supportsArcade": false,
@@ -9251,8 +9251,8 @@
                 "releaseDate": "2011-06-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.driftwood.cannonbowl",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9268,7 +9268,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9301,7 +9301,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9323,8 +9323,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731363045093,
-                "MZ_INDEXER": 1739491161212
+                "MZ_INDEXER": 1739491161212,
+                "RTCI": 1731363045093
             }
         },
         "supportsArcade": false,
@@ -9406,8 +9406,8 @@
                 "releaseDate": "2018-06-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.trianglepixel.clashcaddie",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9423,7 +9423,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -9456,7 +9456,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9478,8 +9478,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534696,
-                "MZ_INDEXER": 1739798965206
+                "MZ_INDEXER": 1739798965206,
+                "RTCI": 1738955534696
             }
         },
         "supportsArcade": false,
@@ -9559,8 +9559,8 @@
                 "releaseDate": "2011-04-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tangram3D.SummerGames",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9576,7 +9576,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9609,7 +9609,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9631,8 +9631,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357026015,
-                "MZ_INDEXER": 1739832605283
+                "MZ_INDEXER": 1739832605283,
+                "RTCI": 1731357026015
             }
         },
         "supportsArcade": false,
@@ -9712,8 +9712,8 @@
                 "releaseDate": "2014-09-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yeahus.pumped2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9729,7 +9729,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9762,7 +9762,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9784,8 +9784,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958538142,
-                "MZ_INDEXER": 1739499541198
+                "MZ_INDEXER": 1739499541198,
+                "RTCI": 1738958538142
             }
         },
         "supportsArcade": false,
@@ -9868,8 +9868,8 @@
                 "releaseDate": "2016-12-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.epaga.IFAssistant",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9885,7 +9885,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -9918,7 +9918,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9940,8 +9940,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957242649,
-                "MZ_INDEXER": 1739543241248
+                "MZ_INDEXER": 1739915159873,
+                "RTCI": 1738957242649
             }
         },
         "supportsArcade": false,
@@ -10020,8 +10020,8 @@
                 "releaseDate": "2010-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dardarimm.iOverTheNet",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10037,7 +10037,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10070,7 +10070,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10092,8 +10092,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737389545563,
-                "MZ_INDEXER": 1739546083998
+                "MZ_INDEXER": 1739921177407,
+                "RTCI": 1737389545563
             }
         },
         "supportsArcade": false,
@@ -10173,8 +10173,8 @@
                 "releaseDate": "2012-07-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.chillingo.flickchampionslondon",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10189,7 +10189,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10222,7 +10222,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10244,8 +10244,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956493640,
-                "MZ_INDEXER": 1739490397581
+                "MZ_INDEXER": 1739490397581,
+                "RTCI": 1738956493640
             }
         },
         "supportsArcade": false,
@@ -10326,8 +10326,8 @@
                 "releaseDate": "2018-03-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Majorariatto.GOI",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10343,7 +10343,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10376,7 +10376,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10398,8 +10398,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959523312,
-                "MZ_INDEXER": 1739495857103
+                "MZ_INDEXER": 1739495857103,
+                "RTCI": 1738959523312
             }
         },
         "supportsArcade": false,
@@ -10480,8 +10480,8 @@
                 "releaseDate": "2012-05-31",
                 "hasInAppPurchases": true,
                 "bundleId": "com.rcflightsim.cvplane1",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10497,7 +10497,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -10530,7 +10530,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10552,8 +10552,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951187059,
-                "MZ_INDEXER": 1739513986200
+                "MZ_INDEXER": 1739513986200,
+                "RTCI": 1738951187059
             }
         },
         "supportsArcade": false,
@@ -10632,8 +10632,8 @@
                 "releaseDate": "2019-01-31",
                 "hasInAppPurchases": true,
                 "bundleId": "com.nuclearnova.glgolf2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10649,7 +10649,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "2.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -10682,7 +10682,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "2.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10704,8 +10704,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737389545564,
-                "MZ_INDEXER": 1739496805149
+                "MZ_INDEXER": 1739496805149,
+                "RTCI": 1737389545564
             }
         },
         "supportsArcade": false,
@@ -10785,8 +10785,8 @@
                 "releaseDate": "2013-02-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.chillingo.flickchampswinter",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10801,7 +10801,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10844,7 +10844,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10866,8 +10866,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738950899880,
-                "MZ_INDEXER": 1739483524386
+                "MZ_INDEXER": 1739906916568,
+                "RTCI": 1738950899880
             }
         },
         "supportsArcade": false,
@@ -10953,8 +10953,8 @@
                 "releaseDate": "2008-12-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.realtechvr.ironfistboxing",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10970,7 +10970,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -11003,7 +11003,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11025,8 +11025,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361270103,
-                "MZ_INDEXER": 1739506569131
+                "MZ_INDEXER": 1739506569131,
+                "RTCI": 1731361270103
             }
         },
         "supportsArcade": false,
@@ -11106,8 +11106,8 @@
                 "releaseDate": "2022-08-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.noodlecake.descenders",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11123,7 +11123,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -11166,7 +11166,7 @@
                         "textColor4": "9e784f"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Extreme Downhill Freeriding",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11189,8 +11189,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731381075722,
-                "MZ_INDEXER": 1739838820443
+                "MZ_INDEXER": 1739920349845,
+                "RTCI": 1731381075722
             }
         },
         "supportsArcade": false,
@@ -11270,8 +11270,8 @@
                 "releaseDate": "2019-08-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yeahus.trailbossbmx",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11287,7 +11287,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11320,7 +11320,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11342,8 +11342,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534531,
-                "MZ_INDEXER": 1739798965526
+                "MZ_INDEXER": 1739798965526,
+                "RTCI": 1738955534531
             }
         },
         "supportsArcade": false,
@@ -11423,8 +11423,8 @@
                 "releaseDate": "2013-06-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tangram3D.Cycling2013Full",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11440,7 +11440,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11473,7 +11473,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11495,8 +11495,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955990146,
-                "MZ_INDEXER": 1739490590591
+                "MZ_INDEXER": 1739490590591,
+                "RTCI": 1738955990146
             }
         },
         "supportsArcade": false,
@@ -11576,8 +11576,8 @@
                 "releaseDate": "2017-08-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.handelabra.Bot9",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11593,7 +11593,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -11626,7 +11626,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11648,8 +11648,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737389545574,
-                "MZ_INDEXER": 1739552946127
+                "MZ_INDEXER": 1739552946127,
+                "RTCI": 1737389545574
             }
         },
         "supportsArcade": false,
@@ -11729,8 +11729,8 @@
                 "releaseDate": "2011-09-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.chillingo.flickchampions",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11745,7 +11745,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11778,7 +11778,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11800,8 +11800,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731370622181,
-                "MZ_INDEXER": 1739829355408
+                "MZ_INDEXER": 1739829355408,
+                "RTCI": 1731370622181
             }
         },
         "supportsArcade": false,
@@ -11881,8 +11881,8 @@
                 "releaseDate": "2011-01-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.toltoly.kakariKeiko",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11898,7 +11898,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11931,7 +11931,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11953,8 +11953,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952362516,
-                "MZ_INDEXER": 1739535261858
+                "MZ_INDEXER": 1739535261858,
+                "RTCI": 1738952362516
             }
         },
         "supportsArcade": false,
@@ -12034,8 +12034,8 @@
                 "releaseDate": "2011-12-16",
                 "hasInAppPurchases": true,
                 "bundleId": "uk.co.bigheadgames.IS2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12051,7 +12051,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12084,7 +12084,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12106,8 +12106,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738960808941,
-                "MZ_INDEXER": 1739529622773
+                "MZ_INDEXER": 1739529622773,
+                "RTCI": 1738960808941
             }
         },
         "supportsArcade": false,
@@ -12187,8 +12187,8 @@
                 "releaseDate": "2010-06-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ezone.SnowPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12204,7 +12204,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12237,7 +12237,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12259,8 +12259,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739678241657,
-                "MZ_INDEXER": 1739832027225
+                "MZ_INDEXER": 1739912080451,
+                "RTCI": 1739678241657
             }
         },
         "supportsArcade": false,
@@ -12340,8 +12340,8 @@
                 "releaseDate": "2013-09-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jetstripes.rctz",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12357,7 +12357,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -12390,7 +12390,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12412,8 +12412,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534531,
-                "MZ_INDEXER": 1739798967702
+                "MZ_INDEXER": 1739798967702,
+                "RTCI": 1738955534531
             }
         },
         "supportsArcade": false,
@@ -12493,8 +12493,8 @@
                 "releaseDate": "2014-01-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tangram3D.WinterSportsFull",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12510,7 +12510,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12543,7 +12543,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12565,8 +12565,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378519076,
-                "MZ_INDEXER": 1739838244052
+                "MZ_INDEXER": 1739924998634,
+                "RTCI": 1731378519076
             }
         },
         "supportsArcade": false,
@@ -12648,8 +12648,8 @@
                 "releaseDate": "2016-09-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yreaction.basketwatch",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12665,7 +12665,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12698,7 +12698,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -12730,8 +12730,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737148606710,
-                "MZ_INDEXER": 1739829258288
+                "MZ_INDEXER": 1739829258288,
+                "RTCI": 1737148606710
             }
         },
         "supportsArcade": false,
@@ -12811,8 +12811,8 @@
                 "releaseDate": "2010-02-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.StingerGames.TableHockey",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12828,7 +12828,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -12861,7 +12861,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12883,8 +12883,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731367156565,
-                "MZ_INDEXER": 1739509447004
+                "MZ_INDEXER": 1739509447004,
+                "RTCI": 1731367156565
             }
         },
         "supportsArcade": false,
@@ -12964,8 +12964,8 @@
                 "releaseDate": "2014-04-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.thetisgames.fs2014.universal.paid",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12981,7 +12981,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -13014,7 +13014,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13036,8 +13036,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957323812,
-                "MZ_INDEXER": 1739531097746
+                "MZ_INDEXER": 1739531097746,
+                "RTCI": 1738957323812
             }
         },
         "supportsArcade": false,
@@ -13118,8 +13118,8 @@
                 "releaseDate": "2024-05-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.batovi.pcsue",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13135,7 +13135,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13168,7 +13168,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Ultimate Edition",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13191,8 +13191,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731368528313,
-                "MZ_INDEXER": 1739488144263
+                "MZ_INDEXER": 1739488144263,
+                "RTCI": 1731368528313
             }
         },
         "supportsArcade": false,
@@ -13275,8 +13275,8 @@
                 "releaseDate": "2010-02-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.MobileGamesPro.RCAirplane",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13292,7 +13292,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13325,7 +13325,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Fly and combat over the city",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13348,8 +13348,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731363023615,
-                "MZ_INDEXER": 1739545027263
+                "MZ_INDEXER": 1739920304295,
+                "RTCI": 1731363023615
             }
         },
         "supportsArcade": false,
@@ -13433,8 +13433,8 @@
                 "releaseDate": "2009-11-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.aleksirantonen.gunrange",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13450,7 +13450,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13483,7 +13483,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13505,8 +13505,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951186881,
-                "MZ_INDEXER": 1739530740617
+                "MZ_INDEXER": 1739530740617,
+                "RTCI": 1738951186881
             }
         },
         "supportsArcade": false,
@@ -13585,8 +13585,8 @@
                 "releaseDate": "2009-01-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.nuclearnova.glgolf2deluxe",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13602,7 +13602,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "2.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13635,7 +13635,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "2.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13657,8 +13657,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738954265636,
-                "MZ_INDEXER": 1739490326167
+                "MZ_INDEXER": 1739490326167,
+                "RTCI": 1738954265636
             }
         },
         "supportsArcade": false,
@@ -13741,8 +13741,8 @@
                 "releaseDate": "2018-12-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.strongbox3d.freedivinghunteradrenaline",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13758,7 +13758,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13791,7 +13791,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13813,8 +13813,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359134207,
-                "MZ_INDEXER": 1739545555862
+                "MZ_INDEXER": 1739925604384,
+                "RTCI": 1731359134207
             }
         },
         "supportsArcade": false,
@@ -13894,8 +13894,8 @@
                 "releaseDate": "2023-10-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.grapefrukt.games.tilebreaker",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13911,7 +13911,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -13944,7 +13944,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialNotes": {
                     "standard": "這款創新的遊戲結合了撞球與高爾夫，你可以透過巧妙的擊球來完成花式進洞，享受雙倍樂趣。"
                 },
@@ -13969,8 +13969,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354993601,
-                "MZ_INDEXER": 1739838096347
+                "MZ_INDEXER": 1739838096347,
+                "RTCI": 1731354993601
             }
         },
         "supportsArcade": false,
@@ -14050,8 +14050,8 @@
                 "releaseDate": "2017-03-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.u1.hitorikyudo",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14067,7 +14067,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14100,7 +14100,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14122,8 +14122,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354021947,
-                "MZ_INDEXER": 1739487952739
+                "MZ_INDEXER": 1739487952739,
+                "RTCI": 1731354021947
             }
         },
         "supportsArcade": false,
@@ -14203,8 +14203,8 @@
                 "releaseDate": "2013-09-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.donutgames.beachgames",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14220,7 +14220,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14253,7 +14253,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14275,8 +14275,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955260822,
-                "MZ_INDEXER": 1739524658451
+                "MZ_INDEXER": 1739524658451,
+                "RTCI": 1738955260822
             }
         },
         "supportsArcade": false,
@@ -14359,8 +14359,8 @@
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.resetgame.vegaspoolsharks",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14376,7 +14376,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14409,7 +14409,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14431,8 +14431,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357537718,
-                "MZ_INDEXER": 1739546990720
+                "MZ_INDEXER": 1739546990720,
+                "RTCI": 1731357537718
             }
         },
         "supportsArcade": false,
@@ -14512,6 +14512,8 @@
                 "releaseDate": "2020-08-26",
                 "hasInAppPurchases": false,
                 "bundleId": "net.playables.myexercise",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -14522,8 +14524,6 @@
                     "textColor3": "42461d",
                     "textColor4": "4c501d"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14539,7 +14539,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14582,7 +14582,7 @@
                         "textColor4": "3d4121"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "讓我們做仰臥起坐！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14605,8 +14605,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957242825,
-                "MZ_INDEXER": 1739553286381
+                "MZ_INDEXER": 1739553286381,
+                "RTCI": 1738957242825
             }
         },
         "supportsArcade": false,
@@ -14686,8 +14686,8 @@
                 "releaseDate": "2012-09-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dardari.beachvolley",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14703,7 +14703,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14736,7 +14736,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14758,8 +14758,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354378785,
-                "MZ_INDEXER": 1739482957942
+                "MZ_INDEXER": 1739909731989,
+                "RTCI": 1731354378785
             }
         },
         "supportsArcade": false,
@@ -14842,8 +14842,8 @@
                 "releaseDate": "2011-07-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.MobileGamesPro.RCHelicopter",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14859,7 +14859,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -14892,7 +14892,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Fly and combat over the city",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14915,8 +14915,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733931497781,
-                "MZ_INDEXER": 1739482328362
+                "MZ_INDEXER": 1739910391649,
+                "RTCI": 1733931497781
             }
         },
         "supportsArcade": false,
@@ -14997,8 +14997,8 @@
                 "releaseDate": "2019-07-20",
                 "hasInAppPurchases": true,
                 "bundleId": "com.playway.professionalfishing2019",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15014,7 +15014,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -15047,7 +15047,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15069,8 +15069,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731368670174,
-                "MZ_INDEXER": 1739830697917
+                "MZ_INDEXER": 1739830697917,
+                "RTCI": 1731368670174
             }
         },
         "supportsArcade": false,
@@ -15153,8 +15153,8 @@
                 "releaseDate": "2011-12-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mwb.sch3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15170,7 +15170,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -15203,7 +15203,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15225,8 +15225,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733167577884,
-                "MZ_INDEXER": 1739529899302
+                "MZ_INDEXER": 1739529899302,
+                "RTCI": 1733167577884
             }
         },
         "supportsArcade": false,
@@ -15306,8 +15306,8 @@
                 "releaseDate": "2009-12-17",
                 "hasInAppPurchases": false,
                 "bundleId": "goldenhammer.bmsnowboard",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15323,7 +15323,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -15356,7 +15356,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15378,8 +15378,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731366929561,
-                "MZ_INDEXER": 1739505562073
+                "MZ_INDEXER": 1739505562073,
+                "RTCI": 1731366929561
             }
         },
         "supportsArcade": false,
@@ -15459,8 +15459,8 @@
                 "releaseDate": "2021-03-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.clickteam.arcanegolf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15475,7 +15475,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -15508,7 +15508,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15530,8 +15530,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737488337383,
-                "MZ_INDEXER": 1739520487200
+                "MZ_INDEXER": 1739520487200,
+                "RTCI": 1737488337383
             }
         },
         "supportsArcade": false,
@@ -15612,8 +15612,8 @@
                 "releaseDate": "2022-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.OddAnimalStudio.NightSkate",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15629,7 +15629,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -15672,7 +15672,7 @@
                         "textColor4": "bcc3ca"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15694,8 +15694,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738953593581,
-                "MZ_INDEXER": 1739490669078
+                "MZ_INDEXER": 1739490669078,
+                "RTCI": 1738953593581
             }
         },
         "supportsArcade": false,
@@ -15777,8 +15777,8 @@
                 "releaseDate": "2019-01-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.deepscoring.apsim",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15794,7 +15794,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -15827,7 +15827,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

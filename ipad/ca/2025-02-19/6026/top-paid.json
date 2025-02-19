@@ -1,6 +1,163 @@
 [
     {
         "kind": "app",
+        "id": "1203594958",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1183528224",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739509516192,
+                "RTCI": 1731363759872
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "17+",
+                "value": 600,
+                "rank": 4,
+                "advisories": [
+                    "Unrestricted Web Access"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 1,
+                "genreName": "Developer Tools",
+                "genre": 6026,
+                "chart": "top-paid",
+                "genreShortName": "Dev Tools"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.4,
+            "ratingCount": 10,
+            "ratingCountList": [
+                1,
+                0,
+                1,
+                0,
+                8
+            ],
+            "ariaLabelForRatings": "4.4 stars"
+        },
+        "genreDisplayName": "Developer Tools",
+        "name": "Inspect Browser",
+        "isPreorder": false,
+        "artistName": "Parallax Dynamics Inc.",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=9990&salableAdamId=1203594958&pricingParameters=STDQ&pg=default&appExtVrsId=867414713",
+                        "type": "buy",
+                        "priceFormatted": "$9.99",
+                        "price": 9.99,
+                        "currencyCode": "CAD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 18976768
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1203594958&pricingParameters=SWUPD&pg=default&appExtVrsId=867414713",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "CAD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 18976768
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
+                "releaseDate": "2017-02-09",
+                "hasInAppPurchases": false,
+                "bundleId": "net.pdyn.Inspect",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/71/c6/a971c683-ee6e-46d3-b3ee-75c8d2be2484/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "035a6d",
+                    "textColor1": "f0f0f0",
+                    "textColor2": "aadfe9",
+                    "textColor3": "c0d2d5",
+                    "textColor4": "88c4d0"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1044,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/e1/3f/0de13fa1-5559-bd04-e331-2f28462b45e8/8443b5bd-2084-44d0-ab26-87afd140601b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1044,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/e1/28/52e12832-87a6-6c38-b241-480374608255/4125805d-2ebf-4f1f-900d-065fa62f81f8.png/{w}x{h}{c}.{f}",
+                        "bgColor": "0095ff",
+                        "textColor1": "00070c",
+                        "textColor2": "000f19",
+                        "textColor3": "00243d",
+                        "textColor4": "002a47"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/be/bb/fc/bebbfc47-98df-2708-064d-e75bfce80d00/792f12e0-ef1c-4dfb-a8f8-033cacffa077.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "Web Inspector and Dev Tools",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "1049254261",
         "type": "apps",
         "relationships": {
@@ -34,7 +191,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 1,
+                "position": 2,
                 "genreName": "Developer Tools",
                 "genre": 6026,
                 "chart": "top-paid",
@@ -57,8 +214,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Textastic Code Editor",
         "isPreorder": false,
-        "artistName": "Alexander Blach",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Alexander Blach",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -90,13 +247,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2016-03-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.textasticapp.textastic-universal",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -188,7 +345,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "Developer Tools",
                 "genre": 6026,
                 "chart": "top-paid",
@@ -208,11 +365,11 @@
             ],
             "ariaLabelForRatings": "2.8 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Programming Notebook LITE",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Ryan Rudes",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Ryan Rudes",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -244,13 +401,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appcoda.ryan-rudes",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -322,7 +479,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739525451597,
+                "MZ_INDEXER": 1739908517709,
                 "RTCI": 1731365769259
             }
         },
@@ -341,7 +498,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "Developer Tools",
                 "genre": 6026,
                 "chart": "top-paid",
@@ -364,8 +521,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Code App",
         "isPreorder": false,
-        "artistName": "thebaselab Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "thebaselab Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -397,13 +554,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2020-05-28",
                 "hasInAppPurchases": false,
                 "bundleId": "thebaselab.VS-Code",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -419,6 +576,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -452,7 +610,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Desktop-class code editing",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -495,7 +652,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "Developer Tools",
                 "genre": 6026,
                 "chart": "top-paid",
@@ -515,11 +672,11 @@
             ],
             "ariaLabelForRatings": "4.2 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Buffer Editor - Code Editor",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Blakzero Oy",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Blakzero Oy",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -615,163 +772,6 @@
     },
     {
         "kind": "app",
-        "id": "1203594958",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1183528224",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739509516192,
-                "RTCI": 1731363759872
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "Unrestricted Web Access"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 5,
-                "genreName": "Developer Tools",
-                "genre": 6026,
-                "chart": "top-paid",
-                "genreShortName": "Dev Tools"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.4,
-            "ratingCount": 10,
-            "ratingCountList": [
-                1,
-                0,
-                1,
-                0,
-                8
-            ],
-            "ariaLabelForRatings": "4.4 stars"
-        },
-        "name": "Inspect Browser",
-        "genreDisplayName": "Developer Tools",
-        "isPreorder": false,
-        "artistName": "Parallax Dynamics Inc.",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=9990&salableAdamId=1203594958&pricingParameters=STDQ&pg=default&appExtVrsId=867414713",
-                        "type": "buy",
-                        "priceFormatted": "$9.99",
-                        "price": 9.99,
-                        "currencyCode": "CAD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 18976768
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1203594958&pricingParameters=SWUPD&pg=default&appExtVrsId=867414713",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "CAD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 18976768
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "12.0",
-                "releaseDate": "2017-02-09",
-                "hasInAppPurchases": false,
-                "bundleId": "net.pdyn.Inspect",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/71/c6/a971c683-ee6e-46d3-b3ee-75c8d2be2484/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "035a6d",
-                    "textColor1": "f0f0f0",
-                    "textColor2": "aadfe9",
-                    "textColor3": "c0d2d5",
-                    "textColor4": "88c4d0"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1044,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/e1/3f/0de13fa1-5559-bd04-e331-2f28462b45e8/8443b5bd-2084-44d0-ab26-87afd140601b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1044,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/e1/28/52e12832-87a6-6c38-b241-480374608255/4125805d-2ebf-4f1f-900d-065fa62f81f8.png/{w}x{h}{c}.{f}",
-                        "bgColor": "0095ff",
-                        "textColor1": "00070c",
-                        "textColor2": "000f19",
-                        "textColor3": "00243d",
-                        "textColor4": "002a47"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/be/bb/fc/bebbfc47-98df-2708-064d-e75bfce80d00/792f12e0-ef1c-4dfb-a8f8-033cacffa077.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "subtitle": "Web Inspector and Dev Tools",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "886106438",
         "type": "apps",
         "relationships": {
@@ -827,8 +827,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "hyperPad Visual Coding on iPad",
         "isPreorder": false,
-        "artistName": "UntitledD",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "UntitledD",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -860,13 +860,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-06-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.untitledd.tappabl",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -882,6 +882,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -915,7 +916,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Create Mobile Games and Apps!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -978,11 +978,11 @@
             ],
             "ariaLabelForRatings": "3.9 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Continuous .NET C# and F# IDE",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Krueger Systems, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Krueger Systems, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1019,8 +1019,8 @@
                 "releaseDate": "2016-07-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kruegersystems.continuous",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1036,8 +1036,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -1070,6 +1068,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Coding for pros and students",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1135,8 +1135,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "DraftCode for PHP IDE",
         "isPreorder": false,
-        "artistName": "Solesignal Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Solesignal Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1168,13 +1168,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2013-02-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.freeridecoding.draftcode",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1285,11 +1285,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "SQLed - SQL Database Manager",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Andreas Zimnas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Andreas Zimnas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1321,13 +1321,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.0",
                 "releaseDate": "2011-11-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iaz.db",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1446,8 +1446,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Juno Connect: Jupyter Client",
         "isPreorder": false,
-        "artistName": "Rational Matter",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Rational Matter",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1479,13 +1479,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-01-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rationalmatter.juno",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1498,10 +1498,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -1535,6 +1534,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Cloud Coding/Programming IDE",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1598,8 +1598,8 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.8",
-        "name": "OpenTerm",
         "genreDisplayName": "Developer Tools",
+        "name": "OpenTerm",
         "isPreorder": false,
         "artistName": "逸鸣 赵",
         "isIOSBinaryMacOSCompatible": true,
@@ -1639,8 +1639,8 @@
                 "releaseDate": "2019-12-15",
                 "hasInAppPurchases": true,
                 "bundleId": "zym.ot",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1656,7 +1656,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1690,6 +1689,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Terminal emulator",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1712,7 +1712,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739876384416,
+                "MZ_INDEXER": 1739927022035,
                 "RTCI": 1739873662541
             }
         },
@@ -1757,11 +1757,11 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "watchBundleId": "com.yingzhi.python3pay.watchkitapp",
-        "genreDisplayName": "Developer Tools",
         "name": "python3$",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "小文 黄",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "小文 黄",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -1799,8 +1799,8 @@
                 "releaseDate": "2013-01-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yingzhi.python3pay",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1816,8 +1816,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -1850,6 +1848,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Good helper for python3.13",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -1922,11 +1922,11 @@
             ],
             "ariaLabelForRatings": "1.0 stars"
         },
-        "name": "Programming Notebook PRO",
         "genreDisplayName": "Developer Tools",
+        "name": "Programming Notebook PRO",
         "isPreorder": false,
-        "artistName": "Ryan Rudes",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Ryan Rudes",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1963,8 +1963,8 @@
                 "releaseDate": "2020-07-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appconda.ryan-rudes",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1977,11 +1977,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -2014,6 +2012,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Colab UI for Mobile Devices",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2079,8 +2079,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "LadderTouch",
         "isPreorder": false,
-        "artistName": "Motonari Hibi",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Motonari Hibi",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2112,13 +2112,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-10-30",
                 "hasInAppPurchases": false,
                 "bundleId": "motonari.hibi.LadderTouch",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2131,8 +2131,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2230,11 +2230,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Source 3",
         "genreDisplayName": "Developer Tools",
+        "name": "Source 3",
         "isPreorder": false,
-        "artistName": "永涛 宗",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "永涛 宗",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2271,8 +2271,8 @@
                 "releaseDate": "2014-10-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ytzong.ViewSource",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2285,11 +2285,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -2322,6 +2320,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "View Page Source for Safari",
                 "hasSafariExtension": true,
                 "requiresGameController": false
@@ -2387,11 +2387,11 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "watchBundleId": "com.hacknicity.adaptivity.a.watchkitapp",
-        "name": "Adaptivity (A)",
         "genreDisplayName": "Developer Tools",
+        "name": "Adaptivity (A)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Geoff Hackworth",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -2455,6 +2455,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -2488,7 +2489,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "SF Symbols and other dev tools",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -2561,11 +2561,11 @@
             ],
             "ariaLabelForRatings": "4.2 stars"
         },
-        "name": "BASIC: programming language",
         "genreDisplayName": "Developer Tools",
+        "name": "BASIC: programming language",
         "isPreorder": false,
-        "artistName": "Nikolay Denislamov",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nikolay Denislamov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2602,8 +2602,8 @@
                 "releaseDate": "2020-11-16",
                 "hasInAppPurchases": false,
                 "bundleId": "Kibernetik.smartBASIC",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2674,7 +2674,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739843639459,
+                "MZ_INDEXER": 1739931353955,
                 "RTCI": 1737949866718
             }
         },
@@ -2714,11 +2714,11 @@
             ],
             "ariaLabelForRatings": "4.0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Node-PAD",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Michael Angelo Ruta",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Michael Angelo Ruta",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2871,8 +2871,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "My Lisp",
         "isPreorder": false,
-        "artistName": "Laurent Rodier",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Laurent Rodier",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2908,8 +2908,8 @@
                 "releaseDate": "2017-11-07",
                 "hasInAppPurchases": false,
                 "bundleId": "net.lsrodier.MyLisp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2925,6 +2925,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -2958,7 +2959,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "A Lisp interpreter",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3056,13 +3056,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2024-03-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iconfactory.iPulseMobile",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3078,6 +3078,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -3111,7 +3112,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3174,11 +3174,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Logger for Shortcuts",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Snailed It Development Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Snailed It Development Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3214,8 +3214,8 @@
                 "releaseDate": "2022-03-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.alexhay.Console",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3231,7 +3231,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -3265,6 +3264,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Developer console",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3328,8 +3328,8 @@
             "ariaLabelForRatings": "3.9 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.0",
-        "name": "Text Editor - Document Editor",
         "genreDisplayName": "Developer Tools",
+        "name": "Text Editor - Document Editor",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Supagarn Pattananuchart",
@@ -3386,6 +3386,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -3419,162 +3420,8 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "subtitle": "Edit Texts & Replace Words",
                 "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6446626905",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1637867851",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739490040371,
-                "RTCI": 1731364765982
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "mac",
-            "iphone",
-            "ipad"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 23,
-                "genreName": "Developer Tools",
-                "genre": 6026,
-                "chart": "top-paid",
-                "genreShortName": "Dev Tools"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 stars"
-        },
-        "name": "Cookie Editor Safari Extension",
-        "genreDisplayName": "Developer Tools",
-        "isPreorder": false,
-        "artistName": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=990&salableAdamId=6446626905&pricingParameters=STDQ&pg=default&appExtVrsId=869835810",
-                        "type": "buy",
-                        "priceFormatted": "$0.99",
-                        "price": 0.99,
-                        "currencyCode": "CAD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 12328960
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6446626905&pricingParameters=SWUPD&pg=default&appExtVrsId=869835810",
-                        "type": "update",
-                        "priceFormatted": "$0.00",
-                        "price": 0,
-                        "currencyCode": "CAD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 12328960
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "releaseDate": "2023-04-05",
-                "hasInAppPurchases": false,
-                "bundleId": "com.zamalabs.CookieEditorExtension",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/9b/b0/199bb0d0-d996-d82a-fce1-930a6d9c2913/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffeebf",
-                    "textColor1": "3e1507",
-                    "textColor2": "4b2009",
-                    "textColor3": "65402b",
-                    "textColor4": "6f492e"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1044,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/e1/3f/0de13fa1-5559-bd04-e331-2f28462b45e8/8443b5bd-2084-44d0-ab26-87afd140601b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1044,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/e1/28/52e12832-87a6-6c38-b241-480374608255/4125805d-2ebf-4f1f-900d-065fa62f81f8.png/{w}x{h}{c}.{f}",
-                        "bgColor": "0095ff",
-                        "textColor1": "00070c",
-                        "textColor2": "000f19",
-                        "textColor3": "00243d",
-                        "textColor4": "002a47"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/be/bb/fc/bebbfc47-98df-2708-064d-e75bfce80d00/792f12e0-ef1c-4dfb-a8f8-033cacffa077.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "subtitle": "Edit Cookies in Web Browser",
-                "hasSafariExtension": true,
                 "requiresGameController": false
             }
         }
@@ -3615,7 +3462,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 23,
                 "genreName": "Developer Tools",
                 "genre": 6026,
                 "chart": "top-paid",
@@ -3635,11 +3482,11 @@
             ],
             "ariaLabelForRatings": "3.3 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Hexer — Hex File Viewer",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Hans Schulein",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hans Schulein",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3770,7 +3617,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 24,
                 "genreName": "Developer Tools",
                 "genre": 6026,
                 "chart": "top-paid",
@@ -3847,6 +3694,159 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1044,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/e1/3f/0de13fa1-5559-bd04-e331-2f28462b45e8/8443b5bd-2084-44d0-ab26-87afd140601b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1044,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/e1/28/52e12832-87a6-6c38-b241-480374608255/4125805d-2ebf-4f1f-900d-065fa62f81f8.png/{w}x{h}{c}.{f}",
+                        "bgColor": "0095ff",
+                        "textColor1": "00070c",
+                        "textColor2": "000f19",
+                        "textColor3": "00243d",
+                        "textColor4": "002a47"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/be/bb/fc/bebbfc47-98df-2708-064d-e75bfce80d00/792f12e0-ef1c-4dfb-a8f8-033cacffa077.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "Test regular expressions",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "6446626905",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1637867851",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739490040371,
+                "RTCI": 1731364765982
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "mac",
+            "iphone",
+            "ipad"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 25,
+                "genreName": "Developer Tools",
+                "genre": 6026,
+                "chart": "top-paid",
+                "genreShortName": "Dev Tools"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 stars"
+        },
+        "genreDisplayName": "Developer Tools",
+        "name": "Cookie Editor Safari Extension",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=990&salableAdamId=6446626905&pricingParameters=STDQ&pg=default&appExtVrsId=869835810",
+                        "type": "buy",
+                        "priceFormatted": "$0.99",
+                        "price": 0.99,
+                        "currencyCode": "CAD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 12328960
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6446626905&pricingParameters=SWUPD&pg=default&appExtVrsId=869835810",
+                        "type": "update",
+                        "priceFormatted": "$0.00",
+                        "price": 0,
+                        "currencyCode": "CAD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 12328960
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "releaseDate": "2023-04-05",
+                "hasInAppPurchases": false,
+                "bundleId": "com.zamalabs.CookieEditorExtension",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/9b/b0/199bb0d0-d996-d82a-fce1-930a6d9c2913/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffeebf",
+                    "textColor1": "3e1507",
+                    "textColor2": "4b2009",
+                    "textColor3": "65402b",
+                    "textColor4": "6f492e"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -3881,8 +3881,8 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "subtitle": "Test regular expressions",
-                "hasSafariExtension": false,
+                "subtitle": "Edit Cookies in Web Browser",
+                "hasSafariExtension": true,
                 "requiresGameController": false
             }
         }
@@ -4140,8 +4140,8 @@
                 "releaseDate": "2020-03-29",
                 "hasInAppPurchases": true,
                 "bundleId": "uk.co.codingcorner.San-Fransymbols",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4390,7 +4390,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739523322573,
+                "MZ_INDEXER": 1739920572044,
                 "RTCI": 1738957938310
             }
         },
@@ -4434,8 +4434,8 @@
         "name": "C Code Develop",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "铖 邢",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "铖 邢",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4471,8 +4471,8 @@
                 "releaseDate": "2021-01-06",
                 "hasInAppPurchases": false,
                 "bundleId": "org.forgetive.ccmp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4485,11 +4485,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -4522,6 +4520,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Tiny C Develop Environment",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4588,8 +4588,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Simple Server: HTTP Server",
         "isPreorder": false,
-        "artistName": "Bitsbaker LLC.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bitsbaker LLC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4621,13 +4621,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2023-03-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bitsbaker.SimpleServer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4640,10 +4640,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -4677,6 +4676,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Share Files over Web Server",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4775,13 +4775,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-05-04",
                 "hasInAppPurchases": false,
                 "bundleId": "li.zihua.kuber",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4797,6 +4797,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -4830,7 +4831,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Manage Kubernetes Everywhere",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4896,8 +4896,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Source Code Reader",
         "isPreorder": false,
-        "artistName": "Alexander Eichhorn",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Alexander Eichhorn",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4929,13 +4929,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-03-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.losjet.Quelltext-Reader",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4948,10 +4948,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -4985,6 +4984,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "View Source Code in Safari",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5007,7 +5007,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739844697064,
+                "MZ_INDEXER": 1739912186751,
                 "RTCI": 1739315209700
             }
         },
@@ -5048,11 +5048,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "ESP32 BLE Terminal",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Gopi Gadhiya",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Gopi Gadhiya",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5088,8 +5088,8 @@
                 "releaseDate": "2021-06-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mightyIT.ESP32-BLE-Terminal",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5205,8 +5205,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Jockey OSC",
         "isPreorder": false,
-        "artistName": "Anton Heestand",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Anton Heestand",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5242,8 +5242,8 @@
                 "releaseDate": "2021-02-13",
                 "hasInAppPurchases": false,
                 "bundleId": "xyz.heestand.jockey",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5313,7 +5313,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739492109034,
+                "MZ_INDEXER": 1739925713494,
                 "RTCI": 1737680797691
             }
         },
@@ -5395,13 +5395,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-02-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yingzhi.php5.4pay",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5416,6 +5416,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -5449,7 +5450,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Good helper for PHP Learn",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -5563,8 +5563,8 @@
                 "releaseDate": "2021-06-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.highcaffeinecontent.issues",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5679,8 +5679,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "SeeLess - C Compiler",
         "isPreorder": false,
-        "artistName": "Develobile S.p.A.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Develobile S.p.A.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5712,13 +5712,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-11-12",
                 "hasInAppPurchases": false,
                 "bundleId": "ch.ada.SeeLess",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5731,10 +5731,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -5768,6 +5767,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "LLVM IR",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5871,8 +5871,8 @@
                 "releaseDate": "2018-08-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cloudwhale.anoren-reviewer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5888,6 +5888,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -5920,7 +5921,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "HTML, XML, JS, CSS, JSON",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5986,8 +5986,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "PasteMe - Pastebin Client",
         "isPreorder": false,
-        "artistName": "RanduSoft SRL",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "RanduSoft SRL",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6041,6 +6041,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -6074,7 +6075,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "PasteBin.com Client",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6196,6 +6196,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -6228,7 +6229,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "13 languages and SQL queries",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6251,7 +6251,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739488384182,
+                "MZ_INDEXER": 1739926378488,
                 "RTCI": 1737680797691
             }
         },
@@ -6333,13 +6333,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-10-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yingzhi.rubyios",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6354,6 +6354,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -6387,7 +6388,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "A good helper in learning Ruby",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -6501,8 +6501,8 @@
                 "releaseDate": "2021-08-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tickplant.MermaidEditor",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6518,6 +6518,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -6551,7 +6552,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Write diagram on all devices",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6616,11 +6616,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.12",
-        "name": "Python & SQL Pro",
         "genreDisplayName": "Developer Tools",
+        "name": "Python & SQL Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Fedor Obraztsov",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6673,6 +6673,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -6705,7 +6706,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Python language and SQL",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6826,6 +6826,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -6859,7 +6860,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Start coding instantly!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6882,7 +6882,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549341822,
+                "MZ_INDEXER": 1739930703971,
                 "RTCI": 1732215450568
             }
         },
@@ -6922,8 +6922,8 @@
             ],
             "ariaLabelForRatings": "1.0 stars"
         },
-        "name": "iHTTP Tracker -Network monitor",
         "genreDisplayName": "Developer Tools",
+        "name": "iHTTP Tracker -Network monitor",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Phoenix Lab Technology Co., Ltd.",
@@ -6977,8 +6977,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7085,8 +7085,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "C/C++$-LLVM Clang",
         "isPreorder": false,
-        "artistName": "小文 黄",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "小文 黄",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -7119,13 +7119,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-06-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yingzhi.c",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7177,7 +7177,6 @@
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Good Helper in C/C++ Language",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7187,7 +7186,8 @@
                     "textColor2": "161616",
                     "textColor3": "182e42",
                     "textColor4": "182e42"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -7249,8 +7249,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "TinyServer",
         "isPreorder": false,
-        "artistName": "Christian Lobach",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Christian Lobach",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7282,13 +7282,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2020-06-07",
                 "hasInAppPurchases": false,
                 "bundleId": "de.christian-lobach.TinyServer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7304,6 +7304,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -7337,7 +7338,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "subtitle": "Web Server",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7403,8 +7403,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "RegEx+",
         "isPreorder": false,
-        "artistName": "圣罡 汤",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "圣罡 汤",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7454,8 +7454,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7556,8 +7556,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "PPHub For GitHub - Developer",
         "isPreorder": false,
-        "artistName": "凡程 庞",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "凡程 庞",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7589,13 +7589,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2017-11-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jkpang.PPHub",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7707,8 +7707,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Code Develop IDE",
         "genreDisplayName": "Developer Tools",
+        "name": "Code Develop IDE",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "铖 邢",
@@ -7765,6 +7765,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -7798,7 +7799,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Coding, Compile, Running",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7862,11 +7862,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Fabula",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "PoeticBytes Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "PoeticBytes Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7902,7 +7902,6 @@
                 "releaseDate": "2020-03-20",
                 "hasInAppPurchases": false,
                 "bundleId": "fabula",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -7914,6 +7913,7 @@
                     "textColor4": "3e2f42"
                 },
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8029,8 +8029,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "MQTT Terminal Pro",
         "isPreorder": false,
-        "artistName": "Gopi Gadhiya",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Gopi Gadhiya",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8066,8 +8066,8 @@
                 "releaseDate": "2019-09-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mightyIT.mqttterminalpro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8083,6 +8083,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -8116,7 +8117,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Testing pub/sub MQTT Protocol",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8183,8 +8183,8 @@
         "name": "Kodika - No Code App Builder",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Kodika.io Software Limited",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Kodika.io Software Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8221,8 +8221,8 @@
                 "releaseDate": "2019-07-22",
                 "hasInAppPurchases": true,
                 "bundleId": "io.kodika.kodika",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8238,8 +8238,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -8272,6 +8270,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Develop Apps with Drag & Drop",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8294,7 +8294,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739486902414,
+                "MZ_INDEXER": 1739917946529,
                 "RTCI": 1738956417390
             }
         },
@@ -8336,8 +8336,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Packet Sender - UDP/ TCP/ SSL",
         "isPreorder": false,
-        "artistName": "NagleCode, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "NagleCode, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8369,13 +8369,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.6",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.6",
                 "releaseDate": "2021-03-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.packetsender.swiftui",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8391,6 +8391,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -8424,7 +8425,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.3",
-                "isXROSCompatible": true,
                 "subtitle": "Network Utility",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8488,11 +8488,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "20201001",
-        "genreDisplayName": "Developer Tools",
         "name": "Wireshark Helper - Decrypt TLS",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "TxThinking, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "TxThinking, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8529,8 +8529,8 @@
                 "releaseDate": "2020-11-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.txthinking.wireshark",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8546,8 +8546,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -8580,6 +8578,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "All TCP/UDP to Wireshark",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8602,7 +8602,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739843447817,
+                "MZ_INDEXER": 1739931349638,
                 "RTCI": 1731370080503
             }
         },
@@ -8642,11 +8642,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "JSON Tools",
         "genreDisplayName": "Developer Tools",
+        "name": "JSON Tools",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mohammed Aadhil",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8700,6 +8700,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -8733,7 +8734,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "JSON Viewer and Formatter",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8756,7 +8756,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550197766,
+                "MZ_INDEXER": 1739920274046,
                 "RTCI": 1738960323733
             }
         },
@@ -8797,11 +8797,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Color Code Generator",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "loay setrak",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "loay setrak",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8837,8 +8837,8 @@
                 "releaseDate": "2019-08-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.loaysetrak.Color-Code-Generator",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8851,10 +8851,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -8888,6 +8887,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Generate and save color codes",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8910,7 +8910,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739542757275,
+                "MZ_INDEXER": 1739931713188,
                 "RTCI": 1738956675913
             }
         },
@@ -8952,8 +8952,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Core Data Manager",
         "isPreorder": false,
-        "artistName": "Andreas Zimnas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Andreas Zimnas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8985,13 +8985,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.0",
                 "releaseDate": "2013-03-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iaz.coredata",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9102,8 +9102,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "ARM Assembly",
         "genreDisplayName": "Developer Tools",
+        "name": "ARM Assembly",
         "isPreorder": false,
         "artistName": "Basel AbuTaleb",
         "isIOSBinaryMacOSCompatible": true,
@@ -9143,8 +9143,8 @@
                 "releaseDate": "2023-07-02",
                 "hasInAppPurchases": false,
                 "bundleId": "co.BAT.ARM",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9160,7 +9160,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9194,6 +9193,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Assembly",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9370,8 +9370,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739905541457,
-                "RTCI": 1739906028015
+                "MZ_INDEXER": 1739912838110,
+                "RTCI": 1739913317650
             }
         },
         "supportsArcade": false,
@@ -9410,8 +9410,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "SSH Term Pro",
         "genreDisplayName": "Developer Tools",
+        "name": "SSH Term Pro",
         "isPreorder": false,
         "artistName": "三量 费",
         "isIOSBinaryMacOSCompatible": false,
@@ -9450,8 +9450,8 @@
                 "releaseDate": "2023-03-10",
                 "hasInAppPurchases": false,
                 "bundleId": "cn.sshterm.pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9467,7 +9467,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9501,6 +9500,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9603,8 +9603,8 @@
                 "releaseDate": "2021-12-22",
                 "hasInAppPurchases": false,
                 "bundleId": "cutecode",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9620,7 +9620,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9654,6 +9653,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Git client and Code Editor",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9676,7 +9676,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739544772683,
+                "MZ_INDEXER": 1739932323080,
                 "RTCI": 1731359136271
             }
         },
@@ -9720,8 +9720,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Sprite Cutter+",
         "isPreorder": false,
-        "artistName": "256 Arts",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "256 Arts",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9770,8 +9770,8 @@
                     "textColor4": "575757"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9828,7 +9828,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739547651275,
+                "MZ_INDEXER": 1739920543861,
                 "RTCI": 1738965696967
             }
         },
@@ -9906,13 +9906,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2020-08-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.nevishs.docker.ios",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9928,6 +9928,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -9961,7 +9962,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Manage Docker from mobile",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10027,8 +10027,8 @@
         "name": "Netdata server monitoring",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Arjun Komath",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Arjun Komath",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10064,8 +10064,8 @@
                 "releaseDate": "2020-09-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.techulus.netdata",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10081,8 +10081,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -10115,6 +10113,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Beautiful open source client",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10180,8 +10180,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Lorem Ipsum Keyboard",
         "isPreorder": false,
-        "artistName": "Aaron Satterfield",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Aaron Satterfield",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10213,13 +10213,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-01-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.aasatt.LoremIpsumKeyboard",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10291,8 +10291,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739880292360,
-                "RTCI": 1739784949975
+                "MZ_INDEXER": 1739931558441,
+                "RTCI": 1739930774356
             }
         },
         "supportsArcade": false,
@@ -10333,17 +10333,17 @@
             "ariaLabelForRatings": "0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.5.0",
-        "name": "iSocketTool",
         "genreDisplayName": "Developer Tools",
+        "name": "iSocketTool",
         "isPreorder": false,
-        "artistName": "珣 张",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "珣 张",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=2990&salableAdamId=1461652639&pricingParameters=STDQ&pg=default&appExtVrsId=872518835",
+                        "buyParams": "productType=C&price=2990&salableAdamId=1461652639&pricingParameters=STDQ&pg=default&appExtVrsId=872588302",
                         "type": "buy",
                         "priceFormatted": "$2.99",
                         "price": 2.99,
@@ -10351,12 +10351,12 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 21959680
+                                "size": 22189056
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=1461652639&pricingParameters=SWUPD&pg=default&appExtVrsId=872518835",
+                        "buyParams": "productType=C&price=0&salableAdamId=1461652639&pricingParameters=SWUPD&pg=default&appExtVrsId=872588302",
                         "type": "update",
                         "priceFormatted": "$0.00",
                         "price": 0,
@@ -10364,7 +10364,7 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 21959680
+                                "size": 22189056
                             }
                         ]
                     }
@@ -10373,12 +10373,12 @@
                 "releaseDate": "2019-05-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.wjyw.NetTools",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/d2/0d/a0d20d1e-7e07-9d27-3dea-299081503a77/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/ce/ae/3aceae54-a349-fada-4b10-449a1ae8cef0/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "ffffff",
                     "textColor1": "181818",
                     "textColor2": "343434",
@@ -10390,7 +10390,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10424,6 +10423,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "tcp udp whois ping traceroute",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10446,7 +10446,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739487320629,
+                "MZ_INDEXER": 1739916281837,
                 "RTCI": 1738957424065
             }
         },
@@ -10645,8 +10645,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Colourdrop: Colour Picker",
         "isPreorder": false,
-        "artistName": "George Jones",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "George Jones",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.2",
         "platformAttributes": {
@@ -10679,13 +10679,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-07-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.penguingeorge.Colordrop-2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10701,6 +10701,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -10734,7 +10735,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Advanced colour picker",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -10807,11 +10807,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "iCodeEditor",
         "genreDisplayName": "Developer Tools",
+        "name": "iCodeEditor",
         "isPreorder": false,
-        "artistName": "斌 虞",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "斌 虞",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10848,8 +10848,8 @@
                 "releaseDate": "2012-12-07",
                 "hasInAppPurchases": false,
                 "bundleId": "come.sevenuc.codeeditor",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10865,7 +10865,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10899,6 +10898,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "File manager and code editor.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10961,11 +10961,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "RenPyLinter",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "武汉小强科技有限责任公司",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "武汉小强科技有限责任公司",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10997,13 +10997,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0.0",
                 "releaseDate": "2024-04-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.srkyxk.RenPyLinter",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11116,11 +11116,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Mockup Screenshot",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Mert Can Kus",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Mert Can Kus",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11156,8 +11156,8 @@
                 "releaseDate": "2022-10-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mck.Mockup-Screenshot",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11173,7 +11173,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -11207,6 +11206,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Make Screenshots For Appstore",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11229,7 +11229,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739485205880,
+                "MZ_INDEXER": 1739911193800,
                 "RTCI": 1731381183467
             }
         },
@@ -11272,8 +11272,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Bee - Cookie Editor For Safari",
         "isPreorder": false,
-        "artistName": "Yury Apollov",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Yury Apollov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11305,13 +11305,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2023-01-25",
                 "hasInAppPurchases": false,
                 "bundleId": "tk.apollov.Cookie-editor",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11324,10 +11324,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -11360,6 +11359,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Edit Cookies In Your Browser",
                 "hasSafariExtension": true,
                 "requiresGameController": false
@@ -11426,8 +11426,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "App icon Generator: icon Maker",
         "isPreorder": false,
-        "artistName": "Digital Hole Pvt. Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Digital Hole Pvt. Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11477,8 +11477,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11579,8 +11579,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Pro Markdown Editor and Reader",
         "isPreorder": false,
-        "artistName": "Julian Lau",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Julian Lau",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11617,8 +11617,8 @@
                 "releaseDate": "2023-03-12",
                 "hasInAppPurchases": false,
                 "bundleId": "app.edit-md-pro-jl",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11631,11 +11631,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -11668,6 +11666,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Create and Edit Markdown files",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11733,8 +11733,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Matplotlib教程",
         "isPreorder": false,
-        "artistName": "强 马",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "强 马",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11766,13 +11766,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-09-01",
                 "hasInAppPurchases": false,
                 "bundleId": "JobMa.test1.Matplotlib",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11888,8 +11888,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "JavaScript Recipes Pro",
         "isPreorder": false,
-        "artistName": "Fedor Obraztsov",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Fedor Obraztsov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11939,8 +11939,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12036,11 +12036,11 @@
             ],
             "ariaLabelForRatings": "1.0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Terminal Emulator",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "志鹏 潘",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "志鹏 潘",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12072,13 +12072,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-04-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fishnetwork.termemul",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12094,7 +12094,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -12128,6 +12127,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12192,8 +12192,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Globe Topper",
         "isPreorder": false,
-        "artistName": "Trevor Kamhunga",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Trevor Kamhunga",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12230,8 +12230,8 @@
                 "releaseDate": "2021-01-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appcraftstudio.globetopper",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12247,7 +12247,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12281,6 +12280,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "App rankings & reviews",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12379,13 +12379,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-01-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.innovativedigitaltechnologies.SecurityKit",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12497,11 +12497,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Xnettool",
         "genreDisplayName": "Developer Tools",
+        "name": "Xnettool",
         "isPreorder": false,
-        "artistName": "Lampman Yao",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Lampman Yao",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12538,8 +12538,8 @@
                 "releaseDate": "2021-05-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lampmanyao.xnettool",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12552,11 +12552,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -12589,6 +12587,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Network tools",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12655,8 +12655,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Morsels — Code Snippets",
         "isPreorder": false,
-        "artistName": "Talynt Software",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Talynt Software",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12709,6 +12709,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -12742,7 +12743,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Code Snippets and Screenshots",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12765,7 +12765,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739485879705,
+                "MZ_INDEXER": 1739909881238,
                 "RTCI": 1731362824490
             }
         },
@@ -12845,8 +12845,8 @@
                 "releaseDate": "2018-04-22",
                 "hasInAppPurchases": false,
                 "bundleId": "designmatic.NuR-Preview",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12918,8 +12918,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739649543021,
-                "RTCI": 1739649960914
+                "MZ_INDEXER": 1739930266092,
+                "RTCI": 1739930696274
             }
         },
         "supportsArcade": false,
@@ -12930,15 +12930,15 @@
                 "value": 600,
                 "rank": 4,
                 "advisories": [
-                    "Infrequent/Mild Sexual Content and Nudity",
-                    "Infrequent/Mild Realistic Violence",
-                    "Infrequent/Mild Medical/Treatment Information",
-                    "Infrequent/Mild Mature/Suggestive Themes",
-                    "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References",
                     "Infrequent/Mild Horror/Fear Themes",
+                    "Infrequent/Mild Realistic Violence",
+                    "Infrequent/Mild Mature/Suggestive Themes",
+                    "Infrequent/Mild Profanity or Crude Humour",
                     "Unrestricted Web Access",
-                    "Infrequent/Mild Cartoon or Fantasy Violence",
-                    "Infrequent/Mild Profanity or Crude Humour"
+                    "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References",
+                    "Infrequent/Mild Medical/Treatment Information",
+                    "Infrequent/Mild Sexual Content and Nudity",
+                    "Infrequent/Mild Cartoon or Fantasy Violence"
                 ]
             }
         },
@@ -12979,7 +12979,7 @@
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=4990&salableAdamId=642432354&pricingParameters=STDQ&pg=default&appExtVrsId=872421946",
+                        "buyParams": "productType=C&price=4990&salableAdamId=642432354&pricingParameters=STDQ&pg=default&appExtVrsId=872606115",
                         "type": "buy",
                         "priceFormatted": "$4.99",
                         "price": 4.99,
@@ -12987,12 +12987,12 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 9327616
+                                "size": 9752576
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=642432354&pricingParameters=SWUPD&pg=default&appExtVrsId=872421946",
+                        "buyParams": "productType=C&price=0&salableAdamId=642432354&pricingParameters=SWUPD&pg=default&appExtVrsId=872606115",
                         "type": "update",
                         "priceFormatted": "$0.00",
                         "price": 0,
@@ -13000,22 +13000,22 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 9327616
+                                "size": 9752576
                             }
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2013-10-16",
                 "hasInAppPurchases": false,
                 "bundleId": "wdgp.iWebTools",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/88/c5/5d88c54f-6d48-9244-279c-d0e43ed48f5e/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/88/33/77883372-12bf-656e-9355-cdc10cb686a1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "ffffff",
                     "textColor1": "12113f",
                     "textColor2": "1c1b47",
@@ -13027,6 +13027,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -13060,7 +13061,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Must have for webdevelopers!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13125,8 +13125,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "iCardVerify - Card Validator",
         "isPreorder": false,
-        "artistName": "Adel Abdelmaseih",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Adel Abdelmaseih",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13158,13 +13158,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2024-05-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.i.card.verify.iCardVerify",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13177,8 +13177,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13318,8 +13318,8 @@
                 "releaseDate": "2024-04-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.iamadman.solar2dstudio",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13335,8 +13335,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -13369,6 +13367,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Make Apps/Games on your phone!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13434,8 +13434,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "iControl OSC & NDI",
         "isPreorder": false,
-        "artistName": "Gwangyu Lee",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Gwangyu Lee",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13467,13 +13467,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2024-04-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gwangyulee.iControl-OSC---NDI",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13486,10 +13486,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -13523,6 +13522,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Send OSC, Receive NDI",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13589,8 +13589,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Love2D Game Maker",
         "isPreorder": false,
-        "artistName": "盼军 崔",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "盼军 崔",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13622,13 +13622,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2024-03-27",
                 "hasInAppPurchases": true,
                 "bundleId": "com.iamadman.love2d.gamemaker",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13798,6 +13798,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -13831,7 +13832,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Use Rust anytime, anywhere",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13893,11 +13893,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Code Tool",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Sebastian Egbers",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Sebastian Egbers",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13934,8 +13934,8 @@
                 "releaseDate": "2024-01-17",
                 "hasInAppPurchases": false,
                 "bundleId": "dev.ridcully.code-tool",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13951,8 +13951,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -13985,6 +13983,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14049,8 +14049,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Pro Python Editor",
         "isPreorder": false,
-        "artistName": "Julian Lau",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Julian Lau",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14082,13 +14082,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2023-06-28",
                 "hasInAppPurchases": false,
                 "bundleId": "app.python-editor-jl.com",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14104,6 +14104,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -14137,7 +14138,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Effortlessly code on-the-go",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14160,7 +14160,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739490155411,
+                "MZ_INDEXER": 1739933272153,
                 "RTCI": 1738965495319
             }
         },
@@ -14199,11 +14199,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Developer Tools",
         "name": "Nmap Handbook",
+        "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Basel AbuTaleb",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Basel AbuTaleb",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14240,8 +14240,8 @@
                 "releaseDate": "2023-06-28",
                 "hasInAppPurchases": false,
                 "bundleId": "co.BAT.Nmap-AI",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14257,8 +14257,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -14291,6 +14289,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "nmap",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14354,8 +14354,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "TiDesigner",
         "isPreorder": false,
-        "artistName": "Cesar Estrada",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Cesar Estrada",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14406,8 +14406,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14508,8 +14508,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Pro JavaScript Editor",
         "isPreorder": false,
-        "artistName": "Julian Lau",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Julian Lau",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14541,13 +14541,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2023-05-31",
                 "hasInAppPurchases": false,
                 "bundleId": "app.edit-js-pro.com",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14560,10 +14560,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -14597,6 +14596,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Effortlessly code on-the-go",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14695,13 +14695,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2023-04-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gwangyulee.iKeleton-OSC",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14717,6 +14717,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -14750,7 +14751,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Capture & send skeleton data",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14818,8 +14818,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Developer Colour Palette",
         "isPreorder": false,
-        "artistName": "Thomas Coomer",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Thomas Coomer",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14855,8 +14855,8 @@
                 "releaseDate": "2023-04-21",
                 "hasInAppPurchases": true,
                 "bundleId": "app.smudge.Colour-Picker",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14869,10 +14869,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -14906,6 +14905,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Convert and organise colours",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15008,8 +15008,8 @@
                 "releaseDate": "2023-03-21",
                 "hasInAppPurchases": false,
                 "bundleId": "co.BAT.HTML-Smart-Book",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15025,7 +15025,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -15059,6 +15058,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "HTML",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15124,8 +15124,8 @@
         "genreDisplayName": "Developer Tools",
         "name": "Pro Text-To-Binary Converter",
         "isPreorder": false,
-        "artistName": "Julian Lau",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Julian Lau",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15162,8 +15162,8 @@
                 "releaseDate": "2023-03-15",
                 "hasInAppPurchases": false,
                 "bundleId": "app.text-2-bin-pro-jl",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15176,11 +15176,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1044,
@@ -15213,6 +15211,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "translate text into binary",
                 "hasSafariExtension": false,
                 "requiresGameController": false

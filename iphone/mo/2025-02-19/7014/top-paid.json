@@ -62,8 +62,8 @@
         "name": "大俠立志傳",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "X.D. Network Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "X.D. Network Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -100,8 +100,8 @@
                 "releaseDate": "2025-01-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.xd.dxlzz.global",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -173,7 +173,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739839594559,
+                "MZ_INDEXER": 1739914071144,
                 "RTCI": 1734656336910
             }
         },
@@ -223,8 +223,8 @@
         "name": "Stardew Valley",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "ConcernedApe",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "ConcernedApe",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -261,8 +261,8 @@
                 "releaseDate": "2018-10-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.chucklefish.stardewvalley",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -332,6 +332,169 @@
     },
     {
         "kind": "app",
+        "id": "1461238719",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "945888376",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739525021781,
+                "RTCI": 1731359681927
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "偶爾/輕度使用或提及酒精、煙草或藥物",
+                    "偶爾/輕度的成人或性暗示題材",
+                    "偶爾/輕度的恐怖或驚嚇題材",
+                    "偶爾/輕度的暴力卡通或幻想"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 3,
+                "genreName": "角色扮演",
+                "genre": 7014,
+                "chart": "top-paid",
+                "genreShortName": "角色扮演"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 2,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "2.0 粒星"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "1.124",
+        "name": "Graveyard Keeper",
+        "genreDisplayName": "模擬",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "tinyBuild LLC",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=9990&salableAdamId=1461238719&pricingParameters=STDQ&pg=default&appExtVrsId=832018625",
+                        "type": "buy",
+                        "priceFormatted": "USD 9.99",
+                        "price": 9.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 683819008
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1461238719&pricingParameters=SWUPD&pg=default&appExtVrsId=832018625",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 683819008
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2019-06-28",
+                "hasInAppPurchases": true,
+                "bundleId": "com.tinybuildgames.graveyardkeeper",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/64/ed/ed/64eded36-a5ec-30a8-3225-6da48e642bc0/AppIcon-0-1x_U007emarketing-0-85-220-7.png/{w}x{h}{c}.{f}",
+                    "bgColor": "000f47",
+                    "textColor1": "dbbc71",
+                    "textColor2": "bfadc9",
+                    "textColor3": "af9a68",
+                    "textColor4": "998eaf"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
+                        "bgColor": "be8c4b",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "292921",
+                        "textColor4": "292921"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "hasSafariExtension": false,
+                "editorialNotes": {
+                    "tagline": "打理中世紀墓園，展開離奇之旅"
+                },
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "6458877203",
         "type": "apps",
         "relationships": {
@@ -366,7 +529,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -389,8 +552,8 @@
         "name": "Harvest Moon: Home Sweet Home",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Natsume Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Natsume Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -427,8 +590,8 @@
                 "releaseDate": "2024-08-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.natsume.hmhome",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -502,7 +665,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739543118092,
+                "MZ_INDEXER": 1739929769089,
                 "RTCI": 1731354679452
             }
         },
@@ -526,7 +689,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -549,8 +712,8 @@
         "name": "冒險村物語2",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -587,8 +750,8 @@
                 "releaseDate": "2021-03-11",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.bouken2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -645,159 +808,6 @@
     },
     {
         "kind": "app",
-        "id": "1142657936",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "430384237",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739836231036,
-                "RTCI": 1738884250132
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 5,
-                "genreName": "角色扮演",
-                "genre": 7014,
-                "chart": "top-paid",
-                "genreShortName": "角色扮演"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 1,
-            "ratingCount": 4,
-            "ratingCountList": [
-                4,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "1.0 粒星"
-        },
-        "name": "Spoofr — GPS & Location Simulator",
-        "genreDisplayName": "模擬",
-        "isPreorder": false,
-        "artistName": "57Digital Ltd",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=1990&salableAdamId=1142657936&pricingParameters=STDQ&pg=default&appExtVrsId=841644971",
-                        "type": "buy",
-                        "priceFormatted": "USD 1.99",
-                        "price": 1.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1253376
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1142657936&pricingParameters=SWUPD&pg=default&appExtVrsId=841644971",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1253376
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2016-09-06",
-                "hasInAppPurchases": false,
-                "bundleId": "com.57digital.gpx",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple22/v4/f1/b4/b1/f1b4b102-ab0a-d1c1-e636-1311953e8a6d/pr_source.png/{w}x{h}{c}.{f}",
-                    "bgColor": "cc1f14",
-                    "textColor1": "fffcfc",
-                    "textColor2": "ffc0bc",
-                    "textColor3": "f4cfcd",
-                    "textColor4": "f49f9a"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
-                        "bgColor": "be8c4b",
-                        "textColor1": "041116",
-                        "textColor2": "041116",
-                        "textColor3": "292921",
-                        "textColor4": "292921"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "1028950091",
         "type": "apps",
         "relationships": {
@@ -839,7 +849,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 7,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -862,8 +872,8 @@
         "name": "貪婪洞窟：猿神降临",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "AvalonGames",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "AvalonGames",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -900,8 +910,8 @@
                 "releaseDate": "2016-02-02",
                 "hasInAppPurchases": true,
                 "bundleId": "com.avalon.cave",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -997,7 +1007,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -1020,8 +1030,8 @@
         "name": "新仙劍奇俠傳(正版單機)",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1057,8 +1067,8 @@
                 "releaseDate": "2015-06-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softstar.NewPAL",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1149,7 +1159,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -1172,8 +1182,8 @@
         "name": "HARVEST MOON: Seeds Of Memories",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Natsume Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Natsume Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1210,8 +1220,8 @@
                 "releaseDate": "2016-01-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.natsume.hmsom",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1316,7 +1326,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 10,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -1340,8 +1350,8 @@
         "name": "仙劍奇俠傳1 DOS懷舊版",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1378,8 +1388,8 @@
                 "releaseDate": "2013-02-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softstar.ChinesePaladin1",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1449,7 +1459,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739488845278,
+                "MZ_INDEXER": 1739931643689,
                 "RTCI": 1731356367518
             }
         },
@@ -1472,7 +1482,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 11,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -1495,8 +1505,8 @@
         "name": "軒轅劍參外傳 天之痕",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1533,8 +1543,8 @@
                 "releaseDate": "2014-04-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softstar.SWD3E",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1633,7 +1643,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 12,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -1656,8 +1666,8 @@
         "name": "監獄人生 RPG",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Nob Studio",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nob Studio",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1694,8 +1704,8 @@
                 "releaseDate": "2015-02-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nobstudio.prisonLifeRPG",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1785,7 +1795,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 13,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -1808,8 +1818,8 @@
         "name": "冒險村物語",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1846,8 +1856,8 @@
                 "releaseDate": "2012-06-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kairosoft.gm64E",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1955,7 +1965,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 14,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -1978,8 +1988,8 @@
         "name": "CHRONO TRIGGER (Upgrade Ver.)",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2016,8 +2026,8 @@
                 "releaseDate": "2011-12-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.chronotrigger",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2162,7 +2172,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 15,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -2185,8 +2195,8 @@
         "name": "Battleheart",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Mika Mobile, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mika Mobile, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2223,8 +2233,8 @@
                 "releaseDate": "2011-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "Battleheart",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2318,7 +2328,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 16,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -2342,8 +2352,8 @@
         "name": "Pascal's Wager",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "Giant Network",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Giant Network",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2380,8 +2390,8 @@
                 "releaseDate": "2020-01-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tipsworks.ios.pascalswager",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2500,7 +2510,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 17,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -2523,8 +2533,8 @@
         "name": "軒轅劍參 雲和山的彼端 加強版",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2560,8 +2570,8 @@
                 "releaseDate": "2017-01-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softstar.swd3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2635,7 +2645,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739904266692,
+                "MZ_INDEXER": 1739931341884,
                 "RTCI": 1739904867597
             }
         },
@@ -2660,7 +2670,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 18,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -2684,8 +2694,8 @@
         "name": "DungeonSquad",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "GameCoaster",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "GameCoaster",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2722,8 +2732,8 @@
                 "releaseDate": "2022-10-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.GameCoaster.Dungeon-Squad",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2817,7 +2827,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 19,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -2841,8 +2851,8 @@
         "name": "歸家異途",
         "genreDisplayName": "模擬",
         "isPreorder": false,
-        "artistName": "Coconut Island Games Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Coconut Island Games Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2879,8 +2889,8 @@
                 "releaseDate": "2017-08-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.cig.homebehind",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3020,8 +3030,8 @@
         "name": "Hero Emblems",
         "genreDisplayName": "解謎",
         "isPreorder": false,
-        "artistName": "HeatPot Games Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "HeatPot Games Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3058,8 +3068,8 @@
                 "releaseDate": "2015-01-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.amazinpot.projectzero",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3211,8 +3221,8 @@
         "name": "Hero Emblems II",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "HeatPot Games Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "HeatPot Games Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3249,8 +3259,8 @@
                 "releaseDate": "2022-06-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.heatpotgames.he2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3349,7 +3359,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 21,
+                "position": 22,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -3373,8 +3383,8 @@
         "name": "Papers, Please",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "3909",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "3909",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3411,8 +3421,8 @@
                 "releaseDate": "2014-12-12",
                 "hasInAppPurchases": false,
                 "bundleId": "co.3909.papersplease",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3528,7 +3538,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 22,
+                "position": 23,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -3552,8 +3562,8 @@
         "name": "Dead Cells",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "Playdigious",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Playdigious",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3590,8 +3600,8 @@
                 "releaseDate": "2019-07-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.playdigious.deadcells",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3725,8 +3735,8 @@
         "name": "Oceanhorn ™",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "FDG Entertainment GmbH & Co.KG",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "FDG Entertainment GmbH & Co.KG",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3763,8 +3773,8 @@
                 "releaseDate": "2013-11-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.FDGEntertainment.Oceanhorn",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3921,7 +3931,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 25,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -3944,8 +3954,8 @@
         "name": "FINAL FANTASY III (3D REMAKE)",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3982,8 +3992,8 @@
                 "releaseDate": "2011-03-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.FinalFantasy3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4076,7 +4086,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 26,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -4099,8 +4109,8 @@
         "name": "魔女之泉3",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SUYOUNG JANG",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SUYOUNG JANG",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4137,8 +4147,8 @@
                 "releaseDate": "2017-10-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kiwiwalks.witchspring3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4255,7 +4265,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 27,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -4278,8 +4288,8 @@
         "name": "Goblin Sword",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "Gelato Games Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Gelato Games Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4316,8 +4326,8 @@
                 "releaseDate": "2014-09-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gelatogames.goblinsword",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4396,174 +4406,6 @@
     },
     {
         "kind": "app",
-        "id": "1041260001",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "300186801",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739542077684,
-                "RTCI": 1737570365277
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "偶爾/輕度的暴力卡通或幻想",
-                    "偶爾/輕度使用或提及酒精、煙草或藥物",
-                    "偶爾/輕度的性愛或裸露內容"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 27,
-                "genreName": "角色扮演",
-                "genre": 7014,
-                "chart": "top-paid",
-                "genreShortName": "角色扮演"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 5,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                1
-            ],
-            "ariaLabelForRatings": "5.0 粒星"
-        },
-        "name": "FINAL FANTASY Ⅸ",
-        "genreDisplayName": "冒險",
-        "isPreorder": false,
-        "artistName": "SQUARE ENIX",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=20990&salableAdamId=1041260001&pricingParameters=STDQ&pg=default&appExtVrsId=845137738",
-                        "type": "buy",
-                        "priceFormatted": "USD 20.99",
-                        "price": 20.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 3433691136
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1041260001&pricingParameters=SWUPD&pg=default&appExtVrsId=845137738",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 3433691136
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2016-02-09",
-                "hasInAppPurchases": false,
-                "bundleId": "com.square-enix.final-fantasy-ix-ww",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4f/f1/46/4ff146f9-ab61-7c2e-30f0-0a21a10dac07/AppIcon-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "0b0803",
-                    "textColor2": "323232",
-                    "textColor3": "3c3935",
-                    "textColor4": "5b5b5b"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1098,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f1/6d/50/f16d50e4-968c-0af6-0e9b-acc2b6f6ae4f/f4b782bf-4174-4d00-86d9-cf7ad9c05120.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1098,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1e/92/c7/1e92c728-3ef4-76c9-1de4-5419f05913ad/28ae963d-0274-488e-a97d-49c4b3d2b467.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575a60",
-                        "textColor1": "f8fafb",
-                        "textColor2": "ebedee",
-                        "textColor3": "d8dadc",
-                        "textColor4": "cdd0d2"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features49/v4/bb/a3/65/bba36588-1b9b-f5b5-068c-5ca2d97e6824/mza_7551332520714827890.png/{w}x{h}{c}.{f}",
-                        "bgColor": "ffffff",
-                        "textColor1": "32332a",
-                        "textColor2": "303531",
-                        "textColor3": "5b5c54",
-                        "textColor4": "595d5a"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cb/48/23/cb482322-2d24-dc0d-5ab8-08297fba9710/5769cc31-e818-46ad-886a-d0ac33b79cab.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "1159700098",
         "type": "apps",
         "relationships": {
@@ -4599,7 +4441,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 29,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -4622,8 +4464,8 @@
         "name": "去月球-To the Moon",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "X.D. Network Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "X.D. Network Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4660,6 +4502,7 @@
                 "releaseDate": "2017-05-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.xd.tothemoon",
+                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
@@ -4671,7 +4514,6 @@
                     "textColor3": "c5d9b3",
                     "textColor4": "7eb995"
                 },
-                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4800,7 +4642,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 30,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -4823,8 +4665,8 @@
         "name": "FINAL FANTASY VII",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4861,8 +4703,8 @@
                 "releaseDate": "2015-08-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.final-fantasy-vii-ww",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4929,6 +4771,174 @@
     },
     {
         "kind": "app",
+        "id": "1041260001",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "300186801",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739542077684,
+                "RTCI": 1737570365277
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "偶爾/輕度的暴力卡通或幻想",
+                    "偶爾/輕度使用或提及酒精、煙草或藥物",
+                    "偶爾/輕度的性愛或裸露內容"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 28,
+                "genreName": "角色扮演",
+                "genre": 7014,
+                "chart": "top-paid",
+                "genreShortName": "角色扮演"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 5,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "ariaLabelForRatings": "5.0 粒星"
+        },
+        "name": "FINAL FANTASY Ⅸ",
+        "genreDisplayName": "冒險",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=20990&salableAdamId=1041260001&pricingParameters=STDQ&pg=default&appExtVrsId=845137738",
+                        "type": "buy",
+                        "priceFormatted": "USD 20.99",
+                        "price": 20.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 3433691136
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1041260001&pricingParameters=SWUPD&pg=default&appExtVrsId=845137738",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 3433691136
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2016-02-09",
+                "hasInAppPurchases": false,
+                "bundleId": "com.square-enix.final-fantasy-ix-ww",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4f/f1/46/4ff146f9-ab61-7c2e-30f0-0a21a10dac07/AppIcon-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "0b0803",
+                    "textColor2": "323232",
+                    "textColor3": "3c3935",
+                    "textColor4": "5b5b5b"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1098,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f1/6d/50/f16d50e4-968c-0af6-0e9b-acc2b6f6ae4f/f4b782bf-4174-4d00-86d9-cf7ad9c05120.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1098,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1e/92/c7/1e92c728-3ef4-76c9-1de4-5419f05913ad/28ae963d-0274-488e-a97d-49c4b3d2b467.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575a60",
+                        "textColor1": "f8fafb",
+                        "textColor2": "ebedee",
+                        "textColor3": "d8dadc",
+                        "textColor4": "cdd0d2"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features49/v4/bb/a3/65/bba36588-1b9b-f5b5-068c-5ca2d97e6824/mza_7551332520714827890.png/{w}x{h}{c}.{f}",
+                        "bgColor": "ffffff",
+                        "textColor1": "32332a",
+                        "textColor2": "303531",
+                        "textColor3": "5b5c54",
+                        "textColor4": "595d5a"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cb/48/23/cb482322-2d24-dc0d-5ab8-08297fba9710/5769cc31-e818-46ad-886a-d0ac33b79cab.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "575119311",
         "type": "apps",
         "relationships": {
@@ -4966,7 +4976,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 31,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -4989,8 +4999,8 @@
         "name": "FINAL FANTASY IV (3D REMAKE)",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5027,8 +5037,8 @@
                 "releaseDate": "2012-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.FinalFantasy4",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5132,7 +5142,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 31,
+                "position": 32,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -5155,8 +5165,8 @@
         "name": "仙劍奇俠傳二",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5192,8 +5202,8 @@
                 "releaseDate": "2018-08-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softstar.PAL2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5287,7 +5297,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 33,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -5310,8 +5320,8 @@
         "name": "天使帝國四 (單機戰棋)",
         "genreDisplayName": "策略",
         "isPreorder": false,
-        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SOFTSTAR ENTERTAINMENT INC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5348,8 +5358,8 @@
                 "releaseDate": "2016-12-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softstar.eoa4.m",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5442,7 +5452,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 33,
+                "position": 34,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -5465,8 +5475,8 @@
         "name": "FINAL FANTASY TACTICS :WotL",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5503,8 +5513,8 @@
                 "releaseDate": "2011-08-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.fft",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5599,7 +5609,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 34,
+                "position": 35,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -5622,8 +5632,8 @@
         "name": "Battleheart 2",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Mika Mobile, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mika Mobile, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5660,8 +5670,8 @@
                 "releaseDate": "2018-07-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.MikaMobile.BattleheartReturns",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5768,7 +5778,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 35,
+                "position": 36,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -5791,8 +5801,8 @@
         "name": "DRAGON QUEST VIII",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5829,8 +5839,8 @@
                 "releaseDate": "2014-05-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.dq8",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5943,7 +5953,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 36,
+                "position": 37,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -5967,8 +5977,8 @@
         "name": "DRAGON QUEST V",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6005,8 +6015,8 @@
                 "releaseDate": "2015-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.dq5",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6110,7 +6120,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 37,
+                "position": 38,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -6133,8 +6143,8 @@
         "name": "DRAGON QUEST",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6171,8 +6181,8 @@
                 "releaseDate": "2014-09-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.dq1",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6279,7 +6289,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 38,
+                "position": 39,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -6303,8 +6313,8 @@
         "name": "Beholder",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "CM Games OU",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CM Games OU",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6341,8 +6351,8 @@
                 "releaseDate": "2017-05-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.creativemobile.beholder",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6460,7 +6470,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 39,
+                "position": 40,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -6484,8 +6494,8 @@
         "name": "Space Marshals 2",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "Pixelbite",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Pixelbite",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6522,8 +6532,8 @@
                 "releaseDate": "2016-08-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pixelbite.sm2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6628,7 +6638,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 40,
+                "position": 41,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -6651,8 +6661,8 @@
         "name": "你必須造一艘船",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "EightyEight Games LTD",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "EightyEight Games LTD",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6689,8 +6699,8 @@
                 "releaseDate": "2015-06-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.eightyeightgames.ymbab",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6792,7 +6802,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 41,
+                "position": 42,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -6815,8 +6825,8 @@
         "name": "【明星戀愛】偶像之路TIME TO STAR",
         "genreDisplayName": "模擬",
         "isPreorder": false,
-        "artistName": "敏 胡",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "敏 胡",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6853,8 +6863,8 @@
                 "releaseDate": "2015-09-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.hydrozoa.tts2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6930,7 +6940,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 42,
+                "position": 43,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -6953,8 +6963,8 @@
         "name": "Battleheart Legacy",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Mika Mobile, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mika Mobile, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6991,8 +7001,8 @@
                 "releaseDate": "2014-05-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.MikaMobile.BattleheartLegacy",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7103,7 +7113,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 43,
+                "position": 44,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -7126,8 +7136,8 @@
         "name": "開羅拉麵店",
         "genreDisplayName": "模擬",
         "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7164,8 +7174,8 @@
                 "releaseDate": "2015-12-15",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.noodleEN",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7261,7 +7271,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 44,
+                "position": 45,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -7284,8 +7294,8 @@
         "name": "Transistor",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Supergiant Games, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Supergiant Games, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7322,8 +7332,8 @@
                 "releaseDate": "2015-06-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.supergiantgames.ios.transistor",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7452,6 +7462,159 @@
     },
     {
         "kind": "app",
+        "id": "1142657936",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "430384237",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739921889953,
+                "RTCI": 1739905088711
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 6,
+                "genreName": "角色扮演",
+                "genre": 7014,
+                "chart": "top-paid",
+                "genreShortName": "角色扮演"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 1,
+            "ratingCount": 4,
+            "ratingCountList": [
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "1.0 粒星"
+        },
+        "name": "Spoofr — GPS & Location Simulator",
+        "genreDisplayName": "模擬",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "57Digital Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=1990&salableAdamId=1142657936&pricingParameters=STDQ&pg=default&appExtVrsId=841644971",
+                        "type": "buy",
+                        "priceFormatted": "USD 1.99",
+                        "price": 1.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1253376
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1142657936&pricingParameters=SWUPD&pg=default&appExtVrsId=841644971",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1253376
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2016-09-06",
+                "hasInAppPurchases": false,
+                "bundleId": "com.57digital.gpx",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple22/v4/f1/b4/b1/f1b4b102-ab0a-d1c1-e636-1311953e8a6d/pr_source.png/{w}x{h}{c}.{f}",
+                    "bgColor": "cc1f14",
+                    "textColor1": "fffcfc",
+                    "textColor2": "ffc0bc",
+                    "textColor3": "f4cfcd",
+                    "textColor4": "f49f9a"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
+                        "bgColor": "be8c4b",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "292921",
+                        "textColor4": "292921"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "407949800",
         "type": "apps",
         "relationships": {
@@ -7466,7 +7629,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739482784542,
+                "MZ_INDEXER": 1739909863199,
                 "RTCI": 1737570365370
             }
         },
@@ -7489,7 +7652,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 45,
+                "position": 46,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -7512,8 +7675,8 @@
         "name": "Secret of Mana",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7550,8 +7713,8 @@
                 "releaseDate": "2010-12-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.sk2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7645,7 +7808,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 46,
+                "position": 47,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -7669,8 +7832,8 @@
         "name": "十三煞",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "Good net technology co. Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Good net technology co. Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7707,8 +7870,8 @@
                 "releaseDate": "2017-02-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.good.pva",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7817,7 +7980,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 47,
+                "position": 48,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -7841,8 +8004,8 @@
         "name": "波西亞時光",
         "genreDisplayName": "模擬",
         "isPreorder": false,
-        "artistName": "Pathea Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Pathea Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7879,8 +8042,8 @@
                 "releaseDate": "2021-08-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pathea.mtap",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7988,7 +8151,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 48,
+                "position": 49,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -8011,8 +8174,8 @@
         "name": "DYSMANTLE",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "春晓 乔",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "春晓 乔",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8049,8 +8212,8 @@
                 "releaseDate": "2022-06-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.dysmantle.soco.ios.hk",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8146,7 +8309,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 49,
+                "position": 50,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -8169,8 +8332,8 @@
         "name": "伊格利亞戰記",
         "genreDisplayName": "策略",
         "isPreorder": false,
-        "artistName": "Nuverse Games",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nuverse Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8207,8 +8370,8 @@
                 "releaseDate": "2021-09-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pixmain.heroic",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8313,7 +8476,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 50,
+                "position": 51,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -8336,8 +8499,8 @@
         "name": "Evoland",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Playdigious",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Playdigious",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8374,8 +8537,8 @@
                 "releaseDate": "2015-02-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.shirogames.evoland",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8456,7 +8619,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739554859358,
+                "MZ_INDEXER": 1739911164887,
                 "RTCI": 1737002081009
             }
         },
@@ -8480,7 +8643,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 51,
+                "position": 52,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -8504,8 +8667,8 @@
         "name": "魔女之泉4",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SUYOUNG JANG",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SUYOUNG JANG",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8542,8 +8705,8 @@
                 "releaseDate": "2019-12-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kiwiwalks.witchspring4",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8651,7 +8814,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 52,
+                "position": 53,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -8675,8 +8838,8 @@
         "name": "魔石傳說",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Simplist Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Simplist Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8713,8 +8876,8 @@
                 "releaseDate": "2019-06-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Simplist.DevilStone",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8785,7 +8948,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739551888428,
+                "MZ_INDEXER": 1739908878837,
                 "RTCI": 1737002081009
             }
         },
@@ -8808,7 +8971,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 53,
+                "position": 54,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -8831,8 +8994,8 @@
         "name": "魔女之泉2",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SUYOUNG JANG",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SUYOUNG JANG",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8869,8 +9032,8 @@
                 "releaseDate": "2016-10-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kiwiwalks.witchspringlunaml",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8966,7 +9129,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 54,
+                "position": 55,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -8989,8 +9152,8 @@
         "name": "地牢求生 - 無盡的迷宮",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "Frozenfrog",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Frozenfrog",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9027,8 +9190,8 @@
                 "releaseDate": "2017-06-07",
                 "hasInAppPurchases": true,
                 "bundleId": "com.frozenfrog.DungeonSurvival",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9120,7 +9283,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 55,
+                "position": 56,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -9143,8 +9306,8 @@
         "name": "航空大亨4",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "TRADEGAME Lab Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "TRADEGAME Lab Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9181,8 +9344,8 @@
                 "releaseDate": "2015-06-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tradegame.airtycoon4",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9276,7 +9439,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 56,
+                "position": 57,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -9300,8 +9463,8 @@
         "name": "夢幻怪獸",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "ZigZaGame Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "ZigZaGame Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9338,8 +9501,8 @@
                 "releaseDate": "2015-10-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pockettrend.neomonsters",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9431,7 +9594,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 57,
+                "position": 58,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -9454,8 +9617,8 @@
         "name": "喵咪鬥惡龍",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Zplay (Beijing) Info. Tech. Co.,Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Zplay (Beijing) Info. Tech. Co.,Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9492,8 +9655,8 @@
                 "releaseDate": "2017-08-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.zplay.catquest",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9574,162 +9737,6 @@
     },
     {
         "kind": "app",
-        "id": "911205290",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "300186801",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739546076311,
-                "RTCI": 1737570365504
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "9+",
-                "value": 200,
-                "rank": 2,
-                "advisories": [
-                    "偶爾/輕度的暴力卡通或幻想"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 58,
-                "genreName": "角色扮演",
-                "genre": 7014,
-                "chart": "top-paid",
-                "genreShortName": "角色扮演"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 1,
-            "ratingCount": 1,
-            "ratingCountList": [
-                1,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "1.0 粒星"
-        },
-        "name": "DRAGON QUEST II",
-        "genreDisplayName": "角色扮演",
-        "isPreorder": false,
-        "artistName": "SQUARE ENIX",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=4990&salableAdamId=911205290&pricingParameters=STDQ&pg=default&appExtVrsId=841472620",
-                        "type": "buy",
-                        "priceFormatted": "USD 4.99",
-                        "price": 4.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 52459520
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=911205290&pricingParameters=SWUPD&pg=default&appExtVrsId=841472620",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 52459520
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2014-10-09",
-                "hasInAppPurchases": false,
-                "bundleId": "com.square-enix.dq2",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/9c/40/92/9c40927f-41b4-1aa5-850c-3b3b13dfcda2/AppIcon-1x_U007emarketing-0-85-220-0-9.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "fdfefd",
-                    "textColor2": "00d8d8",
-                    "textColor3": "cacbca",
-                    "textColor4": "00adad"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1030,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/5b/b5/0d5bb51f-dc4c-01d1-2120-1794d156b1b0/f7b9c313-7432-442d-bd83-3a0f4cdd62ef.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1031,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f0/57/31/f05731b1-e951-79e7-0b77-b9fcd8db9c85/62c6ad47-ada9-4cd6-ada6-af3c6cd93eeb.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f7b400",
-                        "textColor1": "08090b",
-                        "textColor2": "0a0a0b",
-                        "textColor3": "382b09",
-                        "textColor4": "392c08"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/65/24/4f/65244f35-f4ee-b6bd-b6ce-d573dd01960e/9bfe0abf-33fd-4d42-a30c-c17aaaa61f19.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "1291427111",
         "type": "apps",
         "relationships": {
@@ -9765,7 +9772,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 59,
+                "position": 60,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -9789,8 +9796,8 @@
         "name": "Evoland 2",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "Playdigious",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Playdigious",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9827,8 +9834,8 @@
                 "releaseDate": "2018-02-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.playdigious.evoland2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9946,7 +9953,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 60,
+                "position": 61,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -9970,8 +9977,8 @@
         "name": "The Bonfire: Forsaken Lands",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Xigma Games",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Xigma Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10008,8 +10015,8 @@
                 "releaseDate": "2018-03-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.xigmagames.thebonfire",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10129,7 +10136,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 61,
+                "position": 62,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -10152,8 +10159,8 @@
         "name": "Surgeon Simulator",
         "genreDisplayName": "模擬",
         "isPreorder": false,
-        "artistName": "Infogrames LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Infogrames LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10190,8 +10197,8 @@
                 "releaseDate": "2014-03-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bossastudios.ss13touch",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10306,7 +10313,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 62,
+                "position": 63,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -10330,8 +10337,8 @@
         "name": "王國：兩個皇冠",
         "genreDisplayName": "模擬",
         "isPreorder": false,
-        "artistName": "Raw Fury",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Raw Fury",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10368,8 +10375,8 @@
                 "releaseDate": "2020-04-28",
                 "hasInAppPurchases": true,
                 "bundleId": "se.raw-fury.kingdom-two-crown",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10454,7 +10461,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739485515637,
+                "MZ_INDEXER": 1739909466280,
                 "RTCI": 1738954236256
             }
         },
@@ -10478,7 +10485,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 63,
+                "position": 64,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -10501,8 +10508,8 @@
         "name": "魔窟-無盡的地下城：暗黑世界",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "chenruibing",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "chenruibing",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10539,8 +10546,8 @@
                 "releaseDate": "2016-11-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.clovare.Morgul2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10636,7 +10643,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 64,
+                "position": 65,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -10659,8 +10666,8 @@
         "name": "Crashlands",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Butterscotch Shenanigans, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Butterscotch Shenanigans, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10697,8 +10704,8 @@
                 "releaseDate": "2016-01-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bscotch.crashland",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10775,6 +10782,162 @@
     },
     {
         "kind": "app",
+        "id": "911205290",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "300186801",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739546076311,
+                "RTCI": 1737570365504
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "9+",
+                "value": 200,
+                "rank": 2,
+                "advisories": [
+                    "偶爾/輕度的暴力卡通或幻想"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 59,
+                "genreName": "角色扮演",
+                "genre": 7014,
+                "chart": "top-paid",
+                "genreShortName": "角色扮演"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 1,
+            "ratingCount": 1,
+            "ratingCountList": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "1.0 粒星"
+        },
+        "name": "DRAGON QUEST II",
+        "genreDisplayName": "角色扮演",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=4990&salableAdamId=911205290&pricingParameters=STDQ&pg=default&appExtVrsId=841472620",
+                        "type": "buy",
+                        "priceFormatted": "USD 4.99",
+                        "price": 4.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 52459520
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=911205290&pricingParameters=SWUPD&pg=default&appExtVrsId=841472620",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 52459520
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2014-10-09",
+                "hasInAppPurchases": false,
+                "bundleId": "com.square-enix.dq2",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/9c/40/92/9c40927f-41b4-1aa5-850c-3b3b13dfcda2/AppIcon-1x_U007emarketing-0-85-220-0-9.png/{w}x{h}{c}.{f}",
+                    "bgColor": "000000",
+                    "textColor1": "fdfefd",
+                    "textColor2": "00d8d8",
+                    "textColor3": "cacbca",
+                    "textColor4": "00adad"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1030,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/5b/b5/0d5bb51f-dc4c-01d1-2120-1794d156b1b0/f7b9c313-7432-442d-bd83-3a0f4cdd62ef.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1031,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f0/57/31/f05731b1-e951-79e7-0b77-b9fcd8db9c85/62c6ad47-ada9-4cd6-ada6-af3c6cd93eeb.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f7b400",
+                        "textColor1": "08090b",
+                        "textColor2": "0a0a0b",
+                        "textColor3": "382b09",
+                        "textColor4": "392c08"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/65/24/4f/65244f35-f4ee-b6bd-b6ce-d573dd01960e/9bfe0abf-33fd-4d42-a30c-c17aaaa61f19.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "1339054344",
         "type": "apps",
         "relationships": {
@@ -10809,7 +10972,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 65,
+                "position": 66,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -10832,8 +10995,8 @@
         "name": "Monster Hunter Stories",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "CAPCOM",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CAPCOM",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10870,8 +11033,8 @@
                 "releaseDate": "2018-09-25",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.capcom.mhsspen",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10978,7 +11141,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 66,
+                "position": 67,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -11001,8 +11164,8 @@
         "name": "DRAGON QUEST VI",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11039,8 +11202,8 @@
                 "releaseDate": "2015-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.dq6",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11156,7 +11319,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 67,
+                "position": 68,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -11180,8 +11343,8 @@
         "name": "暖雪",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "BILIBILI HK LIMITED",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "BILIBILI HK LIMITED",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11218,8 +11381,8 @@
                 "releaseDate": "2023-10-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.bilibilihk.warmsnowios",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11342,8 +11505,8 @@
         "name": "求生無限-無限流大冒險",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "帆 杨",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "帆 杨",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11380,8 +11543,8 @@
                 "releaseDate": "2016-05-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.YYTechPlayerF.EndlessWorld",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11476,7 +11639,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 69,
+                "position": 70,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -11499,8 +11662,8 @@
         "name": "侠客风云传前传",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Hangzhou Fengxia network technology Co.,Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hangzhou Fengxia network technology Co.,Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11537,8 +11700,8 @@
                 "releaseDate": "2024-06-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fhyx.xkqz",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11633,7 +11796,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 70,
+                "position": 71,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -11657,8 +11820,8 @@
         "name": "地下城與治療者 : Raid Manager",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "jungyu Lee",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "jungyu Lee",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11695,8 +11858,8 @@
                 "releaseDate": "2019-11-07",
                 "hasInAppPurchases": true,
                 "bundleId": "com.NextPhase.RaidManager",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11791,7 +11954,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 71,
+                "position": 72,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -11814,8 +11977,8 @@
         "name": "DRAGON QUEST III",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11852,8 +12015,8 @@
                 "releaseDate": "2014-12-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.dq3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11957,7 +12120,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 72,
+                "position": 73,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -11980,8 +12143,8 @@
         "name": "FF IV: THE AFTER YEARS",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12018,8 +12181,8 @@
                 "releaseDate": "2013-11-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.FF4AY",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12123,7 +12286,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 73,
+                "position": 74,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -12146,8 +12309,8 @@
         "name": "魔女之泉",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SUYOUNG JANG",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SUYOUNG JANG",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12184,8 +12347,8 @@
                 "releaseDate": "2015-10-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kiwiwalks.witchspring.lan.en",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12281,7 +12444,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 74,
+                "position": 75,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -12305,8 +12468,8 @@
         "name": "槍火重生",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "HONGKONG DELAN CO., LIMITED",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "HONGKONG DELAN CO., LIMITED",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12343,8 +12506,8 @@
                 "releaseDate": "2022-05-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.liwei.m3m1us",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12449,7 +12612,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 75,
+                "position": 76,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -12472,8 +12635,8 @@
         "name": "武器店物語",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "东晓 生",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "东晓 生",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12510,8 +12673,8 @@
                 "releaseDate": "2018-02-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.digdogstudio.wsffull",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12572,165 +12735,6 @@
     },
     {
         "kind": "app",
-        "id": "1617390109",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1617390111",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739528189137,
-                "RTCI": 1738958909012
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "偶爾/輕度的暴力卡通或幻想",
-                    "偶爾/輕度使用或提及酒精、煙草或藥物",
-                    "偶爾/輕度的粗俗用語或低俗幽默"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 76,
-                "genreName": "角色扮演",
-                "genre": 7014,
-                "chart": "top-paid",
-                "genreShortName": "角色扮演"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 粒星"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "0.11.15",
-        "name": "我们的大航海",
-        "genreDisplayName": "冒險",
-        "isPreorder": false,
-        "artistName": "LINKJOY PTE LTD",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=990&salableAdamId=1617390109&pricingParameters=STDQ&pg=default&appExtVrsId=848431558",
-                        "type": "buy",
-                        "priceFormatted": "USD 0.99",
-                        "price": 0.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 219247616
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1617390109&pricingParameters=SWUPD&pg=default&appExtVrsId=848431558",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 219247616
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2022-04-20",
-                "hasInAppPurchases": true,
-                "bundleId": "com.linkjoypte.wesail",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cb/57/75/cb5775e3-33f7-08d8-fb74-e9ccc18ac164/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "fdfdfd",
-                    "textColor1": "030200",
-                    "textColor2": "382d2e",
-                    "textColor3": "353432",
-                    "textColor4": "5f5657"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1098,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f1/6d/50/f16d50e4-968c-0af6-0e9b-acc2b6f6ae4f/f4b782bf-4174-4d00-86d9-cf7ad9c05120.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1098,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1e/92/c7/1e92c728-3ef4-76c9-1de4-5419f05913ad/28ae963d-0274-488e-a97d-49c4b3d2b467.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575a60",
-                        "textColor1": "f8fafb",
-                        "textColor2": "ebedee",
-                        "textColor3": "d8dadc",
-                        "textColor4": "cdd0d2"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cb/48/23/cb482322-2d24-dc0d-5ab8-08297fba9710/5769cc31-e818-46ad-886a-d0ac33b79cab.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "6446021269",
         "type": "apps",
         "relationships": {
@@ -12768,7 +12772,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 77,
+                "position": 78,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -12791,8 +12795,8 @@
         "name": "ROCKMAN X DiVE Offline",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "CAPCOM",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CAPCOM",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12829,8 +12833,8 @@
                 "releaseDate": "2023-08-31",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.capcom.rxdoff",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12928,7 +12932,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 78,
+                "position": 79,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -12951,8 +12955,8 @@
         "name": "御俠客M",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "JSL.EntCo",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "JSL.EntCo",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12989,8 +12993,8 @@
                 "releaseDate": "2019-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jsl.entco.wm",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13084,7 +13088,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 79,
+                "position": 80,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -13108,8 +13112,8 @@
         "name": "DRAGON QUEST IV",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13146,8 +13150,8 @@
                 "releaseDate": "2014-08-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.dq4",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13248,7 +13252,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 80,
+                "position": 81,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -13271,8 +13275,8 @@
         "name": "再戰江湖之傲視蒼龍",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Suzhou Sweet potato network technology Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Suzhou Sweet potato network technology Co.,Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13309,8 +13313,8 @@
                 "releaseDate": "2024-09-18",
                 "hasInAppPurchases": true,
                 "bundleId": "ximi.ios.cl2.w.app",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13405,7 +13409,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 81,
+                "position": 82,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -13428,8 +13432,8 @@
         "name": "ROMANCING SAGA 2",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13466,8 +13470,8 @@
                 "releaseDate": "2016-05-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.romancingsaga2w",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13548,8 +13552,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739829562152,
-                "RTCI": 1738884250134
+                "MZ_INDEXER": 1739905515316,
+                "RTCI": 1739905088713
             }
         },
         "supportsArcade": false,
@@ -13567,7 +13571,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 82,
+                "position": 83,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -13590,8 +13594,8 @@
         "name": "Minecraft Explorer Pro",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "57Digital Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "57Digital Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13628,8 +13632,8 @@
                 "releaseDate": "2011-07-16",
                 "hasInAppPurchases": true,
                 "bundleId": "com.57digital.minecraftexplorerpro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13722,7 +13726,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 83,
+                "position": 84,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -13746,8 +13750,8 @@
         "name": "Warhammer Quest 2",
         "genreDisplayName": "策略",
         "isPreorder": false,
-        "artistName": "Perchang",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Perchang",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13784,8 +13788,8 @@
                 "releaseDate": "2017-10-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.perchang.wq",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13900,7 +13904,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 84,
+                "position": 85,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -13923,8 +13927,8 @@
         "name": "畫個火柴人: EPIC 2 Pro",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Hitcents.com, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hitcents.com, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13961,8 +13965,8 @@
                 "releaseDate": "2015-07-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.hitcents.drawastickmanepic2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14019,6 +14023,165 @@
     },
     {
         "kind": "app",
+        "id": "1617390109",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1617390111",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739528189137,
+                "RTCI": 1738958909012
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "偶爾/輕度的暴力卡通或幻想",
+                    "偶爾/輕度使用或提及酒精、煙草或藥物",
+                    "偶爾/輕度的粗俗用語或低俗幽默"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 77,
+                "genreName": "角色扮演",
+                "genre": 7014,
+                "chart": "top-paid",
+                "genreShortName": "角色扮演"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 粒星"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "0.11.15",
+        "name": "我们的大航海",
+        "genreDisplayName": "冒險",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "LINKJOY PTE LTD",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=990&salableAdamId=1617390109&pricingParameters=STDQ&pg=default&appExtVrsId=848431558",
+                        "type": "buy",
+                        "priceFormatted": "USD 0.99",
+                        "price": 0.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 219247616
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1617390109&pricingParameters=SWUPD&pg=default&appExtVrsId=848431558",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 219247616
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2022-04-20",
+                "hasInAppPurchases": true,
+                "bundleId": "com.linkjoypte.wesail",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cb/57/75/cb5775e3-33f7-08d8-fb74-e9ccc18ac164/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "fdfdfd",
+                    "textColor1": "030200",
+                    "textColor2": "382d2e",
+                    "textColor3": "353432",
+                    "textColor4": "5f5657"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1098,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f1/6d/50/f16d50e4-968c-0af6-0e9b-acc2b6f6ae4f/f4b782bf-4174-4d00-86d9-cf7ad9c05120.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1098,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1e/92/c7/1e92c728-3ef4-76c9-1de4-5419f05913ad/28ae963d-0274-488e-a97d-49c4b3d2b467.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575a60",
+                        "textColor1": "f8fafb",
+                        "textColor2": "ebedee",
+                        "textColor3": "d8dadc",
+                        "textColor4": "cdd0d2"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cb/48/23/cb482322-2d24-dc0d-5ab8-08297fba9710/5769cc31-e818-46ad-886a-d0ac33b79cab.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "1453808408",
         "type": "apps",
         "relationships": {
@@ -14033,7 +14196,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739484881419,
+                "MZ_INDEXER": 1739905904261,
                 "RTCI": 1732224347196
             }
         },
@@ -14056,7 +14219,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 85,
+                "position": 86,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -14079,8 +14242,8 @@
         "name": "Juicy Realm",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "X.D. Network Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "X.D. Network Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14117,8 +14280,8 @@
                 "releaseDate": "2020-05-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.spacecangames.juicyrealm",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14227,7 +14390,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 86,
+                "position": 87,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -14252,8 +14415,8 @@
         "name": "Titan Quest HD",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "HandyGames",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "HandyGames",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14290,8 +14453,8 @@
                 "releaseDate": "2018-11-07",
                 "hasInAppPurchases": true,
                 "bundleId": "com.hg.titanquest",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14389,7 +14552,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 87,
+                "position": 88,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -14413,8 +14576,8 @@
         "name": "我的孩子: 生命之泉",
         "genreDisplayName": "模擬",
         "isPreorder": false,
-        "artistName": "ZHIYUAN NETWORK",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "ZHIYUAN NETWORK",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14451,8 +14614,8 @@
                 "releaseDate": "2019-05-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.east2west.MyChild",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14520,162 +14683,6 @@
     },
     {
         "kind": "app",
-        "id": "1509161616",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1507910062",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739547458063,
-                "RTCI": 1737355816785
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "9+",
-                "value": 200,
-                "rank": 2,
-                "advisories": [
-                    "偶爾/輕度的暴力卡通或幻想"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 88,
-                "genreName": "角色扮演",
-                "genre": 7014,
-                "chart": "top-paid",
-                "genreShortName": "角色扮演"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 2,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                1,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "2.0 粒星"
-        },
-        "name": "風帆紀元",
-        "genreDisplayName": "冒險",
-        "isPreorder": false,
-        "artistName": "Bolingo Games",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=5990&salableAdamId=1509161616&pricingParameters=STDQ&pg=default&appExtVrsId=871788438",
-                        "type": "buy",
-                        "priceFormatted": "USD 5.99",
-                        "price": 5.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 3460128768
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1509161616&pricingParameters=SWUPD&pg=default&appExtVrsId=871788438",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 3460128768
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2025-01-10",
-                "hasInAppPurchases": false,
-                "bundleId": "com.bolingo.voyager",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/1b/da/d81bda8f-7a5b-c0cb-c2a7-740bd59d082c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "e9e9e9",
-                    "textColor1": "0a0e19",
-                    "textColor2": "121721",
-                    "textColor3": "363a43",
-                    "textColor4": "3d4149"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1098,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f1/6d/50/f16d50e4-968c-0af6-0e9b-acc2b6f6ae4f/f4b782bf-4174-4d00-86d9-cf7ad9c05120.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1098,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1e/92/c7/1e92c728-3ef4-76c9-1de4-5419f05913ad/28ae963d-0274-488e-a97d-49c4b3d2b467.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575a60",
-                        "textColor1": "f8fafb",
-                        "textColor2": "ebedee",
-                        "textColor3": "d8dadc",
-                        "textColor4": "cdd0d2"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cb/48/23/cb482322-2d24-dc0d-5ab8-08297fba9710/5769cc31-e818-46ad-886a-d0ac33b79cab.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "6470642337",
         "type": "apps",
         "relationships": {
@@ -14715,7 +14722,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 89,
+                "position": 90,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -14738,8 +14745,8 @@
         "name": "來自星塵",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "GRYPH FRONTIER PTE.LTD.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "GRYPH FRONTIER PTE.LTD.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14776,8 +14783,8 @@
                 "releaseDate": "2024-02-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gryphline.exastris.ios",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14904,8 +14911,8 @@
         "name": "Knight & Dragon III",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Chiori Nakagawa",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Chiori Nakagawa",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14942,8 +14949,8 @@
                 "releaseDate": "2024-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dgjam.tatsumaki",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15038,7 +15045,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 91,
+                "position": 92,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -15061,8 +15068,8 @@
         "name": "FINAL FANTASY VI",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15099,8 +15106,8 @@
                 "releaseDate": "2022-02-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.FFPR6",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15171,13 +15178,13 @@
     },
     {
         "kind": "app",
-        "id": "6504323939",
+        "id": "1509161616",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "300186801",
+                        "id": "1507910062",
                         "type": "developers"
                     }
                 ]
@@ -15185,20 +15192,18 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739541143449,
-                "RTCI": 1737570365609
+                "MZ_INDEXER": 1739912645728,
+                "RTCI": 1737355816785
             }
         },
         "supportsArcade": false,
         "isFirstPartyHideableApp": false,
         "contentRatingsBySystem": {
             "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
+                "name": "9+",
+                "value": 200,
+                "rank": 2,
                 "advisories": [
-                    "偶爾/輕度的模擬賭博內容",
-                    "偶爾/輕度的恐怖或驚嚇題材",
                     "偶爾/輕度的暴力卡通或幻想"
                 ]
             }
@@ -15210,7 +15215,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 92,
+                "position": 89,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -15219,41 +15224,41 @@
         },
         "supportsStreamlinedBuy": true,
         "userRating": {
-            "value": 0,
-            "ratingCount": 0,
+            "value": 2,
+            "ratingCount": 1,
             "ratingCountList": [
                 0,
-                0,
+                1,
                 0,
                 0,
                 0
             ],
-            "ariaLabelForRatings": "0 粒星"
+            "ariaLabelForRatings": "2.0 粒星"
         },
-        "name": "勇者鬥惡龍X　覺醒的五種族　OFFLINE",
-        "genreDisplayName": "角色扮演",
+        "name": "風帆紀元",
+        "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
-        "isIOSBinaryMacOSCompatible": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bolingo Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=17990&salableAdamId=6504323939&pricingParameters=STDQ&pg=default&appExtVrsId=866661908",
+                        "buyParams": "productType=C&price=5990&salableAdamId=1509161616&pricingParameters=STDQ&pg=default&appExtVrsId=871788438",
                         "type": "buy",
-                        "priceFormatted": "USD 17.99",
-                        "price": 17.99,
+                        "priceFormatted": "USD 5.99",
+                        "price": 5.99,
                         "currencyCode": "USD",
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 3530683392
+                                "size": 3460128768
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=6504323939&pricingParameters=SWUPD&pg=default&appExtVrsId=866661908",
+                        "buyParams": "productType=C&price=0&salableAdamId=1509161616&pricingParameters=SWUPD&pg=default&appExtVrsId=871788438",
                         "type": "update",
                         "priceFormatted": "USD 0.00",
                         "price": 0,
@@ -15261,27 +15266,27 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 3530683392
+                                "size": 3460128768
                             }
                         ]
                     }
                 ],
                 "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
-                "releaseDate": "2025-01-14",
-                "hasInAppPurchases": true,
-                "bundleId": "com.square-enix.dq10offline",
-                "isStandaloneWithCompanionForWatchOS": false,
+                "releaseDate": "2025-01-10",
+                "hasInAppPurchases": false,
+                "bundleId": "com.bolingo.voyager",
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/ce/2d/7ace2d0c-975d-82f2-38d9-78068dd307f3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "4e4137",
-                    "textColor1": "d8dae8",
-                    "textColor2": "e1cfe5",
-                    "textColor3": "bcbbc4",
-                    "textColor4": "c3b3c2"
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/1b/da/d81bda8f-7a5b-c0cb-c2a7-740bd59d082c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "e9e9e9",
+                    "textColor1": "0a0e19",
+                    "textColor2": "121721",
+                    "textColor3": "363a43",
+                    "textColor4": "3d4149"
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
@@ -15289,12 +15294,12 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
-                        "width": 1030,
+                        "width": 1098,
                         "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/5b/b5/0d5bb51f-dc4c-01d1-2120-1794d156b1b0/f7b9c313-7432-442d-bd83-3a0f4cdd62ef.png/{w}x{h}{c}.{f}",
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f1/6d/50/f16d50e4-968c-0af6-0e9b-acc2b6f6ae4f/f4b782bf-4174-4d00-86d9-cf7ad9c05120.png/{w}x{h}{c}.{f}",
                         "bgColor": "000000",
                         "textColor1": "f2f2f2",
                         "textColor2": "e5e5e5",
@@ -15302,19 +15307,19 @@
                         "textColor4": "b7b7b7"
                     },
                     "contentIconTrimmed": {
-                        "width": 1031,
+                        "width": 1098,
                         "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f0/57/31/f05731b1-e951-79e7-0b77-b9fcd8db9c85/62c6ad47-ada9-4cd6-ada6-af3c6cd93eeb.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f7b400",
-                        "textColor1": "08090b",
-                        "textColor2": "0a0a0b",
-                        "textColor3": "382b09",
-                        "textColor4": "392c08"
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1e/92/c7/1e92c728-3ef4-76c9-1de4-5419f05913ad/28ae963d-0274-488e-a97d-49c4b3d2b467.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575a60",
+                        "textColor1": "f8fafb",
+                        "textColor2": "ebedee",
+                        "textColor3": "d8dadc",
+                        "textColor4": "cdd0d2"
                     },
                     "brandLogo": {
                         "width": 1080,
                         "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/65/24/4f/65244f35-f4ee-b6bd-b6ce-d573dd01960e/9bfe0abf-33fd-4d42-a30c-c17aaaa61f19.png/{w}x{h}{c}.{f}",
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cb/48/23/cb482322-2d24-dc0d-5ab8-08297fba9710/5769cc31-e818-46ad-886a-d0ac33b79cab.png/{w}x{h}{c}.{f}",
                         "bgColor": "000000",
                         "textColor1": "f2f2f2",
                         "textColor2": "e5e5e5",
@@ -15368,7 +15373,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 93,
+                "position": 94,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -15391,8 +15396,8 @@
         "name": "憎恨之心－獨立版",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "TENBIRDS Corporation",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "TENBIRDS Corporation",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15429,8 +15434,8 @@
                 "releaseDate": "2017-12-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tenbirds.animus",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15553,8 +15558,8 @@
         "name": "Cultist Simulator",
         "genreDisplayName": "卡牌",
         "isPreorder": false,
-        "artistName": "Playdigious",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Playdigious",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15591,8 +15596,8 @@
                 "releaseDate": "2019-04-02",
                 "hasInAppPurchases": true,
                 "bundleId": "com.playdigious.cultist",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15693,7 +15698,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 95,
+                "position": 96,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -15716,8 +15721,8 @@
         "name": "Harvest Moon: Light of Hope",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Natsume Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Natsume Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15754,8 +15759,8 @@
                 "releaseDate": "2018-09-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.natsume.hmloh",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15836,7 +15841,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739482873416,
+                "MZ_INDEXER": 1739909770595,
                 "RTCI": 1731358397838
             }
         },
@@ -15862,7 +15867,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 96,
+                "position": 97,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -15885,8 +15890,8 @@
         "name": "Ace Attorney Spirit of Justice",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "CAPCOM",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CAPCOM",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15923,8 +15928,8 @@
                 "releaseDate": "2017-09-21",
                 "hasInAppPurchases": true,
                 "bundleId": "jp.co.capcom.gyakusai6en",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16043,7 +16048,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 97,
+                "position": 98,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -16066,8 +16071,8 @@
         "name": "SKYHILL",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "Daedalic Entertainment GmbH",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Daedalic Entertainment GmbH",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -16104,8 +16109,8 @@
                 "releaseDate": "2016-09-07",
                 "hasInAppPurchases": false,
                 "bundleId": "de.daedalic.skyhill.ios",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16198,7 +16203,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 98,
+                "position": 99,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -16221,8 +16226,8 @@
         "name": "dreeps: Alarm Playing Game",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "Hisanori Hiraoka",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hisanori Hiraoka",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -16259,8 +16264,8 @@
                 "releaseDate": "2015-01-20",
                 "hasInAppPurchases": false,
                 "bundleId": "net.dreeps.apg",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16364,7 +16369,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 99,
+                "position": 100,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -16387,8 +16392,8 @@
         "name": "VALKYRIE PROFILE: LENNETH",
         "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -16425,8 +16430,8 @@
                 "releaseDate": "2018-05-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.square-enix.ValkyrieProfilew",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16524,7 +16529,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 100,
+                "position": 101,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -16547,8 +16552,8 @@
         "name": "CHAOS RINGS Ⅲ",
         "genreDisplayName": "冒險",
         "isPreorder": false,
-        "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -16585,8 +16590,8 @@
                 "releaseDate": "2015-05-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.square-enix.chaosrings3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,

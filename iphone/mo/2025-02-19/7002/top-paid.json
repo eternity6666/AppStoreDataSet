@@ -59,8 +59,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.2.84",
-        "genreDisplayName": "角色扮演",
         "name": "大俠立志傳",
+        "genreDisplayName": "角色扮演",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "X.D. Network Inc.",
@@ -117,6 +117,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -150,7 +151,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "隨時隨地，行俠仗義！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -274,7 +274,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -338,6 +337,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Create, explore and survive!",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -404,11 +404,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "夢想商店街物語",
         "genreDisplayName": "模擬",
+        "name": "夢想商店街物語",
         "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -445,8 +445,8 @@
                 "releaseDate": "2015-05-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kairosoft.gm109E",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -462,7 +462,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -496,6 +495,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -562,11 +562,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Poppy Playtime Chapter 3",
         "genreDisplayName": "冒險",
+        "name": "Poppy Playtime Chapter 3",
         "isPreorder": false,
-        "artistName": "Mob Entertainment, Inc",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mob Entertainment, Inc",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -756,8 +756,6 @@
                 "releaseDate": "2009-03-27",
                 "hasInAppPurchases": true,
                 "bundleId": "com.yourcompany.DoodleJump",
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -768,6 +766,8 @@
                     "textColor3": "312f2e",
                     "textColor4": "4b5b42"
                 },
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -783,6 +783,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -827,7 +828,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "editorialNotes": {
                     "short": "操控這個四腿長嘴的小怪獸，在多個風格迥異的世界裡，盡情跳躍。"
                 },
@@ -852,7 +852,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739552488575,
+                "MZ_INDEXER": 1739923070741,
                 "RTCI": 1731371996060
             }
         },
@@ -1069,8 +1069,8 @@
         "genreDisplayName": "冒險",
         "name": "紀念碑谷",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "ustwo games",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1107,6 +1107,8 @@
                 "releaseDate": "2014-04-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ustwo.monumentvalley",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -1117,8 +1119,6 @@
                     "textColor3": "143629",
                     "textColor4": "323e2b"
                 },
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1134,7 +1134,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -1208,6 +1207,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "尋求寬恕",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -1260,7 +1260,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 7,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -1338,7 +1338,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -1372,6 +1371,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "地牢探險Roguelike手游",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1439,11 +1439,11 @@
             "ariaLabelForRatings": "4.4 粒星"
         },
         "gracRegistrationNumber": "CC-NV-211015-003",
-        "genreDisplayName": "動作",
         "name": "Implosion 聚爆",
+        "genreDisplayName": "動作",
         "isPreorder": false,
-        "artistName": "Rayark International Limited",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Rayark International Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1666,8 +1666,8 @@
                 "releaseDate": "2017-05-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ustwo.monumentvalley2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1683,7 +1683,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -1747,12 +1746,13 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "一段讓你置身美麗幻境的故事",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "母女情為幾何解謎注入深度",
                     "standard": "如果你迫不及待想再次回到旋轉扭曲的建築群中，那麼《紀念碑谷 2》一定不會讓你失望。它在顏色運用與關卡設計上更勝前作，除了加入光束等新元素外，還增加了一次控制兩個角色的玩法，使得闖關過程變得更具挑戰性。遊戲中母親與孩子間的溫情互動更是獨一無二、觸動人心。"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1879,7 +1879,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -1933,6 +1932,200 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "763692274",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "330049731",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739491344726,
+                "RTCI": 1736443989575
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "17+",
+                "value": 600,
+                "rank": 4,
+                "advisories": [
+                    "偶爾/輕度的性愛或裸露內容",
+                    "頻繁/極度的暴力卡通或幻想",
+                    "頻繁/極度的粗俗用語或低俗幽默",
+                    "頻繁/極度的模擬賭博內容",
+                    "頻繁/極度的成人或性暗示題材",
+                    "頻繁/極度使用或提及酒精、煙草或藥物",
+                    "頻繁/極度的現實生活暴力"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 10,
+                "genreName": "動作",
+                "genre": 7001,
+                "chart": "top-paid",
+                "genreShortName": "動作"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.7,
+            "ratingCount": 29,
+            "ratingCountList": [
+                1,
+                1,
+                0,
+                2,
+                25
+            ],
+            "ariaLabelForRatings": "4.7 粒星"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "2.2.15",
+        "name": "Grand Theft Auto: San Andreas",
+        "genreDisplayName": "動作",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Rockstar Games",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=6990&salableAdamId=763692274&pricingParameters=STDQ&pg=default&appExtVrsId=870560751",
+                        "type": "buy",
+                        "priceFormatted": "USD 6.99",
+                        "price": 6.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 2656884736
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=763692274&pricingParameters=SWUPD&pg=default&appExtVrsId=870560751",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 2656884736
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2013-12-12",
+                "hasInAppPurchases": false,
+                "bundleId": "com.rockstargames.gta3sa",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/78/e3/2f78e38e-182d-d827-38a9-ed0e0abca7cc/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "000000",
+                    "textColor1": "f8f8f8",
+                    "textColor2": "c9c9c9",
+                    "textColor3": "c6c6c6",
+                    "textColor4": "a1a1a1"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "bannerUber": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features49/v4/e6/e5/7d/e6e57d43-20e5-4f79-a685-494db375150f/mza_4231951423194652541.png/{w}x{h}sr.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "b0cea5",
+                        "textColor2": "c9b997",
+                        "textColor3": "8da584",
+                        "textColor4": "a19479"
+                    },
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1102,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/de/dc/bb/dedcbbcc-2c2e-c854-4d04-294356c181e3/34284680-b3d8-46e8-9938-fde9e61ab5dd.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1102,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/79/24/f7/7924f7c7-8114-0534-8920-2bd883bcb874/2e55e8ab-64e1-41ac-bd99-c0d02222e559.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f6b500",
+                        "textColor1": "090a0a",
+                        "textColor2": "090a0a",
+                        "textColor3": "392c08",
+                        "textColor4": "392c08"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features62/v4/29/06/98/290698d1-88ac-9e8f-7fba-fb1038b65d3e/mza_5750834254428557810.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "d8ded8",
+                        "textColor2": "e66b53",
+                        "textColor3": "adb2ad",
+                        "textColor4": "b85643"
+                    },
+                    "originalFlowcaseBrick": {
+                        "width": 3200,
+                        "height": 600,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features5/v4/27/e0/8b/27e08b72-2cb2-d6f9-4639-a53ba1709ea5/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "d5d5aa",
+                        "textColor2": "abcea4",
+                        "textColor3": "aaaa88",
+                        "textColor4": "89a583"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/1d/9c/aa/1d9caaf1-fdbd-25b5-c4af-be7253fc5ab4/8da2e25c-a899-4f3d-9d03-e9614e122609.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2056,8 +2249,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -2120,203 +2311,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "流落未知的陰森詭域，用智慧和勇氣在荒野求生，解開謎團，逃出生天"
                 },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "763692274",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "330049731",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739491344726,
-                "RTCI": 1736443989575
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "偶爾/輕度的性愛或裸露內容",
-                    "頻繁/極度的暴力卡通或幻想",
-                    "頻繁/極度的粗俗用語或低俗幽默",
-                    "頻繁/極度的模擬賭博內容",
-                    "頻繁/極度的成人或性暗示題材",
-                    "頻繁/極度使用或提及酒精、煙草或藥物",
-                    "頻繁/極度的現實生活暴力"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 10,
-                "genreName": "動作",
-                "genre": 7001,
-                "chart": "top-paid",
-                "genreShortName": "動作"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.7,
-            "ratingCount": 29,
-            "ratingCountList": [
-                1,
-                1,
-                0,
-                2,
-                25
-            ],
-            "ariaLabelForRatings": "4.7 粒星"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "2.2.15",
-        "genreDisplayName": "動作",
-        "name": "Grand Theft Auto: San Andreas",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Rockstar Games",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=6990&salableAdamId=763692274&pricingParameters=STDQ&pg=default&appExtVrsId=870560751",
-                        "type": "buy",
-                        "priceFormatted": "USD 6.99",
-                        "price": 6.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 2656884736
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=763692274&pricingParameters=SWUPD&pg=default&appExtVrsId=870560751",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 2656884736
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2013-12-12",
-                "hasInAppPurchases": false,
-                "bundleId": "com.rockstargames.gta3sa",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/78/e3/2f78e38e-182d-d827-38a9-ed0e0abca7cc/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "000000",
-                    "textColor1": "f8f8f8",
-                    "textColor2": "c9c9c9",
-                    "textColor3": "c6c6c6",
-                    "textColor4": "a1a1a1"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "bannerUber": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features49/v4/e6/e5/7d/e6e57d43-20e5-4f79-a685-494db375150f/mza_4231951423194652541.png/{w}x{h}sr.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "b0cea5",
-                        "textColor2": "c9b997",
-                        "textColor3": "8da584",
-                        "textColor4": "a19479"
-                    },
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1102,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/de/dc/bb/dedcbbcc-2c2e-c854-4d04-294356c181e3/34284680-b3d8-46e8-9938-fde9e61ab5dd.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1102,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/79/24/f7/7924f7c7-8114-0534-8920-2bd883bcb874/2e55e8ab-64e1-41ac-bd99-c0d02222e559.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f6b500",
-                        "textColor1": "090a0a",
-                        "textColor2": "090a0a",
-                        "textColor3": "392c08",
-                        "textColor4": "392c08"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features62/v4/29/06/98/290698d1-88ac-9e8f-7fba-fb1038b65d3e/mza_5750834254428557810.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "d8ded8",
-                        "textColor2": "e66b53",
-                        "textColor3": "adb2ad",
-                        "textColor4": "b85643"
-                    },
-                    "originalFlowcaseBrick": {
-                        "width": 3200,
-                        "height": 600,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features5/v4/27/e0/8b/27e08b72-2cb2-d6f9-4639-a53ba1709ea5/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "d5d5aa",
-                        "textColor2": "abcea4",
-                        "textColor3": "aaaa88",
-                        "textColor4": "89a583"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/1d/9c/aa/1d9caaf1-fdbd-25b5-c4af-be7253fc5ab4/8da2e25c-a899-4f3d-9d03-e9614e122609.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -2427,8 +2427,8 @@
                 "releaseDate": "2015-07-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.11bitstudios.twommobile",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2444,7 +2444,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -2508,6 +2507,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2529,7 +2529,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739488845278,
+                "MZ_INDEXER": 1739931643689,
                 "RTCI": 1731356367518
             }
         },
@@ -2552,7 +2552,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 11,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -2572,11 +2572,11 @@
             ],
             "ariaLabelForRatings": "3.7 粒星"
         },
-        "genreDisplayName": "角色扮演",
         "name": "軒轅劍參外傳 天之痕",
+        "genreDisplayName": "角色扮演",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "SOFTSTAR ENTERTAINMENT INC.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2613,8 +2613,8 @@
                 "releaseDate": "2014-04-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softstar.SWD3E",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2630,6 +2630,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2663,7 +2664,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2773,8 +2773,8 @@
                 "releaseDate": "2019-09-05",
                 "hasInAppPurchases": false,
                 "bundleId": "inc.redcandlegames.detention",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2790,7 +2790,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -2834,6 +2833,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "走入驚慄校園解謎"
@@ -2894,11 +2894,11 @@
             },
             "messages": {
                 "position": 1,
-                "genreName": "卡牌",
-                "genre": 7005,
+                "genreName": "冒險",
+                "genre": 7002,
                 "chart": "top-paid",
-                "genreShortName": "卡牌",
-                "chartLink": "https://apps.apple.com/mo/charts/iphone/%E5%8D%A1%E7%89%8C-games/7005"
+                "genreShortName": "冒險",
+                "chartLink": "https://apps.apple.com/mo/charts/iphone/%E5%86%92%E9%9A%AA-games/7002"
             }
         },
         "supportsStreamlinedBuy": true,
@@ -2982,7 +2982,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -3046,6 +3045,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3118,8 +3118,8 @@
         "genreDisplayName": "動作",
         "name": "Grand Theft Auto: Vice City",
         "isPreorder": false,
-        "artistName": "Rockstar Games",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Rockstar Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3156,8 +3156,8 @@
                 "releaseDate": "2012-12-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rockstargames.gta3vc",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3172,8 +3172,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -3236,6 +3234,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3303,8 +3303,8 @@
         "genreDisplayName": "解謎",
         "name": "The Room Two",
         "isPreorder": false,
-        "artistName": "Fireproof Studios Limited",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Fireproof Studios Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3626,10 +3626,10 @@
                     }
                 },
                 "subtitle": "手工難題冒險",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "由真實卡紙建成的解謎冒險"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -3754,7 +3754,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -3788,6 +3787,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3913,7 +3913,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -4007,6 +4006,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "勇敢少年走進奇幻秘境",
@@ -4130,6 +4130,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4163,7 +4164,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4185,7 +4185,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739483643894,
+                "MZ_INDEXER": 1739912127113,
                 "RTCI": 1731361494906
             }
         },
@@ -4228,11 +4228,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "動作",
         "name": "LEGO® Marvel Super Heroes",
+        "genreDisplayName": "動作",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Warner Bros.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4286,6 +4286,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4329,11 +4330,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "英雄化身可愛積木造型，為摧毁超級武器展開終極正邪之戰。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -4394,11 +4394,11 @@
             ],
             "ariaLabelForRatings": "4.3 粒星"
         },
-        "name": "Florence",
         "genreDisplayName": "家庭",
+        "name": "Florence",
         "isPreorder": false,
-        "artistName": "Annapurna Interactive",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Annapurna Interactive",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4435,8 +4435,6 @@
                 "releaseDate": "2018-02-13",
                 "hasInAppPurchases": false,
                 "bundleId": "Florence1",
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -4447,6 +4445,8 @@
                     "textColor3": "d9d116",
                     "textColor4": "d9beaf"
                 },
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4541,7 +4541,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739482610125,
+                "MZ_INDEXER": 1739908496943,
                 "RTCI": 1736338600825
             }
         },
@@ -4628,8 +4628,8 @@
                 "releaseDate": "2010-10-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.madfingergames.Samurai2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4645,6 +4645,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4678,7 +4679,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4744,11 +4744,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.7.2",
-        "name": "Pocket Build",
         "genreDisplayName": "冒險",
+        "name": "Pocket Build",
         "isPreorder": false,
-        "artistName": "MoonBear LTD",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "MoonBear LTD",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4785,8 +4785,8 @@
                 "releaseDate": "2017-11-01",
                 "hasInAppPurchases": true,
                 "bundleId": "moonbear.PocketBuild",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4802,8 +4802,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -4856,178 +4854,12 @@
                         "textColor4": "23200a"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "建造自己的奇幻世界",
                 "editorialNotes": {
                     "tagline": "一磚一瓦，建立迷人的鄉村小鎮"
                 },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1041260001",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "300186801",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739542077684,
-                "RTCI": 1737570365277
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "偶爾/輕度的暴力卡通或幻想",
-                    "偶爾/輕度使用或提及酒精、煙草或藥物",
-                    "偶爾/輕度的性愛或裸露內容"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 27,
-                "genreName": "角色扮演",
-                "genre": 7014,
-                "chart": "top-paid",
-                "genreShortName": "角色扮演"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 5,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                1
-            ],
-            "ariaLabelForRatings": "5.0 粒星"
-        },
-        "genreDisplayName": "冒險",
-        "name": "FINAL FANTASY Ⅸ",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "SQUARE ENIX",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=20990&salableAdamId=1041260001&pricingParameters=STDQ&pg=default&appExtVrsId=845137738",
-                        "type": "buy",
-                        "priceFormatted": "USD 20.99",
-                        "price": 20.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 3433691136
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1041260001&pricingParameters=SWUPD&pg=default&appExtVrsId=845137738",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 3433691136
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2016-02-09",
-                "hasInAppPurchases": false,
-                "bundleId": "com.square-enix.final-fantasy-ix-ww",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4f/f1/46/4ff146f9-ab61-7c2e-30f0-0a21a10dac07/AppIcon-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "0b0803",
-                    "textColor2": "323232",
-                    "textColor3": "3c3935",
-                    "textColor4": "5b5b5b"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1098,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f1/6d/50/f16d50e4-968c-0af6-0e9b-acc2b6f6ae4f/f4b782bf-4174-4d00-86d9-cf7ad9c05120.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1098,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1e/92/c7/1e92c728-3ef4-76c9-1de4-5419f05913ad/28ae963d-0274-488e-a97d-49c4b3d2b467.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575a60",
-                        "textColor1": "f8fafb",
-                        "textColor2": "ebedee",
-                        "textColor3": "d8dadc",
-                        "textColor4": "cdd0d2"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features49/v4/bb/a3/65/bba36588-1b9b-f5b5-068c-5ca2d97e6824/mza_7551332520714827890.png/{w}x{h}{c}.{f}",
-                        "bgColor": "ffffff",
-                        "textColor1": "32332a",
-                        "textColor2": "303531",
-                        "textColor3": "5b5c54",
-                        "textColor4": "595d5a"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cb/48/23/cb482322-2d24-dc0d-5ab8-08297fba9710/5769cc31-e818-46ad-886a-d0ac33b79cab.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5049,7 +4881,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739484719366,
+                "MZ_INDEXER": 1739905630295,
                 "RTCI": 1731374079144
             }
         },
@@ -5098,8 +4930,8 @@
         "genreDisplayName": "卡牌",
         "name": "王權：權力遊戲",
         "isPreorder": false,
-        "artistName": "Devolver",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Devolver",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5163,8 +4995,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -5217,11 +5047,13 @@
                         "textColor4": "c48d52"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "雄踞鐵王座",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "這次蘭尼斯特會否有債必還？"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -5263,7 +5095,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 29,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -5324,7 +5156,6 @@
                 "releaseDate": "2017-05-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.xd.tothemoon",
-                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
@@ -5336,6 +5167,7 @@
                     "textColor3": "c5d9b3",
                     "textColor4": "7eb995"
                 },
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5351,7 +5183,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -5415,6 +5246,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialNotes": {
                     "tagline": "助臨終老人一圓登月夢"
                 },
@@ -5464,7 +5296,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 30,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -5484,8 +5316,8 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "name": "FINAL FANTASY VII",
         "genreDisplayName": "角色扮演",
+        "name": "FINAL FANTASY VII",
         "isPreorder": false,
         "artistName": "SQUARE ENIX",
         "isIOSBinaryMacOSCompatible": false,
@@ -5542,6 +5374,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5585,7 +5418,174 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1041260001",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "300186801",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739542077684,
+                "RTCI": 1737570365277
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "偶爾/輕度的暴力卡通或幻想",
+                    "偶爾/輕度使用或提及酒精、煙草或藥物",
+                    "偶爾/輕度的性愛或裸露內容"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 28,
+                "genreName": "角色扮演",
+                "genre": 7014,
+                "chart": "top-paid",
+                "genreShortName": "角色扮演"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 5,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "ariaLabelForRatings": "5.0 粒星"
+        },
+        "genreDisplayName": "冒險",
+        "name": "FINAL FANTASY Ⅸ",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SQUARE ENIX",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=20990&salableAdamId=1041260001&pricingParameters=STDQ&pg=default&appExtVrsId=845137738",
+                        "type": "buy",
+                        "priceFormatted": "USD 20.99",
+                        "price": 20.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 3433691136
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1041260001&pricingParameters=SWUPD&pg=default&appExtVrsId=845137738",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 3433691136
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2016-02-09",
+                "hasInAppPurchases": false,
+                "bundleId": "com.square-enix.final-fantasy-ix-ww",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/4f/f1/46/4ff146f9-ab61-7c2e-30f0-0a21a10dac07/AppIcon-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "0b0803",
+                    "textColor2": "323232",
+                    "textColor3": "3c3935",
+                    "textColor4": "5b5b5b"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1098,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f1/6d/50/f16d50e4-968c-0af6-0e9b-acc2b6f6ae4f/f4b782bf-4174-4d00-86d9-cf7ad9c05120.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1098,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1e/92/c7/1e92c728-3ef4-76c9-1de4-5419f05913ad/28ae963d-0274-488e-a97d-49c4b3d2b467.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575a60",
+                        "textColor1": "f8fafb",
+                        "textColor2": "ebedee",
+                        "textColor3": "d8dadc",
+                        "textColor4": "cdd0d2"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features49/v4/bb/a3/65/bba36588-1b9b-f5b5-068c-5ca2d97e6824/mza_7551332520714827890.png/{w}x{h}{c}.{f}",
+                        "bgColor": "ffffff",
+                        "textColor1": "32332a",
+                        "textColor2": "303531",
+                        "textColor3": "5b5c54",
+                        "textColor4": "595d5a"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cb/48/23/cb482322-2d24-dc0d-5ab8-08297fba9710/5769cc31-e818-46ad-886a-d0ac33b79cab.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5653,8 +5653,8 @@
         "genreDisplayName": "冒險",
         "name": "Hidden Folks",
         "isPreorder": false,
-        "artistName": "Adriaan de Jongh",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Adriaan de Jongh",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5707,6 +5707,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5790,7 +5791,6 @@
                         "textColor4": "272727"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "可愛又有趣，到底藏哪裏？！",
                 "editorialNotes": {
                     "tagline": "沉醉黑白手繪世界，迎接有趣眼力挑戰",
@@ -5860,11 +5860,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "銀河歷險記3 (Samorost 3)",
         "genreDisplayName": "冒險",
+        "name": "銀河歷險記3 (Samorost 3)",
         "isPreorder": false,
-        "artistName": "Amanita Design s.r.o.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Amanita Design s.r.o.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5901,8 +5901,8 @@
                 "releaseDate": "2016-09-01",
                 "hasInAppPurchases": false,
                 "bundleId": "amanita-design.samorost3.ios",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5918,8 +5918,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -5982,6 +5980,8 @@
                         "textColor4": "9ea00e"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "奇異的太空之旅",
                 "editorialNotes": {
                     "tagline": "帶著魔法小號，探索宇宙神秘起源"
@@ -6053,8 +6053,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "冒險",
         "name": "Rusty Lake Hotel",
+        "genreDisplayName": "冒險",
         "isPreorder": false,
         "artistName": "Rusty Lake",
         "isIOSBinaryMacOSCompatible": true,
@@ -6111,6 +6111,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6144,7 +6145,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6270,7 +6270,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -6364,10 +6363,11 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "這款漫畫風互動解謎遊戲玩法創新，你要重新排列漫畫分鏡次序，幫助主角避開警察的追捕，改寫故事發展。獨特的剪影風格配合節奏感十足的爵士配樂，為遊戲營造懸疑緊張的氣氛。主角的命運如何，由你來掌握。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -6431,8 +6431,8 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "genreDisplayName": "動作",
         "name": "LEGO® 蝙蝠俠™3：飛越高譚市",
+        "genreDisplayName": "動作",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Warner Bros.",
@@ -6489,6 +6489,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6532,7 +6533,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6635,8 +6635,8 @@
                 "releaseDate": "2019-03-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.othertales.ticktockatalefortwo",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6652,6 +6652,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6685,7 +6686,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Two-player adventure",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6789,8 +6789,8 @@
                 "releaseDate": "2020-03-03",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.konami.epjCastlevania2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6806,7 +6806,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -6850,6 +6849,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6955,8 +6955,8 @@
                 "releaseDate": "2013-04-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.wb.LEGOBatman2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6972,7 +6972,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -7016,6 +7015,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7037,7 +7037,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739548942724,
+                "MZ_INDEXER": 1739922298638,
                 "RTCI": 1738051892905
             }
         },
@@ -7081,11 +7081,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "解謎",
         "name": "Lara Croft GO",
+        "genreDisplayName": "解謎",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Deca Live Operations GmbH",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7139,7 +7139,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -7243,6 +7242,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "驚心動魄的益智冒險",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7305,11 +7305,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "晴空農場物語",
         "genreDisplayName": "冒險",
+        "name": "晴空農場物語",
         "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7462,11 +7462,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Don't Starve: Shipwrecked",
         "genreDisplayName": "冒險",
+        "name": "Don't Starve: Shipwrecked",
         "isPreorder": false,
-        "artistName": "Klei",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Klei",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7520,8 +7520,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -7574,10 +7572,12 @@
                         "textColor4": "5f4b28"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "你能以科學家頭腦，善用資源，在滿佈奇珍異獸的荒野中求生嗎？"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -7639,8 +7639,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.8",
-        "genreDisplayName": "冒險",
         "name": "迷失島",
+        "genreDisplayName": "冒險",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "COTTONGAME Network Technology Co., Ltd.",
@@ -7680,8 +7680,8 @@
                 "releaseDate": "2016-09-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.redfishgame.isolandEN",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7697,6 +7697,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7740,7 +7741,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7866,7 +7866,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -7920,165 +7919,10 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
+                "isXROSCompatible": true,
                 "editorialNotes": {
                     "tagline": "破解謎題，揭開災禍神秘面紗"
                 },
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6498879077",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "381477233",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739503726213,
-                "RTCI": 1731366800111
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "9+",
-                "value": 200,
-                "rank": 2,
-                "advisories": [
-                    "偶爾/輕度的暴力卡通或幻想"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 47,
-                "genreName": "冒險",
-                "genre": 7002,
-                "chart": "top-paid",
-                "genreShortName": "冒險"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.6,
-            "ratingCount": 5,
-            "ratingCountList": [
-                0,
-                0,
-                1,
-                0,
-                4
-            ],
-            "ariaLabelForRatings": "4.6 粒星"
-        },
-        "name": "平安古都物語",
-        "genreDisplayName": "模擬",
-        "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=6990&salableAdamId=6498879077&pricingParameters=STDQ&pg=default&appExtVrsId=867394176",
-                        "type": "buy",
-                        "priceFormatted": "USD 6.99",
-                        "price": 6.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 83224576
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6498879077&pricingParameters=SWUPD&pg=default&appExtVrsId=867394176",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 83224576
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2024-07-10",
-                "hasInAppPurchases": false,
-                "bundleId": "net.kairosoft.iOS.heian",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/ea/35/19ea35fa-7626-c396-be18-1ad04dac4af2/AppIcon-1x_U007emarketing-0-5-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "f7f7dc",
-                    "textColor1": "120a08",
-                    "textColor2": "111111",
-                    "textColor3": "3f3932",
-                    "textColor4": "3f3f39"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
-                        "bgColor": "be8c4b",
-                        "textColor1": "041116",
-                        "textColor2": "041116",
-                        "textColor3": "292921",
-                        "textColor4": "292921"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8149,8 +7993,8 @@
         "genreDisplayName": "解謎",
         "name": "FRAMED 2 - 致命框架 2",
         "isPreorder": false,
-        "artistName": "Loveshack",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Loveshack",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8187,7 +8031,6 @@
                 "releaseDate": "2017-06-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.loveshackentertainment.framed2",
-                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
@@ -8199,6 +8042,7 @@
                     "textColor3": "33396f",
                     "textColor4": "3a396f"
                 },
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8214,8 +8058,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -8308,6 +8150,8 @@
                         "textColor4": "4e5769"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialNotes": {
                     "tagline": "調動漫畫順序，扭轉故事結局"
                 },
@@ -8416,8 +8260,8 @@
                 "releaseDate": "2020-04-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.lilithgames.mrpumpkin2.ios",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8433,6 +8277,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8476,11 +8321,166 @@
                         "textColor4": "1b2829"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "回到傳奇城寨，展開奇異冒險"
                 },
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "6498879077",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "381477233",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739503726213,
+                "RTCI": 1731366800111
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "9+",
+                "value": 200,
+                "rank": 2,
+                "advisories": [
+                    "偶爾/輕度的暴力卡通或幻想"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 47,
+                "genreName": "冒險",
+                "genre": 7002,
+                "chart": "top-paid",
+                "genreShortName": "冒險"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.6,
+            "ratingCount": 5,
+            "ratingCountList": [
+                0,
+                0,
+                1,
+                0,
+                4
+            ],
+            "ariaLabelForRatings": "4.6 粒星"
+        },
+        "genreDisplayName": "模擬",
+        "name": "平安古都物語",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=6990&salableAdamId=6498879077&pricingParameters=STDQ&pg=default&appExtVrsId=867394176",
+                        "type": "buy",
+                        "priceFormatted": "USD 6.99",
+                        "price": 6.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 83224576
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6498879077&pricingParameters=SWUPD&pg=default&appExtVrsId=867394176",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 83224576
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2024-07-10",
+                "hasInAppPurchases": false,
+                "bundleId": "net.kairosoft.iOS.heian",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/ea/35/19ea35fa-7626-c396-be18-1ad04dac4af2/AppIcon-1x_U007emarketing-0-5-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "f7f7dc",
+                    "textColor1": "120a08",
+                    "textColor2": "111111",
+                    "textColor3": "3f3932",
+                    "textColor4": "3f3f39"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
+                        "bgColor": "be8c4b",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "292921",
+                        "textColor4": "292921"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -8548,11 +8548,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "冒險",
         "name": "Rusty Lake: Roots",
+        "genreDisplayName": "冒險",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Rusty Lake",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8606,6 +8606,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8639,7 +8640,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8661,7 +8661,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550912272,
+                "MZ_INDEXER": 1739929564398,
                 "RTCI": 1731353075509
             }
         },
@@ -8709,8 +8709,8 @@
         "genreDisplayName": "冒險",
         "name": "The Past Within",
         "isPreorder": false,
-        "artistName": "Rusty Lake",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Rusty Lake",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8747,8 +8747,8 @@
                 "releaseDate": "2022-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.RustyLake.ThePastWithin",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8764,8 +8764,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -8808,6 +8806,8 @@
                         "textColor4": "8e99a2"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "來場兩人合作的冒險",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8934,6 +8934,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8977,12 +8978,11 @@
                         "textColor4": "32302f"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "白門：一場全新的鏽湖之旅",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "破解夢境謎題，尋找失落記憶"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -9087,8 +9087,8 @@
                 "releaseDate": "2024-01-17",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.cave",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9104,7 +9104,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -9138,6 +9137,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9261,8 +9261,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -9355,10 +9353,12 @@
                         "textColor4": "b8bd8b"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "細緻唯美的遊戲場面，以及帶著兩撇大鬍鬚的可愛主人翁，是《里奧的財富》中最吸引人的元素。這款平台遊戲揉合物理解謎及時限內闖關特色，帶來豐富新鮮概念，精彩好玩又富挑戰性。玩家可隨著里奧從海盜船大砲噴入空中、探索水底洞穴，或在緊張的追逐情節下設法逃命。《里奧的財富》充滿視覺饗宴，遊戲過程從頭到尾都能讓人玩得十足盡興。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -9405,7 +9405,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 38,
+                "position": 39,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -9426,11 +9426,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.0",
-        "name": "Beholder",
         "genreDisplayName": "冒險",
+        "name": "Beholder",
         "isPreorder": false,
-        "artistName": "CM Games OU",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CM Games OU",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9586,7 +9586,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 39,
+                "position": 40,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -9648,8 +9648,8 @@
                 "releaseDate": "2016-08-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pixelbite.sm2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9665,7 +9665,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -9709,6 +9708,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "潛行。戰鬥。冒險。",
                 "editorialNotes": {
                     "tagline": "化身神槍手，擊敗銀河系罪犯"
@@ -9816,7 +9816,6 @@
                 "releaseDate": "2018-08-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.annapurnainteractive.DonutCounty",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -9828,6 +9827,7 @@
                     "textColor4": "305943"
                 },
                 "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9843,6 +9843,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9886,7 +9887,6 @@
                         "textColor4": "2e5f3e"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "扮演浣熊，操縱地洞吞天下"
@@ -9937,7 +9937,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 42,
+                "position": 43,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -9957,11 +9957,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Battleheart Legacy",
         "genreDisplayName": "角色扮演",
+        "name": "Battleheart Legacy",
         "isPreorder": false,
-        "artistName": "Mika Mobile, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mika Mobile, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10135,11 +10135,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "機械迷城 (Machinarium)",
         "genreDisplayName": "冒險",
+        "name": "機械迷城 (Machinarium)",
         "isPreorder": false,
-        "artistName": "Amanita Design s.r.o.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Amanita Design s.r.o.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10176,8 +10176,8 @@
                 "releaseDate": "2011-09-08",
                 "hasInAppPurchases": false,
                 "bundleId": "net.machinarium.Machinarium",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10193,7 +10193,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -10287,6 +10286,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "機器人城市冒險",
                 "editorialNotes": {
                     "tagline": "機械人淪落廢墟，邏輯解謎救女友"
@@ -10397,8 +10397,8 @@
                 "releaseDate": "2017-10-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fantablade.icey",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10414,7 +10414,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -10468,10 +10467,11 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
+                "isXROSCompatible": true,
                 "editorialNotes": {
                     "tagline": "揭露真相，抵禦機器人大軍"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -10594,7 +10594,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -10688,11 +10687,12 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "屡获殊荣的冒险",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "standard": "《Badland》是一款帶著神秘氣息的橫版冒險遊戲，玩家必須指引一個不知名的生物穿越各式令人發毛的險惡關卡。簡易操控和明確目標讓這款遊戲非常容易上手。但曲折的關卡和獨特的通關設計，讓玩家在每個階段都必須精確掌握時間、靈活運用策略。隨著遊戲發展，各關卡變得越來越離奇詭異，讓《Badland》玩家時時刻刻都能享受遊戲的絕妙樂趣。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -10797,8 +10797,8 @@
                 "releaseDate": "2017-06-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bluebraingames.thehouseofdavinci",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10814,7 +10814,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -10848,6 +10847,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialNotes": {
                     "short": "身為達文西的得意大弟子，憑智慧抽絲剝繭，找出師父神秘失蹤的真相。"
                 },
@@ -10916,11 +10916,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.0.56",
-        "name": "迷失島2：時間的灰燼",
         "genreDisplayName": "解謎",
+        "name": "迷失島2：時間的灰燼",
         "isPreorder": false,
-        "artistName": "Lilith Games",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Lilith Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10957,8 +10957,6 @@
                 "releaseDate": "2018-06-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.lilithgame.lostisland.ios",
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -10969,6 +10967,8 @@
                     "textColor3": "ebc6c6",
                     "textColor4": "ebc6c6"
                 },
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11063,7 +11063,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739542475507,
+                "MZ_INDEXER": 1739929550242,
                 "RTCI": 1731361948494
             }
         },
@@ -11147,8 +11147,8 @@
                 "releaseDate": "2016-03-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wb.LEGOJurassicWorld",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11164,7 +11164,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -11208,6 +11207,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11257,10 +11257,10 @@
         "chartPositions": {
             "appStore": {
                 "position": 65,
-                "genreName": "動作",
-                "genre": 7001,
+                "genreName": "冒險",
+                "genre": 7002,
                 "chart": "top-paid",
-                "genreShortName": "動作"
+                "genreShortName": "冒險"
             }
         },
         "supportsStreamlinedBuy": true,
@@ -11317,8 +11317,8 @@
                 "releaseDate": "2010-11-06",
                 "hasInAppPurchases": true,
                 "bundleId": "death-worm",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11334,7 +11334,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -11367,6 +11366,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11411,7 +11411,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 48,
+                "position": 49,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -11431,8 +11431,8 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "name": "DYSMANTLE",
         "genreDisplayName": "冒險",
+        "name": "DYSMANTLE",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "春晓 乔",
@@ -11489,6 +11489,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11522,7 +11523,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "末日生存開放世界類魂動作RPG遊戲",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11650,6 +11650,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11693,7 +11694,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11758,8 +11758,8 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "genreDisplayName": "家庭",
         "name": "Never Alone: Ki Edition",
+        "genreDisplayName": "家庭",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "E-Line Media",
@@ -11816,6 +11816,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11879,11 +11880,10 @@
                         "textColor4": "a2abaa"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "人狐相依，雪地上的感人故事"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -11944,8 +11944,8 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "genreDisplayName": "休閒",
         "name": "Doodle Jump Christmas PLUS",
+        "genreDisplayName": "休閒",
         "isPreorder": false,
         "artistName": "Lima Sky",
         "isIOSBinaryMacOSCompatible": false,
@@ -12098,11 +12098,11 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "genreDisplayName": "冒險",
         "name": "Old Man's Journey",
+        "genreDisplayName": "冒險",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Broken Rules",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12139,7 +12139,6 @@
                 "releaseDate": "2017-05-18",
                 "hasInAppPurchases": false,
                 "bundleId": "es.brokenrul.oldmansjourney",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -12151,6 +12150,7 @@
                     "textColor4": "c9c9bd"
                 },
                 "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12166,6 +12166,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12219,7 +12220,6 @@
                         "textColor4": "43343e"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "一個關於生命、失去和希望的暖心遊戲",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12495,8 +12495,8 @@
                 "releaseDate": "2016-09-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.robotgentleman.game60seconds",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12512,7 +12512,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -12556,6 +12555,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12624,8 +12624,8 @@
         "genreDisplayName": "動作",
         "name": "BADLAND 2",
         "isPreorder": false,
-        "artistName": "HypeHype Oy",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "HypeHype Oy",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12662,8 +12662,8 @@
                 "releaseDate": "2015-12-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.frogmindgames.badland2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12679,7 +12679,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -12773,6 +12772,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "屡获殊荣的冒险",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12818,7 +12818,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 58,
+                "position": 59,
                 "genreName": "策略",
                 "genre": 7017,
                 "chart": "top-paid",
@@ -12839,11 +12839,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.1.13",
-        "name": "Tiny Guardians",
         "genreDisplayName": "策略",
+        "name": "Tiny Guardians",
         "isPreorder": false,
-        "artistName": "Kurechii",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kurechii",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12985,7 +12985,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 50,
+                "position": 51,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -13008,8 +13008,8 @@
         "genreDisplayName": "角色扮演",
         "name": "Evoland",
         "isPreorder": false,
-        "artistName": "Playdigious",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Playdigious",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13063,8 +13063,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -13107,6 +13105,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13179,8 +13179,8 @@
         "genreDisplayName": "冒險",
         "name": "Super Mega Worm",
         "isPreorder": false,
-        "artistName": "Deceased Pixel LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Deceased Pixel LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13217,8 +13217,8 @@
                 "releaseDate": "2010-08-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.deceasedpixel.megaworm",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13234,8 +13234,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -13268,6 +13266,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13334,11 +13334,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "解謎",
         "name": "Underground Blossom",
+        "genreDisplayName": "解謎",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Rusty Lake",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13392,6 +13392,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13435,7 +13436,6 @@
                         "textColor4": "20261d"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "一趟穿梭於回憶間的旅程",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -13486,7 +13486,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 54,
+                "position": 55,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -13564,6 +13564,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13597,7 +13598,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "純正的暗黑系橫版單機回合制RPG",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13708,8 +13708,8 @@
                 "releaseDate": "2022-03-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.MOBGames.PoppyMobileChapterOne",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13725,7 +13725,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -13759,6 +13758,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13820,11 +13820,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "漫畫道場物語",
         "genreDisplayName": "冒險",
+        "name": "漫畫道場物語",
         "isPreorder": false,
-        "artistName": "Kairosoft Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13861,8 +13861,8 @@
                 "releaseDate": "2016-08-11",
                 "hasInAppPurchases": false,
                 "bundleId": "net.kairosoft.iOS.manga-ipponEN",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13878,7 +13878,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -13912,6 +13911,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13976,11 +13976,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Love You To Bits",
         "genreDisplayName": "解謎",
+        "name": "Love You To Bits",
         "isPreorder": false,
-        "artistName": "Alike Studio",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Alike Studio",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14034,7 +14034,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -14108,181 +14107,11 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "追尋摯愛，踏上漫長的宇宙之旅，併砌動人又心碎的愛情故事。"
                 },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1601446687",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1041387229",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739514767785,
-                "RTCI": 1733153961995
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "偶爾/輕度的粗俗用語或低俗幽默",
-                    "頻繁/極度的暴力卡通或幻想"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 79,
-                "genreName": "動作",
-                "genre": 7001,
-                "chart": "top-paid",
-                "genreShortName": "動作"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.7,
-            "ratingCount": 3,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                1,
-                2
-            ],
-            "ariaLabelForRatings": "4.7 粒星"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "1.02",
-        "genreDisplayName": "動作",
-        "name": "Streets of Rage 4",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "Playdigious",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=1990&salableAdamId=1601446687&pricingParameters=STDQ&pg=default&appExtVrsId=856267039",
-                        "type": "buy",
-                        "priceFormatted": "USD 1.99",
-                        "price": 1.99,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1893760000
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1601446687&pricingParameters=SWUPD&pg=default&appExtVrsId=856267039",
-                        "type": "update",
-                        "priceFormatted": "USD 0.00",
-                        "price": 0,
-                        "currencyCode": "USD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1893760000
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2022-05-24",
-                "hasInAppPurchases": true,
-                "bundleId": "com.playdigious.streetsofrage4",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d0/23/81/d02381cf-8b28-d295-b65b-44b77c1c3ba4/AppIcons-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "08202c",
-                    "textColor1": "fff516",
-                    "textColor2": "f27b49",
-                    "textColor3": "cdca1a",
-                    "textColor4": "c36943"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1102,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/de/dc/bb/dedcbbcc-2c2e-c854-4d04-294356c181e3/34284680-b3d8-46e8-9938-fde9e61ab5dd.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1102,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/79/24/f7/7924f7c7-8114-0534-8920-2bd883bcb874/2e55e8ab-64e1-41ac-bd99-c0d02222e559.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f6b500",
-                        "textColor1": "090a0a",
-                        "textColor2": "090a0a",
-                        "textColor3": "392c08",
-                        "textColor4": "392c08"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/1d/9c/aa/1d9caaf1-fdbd-25b5-c4af-be7253fc5ab4/8da2e25c-a899-4f3d-9d03-e9614e122609.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "subscriptionHero": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/b8/41/cc/b841cc8b-7190-6dc3-b397-601225cdee39/07f29387-164d-4947-9fc8-5647d257d1fd.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f08511",
-                        "textColor1": "1d130c",
-                        "textColor2": "261c10",
-                        "textColor3": "3f250d",
-                        "textColor4": "472e10"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "editorialNotes": {
-                    "standard": "動聽易記的音樂、精彩刺激的組合戰鬥、合作遊戲加上懷舊風格，讓這個經典的格鬥遊戲系列依舊震撼。"
-                },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -14352,8 +14181,8 @@
         "genreDisplayName": "卡牌",
         "name": "Reigns: Her Majesty",
         "isPreorder": false,
-        "artistName": "Devolver",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Devolver",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14407,6 +14236,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14490,7 +14320,6 @@
                         "textColor4": "583b3f"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "滑動卡牌，成為王后",
                 "editorialNotes": {
                     "tagline": "更多卡牌、角色與結局"
@@ -14560,11 +14389,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Very Little Nightmares",
         "genreDisplayName": "冒險",
+        "name": "Very Little Nightmares",
         "isPreorder": false,
-        "artistName": "BANDAI NAMCO Entertainment Europe",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "BANDAI NAMCO Entertainment Europe",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14663,10 +14492,10 @@
                     }
                 },
                 "subtitle": "密室脫逃與解謎冒險",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "陰森又詭異的逃亡之旅"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -14708,7 +14537,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 59,
+                "position": 60,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -14787,6 +14616,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14840,7 +14670,6 @@
                         "textColor4": "d37f73"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "穿越時空，回顧遊戲進化史"
@@ -14951,8 +14780,8 @@
                 "releaseDate": "2015-10-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.505games.brothers",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15143,7 +14972,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -15186,6 +15014,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15259,8 +15088,8 @@
         "genreDisplayName": "模擬",
         "name": "This War of Mine: Stories",
         "isPreorder": false,
-        "artistName": "11 bit studios s.a.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "11 bit studios s.a.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15379,7 +15208,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739547410269,
+                "MZ_INDEXER": 1739912375317,
                 "RTCI": 1731371585285
             }
         },
@@ -15428,8 +15257,8 @@
         "name": "Grimvalor",
         "genreDisplayName": "動作",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Direlight",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15483,6 +15312,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -15516,7 +15346,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "獨闖暗黑地下城，迎戰惡魔"
@@ -15565,7 +15394,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 72,
+                "position": 73,
                 "genreName": "策略",
                 "genre": 7017,
                 "chart": "top-paid",
@@ -15586,11 +15415,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.2.0",
-        "name": "Wanna Survive-活屍戰棋",
         "genreDisplayName": "策略",
+        "name": "Wanna Survive-活屍戰棋",
         "isPreorder": false,
-        "artistName": "PINIX GAMES CO., LTD.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "PINIX GAMES CO., LTD.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15644,8 +15473,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -15688,11 +15515,13 @@
                         "textColor4": "c8a181"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "「解殘局」快節奏回合制戰棋",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "快回合打喪屍，末世策略求存"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -15713,7 +15542,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739485515637,
+                "MZ_INDEXER": 1739909466280,
                 "RTCI": 1738954236256
             }
         },
@@ -15737,7 +15566,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 63,
+                "position": 64,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -15760,8 +15589,8 @@
         "genreDisplayName": "冒險",
         "name": "魔窟-無盡的地下城：暗黑世界",
         "isPreorder": false,
-        "artistName": "chenruibing",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "chenruibing",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15815,6 +15644,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -15848,7 +15678,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "在地牢中探險, 刷裝備的單機遊戲",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15895,7 +15724,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 64,
+                "position": 65,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -15973,7 +15802,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -16027,6 +15855,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -16068,7 +15897,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 65,
+                "position": 66,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -16088,8 +15917,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "角色扮演",
         "name": "Monster Hunter Stories",
+        "genreDisplayName": "角色扮演",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "CAPCOM",
@@ -16129,8 +15958,8 @@
                 "releaseDate": "2018-09-25",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.capcom.mhsspen",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16146,6 +15975,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -16189,11 +16019,10 @@
                         "textColor4": "1b2433"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "培育魔物，展開夢幻冒險"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -16295,8 +16124,8 @@
                 "releaseDate": "2014-09-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kairosoft.gm76E",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16311,7 +16140,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -16345,6 +16173,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -16366,7 +16195,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739484087903,
+                "MZ_INDEXER": 1739905541399,
                 "RTCI": 1738954341836
             }
         },
@@ -16413,8 +16242,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "動作",
         "name": "Radiation Island",
+        "genreDisplayName": "動作",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Atypical Games",
@@ -16454,8 +16283,8 @@
                 "releaseDate": "2015-01-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.atypicalgames.radiationisland",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16471,6 +16300,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -16524,8 +16354,178 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1601446687",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1041387229",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739514767785,
+                "RTCI": 1733153961995
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "偶爾/輕度的粗俗用語或低俗幽默",
+                    "頻繁/極度的暴力卡通或幻想"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 79,
+                "genreName": "動作",
+                "genre": 7001,
+                "chart": "top-paid",
+                "genreShortName": "動作"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.7,
+            "ratingCount": 3,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                1,
+                2
+            ],
+            "ariaLabelForRatings": "4.7 粒星"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "1.02",
+        "name": "Streets of Rage 4",
+        "genreDisplayName": "動作",
+        "isPreorder": false,
+        "artistName": "Playdigious",
+        "isIOSBinaryMacOSCompatible": false,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=1990&salableAdamId=1601446687&pricingParameters=STDQ&pg=default&appExtVrsId=856267039",
+                        "type": "buy",
+                        "priceFormatted": "USD 1.99",
+                        "price": 1.99,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1893760000
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1601446687&pricingParameters=SWUPD&pg=default&appExtVrsId=856267039",
+                        "type": "update",
+                        "priceFormatted": "USD 0.00",
+                        "price": 0,
+                        "currencyCode": "USD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1893760000
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2022-05-24",
+                "hasInAppPurchases": true,
+                "bundleId": "com.playdigious.streetsofrage4",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d0/23/81/d02381cf-8b28-d295-b65b-44b77c1c3ba4/AppIcons-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "08202c",
+                    "textColor1": "fff516",
+                    "textColor2": "f27b49",
+                    "textColor3": "cdca1a",
+                    "textColor4": "c36943"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1102,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/de/dc/bb/dedcbbcc-2c2e-c854-4d04-294356c181e3/34284680-b3d8-46e8-9938-fde9e61ab5dd.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1102,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/79/24/f7/7924f7c7-8114-0534-8920-2bd883bcb874/2e55e8ab-64e1-41ac-bd99-c0d02222e559.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f6b500",
+                        "textColor1": "090a0a",
+                        "textColor2": "090a0a",
+                        "textColor3": "392c08",
+                        "textColor4": "392c08"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/1d/9c/aa/1d9caaf1-fdbd-25b5-c4af-be7253fc5ab4/8da2e25c-a899-4f3d-9d03-e9614e122609.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "subscriptionHero": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/b8/41/cc/b841cc8b-7190-6dc3-b397-601225cdee39/07f29387-164d-4947-9fc8-5647d257d1fd.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f08511",
+                        "textColor1": "1d130c",
+                        "textColor2": "261c10",
+                        "textColor3": "3f250d",
+                        "textColor4": "472e10"
+                    }
+                },
+                "hasSafariExtension": false,
+                "editorialNotes": {
+                    "standard": "動聽易記的音樂、精彩刺激的組合戰鬥、合作遊戲加上懷舊風格，讓這個經典的格鬥遊戲系列依舊震撼。"
+                },
                 "requiresGameController": false
             }
         }
@@ -16586,11 +16586,11 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "genreDisplayName": "冒險",
         "name": "Sonic Runners Adventure",
+        "genreDisplayName": "冒險",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Gameloft",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -16627,8 +16627,8 @@
                 "releaseDate": "2017-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gameloft.sonicrunner",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16644,6 +16644,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -16697,7 +16698,6 @@
                         "textColor4": "3f3e48"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "動作平台遊戲傳奇",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -16746,7 +16746,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 72,
+                "position": 73,
                 "genreName": "角色扮演",
                 "genre": 7014,
                 "chart": "top-paid",
@@ -16824,7 +16824,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -16868,6 +16867,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -16933,11 +16933,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "逆轉裁判123成步堂精選集",
         "genreDisplayName": "冒險",
+        "name": "逆轉裁判123成步堂精選集",
         "isPreorder": false,
-        "artistName": "CAPCOM",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CAPCOM",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -16974,8 +16974,8 @@
                 "releaseDate": "2022-06-09",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.capcom.gyakusai123",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16991,7 +16991,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -17025,6 +17024,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "由律師成步堂龍一擔任主角的三部人氣作品現將合而為一！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -17094,8 +17094,8 @@
         "genreDisplayName": "動作",
         "name": "PewDiePie: Legend of Brofist",
         "isPreorder": false,
-        "artistName": "Outerminds Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Outerminds Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -17149,6 +17149,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "storeFlowcase": {
@@ -17242,7 +17243,6 @@
                         "textColor4": "2b4547"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

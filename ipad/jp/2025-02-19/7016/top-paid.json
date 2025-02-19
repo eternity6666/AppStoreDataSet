@@ -1,6 +1,159 @@
 [
     {
         "kind": "app",
+        "id": "6738371720",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "381477233",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739912573937,
+                "RTCI": 1736325250607
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 1,
+                "genreName": "スポーツ",
+                "genre": 7016,
+                "chart": "top-paid",
+                "genreShortName": "スポーツ"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.6,
+            "ratingCount": 269,
+            "ratingCountList": [
+                4,
+                3,
+                22,
+                43,
+                197
+            ],
+            "ariaLabelForRatings": "星 4.6 個"
+        },
+        "name": "銀盤スケートリンク物語",
+        "genreDisplayName": "シミュレーション",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=1000000&salableAdamId=6738371720&pricingParameters=STDQ&pg=default&appExtVrsId=871599500",
+                        "type": "buy",
+                        "priceFormatted": "¥1,000",
+                        "price": 1000,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 69359616
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6738371720&pricingParameters=SWUPD&pg=default&appExtVrsId=871599500",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 69359616
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2024-11-27",
+                "hasInAppPurchases": false,
+                "bundleId": "net.kairosoft.iOS.skate",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/98/19/d898196a-dc04-a956-ed03-3b976af2bd50/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "a3abea",
+                    "textColor1": "120604",
+                    "textColor2": "2c2510",
+                    "textColor3": "2f2732",
+                    "textColor4": "44403c"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
+                        "bgColor": "be8c4b",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "292921",
+                        "textColor4": "292921"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "6505046490",
         "type": "apps",
         "relationships": {
@@ -15,8 +168,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737381330666,
-                "MZ_INDEXER": 1739492864440
+                "MZ_INDEXER": 1739492864440,
+                "RTCI": 1737381330666
             }
         },
         "supportsArcade": false,
@@ -39,7 +192,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 1,
+                "position": 2,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -117,6 +270,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -149,8 +304,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -172,8 +325,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733896721292,
-                "MZ_INDEXER": 1739540944940
+                "MZ_INDEXER": 1739540944940,
+                "RTCI": 1733896721292
             }
         },
         "supportsArcade": false,
@@ -192,7 +345,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -271,6 +424,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -344,13 +499,11 @@
                         "textColor4": "9f9f98"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "The ultimate skateboarding sim",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "トリックを決めてハイスコア"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -371,8 +524,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739678241657,
-                "MZ_INDEXER": 1739832027225
+                "MZ_INDEXER": 1739912080451,
+                "RTCI": 1739678241657
             }
         },
         "supportsArcade": false,
@@ -391,7 +544,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -469,6 +622,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -501,8 +656,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -524,8 +677,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956493640,
-                "MZ_INDEXER": 1739490397581
+                "MZ_INDEXER": 1739490397581,
+                "RTCI": 1738956493640
             }
         },
         "supportsArcade": false,
@@ -544,7 +697,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -622,6 +775,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -654,8 +809,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "with Alva Majo",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -678,8 +831,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353369049,
-                "MZ_INDEXER": 1739543926592
+                "MZ_INDEXER": 1739920490644,
+                "RTCI": 1731353369049
             }
         },
         "supportsArcade": false,
@@ -702,7 +855,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 6,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -780,6 +933,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -812,161 +967,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6738371720",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "381477233",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1736325250607,
-                "MZ_INDEXER": 1739851014270
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 6,
-                "genreName": "スポーツ",
-                "genre": 7016,
-                "chart": "top-paid",
-                "genreShortName": "スポーツ"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.6,
-            "ratingCount": 269,
-            "ratingCountList": [
-                4,
-                3,
-                22,
-                43,
-                197
-            ],
-            "ariaLabelForRatings": "星 4.6 個"
-        },
-        "name": "銀盤スケートリンク物語",
-        "genreDisplayName": "シミュレーション",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Kairosoft Co.,Ltd",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=1000000&salableAdamId=6738371720&pricingParameters=STDQ&pg=default&appExtVrsId=871599500",
-                        "type": "buy",
-                        "priceFormatted": "¥1,000",
-                        "price": 1000,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 69359616
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6738371720&pricingParameters=SWUPD&pg=default&appExtVrsId=871599500",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 69359616
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2024-11-27",
-                "hasInAppPurchases": false,
-                "bundleId": "net.kairosoft.iOS.skate",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/98/19/d898196a-dc04-a956-ed03-3b976af2bd50/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "a3abea",
-                    "textColor1": "120604",
-                    "textColor2": "2c2510",
-                    "textColor3": "2f2732",
-                    "textColor4": "44403c"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
-                        "bgColor": "be8c4b",
-                        "textColor1": "041116",
-                        "textColor2": "041116",
-                        "textColor3": "292921",
-                        "textColor4": "292921"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -988,8 +988,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731352826773,
-                "MZ_INDEXER": 1739899435468
+                "MZ_INDEXER": 1739899435468,
+                "RTCI": 1731352826773
             }
         },
         "supportsArcade": false,
@@ -1090,6 +1090,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -1142,13 +1144,11 @@
                         "textColor4": "d49fb3"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "subtitle": "果てしない砂漠を探索",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "移りゆく景色を背に砂漠を駆け抜けよう"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1169,8 +1169,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365718733,
-                "MZ_INDEXER": 1739497094912
+                "MZ_INDEXER": 1739497094912,
+                "RTCI": 1731365718733
             }
         },
         "supportsArcade": false,
@@ -1199,13 +1199,13 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.7,
-            "ratingCount": 907,
+            "ratingCount": 908,
             "ratingCountList": [
                 19,
                 16,
                 34,
                 104,
-                734
+                735
             ],
             "ariaLabelForRatings": "星 4.7 個"
         },
@@ -1267,6 +1267,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -1299,8 +1301,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1322,8 +1322,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731367473907,
-                "MZ_INDEXER": 1739549401907
+                "MZ_INDEXER": 1739549401907,
+                "RTCI": 1731367473907
             }
         },
         "supportsArcade": false,
@@ -1421,6 +1421,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -1453,8 +1455,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1476,8 +1476,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364142691,
-                "MZ_INDEXER": 1739546162489
+                "MZ_INDEXER": 1739546162489,
+                "RTCI": 1731364142691
             }
         },
         "supportsArcade": false,
@@ -1579,6 +1579,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -1621,8 +1623,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1644,8 +1644,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353161505,
-                "MZ_INDEXER": 1739491884020
+                "MZ_INDEXER": 1739491884020,
+                "RTCI": 1731353161505
             }
         },
         "supportsArcade": false,
@@ -1742,6 +1742,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -1774,7 +1775,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "飛行訓練",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1797,8 +1797,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373374499,
-                "MZ_INDEXER": 1739898130103
+                "MZ_INDEXER": 1739898130103,
+                "RTCI": 1731373374499
             }
         },
         "supportsArcade": false,
@@ -1899,6 +1899,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "storeFlowcase": {
                         "width": 4320,
@@ -1991,13 +1993,11 @@
                         "textColor4": "4a7eaf"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "name": "Alto's Adventure",
                     "short": "スノーボードに乗って、美しく描かれた大自然を駆け抜けよう。"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -2018,8 +2018,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739208471872,
-                "MZ_INDEXER": 1739642121989
+                "MZ_INDEXER": 1739642121989,
+                "RTCI": 1739208471872
             }
         },
         "supportsArcade": false,
@@ -2120,6 +2120,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2152,314 +2154,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "究極のパルクールサンドボックス",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "721623681",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "381477233",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731356580532,
-                "MZ_INDEXER": 1739488950701
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 14,
-                "genreName": "スポーツ",
-                "genre": 7016,
-                "chart": "top-paid",
-                "genreShortName": "スポーツ"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4,
-            "ratingCount": 138,
-            "ratingCountList": [
-                15,
-                8,
-                9,
-                40,
-                66
-            ],
-            "ariaLabelForRatings": "星 4.0 個"
-        },
-        "name": "G1牧場ステークス",
-        "genreDisplayName": "シミュレーション",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Kairosoft Co.,Ltd",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=800000&salableAdamId=721623681&pricingParameters=STDQ&pg=default&appExtVrsId=866094179",
-                        "type": "buy",
-                        "priceFormatted": "¥800",
-                        "price": 800,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 68798464
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=721623681&pricingParameters=SWUPD&pg=default&appExtVrsId=866094179",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 68798464
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2013-10-26",
-                "hasInAppPurchases": false,
-                "bundleId": "com.kairosoft.gm82",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/46/02/02460243-147e-672f-021f-849b860c188b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "85f0fe",
-                    "textColor1": "252505",
-                    "textColor2": "032f04",
-                    "textColor3": "384e37",
-                    "textColor4": "1d5636"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
-                        "bgColor": "be8c4b",
-                        "textColor1": "041116",
-                        "textColor2": "041116",
-                        "textColor3": "292921",
-                        "textColor4": "292921"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "491898792",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "381477233",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731375278802,
-                "MZ_INDEXER": 1739486841836
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 15,
-                "genreName": "スポーツ",
-                "genre": 7016,
-                "chart": "top-paid",
-                "genreShortName": "スポーツ"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 3.4,
-            "ratingCount": 18,
-            "ratingCountList": [
-                4,
-                1,
-                4,
-                1,
-                8
-            ],
-            "ariaLabelForRatings": "星 3.4 個"
-        },
-        "name": "サッカークラブ物語",
-        "genreDisplayName": "シミュレーション",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Kairosoft Co.,Ltd",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=800000&salableAdamId=491898792&pricingParameters=STDQ&pg=default&appExtVrsId=851876778",
-                        "type": "buy",
-                        "priceFormatted": "¥800",
-                        "price": 800,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 255074304
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=491898792&pricingParameters=SWUPD&pg=default&appExtVrsId=851876778",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 255074304
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2012-01-05",
-                "hasInAppPurchases": false,
-                "bundleId": "com.kairosoft.gm55",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/51/b2/3d/51b23d0d-0195-fe29-f6ab-ba5b821e8089/AppIcon-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "121212",
-                    "textColor2": "402a01",
-                    "textColor3": "414141",
-                    "textColor4": "665434"
-                },
-                "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
-                        "bgColor": "be8c4b",
-                        "textColor1": "041116",
-                        "textColor2": "041116",
-                        "textColor3": "292921",
-                        "textColor4": "292921"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2481,8 +2176,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731370387040,
-                "MZ_INDEXER": 1739550702144
+                "MZ_INDEXER": 1739925390048,
+                "RTCI": 1731370387040
             }
         },
         "supportsArcade": false,
@@ -2502,7 +2197,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 14,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -2580,6 +2275,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2612,8 +2309,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Bowl on a Shuffleboard Table",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2636,8 +2331,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739385116024,
-                "MZ_INDEXER": 1739830103507
+                "MZ_INDEXER": 1739830103507,
+                "RTCI": 1739385116024
             }
         },
         "supportsArcade": false,
@@ -2656,7 +2351,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 15,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -2734,6 +2429,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -2766,8 +2463,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2789,8 +2484,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739470812435,
-                "MZ_INDEXER": 1739829460030
+                "MZ_INDEXER": 1739829460030,
+                "RTCI": 1739470812435
             }
         },
         "supportsArcade": false,
@@ -2809,7 +2504,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 16,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -2886,6 +2581,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -2918,8 +2615,159 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "721623681",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "381477233",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739488950701,
+                "RTCI": 1731356580532
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 17,
+                "genreName": "スポーツ",
+                "genre": 7016,
+                "chart": "top-paid",
+                "genreShortName": "スポーツ"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4,
+            "ratingCount": 138,
+            "ratingCountList": [
+                15,
+                8,
+                9,
+                40,
+                66
+            ],
+            "ariaLabelForRatings": "星 4.0 個"
+        },
+        "name": "G1牧場ステークス",
+        "genreDisplayName": "シミュレーション",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=800000&salableAdamId=721623681&pricingParameters=STDQ&pg=default&appExtVrsId=866094179",
+                        "type": "buy",
+                        "priceFormatted": "¥800",
+                        "price": 800,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 68798464
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=721623681&pricingParameters=SWUPD&pg=default&appExtVrsId=866094179",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 68798464
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2013-10-26",
+                "hasInAppPurchases": false,
+                "bundleId": "com.kairosoft.gm82",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/46/02/02460243-147e-672f-021f-849b860c188b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "85f0fe",
+                    "textColor1": "252505",
+                    "textColor2": "032f04",
+                    "textColor3": "384e37",
+                    "textColor4": "1d5636"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
+                        "bgColor": "be8c4b",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "292921",
+                        "textColor4": "292921"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2941,8 +2789,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353492897,
-                "MZ_INDEXER": 1739533812521
+                "MZ_INDEXER": 1739533812521,
+                "RTCI": 1731353492897
             }
         },
         "supportsArcade": false,
@@ -2961,7 +2809,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 19,
+                "position": 18,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -2971,12 +2819,12 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.3,
-            "ratingCount": 1025,
+            "ratingCount": 1026,
             "ratingCountList": [
                 74,
                 34,
                 59,
-                206,
+                207,
                 652
             ],
             "ariaLabelForRatings": "星 4.3 個"
@@ -3039,6 +2887,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3071,13 +2921,11 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "name": "野球部ものがたり",
                     "short": "高校の野球部を運営して、チームを全国優勝まで導こう。"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -3098,8 +2946,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738960808941,
-                "MZ_INDEXER": 1739529622773
+                "MZ_INDEXER": 1739529622773,
+                "RTCI": 1738960808941
             }
         },
         "supportsArcade": false,
@@ -3118,7 +2966,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 20,
+                "position": 19,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -3196,6 +3044,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3228,8 +3078,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3251,8 +3099,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534715,
-                "MZ_INDEXER": 1739798988878
+                "MZ_INDEXER": 1739798988878,
+                "RTCI": 1738955534715
             }
         },
         "supportsArcade": false,
@@ -3271,7 +3119,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 21,
+                "position": 20,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -3349,6 +3197,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3381,8 +3231,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3404,8 +3252,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739852964923,
-                "MZ_INDEXER": 1739853260904
+                "MZ_INDEXER": 1739923062843,
+                "RTCI": 1739852964923
             }
         },
         "supportsArcade": false,
@@ -3424,7 +3272,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 22,
+                "position": 21,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -3502,6 +3350,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3534,8 +3384,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3557,8 +3405,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373591228,
-                "MZ_INDEXER": 1739542224075
+                "MZ_INDEXER": 1739542224075,
+                "RTCI": 1731373591228
             }
         },
         "supportsArcade": false,
@@ -3577,7 +3425,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 23,
+                "position": 22,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -3655,6 +3503,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -3687,8 +3537,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "The cyclist simulator",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3711,8 +3559,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364592465,
-                "MZ_INDEXER": 1739493297615
+                "MZ_INDEXER": 1739493297615,
+                "RTCI": 1731364592465
             }
         },
         "supportsArcade": false,
@@ -3731,7 +3579,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 23,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -3809,6 +3657,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -3841,8 +3691,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3864,8 +3712,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737343801048,
-                "MZ_INDEXER": 1739514418652
+                "MZ_INDEXER": 1739514418652,
+                "RTCI": 1737343801048
             }
         },
         "supportsArcade": false,
@@ -3885,7 +3733,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 24,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -3963,6 +3811,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4045,13 +3895,11 @@
                         "textColor4": "c2c2c2"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "日焼けやカモメに悩まされることなく、最高のショットをカップに沈めよう。",
                     "tagline": "いつでもどこでも手軽にゴルフ"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -4072,8 +3920,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739365621463,
-                "MZ_INDEXER": 1739833221576
+                "MZ_INDEXER": 1739833221576,
+                "RTCI": 1739365621463
             }
         },
         "supportsArcade": false,
@@ -4092,7 +3940,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 25,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -4165,6 +4013,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -4207,7 +4056,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4229,8 +4077,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733855540657,
-                "MZ_INDEXER": 1739512828661
+                "MZ_INDEXER": 1739512828661,
+                "RTCI": 1733855540657
             }
         },
         "supportsArcade": false,
@@ -4249,7 +4097,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 27,
+                "position": 26,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -4328,6 +4176,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -4360,8 +4210,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4383,8 +4231,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534529,
-                "MZ_INDEXER": 1739798988489
+                "MZ_INDEXER": 1739798988489,
+                "RTCI": 1738955534529
             }
         },
         "supportsArcade": false,
@@ -4403,7 +4251,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 27,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -4481,6 +4329,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -4513,8 +4363,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4536,8 +4384,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357406891,
-                "MZ_INDEXER": 1739539586457
+                "MZ_INDEXER": 1739539586457,
+                "RTCI": 1731357406891
             }
         },
         "supportsArcade": false,
@@ -4556,7 +4404,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 28,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -4634,6 +4482,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4666,8 +4516,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4689,8 +4537,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354649031,
-                "MZ_INDEXER": 1739497957936
+                "MZ_INDEXER": 1739497957936,
+                "RTCI": 1731354649031
             }
         },
         "supportsArcade": false,
@@ -4709,7 +4557,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 29,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -4787,6 +4635,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4819,8 +4669,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4842,8 +4690,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353024545,
-                "MZ_INDEXER": 1739527643891
+                "MZ_INDEXER": 1739527643891,
+                "RTCI": 1731353024545
             }
         },
         "supportsArcade": false,
@@ -4863,7 +4711,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 31,
+                "position": 30,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -4941,6 +4789,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -4983,9 +4833,159 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Extreme Snowboarding Game",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "491898792",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "381477233",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739916230824,
+                "RTCI": 1731375278802
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 31,
+                "genreName": "スポーツ",
+                "genre": 7016,
+                "chart": "top-paid",
+                "genreShortName": "スポーツ"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 3.4,
+            "ratingCount": 18,
+            "ratingCountList": [
+                4,
+                1,
+                4,
+                1,
+                8
+            ],
+            "ariaLabelForRatings": "星 3.4 個"
+        },
+        "name": "サッカークラブ物語",
+        "genreDisplayName": "シミュレーション",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kairosoft Co.,Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=800000&salableAdamId=491898792&pricingParameters=STDQ&pg=default&appExtVrsId=851876778",
+                        "type": "buy",
+                        "priceFormatted": "¥800",
+                        "price": 800,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 255074304
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=491898792&pricingParameters=SWUPD&pg=default&appExtVrsId=851876778",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 255074304
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2012-01-05",
+                "hasInAppPurchases": false,
+                "bundleId": "com.kairosoft.gm55",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/51/b2/3d/51b23d0d-0195-fe29-f6ab-ba5b821e8089/AppIcon-1x_U007emarketing-0-7-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "121212",
+                    "textColor2": "402a01",
+                    "textColor3": "414141",
+                    "textColor4": "665434"
+                },
+                "isAppleWatchSupported": false,
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
+                        "bgColor": "be8c4b",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "292921",
+                        "textColor4": "292921"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5007,8 +5007,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364776870,
-                "MZ_INDEXER": 1739829775802
+                "MZ_INDEXER": 1739829775802,
+                "RTCI": 1731364776870
             }
         },
         "supportsArcade": false,
@@ -5105,6 +5105,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -5147,8 +5149,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5170,8 +5170,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738964954918,
-                "MZ_INDEXER": 1739519265205
+                "MZ_INDEXER": 1739519265205,
+                "RTCI": 1738964954918
             }
         },
         "supportsArcade": false,
@@ -5269,6 +5269,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -5301,8 +5303,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5324,8 +5324,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365418231,
-                "MZ_INDEXER": 1739540322169
+                "MZ_INDEXER": 1739540322169,
+                "RTCI": 1731365418231
             }
         },
         "supportsArcade": false,
@@ -5422,6 +5422,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5464,7 +5465,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5486,8 +5486,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534531,
-                "MZ_INDEXER": 1739798967702
+                "MZ_INDEXER": 1739798967702,
+                "RTCI": 1738955534531
             }
         },
         "supportsArcade": false,
@@ -5584,6 +5584,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -5616,8 +5618,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5639,8 +5639,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959523230,
-                "MZ_INDEXER": 1739492286642
+                "MZ_INDEXER": 1739492286642,
+                "RTCI": 1738959523230
             }
         },
         "supportsArcade": false,
@@ -5738,6 +5738,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -5770,8 +5772,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5793,8 +5793,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731351456200,
-                "MZ_INDEXER": 1739829677782
+                "MZ_INDEXER": 1739829677782,
+                "RTCI": 1731351456200
             }
         },
         "supportsArcade": false,
@@ -5897,6 +5897,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -5929,7 +5930,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5951,8 +5951,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955260822,
-                "MZ_INDEXER": 1739524658451
+                "MZ_INDEXER": 1739524658451,
+                "RTCI": 1738955260822
             }
         },
         "supportsArcade": false,
@@ -6052,6 +6052,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6084,8 +6086,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6107,8 +6107,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733167577884,
-                "MZ_INDEXER": 1739529899302
+                "MZ_INDEXER": 1739529899302,
+                "RTCI": 1733167577884
             }
         },
         "supportsArcade": false,
@@ -6205,6 +6205,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -6237,8 +6239,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6260,8 +6260,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354378785,
-                "MZ_INDEXER": 1739482957942
+                "MZ_INDEXER": 1739909731989,
+                "RTCI": 1731354378785
             }
         },
         "supportsArcade": false,
@@ -6361,6 +6361,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -6393,8 +6395,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Fly and combat over the city",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6417,8 +6417,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534696,
-                "MZ_INDEXER": 1739798965206
+                "MZ_INDEXER": 1739798965206,
+                "RTCI": 1738955534696
             }
         },
         "supportsArcade": false,
@@ -6515,6 +6515,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6547,8 +6549,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6570,8 +6570,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731372127081,
-                "MZ_INDEXER": 1739517330721
+                "MZ_INDEXER": 1739517330721,
+                "RTCI": 1731372127081
             }
         },
         "supportsArcade": false,
@@ -6668,6 +6668,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -6710,13 +6712,11 @@
                         "textColor4": "4a3833"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Crazy alphabet golf",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "個性的な世界でゴルフを楽しもう"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -6737,8 +6737,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373170857,
-                "MZ_INDEXER": 1739536485344
+                "MZ_INDEXER": 1739536485344,
+                "RTCI": 1731373170857
             }
         },
         "supportsArcade": false,
@@ -6841,6 +6841,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -6893,8 +6895,6 @@
                         "textColor4": "29554f"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6916,8 +6916,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952948433,
-                "MZ_INDEXER": 1739518167755
+                "MZ_INDEXER": 1739518167755,
+                "RTCI": 1738952948433
             }
         },
         "supportsArcade": false,
@@ -7014,6 +7014,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7046,8 +7048,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7069,8 +7069,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731377656055,
-                "MZ_INDEXER": 1739711748254
+                "MZ_INDEXER": 1739711748254,
+                "RTCI": 1731377656055
             }
         },
         "supportsArcade": false,
@@ -7170,6 +7170,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7202,8 +7204,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7225,8 +7225,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731356593087,
-                "MZ_INDEXER": 1739711748227
+                "MZ_INDEXER": 1739711748227,
+                "RTCI": 1731356593087
             }
         },
         "supportsArcade": false,
@@ -7324,6 +7324,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7356,8 +7358,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7379,8 +7379,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738968951370,
-                "MZ_INDEXER": 1739490345534
+                "MZ_INDEXER": 1739490345534,
+                "RTCI": 1738968951370
             }
         },
         "supportsArcade": false,
@@ -7477,6 +7477,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7519,13 +7521,11 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "砂漠が舞台のゴルフゲーム。狙いを定めてホールインワンを決めよう。",
                     "tagline": "砂漠でホールインワンを決めよう"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -7546,8 +7546,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731368528313,
-                "MZ_INDEXER": 1739488144263
+                "MZ_INDEXER": 1739488144263,
+                "RTCI": 1731368528313
             }
         },
         "supportsArcade": false,
@@ -7647,6 +7647,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -7679,8 +7681,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Fly and combat over the city",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7703,8 +7703,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951187059,
-                "MZ_INDEXER": 1739513986200
+                "MZ_INDEXER": 1739513986200,
+                "RTCI": 1738951187059
             }
         },
         "supportsArcade": false,
@@ -7800,6 +7800,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "2.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -7832,8 +7834,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "2.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7855,8 +7855,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359344560,
-                "MZ_INDEXER": 1739829321566
+                "MZ_INDEXER": 1739829321566,
+                "RTCI": 1731359344560
             }
         },
         "supportsArcade": false,
@@ -7956,6 +7956,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -7988,8 +7990,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8011,8 +8011,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959523312,
-                "MZ_INDEXER": 1739495857103
+                "MZ_INDEXER": 1739495857103,
+                "RTCI": 1738959523312
             }
         },
         "supportsArcade": false,
@@ -8110,6 +8110,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -8142,8 +8144,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8165,8 +8165,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1735650222917,
-                "MZ_INDEXER": 1739711781609
+                "MZ_INDEXER": 1739711781609,
+                "RTCI": 1735650222917
             }
         },
         "supportsArcade": false,
@@ -8263,6 +8263,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8295,8 +8297,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8318,8 +8318,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359237020,
-                "MZ_INDEXER": 1739541864584
+                "MZ_INDEXER": 1739541864584,
+                "RTCI": 1731359237020
             }
         },
         "supportsArcade": false,
@@ -8421,6 +8421,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -8463,8 +8465,183 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1370091274",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "904930239",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739546990720,
+                "RTCI": 1731357537718
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 54,
+                "genreName": "スポーツ",
+                "genre": 7016,
+                "chart": "top-paid",
+                "genreShortName": "スポーツ"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.5,
+            "ratingCount": 142,
+            "ratingCountList": [
+                11,
+                3,
+                1,
+                14,
+                113
+            ],
+            "ariaLabelForRatings": "星 4.5 個"
+        },
+        "name": "マイエクササイズ",
+        "genreDisplayName": "スポーツ",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Playables",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=600000&salableAdamId=1370091274&pricingParameters=STDQ&pg=default&appExtVrsId=852607650",
+                        "type": "buy",
+                        "priceFormatted": "¥600",
+                        "price": 600,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 366163968
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1370091274&pricingParameters=SWUPD&pg=default&appExtVrsId=852607650",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 366163968
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2020-08-26",
+                "hasInAppPurchases": false,
+                "bundleId": "net.playables.myexercise",
+                "ovalArtwork": {
+                    "width": 1024,
+                    "height": 768,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/cb/26/84/cb2684f4-9e81-3547-c3d8-922f385d1bd8/iMessage_App_Icon-0-0-1x_U007emarketing-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-181-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "efff35",
+                    "textColor1": "171717",
+                    "textColor2": "232417",
+                    "textColor3": "42461d",
+                    "textColor4": "4c501d"
+                },
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/91/13/ab/9113ab5c-ed81-0488-bbb0-128f140af998/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "efff33",
+                    "textColor1": "171717",
+                    "textColor2": "32322f",
+                    "textColor3": "42461d",
+                    "textColor4": "585b30"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1082,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/d3/24/dd/d324ddc2-1f55-a2d7-2e94-e3c722e427ff/c3843d72-ee24-404f-a318-34329a2d03d3.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1082,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/cc/c2/f9ccc2ba-d0e4-be57-d87e-3aa4677035b1/05a49652-62a3-46cf-a759-6db76a2bd83c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "6dd500",
+                        "textColor1": "050a00",
+                        "textColor2": "0a1500",
+                        "textColor3": "1a3300",
+                        "textColor4": "1e3b00"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/43/1e/3d/431e3d3a-5f59-971a-fb29-1cc5e6059163/3f255c39-a78b-4f85-83f3-499ad7b24cbb.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "subscriptionHero": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/22/93/d1/2293d11d-df9d-c6b8-b871-c8d34d93e7f0/U0gtQVAtV1ctTXlfRXhlcmNpc2UucG5n.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f0fe61",
+                        "textColor1": "101113",
+                        "textColor2": "111212",
+                        "textColor3": "3d4122",
+                        "textColor4": "3d4121"
+                    }
+                },
+                "subtitle": "さあ、腹筋しよう。",
+                "editorialNotes": {
+                    "tagline": "腹筋運動を、しよう"
+                },
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8486,8 +8663,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958538142,
-                "MZ_INDEXER": 1739499541198
+                "MZ_INDEXER": 1739499541198,
+                "RTCI": 1738958538142
             }
         },
         "supportsArcade": false,
@@ -8509,7 +8686,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 54,
+                "position": 55,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -8587,6 +8764,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -8619,186 +8798,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1370091274",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "904930239",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731357537718,
-                "MZ_INDEXER": 1739546990720
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 55,
-                "genreName": "スポーツ",
-                "genre": 7016,
-                "chart": "top-paid",
-                "genreShortName": "スポーツ"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.5,
-            "ratingCount": 142,
-            "ratingCountList": [
-                11,
-                3,
-                1,
-                14,
-                113
-            ],
-            "ariaLabelForRatings": "星 4.5 個"
-        },
-        "name": "マイエクササイズ",
-        "genreDisplayName": "スポーツ",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Playables",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=600000&salableAdamId=1370091274&pricingParameters=STDQ&pg=default&appExtVrsId=852607650",
-                        "type": "buy",
-                        "priceFormatted": "¥600",
-                        "price": 600,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 366163968
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1370091274&pricingParameters=SWUPD&pg=default&appExtVrsId=852607650",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 366163968
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2020-08-26",
-                "hasInAppPurchases": false,
-                "bundleId": "net.playables.myexercise",
-                "hasMessagesExtension": true,
-                "ovalArtwork": {
-                    "width": 1024,
-                    "height": 768,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/cb/26/84/cb2684f4-9e81-3547-c3d8-922f385d1bd8/iMessage_App_Icon-0-0-1x_U007emarketing-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-181-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "efff35",
-                    "textColor1": "171717",
-                    "textColor2": "232417",
-                    "textColor3": "42461d",
-                    "textColor4": "4c501d"
-                },
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/91/13/ab/9113ab5c-ed81-0488-bbb0-128f140af998/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "efff33",
-                    "textColor1": "171717",
-                    "textColor2": "32322f",
-                    "textColor3": "42461d",
-                    "textColor4": "585b30"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1082,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/d3/24/dd/d324ddc2-1f55-a2d7-2e94-e3c722e427ff/c3843d72-ee24-404f-a318-34329a2d03d3.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1082,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/cc/c2/f9ccc2ba-d0e4-be57-d87e-3aa4677035b1/05a49652-62a3-46cf-a759-6db76a2bd83c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "6dd500",
-                        "textColor1": "050a00",
-                        "textColor2": "0a1500",
-                        "textColor3": "1a3300",
-                        "textColor4": "1e3b00"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/43/1e/3d/431e3d3a-5f59-971a-fb29-1cc5e6059163/3f255c39-a78b-4f85-83f3-499ad7b24cbb.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "subscriptionHero": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/22/93/d1/2293d11d-df9d-c6b8-b871-c8d34d93e7f0/U0gtQVAtV1ctTXlfRXhlcmNpc2UucG5n.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f0fe61",
-                        "textColor1": "101113",
-                        "textColor2": "111212",
-                        "textColor3": "3d4122",
-                        "textColor4": "3d4121"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "subtitle": "さあ、腹筋しよう。",
-                "hasSafariExtension": false,
-                "editorialNotes": {
-                    "tagline": "腹筋運動を、しよう"
-                },
                 "requiresGameController": false
             }
         }
@@ -8819,8 +8819,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731351707596,
-                "MZ_INDEXER": 1739711790323
+                "MZ_INDEXER": 1739711790323,
+                "RTCI": 1731351707596
             }
         },
         "supportsArcade": false,
@@ -8918,6 +8918,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -8950,8 +8952,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8973,8 +8973,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737389545563,
-                "MZ_INDEXER": 1739546083998
+                "MZ_INDEXER": 1739921177407,
+                "RTCI": 1737389545563
             }
         },
         "supportsArcade": false,
@@ -9070,6 +9070,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9102,8 +9104,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9125,8 +9125,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731367002456,
-                "MZ_INDEXER": 1739551972687
+                "MZ_INDEXER": 1739911829538,
+                "RTCI": 1731367002456
             }
         },
         "supportsArcade": false,
@@ -9223,6 +9223,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9255,8 +9257,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9278,8 +9278,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738272994312,
-                "MZ_INDEXER": 1739519921467
+                "MZ_INDEXER": 1739519921467,
+                "RTCI": 1738272994312
             }
         },
         "supportsArcade": false,
@@ -9359,7 +9359,6 @@
                 "releaseDate": "2018-11-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Afterburn.GolfPeaks",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -9370,6 +9369,7 @@
                     "textColor3": "414236",
                     "textColor4": "4c4b3a"
                 },
+                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
@@ -9386,6 +9386,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -9428,8 +9430,6 @@
                         "textColor4": "4a555b"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "ゴルフ ＋ カーアド ＋ パズル",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9452,8 +9452,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731360914804,
-                "MZ_INDEXER": 1739553028440
+                "MZ_INDEXER": 1739920052535,
+                "RTCI": 1731360914804
             }
         },
         "supportsArcade": false,
@@ -9553,6 +9553,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -9585,8 +9587,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Fly and combat over the city",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9609,8 +9609,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731360197961,
-                "MZ_INDEXER": 1739711747992
+                "MZ_INDEXER": 1739711747992,
+                "RTCI": 1731360197961
             }
         },
         "supportsArcade": false,
@@ -9708,6 +9708,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9740,8 +9742,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9763,8 +9763,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951532386,
-                "MZ_INDEXER": 1739542522427
+                "MZ_INDEXER": 1739542522427,
+                "RTCI": 1738951532386
             }
         },
         "supportsArcade": false,
@@ -9862,6 +9862,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -9894,8 +9896,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9917,8 +9917,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353952343,
-                "MZ_INDEXER": 1739711744779
+                "MZ_INDEXER": 1739711744779,
+                "RTCI": 1731353952343
             }
         },
         "supportsArcade": false,
@@ -10016,6 +10016,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10048,8 +10050,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10071,8 +10071,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534531,
-                "MZ_INDEXER": 1739798965526
+                "MZ_INDEXER": 1739798965526,
+                "RTCI": 1738955534531
             }
         },
         "supportsArcade": false,
@@ -10169,6 +10169,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10201,8 +10203,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10224,8 +10224,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359882308,
-                "MZ_INDEXER": 1739829352261
+                "MZ_INDEXER": 1739829352261,
+                "RTCI": 1731359882308
             }
         },
         "supportsArcade": false,
@@ -10322,6 +10322,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10354,8 +10356,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10377,8 +10377,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738966086764,
-                "MZ_INDEXER": 1739511884583
+                "MZ_INDEXER": 1739511884583,
+                "RTCI": 1738966086764
             }
         },
         "supportsArcade": false,
@@ -10473,6 +10473,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -10505,8 +10507,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10528,8 +10528,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738960089157,
-                "MZ_INDEXER": 1739545501333
+                "MZ_INDEXER": 1739545501333,
+                "RTCI": 1738960089157
             }
         },
         "supportsArcade": false,
@@ -10626,6 +10626,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -10658,8 +10660,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10681,8 +10681,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955260687,
-                "MZ_INDEXER": 1739547739140
+                "MZ_INDEXER": 1739547739140,
+                "RTCI": 1738955260687
             }
         },
         "supportsArcade": false,
@@ -10779,6 +10779,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -10811,8 +10813,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10834,8 +10834,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731367156565,
-                "MZ_INDEXER": 1739509447004
+                "MZ_INDEXER": 1739509447004,
+                "RTCI": 1731367156565
             }
         },
         "supportsArcade": false,
@@ -10932,6 +10932,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -10964,8 +10966,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10987,8 +10987,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738950899880,
-                "MZ_INDEXER": 1739483524386
+                "MZ_INDEXER": 1739906916568,
+                "RTCI": 1738950899880
             }
         },
         "supportsArcade": false,
@@ -11091,6 +11091,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -11123,8 +11125,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11146,8 +11146,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737148606710,
-                "MZ_INDEXER": 1739829258288
+                "MZ_INDEXER": 1739829258288,
+                "RTCI": 1737148606710
             }
         },
         "supportsArcade": false,
@@ -11244,6 +11244,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -11276,8 +11278,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11299,8 +11299,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361016888,
-                "MZ_INDEXER": 1739543122215
+                "MZ_INDEXER": 1739543122215,
+                "RTCI": 1731361016888
             }
         },
         "supportsArcade": false,
@@ -11397,6 +11397,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -11429,8 +11431,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Formula racing at its best!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11453,8 +11453,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354993601,
-                "MZ_INDEXER": 1739838096347
+                "MZ_INDEXER": 1739838096347,
+                "RTCI": 1731354993601
             }
         },
         "supportsArcade": false,
@@ -11551,6 +11551,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11583,8 +11585,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "リアル本格弓道ゲーム",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11607,8 +11607,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952948305,
-                "MZ_INDEXER": 1739549531539
+                "MZ_INDEXER": 1739915128693,
+                "RTCI": 1738952948305
             }
         },
         "supportsArcade": false,
@@ -11706,6 +11706,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -11738,8 +11740,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11761,8 +11761,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1735914523956,
-                "MZ_INDEXER": 1739711748735
+                "MZ_INDEXER": 1739711748735,
+                "RTCI": 1735914523956
             }
         },
         "supportsArcade": false,
@@ -11860,6 +11860,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -11892,8 +11894,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11915,8 +11915,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951186881,
-                "MZ_INDEXER": 1739530740617
+                "MZ_INDEXER": 1739530740617,
+                "RTCI": 1738951186881
             }
         },
         "supportsArcade": false,
@@ -12012,6 +12012,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "2.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12044,8 +12046,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "2.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12067,8 +12067,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365585448,
-                "MZ_INDEXER": 1739490687018
+                "MZ_INDEXER": 1739490687018,
+                "RTCI": 1731365585448
             }
         },
         "supportsArcade": false,
@@ -12165,6 +12165,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -12197,8 +12199,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12220,8 +12220,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534714,
-                "MZ_INDEXER": 1739798965352
+                "MZ_INDEXER": 1739798965352,
+                "RTCI": 1738955534714
             }
         },
         "supportsArcade": false,
@@ -12318,6 +12318,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -12350,8 +12352,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12373,8 +12373,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534529,
-                "MZ_INDEXER": 1739798967674
+                "MZ_INDEXER": 1739798967674,
+                "RTCI": 1738955534529
             }
         },
         "supportsArcade": false,
@@ -12471,6 +12471,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12503,8 +12505,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12526,8 +12526,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731358171728,
-                "MZ_INDEXER": 1739515842333
+                "MZ_INDEXER": 1739515842333,
+                "RTCI": 1731358171728
             }
         },
         "supportsArcade": false,
@@ -12624,6 +12624,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -12656,8 +12658,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12679,8 +12679,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957242825,
-                "MZ_INDEXER": 1739553286381
+                "MZ_INDEXER": 1739553286381,
+                "RTCI": 1738957242825
             }
         },
         "supportsArcade": false,
@@ -12777,6 +12777,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -12809,8 +12811,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12832,8 +12832,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378981629,
-                "MZ_INDEXER": 1739501304319
+                "MZ_INDEXER": 1739501304319,
+                "RTCI": 1731378981629
             }
         },
         "supportsArcade": false,
@@ -12936,6 +12936,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -12978,8 +12980,6 @@
                         "textColor4": "7897da"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13001,8 +13001,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731363045093,
-                "MZ_INDEXER": 1739491161212
+                "MZ_INDEXER": 1739491161212,
+                "RTCI": 1731363045093
             }
         },
         "supportsArcade": false,
@@ -13101,6 +13101,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -13133,8 +13135,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13156,8 +13156,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1735894887268,
-                "MZ_INDEXER": 1739536759183
+                "MZ_INDEXER": 1739536759183,
+                "RTCI": 1735894887268
             }
         },
         "supportsArcade": false,
@@ -13255,6 +13255,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1307,
@@ -13287,8 +13289,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13310,8 +13310,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731381629610,
-                "MZ_INDEXER": 1739711748696
+                "MZ_INDEXER": 1739711748696,
+                "RTCI": 1731381629610
             }
         },
         "supportsArcade": false,
@@ -13409,6 +13409,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13441,8 +13443,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "grand slam",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13465,8 +13465,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733927756205,
-                "MZ_INDEXER": 1739550085891
+                "MZ_INDEXER": 1739930833462,
+                "RTCI": 1733927756205
             }
         },
         "supportsArcade": false,
@@ -13560,6 +13560,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -13592,8 +13594,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13615,8 +13615,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731370622181,
-                "MZ_INDEXER": 1739829355408
+                "MZ_INDEXER": 1739829355408,
+                "RTCI": 1731370622181
             }
         },
         "supportsArcade": false,
@@ -13713,6 +13713,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13745,8 +13747,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13768,8 +13768,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731366494234,
-                "MZ_INDEXER": 1739503533987
+                "MZ_INDEXER": 1739503533987,
+                "RTCI": 1731366494234
             }
         },
         "supportsArcade": false,
@@ -13866,6 +13866,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -13908,8 +13910,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13931,8 +13931,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955534710,
-                "MZ_INDEXER": 1739798965203
+                "MZ_INDEXER": 1739798965203,
+                "RTCI": 1738955534710
             }
         },
         "supportsArcade": false,
@@ -14029,6 +14029,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1070,
@@ -14061,161 +14063,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1612444734",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1612444736",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731364174901,
-                "MZ_INDEXER": 1739523225694
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 90,
-                "genreName": "スポーツ",
-                "genre": 7016,
-                "chart": "top-paid",
-                "genreShortName": "スポーツ"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 1,
-            "ratingCount": 1,
-            "ratingCountList": [
-                1,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "星 1.0 個"
-        },
-        "name": "VelociDrone",
-        "genreDisplayName": "シミュレーション",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Bat Cave Games Limited",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=1300000&salableAdamId=1612444734&pricingParameters=STDQ&pg=default&appExtVrsId=866948502",
-                        "type": "buy",
-                        "priceFormatted": "¥1,300",
-                        "price": 1300,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 739249152
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1612444734&pricingParameters=SWUPD&pg=default&appExtVrsId=866948502",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 739249152
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2024-03-12",
-                "hasInAppPurchases": false,
-                "bundleId": "com.velocidrone.velocidronemobile",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/cd/4c/4ecd4c97-28d8-0d9f-5937-f83830c23c2d/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "502888",
-                    "textColor1": "fea601",
-                    "textColor2": "e9932f",
-                    "textColor3": "db8d1c",
-                    "textColor4": "cb7d40"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1307,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
-                        "bgColor": "be8c4b",
-                        "textColor1": "041116",
-                        "textColor2": "041116",
-                        "textColor3": "292921",
-                        "textColor4": "292921"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14237,8 +14084,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955990146,
-                "MZ_INDEXER": 1739490590591
+                "MZ_INDEXER": 1739490590591,
+                "RTCI": 1738955990146
             }
         },
         "supportsArcade": false,
@@ -14257,7 +14104,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 91,
+                "position": 90,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -14335,6 +14182,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -14367,8 +14216,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14390,8 +14237,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731377830255,
-                "MZ_INDEXER": 1739835845895
+                "MZ_INDEXER": 1739835845895,
+                "RTCI": 1731377830255
             }
         },
         "supportsArcade": false,
@@ -14410,7 +14257,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 92,
+                "position": 91,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -14488,6 +14335,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14520,8 +14369,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14543,8 +14390,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378842681,
-                "MZ_INDEXER": 1739484666463
+                "MZ_INDEXER": 1739909510357,
+                "RTCI": 1731378842681
             }
         },
         "supportsArcade": false,
@@ -14566,7 +14413,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 93,
+                "position": 92,
                 "genreName": "スポーツ",
                 "genre": 7016,
                 "chart": "top-paid",
@@ -14644,6 +14491,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14676,8 +14525,159 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1612444734",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1612444736",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739523225694,
+                "RTCI": 1731364174901
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 93,
+                "genreName": "スポーツ",
+                "genre": 7016,
+                "chart": "top-paid",
+                "genreShortName": "スポーツ"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 1,
+            "ratingCount": 1,
+            "ratingCountList": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "星 1.0 個"
+        },
+        "name": "VelociDrone",
+        "genreDisplayName": "シミュレーション",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bat Cave Games Limited",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=1300000&salableAdamId=1612444734&pricingParameters=STDQ&pg=default&appExtVrsId=866948502",
+                        "type": "buy",
+                        "priceFormatted": "¥1,300",
+                        "price": 1300,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 739249152
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1612444734&pricingParameters=SWUPD&pg=default&appExtVrsId=866948502",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 739249152
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2024-03-12",
+                "hasInAppPurchases": false,
+                "bundleId": "com.velocidrone.velocidronemobile",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/cd/4c/4ecd4c97-28d8-0d9f-5937-f83830c23c2d/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "502888",
+                    "textColor1": "fea601",
+                    "textColor2": "e9932f",
+                    "textColor3": "db8d1c",
+                    "textColor4": "cb7d40"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/72/c2/e4/72c2e450-3d7e-a661-b9f7-ada9b07f349c/2bd85867-e4c2-412c-8a30-635b868d6f11.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1307,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/de/89/94/de899464-f953-9146-3f0c-1c3faec52e7f/34548581-12d2-4d43-a2fd-5a1a719a6f84.png/{w}x{h}{c}.{f}",
+                        "bgColor": "be8c4b",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "292921",
+                        "textColor4": "292921"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/15/eb/a0/15eba07d-01fb-c4a1-c46a-0a182f63f61f/eb36db64-4b9e-48c3-87fe-1169cf7dcfa1.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14699,8 +14699,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737389545564,
-                "MZ_INDEXER": 1739496805149
+                "MZ_INDEXER": 1739496805149,
+                "RTCI": 1737389545564
             }
         },
         "supportsArcade": false,
@@ -14796,6 +14796,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14838,8 +14840,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14861,8 +14861,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733394228678,
-                "MZ_INDEXER": 1739546354695
+                "MZ_INDEXER": 1739546354695,
+                "RTCI": 1733394228678
             }
         },
         "supportsArcade": false,
@@ -14959,6 +14959,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -14991,8 +14993,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15014,8 +15014,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354021947,
-                "MZ_INDEXER": 1739487952739
+                "MZ_INDEXER": 1739487952739,
+                "RTCI": 1731354021947
             }
         },
         "supportsArcade": false,
@@ -15112,6 +15112,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -15144,8 +15146,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15167,8 +15167,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951187096,
-                "MZ_INDEXER": 1739507140518
+                "MZ_INDEXER": 1739507140518,
+                "RTCI": 1738951187096
             }
         },
         "supportsArcade": false,
@@ -15264,6 +15264,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "2.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -15296,8 +15298,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "2.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15319,8 +15319,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952362516,
-                "MZ_INDEXER": 1739535261858
+                "MZ_INDEXER": 1739535261858,
+                "RTCI": 1738952362516
             }
         },
         "supportsArcade": false,
@@ -15417,6 +15417,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -15449,8 +15451,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15472,8 +15472,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731380416707,
-                "MZ_INDEXER": 1739489416995
+                "MZ_INDEXER": 1739489416995,
+                "RTCI": 1731380416707
             }
         },
         "supportsArcade": false,
@@ -15573,6 +15573,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1102,
@@ -15605,8 +15607,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15628,8 +15628,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357026015,
-                "MZ_INDEXER": 1739832605283
+                "MZ_INDEXER": 1739832605283,
+                "RTCI": 1731357026015
             }
         },
         "supportsArcade": false,
@@ -15726,6 +15726,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1082,
@@ -15758,8 +15760,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

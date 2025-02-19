@@ -15,8 +15,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731366861352,
-                "MZ_INDEXER": 1739510715700
+                "MZ_INDEXER": 1739510715700,
+                "RTCI": 1731366861352
             }
         },
         "supportsArcade": false,
@@ -56,8 +56,8 @@
             "ariaLabelForRatings": "4.1 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.0",
-        "genreDisplayName": "卡牌",
         "name": "航海奇闻",
+        "genreDisplayName": "卡牌",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Fabled Game Limited",
@@ -92,13 +92,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2021-05-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.piratesoutlaws.roguelikecard.fabled.cn",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -111,10 +111,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -157,12 +157,12 @@
                         "textColor4": "c6afa0"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "独立Roguelike卡牌游戏",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "乘风逐浪的卡牌冒险之旅"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -183,8 +183,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738950888201,
-                "MZ_INDEXER": 1739508004333
+                "MZ_INDEXER": 1739508004333,
+                "RTCI": 1738950888201
             }
         },
         "supportsArcade": false,
@@ -228,11 +228,11 @@
             "ariaLabelForRatings": "2.1 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "0.0.21",
-        "name": "桂林字牌手机版",
         "genreDisplayName": "卡牌",
+        "name": "桂林字牌手机版",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "广西拓米网络科技有限公司",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -264,8 +264,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2023-04-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.lgwg.glzptf",
@@ -286,6 +286,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -318,8 +320,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "最正宗的桂林本地字牌",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -342,8 +342,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732217940385,
-                "MZ_INDEXER": 1739490021781
+                "MZ_INDEXER": 1739490021781,
+                "RTCI": 1732217940385
             }
         },
         "supportsArcade": false,
@@ -424,8 +424,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2023-12-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pixmain.game.lryt",
@@ -443,9 +443,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -488,13 +489,173 @@
                         "textColor4": "b6bdc8"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "国风肉鸽卡牌构建游戏 选择不同职业卡组解锁不同结局",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "构建肉鸽卡牌 探秘志怪奇谭"
                 },
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1583545134",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "821399918",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739508280648,
+                "RTCI": 1732218516685
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "偶尔/轻微的卡通或幻想暴力",
+                    "偶尔/轻微的成人或性暗示题材",
+                    "偶尔/轻微的亵渎或低俗幽默",
+                    "偶尔/轻微的模拟赌博"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 4,
+                "genreName": "卡牌",
+                "genre": 7005,
+                "chart": "top-paid",
+                "genreShortName": "卡牌"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 3.7,
+            "ratingCount": 93,
+            "ratingCountList": [
+                26,
+                2,
+                3,
+                1,
+                61
+            ],
+            "ariaLabelForRatings": "3.7 星"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "1.0",
+        "name": "真大闹天宫 西游录",
+        "genreDisplayName": "角色扮演",
+        "isPreorder": false,
+        "artistName": "OneOneGames Co., Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=1000&salableAdamId=1583545134&pricingParameters=STDQ&pg=default&appExtVrsId=865147308",
+                        "type": "buy",
+                        "priceFormatted": "¥1.00",
+                        "price": 1,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1002648576
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1583545134&pricingParameters=SWUPD&pg=default&appExtVrsId=865147308",
+                        "type": "update",
+                        "priceFormatted": "¥0.00",
+                        "price": 0,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1002648576
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2021-12-06",
+                "hasInAppPurchases": true,
+                "bundleId": "com.oneonegames.dntg",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/93/17/1e931788-08ec-aa20-308c-eb2b0b63edc9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "051b23",
+                    "textColor1": "15fbfe",
+                    "textColor2": "04f2f2",
+                    "textColor3": "11ced2",
+                    "textColor4": "04c7c9"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1030,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/5b/b5/0d5bb51f-dc4c-01d1-2120-1794d156b1b0/f7b9c313-7432-442d-bd83-3a0f4cdd62ef.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1031,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f0/57/31/f05731b1-e951-79e7-0b77-b9fcd8db9c85/62c6ad47-ada9-4cd6-ada6-af3c6cd93eeb.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f7b400",
+                        "textColor1": "08090b",
+                        "textColor2": "0a0a0b",
+                        "textColor3": "382b09",
+                        "textColor4": "392c08"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/65/24/4f/65244f35-f4ee-b6bd-b6ce-d573dd01960e/9bfe0abf-33fd-4d42-a30c-c17aaaa61f19.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
+                "subtitle": "全新战斗 全新玩法",
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -515,8 +676,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731360593975,
-                "MZ_INDEXER": 1739540740057
+                "MZ_INDEXER": 1739540740057,
+                "RTCI": 1731360593975
             }
         },
         "supportsArcade": false,
@@ -540,7 +701,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "卡牌",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -596,13 +757,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2024-10-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tbg.txppp",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -618,6 +779,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1030,
@@ -650,166 +812,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "技术宅拯救异世界",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6469092434",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1634590873",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738956639649,
-                "MZ_INDEXER": 1739540105102
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "频繁/强烈的竞赛"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 5,
-                "genreName": "卡牌",
-                "genre": 7005,
-                "chart": "top-paid",
-                "genreShortName": "卡牌"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.6,
-            "ratingCount": 108,
-            "ratingCountList": [
-                9,
-                0,
-                2,
-                7,
-                90
-            ],
-            "ariaLabelForRatings": "4.6 星"
-        },
-        "genreDisplayName": "卡牌",
-        "name": "不休江湖",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Shanghai DeerBeat Network Technology Co., Ltd.",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=1000&salableAdamId=6469092434&pricingParameters=STDQ&pg=default&appExtVrsId=867266193",
-                        "type": "buy",
-                        "priceFormatted": "¥1.00",
-                        "price": 1,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 300962816
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6469092434&pricingParameters=SWUPD&pg=default&appExtVrsId=867266193",
-                        "type": "update",
-                        "priceFormatted": "¥0.00",
-                        "price": 0,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 300962816
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2023-12-12",
-                "hasInAppPurchases": true,
-                "bundleId": "com.dashuyx.bxjh",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/99/74/ce99744c-baca-735c-f815-9c7b258f52a1/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "f2f4e4",
-                    "textColor1": "000000",
-                    "textColor2": "51242c",
-                    "textColor3": "30312d",
-                    "textColor4": "714e51"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 opengles-1 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 985,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bf/22/0c/bf220c2c-ba6d-df5f-fb5c-2a8b8d96fcb8/8c54b2db-cb72-4d1a-bac8-9ae9e8b7741c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "ececec",
-                        "textColor2": "cdcdcd",
-                        "textColor3": "bcbcbc",
-                        "textColor4": "a4a4a4"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 985,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/74/52/c5/7452c527-f1ad-8341-ee2d-869278222df8/5f0f30fd-7937-49f6-b2bd-2854aef61773.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575a60",
-                        "textColor1": "f2f4f5",
-                        "textColor2": "e9eef6",
-                        "textColor3": "d3d5d7",
-                        "textColor4": "ccd0d8"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/c0/da/49/c0da49fe-c07e-116f-0619-02fc3283c631/e8f77579-8a79-4b3d-8a08-1dd0a7f102aa.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "轻松武侠，放置挂机躺成武林宗师！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -831,8 +835,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739898053474,
-                "MZ_INDEXER": 1739897267502
+                "MZ_INDEXER": 1739897267502,
+                "RTCI": 1739898053474
             }
         },
         "supportsArcade": false,
@@ -866,13 +870,13 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.7,
-            "ratingCount": 1656,
+            "ratingCount": 1657,
             "ratingCountList": [
                 87,
                 22,
                 40,
                 71,
-                1436
+                1437
             ],
             "ariaLabelForRatings": "4.7 星"
         },
@@ -932,9 +936,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -967,9 +972,165 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "百名武将 各显神通",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "6469092434",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1634590873",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739540105102,
+                "RTCI": 1738956639649
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "频繁/强烈的竞赛"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 7,
+                "genreName": "卡牌",
+                "genre": 7005,
+                "chart": "top-paid",
+                "genreShortName": "卡牌"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.6,
+            "ratingCount": 108,
+            "ratingCountList": [
+                9,
+                0,
+                2,
+                7,
+                90
+            ],
+            "ariaLabelForRatings": "4.6 星"
+        },
+        "name": "不休江湖",
+        "genreDisplayName": "卡牌",
+        "isPreorder": false,
+        "artistName": "Shanghai DeerBeat Network Technology Co., Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=1000&salableAdamId=6469092434&pricingParameters=STDQ&pg=default&appExtVrsId=867266193",
+                        "type": "buy",
+                        "priceFormatted": "¥1.00",
+                        "price": 1,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 300962816
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6469092434&pricingParameters=SWUPD&pg=default&appExtVrsId=867266193",
+                        "type": "update",
+                        "priceFormatted": "¥0.00",
+                        "price": 0,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 300962816
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2023-12-12",
+                "hasInAppPurchases": true,
+                "bundleId": "com.dashuyx.bxjh",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/99/74/ce99744c-baca-735c-f815-9c7b258f52a1/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "f2f4e4",
+                    "textColor1": "000000",
+                    "textColor2": "51242c",
+                    "textColor3": "30312d",
+                    "textColor4": "714e51"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 opengles-1 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 985,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bf/22/0c/bf220c2c-ba6d-df5f-fb5c-2a8b8d96fcb8/8c54b2db-cb72-4d1a-bac8-9ae9e8b7741c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "ececec",
+                        "textColor2": "cdcdcd",
+                        "textColor3": "bcbcbc",
+                        "textColor4": "a4a4a4"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 985,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/74/52/c5/7452c527-f1ad-8341-ee2d-869278222df8/5f0f30fd-7937-49f6-b2bd-2854aef61773.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575a60",
+                        "textColor1": "f2f4f5",
+                        "textColor2": "e9eef6",
+                        "textColor3": "d3d5d7",
+                        "textColor4": "ccd0d8"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/c0/da/49/c0da49fe-c07e-116f-0619-02fc3283c631/e8f77579-8a79-4b3d-8a08-1dd0a7f102aa.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "轻松武侠，放置挂机躺成武林宗师！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -991,8 +1152,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732206091975,
-                "MZ_INDEXER": 1739536508127
+                "MZ_INDEXER": 1739536508127,
+                "RTCI": 1732206091975
             }
         },
         "supportsArcade": false,
@@ -1014,7 +1175,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "卡牌",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -1039,8 +1200,8 @@
         "genreDisplayName": "策略",
         "name": "卡拉希尔战记",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Shanghai Zyougame Network Technology Co., Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1072,13 +1233,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-08-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.zyougame.caracil",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1095,6 +1256,7 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 850,
@@ -1127,7 +1289,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "创新技能自定义",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1150,8 +1311,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956876430,
-                "MZ_INDEXER": 1739510961059
+                "MZ_INDEXER": 1739510961059,
+                "RTCI": 1738956876430
             }
         },
         "supportsArcade": false,
@@ -1174,7 +1335,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "卡牌",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -1197,8 +1358,8 @@
         "name": "召唤三国-大梦三国",
         "genreDisplayName": "策略",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "瑶 吴",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1249,9 +1410,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "accelerometer arm64 opengles-1 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -1284,7 +1446,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "神将集结，策略养成",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1307,8 +1468,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952734554,
-                "MZ_INDEXER": 1739529016639
+                "MZ_INDEXER": 1739529016639,
+                "RTCI": 1738952734554
             }
         },
         "supportsArcade": false,
@@ -1331,7 +1492,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 11,
                 "genreName": "卡牌",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -1341,21 +1502,21 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.4,
-            "ratingCount": 394,
+            "ratingCount": 395,
             "ratingCountList": [
                 53,
                 1,
                 8,
                 5,
-                327
+                328
             ],
             "ariaLabelForRatings": "4.4 星"
         },
-        "name": "卧龙三国-高颜值国风策略卡牌大制作",
         "genreDisplayName": "休闲",
+        "name": "卧龙三国-高颜值国风策略卡牌大制作",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sanmi Games",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1387,13 +1548,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2024-09-27",
                 "hasInAppPurchases": true,
                 "bundleId": "com.vgba.wlzl",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1406,9 +1567,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-1 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -1441,8 +1604,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "策略为王 计定天下",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1465,8 +1626,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732215103156,
-                "MZ_INDEXER": 1739496866251
+                "MZ_INDEXER": 1739496866251,
+                "RTCI": 1732215103156
             }
         },
         "supportsArcade": false,
@@ -1490,7 +1651,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 12,
                 "genreName": "卡牌",
                 "genre": 7005,
                 "chart": "top-paid",
@@ -1514,8 +1675,8 @@
         "name": "酸橙和米粒的幸运数字",
         "genreDisplayName": "卡牌",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "ZhangZhu(Hangzhou) Cultural and Creative Co., Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1552,8 +1713,8 @@
                 "releaseDate": "2023-03-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.zz.limeandrice",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1569,6 +1730,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -1601,170 +1764,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "一款不看运气的运气游戏",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1583545134",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "821399918",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1732218516685,
-                "MZ_INDEXER": 1739508280648
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "偶尔/轻微的卡通或幻想暴力",
-                    "偶尔/轻微的成人或性暗示题材",
-                    "偶尔/轻微的亵渎或低俗幽默",
-                    "偶尔/轻微的模拟赌博"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 11,
-                "genreName": "卡牌",
-                "genre": 7005,
-                "chart": "top-paid",
-                "genreShortName": "卡牌"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 3.7,
-            "ratingCount": 93,
-            "ratingCountList": [
-                26,
-                2,
-                3,
-                1,
-                61
-            ],
-            "ariaLabelForRatings": "3.7 星"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "1.0",
-        "name": "真大闹天宫 西游录",
-        "genreDisplayName": "角色扮演",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "OneOneGames Co., Ltd.",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=1000&salableAdamId=1583545134&pricingParameters=STDQ&pg=default&appExtVrsId=865147308",
-                        "type": "buy",
-                        "priceFormatted": "¥1.00",
-                        "price": 1,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1002648576
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1583545134&pricingParameters=SWUPD&pg=default&appExtVrsId=865147308",
-                        "type": "update",
-                        "priceFormatted": "¥0.00",
-                        "price": 0,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1002648576
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2021-12-06",
-                "hasInAppPurchases": true,
-                "bundleId": "com.oneonegames.dntg",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/93/17/1e931788-08ec-aa20-308c-eb2b0b63edc9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "051b23",
-                    "textColor1": "15fbfe",
-                    "textColor2": "04f2f2",
-                    "textColor3": "11ced2",
-                    "textColor4": "04c7c9"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1030,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/5b/b5/0d5bb51f-dc4c-01d1-2120-1794d156b1b0/f7b9c313-7432-442d-bd83-3a0f4cdd62ef.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1031,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f0/57/31/f05731b1-e951-79e7-0b77-b9fcd8db9c85/62c6ad47-ada9-4cd6-ada6-af3c6cd93eeb.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f7b400",
-                        "textColor1": "08090b",
-                        "textColor2": "0a0a0b",
-                        "textColor3": "382b09",
-                        "textColor4": "392c08"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/65/24/4f/65244f35-f4ee-b6bd-b6ce-d573dd01960e/9bfe0abf-33fd-4d42-a30c-c17aaaa61f19.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "subtitle": "全新战斗 全新玩法",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1786,8 +1786,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956797421,
-                "MZ_INDEXER": 1739538358808
+                "MZ_INDEXER": 1739538358808,
+                "RTCI": 1738956797421
             }
         },
         "supportsArcade": false,
@@ -1830,11 +1830,11 @@
             ],
             "ariaLabelForRatings": "4.6 星"
         },
-        "name": "黑暗神庙",
         "genreDisplayName": "卡牌",
+        "name": "黑暗神庙",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Shenzhen Yaoyou Interactive Technology Co., Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1866,8 +1866,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2021-12-05",
                 "hasInAppPurchases": true,
                 "bundleId": "heianshenmiao.com",
@@ -1888,6 +1888,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -1920,7 +1921,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "暗黑风策略卡牌矩阵消除式战斗",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1943,8 +1943,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732218516664,
-                "MZ_INDEXER": 1739540031153
+                "MZ_INDEXER": 1739540031153,
+                "RTCI": 1732218516664
             }
         },
         "supportsArcade": false,
@@ -2022,13 +2022,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2023-11-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.oneonegames.fs3",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2041,9 +2041,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -2076,8 +2078,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "全新战斗策略机制",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2100,8 +2100,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956797421,
-                "MZ_INDEXER": 1739507636477
+                "MZ_INDEXER": 1739507636477,
+                "RTCI": 1738956797421
             }
         },
         "supportsArcade": false,
@@ -2198,8 +2198,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "accelerometer arm64 opengles-1 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2256,8 +2256,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732213844407,
-                "MZ_INDEXER": 1739529500988
+                "MZ_INDEXER": 1739529500988,
+                "RTCI": 1732213844407
             }
         },
         "supportsArcade": false,
@@ -2335,13 +2335,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-09-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.bldlzy.zaa",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2354,9 +2354,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -2389,8 +2391,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "送160抽，不出新英雄算我输！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2413,8 +2413,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739411479640,
-                "MZ_INDEXER": 1739554140702
+                "MZ_INDEXER": 1739921254347,
+                "RTCI": 1739411479640
             }
         },
         "supportsArcade": false,
@@ -2457,8 +2457,8 @@
             ],
             "ariaLabelForRatings": "4.6 星"
         },
-        "genreDisplayName": "卡牌",
         "name": "三国英雄传奇-全新武将国风卡牌大制作",
+        "genreDisplayName": "卡牌",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "悦 张",
@@ -2493,13 +2493,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2024-10-16",
                 "hasInAppPurchases": true,
                 "bundleId": "com.dubu.sbmj",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2512,10 +2512,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-1 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -2548,7 +2548,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "超级福利 开局就送",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2571,8 +2571,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361511156,
-                "MZ_INDEXER": 1739549121812
+                "MZ_INDEXER": 1739549121812,
+                "RTCI": 1731361511156
             }
         },
         "supportsArcade": false,
@@ -2614,11 +2614,11 @@
             ],
             "ariaLabelForRatings": "2.8 星"
         },
-        "genreDisplayName": "卡牌",
         "name": "部落战争-逆转漂流者",
+        "genreDisplayName": "卡牌",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "KINGCHEER GAMES",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2650,8 +2650,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2021-06-17",
                 "hasInAppPurchases": true,
                 "bundleId": "GdOR2.vtrl6",
@@ -2669,10 +2669,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "accelerometer opengles-1 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 985,
@@ -2705,6 +2704,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "挂机升级 轻松当大佬",
                 "hasSafariExtension": false,
                 "requiresGameController": false

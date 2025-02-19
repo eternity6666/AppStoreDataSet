@@ -116,6 +116,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -168,13 +170,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Tabata, HIIT, Circuit Training",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Interval timer for the pros"
                 },
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -184,8 +185,7 @@
                     "textColor2": "fde8e7",
                     "textColor3": "efd0d0",
                     "textColor4": "edbebd"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -284,8 +284,8 @@
                 "releaseDate": "2011-04-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.3d4medical.iMuscleiPad",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -301,6 +301,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -333,8 +335,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -436,13 +436,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.winkpass.iperiodip",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -455,9 +455,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -490,8 +492,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Women's health journal",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -593,8 +593,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-07-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.navysealphysicalfitnessguide",
@@ -611,9 +611,10 @@
                     "textColor4": "b9a157"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -647,7 +648,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Calcs and Helpful References",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -712,11 +712,11 @@
             "ariaLabelForRatings": "4.8 stars"
         },
         "watchBundleId": "com.ilbsoft.irelaxpremiumipad.watchkitapp",
-        "genreDisplayName": "Health & Fitness",
         "name": "Relax Meditation P: Mindfulness Sounds White Noise",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Ipnos Software Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Ipnos Software Inc.",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -780,6 +780,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -812,8 +814,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -946,6 +946,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1008,8 +1010,6 @@
                         "textColor4": "424b43"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Practice yoga anywhere",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -1086,11 +1086,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Brain Wave: 35 Binaural Series",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Banzai Labs",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Banzai Labs",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1144,6 +1144,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1176,8 +1178,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Advanced Brainwave Entrainment",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1240,8 +1240,8 @@
             ],
             "ariaLabelForRatings": "4.6 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Cardiograph Classic",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "MacroPinch Ltd.",
         "isIOSBinaryMacOSCompatible": false,
@@ -1298,6 +1298,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1330,8 +1332,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Your Personal Heart Rate Meter",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1397,8 +1397,8 @@
         "name": "Blood Type Diet®",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "D'Adamo Personalized Nutrition®",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "D'Adamo Personalized Nutrition®",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1430,8 +1430,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-07-06",
                 "hasInAppPurchases": false,
                 "bundleId": "2EUQ92MT46.com.4yourtype.btd",
@@ -1449,9 +1449,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1485,7 +1486,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1508,7 +1508,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731356458742,
-                "MZ_INDEXER": 1739829806634
+                "MZ_INDEXER": 1739914843220
             }
         },
         "supportsArcade": false,
@@ -1547,11 +1547,11 @@
             ],
             "ariaLabelForRatings": "2.0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Relaxing Sounds Of Nature & SPA Music",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Red Hammer Software",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Red Hammer Software",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1583,13 +1583,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-10-24",
                 "hasInAppPurchases": true,
                 "bundleId": "net.rhsoftware.SoundsOfNatureSoundboard",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1602,9 +1602,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1638,7 +1639,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1705,8 +1705,8 @@
         "name": "Daily Workouts",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Daily Workout Apps, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daily Workout Apps, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1756,9 +1756,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1792,7 +1793,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Personal Trainer & Exercises",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1857,11 +1857,11 @@
             "ariaLabelForRatings": "4.5 stars"
         },
         "watchBundleId": "com.gorillaworkoutapp.watchkitapp",
-        "genreDisplayName": "Health & Fitness",
         "name": "Gorilla Workout: Build Muscle",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Heckr LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Heckr LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -1894,13 +1894,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-06-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gorillaworkoutapp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1912,9 +1912,11 @@
                     "textColor4": "c29f8c"
                 },
                 "isAppleWatchSupported": true,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -1957,8 +1959,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Daily bodyweight burn & sweat",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -2039,8 +2039,8 @@
         "name": "Ref Guide for Essential Oils",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Abundant Health",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Abundant Health",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2072,8 +2072,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-01-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.abundanthealth4u.RefGuide4EO",
@@ -2091,9 +2091,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2127,7 +2128,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2196,8 +2196,8 @@
         "name": "Army Survival Skills",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Calculated Industries",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Calculated Industries",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2229,8 +2229,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.survivalguide",
@@ -2247,9 +2247,11 @@
                     "textColor4": "dbb20a"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -2282,8 +2284,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Official Army Survival Manual",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2349,8 +2349,8 @@
         "name": "Stark Suspension",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Virtual Trainer Sweden AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Virtual Trainer Sweden AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2382,13 +2382,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-09-20",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-TRX-EN",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2400,9 +2400,10 @@
                     "textColor4": "cb8c00"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2436,7 +2437,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2501,8 +2501,8 @@
         "name": "Daily Ab Workout",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Daily Workout Apps, LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2539,8 +2539,8 @@
                 "releaseDate": "2010-10-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.danielmiller.dailyabworkoutfull",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2556,6 +2556,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -2588,8 +2590,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Abs & Core Personal Trainer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2711,6 +2711,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -2743,8 +2745,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2850,8 +2850,8 @@
                 "releaseDate": "2015-06-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.streaksapp.streak",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2866,6 +2866,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -2938,7 +2939,6 @@
                         "textColor4": "301c18"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "The habit-forming to-do list",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -3076,6 +3076,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3108,8 +3110,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3176,8 +3176,8 @@
         "name": "PostureScreen Mobile",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "PostureCo, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "PostureCo, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3209,13 +3209,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "15.1",
+                "requires32bit": false,
                 "releaseDate": "2010-12-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.postureco.posturescreenmobile",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3228,9 +3228,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arkit arm64 gyroscope iphone-ipad-minimum-performance-a12 still-camera video-camera ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3263,7 +3264,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Posture ROM Movement Body Fat%",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3326,8 +3326,8 @@
             ],
             "ariaLabelForRatings": "4.5 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Buddhify: Guided Meditation",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "Whistle Studios LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -3362,13 +3362,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-01-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.21awake.buddhify2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3381,9 +3381,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3416,8 +3418,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Meditate For Sleep & Calm",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3489,8 +3489,8 @@
         "name": "WomanLog Pro Calendar",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Pro Active App",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -3545,6 +3545,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3577,8 +3579,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -3650,11 +3650,11 @@
             ],
             "ariaLabelForRatings": "4.7 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "SleepTown",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "SEEKRTECH CO., LTD.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "SEEKRTECH CO., LTD.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3708,6 +3708,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -3760,8 +3762,6 @@
                         "textColor4": "222b2b"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Build a healthy sleep habit",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -3833,8 +3833,8 @@
         "name": "Simply Yoga",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Daily Workout Apps, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daily Workout Apps, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3870,8 +3870,8 @@
                 "releaseDate": "2011-05-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.danielmiller.dailyyoga",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3884,9 +3884,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3920,7 +3921,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Home Yoga Instructor & Poses",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3986,8 +3986,8 @@
         "name": "Noisli",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Noisli Labs UG (haftungsbeschraenkt)",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Noisli Labs UG (haftungsbeschraenkt)",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4019,8 +4019,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-05-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.noisli.Noisli",
@@ -4038,9 +4038,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4084,11 +4085,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Build your own acoustic landscape."
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -4190,8 +4190,8 @@
                 "releaseDate": "2010-12-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.danielmiller.dailycardioworkout",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4207,6 +4207,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -4239,8 +4241,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Aerobic Personal Trainer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4342,8 +4342,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-05-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.saagara.universalpranayama",
@@ -4361,9 +4361,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4397,7 +4398,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4460,8 +4460,8 @@
         "name": "7 Minute Workout Challenge HD for iPad",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Fitness Guide Inc",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4515,6 +4515,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -4567,8 +4569,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4670,8 +4670,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2022-09-09",
                 "hasInAppPurchases": true,
                 "bundleId": "team.nex.starri",
@@ -4689,9 +4689,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4725,7 +4726,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Let's exercise with music!",
                 "editorialNotes": {
                     "tagline": "Dance to your favourite songs"
@@ -4752,7 +4752,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738960278903,
-                "MZ_INDEXER": 1739485357786
+                "MZ_INDEXER": 1739908751045
             }
         },
         "supportsArcade": false,
@@ -4794,8 +4794,8 @@
         "name": "Monthly Cycles",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Nova Mobile, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nova Mobile, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4827,8 +4827,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dworks.periodtracker",
@@ -4845,9 +4845,10 @@
                     "textColor4": "5f528a"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4881,7 +4882,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4984,8 +4984,8 @@
                 "releaseDate": "2012-10-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.TailoredMusic.Rainy-Mood",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5001,6 +5001,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5033,8 +5035,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Focus, Relax, and Sleep",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5101,13 +5101,13 @@
             ],
             "ariaLabelForRatings": "3.1 stars"
         },
-        "firstVersionSupportingInAppPurchaseApi": "7.6.12",
         "watchBundleId": "com.mosesyan.ilya.fitnesspointpro.watchapp",
+        "firstVersionSupportingInAppPurchaseApi": "7.6.12",
         "name": "Fitness Point Pro: Home & Gym",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "ZERO ONE GmbH",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "ZERO ONE GmbH",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -5140,13 +5140,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-11-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mosesyan.ilya.fitnesspointpro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5159,9 +5159,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5214,8 +5216,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Workout Exercise Journal",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -5297,8 +5297,8 @@
         "name": "Pregnant Dad",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "SB Apps",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SB Apps",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5330,13 +5330,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-07-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Svend-Back.Pregnant-Dad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5349,9 +5349,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5384,8 +5386,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "For an Expectant Father",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5506,6 +5506,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5538,8 +5540,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Soothing & Relaxing Melodies",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5602,8 +5602,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Daily Arm Workout",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "Daily Workout Apps, LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -5638,13 +5638,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-11-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.danielmiller.dailyarmworkout",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5657,9 +5657,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5692,8 +5694,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Arms & Chest Personal Trainer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5717,7 +5717,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731368140255,
-                "MZ_INDEXER": 1739545639548
+                "MZ_INDEXER": 1739932843223
             }
         },
         "supportsArcade": false,
@@ -5759,8 +5759,8 @@
         "name": "Horoscope HD Pro",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "smalltech sarl",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "smalltech sarl",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5792,13 +5792,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-02-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.slema.cutehoroscopepro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5810,9 +5810,11 @@
                     "textColor4": "caa9c3"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -5845,8 +5847,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5914,8 +5914,8 @@
         "name": "3D Yoga Anatomy",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Body Culture",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Body Culture",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5947,8 +5947,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-09-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.gabrielvicente.yogaanatomy",
@@ -5966,9 +5966,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6002,11 +6003,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "The science behind each pose"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -6070,8 +6070,8 @@
         "name": "Daily Butt Workout",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Daily Workout Apps, LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6108,8 +6108,8 @@
                 "releaseDate": "2010-11-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.danielmiller.dailybuttworkout",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6125,6 +6125,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6157,8 +6159,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Booty & Legs Personal Trainer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6228,8 +6228,8 @@
         "name": "Massage Techniques",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Real Bodywork",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6283,6 +6283,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6315,8 +6317,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6339,7 +6339,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731379181182,
-                "MZ_INDEXER": 1739548346629
+                "MZ_INDEXER": 1739929807209
             }
         },
         "supportsArcade": false,
@@ -6381,8 +6381,8 @@
             ],
             "ariaLabelForRatings": "4.5 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Marine Martial Arts",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "Calculated Industries",
         "isIOSBinaryMacOSCompatible": true,
@@ -6438,6 +6438,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6470,8 +6472,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Calcs and Helpful Reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6534,8 +6534,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Vitamins 101",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "mysteryfiles.nl",
         "isIOSBinaryMacOSCompatible": true,
@@ -6570,13 +6570,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-07-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mysteryfiles.Vitamin101",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6589,9 +6589,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6624,8 +6626,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "the food encyclopedia",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6746,6 +6746,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6778,8 +6780,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Yoga class sequencing tool",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6845,8 +6845,8 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "watchBundleId": "com.tmsoft.WhiteNoisePro.watchkitapp",
-        "genreDisplayName": "Health & Fitness",
         "name": "White Noise Pro",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "TMSOFT",
         "isIOSBinaryMacOSCompatible": true,
@@ -6882,13 +6882,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tmsoft.WhiteNoisePro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6901,9 +6901,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -6936,8 +6938,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "50 HD Sleep Sounds & Pro Tools",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -7046,8 +7046,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-12-21",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-DUMBBELL",
@@ -7065,9 +7065,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7101,7 +7102,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7166,8 +7166,8 @@
         "name": "Daily Leg Workout",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Daily Workout Apps, LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7221,6 +7221,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7253,8 +7255,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Booty & Legs Personal Trainer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7323,8 +7323,8 @@
         "name": "Stretch For Pain Relief Lower",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "StretchAwayMusclePain",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "StretchAwayMusclePain",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7356,13 +7356,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-06-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stretchawaypain.lowback-hip",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7375,9 +7375,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7411,7 +7412,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Easy to Use Time Tested",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7435,7 +7435,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738955958071,
-                "MZ_INDEXER": 1739549898777
+                "MZ_INDEXER": 1739910940233
             }
         },
         "supportsArcade": false,
@@ -7478,8 +7478,8 @@
         "name": "Away ~ Nature Sounds to Sleep",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Franz Bruckhoff",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7533,6 +7533,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7575,13 +7577,11 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Sleep, relax, meditate",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "3D forest views and beautiful nature sounds to help you focus."
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -7603,7 +7603,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738960278642,
-                "MZ_INDEXER": 1739546169381
+                "MZ_INDEXER": 1739930926650
             }
         },
         "supportsArcade": false,
@@ -7642,11 +7642,11 @@
             ],
             "ariaLabelForRatings": "4.6 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Interval Timer Pro",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Nova Mobile, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nova Mobile, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7678,8 +7678,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-10-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dworks.intervalfitnesstimer",
@@ -7696,9 +7696,10 @@
                     "textColor4": "5c4f4f"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7732,7 +7733,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Timing for HIIT Training",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7756,7 +7756,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738703359796,
-                "MZ_INDEXER": 1739829264574
+                "MZ_INDEXER": 1739922274471
             }
         },
         "supportsArcade": false,
@@ -7796,8 +7796,8 @@
         "name": "Progressive Alarm Clock for iPad",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Spotlight Six Software LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7851,6 +7851,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -7883,8 +7885,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7985,13 +7985,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-05-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stretchawaypain.neckpain",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8004,9 +8004,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8039,8 +8041,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Easy to Use Time Tested",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8161,6 +8161,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8193,8 +8195,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8314,6 +8314,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8346,8 +8348,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8449,8 +8449,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-08-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.firstaid",
@@ -8468,9 +8468,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8504,7 +8505,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Calcs and Useful References",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8528,7 +8528,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731377061553,
-                "MZ_INDEXER": 1739829107998
+                "MZ_INDEXER": 1739911369220
             }
         },
         "supportsArcade": false,
@@ -8570,8 +8570,8 @@
         "name": "Boxing Timer",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Effortless Code Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Effortless Code Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8603,13 +8603,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-01-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gummer.rounds",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8621,9 +8621,11 @@
                     "textColor4": "4b4c4d"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8656,8 +8658,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8759,8 +8759,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.3",
+                "requires32bit": false,
                 "releaseDate": "2015-10-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.streaksapp.streaks.workout",
@@ -8778,9 +8778,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -8863,14 +8865,12 @@
                         "textColor4": "3f3f3f"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "For all fitness levels",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Work out anywhere—no equipment needed.",
                     "tagline": "Short bodyweight exercises"
                 },
-                "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8946,11 +8946,11 @@
             "ariaLabelForRatings": "4.9 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "3.1.2",
-        "genreDisplayName": "Health & Fitness",
         "name": "Sunny Sea Ocean Sleep Sounds",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Franz Bruckhoff",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Franz Bruckhoff",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9004,6 +9004,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9046,8 +9048,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Deep Sleep White Noise Sounds",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9113,8 +9113,8 @@
         "name": "Stark Kettlebell",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Virtual Trainer Sweden AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Virtual Trainer Sweden AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9146,8 +9146,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-10-26",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-Kettlebell-EN",
@@ -9165,9 +9165,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9201,7 +9202,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9264,8 +9264,8 @@
         "name": "White Noise Ambience HD",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "logicworks",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9302,8 +9302,8 @@
                 "releaseDate": "2011-08-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.logicworks.whitenoisehd",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9318,6 +9318,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9350,8 +9352,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9458,8 +9458,8 @@
                 "releaseDate": "2019-01-31",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tmsoft.WhiteNoise",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9475,6 +9475,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -9507,8 +9509,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Relaxing Sleep Sounds",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -9627,13 +9627,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-01-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.grailr.CARROTfit",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9646,9 +9646,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -9721,8 +9723,6 @@
                         "textColor4": "2f0e10"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Snarky 7 minute workouts",
                 "editorialNotes": {
                     "tagline": "A hilarious fitness trainer"
@@ -9759,7 +9759,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731370193977,
-                "MZ_INDEXER": 1739488287017
+                "MZ_INDEXER": 1739931165091
             }
         },
         "supportsArcade": false,
@@ -9834,8 +9834,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-10-21",
                 "hasInAppPurchases": false,
                 "bundleId": "uk.co.esscom.weightmonitor",
@@ -9853,9 +9853,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9889,7 +9890,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9954,8 +9954,8 @@
         "name": "Wildfulness: Meditate & Relax",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Wild Ventures",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Wild Ventures",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9987,13 +9987,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-05-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.workbymark.wildfulness",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10006,9 +10006,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -10071,14 +10073,12 @@
                         "textColor4": "3e2d25"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Relaxing Nature Sounds",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Unwind and energise your mind by entering a truly immersive world filled with nature. ",
                     "tagline": "Soothing nature scenes"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -10142,8 +10142,8 @@
         "name": "Wild Plant Survival Guide",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Calculated Industries",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10180,8 +10180,8 @@
                 "releaseDate": "2010-08-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.wildplants",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10196,6 +10196,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10228,8 +10230,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Poisonous and Edible Plants",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10292,11 +10292,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "iSleep Easy",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Meditation Oasis",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Meditation Oasis",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10333,8 +10333,8 @@
                 "releaseDate": "2012-03-15",
                 "hasInAppPurchases": false,
                 "bundleId": "sleepeasy",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10350,6 +10350,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10382,8 +10384,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Meditations for Restful Sleep",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10446,8 +10446,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Body weight workouts",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "Susnet AB",
         "isIOSBinaryMacOSCompatible": true,
@@ -10482,13 +10482,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-10-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.poworkout",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10501,9 +10501,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10536,8 +10538,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Simple but effective exercises",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10600,8 +10600,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "The Work App",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "Byron Katie International, Inc",
         "isIOSBinaryMacOSCompatible": true,
@@ -10658,6 +10658,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10690,8 +10692,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10753,11 +10753,11 @@
             ],
             "ariaLabelForRatings": "3.0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Organ Clock",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Dominik Wei-Fieg",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dominik Wei-Fieg",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10811,6 +10811,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -10843,8 +10845,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10909,8 +10909,8 @@
         "name": "Stark ViPR",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Virtual Trainer Sweden AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Virtual Trainer Sweden AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10942,13 +10942,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-10-10",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-VIPR",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10961,9 +10961,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10997,7 +10998,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11065,8 +11065,8 @@
         "name": "SleepStream 2 Ultimate",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Explosive Apps",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Explosive Apps",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11098,13 +11098,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-06-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cannonballconsulting.sleepstream2ultimate",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11116,9 +11116,11 @@
                     "textColor4": "a3a3b8"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11151,8 +11153,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Sleep. Relax. Escape. Enjoy.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11221,8 +11221,8 @@
         "name": "Supplements Guide",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kevin Kozan",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11275,6 +11275,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11307,8 +11309,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11373,8 +11373,8 @@
         "name": "FoodTrackerPro - Daily Food Eating Log",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Aspyre Solutions",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11427,6 +11427,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11459,8 +11461,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11525,8 +11525,8 @@
         "name": "Mind Monitor",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "James Clutterbuck",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "James Clutterbuck",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11563,8 +11563,8 @@
                 "releaseDate": "2015-07-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sonicPenguins.MuseMonitor",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11580,6 +11580,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11612,8 +11614,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11678,8 +11678,8 @@
         "name": "Data Manager for Fitbit",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sunny Studio",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11716,8 +11716,8 @@
                 "releaseDate": "2013-12-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sunnystudio.uptrending",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11733,6 +11733,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11765,8 +11767,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Dashboard and Sync to Health",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11886,6 +11886,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -11918,8 +11920,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11942,7 +11942,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1737299618235,
-                "MZ_INDEXER": 1739484816068
+                "MZ_INDEXER": 1739908353882
             }
         },
         "supportsArcade": false,
@@ -12025,8 +12025,8 @@
                 "releaseDate": "2013-05-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.parabolicriver.Tabata-Stopwatch-Pro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12042,6 +12042,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12074,8 +12076,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Tabata Timer and HIIT Timer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12099,7 +12099,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731378121393,
-                "MZ_INDEXER": 1739552335294
+                "MZ_INDEXER": 1739916395434
             }
         },
         "supportsArcade": false,
@@ -12141,8 +12141,8 @@
         "name": "Training ball & exercise band",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Susnet AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Susnet AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12174,8 +12174,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-07-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.poworkout.ballband",
@@ -12193,9 +12193,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12229,7 +12230,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Exercises for better posture",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12292,8 +12292,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Mr Smooth Pro",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "Swim Smooth Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -12349,6 +12349,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12381,8 +12383,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12446,11 +12446,11 @@
             "ariaLabelForRatings": "4.8 stars"
         },
         "watchBundleId": "com.gymgoal.GymGoal2.watchkitapp",
-        "genreDisplayName": "Health & Fitness",
         "name": "GymGoal Pro",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Maryna Kolokolkina",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Maryna Kolokolkina",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -12483,13 +12483,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-11-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gymgoal.GymGoal2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12502,9 +12502,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12537,10 +12539,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "The most flexible Pro app",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12550,8 +12551,7 @@
                     "textColor2": "fab456",
                     "textColor3": "c9a270",
                     "textColor4": "c89256"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -12652,8 +12652,8 @@
                 "releaseDate": "2010-12-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.banzailabs.FastReflexes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12669,6 +12669,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12701,8 +12703,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Energy, Fast Reflexes & Speed",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12768,8 +12768,8 @@
         "name": "Deep Sleep with AJ",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Universal Relaxation Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12823,6 +12823,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -12855,8 +12857,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Andrew Johnson Meditation",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12955,8 +12955,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-05-31",
                 "hasInAppPurchases": false,
                 "bundleId": "se.virtualtrainer.VT-Gym-Ball",
@@ -12974,9 +12974,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13010,7 +13011,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13079,8 +13079,8 @@
         "name": "WomanLog Pregnancy Pro",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Pro Active App",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Pro Active App",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13117,8 +13117,8 @@
                 "releaseDate": "2012-03-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.proactiveapp.womanlogpregnancy.pro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13134,6 +13134,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13166,8 +13168,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13235,8 +13235,8 @@
         "name": "Home Natural Remedies",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Lazy Yards",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13290,6 +13290,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13322,8 +13324,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Natural remedies for everyone",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13427,12 +13427,11 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-09-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ilbsoft.irelaxpremium",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -13444,6 +13443,7 @@
                     "textColor4": "a8b2cd"
                 },
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13456,9 +13456,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13491,10 +13493,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "White Noise & Fan",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13504,8 +13505,7 @@
                     "textColor2": "d2dee9",
                     "textColor3": "bfc5d7",
                     "textColor4": "a8b4c8"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -13571,8 +13571,8 @@
         "name": "Hand-to-Hand Combat",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Calculated Industries",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Calculated Industries",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13609,8 +13609,8 @@
                 "releaseDate": "2009-09-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.handtohand",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13626,6 +13626,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13658,8 +13660,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Valuable and Handy Reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13721,8 +13721,8 @@
             ],
             "ariaLabelForRatings": "4.8 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Sleep Bug Pro",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "Arnt-Henning Moberg",
         "isIOSBinaryMacOSCompatible": false,
@@ -13757,13 +13757,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2011-10-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sleepbugpro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13776,9 +13776,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13811,7 +13812,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "White Noise Soundscapes",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13879,8 +13879,8 @@
             "ariaLabelForRatings": "3.0 stars"
         },
         "watchBundleId": "com.maxwell.contractionmonitor.watchkitapp",
-        "genreDisplayName": "Health & Fitness",
         "name": "Contraction Monitor Pro",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
         "artistName": "倩 赵",
         "isIOSBinaryMacOSCompatible": true,
@@ -13916,13 +13916,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2011-09-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.maxwell.contractionmonitor",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13935,9 +13935,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -13970,8 +13972,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Contractions Counter & Timer",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -14102,6 +14102,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14134,8 +14136,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14197,11 +14197,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Inner Garden",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "力 杨",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "力 杨",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14233,13 +14233,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-07-18",
                 "hasInAppPurchases": false,
                 "bundleId": "pinx.game.mindflow",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14252,9 +14252,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14297,13 +14299,11 @@
                         "textColor4": "3e3e3a"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "a retreat of serenity",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Practice your deep focus"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -14367,8 +14367,8 @@
         "name": "TaiChi 108 Yang Classical Form",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "YMAA Publication Center, Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14422,6 +14422,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14454,8 +14456,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14553,8 +14553,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-09-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mainstreetcodellc.HotYogaTimer",
@@ -14572,9 +14572,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14607,8 +14609,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Bikram Postures 60 & 90 minute",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14674,8 +14674,8 @@
         "name": "Stark Bosu Ball",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Virtual Trainer Sweden AB",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14729,6 +14729,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -14761,8 +14763,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14858,8 +14858,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-04-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.maxwell.meditationtimerforipad",
@@ -14877,9 +14877,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14913,7 +14914,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Simple Insight and Zen Timer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14979,11 +14979,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "QiFood Pro",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Dominik Wei-Fieg",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dominik Wei-Fieg",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15037,6 +15037,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -15069,8 +15071,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15132,11 +15132,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Health & Fitness",
         "name": "Weight Chart",
+        "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Piet Jonas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15168,13 +15168,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-09-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.WeightChart",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15187,9 +15187,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 838,
@@ -15222,8 +15224,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Überwache Dein Gewicht",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15293,8 +15293,8 @@
         "name": "Cholesterol Track-iCholesterol",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "iHealth Ventures LLC.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "iHealth Ventures LLC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15326,8 +15326,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-02-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ihealthventures.icholesterol",
@@ -15344,9 +15344,10 @@
                     "textColor4": "642d04"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -15380,7 +15381,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Cholesterol Diary",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15446,8 +15446,8 @@
         "name": "Baby Dreams PRO - Calm lullaby",
         "genreDisplayName": "Health & Fitness",
         "isPreorder": false,
-        "artistName": "WonderApps AB",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "WonderApps AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15479,8 +15479,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-05-15",
                 "hasInAppPurchases": false,
                 "bundleId": "Jian.babyDreams",
@@ -15498,9 +15498,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -15534,7 +15535,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Anime & lullaby for baby sleep",
                 "hasSafariExtension": false,
                 "requiresGameController": false

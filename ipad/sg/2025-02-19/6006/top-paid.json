@@ -56,8 +56,8 @@
         "genreDisplayName": "Reference",
         "name": "e-Sword HD: Bible Study to Go",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Rick Meyers",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -108,10 +108,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -144,7 +144,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Study the Bible fast and easy!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -212,8 +212,8 @@
         "genreDisplayName": "Reference",
         "name": "WolframAlpha Classic",
         "isPreorder": false,
-        "artistName": "Wolfram Group LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Wolfram Group LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -250,8 +250,8 @@
                 "releaseDate": "2009-10-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.wolframalpha.wolframalpha",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -264,9 +264,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -310,7 +311,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -376,8 +376,8 @@
         },
         "watchBundleId": "com.pakdata.QuranMajeed.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "6.2",
-        "genreDisplayName": "Reference",
         "name": "Quran Majeed Pro Ramadan 2025",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Pakistan Data Management Services",
         "isIOSBinaryMacOSCompatible": true,
@@ -419,7 +419,6 @@
                 "hasInAppPurchases": true,
                 "bundleId": "com.pakdata.QuranMajeed",
                 "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -430,6 +429,7 @@
                     "textColor3": "302806",
                     "textColor4": "423013"
                 },
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -446,7 +446,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -479,6 +478,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Loved by 65M+ muslims",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -552,11 +552,11 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "3.0.11",
-        "genreDisplayName": "Reference",
         "name": "Barefoot World Atlas",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Barefoot Books Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -593,8 +593,8 @@
                 "releaseDate": "2012-03-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.touchpress.atlas.ipad.english",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -607,10 +607,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -663,6 +662,7 @@
                         "textColor4": "352524"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "The world at your fingertips",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -728,8 +728,8 @@
             ],
             "ariaLabelForRatings": "4.6 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "iMissal Catholic",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Cantcha, Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -769,8 +769,8 @@
                 "releaseDate": "2009-03-27",
                 "hasInAppPurchases": true,
                 "bundleId": "com.cantcha.iMissal",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -785,6 +785,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -817,7 +818,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Mass Readings and Lectionary",
                 "hasSafariExtension": false,
@@ -842,7 +842,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731363478048,
-                "MZ_INDEXER": 1739549380093
+                "MZ_INDEXER": 1739919512008
             }
         },
         "supportsArcade": false,
@@ -882,8 +882,8 @@
         "genreDisplayName": "Reference",
         "name": "Quran Reader HD",
         "isPreorder": false,
-        "artistName": "Batoul Apps",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Batoul Apps",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -920,8 +920,8 @@
                 "releaseDate": "2010-08-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.batoulapps.QuranReaderHD",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -934,11 +934,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -971,6 +970,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1093,7 +1093,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1136,6 +1135,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "100,000 classic works of art",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1199,8 +1199,8 @@
         "genreDisplayName": "Reference",
         "name": "Atlas 2023 Pro: Maps & Facts",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Appventions",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1250,10 +1250,10 @@
                     "textColor4": "39494d"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1286,7 +1286,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "World Maps, Facts & Statistics",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1386,8 +1386,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-04-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wordwebsoftware.WWAudio",
@@ -1409,7 +1409,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1442,6 +1441,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "British English dictionary",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1465,7 +1465,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739774607679,
-                "MZ_INDEXER": 1739829629421
+                "MZ_INDEXER": 1739926291500
             }
         },
         "supportsArcade": false,
@@ -1511,8 +1511,8 @@
         "genreDisplayName": "Reference",
         "name": "LDOCE",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Enfour, Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1562,10 +1562,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1598,7 +1598,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Longman Contemporary English",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1666,8 +1666,8 @@
         "genreDisplayName": "Reference",
         "name": "Wikipanion Plus for iPad",
         "isPreorder": false,
-        "artistName": "Robert Chin",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Robert Chin",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1704,8 +1704,8 @@
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.laya.osiris.wikipanion.plus.ipad",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1721,7 +1721,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1764,7 +1764,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1869,8 +1869,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.word-in-the-hand.TalkingThai",
@@ -1892,7 +1892,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -1925,6 +1924,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1947,7 +1947,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731378397749,
-                "MZ_INDEXER": 1739829286865
+                "MZ_INDEXER": 1739912106411
             }
         },
         "supportsArcade": false,
@@ -1992,8 +1992,8 @@
         "genreDisplayName": "Reference",
         "name": "WordBook (Universal)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "TranCreative Software",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2043,10 +2043,10 @@
                     "textColor4": "f28684"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -2089,7 +2089,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "English Dictionary & Thesaurus",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2155,8 +2155,8 @@
         "genreDisplayName": "Reference",
         "name": "Airports",
         "isPreorder": false,
-        "artistName": "Applicate Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Applicate Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2193,8 +2193,8 @@
                 "releaseDate": "2008-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "info.lundkvist.Airports",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2207,11 +2207,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -2244,6 +2243,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "The airport directory",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2361,10 +2361,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -2397,7 +2397,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2462,8 +2462,8 @@
         "genreDisplayName": "Reference",
         "name": "Strong's Concordance",
         "isPreorder": false,
-        "artistName": "Glen Ramsay",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Glen Ramsay",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2500,8 +2500,8 @@
                 "releaseDate": "2010-12-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.orionsys.strongscon",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2513,9 +2513,10 @@
                     "textColor4": "1d9fd3"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -2548,7 +2549,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2614,8 +2614,8 @@
         "genreDisplayName": "Reference",
         "name": "Dictionary and Thesaurus Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Farlex, Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2666,10 +2666,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -2702,7 +2702,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "by TheFreeDictionary.com",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2726,7 +2726,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731375322089,
-                "MZ_INDEXER": 1739489384206
+                "MZ_INDEXER": 1739933365775
             }
         },
         "supportsArcade": false,
@@ -2768,8 +2768,8 @@
         "genreDisplayName": "Reference",
         "name": "Collins Malay Dictionary",
         "isPreorder": false,
-        "artistName": "MobiSystems, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "MobiSystems, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2806,8 +2806,8 @@
                 "releaseDate": "2009-09-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobisystems.CollinsMalayEasy",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2822,7 +2822,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -2855,7 +2855,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "English<>Malay reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2879,7 +2879,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731360116518,
-                "MZ_INDEXER": 1739551544047
+                "MZ_INDEXER": 1739929259769
             }
         },
         "supportsArcade": false,
@@ -2954,8 +2954,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-04-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.imranqureshi.99namesofallah",
@@ -2976,7 +2976,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -3009,6 +3008,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3125,10 +3125,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -3161,7 +3161,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "WORLD ATLAS with Retina Maps",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3228,8 +3228,8 @@
         "genreDisplayName": "Reference",
         "name": "欧路词典 Eudic 增强版",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "QianYan Network",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3261,8 +3261,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-11-02",
                 "hasInAppPurchases": true,
                 "bundleId": "eusoft.eudic.pro",
@@ -3280,10 +3280,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -3316,7 +3316,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "支持英语日语等词典的离线词典阅读工具",
                 "hasSafariExtension": true,
                 "requiresGameController": false
@@ -3379,11 +3379,11 @@
             ],
             "ariaLabelForRatings": "1.0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "Prof Brian Cox's Universe",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "HarperCollins Publishers Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3420,8 +3420,8 @@
                 "releaseDate": "2012-11-14",
                 "hasInAppPurchases": false,
                 "bundleId": "uk.harpercollins.thewondersof",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3438,7 +3438,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -3481,6 +3480,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3543,8 +3543,8 @@
         "genreDisplayName": "Reference",
         "name": "Dictionary.com Pro for iPad",
         "isPreorder": false,
-        "artistName": "Curiosity Media",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Curiosity Media",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3581,8 +3581,8 @@
                 "releaseDate": "2011-07-29",
                 "hasInAppPurchases": true,
                 "bundleId": "com.dictionary.ipadpaid",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3595,9 +3595,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -3640,7 +3641,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "English Vocabulary & Thesaurus",
                 "hasSafariExtension": false,
@@ -3740,8 +3740,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "fr.larousse.traducteur.anglais",
@@ -3758,10 +3758,10 @@
                     "textColor4": "b2cae6"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -3794,7 +3794,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3859,8 +3859,8 @@
         "genreDisplayName": "Reference",
         "name": "iRosary Classic",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Opicury Software",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3892,8 +3892,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-01-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.opicury.iRosary",
@@ -3911,10 +3911,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -3947,7 +3947,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Catholic Rosary and Prayers",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3971,7 +3971,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738959209646,
-                "MZ_INDEXER": 1739551682909
+                "MZ_INDEXER": 1739925215071
             }
         },
         "supportsArcade": false,
@@ -4046,8 +4046,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2010-09-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.alphablind.iknowdogs.hd",
@@ -4069,7 +4069,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -4102,6 +4101,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Dog Breed Guide and Quiz Game",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4125,7 +4125,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1733527742679,
-                "MZ_INDEXER": 1739539794440
+                "MZ_INDEXER": 1739924264016
             }
         },
         "supportsArcade": false,
@@ -4166,8 +4166,8 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "watchBundleId": "com.panda.nab.watchkitapp",
-        "genreDisplayName": "Reference",
         "name": "Catholic New American Bible RE",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "greg fairbrother",
         "isIOSBinaryMacOSCompatible": true,
@@ -4208,8 +4208,8 @@
                 "releaseDate": "2011-08-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.panda.nab",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4226,7 +4226,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -4259,9 +4258,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Revised Edition  (NABRE)",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4271,7 +4270,8 @@
                     "textColor2": "dbffe8",
                     "textColor3": "ebd2d3",
                     "textColor4": "ced2c1"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -4373,8 +4373,8 @@
                 "releaseDate": "2009-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wordwebsoftware.ChamThes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4390,7 +4390,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -4433,7 +4433,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Offline English thesaurus",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4457,7 +4457,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731358804370,
-                "MZ_INDEXER": 1739485785117
+                "MZ_INDEXER": 1739925496279
             }
         },
         "supportsArcade": false,
@@ -4496,8 +4496,8 @@
             ],
             "ariaLabelForRatings": "4.3 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "Brian Cox's Wonders of Life",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "HarperCollins Publishers Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -4537,8 +4537,8 @@
                 "releaseDate": "2014-02-17",
                 "hasInAppPurchases": false,
                 "bundleId": "uk.co.harpercollinswondersoflife",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4554,6 +4554,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -4596,7 +4597,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4620,7 +4620,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738951111584,
-                "MZ_INDEXER": 1739549814083
+                "MZ_INDEXER": 1739930964915
             }
         },
         "supportsArcade": false,
@@ -4661,8 +4661,8 @@
             "ariaLabelForRatings": "4.8 stars"
         },
         "watchBundleId": "com.m-w.dictionary-premium.watchkitapp",
-        "genreDisplayName": "Reference",
         "name": "Merriam-Webster Dictionary+",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Merriam-Webster, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -4703,8 +4703,8 @@
                 "releaseDate": "2011-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.m-w.dictionary-premium",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4720,6 +4720,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -4762,7 +4763,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Premium Ad-free Dictionary",
                 "hasSafariExtension": false,
@@ -4837,8 +4837,8 @@
             "ariaLabelForRatings": "4.9 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "7.14.6",
-        "genreDisplayName": "Reference",
         "name": "Life Application Study Bible",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Tecarta, Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -4878,8 +4878,8 @@
                 "releaseDate": "2017-06-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tecarta.JesusCentered",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4894,6 +4894,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -4926,7 +4927,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "The best-selling study Bible!",
                 "hasSafariExtension": false,
@@ -4990,8 +4990,8 @@
             ],
             "ariaLabelForRatings": "1.0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "FAR/AIM",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "ASA",
         "isIOSBinaryMacOSCompatible": true,
@@ -5048,6 +5048,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -5080,7 +5081,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5153,8 +5153,8 @@
         "genreDisplayName": "Reference",
         "name": "Touch Bible Loaded: Level Up!",
         "isPreorder": false,
-        "artistName": "Patrick Franklin",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Patrick Franklin",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -5191,8 +5191,8 @@
                 "releaseDate": "2009-05-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.patrickfranklin.TouchBibleFull",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5205,10 +5205,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -5241,7 +5241,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Notes, Audio, Strongs & Maps",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -5317,8 +5317,8 @@
         "genreDisplayName": "Reference",
         "name": "Cheats: Sims 3 Edition",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "AppYea Inc",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5350,8 +5350,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": true,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-06-24",
                 "hasInAppPurchases": true,
                 "bundleId": "Sims3Cheats",
@@ -5363,10 +5363,10 @@
                     "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple/36/bf/d3/mzl.hyduzqcu.png/{w}x{h}{c}.{f}"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -5399,7 +5399,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5422,7 +5422,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731363594970,
-                "MZ_INDEXER": 1739485950169
+                "MZ_INDEXER": 1739910737276
             }
         },
         "supportsArcade": false,
@@ -5502,8 +5502,8 @@
                 "releaseDate": "2009-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.pilothandbook",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5519,7 +5519,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -5552,7 +5552,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Calcs and Helpful References",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5619,8 +5619,8 @@
         "genreDisplayName": "Reference",
         "name": "Chambers Dictionary",
         "isPreorder": false,
-        "artistName": "Antony Lewis",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Antony Lewis",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5657,8 +5657,8 @@
                 "releaseDate": "2009-05-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wordwebsoftware.Chambers",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5674,7 +5674,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -5707,7 +5707,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Classic English reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5826,10 +5826,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -5862,7 +5862,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Learn all 200+ knots!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5961,8 +5961,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-01-07",
                 "hasInAppPurchases": false,
                 "bundleId": "name.xianan.chen.theworld",
@@ -5983,7 +5983,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -6016,6 +6015,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6139,7 +6139,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -6172,6 +6171,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6223,21 +6223,21 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.9,
-            "ratingCount": 686,
+            "ratingCount": 688,
             "ratingCountList": [
                 8,
                 1,
                 14,
                 34,
-                629
+                631
             ],
             "ariaLabelForRatings": "4.9 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "Al Quran Translation",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "PT Dalfindo Cipta Karya",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6274,8 +6274,8 @@
                 "releaseDate": "2019-08-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.andiios.quran.id",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6288,10 +6288,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -6324,7 +6324,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Only Indonesia, Malay, English",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6389,8 +6389,8 @@
             "ariaLabelForRatings": "2.0 stars"
         },
         "watchBundleId": "com.speedymarks.apps.Thesaurus.watchkitapp",
-        "genreDisplayName": "Reference",
         "name": "Thesaurus App",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
@@ -6447,6 +6447,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -6479,9 +6480,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6491,8 +6492,7 @@
                     "textColor2": "161616",
                     "textColor3": "2c2c2c",
                     "textColor4": "303030"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -6591,8 +6591,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-07-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.artware.ArtF",
@@ -6610,10 +6610,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -6646,7 +6646,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6766,10 +6766,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -6802,9 +6802,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Handy Bible Study Tool",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6814,8 +6815,7 @@
                     "textColor2": "faf2d2",
                     "textColor3": "d9cecc",
                     "textColor4": "d5c4a9"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -6875,8 +6875,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "Navigation Rules",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Calculated Industries",
         "isIOSBinaryMacOSCompatible": true,
@@ -6932,6 +6932,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -6964,7 +6965,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Boating Regulations",
                 "hasSafariExtension": false,
@@ -7062,8 +7062,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-06-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.m-w.dictionaryipad-learners-premium",
@@ -7083,6 +7083,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -7115,7 +7116,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7181,8 +7181,8 @@
         "genreDisplayName": "Reference",
         "name": "Cheats for Sims 3 Ambitions, Original & World Adventures (Combo Pack)",
         "isPreorder": false,
-        "artistName": "AppYea Inc",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "AppYea Inc",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7219,17 +7219,18 @@
                 "releaseDate": "2011-08-25",
                 "hasInAppPurchases": false,
                 "bundleId": "app.Sims3Combo",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 512,
                     "height": 512,
                     "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple/24/e1/97/mzl.ijdvuiqy.png/{w}x{h}{c}.{f}"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -7262,7 +7263,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7380,10 +7380,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -7416,7 +7416,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Fight the fight of faith",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7483,8 +7483,8 @@
         "genreDisplayName": "Reference",
         "name": "ウィズダム英和・和英辞典",
         "isPreorder": false,
-        "artistName": "物書堂",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "物書堂",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7521,8 +7521,8 @@
                 "releaseDate": "2019-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.monokakido.WISDOM",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7635,8 +7635,8 @@
         "genreDisplayName": "Reference",
         "name": "iPilot A320 Study Guide",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Chain Linked Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7687,10 +7687,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -7723,7 +7723,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Flash Cards for the A320",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7822,8 +7822,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-12-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.georgedimidik.MHCC",
@@ -7841,10 +7841,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -7877,7 +7877,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7943,8 +7943,8 @@
         "genreDisplayName": "Reference",
         "name": "YBM English Korean English DIC",
         "isPreorder": false,
-        "artistName": "DaolSoft, Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "DaolSoft, Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7981,8 +7981,8 @@
                 "releaseDate": "2009-05-15",
                 "hasInAppPurchases": true,
                 "bundleId": "YBMEKEDicAllinAll",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7995,9 +7995,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -8030,7 +8031,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "subtitle": "All In All En-Ko-En Dictionary",
                 "hasSafariExtension": false,
@@ -8152,6 +8152,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -8184,7 +8185,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8288,8 +8288,8 @@
                 "releaseDate": "2011-08-04",
                 "hasInAppPurchases": false,
                 "bundleId": "Sims3ambitionscheats",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8300,7 +8300,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -8333,7 +8333,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8356,7 +8356,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738953809856,
-                "MZ_INDEXER": 1739486143536
+                "MZ_INDEXER": 1739907570449
             }
         },
         "supportsArcade": false,
@@ -8396,8 +8396,8 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "watchBundleId": "com.wobbleworks.luminos.watchkitapp",
-        "genreDisplayName": "Reference",
         "name": "Luminos",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Wobbleworks LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -8438,8 +8438,8 @@
                 "releaseDate": "2010-12-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wobbleworks.luminos",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8456,7 +8456,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -8509,12 +8508,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Astronomy companion",
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Mind-blowing space simulator"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8524,7 +8523,8 @@
                     "textColor2": "d2996d",
                     "textColor3": "c68e65",
                     "textColor4": "af815c"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -8584,8 +8584,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "112 Bible Maps + Commentaries",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Sand Apps Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -8625,8 +8625,8 @@
                 "releaseDate": "2011-05-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.biblestudypro.112BibleMaps",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8642,7 +8642,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -8675,6 +8674,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "65 Bibles + Research tools",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8740,8 +8740,8 @@
         "genreDisplayName": "Reference",
         "name": "聖經工具(現代中文譯本)",
         "isPreorder": false,
-        "artistName": "TouchUtility.com",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "TouchUtility.com",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8778,8 +8778,8 @@
                 "releaseDate": "2010-01-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.touchutility.TouchBibleTCV",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8791,9 +8791,10 @@
                     "textColor4": "c2b6a2"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -8826,7 +8827,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8923,8 +8923,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-12-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.animatedknots.knotshd",
@@ -8945,6 +8945,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -8987,7 +8988,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Learn to tie over 195+ knots!",
                 "hasSafariExtension": false,
@@ -9109,6 +9109,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -9141,7 +9142,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9245,8 +9245,8 @@
                 "releaseDate": "2010-04-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobisystems.CollinsEnglishDictAndThes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9261,7 +9261,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -9294,7 +9294,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Complete English reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9358,8 +9358,8 @@
         "genreDisplayName": "Reference",
         "name": "The Pyramids",
         "isPreorder": false,
-        "artistName": "NatureGuides Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "NatureGuides Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9396,8 +9396,8 @@
                 "releaseDate": "2012-10-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.touchpress.pyramids.english",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9410,9 +9410,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -9455,7 +9456,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Explore these ancient wonders",
                 "hasSafariExtension": false,
@@ -9480,7 +9480,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731372969953,
-                "MZ_INDEXER": 1739829641813
+                "MZ_INDEXER": 1739914167528
             }
         },
         "supportsArcade": false,
@@ -9577,10 +9577,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -9613,7 +9613,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "프라임 영한/한영사전",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9637,7 +9637,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731375969671,
-                "MZ_INDEXER": 1739544017625
+                "MZ_INDEXER": 1739925403648
             }
         },
         "supportsArcade": false,
@@ -9730,10 +9730,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -9766,7 +9766,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9893,7 +9893,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -9926,6 +9925,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Strong's, Definitions & Audio",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -10003,8 +10003,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "Army Ranger Handbook",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Calculated Industries",
         "isIOSBinaryMacOSCompatible": true,
@@ -10044,8 +10044,8 @@
                 "releaseDate": "2010-06-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.rangerhandbook",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10062,7 +10062,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -10095,6 +10094,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Calcs and Helpful References",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10193,8 +10193,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-01-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.airplaneflyinghandbook",
@@ -10215,7 +10215,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -10248,6 +10247,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Calcs and Useful References",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10293,7 +10293,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 66,
+                "position": 67,
                 "genreName": "Reference",
                 "genre": 6006,
                 "chart": "top-paid",
@@ -10313,8 +10313,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "ArtPose Pro",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "shawn ogle",
         "isIOSBinaryMacOSCompatible": true,
@@ -10354,8 +10354,8 @@
                 "releaseDate": "2017-12-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.artware.proios",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10372,7 +10372,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -10405,6 +10404,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10427,7 +10427,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731373876576,
-                "MZ_INDEXER": 1739488168766
+                "MZ_INDEXER": 1739931452854
             }
         },
         "supportsArcade": false,
@@ -10469,8 +10469,8 @@
         "genreDisplayName": "Reference",
         "name": "Collins-Robert Concise",
         "isPreorder": false,
-        "artistName": "Ultralingua, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Ultralingua, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10507,8 +10507,8 @@
                 "releaseDate": "2008-10-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ultralingua.iphone.collins-fr-en",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10524,7 +10524,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -10557,7 +10557,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "French-English dictionary",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10623,8 +10623,8 @@
         "genreDisplayName": "Reference",
         "name": "Bible Verses: Living Word",
         "isPreorder": false,
-        "artistName": "ATP Creative",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "ATP Creative",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10661,8 +10661,8 @@
                 "releaseDate": "2009-08-22",
                 "hasInAppPurchases": false,
                 "bundleId": "555777.com.atp-creative.LivingWord",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10675,11 +10675,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -10712,6 +10711,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Fill your day with God's Word",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10781,8 +10781,8 @@
         "genreDisplayName": "Reference",
         "name": "Roget's II: New Thesaurus",
         "isPreorder": false,
-        "artistName": "Enfour, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Enfour, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10818,8 +10818,8 @@
                 "releaseDate": "2019-02-02",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.enfour.rogets",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10835,7 +10835,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -10868,7 +10868,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Synonyms & Antonyms by UniDict",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10892,7 +10892,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731376532913,
-                "MZ_INDEXER": 1739830987319
+                "MZ_INDEXER": 1739920469405
             }
         },
         "supportsArcade": false,
@@ -10968,8 +10968,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-11-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doosandonga.iPad.PrimeDICTiPad",
@@ -10991,7 +10991,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -11024,6 +11023,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Prime Dictionary E-K/K-E HD",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11140,10 +11140,10 @@
                     "textColor4": "51433a"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -11176,7 +11176,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Reference Guide for Wood",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11245,8 +11245,8 @@
         "genreDisplayName": "Reference",
         "name": "HebrewBible",
         "isPreorder": false,
-        "artistName": "Zev Clementson",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Zev Clementson",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11283,8 +11283,8 @@
                 "releaseDate": "2009-05-03",
                 "hasInAppPurchases": false,
                 "bundleId": "HebrewBible",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11294,7 +11294,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -11327,7 +11327,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11350,7 +11350,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731360153856,
-                "MZ_INDEXER": 1739542781142
+                "MZ_INDEXER": 1739920429974
             }
         },
         "supportsArcade": false,
@@ -11425,8 +11425,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2019-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ultralingua.iphone.fr-en-2",
@@ -11448,7 +11448,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -11491,6 +11490,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Bilingual dictionary and verbs",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11558,8 +11558,8 @@
         "genreDisplayName": "Reference",
         "name": "Leonardo da Vinci: Anatomy",
         "isPreorder": false,
-        "artistName": "NatureGuides Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "NatureGuides Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11596,8 +11596,8 @@
                 "releaseDate": "2012-05-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.touchpress.leonardo.english",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11610,9 +11610,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -11655,7 +11656,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "His sketches brought to life",
                 "hasSafariExtension": false,
@@ -11722,8 +11722,8 @@
         "genreDisplayName": "Reference",
         "name": "iMissal Catholic Bible",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Cantcha, Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11773,10 +11773,10 @@
                     "textColor4": "582317"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -11809,7 +11809,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11873,8 +11873,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "The Animator’s Survival Kit",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Faber and Faber",
         "isIOSBinaryMacOSCompatible": true,
@@ -11914,8 +11914,8 @@
                 "releaseDate": "2013-04-16",
                 "hasInAppPurchases": false,
                 "bundleId": "uk.co.faber.animators",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11928,10 +11928,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -11974,7 +11974,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12036,11 +12036,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "Daijisen Jpn-Jpn Dictionary",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "HMDT Co., Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12077,8 +12077,8 @@
                 "releaseDate": "2008-12-08",
                 "hasInAppPurchases": true,
                 "bundleId": "jp.co.shogakukan.daijisen2009i",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12091,10 +12091,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -12127,7 +12127,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12233,8 +12233,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-06-04",
                 "hasInAppPurchases": true,
                 "bundleId": "hk.com.medinfo.GModMods",
@@ -12252,10 +12252,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -12288,7 +12288,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12353,8 +12353,8 @@
         "genreDisplayName": "Reference",
         "name": "聖經工具(新標點和合本)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "TouchUtility.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12386,8 +12386,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-02-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.touchutility.TouchBible",
@@ -12404,10 +12404,10 @@
                     "textColor4": "b9b686"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -12440,7 +12440,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12538,8 +12538,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-04-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.biblestudypro.biblecharts",
@@ -12560,7 +12560,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -12593,6 +12592,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Plus Bible Study/Commentaries",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12658,11 +12658,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "Seamanship",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Calculated Industries",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12699,8 +12699,8 @@
                 "releaseDate": "2010-11-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.seamanship",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12712,10 +12712,10 @@
                     "textColor4": "cdb2ce"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -12748,7 +12748,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Handy and Helpful References",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12811,8 +12811,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "US Navy Aircraft Carriers",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Historycentral.com",
         "isIOSBinaryMacOSCompatible": true,
@@ -12852,8 +12852,8 @@
                 "releaseDate": "2010-06-12",
                 "hasInAppPurchases": false,
                 "bundleId": "net.multieducator.Carriers",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12870,7 +12870,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -12903,6 +12902,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "From the Langley to the Ford",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12968,8 +12968,8 @@
         "genreDisplayName": "Reference",
         "name": "7,500 Hebrew Bible Dictionary",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sand Apps Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13001,8 +13001,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.biblestudypro.bighebrewdictionary",
@@ -13019,10 +13019,10 @@
                     "textColor4": "312d28"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -13055,7 +13055,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Bibles and Bible Commentaries",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13122,8 +13122,8 @@
         "genreDisplayName": "Reference",
         "name": "MC - Latest Furniture DIY Mods",
         "isPreorder": false,
-        "artistName": "Chi Kau Wan",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Chi Kau Wan",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13160,8 +13160,8 @@
                 "releaseDate": "2016-09-12",
                 "hasInAppPurchases": true,
                 "bundleId": "hk.com.medinfo.MinecraftFurnitureMods",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13174,11 +13174,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -13211,6 +13210,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Fun Addons Tips Decor Updates",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13309,8 +13309,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-01-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.instrumentflyinghandbook",
@@ -13330,6 +13330,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -13362,7 +13363,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Valuable and Handy Reference",
                 "hasSafariExtension": false,
@@ -13387,7 +13387,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738957270335,
-                "MZ_INDEXER": 1739549494825
+                "MZ_INDEXER": 1739929091397
             }
         },
         "supportsArcade": false,
@@ -13465,8 +13465,8 @@
                 "releaseDate": "2014-04-24",
                 "hasInAppPurchases": false,
                 "bundleId": "timeis.timeis.ipad",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13482,7 +13482,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -13525,7 +13525,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Exact time for any time zone",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13591,8 +13591,8 @@
         "genreDisplayName": "Reference",
         "name": "Adv. Learner’s Dictionary (SC)",
         "isPreorder": false,
-        "artistName": "Cambridge University Press & Assessment (App)",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Cambridge University Press & Assessment (App)",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13629,8 +13629,8 @@
                 "releaseDate": "2013-08-16",
                 "hasInAppPurchases": true,
                 "bundleId": "org.cambridge.dictionary.chinese-simplified",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13647,7 +13647,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -13680,6 +13679,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13702,7 +13702,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731355025743,
-                "MZ_INDEXER": 1739553656755
+                "MZ_INDEXER": 1739921764387
             }
         },
         "supportsArcade": false,
@@ -13782,8 +13782,8 @@
                 "releaseDate": "2011-09-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wolframalpha.words",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13795,10 +13795,10 @@
                     "textColor4": "402714"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -13831,7 +13831,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13854,7 +13854,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731354679173,
-                "MZ_INDEXER": 1739553367554
+                "MZ_INDEXER": 1739911713323
             }
         },
         "supportsArcade": false,
@@ -13950,6 +13950,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -13982,7 +13983,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "English<>French reference",
                 "hasSafariExtension": false,
@@ -14049,8 +14049,8 @@
         "genreDisplayName": "Reference",
         "name": "5,200 Greek Bible Dictionary",
         "isPreorder": false,
-        "artistName": "Sand Apps Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Sand Apps Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14087,8 +14087,8 @@
                 "releaseDate": "2010-12-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.biblestudypro.biggreekdictionary",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14103,7 +14103,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -14136,7 +14136,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Bibles and Bible Commentaries",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14202,8 +14202,8 @@
         "genreDisplayName": "Reference",
         "name": "Tanach Bible",
         "isPreorder": false,
-        "artistName": "AA Rosenbaum Services Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "AA Rosenbaum Services Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14240,8 +14240,8 @@
                 "releaseDate": "2010-06-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.davkaredlex.Totally-Tanach",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14257,7 +14257,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -14290,6 +14289,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "The Hebrew/English Bible",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14352,8 +14352,8 @@
             ],
             "ariaLabelForRatings": "3.0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "大辞林",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "物書堂",
         "isIOSBinaryMacOSCompatible": false,
@@ -14393,8 +14393,8 @@
                 "releaseDate": "2008-12-05",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.monokakido.DAIJIRIN",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14410,6 +14410,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -14442,7 +14443,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14451,13 +14451,13 @@
     },
     {
         "kind": "app",
-        "id": "1113085704",
+        "id": "508965224",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "1423240170",
+                        "id": "508965227",
                         "type": "developers"
                     }
                 ]
@@ -14465,17 +14465,24 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359894286,
-                "MZ_INDEXER": 1739482912218
+                "RTCI": 1739310954589,
+                "MZ_INDEXER": 1739918888258
             }
         },
         "supportsArcade": false,
         "isFirstPartyHideableApp": false,
         "contentRatingsBySystem": {
             "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "Infrequent/Mild Sexual Content and Nudity",
+                    "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References",
+                    "Infrequent/Mild Mature/Suggestive Themes",
+                    "Infrequent/Mild Medical/Treatment Information",
+                    "Infrequent/Mild Profanity or Crude Humour"
+                ]
             }
         },
         "deviceFamilies": [
@@ -14505,171 +14512,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "firstVersionSupportingInAppPurchaseApi": "7.14.6",
-        "genreDisplayName": "Reference",
-        "name": "NASB MacArthur Study Bible",
-        "isPreorder": false,
-        "artistName": "Bible App Labs LLC",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=34980&salableAdamId=1113085704&pricingParameters=STDQ&pg=default&appExtVrsId=834106550",
-                        "type": "buy",
-                        "priceFormatted": "S$ 34.98",
-                        "price": 34.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 215217152
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1113085704&pricingParameters=SWUPD&pg=default&appExtVrsId=834106550",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 215217152
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2016-09-20",
-                "hasInAppPurchases": true,
-                "bundleId": "com.tecarta.NASBMacArthur",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/56/67/60/5667606e-c250-bd08-f7aa-e43c0d010913/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "060808",
-                    "textColor1": "ffffff",
-                    "textColor2": "daa338",
-                    "textColor3": "cdcdcd",
-                    "textColor4": "b0842e"
-                },
-                "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1096,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a4/64/8a/a4648aa8-5e79-5648-fc5e-d28b823d7e98/b52fb5f5-1f61-4bf9-8ca8-1e9373a6475c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1096,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fa/f0/81/faf0810c-bdcd-2cf4-f7c6-81a2382fdf9e/50e580ad-ba56-4f94-bf90-5e414a23601f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575c61",
-                        "textColor1": "f9fafc",
-                        "textColor2": "eff0f2",
-                        "textColor3": "d8dadd",
-                        "textColor4": "d0d2d5"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ab/fe/fb/abfefb6a-2301-1662-c5a0-828e21676ced/9bd3b293-98ee-4385-98a9-d1734b651b95.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "508965224",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "508965227",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1739310954589,
-                "MZ_INDEXER": 1739550476315
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "Infrequent/Mild Sexual Content and Nudity",
-                    "Infrequent/Mild Alcohol, Tobacco, or Drug Use or References",
-                    "Infrequent/Mild Mature/Suggestive Themes",
-                    "Infrequent/Mild Medical/Treatment Information",
-                    "Infrequent/Mild Profanity or Crude Humour"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 95,
-                "genreName": "Reference",
-                "genre": 6006,
-                "chart": "top-paid",
-                "genreShortName": "Reference"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 stars"
-        },
-        "genreDisplayName": "Reference",
         "name": "Advanced English Dictionary HD",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "JDMI Kft.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14706,8 +14553,8 @@
                 "releaseDate": "2012-03-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jdictionarymobile.aedxl",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14720,10 +14567,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -14756,7 +14603,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "English Dictionary & Thesaurus",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14780,7 +14627,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731378422368,
-                "MZ_INDEXER": 1739544665034
+                "MZ_INDEXER": 1739925054062
             }
         },
         "supportsArcade": false,
@@ -14799,7 +14646,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 96,
+                "position": 95,
                 "genreName": "Reference",
                 "genre": 6006,
                 "chart": "top-paid",
@@ -14855,8 +14702,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-05-14",
                 "hasInAppPurchases": false,
                 "bundleId": "net.multieducator.Battleships",
@@ -14877,6 +14724,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -14909,7 +14757,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "From the Indiana the Wisconsin",
                 "hasSafariExtension": false,
@@ -14953,7 +14800,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 97,
+                "position": 96,
                 "genreName": "Reference",
                 "genre": 6006,
                 "chart": "top-paid",
@@ -14973,8 +14820,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Reference",
         "name": "Chinese Strokes Order Pro",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "健生 任",
         "isIOSBinaryMacOSCompatible": true,
@@ -15014,8 +14861,8 @@
                 "releaseDate": "2015-01-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.patgdut.ChineseStrokesOrderPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15028,10 +14875,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -15064,7 +14911,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Learn Chinese characters",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15088,7 +14935,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731378035232,
-                "MZ_INDEXER": 1739487153604
+                "MZ_INDEXER": 1739916492430
             }
         },
         "supportsArcade": false,
@@ -15107,7 +14954,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 98,
+                "position": 97,
                 "genreName": "Reference",
                 "genre": 6006,
                 "chart": "top-paid",
@@ -15130,8 +14977,8 @@
         "genreDisplayName": "Reference",
         "name": "iPilot B777 Study Guide",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Chain Linked Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15163,8 +15010,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-11-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.chainlinkedinc.iPilotB777StudyGuide",
@@ -15182,10 +15029,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -15218,7 +15065,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Flash Cards for the B777",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15266,7 +15113,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 99,
+                "position": 98,
                 "genreName": "Reference",
                 "genre": 6006,
                 "chart": "top-paid",
@@ -15289,8 +15136,8 @@
         "genreDisplayName": "Reference",
         "name": "Ship Captain's Medical Guide",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Calculated Industries",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15322,8 +15169,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-10-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doubledogstudios.shipcaptainmedicalguide",
@@ -15340,10 +15187,10 @@
                     "textColor4": "b8a0c1"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -15376,7 +15223,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Critical Medical References",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15418,7 +15265,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 100,
+                "position": 99,
                 "genreName": "Reference",
                 "genre": 6006,
                 "chart": "top-paid",
@@ -15439,8 +15286,8 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.11",
-        "genreDisplayName": "Reference",
         "name": "Collins German-English",
+        "genreDisplayName": "Reference",
         "isPreorder": false,
         "artistName": "Ultralingua, Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -15494,10 +15341,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1096,
@@ -15530,8 +15377,161 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Bilingual dictionary and verbs",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "289008283",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "434747758",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738964000016,
+                "MZ_INDEXER": 1739537280818
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 100,
+                "genreName": "Reference",
+                "genre": 6006,
+                "chart": "top-paid",
+                "genreShortName": "Reference"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 stars"
+        },
+        "name": "Periodic Table",
+        "genreDisplayName": "Reference",
+        "isPreorder": false,
+        "artistName": "Alteru Inc.",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=980&salableAdamId=289008283&pricingParameters=STDQ&pg=default&appExtVrsId=863239253",
+                        "type": "buy",
+                        "priceFormatted": "S$ 0.98",
+                        "price": 0.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1768448
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=289008283&pricingParameters=SWUPD&pg=default&appExtVrsId=863239253",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1768448
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2019-02-12",
+                "hasInAppPurchases": false,
+                "bundleId": "com.yourcompany.PeriodicTable",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ee/c6/70/eec670e3-0c1f-9987-0570-da2bbc08a68d/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "98167f",
+                    "textColor1": "ffffff",
+                    "textColor2": "fadef4",
+                    "textColor3": "ead0e5",
+                    "textColor4": "e6b6dc"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1096,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/a4/64/8a/a4648aa8-5e79-5648-fc5e-d28b823d7e98/b52fb5f5-1f61-4bf9-8ca8-1e9373a6475c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1096,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/fa/f0/81/faf0810c-bdcd-2cf4-f7c6-81a2382fdf9e/50e580ad-ba56-4f94-bf90-5e414a23601f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575c61",
+                        "textColor1": "f9fafc",
+                        "textColor2": "eff0f2",
+                        "textColor3": "d8dadd",
+                        "textColor4": "d0d2d5"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ab/fe/fb/abfefb6a-2301-1662-c5a0-828e21676ced/9bd3b293-98ee-4385-98a9-d1734b651b95.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

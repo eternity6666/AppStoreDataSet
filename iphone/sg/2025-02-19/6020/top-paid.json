@@ -16,7 +16,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731360689220,
-                "MZ_INDEXER": 1739484982475
+                "MZ_INDEXER": 1739911172162
             }
         },
         "supportsArcade": false,
@@ -116,6 +116,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -149,8 +150,164 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "The Official FODMAP App",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "700740791",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1407197501",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1731359947054,
+                "MZ_INDEXER": 1739519063894
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "Infrequent/Mild Sexual Content and Nudity",
+                    "Infrequent/Mild Medical/Treatment Information"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 2,
+                "genreName": "Medical",
+                "genre": 6020,
+                "chart": "top-paid",
+                "genreShortName": "Medical"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.5,
+            "ratingCount": 2,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+            "ariaLabelForRatings": "4.5 stars"
+        },
+        "genreDisplayName": "Medical",
+        "name": "Squeezy",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Living With Ltd",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=3980&salableAdamId=700740791&pricingParameters=STDQ&pg=default&appExtVrsId=870041618",
+                        "type": "buy",
+                        "priceFormatted": "S$ 3.98",
+                        "price": 3.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 48945152
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=700740791&pricingParameters=SWUPD&pg=default&appExtVrsId=870041618",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 48945152
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "12.4",
+                "releaseDate": "2014-06-30",
+                "hasInAppPurchases": false,
+                "bundleId": "com.propagata.squeezy",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/c4/3f/23c43f49-bd68-5df5-534a-c0ac6e4ea399/AppIcon-0-0-1x_U007ephone-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "0a5694",
+                    "textColor1": "e5f1fa",
+                    "textColor2": "a2d2f1",
+                    "textColor3": "b9d2e6",
+                    "textColor4": "84badf"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
+                        "bgColor": "431ccc",
+                        "textColor1": "f5f3fc",
+                        "textColor2": "ece8f9",
+                        "textColor3": "d2c8f2",
+                        "textColor4": "cabff0"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "Pelvic Floor Muscle Exercises",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -195,7 +352,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -251,8 +408,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-04-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.peripheralbrain.journalclub",
@@ -273,6 +430,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -306,7 +464,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Trials at your fingertips",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -349,7 +506,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -405,13 +562,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-03-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.booksofdiscovery.anatomymapp",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -424,10 +581,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -461,6 +617,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -502,7 +659,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -558,8 +715,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-06-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tactustherapy.LanguageTherapy",
@@ -580,6 +737,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -613,7 +771,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "subtitle": "Help for Aphasia after Stroke",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -661,7 +818,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 6,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -718,8 +875,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-07-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.argosy.vb.superatlas",
@@ -740,6 +897,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -793,7 +951,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Complete 3D Human Body",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -843,7 +1000,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 7,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -920,6 +1077,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -953,7 +1111,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -997,7 +1154,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -1053,13 +1210,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2008-12-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.qxmd.ECGGuide",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1075,7 +1232,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1109,6 +1265,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1151,7 +1308,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -1175,8 +1332,8 @@
         "genreDisplayName": "Medical",
         "name": "Blood Pressure Companion Pro",
         "isPreorder": false,
-        "artistName": "倩 赵",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "倩 赵",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "3.0",
         "platformAttributes": {
@@ -1209,8 +1366,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-08-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.maxwell.bpcompanion",
@@ -1228,8 +1385,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -1320,7 +1477,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 10,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -1395,10 +1552,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1432,6 +1588,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1473,7 +1630,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 11,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -1529,8 +1686,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-10-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.aexol.newglasses",
@@ -1551,6 +1708,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -1584,7 +1742,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Handy magnifying glass",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1627,7 +1784,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 12,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -1648,11 +1805,11 @@
             "ariaLabelForRatings": "4.7 stars"
         },
         "watchBundleId": "com.bazilsoft.maybebaby.watchkitapp",
-        "genreDisplayName": "Medical",
         "name": "Maybe Baby™ Fertility Tracker",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "BazilSoft",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -1690,8 +1847,8 @@
                 "releaseDate": "2010-01-19",
                 "hasInAppPurchases": true,
                 "bundleId": "com.bazilsoft.maybebaby",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1704,10 +1861,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -1740,9 +1896,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Period and Ovulation Calendar",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1752,7 +1908,8 @@
                     "textColor2": "33011b",
                     "textColor3": "2a141f",
                     "textColor4": "541535"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -1792,7 +1949,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 13,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -1813,11 +1970,11 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "watchBundleId": "com.thepositivebirthcompany.surgetracker.watchkitapp",
-        "genreDisplayName": "Medical",
         "name": "Freya • Surge Timer",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "The Positive Birth Company Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.2",
         "platformAttributes": {
@@ -1850,13 +2007,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.thepositivebirthcompany.surgetracker",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1869,10 +2026,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -1906,6 +2062,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Hypnobirthing birth timer",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -1961,7 +2118,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 14,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -2017,8 +2174,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-02-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.3d4medical.EssentialAnatomyiPad",
@@ -2036,10 +2193,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 front-facing-camera opengles-2 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2093,6 +2249,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "The best-selling anatomy atlas",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2116,7 +2273,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738954523082,
-                "MZ_INDEXER": 1739546686488
+                "MZ_INDEXER": 1739918763599
             }
         },
         "supportsArcade": false,
@@ -2139,7 +2296,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 15,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -2197,8 +2354,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-01-06",
                 "hasInAppPurchases": true,
                 "bundleId": "org.caselogs.ECG",
@@ -2216,8 +2373,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -2265,163 +2422,6 @@
                     "textColor3": "8ed6ef",
                     "textColor4": "79c8ec"
                 },
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "700740791",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1407197501",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731359947054,
-                "MZ_INDEXER": 1739519063894
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "Infrequent/Mild Sexual Content and Nudity",
-                    "Infrequent/Mild Medical/Treatment Information"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 15,
-                "genreName": "Medical",
-                "genre": 6020,
-                "chart": "top-paid",
-                "genreShortName": "Medical"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.5,
-            "ratingCount": 2,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                1,
-                1
-            ],
-            "ariaLabelForRatings": "4.5 stars"
-        },
-        "genreDisplayName": "Medical",
-        "name": "Squeezy",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "Living With Ltd",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=3980&salableAdamId=700740791&pricingParameters=STDQ&pg=default&appExtVrsId=870041618",
-                        "type": "buy",
-                        "priceFormatted": "S$ 3.98",
-                        "price": 3.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 48945152
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=700740791&pricingParameters=SWUPD&pg=default&appExtVrsId=870041618",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 48945152
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "12.4",
-                "releaseDate": "2014-06-30",
-                "hasInAppPurchases": false,
-                "bundleId": "com.propagata.squeezy",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/c4/3f/23c43f49-bd68-5df5-534a-c0ac6e4ea399/AppIcon-0-0-1x_U007ephone-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "0a5694",
-                    "textColor1": "e5f1fa",
-                    "textColor2": "a2d2f1",
-                    "textColor3": "b9d2e6",
-                    "textColor4": "84badf"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
-                        "bgColor": "431ccc",
-                        "textColor1": "f5f3fc",
-                        "textColor2": "ece8f9",
-                        "textColor3": "d2c8f2",
-                        "textColor4": "cabff0"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "Pelvic Floor Muscle Exercises",
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -2488,8 +2488,8 @@
         "genreDisplayName": "Medical",
         "name": "DrugDoses",
         "isPreorder": false,
-        "artistName": "Oliver Karam",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Oliver Karam",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2521,13 +2521,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-16",
                 "hasInAppPurchases": false,
                 "bundleId": "net.drugdoses.DrugDoses",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2543,7 +2543,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2577,6 +2576,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2680,8 +2680,8 @@
                 "releaseDate": "2010-08-01",
                 "hasInAppPurchases": false,
                 "bundleId": "aobocom.yixueDic",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2697,7 +2697,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2731,6 +2730,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2791,11 +2791,11 @@
             ],
             "ariaLabelForRatings": "3.0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Hear My Baby Heartbeat App",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Fat Cigar Productions Ltd",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2827,13 +2827,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2016-06-30",
                 "hasInAppPurchases": false,
                 "bundleId": "am.impossible.hear-my-baby",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2846,10 +2846,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -2883,6 +2882,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Hear my baby heart sounds",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2947,11 +2947,11 @@
             ],
             "ariaLabelForRatings": "2.0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Cry Translator",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Juan Pedro Barrera Vazquez",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2983,13 +2983,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-10-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.biloop.CryTranslator",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3002,10 +3002,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -3039,6 +3038,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3136,8 +3136,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-04-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.thebinaryfamily.iqtest",
@@ -3157,6 +3157,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -3190,7 +3191,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "A scientific intelligence test",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3297,8 +3297,8 @@
                 "releaseDate": "2014-05-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nighp.babytracker.pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3314,7 +3314,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3348,9 +3347,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Feed Sleep Nappy & Milestone",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3360,7 +3359,8 @@
                     "textColor2": "160900",
                     "textColor3": "453a33",
                     "textColor4": "453a33"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -3381,7 +3381,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1734387419114,
-                "MZ_INDEXER": 1739549677122
+                "MZ_INDEXER": 1739921583275
             }
         },
         "supportsArcade": false,
@@ -3480,10 +3480,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3537,6 +3536,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Musculoskeletal Reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3658,6 +3658,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -3691,7 +3692,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Search PubMed while on the go",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3790,8 +3790,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-03-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iiwiisoftware.iBP",
@@ -3809,10 +3809,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3846,6 +3845,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3943,8 +3943,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-08-22",
                 "hasInAppPurchases": true,
                 "bundleId": "net.rhsoftware.iMixAmbiance",
@@ -3965,6 +3965,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -3998,7 +3999,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4098,13 +4098,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-10-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jmk.PranicHealingMobile",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4120,7 +4120,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4154,163 +4153,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "534227095",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "519557126",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738955669615,
-                "MZ_INDEXER": 1739512183288
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "Frequent/Intense Medical/Treatment Information"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 27,
-                "genreName": "Medical",
-                "genre": 6020,
-                "chart": "top-paid",
-                "genreShortName": "Medical"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 5,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                1
-            ],
-            "ariaLabelForRatings": "5.0 stars"
-        },
-        "genreDisplayName": "Medical",
-        "name": "ICU Trials by ClinCalc",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "ClinCalc LLC",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=6980&salableAdamId=534227095&pricingParameters=STDQ&pg=default&appExtVrsId=860324580",
-                        "type": "buy",
-                        "priceFormatted": "S$ 6.98",
-                        "price": 6.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 4652032
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=534227095&pricingParameters=SWUPD&pg=default&appExtVrsId=860324580",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 4652032
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "12.0",
-                "requires32bit": false,
-                "releaseDate": "2012-06-17",
-                "hasInAppPurchases": false,
-                "bundleId": "clincalc.icutrials",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/08/4b/9b/084b9bd0-9b3b-d66d-9e5f-d77940312df4/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "c21813",
-                    "textColor1": "fcf2f2",
-                    "textColor2": "f9d9d8",
-                    "textColor3": "f0c6c6",
-                    "textColor4": "eeb3b1"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
-                        "bgColor": "431ccc",
-                        "textColor1": "f5f3fc",
-                        "textColor2": "ece8f9",
-                        "textColor3": "d2c8f2",
-                        "textColor4": "cabff0"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "subtitle": "Summarized landmark ICU trials",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4351,7 +4194,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 27,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -4426,10 +4269,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4463,6 +4305,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Anatomy quiz and reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4504,7 +4347,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 28,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -4524,11 +4367,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Muscle System Pro III - iPhone",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "3D4Medical from Elsevier",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4581,8 +4424,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -4625,6 +4466,165 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "534227095",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "519557126",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738955669615,
+                "MZ_INDEXER": 1739512183288
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "17+",
+                "value": 600,
+                "rank": 4,
+                "advisories": [
+                    "Frequent/Intense Medical/Treatment Information"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 29,
+                "genreName": "Medical",
+                "genre": 6020,
+                "chart": "top-paid",
+                "genreShortName": "Medical"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 5,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "ariaLabelForRatings": "5.0 stars"
+        },
+        "genreDisplayName": "Medical",
+        "name": "ICU Trials by ClinCalc",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "ClinCalc LLC",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=6980&salableAdamId=534227095&pricingParameters=STDQ&pg=default&appExtVrsId=860324580",
+                        "type": "buy",
+                        "priceFormatted": "S$ 6.98",
+                        "price": 6.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 4652032
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=534227095&pricingParameters=SWUPD&pg=default&appExtVrsId=860324580",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 4652032
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
+                "releaseDate": "2012-06-17",
+                "hasInAppPurchases": false,
+                "bundleId": "clincalc.icutrials",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/08/4b/9b/084b9bd0-9b3b-d66d-9e5f-d77940312df4/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "c21813",
+                    "textColor1": "fcf2f2",
+                    "textColor2": "f9d9d8",
+                    "textColor3": "f0c6c6",
+                    "textColor4": "eeb3b1"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
+                        "bgColor": "431ccc",
+                        "textColor1": "f5f3fc",
+                        "textColor2": "ece8f9",
+                        "textColor3": "d2c8f2",
+                        "textColor4": "cabff0"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "Summarized landmark ICU trials",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4692,8 +4692,8 @@
         "genreDisplayName": "Medical",
         "name": "Acupressure: Heal Yourself",
         "isPreorder": false,
-        "artistName": "Alexander Mokrushin",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Alexander Mokrushin",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4744,8 +4744,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -4847,8 +4847,8 @@
         "genreDisplayName": "Medical",
         "name": "伤寒论查阅",
         "isPreorder": false,
-        "artistName": "海 黄",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "海 黄",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4880,13 +4880,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-01-11",
                 "hasInAppPurchases": false,
                 "bundleId": "me.huanghai.shangHanLunTab",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4902,7 +4902,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4936,6 +4935,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5033,8 +5033,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-11-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vs.VeinSeekPro",
@@ -5055,6 +5055,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -5088,7 +5089,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5191,8 +5191,8 @@
                 "releaseDate": "2009-02-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yourcompany.Relax",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5208,7 +5208,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5242,6 +5241,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Andrew Johnson Meditation",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5306,11 +5306,11 @@
             "ariaLabelForRatings": "4.3 stars"
         },
         "watchBundleId": "com.maxwell.glucosecompanion.watchkitapp",
-        "genreDisplayName": "Medical",
         "name": "Glucose Companion Pro",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "倩 赵",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -5348,8 +5348,8 @@
                 "releaseDate": "2011-08-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.maxwell.glucosecompanion",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5362,11 +5362,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -5399,9 +5397,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Blood Sugar & Weight Logger",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5411,7 +5410,8 @@
                     "textColor2": "e7eff7",
                     "textColor3": "cfdff0",
                     "textColor4": "bcd2ea"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -5432,7 +5432,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738953840881,
-                "MZ_INDEXER": 1739548620020
+                "MZ_INDEXER": 1739918854851
             }
         },
         "supportsArcade": false,
@@ -5529,6 +5529,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -5562,7 +5563,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Blood Sugar, Carb, A1C Tracker",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5586,7 +5586,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738955016955,
-                "MZ_INDEXER": 1739550527350
+                "MZ_INDEXER": 1739917787275
             }
         },
         "supportsArcade": false,
@@ -5666,8 +5666,8 @@
                 "releaseDate": "2011-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jaredsinclair.pillboxie",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5679,11 +5679,9 @@
                     "textColor4": "0b2728"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -5726,164 +5724,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "subtitle": "Friendly medication reminder",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "327963391",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1519534589",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731371605829,
-                "MZ_INDEXER": 1739519916448
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "Frequent/Intense Medical/Treatment Information"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 37,
-                "genreName": "Medical",
-                "genre": 6020,
-                "chart": "top-paid",
-                "genreShortName": "Medical"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 stars"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "5.0.8",
-        "genreDisplayName": "Medical",
-        "name": "Pedi STAT",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "James M Kempema MD PA",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=8980&salableAdamId=327963391&pricingParameters=STDQ&pg=default&appExtVrsId=869602216",
-                        "type": "buy",
-                        "priceFormatted": "S$ 8.98",
-                        "price": 8.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 46153728
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=327963391&pricingParameters=SWUPD&pg=default&appExtVrsId=869602216",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 46153728
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2009-08-29",
-                "hasInAppPurchases": false,
-                "bundleId": "com.qxmd.pedsGuide",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/69/52/7d69529d-186b-1813-2a8a-4649a120c89e/AppIcon-pedistat-1x_U007emarketing-0-11-0-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "0e080e",
-                    "textColor2": "100b10",
-                    "textColor3": "3e393e",
-                    "textColor4": "3f3c40"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
-                        "bgColor": "431ccc",
-                        "textColor1": "f5f3fc",
-                        "textColor2": "ece8f9",
-                        "textColor3": "d2c8f2",
-                        "textColor4": "cabff0"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "subtitle": "Friendly medication reminder",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5930,7 +5773,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 38,
+                "position": 37,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -5953,8 +5796,8 @@
         "genreDisplayName": "Medical",
         "name": "Physical Exam Essentials",
         "isPreorder": false,
-        "artistName": "Hipposoft, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hipposoft, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5986,13 +5829,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hipposoft.physicalexam",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6007,7 +5850,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6041,6 +5883,164 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "327963391",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1519534589",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1731371605829,
+                "MZ_INDEXER": 1739519916448
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "17+",
+                "value": 600,
+                "rank": 4,
+                "advisories": [
+                    "Frequent/Intense Medical/Treatment Information"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 38,
+                "genreName": "Medical",
+                "genre": 6020,
+                "chart": "top-paid",
+                "genreShortName": "Medical"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 stars"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "5.0.8",
+        "name": "Pedi STAT",
+        "genreDisplayName": "Medical",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "James M Kempema MD PA",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=8980&salableAdamId=327963391&pricingParameters=STDQ&pg=default&appExtVrsId=869602216",
+                        "type": "buy",
+                        "priceFormatted": "S$ 8.98",
+                        "price": 8.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 46153728
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=327963391&pricingParameters=SWUPD&pg=default&appExtVrsId=869602216",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 46153728
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2009-08-29",
+                "hasInAppPurchases": false,
+                "bundleId": "com.qxmd.pedsGuide",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/69/52/7d69529d-186b-1813-2a8a-4649a120c89e/AppIcon-pedistat-1x_U007emarketing-0-11-0-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "0e080e",
+                    "textColor2": "100b10",
+                    "textColor3": "3e393e",
+                    "textColor4": "3f3c40"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
+                        "bgColor": "431ccc",
+                        "textColor1": "f5f3fc",
+                        "textColor2": "ece8f9",
+                        "textColor3": "d2c8f2",
+                        "textColor4": "cabff0"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6105,11 +6105,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Grays Anatomy Premium Edition",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Luke Allen",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6146,8 +6146,8 @@
                 "releaseDate": "2011-10-05",
                 "hasInAppPurchases": false,
                 "bundleId": "archibaldindustries.GraysAnatomyPremiumEdition",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6160,11 +6160,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -6197,6 +6195,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "The iconic medical textbook",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6261,8 +6261,8 @@
         "genreDisplayName": "Medical",
         "name": "Infection Control Pocketbook",
         "isPreorder": false,
-        "artistName": "Hipposoft, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hipposoft, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6294,8 +6294,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-05-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hipposoftonline.infectionPocketbook",
@@ -6316,6 +6316,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -6349,7 +6350,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6456,8 +6456,8 @@
                 "releaseDate": "2011-09-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kavapoint.medicaldictionary",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6472,7 +6472,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6506,6 +6505,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6574,8 +6574,8 @@
             ],
             "ariaLabelForRatings": "3.0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Med Mnemonics",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
         "artistName": "Evan Schoenberg",
         "isIOSBinaryMacOSCompatible": true,
@@ -6610,13 +6610,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-09-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.regularrateandrhythm.MedMnemonics",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6628,10 +6628,9 @@
                     "textColor4": "773234"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -6665,6 +6664,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6687,7 +6687,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738913983284,
-                "MZ_INDEXER": 1739483814761
+                "MZ_INDEXER": 1739910228439
             }
         },
         "supportsArcade": false,
@@ -6729,11 +6729,11 @@
             "ariaLabelForRatings": "4.6 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "5.9",
-        "genreDisplayName": "Medical",
         "name": "ScolioTrack",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kevin Lau",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6784,10 +6784,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6821,6 +6820,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Measure your scoliosis!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6918,13 +6918,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-03-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fox.audiphone",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6940,7 +6940,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6974,6 +6973,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Microphone, supports bluetooth",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7043,8 +7043,8 @@
         "genreDisplayName": "Medical",
         "name": "Heart Murmurs Pro",
         "isPreorder": false,
-        "artistName": "Hipposoft, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hipposoft, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7094,8 +7094,8 @@
                     "textColor4": "eab8c3"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -7197,11 +7197,11 @@
             ],
             "ariaLabelForRatings": "4.3 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Visual Anatomy",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Education Mobile",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7238,8 +7238,8 @@
                 "releaseDate": "2012-04-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.HSSN.VisAnatomy",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7252,11 +7252,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -7289,6 +7287,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "3D muscles, bone and organs",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7351,11 +7351,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Lose Weight with AJ",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Universal Relaxation Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7392,8 +7392,8 @@
                 "releaseDate": "2009-01-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yourcompany.WeightControl",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7406,11 +7406,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -7443,6 +7441,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Andrew Johnson Meditation",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7564,8 +7564,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -7624,7 +7624,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738960534778,
-                "MZ_INDEXER": 1739482964243
+                "MZ_INDEXER": 1739909803809
             }
         },
         "supportsArcade": false,
@@ -7723,8 +7723,8 @@
                     "textColor4": "e9c6b9"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -7863,13 +7863,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-08-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kavapoint.icupearls",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7885,7 +7885,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7919,6 +7918,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Wisdom for doctors and nurses",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7942,7 +7942,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1734387418848,
-                "MZ_INDEXER": 1739482420958
+                "MZ_INDEXER": 1739909312550
             }
         },
         "supportsArcade": false,
@@ -7990,8 +7990,8 @@
         "genreDisplayName": "Medical",
         "name": "Physiology & Pathology",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Visible Body",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8045,8 +8045,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -8079,6 +8077,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Body Processes and Diseases",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8143,11 +8143,11 @@
             ],
             "ariaLabelForRatings": "4.0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Chemical Maze - Shopping Companion",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "The Chemical Maze Pty Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8184,8 +8184,8 @@
                 "releaseDate": "2010-03-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.naturallybeing.chemicalmaze",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8294,8 +8294,8 @@
             ],
             "ariaLabelForRatings": "4.5 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "BabyTime Baby Feeding Timer - Breastfeeding & More",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
         "artistName": "Enhancient",
         "isIOSBinaryMacOSCompatible": true,
@@ -8335,8 +8335,8 @@
                 "releaseDate": "2014-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.enhancient.ios.babytime",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8408,7 +8408,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738956900770,
-                "MZ_INDEXER": 1739482861208
+                "MZ_INDEXER": 1739910121943
             }
         },
         "supportsArcade": false,
@@ -8448,11 +8448,11 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "watchBundleId": "com.maxwell.pillmonitor.watchkitapp",
-        "genreDisplayName": "Medical",
         "name": "Pill Monitor Pro",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "倩 赵",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -8490,8 +8490,8 @@
                 "releaseDate": "2011-11-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.maxwell.pillmonitor",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8504,11 +8504,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -8541,9 +8539,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Medication Reminders and Logs",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8553,7 +8552,8 @@
                     "textColor2": "131516",
                     "textColor3": "20313b",
                     "textColor4": "21343e"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -8648,8 +8648,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-05-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.3D4Medical.SkeletonPlus",
@@ -8669,6 +8669,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -8712,7 +8713,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8829,8 +8829,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -8966,8 +8966,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-04-13",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.urugworks.AceColor",
@@ -8985,10 +8985,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9022,6 +9021,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9044,7 +9044,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1736976466404,
-                "MZ_INDEXER": 1739550976099
+                "MZ_INDEXER": 1739928536390
             }
         },
         "supportsArcade": false,
@@ -9092,8 +9092,8 @@
         "genreDisplayName": "Medical",
         "name": "MD on Call",
         "isPreorder": false,
-        "artistName": "Messil inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Messil inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9125,8 +9125,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-10-06",
                 "hasInAppPurchases": false,
                 "bundleId": ".com.mdoncalltheapp.mdoncall",
@@ -9144,8 +9144,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -9291,8 +9291,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mms.challenge",
@@ -9309,10 +9309,9 @@
                     "textColor4": "4f4d49"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9346,6 +9345,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9468,6 +9468,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -9501,7 +9502,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Measure Scoliosis at Home",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9604,8 +9604,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-05-10",
                 "hasInAppPurchases": false,
                 "bundleId": "hk.com.netcity.tcmpro",
@@ -9626,6 +9626,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -9658,7 +9659,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9759,8 +9759,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-04-10",
                 "hasInAppPurchases": false,
                 "bundleId": "org.druginfusion.DrugInfusion",
@@ -9778,10 +9778,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9815,6 +9814,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "IV Med Drip Rate Calculator",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9883,8 +9883,8 @@
         "genreDisplayName": "Medical",
         "name": "MediMath Medical Calculator",
         "isPreorder": false,
-        "artistName": "Evan Schoenberg",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Evan Schoenberg",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9934,8 +9934,8 @@
                     "textColor4": "a4c6da"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -9993,7 +9993,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739446774784,
-                "MZ_INDEXER": 1739830375765
+                "MZ_INDEXER": 1739923091011
             }
         },
         "supportsArcade": false,
@@ -10068,13 +10068,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-04-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.madhav.yoganidra",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10089,7 +10089,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10123,6 +10122,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Deep Relaxation Practice",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10188,11 +10188,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Pill Identifier by Drugs.com",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Drugs.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10229,8 +10229,8 @@
                 "releaseDate": "2010-10-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.drugs.pillidlite",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10246,7 +10246,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10300,6 +10299,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Lookup imprint, shape, color",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10398,8 +10398,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "dk.castleandersen.dreamteam.simmon",
@@ -10417,10 +10417,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10454,6 +10453,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Simulated patient monitor",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10557,8 +10557,8 @@
                 "releaseDate": "2010-12-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.datinf.uvscan",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10574,162 +10574,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
-                        "bgColor": "431ccc",
-                        "textColor1": "f5f3fc",
-                        "textColor2": "ece8f9",
-                        "textColor3": "d2c8f2",
-                        "textColor4": "cabff0"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "468624519",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "468624522",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738884944267,
-                "MZ_INDEXER": 1739829715381
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "Frequent/Intense Medical/Treatment Information"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 71,
-                "genreName": "Medical",
-                "genre": 6020,
-                "chart": "top-paid",
-                "genreShortName": "Medical"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 5,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                1
-            ],
-            "ariaLabelForRatings": "5.0 stars"
-        },
-        "genreDisplayName": "Medical",
-        "name": "Meridian Acupoint Handbook HD",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "弘斌 费",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=9980&salableAdamId=468624519&pricingParameters=STDQ&pg=default&appExtVrsId=840081587",
-                        "type": "buy",
-                        "priceFormatted": "S$ 9.98",
-                        "price": 9.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 134200320
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=468624519&pricingParameters=SWUPD&pg=default&appExtVrsId=840081587",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 134200320
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2011-10-03",
-                "hasInAppPurchases": false,
-                "bundleId": "com.codeipad.MeridianPoint",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/d0/cd/54/d0cd545c-6fd1-0758-d5b8-6ab53c0f4925/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "2d1f1f",
-                    "textColor2": "2e2425",
-                    "textColor3": "574b4c",
-                    "textColor4": "585050"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10764,7 +10608,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "subtitle": "Good assistant to learn TCM",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10806,7 +10649,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 72,
+                "position": 71,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -10826,11 +10669,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Dexteria - Fine Motor Skills",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "BinaryLabs, Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10867,8 +10710,8 @@
                 "releaseDate": "2011-03-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.binarylabs.dexteria",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10962,7 +10805,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 73,
+                "position": 72,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -10985,8 +10828,8 @@
         "genreDisplayName": "Medical",
         "name": "Symptom Tracker by TracknShare",
         "isPreorder": false,
-        "artistName": "Track & Share Apps, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Track & Share Apps, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11018,8 +10861,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-09-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.twitclicker.twitclicker",
@@ -11036,6 +10879,163 @@
                     "textColor4": "453c12"
                 },
                 "isAppleWatchSupported": false,
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
+                        "bgColor": "431ccc",
+                        "textColor1": "f5f3fc",
+                        "textColor2": "ece8f9",
+                        "textColor3": "d2c8f2",
+                        "textColor4": "cabff0"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "Customizable Self Tracker",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "468624519",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "468624522",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738884944267,
+                "MZ_INDEXER": 1739829715381
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "17+",
+                "value": 600,
+                "rank": 4,
+                "advisories": [
+                    "Frequent/Intense Medical/Treatment Information"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 73,
+                "genreName": "Medical",
+                "genre": 6020,
+                "chart": "top-paid",
+                "genreShortName": "Medical"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 5,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "ariaLabelForRatings": "5.0 stars"
+        },
+        "genreDisplayName": "Medical",
+        "name": "Meridian Acupoint Handbook HD",
+        "isPreorder": false,
+        "artistName": "弘斌 费",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=9980&salableAdamId=468624519&pricingParameters=STDQ&pg=default&appExtVrsId=840081587",
+                        "type": "buy",
+                        "priceFormatted": "S$ 9.98",
+                        "price": 9.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 134200320
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=468624519&pricingParameters=SWUPD&pg=default&appExtVrsId=840081587",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 134200320
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2011-10-03",
+                "hasInAppPurchases": false,
+                "bundleId": "com.codeipad.MeridianPoint",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/d0/cd/54/d0cd545c-6fd1-0758-d5b8-6ab53c0f4925/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "2d1f1f",
+                    "textColor2": "2e2425",
+                    "textColor3": "574b4c",
+                    "textColor4": "585050"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
@@ -11073,7 +11073,7 @@
                 },
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "subtitle": "Customizable Self Tracker",
+                "subtitle": "Good assistant to learn TCM",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11174,8 +11174,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-01-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yourcompany.QuitSmoking",
@@ -11193,10 +11193,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11230,6 +11229,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Andrew Johnson Meditation",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11253,7 +11253,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739481208954,
-                "MZ_INDEXER": 1739539890394
+                "MZ_INDEXER": 1739931618607
             }
         },
         "supportsArcade": false,
@@ -11336,8 +11336,8 @@
                 "releaseDate": "2015-05-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.apirox.sleeprecorder",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11353,7 +11353,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11387,9 +11386,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Sleep Talk & Snoring Recorder",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11399,7 +11398,8 @@
                     "textColor2": "161616",
                     "textColor3": "07213a",
                     "textColor4": "192f45"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -11464,11 +11464,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "watchBundleId": "uk.co.esscom.drinkunits.watchkitapp",
-        "genreDisplayName": "Medical",
         "name": "Alcohol Units Calculator",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Essence Computing",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.2",
         "platformAttributes": {
@@ -11506,8 +11506,8 @@
                 "releaseDate": "2009-12-04",
                 "hasInAppPurchases": false,
                 "bundleId": "uk.co.esscom.drinkunits",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11519,11 +11519,9 @@
                     "textColor4": "3c3539"
                 },
                 "isAppleWatchSupported": true,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -11556,9 +11554,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Know and Track your Alcohol",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11568,7 +11567,8 @@
                     "textColor2": "4f100d",
                     "textColor3": "6c2f2f",
                     "textColor4": "6e3b39"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -11667,8 +11667,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2021-06-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.anesthesiaconsiderations.ac",
@@ -11686,8 +11686,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -11825,8 +11825,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-01-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.programize.MaxKirsten",
@@ -11844,10 +11844,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11881,6 +11880,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Stop Smoking Advanced Hypnosis",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11949,8 +11949,8 @@
         "genreDisplayName": "Medical",
         "name": "Blood Pressure Monitor - Pro",
         "isPreorder": false,
-        "artistName": "Taconic System LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Taconic System LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11982,8 +11982,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-03-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.taconicsys.BPMonitorPro",
@@ -12004,6 +12004,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -12037,7 +12038,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "BP, Glucose, Weight & more",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12143,8 +12143,8 @@
                 "releaseDate": "2014-09-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.luke.fluencycalculator",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12160,7 +12160,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12194,9 +12193,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Measure fluency accurately",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12206,7 +12205,8 @@
                     "textColor2": "282b4c",
                     "textColor3": "4e4f65",
                     "textColor4": "53546f"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -12268,11 +12268,11 @@
             ],
             "ariaLabelForRatings": "1.0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Ortho Traumapedia",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "HTG, LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12309,8 +12309,8 @@
                 "releaseDate": "2010-07-08",
                 "hasInAppPurchases": false,
                 "bundleId": "OrthoTraumapedia",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12323,11 +12323,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -12360,6 +12358,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12465,8 +12465,8 @@
                 "releaseDate": "2016-05-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.apirox.stopsnoring2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12482,7 +12482,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12516,9 +12515,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Snoring Analyzer & Recorder",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12528,164 +12527,7 @@
                     "textColor2": "ffb24c",
                     "textColor3": "e8d9cb",
                     "textColor4": "e89b3c"
-                }
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "695187101",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "519530928",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1739201595771,
-                "MZ_INDEXER": 1739504773853
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "12+",
-                "value": 300,
-                "rank": 3,
-                "advisories": [
-                    "Infrequent/Mild Medical/Treatment Information"
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "mac",
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 83,
-                "genreName": "Medical",
-                "genre": 6020,
-                "chart": "top-paid",
-                "genreShortName": "Medical"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.4,
-            "ratingCount": 7,
-            "ratingCountList": [
-                0,
-                0,
-                1,
-                2,
-                4
-            ],
-            "ariaLabelForRatings": "4.4 stars"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "5.2",
-        "genreDisplayName": "Medical",
-        "name": "3D Anatomy",
-        "isPreorder": false,
-        "artistName": "Education Mobile",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=3980&salableAdamId=695187101&pricingParameters=STDQ&pg=default&appExtVrsId=871864750",
-                        "type": "buy",
-                        "priceFormatted": "S$ 3.98",
-                        "price": 3.98,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 199477248
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=695187101&pricingParameters=SWUPD&pg=default&appExtVrsId=871864750",
-                        "type": "update",
-                        "priceFormatted": "S$ 0.00",
-                        "price": 0,
-                        "currencyCode": "SGD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 199477248
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "releaseDate": "2013-09-08",
-                "hasInAppPurchases": false,
-                "bundleId": "com.hssn.anatomy3d",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/66/02/4a6602e4-970b-57f2-580d-8cb1d5646565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ababab",
-                    "textColor1": "0a0605",
-                    "textColor2": "0c0706",
-                    "textColor3": "2a2726",
-                    "textColor4": "2c2727"
                 },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1210,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
-                        "bgColor": "431ccc",
-                        "textColor1": "f5f3fc",
-                        "textColor2": "ece8f9",
-                        "textColor3": "d2c8f2",
-                        "textColor4": "cabff0"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "Learning 3D Muscles and Bones",
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -12729,7 +12571,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 85,
+                "position": 84,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -12749,11 +12591,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Beat Social Phobia with AJ",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "artistName": "Universal Relaxation Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Universal Relaxation Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12804,8 +12646,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -12883,7 +12725,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 86,
+                "position": 85,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -12943,8 +12785,8 @@
                 "releaseDate": "2014-04-30",
                 "hasInAppPurchases": false,
                 "bundleId": "co.speechtools.voiceanalyst",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12960,7 +12802,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12994,6 +12835,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Speech therapy aid & practice",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13036,7 +12878,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 87,
+                "position": 86,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -13092,8 +12934,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-08-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.domainname.voicemeterpro",
@@ -13114,6 +12956,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -13147,7 +12990,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "help with voice volume control",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13190,7 +13032,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 88,
+                "position": 87,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -13213,8 +13055,8 @@
         "genreDisplayName": "Medical",
         "name": "Skeletal Anatomy 3D",
         "isPreorder": false,
-        "artistName": "Real Bodywork",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Real Bodywork",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13264,8 +13106,8 @@
                     "textColor4": "7c92b0"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -13345,7 +13187,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 89,
+                "position": 88,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -13401,13 +13243,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-04-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.exebeche.bencao",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13422,7 +13264,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13456,6 +13297,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "TCM Herbal Reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13501,7 +13343,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 90,
+                "position": 89,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -13521,11 +13363,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Eponyms",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Ossus GmbH",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13579,8 +13421,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -13613,6 +13453,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Learn Medical Terms",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13655,7 +13497,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 91,
+                "position": 90,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -13730,8 +13572,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -13811,7 +13653,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 92,
+                "position": 91,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -13872,8 +13714,8 @@
                 "releaseDate": "2015-11-09",
                 "hasInAppPurchases": false,
                 "bundleId": "au.edu.anzca.OpioidCalculatorApp",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13963,7 +13805,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 93,
+                "position": 92,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -13983,11 +13825,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Heart Pro III - iPhone",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "3D4Medical from Elsevier",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14040,8 +13882,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -14084,6 +13924,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14127,7 +13969,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 94,
+                "position": 93,
                 "genreName": "Medical",
                 "genre": 6020,
                 "chart": "top-paid",
@@ -14184,8 +14026,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-06-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.cyberandsons.TcmAid",
@@ -14203,10 +14045,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14240,6 +14081,165 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "695187101",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "519530928",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1739201595771,
+                "MZ_INDEXER": 1739504773853
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "12+",
+                "value": 300,
+                "rank": 3,
+                "advisories": [
+                    "Infrequent/Mild Medical/Treatment Information"
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "mac",
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 94,
+                "genreName": "Medical",
+                "genre": 6020,
+                "chart": "top-paid",
+                "genreShortName": "Medical"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.4,
+            "ratingCount": 7,
+            "ratingCountList": [
+                0,
+                0,
+                1,
+                2,
+                4
+            ],
+            "ariaLabelForRatings": "4.4 stars"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "5.2",
+        "genreDisplayName": "Medical",
+        "name": "3D Anatomy",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Education Mobile",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=3980&salableAdamId=695187101&pricingParameters=STDQ&pg=default&appExtVrsId=871864750",
+                        "type": "buy",
+                        "priceFormatted": "S$ 3.98",
+                        "price": 3.98,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 199477248
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=695187101&pricingParameters=SWUPD&pg=default&appExtVrsId=871864750",
+                        "type": "update",
+                        "priceFormatted": "S$ 0.00",
+                        "price": 0,
+                        "currencyCode": "SGD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 199477248
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "releaseDate": "2013-09-08",
+                "hasInAppPurchases": false,
+                "bundleId": "com.hssn.anatomy3d",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/66/02/4a6602e4-970b-57f2-580d-8cb1d5646565/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ababab",
+                    "textColor1": "0a0605",
+                    "textColor2": "0c0706",
+                    "textColor3": "2a2726",
+                    "textColor4": "2c2727"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 metal ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/cd/99/34/cd993422-9222-3d05-7d3f-18088e2e3599/1c3e532e-b11a-4481-be73-c1ddcea59ccd.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1210,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/39/e5/11/39e511a7-5ff6-22c4-019d-0a8551e7fb43/2329c419-e64a-424a-a0b1-056ebb932b44.png/{w}x{h}{c}.{f}",
+                        "bgColor": "431ccc",
+                        "textColor1": "f5f3fc",
+                        "textColor2": "ece8f9",
+                        "textColor3": "d2c8f2",
+                        "textColor4": "cabff0"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1d/90/a0/1d90a0a0-c153-b746-0e55-0231d9cba4a7/6a438a23-1079-465e-8084-6ffe084376ed.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "Learning 3D Muscles and Bones",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14304,8 +14304,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Medical",
         "name": "Animal  & Veterinary Drugs",
+        "genreDisplayName": "Medical",
         "isPreorder": false,
         "artistName": "KAVAPOINT",
         "isIOSBinaryMacOSCompatible": true,
@@ -14340,13 +14340,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kavapoint.animaldrugs",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14359,10 +14359,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -14396,6 +14395,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Veterinary drug information",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14517,8 +14517,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -14656,8 +14656,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-04-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sonosupport.sonosupport",
@@ -14669,10 +14669,9 @@
                     "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple5/v4/d9/d9/2a/d9d92a7d-1b88-32c5-b3e7-6fcf88235d81/pr_source.jpg/{w}x{h}{c}.{f}"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14706,6 +14705,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14803,13 +14803,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2010-03-08",
                 "hasInAppPurchases": false,
                 "bundleId": "ca.gshaw.iDefibrillate",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14825,7 +14825,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14859,6 +14858,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Defibrillator Simulator",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14982,6 +14982,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -15015,7 +15016,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15116,8 +15116,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-06-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ecgsource.applicationname",
@@ -15137,6 +15137,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1210,
@@ -15170,7 +15171,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15193,7 +15193,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738959105702,
-                "MZ_INDEXER": 1739483663073
+                "MZ_INDEXER": 1739911941303
             }
         },
         "supportsArcade": false,
@@ -15234,8 +15234,8 @@
         "genreDisplayName": "Medical",
         "name": "EMS ALS Guide",
         "isPreorder": false,
-        "artistName": "Informed Publishing",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Informed Publishing",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15286,8 +15286,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {

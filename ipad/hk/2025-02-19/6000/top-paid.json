@@ -55,11 +55,11 @@
             ],
             "ariaLabelForRatings": "4.4 粒星"
         },
-        "name": "Jump Desktop (RDP, VNC, Fluid)",
         "genreDisplayName": "商業",
+        "name": "Jump Desktop (RDP, VNC, Fluid)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Phase Five Systems",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -91,13 +91,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "4GU63N96WE.com.p5sys.jumpdesktop",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -110,10 +110,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -146,7 +146,160 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "288362053",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "284741182",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739505664767,
+                "RTCI": 1738952851953
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 2,
+                "genreName": "商業",
+                "genre": 6000,
+                "chart": "top-paid",
+                "genreShortName": "商業"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 3.2,
+            "ratingCount": 6,
+            "ratingCountList": [
+                2,
+                0,
+                1,
+                1,
+                2
+            ],
+            "ariaLabelForRatings": "3.2 粒星"
+        },
+        "genreDisplayName": "商業",
+        "name": "Remote Desktop - RDP",
+        "isPreorder": false,
+        "artistName": "MochaSoft",
+        "isIOSBinaryMacOSCompatible": false,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=48000&salableAdamId=288362053&pricingParameters=STDQ&pg=default&appExtVrsId=868993919",
+                        "type": "buy",
+                        "priceFormatted": "HK$ 48.00",
+                        "price": 48,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 2322432
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=288362053&pricingParameters=SWUPD&pg=default&appExtVrsId=868993919",
+                        "type": "update",
+                        "priceFormatted": "HK$ 0.00",
+                        "price": 0,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 2322432
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2019-02-12",
+                "hasInAppPurchases": false,
+                "bundleId": "dk.mochasoft.rdp",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/fb/83/9ffb83b5-8d21-fa7e-5811-be7d03f48cdf/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "47682d",
+                    "textColor1": "ffffff",
+                    "textColor2": "cdecfe",
+                    "textColor3": "dae0d4",
+                    "textColor4": "b2d2d4"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1050,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6b/26/61/6b266131-b03c-10b8-5640-24ed75a1b527/9020ae77-3d4e-48fc-a546-8895dffe962b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1051,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/bb/46/6cbb4651-ad2b-b7d4-8c0b-da19ece82df1/bc8fd91d-08b5-4439-b99d-06b141f52ea5.png/{w}x{h}{c}.{f}",
+                        "bgColor": "b68549",
+                        "textColor1": "090603",
+                        "textColor2": "120d07",
+                        "textColor3": "2b1f11",
+                        "textColor4": "322514"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/29/88/222988f5-d687-a390-7bd5-e7ff102c70d4/c11d0a2e-7af6-4725-a1a5-7ca61e6cb749.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -188,7 +341,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "商業",
                 "genre": 6000,
                 "chart": "top-paid",
@@ -208,11 +361,11 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "name": "Voice Recorder - Audio Record",
         "genreDisplayName": "商業",
+        "name": "Voice Recorder - Audio Record",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LiveBird Technologies Private Limited",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -244,13 +397,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-11-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.livebird.VoiceRecorder",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -263,10 +416,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -299,7 +452,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -341,7 +494,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "商業",
                 "genre": 6000,
                 "chart": "top-paid",
@@ -361,11 +514,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Activate Your Voice",
         "genreDisplayName": "商業",
+        "name": "Activate Your Voice",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Elaine Clark",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -397,8 +550,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-10-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.voiceone.eurekastreet",
@@ -416,9 +569,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -451,7 +605,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -494,7 +647,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "商業",
                 "genre": 6000,
                 "chart": "top-paid",
@@ -514,11 +667,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "TouchTax",
         "genreDisplayName": "商業",
+        "name": "TouchTax",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Matthias Edrich",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -550,13 +703,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-12-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.blackcatworks.touchtax",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -569,10 +722,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -605,7 +758,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -648,7 +801,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 6,
                 "genreName": "商業",
                 "genre": 6000,
                 "chart": "top-paid",
@@ -668,13 +821,13 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "watchBundleId": "com.savysoda.documents.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "11.1",
-        "name": "Documents",
+        "watchBundleId": "com.savysoda.documents.watchkitapp",
         "genreDisplayName": "商業",
+        "name": "Documents",
         "isPreorder": false,
-        "artistName": "Savy Soda Pty Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Savy Soda Pty Ltd",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.1",
         "platformAttributes": {
@@ -707,13 +860,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2008-11-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.savysoda.documents",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -761,8 +914,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -814,7 +967,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 7,
                 "genreName": "商業",
                 "genre": 6000,
                 "chart": "top-paid",
@@ -834,11 +987,11 @@
             ],
             "ariaLabelForRatings": "4.4 粒星"
         },
-        "name": "PDF Reader Pro Edition®",
         "genreDisplayName": "商業",
+        "name": "PDF Reader Pro Edition®",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "iTECH DEVELOPMENT SYSTEMS INC.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -870,12 +1023,12 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "pdfreader.ipad.app",
-                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -886,7 +1039,7 @@
                     "textColor3": "3b2c2c",
                     "textColor4": "3b2c2c"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -898,10 +1051,10 @@
                     "textColor4": "804646"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -934,7 +1087,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Annotate,edit & sign PDFs",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -978,7 +1131,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "商業",
                 "genre": 6000,
                 "chart": "top-paid",
@@ -998,13 +1151,13 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "watchBundleId": "com.imesart.AudioMemos2.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "5.1.0",
-        "name": "Audio Memos",
+        "watchBundleId": "com.imesart.AudioMemos2.watchkitapp",
         "genreDisplayName": "商業",
+        "name": "Audio Memos",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Imesart S.a.r.l.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -1037,13 +1190,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-11-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.imesart.AudioMemos2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1056,10 +1209,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -1092,7 +1245,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -1104,159 +1257,6 @@
                     "textColor3": "3d371b",
                     "textColor4": "654b1b"
                 },
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "288362053",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "284741182",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739505664767,
-                "RTCI": 1738952851953
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 8,
-                "genreName": "商業",
-                "genre": 6000,
-                "chart": "top-paid",
-                "genreShortName": "商業"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 3.2,
-            "ratingCount": 6,
-            "ratingCountList": [
-                2,
-                0,
-                1,
-                1,
-                2
-            ],
-            "ariaLabelForRatings": "3.2 粒星"
-        },
-        "name": "Remote Desktop - RDP",
-        "genreDisplayName": "商業",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "MochaSoft",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=48000&salableAdamId=288362053&pricingParameters=STDQ&pg=default&appExtVrsId=868993919",
-                        "type": "buy",
-                        "priceFormatted": "HK$ 48.00",
-                        "price": 48,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 2322432
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=288362053&pricingParameters=SWUPD&pg=default&appExtVrsId=868993919",
-                        "type": "update",
-                        "priceFormatted": "HK$ 0.00",
-                        "price": 0,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 2322432
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2019-02-12",
-                "hasInAppPurchases": false,
-                "bundleId": "dk.mochasoft.rdp",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/fb/83/9ffb83b5-8d21-fa7e-5811-be7d03f48cdf/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "47682d",
-                    "textColor1": "ffffff",
-                    "textColor2": "cdecfe",
-                    "textColor3": "dae0d4",
-                    "textColor4": "b2d2d4"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1050,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6b/26/61/6b266131-b03c-10b8-5640-24ed75a1b527/9020ae77-3d4e-48fc-a546-8895dffe962b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1051,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/bb/46/6cbb4651-ad2b-b7d4-8c0b-da19ece82df1/bc8fd91d-08b5-4439-b99d-06b141f52ea5.png/{w}x{h}{c}.{f}",
-                        "bgColor": "b68549",
-                        "textColor1": "090603",
-                        "textColor2": "120d07",
-                        "textColor3": "2b1f11",
-                        "textColor4": "322514"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/29/88/222988f5-d687-a390-7bd5-e7ff102c70d4/c11d0a2e-7af6-4725-a1a5-7ca61e6cb749.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1317,11 +1317,11 @@
             ],
             "ariaLabelForRatings": "2.7 粒星"
         },
-        "name": "QuickVoice2Text Email (PRO Recorder)",
         "genreDisplayName": "商業",
+        "name": "QuickVoice2Text Email (PRO Recorder)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "nFinity Inc",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1353,13 +1353,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nfinity.QuickVoicePro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1372,10 +1372,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -1408,7 +1408,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1471,11 +1471,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "ezPDF Reader：平板電腦的互動PDF閱讀器",
         "genreDisplayName": "商業",
+        "name": "ezPDF Reader：平板電腦的互動PDF閱讀器",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Unidocs Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1528,7 +1528,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -1561,6 +1560,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1623,11 +1623,11 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "name": "FTPManager Pro",
         "genreDisplayName": "商業",
+        "name": "FTPManager Pro",
         "isPreorder": false,
-        "artistName": "Skyjos Co., Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Skyjos Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1659,8 +1659,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-05-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.skyjos.ftpmanager",
@@ -1681,7 +1681,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -1714,6 +1713,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1776,8 +1776,8 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "name": "Docs² | for Microsoft Office",
         "genreDisplayName": "商業",
+        "name": "Docs² | for Microsoft Office",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Docs Squared, LLC",
@@ -1812,13 +1812,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-12-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.office-essentials.Office-Docs",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1866,8 +1866,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1932,11 +1932,11 @@
             ],
             "ariaLabelForRatings": "3.8 粒星"
         },
-        "name": "File Manager Pro App",
         "genreDisplayName": "商業",
+        "name": "File Manager Pro App",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Zuhanden GmbH",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1968,8 +1968,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "de.zuhanden.filemanagerpro",
@@ -1990,7 +1990,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -2023,6 +2022,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2085,8 +2085,8 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "name": "Voice Recorder HD",
         "genreDisplayName": "商業",
+        "name": "Voice Recorder HD",
         "isPreorder": false,
         "artistName": "eFUSION Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
@@ -2121,8 +2121,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.3",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.3",
                 "releaseDate": "2010-05-28",
                 "hasInAppPurchases": true,
                 "bundleId": "efusion.jp.VoiceRecorderHD",
@@ -2140,9 +2140,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 microphone ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -2175,7 +2176,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2238,8 +2238,8 @@
             ],
             "ariaLabelForRatings": "4.2 粒星"
         },
-        "name": "Mail+ for Outlook",
         "genreDisplayName": "商業",
+        "name": "Mail+ for Outlook",
         "isPreorder": false,
         "artistName": "MAIL PLUS APP LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -2274,13 +2274,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-04-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mspecht.OWA",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2328,8 +2328,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2391,11 +2391,11 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "name": "Mocha VNC",
         "genreDisplayName": "商業",
+        "name": "Mocha VNC",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "MochaSoft",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2427,8 +2427,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "dk.mochasoft.vnc",
@@ -2449,7 +2449,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -2482,6 +2481,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2555,11 +2555,11 @@
             ],
             "ariaLabelForRatings": "2.5 粒星"
         },
-        "name": "Offline Pages Pro - 帶離線網頁閱讀器的瀏覽器",
         "genreDisplayName": "商業",
+        "name": "Offline Pages Pro - 帶離線網頁閱讀器的瀏覽器",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Codium Labs LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2591,13 +2591,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-09-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.codiumlabs.offlinepages.standalone-pro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2644,8 +2644,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2709,8 +2709,8 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "name": "PrintCentral Pro",
         "genreDisplayName": "商業",
+        "name": "PrintCentral Pro",
         "isPreorder": false,
         "artistName": "EuroSmartz Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -2745,13 +2745,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-03-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.eurosmartz.mobile.printcentralpro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2799,8 +2799,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2863,11 +2863,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "inShort",
         "genreDisplayName": "商業",
+        "name": "inShort",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Jury Shortki",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2899,8 +2899,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-03-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.shortki.inShort",
@@ -2921,7 +2921,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -2954,6 +2953,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3016,8 +3016,8 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "name": "LiquidText Prepaid",
         "genreDisplayName": "商業",
+        "name": "LiquidText Prepaid",
         "isPreorder": false,
         "artistName": "LiquidText, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -3052,8 +3052,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2016-09-16",
                 "hasInAppPurchases": true,
                 "bundleId": "--.LiquidText-Enterprise",
@@ -3071,9 +3071,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -3106,7 +3107,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3169,11 +3169,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "FTP Client Pro",
         "genreDisplayName": "商業",
+        "name": "FTP Client Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LessIsMore Development",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3205,13 +3205,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-03-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.LessIsMoreDevelopment.FTPClient",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3223,10 +3223,10 @@
                     "textColor4": "444444"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -3259,7 +3259,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3321,11 +3321,11 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "name": "Creative Whack Pack",
         "genreDisplayName": "商業",
+        "name": "Creative Whack Pack",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Creative Think",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3357,8 +3357,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-03-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.creativethink.whackpack",
@@ -3379,7 +3379,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -3412,6 +3411,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3474,11 +3474,11 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "name": "JotNot掃描儀應用程序專業版",
         "genreDisplayName": "商業",
+        "name": "JotNot掃描儀應用程序專業版",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "MobiTech 3000 LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3510,8 +3510,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-03-27",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mobitech3000.JotNotIPhone",
@@ -3532,7 +3532,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -3565,6 +3564,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "掃描文件到PDF",
                 "hasSafariExtension": false,
@@ -3628,8 +3628,8 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "name": "Inkflow Plus Visual Notebook",
         "genreDisplayName": "商業",
+        "name": "Inkflow Plus Visual Notebook",
         "isPreorder": false,
         "artistName": "Qrayon, LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -3664,8 +3664,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-08-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.qrayon.inkflowPlus",
@@ -3683,9 +3683,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -3728,12 +3729,11 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "用電子墨水筆記錄靈感、隨手塗鴉。"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -3792,8 +3792,8 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "name": "OrgChart - Organization Chart",
         "genreDisplayName": "商業",
+        "name": "OrgChart - Organization Chart",
         "isPreorder": false,
         "artistName": "皓 李",
         "isIOSBinaryMacOSCompatible": false,
@@ -3828,8 +3828,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-04-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobilinked.orgchart",
@@ -3847,9 +3847,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -3882,7 +3883,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3946,11 +3946,11 @@
             ],
             "ariaLabelForRatings": "2.3 粒星"
         },
-        "name": "WritePDF",
         "genreDisplayName": "商業",
+        "name": "WritePDF",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "EuroSmartz Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3982,13 +3982,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-02-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.eurosmartz.mobile.editpdfhd",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4001,10 +4001,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -4037,7 +4037,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4101,11 +4101,11 @@
             "ariaLabelForRatings": "4.7 粒星"
         },
         "watchBundleId": "com.newkline.avrpro.watchkitapp",
-        "name": "Awesome Voice Recorder PRO AVR",
         "genreDisplayName": "商業",
+        "name": "Awesome Voice Recorder PRO AVR",
         "isPreorder": false,
-        "artistName": "Newkline Co., Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Newkline Co., Ltd.",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -4138,13 +4138,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-07-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.newkline.avrpro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4192,8 +4192,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "MP3/WAV/M4A HD Audio recording",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -4266,11 +4266,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "PDF to JPEG",
         "genreDisplayName": "商業",
+        "name": "PDF to JPEG",
         "isPreorder": false,
-        "artistName": "Flyingbee Software Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Flyingbee Software Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4302,13 +4302,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-10-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.feiPhone.PDFtoJPEG",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4355,8 +4355,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4427,10 +4427,10 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "watchBundleId": "com.adammeszaros.logo.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "5.0",
-        "name": "Logo Creator & Maker",
+        "watchBundleId": "com.adammeszaros.logo.watchkitapp",
         "genreDisplayName": "商業",
+        "name": "Logo Creator & Maker",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Logo Maker LLC",
@@ -4466,12 +4466,11 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-11-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.adammeszaros.logo",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -4482,6 +4481,7 @@
                     "textColor3": "06c4cc",
                     "textColor4": "09c38b"
                 },
+                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
@@ -4498,7 +4498,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -4531,6 +4530,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Design, Poster, Flyer",
                 "hasSafariExtension": false,
@@ -4605,8 +4605,8 @@
             "ariaLabelForRatings": "4.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.2.1",
-        "name": "PDF Reader Pro - Sign,Edit PDF",
         "genreDisplayName": "商業",
+        "name": "PDF Reader Pro - Sign,Edit PDF",
         "isPreorder": false,
         "artistName": "PDF Technologies, Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -4641,8 +4641,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-06-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.brother.pdfreaderpro",
@@ -4660,9 +4660,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -4695,7 +4696,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4756,8 +4756,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Air Sketch Wireless Whiteboard",
         "genreDisplayName": "商業",
+        "name": "Air Sketch Wireless Whiteboard",
         "isPreorder": false,
         "artistName": "Qrayon, LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -4792,8 +4792,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.5",
                 "releaseDate": "2010-06-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.qrayon.airsketch",
@@ -4811,9 +4811,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -4846,7 +4847,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4869,7 +4869,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739881504236,
+                "MZ_INDEXER": 1739916408860,
                 "RTCI": 1739882273252
             }
         },
@@ -4909,17 +4909,17 @@
             "ariaLabelForRatings": "4.7 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "4.4.3",
-        "name": "Genius Scan Enterprise - PDF",
         "genreDisplayName": "商業",
+        "name": "Genius Scan Enterprise - PDF",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "The Grizzly Labs",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=388000&salableAdamId=401818935&pricingParameters=STDQ&pg=default&appExtVrsId=872508517",
+                        "buyParams": "productType=C&price=388000&salableAdamId=401818935&pricingParameters=STDQ&pg=default&appExtVrsId=872575029",
                         "type": "buy",
                         "priceFormatted": "HK$ 388.00",
                         "price": 388,
@@ -4932,7 +4932,7 @@
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=401818935&pricingParameters=SWUPD&pg=default&appExtVrsId=872508517",
+                        "buyParams": "productType=C&price=0&salableAdamId=401818935&pricingParameters=SWUPD&pg=default&appExtVrsId=872575029",
                         "type": "update",
                         "priceFormatted": "HK$ 0.00",
                         "price": 0,
@@ -4945,17 +4945,17 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2010-12-16",
                 "hasInAppPurchases": true,
                 "bundleId": "com.thegrizzlylabs.GeniusScanPro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/a2/2b/63a22bf8-8af9-1fd4-83a1-ba6f62b5d65b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/01/c2/0701c208-849f-864b-6377-e36a94ba83af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "ff6600",
                     "textColor1": "161616",
                     "textColor2": "161616",
@@ -4964,10 +4964,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -5010,7 +5010,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "PDF 文件與 OCR",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5073,11 +5073,11 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "name": "Convert to PDF Converter",
         "genreDisplayName": "商業",
+        "name": "Convert to PDF Converter",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "建伟 徐",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5109,13 +5109,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-08-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.feiPhone.ConvertToPDF",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5128,10 +5128,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -5164,7 +5164,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5226,8 +5226,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Photo to PDF Converter",
         "genreDisplayName": "商業",
+        "name": "Photo to PDF Converter",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "建伟 徐",
@@ -5262,8 +5262,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-10-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.feiPhone.PhotoToPDF",
@@ -5283,7 +5283,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -5316,6 +5315,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5378,11 +5378,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "name": "File Manager - Folder Plus",
         "genreDisplayName": "商業",
+        "name": "File Manager - Folder Plus",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "The Very Games",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5414,13 +5414,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-12-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.theverygames.folderplus",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5432,10 +5432,10 @@
                     "textColor4": "405870"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -5468,7 +5468,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5531,11 +5531,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Tiff Fax Viewer+",
         "genreDisplayName": "商業",
+        "name": "Tiff Fax Viewer+",
         "isPreorder": false,
-        "artistName": "Corporate Smalltalk Consulting Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Corporate Smalltalk Consulting Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5567,8 +5567,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-02-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mobilewikiserver.FaxViewer",
@@ -5589,7 +5589,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -5622,6 +5621,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5682,11 +5682,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "FileViewer XL for iPad",
         "genreDisplayName": "商業",
+        "name": "FileViewer XL for iPad",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mitchell COHEN",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5718,8 +5718,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2010-04-06",
                 "hasInAppPurchases": false,
                 "bundleId": "FileViewer-iPad",
@@ -5737,9 +5737,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -5772,7 +5773,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5835,11 +5835,11 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "name": "FileBrowser Professional",
         "genreDisplayName": "商業",
+        "name": "FileBrowser Professional",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Stratospherix Ltd",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5871,13 +5871,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-04-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stratospherix.filebrowserbiz",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5890,10 +5890,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -5926,7 +5926,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "Advanced Document Management",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5989,11 +5989,11 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "name": "Csv File Editor with Import Option from Excel  .xls, .xlsx, .xml Files",
         "genreDisplayName": "商業",
+        "name": "Csv File Editor with Import Option from Excel  .xls, .xlsx, .xml Files",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Harmony Software UK",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6025,13 +6025,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-11-10",
                 "hasInAppPurchases": false,
                 "bundleId": "csvfileeditor",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6078,8 +6078,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6101,7 +6101,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739543242386,
+                "MZ_INDEXER": 1739915720615,
                 "RTCI": 1735866229102
             }
         },
@@ -6142,8 +6142,8 @@
             "ariaLabelForRatings": "4.8 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "10.1",
-        "name": "PDF Export Pro - PDF Editor",
         "genreDisplayName": "商業",
+        "name": "PDF Export Pro - PDF Editor",
         "isPreorder": false,
         "artistName": "LiveBird Technologies Private Limited",
         "isIOSBinaryMacOSCompatible": true,
@@ -6178,13 +6178,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-04-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.livebird.PDFExport",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6197,10 +6197,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -6233,159 +6233,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1091362668",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "921164631",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739532086958,
-                "RTCI": 1737967161134
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 42,
-                "genreName": "商業",
-                "genre": 6000,
-                "chart": "top-paid",
-                "genreShortName": "商業"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 3.2,
-            "ratingCount": 6,
-            "ratingCountList": [
-                2,
-                0,
-                1,
-                1,
-                2
-            ],
-            "ariaLabelForRatings": "3.2 粒星"
-        },
-        "name": "msg Lense",
-        "genreDisplayName": "商業",
-        "isPreorder": false,
-        "artistName": "credeo GmbH",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=18000&salableAdamId=1091362668&pricingParameters=STDQ&pg=default&appExtVrsId=839274905",
-                        "type": "buy",
-                        "priceFormatted": "HK$ 18.00",
-                        "price": 18,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 19273728
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1091362668&pricingParameters=SWUPD&pg=default&appExtVrsId=839274905",
-                        "type": "update",
-                        "priceFormatted": "HK$ 0.00",
-                        "price": 0,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 19273728
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2016-05-13",
-                "hasInAppPurchases": false,
-                "bundleId": "com.credeo.C17",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/5f/e6/95/5fe69584-41dc-ec9d-1045-e38f1d15372c/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "49a4cb",
-                    "textColor1": "161616",
-                    "textColor2": "161616",
-                    "textColor3": "20333a",
-                    "textColor4": "20333a"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1050,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6b/26/61/6b266131-b03c-10b8-5640-24ed75a1b527/9020ae77-3d4e-48fc-a546-8895dffe962b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1051,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/bb/46/6cbb4651-ad2b-b7d4-8c0b-da19ece82df1/bc8fd91d-08b5-4439-b99d-06b141f52ea5.png/{w}x{h}{c}.{f}",
-                        "bgColor": "b68549",
-                        "textColor1": "090603",
-                        "textColor2": "120d07",
-                        "textColor3": "2b1f11",
-                        "textColor4": "322514"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/29/88/222988f5-d687-a390-7bd5-e7ff102c70d4/c11d0a2e-7af6-4725-a1a5-7ca61e6cb749.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6428,7 +6275,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 43,
+                "position": 42,
                 "genreName": "商業",
                 "genre": 6000,
                 "chart": "top-paid",
@@ -6457,11 +6304,11 @@
             "ariaLabelForRatings": "4.5 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "6.5",
-        "name": "FineReader PDF PRO - OCR",
         "genreDisplayName": "商業",
+        "name": "FineReader PDF PRO - OCR",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "ABBYY USA Software House Inc",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6493,8 +6340,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2015-01-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.abbyy.finescanner-pro",
@@ -6508,8 +6355,8 @@
                     "textColor3": "f4cdd1",
                     "textColor4": "f4b7bd"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6557,8 +6404,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "PDF Document Scanner",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6601,7 +6448,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 44,
+                "position": 43,
                 "genreName": "商業",
                 "genre": 6000,
                 "chart": "top-paid",
@@ -6621,11 +6468,11 @@
             ],
             "ariaLabelForRatings": "4.3 粒星"
         },
-        "name": "Remotix VNC, RDP & NEAR",
         "genreDisplayName": "商業",
+        "name": "Remotix VNC, RDP & NEAR",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Acronis, Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6657,8 +6504,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-09-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nulana.remotixios",
@@ -6679,7 +6526,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -6712,6 +6558,160 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1091362668",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "921164631",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739532086958,
+                "RTCI": 1737967161134
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 44,
+                "genreName": "商業",
+                "genre": 6000,
+                "chart": "top-paid",
+                "genreShortName": "商業"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 3.2,
+            "ratingCount": 6,
+            "ratingCountList": [
+                2,
+                0,
+                1,
+                1,
+                2
+            ],
+            "ariaLabelForRatings": "3.2 粒星"
+        },
+        "genreDisplayName": "商業",
+        "name": "msg Lense",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "credeo GmbH",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=18000&salableAdamId=1091362668&pricingParameters=STDQ&pg=default&appExtVrsId=839274905",
+                        "type": "buy",
+                        "priceFormatted": "HK$ 18.00",
+                        "price": 18,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 19273728
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1091362668&pricingParameters=SWUPD&pg=default&appExtVrsId=839274905",
+                        "type": "update",
+                        "priceFormatted": "HK$ 0.00",
+                        "price": 0,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 19273728
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2016-05-13",
+                "hasInAppPurchases": false,
+                "bundleId": "com.credeo.C17",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/5f/e6/95/5fe69584-41dc-ec9d-1045-e38f1d15372c/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "49a4cb",
+                    "textColor1": "161616",
+                    "textColor2": "161616",
+                    "textColor3": "20333a",
+                    "textColor4": "20333a"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1050,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6b/26/61/6b266131-b03c-10b8-5640-24ed75a1b527/9020ae77-3d4e-48fc-a546-8895dffe962b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1051,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/6c/bb/46/6cbb4651-ad2b-b7d4-8c0b-da19ece82df1/bc8fd91d-08b5-4439-b99d-06b141f52ea5.png/{w}x{h}{c}.{f}",
+                        "bgColor": "b68549",
+                        "textColor1": "090603",
+                        "textColor2": "120d07",
+                        "textColor3": "2b1f11",
+                        "textColor4": "322514"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/29/88/222988f5-d687-a390-7bd5-e7ff102c70d4/c11d0a2e-7af6-4725-a1a5-7ca61e6cb749.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6774,11 +6774,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "eProjector",
         "genreDisplayName": "商業",
+        "name": "eProjector",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Microtech Corp.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6810,13 +6810,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-06-30",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.microtech.eProjector",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6864,8 +6864,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6927,8 +6927,8 @@
             ],
             "ariaLabelForRatings": "4.8 粒星"
         },
-        "name": "TurboScan™ Pro: PDF scanner",
         "genreDisplayName": "商業",
+        "name": "TurboScan™ Pro: PDF scanner",
         "isPreorder": false,
         "artistName": "Piksoft Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -6963,8 +6963,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-12-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.novosoft.TurboScan",
@@ -6982,9 +6982,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -7017,7 +7018,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7080,11 +7080,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "LargeViewer建設藍圖",
         "genreDisplayName": "商業",
+        "name": "LargeViewer建設藍圖",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Corporate Smalltalk Consulting Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7116,13 +7116,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-11-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobilewikiserver.Hippo",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7135,10 +7135,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -7171,7 +7171,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "查看大藍圖",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7235,10 +7235,10 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "watchBundleId": "com.imesart.AudioMemos.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "5.2.2",
-        "name": "Audio Memos Pro",
+        "watchBundleId": "com.imesart.AudioMemos.watchkitapp",
         "genreDisplayName": "商業",
+        "name": "Audio Memos Pro",
         "isPreorder": false,
         "artistName": "Imesart S.a.r.l.",
         "isIOSBinaryMacOSCompatible": true,
@@ -7274,13 +7274,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.imesart.AudioMemos",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7328,8 +7328,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -7401,8 +7401,8 @@
             ],
             "ariaLabelForRatings": "4.2 粒星"
         },
-        "name": "Touchscreen Test",
         "genreDisplayName": "商業",
+        "name": "Touchscreen Test",
         "isPreorder": false,
         "artistName": "Vishal Singh",
         "isIOSBinaryMacOSCompatible": true,
@@ -7437,8 +7437,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-06-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vishal.touchscreentest",
@@ -7456,9 +7456,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -7491,7 +7492,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7552,8 +7552,8 @@
             ],
             "ariaLabelForRatings": "2.5 粒星"
         },
-        "name": "小生意庫存管理Pro",
         "genreDisplayName": "商業",
+        "name": "小生意庫存管理Pro",
         "isPreorder": false,
         "artistName": "Yi Lin Kuo",
         "isIOSBinaryMacOSCompatible": false,
@@ -7588,8 +7588,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-04-24",
                 "hasInAppPurchases": true,
                 "bundleId": "stmfull01",
@@ -7607,9 +7607,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -7642,7 +7643,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "簡單好用的庫存管理軟體！",
                 "hasSafariExtension": false,
@@ -7666,7 +7666,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550098796,
+                "MZ_INDEXER": 1739920389775,
                 "RTCI": 1738959187226
             }
         },
@@ -7704,11 +7704,11 @@
             ],
             "ariaLabelForRatings": "3.5 粒星"
         },
-        "name": "Stickyboard 2",
         "genreDisplayName": "商業",
+        "name": "Stickyboard 2",
         "isPreorder": false,
-        "artistName": "Qrayon, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Qrayon, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7740,13 +7740,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-10-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.qrayon.stickyboard2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7788,8 +7788,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7851,11 +7851,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Prompster Pro™ - Teleprompter",
         "genreDisplayName": "商業",
+        "name": "Prompster Pro™ - Teleprompter",
         "isPreorder": false,
-        "artistName": "Dante Media, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dante Media, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7887,13 +7887,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-06-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.dantevmoore.prompster",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7940,8 +7940,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8006,8 +8006,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Kiosk Pro Basic",
         "genreDisplayName": "商業",
+        "name": "Kiosk Pro Basic",
         "isPreorder": false,
         "artistName": "Kiosk Group, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -8042,13 +8042,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kioskgroup.kioskproapp",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8096,8 +8096,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8160,8 +8160,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "Mobile Presenter Pro",
         "genreDisplayName": "商業",
+        "name": "Mobile Presenter Pro",
         "isPreorder": false,
         "artistName": "Ndili Technologies, Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -8196,13 +8196,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ndili.iphone.apps.mobilepresenter4ipad",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8250,8 +8250,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8311,11 +8311,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Fax Print & Share for iPad",
         "genreDisplayName": "商業",
+        "name": "Fax Print & Share for iPad",
         "isPreorder": false,
-        "artistName": "Ndili Technologies, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Ndili Technologies, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8347,8 +8347,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ndili.iphone.apps.faxprintshare4ipad",
@@ -8369,7 +8369,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -8402,6 +8401,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8467,8 +8467,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Kiosk Pro Plus",
         "genreDisplayName": "商業",
+        "name": "Kiosk Pro Plus",
         "isPreorder": false,
         "artistName": "Kiosk Group, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -8503,13 +8503,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-10-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kioskgroup.kioskproplus",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8557,8 +8557,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8580,8 +8580,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739875888145,
-                "RTCI": 1738964218501
+                "MZ_INDEXER": 1739921264369,
+                "RTCI": 1739906746731
             }
         },
         "supportsArcade": false,
@@ -8621,17 +8621,17 @@
             "ariaLabelForRatings": "4.8 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "17.3",
-        "name": "Scanner App Pro: Scan Edit PDF",
         "genreDisplayName": "商業",
+        "name": "Scanner App Pro: Scan Edit PDF",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "IFUNPLAY CO., LTD.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=288000&salableAdamId=585529704&pricingParameters=STDQ&pg=default&appExtVrsId=872315341",
+                        "buyParams": "productType=C&price=288000&salableAdamId=585529704&pricingParameters=STDQ&pg=default&appExtVrsId=872590709",
                         "type": "buy",
                         "priceFormatted": "HK$ 288.00",
                         "price": 288,
@@ -8644,7 +8644,7 @@
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=585529704&pricingParameters=SWUPD&pg=default&appExtVrsId=872315341",
+                        "buyParams": "productType=C&price=0&salableAdamId=585529704&pricingParameters=SWUPD&pg=default&appExtVrsId=872590709",
                         "type": "update",
                         "priceFormatted": "HK$ 0.00",
                         "price": 0,
@@ -8657,17 +8657,17 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2012-12-20",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ifunplay.paperScan",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/a8/06/d2a80668-c3c2-cbb8-fcda-d51db9433b69/AppIcon-ScannerAppPro-0-0-1x_U007emarketing-0-5-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/e3/c2/eae3c270-615e-ed67-b224-a17a3f2c60ae/AppIcon-ScannerAppPro-0-0-1x_U007emarketing-0-5-0-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "ffffff",
                     "textColor1": "0b090a",
                     "textColor2": "333232",
@@ -8676,10 +8676,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -8712,7 +8712,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8774,8 +8774,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "VSD Viewer for Visio Drawings",
         "genreDisplayName": "商業",
+        "name": "VSD Viewer for Visio Drawings",
         "isPreorder": false,
         "artistName": "Nektony LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -8810,13 +8810,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-07-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nektony.VSDViewer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8864,8 +8864,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8927,8 +8927,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Smart Group: Email, SMS/Text",
         "genreDisplayName": "商業",
+        "name": "Smart Group: Email, SMS/Text",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Shan Shan Liu",
@@ -8963,8 +8963,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.5",
                 "releaseDate": "2010-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.liushanshan.ContactGroupSMS",
@@ -8985,7 +8985,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -9018,6 +9017,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9080,8 +9080,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "TN5250",
         "genreDisplayName": "商業",
+        "name": "TN5250",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "MochaSoft",
@@ -9116,8 +9116,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "dk.mochasoft.tn5250",
@@ -9138,7 +9138,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -9171,6 +9170,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9193,7 +9193,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739544265749,
+                "MZ_INDEXER": 1739930151219,
                 "RTCI": 1738774212578
             }
         },
@@ -9233,8 +9233,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Calc-12E RPN Financial",
         "genreDisplayName": "商業",
+        "name": "Calc-12E RPN Financial",
         "isPreorder": false,
         "artistName": "Stone Meadow Development LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -9269,8 +9269,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2008-10-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stonemeadowdevelopment.Calc12E",
@@ -9287,9 +9287,10 @@
                     "textColor4": "aaceb8"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -9322,7 +9323,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9345,7 +9345,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739488683088,
+                "MZ_INDEXER": 1739931058605,
                 "RTCI": 1738955398977
             }
         },
@@ -9383,11 +9383,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "name": "QuickPlan Basic - Project Plan",
         "genreDisplayName": "商業",
+        "name": "QuickPlan Basic - Project Plan",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "皓 李",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9419,13 +9419,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-01-07",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mobilinked.quickplaniap",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9473,8 +9473,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9539,11 +9539,11 @@
             ],
             "ariaLabelForRatings": "2.5 粒星"
         },
-        "name": "FTP On The Go PRO",
         "genreDisplayName": "商業",
+        "name": "FTP On The Go PRO",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Headlight Software, Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9575,13 +9575,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-09-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ftponthego.pro.7",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9593,10 +9593,10 @@
                     "textColor4": "30354d"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -9629,7 +9629,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9689,8 +9689,8 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "name": "Vittle Pro Video Whiteboard",
         "genreDisplayName": "商業",
+        "name": "Vittle Pro Video Whiteboard",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Qrayon, LLC",
@@ -9725,8 +9725,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2013-05-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.qrayon.Vittle",
@@ -9747,7 +9747,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -9780,6 +9779,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9845,11 +9845,11 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "name": "Double browser Pro 2 in 1",
         "genreDisplayName": "商業",
+        "name": "Double browser Pro 2 in 1",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Emanuele Floris",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9881,13 +9881,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-10-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.domainname.DoubleBrowser",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9900,10 +9900,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -9936,7 +9936,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "fast and safe navigation",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9959,8 +9959,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739812476194,
-                "RTCI": 1738953080816
+                "MZ_INDEXER": 1739932281341,
+                "RTCI": 1739931827637
             }
         },
         "supportsArcade": false,
@@ -10001,18 +10001,18 @@
             "ariaLabelForRatings": "4.8 粒星"
         },
         "watchBundleId": "GroupContacts.co.jp.watchkitapp",
-        "name": "G通訊錄 - 群組通信錄",
         "genreDisplayName": "商業",
+        "name": "G通訊錄 - 群組通信錄",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "EJing",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=148000&salableAdamId=382005326&pricingParameters=STDQ&pg=default&appExtVrsId=869499289",
+                        "buyParams": "productType=C&price=148000&salableAdamId=382005326&pricingParameters=STDQ&pg=default&appExtVrsId=872571037",
                         "type": "buy",
                         "priceFormatted": "HK$ 148.00",
                         "price": 148,
@@ -10020,12 +10020,12 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 112081920
+                                "size": 112045056
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=382005326&pricingParameters=SWUPD&pg=default&appExtVrsId=869499289",
+                        "buyParams": "productType=C&price=0&salableAdamId=382005326&pricingParameters=SWUPD&pg=default&appExtVrsId=872571037",
                         "type": "update",
                         "priceFormatted": "HK$ 0.00",
                         "price": 0,
@@ -10033,22 +10033,22 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 112081920
+                                "size": 112045056
                             }
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-07-29",
                 "hasInAppPurchases": false,
                 "bundleId": "GroupContacts.co.jp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/36/aa/b936aa8c-7070-b86c-0925-83c0ea5b0d01/AppIconPro-0-0-1x_U007epad-0-1-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/c2/67/54c26795-c054-7bd8-e2f4-bb4655f7eba5/AppIconPro-0-0-1x_U007epad-0-1-0-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "273748",
                     "textColor1": "b0daf4",
                     "textColor2": "23dccd",
@@ -10057,10 +10057,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -10093,18 +10093,18 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "管理短信群發郵件群發APP",
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/80/33/6f8033e7-0ed2-e1d6-ae5b-583be541a4b6/WatchIcon-0-0-1x_U007emarketing-0-10-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "2f8dcd",
-                    "textColor1": "161216",
-                    "textColor2": "121415",
-                    "textColor3": "1b2a3b",
-                    "textColor4": "182d3a"
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/06/4a/23064ac7-fac7-457f-966a-c46086932d73/WatchIcon-0-0-1x_U007emarketing-0-10-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "2e8dce",
+                    "textColor1": "010406",
+                    "textColor2": "161616",
+                    "textColor3": "0a202e",
+                    "textColor4": "1b2e3b"
                 },
                 "requiresGameController": false
             }
@@ -10164,11 +10164,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Canvas Model Design",
         "genreDisplayName": "商業",
+        "name": "Canvas Model Design",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "KZ Labs",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10200,13 +10200,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-10-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.intergrupo.CanvasModel",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10219,10 +10219,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -10255,7 +10255,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10319,11 +10319,11 @@
             "ariaLabelForRatings": "4.6 粒星"
         },
         "watchBundleId": "com.tapzapp.tapforms.watchkitapp",
-        "name": "Tap Forms Organizer 5 Database",
         "genreDisplayName": "商業",
+        "name": "Tap Forms Organizer 5 Database",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Tap Zapp Software Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "8.0",
         "platformAttributes": {
@@ -10356,8 +10356,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-08-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tapzapp.tapforms",
@@ -10378,7 +10378,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -10411,6 +10410,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -10485,11 +10485,11 @@
             "ariaLabelForRatings": "1.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "5.3.6",
-        "name": "VesselFinder Pro",
         "genreDisplayName": "商業",
+        "name": "VesselFinder Pro",
         "isPreorder": false,
-        "artistName": "AstraPaging Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "AstraPaging Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10521,13 +10521,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-03-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.astrapaging.VesselFinder",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10575,8 +10575,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10640,8 +10640,8 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "3.9",
-        "name": "管理MS Access數據庫 - for MS Access",
         "genreDisplayName": "商業",
+        "name": "管理MS Access數據庫 - for MS Access",
         "isPreorder": false,
         "artistName": "强 李",
         "isIOSBinaryMacOSCompatible": true,
@@ -10676,8 +10676,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-03-18",
                 "hasInAppPurchases": true,
                 "bundleId": "com.xuecs.AccessMgr",
@@ -10698,7 +10698,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -10731,6 +10730,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Database Viewer for MS Access",
                 "hasSafariExtension": false,
@@ -10754,7 +10754,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550288584,
+                "MZ_INDEXER": 1739918662104,
                 "RTCI": 1738960506560
             }
         },
@@ -10794,11 +10794,11 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "發票很簡單",
         "genreDisplayName": "商業",
+        "name": "發票很簡單",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "iCubemedia Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10830,8 +10830,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-12-21",
                 "hasInAppPurchases": true,
                 "bundleId": "net.icubemedia.invoice",
@@ -10851,7 +10851,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -10884,6 +10883,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10948,11 +10948,11 @@
             "ariaLabelForRatings": "2.7 粒星"
         },
         "watchBundleId": "com.TBinfographicAndPosterCreator.com.watchkitapp",
-        "name": "InfoGraphic and Poster Creator",
         "genreDisplayName": "商業",
+        "name": "InfoGraphic and Poster Creator",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Tech Box d.o.o.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -10985,8 +10985,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-04-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.TBinfographicAndPosterCreator.com",
@@ -11004,9 +11004,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -11039,7 +11040,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -11110,8 +11110,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "On Shelf",
         "genreDisplayName": "商業",
+        "name": "On Shelf",
         "isPreorder": false,
         "artistName": "Dawn Malsbury",
         "isIOSBinaryMacOSCompatible": true,
@@ -11146,8 +11146,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-11-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.littletandog.onshelf",
@@ -11165,9 +11165,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -11200,7 +11201,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11263,11 +11263,11 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "KeepVid Pro Edition",
         "genreDisplayName": "商業",
+        "name": "KeepVid Pro Edition",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "An Tu",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11299,8 +11299,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.goodapps.KeepVid-Pro",
@@ -11318,9 +11318,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -11353,7 +11354,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11419,8 +11419,8 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "name": "Auto Refresh 5",
         "genreDisplayName": "商業",
+        "name": "Auto Refresh 5",
         "isPreorder": false,
         "artistName": "永涛 宗",
         "isIOSBinaryMacOSCompatible": true,
@@ -11455,8 +11455,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2012-06-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ytzong.AutoRefresh",
@@ -11474,9 +11474,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -11509,7 +11510,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11572,8 +11572,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Utility Spreadsheet Pro",
         "genreDisplayName": "商業",
+        "name": "Utility Spreadsheet Pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Luminant Software, Inc",
@@ -11608,8 +11608,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Luminant.DiscountSpreadSheet",
@@ -11630,7 +11630,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -11663,6 +11662,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11726,11 +11726,11 @@
             "ariaLabelForRatings": "4.6 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "3.10.0",
-        "name": "語音轉換文字 - Speechy",
         "genreDisplayName": "商業",
+        "name": "語音轉換文字 - Speechy",
         "isPreorder": false,
-        "artistName": "圣辉 金",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "圣辉 金",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11762,13 +11762,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-04-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kimsungwhee.speechy",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11816,8 +11816,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "無時間限制的語音識別工具",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11880,11 +11880,11 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "name": "iRecorder Pro Audio Recorder",
         "genreDisplayName": "商業",
+        "name": "iRecorder Pro Audio Recorder",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "SIMPLETOUCH LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11916,13 +11916,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.simpletouch.Recorder",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11934,10 +11934,10 @@
                     "textColor4": "45383a"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -11970,7 +11970,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11992,7 +11992,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739485931789,
+                "MZ_INDEXER": 1739911662992,
                 "RTCI": 1738964016141
             }
         },
@@ -12032,11 +12032,11 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "視覺圖表 - 圖表製作",
         "genreDisplayName": "商業",
+        "name": "視覺圖表 - 圖表製作",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "奕才 杨",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12068,12 +12068,12 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-03-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mailman.chart",
-                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -12084,7 +12084,7 @@
                     "textColor3": "333b45",
                     "textColor4": "333b45"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12097,10 +12097,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -12133,7 +12133,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "製作美觀強大的圖表",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12198,11 +12198,11 @@
             "ariaLabelForRatings": "4.3 粒星"
         },
         "watchBundleId": "com.alonsoftware.ALONDictaphone.watchkitapp",
-        "name": "ALON Dictaphone - 录音机",
         "genreDisplayName": "商業",
+        "name": "ALON Dictaphone - 录音机",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "ALON Software",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.3",
         "platformAttributes": {
@@ -12235,8 +12235,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2012-02-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.alonsoftware.ALONDictaphone",
@@ -12254,9 +12254,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -12289,7 +12290,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "录音笔",
                 "hasSafariExtension": false,
@@ -12363,11 +12363,11 @@
             ],
             "ariaLabelForRatings": "2.3 粒星"
         },
-        "name": "標誌和設計的創造者",
         "genreDisplayName": "商業",
+        "name": "標誌和設計的創造者",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mario Terek",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12399,8 +12399,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-11-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.logocreator.com",
@@ -12421,7 +12421,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -12454,6 +12453,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "設計你的商業品牌",
                 "hasSafariExtension": false,
@@ -12518,13 +12518,13 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "watchBundleId": "com.evaldassichyunas.REC.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "3.0",
-        "name": "You Record Pro",
+        "watchBundleId": "com.evaldassichyunas.REC.watchkitapp",
         "genreDisplayName": "商業",
+        "name": "You Record Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Eval'das Sichyunas",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -12557,13 +12557,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-09-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.evaldassichyunas.REC",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12576,10 +12576,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "microphone ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -12612,7 +12612,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -12682,8 +12682,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "SG Project Pro 5",
         "genreDisplayName": "商業",
+        "name": "SG Project Pro 5",
         "isPreorder": false,
         "artistName": "Simple Genius Software",
         "isIOSBinaryMacOSCompatible": false,
@@ -12718,8 +12718,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-10-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.simplegeniusapps.SGProjectPro5",
@@ -12737,9 +12737,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -12772,7 +12773,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12835,11 +12835,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "BizXpenseTracker",
         "genreDisplayName": "商業",
+        "name": "BizXpenseTracker",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Silverware Software, LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12871,8 +12871,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-02-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.silverware.bizxpensetracker",
@@ -12893,7 +12893,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -12926,6 +12925,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12988,11 +12988,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Mocha Telnet",
         "genreDisplayName": "商業",
+        "name": "Mocha Telnet",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "MochaSoft",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13024,13 +13024,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "dk.mochasoft.mtelnet",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13078,8 +13078,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13142,8 +13142,8 @@
             "ariaLabelForRatings": "3.8 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "10.0",
-        "name": "Audio Recorder Pro and Editor",
         "genreDisplayName": "商業",
+        "name": "Audio Recorder Pro and Editor",
         "isPreorder": false,
         "artistName": "LiveBird Technologies Private Limited",
         "isIOSBinaryMacOSCompatible": true,
@@ -13178,8 +13178,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0.0",
                 "releaseDate": "2013-11-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.livebird.recorder",
@@ -13197,9 +13197,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -13232,7 +13233,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13295,8 +13295,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Public Speaking Teleprompter",
         "genreDisplayName": "商業",
+        "name": "Public Speaking Teleprompter",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Plum Amazing Software LLC",
@@ -13335,8 +13335,8 @@
                 "releaseDate": "2010-10-31",
                 "hasInAppPurchases": false,
                 "bundleId": "plumamazing",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13383,8 +13383,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13448,8 +13448,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "SpeakerClock",
         "genreDisplayName": "商業",
+        "name": "SpeakerClock",
         "isPreorder": false,
         "artistName": "Drobnik KG",
         "isIOSBinaryMacOSCompatible": false,
@@ -13488,8 +13488,8 @@
                 "releaseDate": "2010-03-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.drobnik.speakerclock",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13537,8 +13537,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13600,8 +13600,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Network Ping",
         "genreDisplayName": "商業",
+        "name": "Network Ping",
         "isPreorder": false,
         "artistName": "MochaSoft",
         "isIOSBinaryMacOSCompatible": false,
@@ -13636,8 +13636,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-13",
                 "hasInAppPurchases": false,
                 "bundleId": "dk.mochasoft.ping",
@@ -13655,9 +13655,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -13690,7 +13691,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13754,11 +13754,11 @@
             "ariaLabelForRatings": "4.2 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.1",
-        "name": "傳真應用: 從手機發送傳真",
         "genreDisplayName": "商業",
+        "name": "傳真應用: 從手機發送傳真",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "BPMobile",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13790,8 +13790,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-09-02",
                 "hasInAppPurchases": true,
                 "bundleId": "ifax.pr",
@@ -13812,7 +13812,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -13845,6 +13844,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "通過手機傳真應用掃描和發送文檔",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13907,8 +13907,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Winmail Reader",
         "genreDisplayName": "商業",
+        "name": "Winmail Reader",
         "isPreorder": false,
         "artistName": "RootRise Technologies Pvt. Ltd.",
         "isIOSBinaryMacOSCompatible": false,
@@ -13943,8 +13943,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-05-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.RootRiseTechnologies.Pvt.Ltd.Winmail-Reader",
@@ -13962,9 +13962,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -13997,7 +13998,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14020,7 +14020,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739484649860,
+                "MZ_INDEXER": 1739905967747,
                 "RTCI": 1734428400790
             }
         },
@@ -14060,8 +14060,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Fast Scanner - PDF Doc Scan",
         "genreDisplayName": "商業",
+        "name": "Fast Scanner - PDF Doc Scan",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Hang Nguyen",
@@ -14096,8 +14096,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-01-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.coolmobilesolution.fastscanner.full",
@@ -14118,7 +14118,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -14151,6 +14150,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14173,7 +14173,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550229561,
+                "MZ_INDEXER": 1739920543443,
                 "RTCI": 1738955419564
             }
         },
@@ -14211,8 +14211,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "Shifty（调度工具）",
         "genreDisplayName": "商業",
+        "name": "Shifty（调度工具）",
         "isPreorder": false,
         "artistName": "Supercake",
         "isIOSBinaryMacOSCompatible": false,
@@ -14247,8 +14247,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-07-05",
                 "hasInAppPurchases": false,
                 "bundleId": "uk.co.supercake.shifty",
@@ -14266,9 +14266,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -14301,7 +14302,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "透過直覺的拖放介面快速建立和管理您的員工名冊",
                 "hasSafariExtension": false,
@@ -14363,11 +14363,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "name": "WBS - Project Work Breakdown",
         "genreDisplayName": "商業",
+        "name": "WBS - Project Work Breakdown",
         "isPreorder": false,
-        "artistName": "皓 李",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "皓 李",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14399,13 +14399,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-05-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobilinked.wbs",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14453,8 +14453,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14516,8 +14516,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "name": "IRIScan to Word",
         "genreDisplayName": "商業",
+        "name": "IRIScan to Word",
         "isPreorder": false,
         "artistName": "I.R.I.S. s.a.",
         "isIOSBinaryMacOSCompatible": true,
@@ -14552,8 +14552,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-07-20",
                 "hasInAppPurchases": true,
                 "bundleId": "com.irislink.ScanToWord",
@@ -14571,9 +14571,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -14606,7 +14607,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14669,11 +14669,11 @@
             ],
             "ariaLabelForRatings": "4.9 粒星"
         },
-        "name": "SharpScan Pro: OCR PDF scanner",
         "genreDisplayName": "商業",
+        "name": "SharpScan Pro: OCR PDF scanner",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Pixelnetica",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14705,8 +14705,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-06-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pixelnetica.jetscanner",
@@ -14726,7 +14726,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -14759,6 +14758,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "頻繁地迅速掃描多張文件為漂亮的 PDF + OCR",
                 "hasSafariExtension": false,
@@ -14821,11 +14821,11 @@
             ],
             "ariaLabelForRatings": "4.2 粒星"
         },
-        "name": "ScanBizCards",
         "genreDisplayName": "商業",
+        "name": "ScanBizCards",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "ScanBiz Mobile Solutions L.P.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14857,13 +14857,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.0",
                 "releaseDate": "2009-10-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.photoscanmobile.photoscan",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14876,10 +14876,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -14912,7 +14912,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14934,7 +14934,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739483995419,
+                "MZ_INDEXER": 1739906022385,
                 "RTCI": 1731373189925
             }
         },
@@ -14974,11 +14974,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "Time Master + Billing",
         "genreDisplayName": "商業",
+        "name": "Time Master + Billing",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "On-Core Software LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15010,8 +15010,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-04-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.oncore.TimeMaster",
@@ -15029,9 +15029,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1050,
@@ -15064,7 +15065,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15128,11 +15128,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.5.1",
-        "name": "FormConnect Pro",
         "genreDisplayName": "商業",
+        "name": "FormConnect Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "FormConnections, Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15164,13 +15164,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.1",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.1",
                 "releaseDate": "2013-07-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.formconnections.formconnectpro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15218,8 +15218,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

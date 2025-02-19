@@ -1,13 +1,13 @@
 [
     {
         "kind": "app",
-        "id": "6448891136",
+        "id": "6465681314",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "1616861580",
+                        "id": "559332295",
                         "type": "developers"
                     }
                 ]
@@ -15,8 +15,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739223204851,
-                "MZ_INDEXER": 1739486443189
+                "RTCI": 1738952117414,
+                "MZ_INDEXER": 1739493144016
             }
         },
         "supportsArcade": false,
@@ -36,6 +36,162 @@
         "chartPositions": {
             "appStore": {
                 "position": 1,
+                "genreName": "Cuisine et boissons",
+                "genre": 6023,
+                "chart": "top-paid",
+                "genreShortName": "Cuisine et boissons"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.7,
+            "ratingCount": 19,
+            "ratingCountList": [
+                1,
+                0,
+                0,
+                2,
+                16
+            ],
+            "ariaLabelForRatings": "4.7 étoiles"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "0.2.2",
+        "name": "Insect Scanner Pro",
+        "genreDisplayName": "Cuisine et boissons",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "dataWorks GmbH",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=5990&salableAdamId=6465681314&pricingParameters=STDQ&pg=default&appExtVrsId=869347060",
+                        "type": "buy",
+                        "priceFormatted": "5,99 €",
+                        "price": 5.99,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 57663488
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6465681314&pricingParameters=SWUPD&pg=default&appExtVrsId=869347060",
+                        "type": "update",
+                        "priceFormatted": "0,00 €",
+                        "price": 0,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 57663488
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "usesExternalLinkPurchase": false,
+                "releaseDate": "2023-09-23",
+                "hasInAppPurchases": false,
+                "bundleId": "com.dataworks.qrcode.insect",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/c8/d1/d8c8d144-9cfc-c076-4282-fbfb918b8da0/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "fcfeff",
+                    "textColor1": "071016",
+                    "textColor2": "2e2e2e",
+                    "textColor3": "383f45",
+                    "textColor4": "575858"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1256,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/90/01/44/900144b3-fdfd-f878-d169-3f479df1c516/f5381b70-8347-4ba0-96c8-71de7eca69ed.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1256,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/02/6a/ca/026acafe-8d69-b134-775f-b258dd2d3ec6/c5c6c7a6-1df6-4c6b-9419-9c20e8cba548.png/{w}x{h}{c}.{f}",
+                        "bgColor": "565b60",
+                        "textColor1": "32c9ff",
+                        "textColor2": "32c9ff",
+                        "textColor3": "3ab3df",
+                        "textColor4": "3ab3df"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7c/42/1b/7c421bb1-d140-ef54-5222-d879810e4653/cd716ae7-096c-401b-9501-b55ca47e8be6.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "usesExternalPurchase": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "6448891136",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1616861580",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1739223204851,
+                "MZ_INDEXER": 1739910597921
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 2,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -97,8 +253,8 @@
                 "releaseDate": "2023-05-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.maba.insektenscanner",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -111,10 +267,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -147,6 +302,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -202,7 +358,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -266,8 +422,8 @@
                 "releaseDate": "2017-11-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hindsightlabs.paprika.ios.v3",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -280,10 +436,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -326,14 +481,14 @@
                         "textColor4": "cd4238"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Organisez vos recettes",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Recettes, régimes et plus"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -343,7 +498,8 @@
                     "textColor2": "5a0000",
                     "textColor3": "722e08",
                     "textColor4": "7b2e08"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -384,7 +540,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -448,8 +604,8 @@
                 "releaseDate": "2012-02-28",
                 "hasInAppPurchases": true,
                 "bundleId": "com.bbla.datelimite",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -462,10 +618,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -498,11 +653,11 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Fini le gaspillage !",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -512,7 +667,8 @@
                     "textColor2": "161616",
                     "textColor3": "002033",
                     "textColor4": "123245"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -557,7 +713,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -619,8 +775,8 @@
                 "releaseDate": "2024-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.roetteri.recipesi",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -633,10 +789,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -669,9 +824,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Inclut aussi la friteuse à air",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -724,7 +880,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 6,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -786,8 +942,8 @@
                 "releaseDate": "2012-06-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pixyapps.Vinicava",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -800,10 +956,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -836,9 +991,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
-                "usesExternalPurchase": false,
                 "subtitle": "Cave à vins  & Carnet de notes",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -880,7 +1036,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 7,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -943,8 +1099,8 @@
                 "releaseDate": "2011-10-13",
                 "hasInAppPurchases": true,
                 "bundleId": "se.amazing-apps.gks",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -957,10 +1113,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -1033,9 +1188,10 @@
                         "textColor4": "9b9e6c"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
-                "usesExternalPurchase": false,
                 "subtitle": "Recettes saines et végétarien",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Les légumes verts, c’est la santé !",
@@ -1062,7 +1218,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731381547487,
-                "MZ_INDEXER": 1739482455418
+                "MZ_INDEXER": 1739909022678
             }
         },
         "supportsArcade": false,
@@ -1084,7 +1240,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -1146,8 +1302,8 @@
                 "releaseDate": "2012-09-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mobicreators.GreatCoffeeApp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1160,10 +1316,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1206,6 +1361,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -1261,7 +1417,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -1324,8 +1480,8 @@
                 "releaseDate": "2010-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.simonguertin.WineCellarProiPad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1338,10 +1494,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1374,6 +1529,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -1428,7 +1584,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 10,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -1491,8 +1647,8 @@
                 "releaseDate": "2013-05-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.beersmith.beersmith2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1505,10 +1661,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1541,6 +1696,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -1584,7 +1740,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 11,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -1646,8 +1802,8 @@
                 "releaseDate": "2010-11-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.prativo.kpt",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1659,10 +1815,9 @@
                     "textColor4": "c1bfbf"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1705,9 +1860,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Timer for cooking and baking",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1752,7 +1908,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 12,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -1815,8 +1971,8 @@
                 "releaseDate": "2009-08-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.avinis.VinoAges",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1829,10 +1985,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1865,9 +2020,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "6 070 évaluations, 140 régions",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1890,7 +2046,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738962785855,
-                "MZ_INDEXER": 1739550078954
+                "MZ_INDEXER": 1739911992130
             }
         },
         "supportsArcade": false,
@@ -1909,7 +2065,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 13,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -1971,8 +2127,8 @@
                 "releaseDate": "2009-05-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.learnw.crecipes",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1984,10 +2140,9 @@
                     "textColor4": "3e2502"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2020,6 +2175,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -2064,7 +2220,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 14,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -2129,7 +2285,6 @@
                 "releaseDate": "2015-05-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.nibbleapps.FitMenCook",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -2141,6 +2296,7 @@
                     "textColor4": "42231e"
                 },
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2153,10 +2309,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -2239,6 +2394,7 @@
                         "textColor4": "ae8e59"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -2246,7 +2402,6 @@
                     "short": "Recettes santé pour sportifs.",
                     "tagline": "Sport et nutrition 💪🍽"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2256,7 +2411,8 @@
                     "textColor2": "161616",
                     "textColor3": "42221d",
                     "textColor4": "42221d"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -2296,7 +2452,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 15,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -2358,8 +2514,8 @@
                 "releaseDate": "2013-02-26",
                 "hasInAppPurchases": false,
                 "bundleId": "se.amazing-apps.desserts",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2372,10 +2528,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2428,6 +2583,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -2479,7 +2635,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 16,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -2541,8 +2697,8 @@
                 "releaseDate": "2012-08-28",
                 "hasInAppPurchases": true,
                 "bundleId": "co.uk.thunderbluff.Wine-Maps",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2555,10 +2711,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2591,6 +2746,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -2645,7 +2801,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 17,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -2708,8 +2864,8 @@
                 "releaseDate": "2011-02-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.corpuscollusion.therecipebox",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2722,10 +2878,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2768,6 +2923,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -2812,7 +2968,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 18,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -2873,8 +3029,8 @@
                 "releaseDate": "2008-12-04",
                 "hasInAppPurchases": false,
                 "bundleId": "3EKA4Q3X7Q.Fromage",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2887,10 +3043,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2923,9 +3078,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Pocket Guide to World Cheeses",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2948,7 +3104,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731379796166,
-                "MZ_INDEXER": 1739547188490
+                "MZ_INDEXER": 1739908832239
             }
         },
         "supportsArcade": false,
@@ -2967,7 +3123,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 19,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -3030,8 +3186,8 @@
                 "releaseDate": "2016-04-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.globakeryco.ohsheglows",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3044,10 +3200,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -3110,9 +3265,10 @@
                         "textColor4": "675448"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Recettes Végétaliennes",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "De délicieuses recettes à base de plantes pour votre régime.",
@@ -3161,7 +3317,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 19,
+                "position": 20,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -3223,8 +3379,8 @@
                 "releaseDate": "2013-03-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.fiveDayDetox",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3237,10 +3393,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3273,6 +3428,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -3297,7 +3453,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739105190934,
-                "MZ_INDEXER": 1739544015048
+                "MZ_INDEXER": 1739925790595
             }
         },
         "supportsArcade": false,
@@ -3319,7 +3475,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 20,
+                "position": 21,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -3381,8 +3537,8 @@
                 "releaseDate": "2011-01-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.juicemaster.7lbsIn7Days",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3395,10 +3551,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3431,6 +3586,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -3477,7 +3633,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 21,
+                "position": 22,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -3539,8 +3695,8 @@
                 "releaseDate": "2019-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.webartisan.FoodAdditives",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3553,10 +3709,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3589,9 +3744,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Sécurité alimentaire",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3634,7 +3790,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 22,
+                "position": 23,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -3698,8 +3854,8 @@
                 "releaseDate": "2012-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.falldaysoftware.mealplan",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3712,10 +3868,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3758,10 +3913,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3771,7 +3926,8 @@
                     "textColor2": "030d12",
                     "textColor3": "333d42",
                     "textColor4": "353d42"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -3792,7 +3948,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1737399140724,
-                "MZ_INDEXER": 1739549782735
+                "MZ_INDEXER": 1739909244303
             }
         },
         "supportsArcade": false,
@@ -3822,7 +3978,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 23,
+                "position": 24,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -3885,8 +4041,8 @@
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.droidspot.ibartender",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3899,10 +4055,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3935,6 +4090,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -3976,7 +4132,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 25,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -4038,8 +4194,8 @@
                 "releaseDate": "2013-04-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lajolievie.The-French-Desserts-of-Nanou",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4052,10 +4208,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4088,6 +4243,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -4136,7 +4292,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 26,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -4198,18 +4354,17 @@
                 "releaseDate": "2010-11-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.milibris.reader.nouvelobs.parisbranche.en",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 512,
                     "height": 512,
                     "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple/54/eb/d0/mzi.snquulao.png/{w}x{h}{c}.{f}"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4242,6 +4397,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -4285,7 +4441,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 27,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -4347,8 +4503,8 @@
                 "releaseDate": "2014-04-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superJuiceMe",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4361,10 +4517,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4417,6 +4572,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -4441,7 +4597,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739105190932,
-                "MZ_INDEXER": 1739483060431
+                "MZ_INDEXER": 1739909005212
             }
         },
         "supportsArcade": false,
@@ -4463,7 +4619,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 27,
+                "position": 28,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -4525,8 +4681,8 @@
                 "releaseDate": "2012-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.three-day-detox",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4539,10 +4695,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4575,6 +4730,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -4618,7 +4774,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 29,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -4680,8 +4836,8 @@
                 "releaseDate": "2011-02-16",
                 "hasInAppPurchases": false,
                 "bundleId": "ch.eatthis.celsius",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4694,10 +4850,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4730,9 +4885,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "SV pour chefs pros et amateurs",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4775,7 +4931,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 30,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -4839,8 +4995,8 @@
                 "releaseDate": "2012-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.filibaba.veggiemeals",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4853,10 +5009,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4889,13 +5044,13 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "À vous les bons petits plats végétariens !"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4905,7 +5060,8 @@
                     "textColor2": "413100",
                     "textColor3": "6d341d",
                     "textColor4": "66511d"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -4945,7 +5101,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 31,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -5007,8 +5163,8 @@
                 "releaseDate": "2014-04-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fatburningman.smoothiechallenge",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5021,10 +5177,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5077,6 +5232,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -5104,7 +5260,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738951269164,
-                "MZ_INDEXER": 1739482387470
+                "MZ_INDEXER": 1739906439101
             }
         },
         "supportsArcade": false,
@@ -5124,7 +5280,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 31,
+                "position": 32,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -5188,8 +5344,8 @@
                 "releaseDate": "2010-10-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.PomegranateSoftware.MyFood",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5202,10 +5358,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5238,10 +5393,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5251,7 +5406,8 @@
                     "textColor2": "161615",
                     "textColor3": "452b10",
                     "textColor4": "452b12"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -5291,7 +5447,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 33,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -5353,8 +5509,8 @@
                 "releaseDate": "2015-02-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.fiveTwoDiet",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5367,10 +5523,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5403,6 +5558,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -5457,7 +5613,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 33,
+                "position": 34,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -5519,8 +5675,8 @@
                 "releaseDate": "2010-11-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hadessolutions.eCocktails",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5533,10 +5689,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5569,6 +5724,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -5612,7 +5768,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 34,
+                "position": 35,
                 "genreName": "Cuisine et boissons",
                 "genre": 6023,
                 "chart": "top-paid",
@@ -5674,8 +5830,8 @@
                 "releaseDate": "2017-04-30",
                 "hasInAppPurchases": false,
                 "bundleId": "eu.chatelier.RecetteCook",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5688,10 +5844,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5724,162 +5879,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "usesExternalPurchase": false,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6465681314",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "559332295",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738952117414,
-                "MZ_INDEXER": 1739493144016
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 35,
-                "genreName": "Cuisine et boissons",
-                "genre": 6023,
-                "chart": "top-paid",
-                "genreShortName": "Cuisine et boissons"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.7,
-            "ratingCount": 19,
-            "ratingCountList": [
-                1,
-                0,
-                0,
-                2,
-                16
-            ],
-            "ariaLabelForRatings": "4.7 étoiles"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "0.2.2",
-        "name": "Insect Scanner Pro",
-        "genreDisplayName": "Cuisine et boissons",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "dataWorks GmbH",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=5990&salableAdamId=6465681314&pricingParameters=STDQ&pg=default&appExtVrsId=869347060",
-                        "type": "buy",
-                        "priceFormatted": "5,99 €",
-                        "price": 5.99,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 57663488
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6465681314&pricingParameters=SWUPD&pg=default&appExtVrsId=869347060",
-                        "type": "update",
-                        "priceFormatted": "0,00 €",
-                        "price": 0,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 57663488
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "usesExternalLinkPurchase": false,
-                "releaseDate": "2023-09-23",
-                "hasInAppPurchases": false,
-                "bundleId": "com.dataworks.qrcode.insect",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/c8/d1/d8c8d144-9cfc-c076-4282-fbfb918b8da0/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "fcfeff",
-                    "textColor1": "071016",
-                    "textColor2": "2e2e2e",
-                    "textColor3": "383f45",
-                    "textColor4": "575858"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1256,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/90/01/44/900144b3-fdfd-f878-d169-3f479df1c516/f5381b70-8347-4ba0-96c8-71de7eca69ed.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1256,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/02/6a/ca/026acafe-8d69-b134-775f-b258dd2d3ec6/c5c6c7a6-1df6-4c6b-9419-9c20e8cba548.png/{w}x{h}{c}.{f}",
-                        "bgColor": "565b60",
-                        "textColor1": "32c9ff",
-                        "textColor2": "32c9ff",
-                        "textColor3": "3ab3df",
-                        "textColor4": "3ab3df"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/7c/42/1b/7c421bb1-d140-ef54-5222-d879810e4653/cd716ae7-096c-401b-9501-b55ca47e8be6.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -5991,8 +5991,8 @@
                 "releaseDate": "2015-08-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.filibaba.vegourmet",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6005,10 +6005,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6061,13 +6060,13 @@
                         "textColor4": "37342d"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Vous allez vous régaler !"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6077,7 +6076,8 @@
                     "textColor2": "e0e0e1",
                     "textColor3": "dededf",
                     "textColor4": "c6c6c7"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -6179,8 +6179,8 @@
                 "releaseDate": "2016-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superFastFood",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6193,10 +6193,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6239,6 +6238,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -6263,7 +6263,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731372885241,
-                "MZ_INDEXER": 1739553971844
+                "MZ_INDEXER": 1739912085141
             }
         },
         "supportsArcade": false,
@@ -6345,8 +6345,8 @@
                 "releaseDate": "2015-07-31",
                 "hasInAppPurchases": false,
                 "bundleId": "net.appassion.themushroombook",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6359,10 +6359,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6395,6 +6394,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -6501,8 +6501,8 @@
                 "releaseDate": "2015-01-18",
                 "hasInAppPurchases": true,
                 "bundleId": "au.com.hippielane.app.HippieLane",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6514,10 +6514,9 @@
                     "textColor4": "4d4d4d"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6570,6 +6569,7 @@
                         "textColor4": "1a1a1a"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -6685,8 +6685,8 @@
                 "releaseDate": "2013-07-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.fatburningman.cavemanfeast",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6699,10 +6699,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6755,10 +6754,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6768,7 +6767,8 @@
                     "textColor2": "161616",
                     "textColor3": "273931",
                     "textColor4": "273931"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -6789,7 +6789,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731352313968,
-                "MZ_INDEXER": 1739549415782
+                "MZ_INDEXER": 1739925327047
             }
         },
         "supportsArcade": false,
@@ -6870,8 +6870,8 @@
                 "releaseDate": "2014-07-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iTankster.MagnifyGlassPro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6884,10 +6884,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6920,9 +6919,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "LA loupe-torche LED à avoir",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7026,8 +7026,8 @@
                 "releaseDate": "2014-12-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.soupJuiceMe",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7040,10 +7040,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7076,6 +7075,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -7100,7 +7100,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739355064395,
-                "MZ_INDEXER": 1739829288899
+                "MZ_INDEXER": 1739907048724
             }
         },
         "supportsArcade": false,
@@ -7181,8 +7181,8 @@
                 "releaseDate": "2010-03-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gigabytesol.talkingBreakfast",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7194,10 +7194,9 @@
                     "textColor4": "b8724f"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7230,6 +7229,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -7335,8 +7335,8 @@
                 "releaseDate": "2012-10-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wolframalpha.culinarymath",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7348,10 +7348,9 @@
                     "textColor4": "402714"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7384,6 +7383,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -7493,8 +7493,8 @@
                 "releaseDate": "2017-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superblend",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7507,10 +7507,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7543,6 +7542,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -7659,8 +7659,8 @@
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.creativealgorithms.servingsizerproipad",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7673,10 +7673,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7709,6 +7708,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -7817,8 +7817,8 @@
                 "releaseDate": "2014-10-16",
                 "hasInAppPurchases": false,
                 "bundleId": "burleigh-labs.Get-Juiced",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7831,10 +7831,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7867,6 +7866,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -7891,7 +7891,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738953721663,
-                "MZ_INDEXER": 1739487017167
+                "MZ_INDEXER": 1739910603736
             }
         },
         "supportsArcade": false,
@@ -7976,8 +7976,8 @@
                 "releaseDate": "2019-01-11",
                 "hasInAppPurchases": false,
                 "bundleId": "it.pierluigi.mywinecellarpro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7990,10 +7990,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8026,6 +8025,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -8132,8 +8132,8 @@
                 "releaseDate": "2015-01-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.aexol.fryysteaktimer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8146,10 +8146,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8182,9 +8181,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Your guide to steak perfection",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Devenez un professionnel du steak."
@@ -8210,7 +8210,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738953151292,
-                "MZ_INDEXER": 1739483568912
+                "MZ_INDEXER": 1739908926094
             }
         },
         "supportsArcade": false,
@@ -8291,8 +8291,8 @@
                 "releaseDate": "2021-02-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hercullgames.myrecipesalbum",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8305,10 +8305,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8341,9 +8340,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Mon livre de recettes",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8447,8 +8447,8 @@
                 "releaseDate": "2014-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "burleigh-labs.Garden-Plate-Pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8461,10 +8461,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8497,6 +8496,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -8608,8 +8608,8 @@
                 "releaseDate": "2016-08-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nibbleapps.Krautkopf",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8622,10 +8622,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8678,13 +8677,13 @@
                         "textColor4": "c47c7e"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Recettes végétariennes"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8694,7 +8693,8 @@
                     "textColor2": "0d0d0d",
                     "textColor3": "3d3d3d",
                     "textColor4": "3d3d3d"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -8796,8 +8796,8 @@
                 "releaseDate": "2012-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brightflock.rawrec",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8809,10 +8809,9 @@
                     "textColor4": "2a3543"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8845,6 +8844,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -8951,8 +8951,8 @@
                 "releaseDate": "2010-10-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hotel3g.imenu",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8965,10 +8965,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9001,6 +9000,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -9025,7 +9025,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731370175517,
-                "MZ_INDEXER": 1739549700212
+                "MZ_INDEXER": 1739911378234
             }
         },
         "supportsArcade": false,
@@ -9117,8 +9117,8 @@
                 "releaseDate": "2013-09-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.janakshah.52fastdiet",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9131,10 +9131,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9167,6 +9166,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -9272,8 +9272,8 @@
                 "releaseDate": "2013-05-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.toycartools.recipegallery",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9286,8 +9286,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 still-camera ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9424,8 +9424,8 @@
                 "releaseDate": "2012-11-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vst.mojotogo2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9438,10 +9438,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9474,6 +9473,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -9579,8 +9579,8 @@
                 "releaseDate": "2019-09-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.juiceblend",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9593,10 +9593,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9629,6 +9628,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -9734,8 +9734,8 @@
                 "releaseDate": "2013-05-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brightflock.rawmeal",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9747,10 +9747,9 @@
                     "textColor4": "2b3a26"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9783,6 +9782,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -9888,8 +9888,8 @@
                 "releaseDate": "2014-09-14",
                 "hasInAppPurchases": false,
                 "bundleId": "de.tsigosys.rheumatism",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9902,10 +9902,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9938,6 +9937,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -10057,8 +10057,8 @@
                 "releaseDate": "2011-11-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.maddevsoftware.bebidasanddrinks",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10071,10 +10071,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10107,10 +10106,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10120,7 +10119,8 @@
                     "textColor2": "eff2f9",
                     "textColor3": "d1cc67",
                     "textColor4": "c9c6d9"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -10221,8 +10221,8 @@
                 "releaseDate": "2015-06-11",
                 "hasInAppPurchases": false,
                 "bundleId": "Hundredeni.ODMP",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10235,10 +10235,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10271,6 +10270,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -10376,8 +10376,8 @@
                 "releaseDate": "2012-12-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ross.snaprecipes",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10390,10 +10390,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10426,6 +10425,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -10531,8 +10531,8 @@
                 "releaseDate": "2012-05-22",
                 "hasInAppPurchases": true,
                 "bundleId": "cs.com.gt.catador",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10545,10 +10545,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10581,6 +10580,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -10686,8 +10686,8 @@
                 "releaseDate": "2020-08-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.app.iphone.seasonal",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10700,10 +10700,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10736,6 +10735,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -10856,8 +10856,8 @@
                 "releaseDate": "2020-04-03",
                 "hasInAppPurchases": true,
                 "bundleId": "de.foodwithlove.foodwithloveDev",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10869,8 +10869,8 @@
                     "textColor4": "40353a"
                 },
                 "isAppleWatchSupported": true,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10920,7 +10920,6 @@
                 "editorialNotes": {
                     "tagline": "Jamais en panne de recettes"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10930,7 +10929,8 @@
                     "textColor2": "161616",
                     "textColor3": "41383c",
                     "textColor4": "41383c"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -11035,8 +11035,8 @@
                 "releaseDate": "2015-04-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.balkarov.povarenok",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11049,8 +11049,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11189,8 +11189,8 @@
                 "releaseDate": "2015-04-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.seychelles.app",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11203,10 +11203,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11239,6 +11238,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -11343,8 +11343,8 @@
                 "releaseDate": "2023-06-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.levyware.ninjafoodipdf",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11357,10 +11357,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11393,6 +11392,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -11499,8 +11499,8 @@
                 "releaseDate": "2014-04-14",
                 "hasInAppPurchases": false,
                 "bundleId": "de.tsigosys.purine",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11513,8 +11513,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11572,7 +11572,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738957413872,
-                "MZ_INDEXER": 1739546857223
+                "MZ_INDEXER": 1739929627241
             }
         },
         "supportsArcade": false,
@@ -11653,8 +11653,8 @@
                 "releaseDate": "2013-03-19",
                 "hasInAppPurchases": false,
                 "bundleId": "uk.co.thecakemakery.costacakepro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11667,10 +11667,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11703,6 +11702,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -11807,8 +11807,8 @@
                 "releaseDate": "2012-09-26",
                 "hasInAppPurchases": false,
                 "bundleId": "ca.digital-future.cooking.healthy",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11821,10 +11821,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.1",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11857,6 +11856,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.1",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -11881,7 +11881,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739813521335,
-                "MZ_INDEXER": 1739839162234
+                "MZ_INDEXER": 1739912871631
             }
         },
         "supportsArcade": false,
@@ -11962,8 +11962,8 @@
                 "releaseDate": "2012-02-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.xmobileapp.meishijielocal",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11976,10 +11976,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12012,6 +12011,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -12120,8 +12120,8 @@
                 "releaseDate": "2023-05-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.touchscreentravels.frenchfooddecoder",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12134,10 +12134,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12170,6 +12169,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -12194,7 +12194,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738960136132,
-                "MZ_INDEXER": 1739547223534
+                "MZ_INDEXER": 1739911516152
             }
         },
         "supportsArcade": false,
@@ -12275,8 +12275,8 @@
                 "releaseDate": "2018-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "nl.ksoft.sousvidetimer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12289,10 +12289,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12325,6 +12324,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -12433,8 +12433,8 @@
                 "releaseDate": "2017-12-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.filibaba.veryveggie",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12447,10 +12447,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12493,13 +12492,13 @@
                         "textColor4": "d6a06f"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Des repas sains en famille"
                 },
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12509,7 +12508,8 @@
                     "textColor2": "161616",
                     "textColor3": "3d2444",
                     "textColor4": "3e2745"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -12530,7 +12530,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738970325554,
-                "MZ_INDEXER": 1739549930947
+                "MZ_INDEXER": 1739920152504
             }
         },
         "supportsArcade": false,
@@ -12621,8 +12621,8 @@
                 "releaseDate": "2017-09-11",
                 "hasInAppPurchases": false,
                 "bundleId": "ficken.dave.cellarview",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12635,10 +12635,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12671,6 +12670,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -12787,8 +12787,8 @@
                 "releaseDate": "2015-08-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.paulhangas.bottles",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12801,10 +12801,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12837,6 +12836,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -12955,8 +12955,8 @@
                 "releaseDate": "2014-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cooperbold.cocktailparty",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12969,10 +12969,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13005,6 +13004,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -13110,8 +13110,8 @@
                 "releaseDate": "2014-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "burleigh-labs.Paleo-Plate-Pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13124,10 +13124,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13160,6 +13159,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -13268,8 +13268,8 @@
                 "releaseDate": "2011-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "nl.interculture.CuliFrans",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13282,10 +13282,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13318,6 +13317,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -13426,8 +13426,8 @@
                 "releaseDate": "2009-08-06",
                 "hasInAppPurchases": false,
                 "bundleId": "GPQDJ99EGV.com.yourcompany.Kueche",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13440,10 +13440,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13476,6 +13475,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -13592,8 +13592,8 @@
                 "releaseDate": "2022-11-20",
                 "hasInAppPurchases": false,
                 "bundleId": "jcdanchin.WineCellar",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13606,10 +13606,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13642,9 +13641,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Gestion de votre cave à vin",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13748,8 +13748,8 @@
                 "releaseDate": "2021-10-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.didierburton.CookUnits",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13762,10 +13762,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13798,9 +13797,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Mesurez ingrédients & recettes",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13915,8 +13915,8 @@
                 "releaseDate": "2016-02-16",
                 "hasInAppPurchases": false,
                 "bundleId": "unfiltered.beerandbrewing.oxforddictionary",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13928,10 +13928,9 @@
                     "textColor4": "a69b9c"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13964,6 +13963,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -13988,7 +13988,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731366144395,
-                "MZ_INDEXER": 1739547220551
+                "MZ_INDEXER": 1739919430051
             }
         },
         "supportsArcade": false,
@@ -14069,8 +14069,8 @@
                 "releaseDate": "2015-05-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.im-docu.texmex",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14083,10 +14083,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14119,6 +14118,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -14225,8 +14225,8 @@
                 "releaseDate": "2013-11-07",
                 "hasInAppPurchases": false,
                 "bundleId": "net.trellisys.papertrell.book81001013039",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14239,10 +14239,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14275,6 +14274,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -14380,8 +14380,8 @@
                 "releaseDate": "2014-01-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.FarAway.Gamma",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14394,10 +14394,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14430,6 +14429,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -14535,8 +14535,8 @@
                 "releaseDate": "2013-08-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.chewyapplications.Cook-Convert",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14549,10 +14549,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14585,6 +14584,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -14690,8 +14690,8 @@
                 "releaseDate": "2013-06-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sutromedia.ItalianMenuDecoder-803",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14704,10 +14704,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14740,6 +14739,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -14845,8 +14845,8 @@
                 "releaseDate": "2013-05-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.alldayapps.CookingCostingCalculator",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14859,10 +14859,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14895,6 +14894,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -14999,8 +14999,8 @@
                 "releaseDate": "2012-09-26",
                 "hasInAppPurchases": false,
                 "bundleId": "ca.digital-future.cooking.sweet",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15013,10 +15013,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.1",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15049,6 +15048,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.1",
                 "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -15154,8 +15154,8 @@
                 "releaseDate": "2012-01-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.chu.souschefpaid",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15168,10 +15168,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15204,6 +15203,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -15320,8 +15320,8 @@
                 "releaseDate": "2011-04-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.spingredients",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15334,10 +15334,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15370,6 +15369,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -15475,8 +15475,8 @@
                 "releaseDate": "2020-04-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ios.LoveManuellas",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15489,10 +15489,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15525,6 +15524,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -15633,8 +15633,8 @@
                 "releaseDate": "2020-02-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.checkyourvector.Ratio",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15647,10 +15647,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15683,10 +15682,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15696,7 +15695,8 @@
                     "textColor2": "2c2c2c",
                     "textColor3": "333333",
                     "textColor4": "565656"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -15798,8 +15798,8 @@
                 "releaseDate": "2019-11-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.flosolei.world2020",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15812,10 +15812,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -15848,6 +15847,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -15959,8 +15959,8 @@
                 "releaseDate": "2020-01-15",
                 "hasInAppPurchases": true,
                 "bundleId": "com.filibaba.bloodygood",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15973,10 +15973,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -16009,10 +16008,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16022,7 +16021,8 @@
                     "textColor2": "f8f8f8",
                     "textColor3": "dfdfdf",
                     "textColor4": "dadada"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -16135,8 +16135,8 @@
                 "releaseDate": "2018-05-25",
                 "hasInAppPurchases": false,
                 "bundleId": "nl.ksoft.Whiskytasting",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16149,10 +16149,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -16185,6 +16184,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
@@ -16301,8 +16301,8 @@
                 "releaseDate": "2018-04-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.squidbay.decantowinetasting",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -16315,10 +16315,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -16371,9 +16370,10 @@
                         "textColor4": "e0ab46"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Votre sommelier personnel",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

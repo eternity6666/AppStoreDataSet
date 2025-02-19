@@ -57,8 +57,8 @@
         "genreDisplayName": "天气",
         "name": "雨时",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "启玄 宋",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -112,7 +112,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -145,12 +145,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "如诗的天气",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "简洁优雅的中国风天气 App。将天气与古诗词巧妙结合，打造独具一格的写意体验。"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -171,7 +171,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739551435087,
+                "MZ_INDEXER": 1739910699380,
                 "RTCI": 1739433507482
             }
         },
@@ -217,8 +217,8 @@
         "genreDisplayName": "天气",
         "name": "彩云天气Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Beijing ColorfulClouds Technology Co., Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -273,7 +273,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -306,9 +306,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "为您预报几点下雨几点雨停",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -318,8 +319,7 @@
                     "textColor2": "59220d",
                     "textColor3": "734a3b",
                     "textColor4": "7a4e3d"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -383,8 +383,8 @@
         "genreDisplayName": "天气",
         "name": "层云",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "玺坤 李",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.0",
         "platformAttributes": {
@@ -439,7 +439,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -472,9 +472,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "焕然一新的天气应用",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -484,8 +485,7 @@
                     "textColor2": "dddfee",
                     "textColor3": "cfd8e7",
                     "textColor4": "b6beda"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -505,7 +505,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739483806746,
+                "MZ_INDEXER": 1739909245941,
                 "RTCI": 1738138002328
             }
         },
@@ -607,6 +607,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -679,9 +680,9 @@
                         "textColor4": "474747"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "北极光",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -691,8 +692,7 @@
                     "textColor2": "2bd7fc",
                     "textColor3": "d6d6d6",
                     "textColor4": "2db6d4"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -813,7 +813,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -856,13 +856,14 @@
                         "textColor4": "1b2f3b"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "一款小清新的天气预报",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "清新活泼的天气助手，提供湿度、空气质量等信息，还有今日小组件可选用。",
                     "tagline": "在锁屏界面一览天气状况"
                 },
-                "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -872,8 +873,7 @@
                     "textColor2": "101b21",
                     "textColor3": "142633",
                     "textColor4": "213c4e"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -939,8 +939,8 @@
         "genreDisplayName": "天气",
         "name": "实时天气Pro -国家天气预报&空气质量",
         "isPreorder": false,
-        "artistName": "政 王",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "政 王",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.1",
         "platformAttributes": {
@@ -995,7 +995,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1028,9 +1028,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "准确、无广告，原国家天气",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1040,8 +1041,7 @@
                     "textColor2": "0c0c16",
                     "textColor3": "3a3b45",
                     "textColor4": "3d3c45"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1145,6 +1145,8 @@
                 "releaseDate": "2010-11-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.elecont.EWeatherClock",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -1155,8 +1157,6 @@
                     "textColor3": "1e2327",
                     "textColor4": "41312a"
                 },
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1172,6 +1172,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1204,9 +1205,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Weather & Alerts",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1216,7 +1217,160 @@
                     "textColor2": "2d1203",
                     "textColor3": "1e2327",
                     "textColor4": "43322a"
+                }
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1598039955",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1081299878",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739541171155,
+                "RTCI": 1738958505436
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 8,
+                "genreName": "天气",
+                "genre": 6001,
+                "chart": "top-paid",
+                "genreShortName": "天气"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 3.8,
+            "ratingCount": 24,
+            "ratingCountList": [
+                5,
+                1,
+                3,
+                0,
+                15
+            ],
+            "ariaLabelForRatings": "3.8 星"
+        },
+        "genreDisplayName": "天气",
+        "name": "天气 - 每日天气",
+        "isPreorder": false,
+        "artistName": "玮 丁",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=8000&salableAdamId=1598039955&pricingParameters=STDQ&pg=default&appExtVrsId=869085613",
+                        "type": "buy",
+                        "priceFormatted": "¥8.00",
+                        "price": 8,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 8001536
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1598039955&pricingParameters=SWUPD&pg=default&appExtVrsId=869085613",
+                        "type": "update",
+                        "priceFormatted": "¥0.00",
+                        "price": 0,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 8001536
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
+                "releaseDate": "2021-12-04",
+                "hasInAppPurchases": false,
+                "bundleId": "im.pijin.DailyWeather",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/70/fc/e770fcda-3a71-ca28-cabf-e943fbf995c1/AppIcon_new-0-0-1x_U007epad-0-1-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "d1e5fb",
+                    "textColor1": "12120d",
+                    "textColor2": "12120e",
+                    "textColor3": "383c3c",
+                    "textColor4": "383c3d"
                 },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1356,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f7/66/13/f76613f7-fbb4-30ee-a780-20570100e703/6cfdce49-ee9e-4361-be45-efe40885f418.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1356,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/19/9e/f9199e5e-f998-fa53-e515-0d56ca20c037/0c6f4077-5389-4196-9194-fa65209b4a42.png/{w}x{h}{c}.{f}",
+                        "bgColor": "32c8ff",
+                        "textColor1": "161000",
+                        "textColor2": "161000",
+                        "textColor3": "1b3533",
+                        "textColor4": "1b3533"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1f/ad/d8/1fadd80b-2628-c00f-1204-96b1fb7a942d/e4f025eb-e858-484f-8dcb-9faaa68da33b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "全球天气预报",
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1257,7 +1411,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -1335,7 +1489,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1408,11 +1562,11 @@
                         "textColor4": "90b91f"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "实时 3D 模拟天气图像"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1453,7 +1607,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 10,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -1478,8 +1632,8 @@
         "genreDisplayName": "天气",
         "name": "WeatherPro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "DTN Germany GmbH.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "3.0",
         "platformAttributes": {
@@ -1534,7 +1688,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1597,11 +1751,12 @@
                         "textColor4": "889fc6"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "未来七日天气 轻松规划出行"
                 },
-                "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1611,8 +1766,7 @@
                     "textColor2": "012c4d",
                     "textColor3": "34330d",
                     "textColor4": "334f3e"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1655,7 +1809,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 11,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -1679,8 +1833,8 @@
         "genreDisplayName": "天气",
         "name": "我的月相专业版",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "JRustonApps B.V.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -1718,6 +1872,8 @@
                 "releaseDate": "2016-04-27",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jrustonapps.My-Moon-Phase-Pro",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -1728,8 +1884,6 @@
                     "textColor3": "d6d6d6",
                     "textColor4": "d6d6d6"
                 },
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1744,6 +1898,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1776,9 +1931,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "农历和满月相",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1788,8 +1943,7 @@
                     "textColor2": "ffffff",
                     "textColor3": "d6d6d6",
                     "textColor4": "d6d6d6"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1829,7 +1983,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 12,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -1852,8 +2006,8 @@
         "genreDisplayName": "天气",
         "name": "月相 - 日历",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1907,7 +2061,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1940,7 +2094,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "日历，日出，日落",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1984,7 +2138,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 13,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -2065,6 +2219,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -2097,9 +2252,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "精美小组件 实时温度 空气质 与 空气污染数 雷 达 台风",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2109,8 +2264,7 @@
                     "textColor2": "1b2551",
                     "textColor3": "414e72",
                     "textColor4": "485074"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -2149,7 +2303,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 14,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -2228,7 +2382,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -2261,7 +2415,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "懂你的vip无广告纯净版",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2284,8 +2438,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739816533658,
-                "RTCI": 1738101808908
+                "MZ_INDEXER": 1739916692685,
+                "RTCI": 1739917820789
             }
         },
         "supportsArcade": false,
@@ -2305,7 +2459,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 15,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -2377,6 +2531,8 @@
                 "releaseDate": "2010-06-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pascaldreer.aeroweatherpro",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -2387,8 +2543,6 @@
                     "textColor3": "caaa72",
                     "textColor4": "c48c24"
                 },
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2404,7 +2558,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -2437,8 +2591,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2448,8 +2603,7 @@
                     "textColor2": "fac255",
                     "textColor3": "cdad75",
                     "textColor4": "cca45c"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -2489,7 +2643,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 16,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -2514,8 +2668,8 @@
         "genreDisplayName": "天气",
         "name": "极简天气-清新纯净的天气应用",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "希 陈",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "9.0",
         "platformAttributes": {
@@ -2570,7 +2724,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -2603,9 +2757,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "不过是天气应用该有的样子",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2615,8 +2770,7 @@
                     "textColor2": "161301",
                     "textColor3": "454234",
                     "textColor4": "454234"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -2657,7 +2811,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 17,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -2738,7 +2892,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -2771,9 +2925,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "天气预报-精准预报15日天气",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2783,8 +2938,7 @@
                     "textColor2": "f6c73c",
                     "textColor3": "cddef4",
                     "textColor4": "c6b259"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -2825,7 +2979,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 18,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -2905,7 +3059,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -2948,9 +3102,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "温度，湿度，压力，不适指数",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2960,8 +3115,7 @@
                     "textColor2": "130b05",
                     "textColor3": "2f2c27",
                     "textColor4": "362d24"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -3000,7 +3154,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 19,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -3024,8 +3178,8 @@
         "genreDisplayName": "天气",
         "name": "紫外线指数 - 太阳光线",
         "isPreorder": false,
-        "artistName": "LionsApp di Nallbati Elton",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "LionsApp di Nallbati Elton",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3079,7 +3233,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3112,7 +3266,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "保护自己免受紫外线伤害",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3156,7 +3310,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 19,
+                "position": 20,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -3236,7 +3390,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3269,9 +3423,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "天气预报 和 恶劣天气预警",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3281,8 +3436,7 @@
                     "textColor2": "0a2e53",
                     "textColor3": "355271",
                     "textColor4": "3a5673"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -3321,7 +3475,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 20,
+                "position": 21,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -3399,7 +3553,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3432,7 +3586,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3477,7 +3631,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 21,
+                "position": 22,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -3555,7 +3709,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3588,7 +3742,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "恶劣天气预警，多个监测站信息",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3630,7 +3784,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 22,
+                "position": 23,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -3654,8 +3808,8 @@
         "genreDisplayName": "天气",
         "name": "气压计 - 气压",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3709,7 +3863,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3742,7 +3896,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "气氛趋势追踪器",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3786,7 +3940,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 23,
+                "position": 24,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -3810,8 +3964,8 @@
         "genreDisplayName": "天气",
         "name": "World Tides 2025",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Brainware LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -3866,7 +4020,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3899,8 +4053,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3910,8 +4065,7 @@
                     "textColor2": "131c2c",
                     "textColor3": "424750",
                     "textColor4": "424956"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -3931,7 +4085,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739809055592,
+                "MZ_INDEXER": 1739912952614,
                 "RTCI": 1738739373407
             }
         },
@@ -3951,7 +4105,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 25,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -4030,7 +4184,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4063,7 +4217,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "潮汐、波浪与风暴预报",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4106,7 +4260,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 26,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -4129,8 +4283,8 @@
         "genreDisplayName": "天气",
         "name": "雨雷達-實時天氣圖。 亞洲和中國。°",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "DeluxeWare",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4184,6 +4338,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4216,7 +4371,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "亞洲風暴追踪器，警報",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4259,7 +4413,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 27,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -4283,8 +4437,8 @@
         "genreDisplayName": "天气",
         "name": "高清天气 +",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Voros Innovation",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4338,7 +4492,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4371,7 +4525,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "动态壁纸和中国天气预报",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4414,7 +4568,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 27,
+                "position": 28,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -4491,7 +4645,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4524,7 +4678,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4565,7 +4719,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 29,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -4588,8 +4742,8 @@
         "genreDisplayName": "天气",
         "name": "AviationABB - Aviation Abbreviation and Airport Code",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Palawin Yosintra",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4643,7 +4797,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4676,7 +4830,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4719,7 +4873,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 30,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -4797,7 +4951,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4830,7 +4984,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4852,7 +5006,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739548312998,
+                "MZ_INDEXER": 1739918064585,
                 "RTCI": 1738960993013
             }
         },
@@ -4873,7 +5027,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 31,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -4953,6 +5107,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4985,9 +5140,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "2021",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4997,8 +5152,7 @@
                     "textColor2": "36250b",
                     "textColor3": "2e3136",
                     "textColor4": "584a37"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -5037,7 +5191,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 31,
+                "position": 32,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -5115,7 +5269,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5148,7 +5302,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5190,7 +5344,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 33,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -5213,8 +5367,8 @@
         "genreDisplayName": "天气",
         "name": "YoWindow 天气",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Pavel Repkin",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5268,6 +5422,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5300,7 +5455,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "准确和美丽的天气",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5342,7 +5496,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 33,
+                "position": 34,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -5366,8 +5520,8 @@
         "genreDisplayName": "天气",
         "name": "台风来了-PRO",
         "isPreorder": false,
-        "artistName": "学锋 徐",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "学锋 徐",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5421,7 +5575,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5454,7 +5608,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "台风来了不可怕！因为有我在！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5497,7 +5651,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 34,
+                "position": 35,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -5520,8 +5674,8 @@
         "genreDisplayName": "天气",
         "name": "天气预报 PRO-精准72小时预报和生活指数",
         "isPreorder": false,
-        "artistName": "祥琦 孔",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "祥琦 孔",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5575,7 +5729,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5608,7 +5762,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "支持PM2.5指数",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5650,7 +5804,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 35,
+                "position": 36,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -5674,8 +5828,8 @@
         "genreDisplayName": "天气",
         "name": "风速计：风速",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5729,7 +5883,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5762,7 +5916,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "天气, 预报, 海洋, 海浪",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5805,7 +5959,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 36,
+                "position": 37,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -5829,8 +5983,8 @@
         "genreDisplayName": "天气",
         "name": "14天详细天气预报 +",
         "isPreorder": false,
-        "artistName": "Voros Innovation",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Voros Innovation",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5884,7 +6038,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5917,7 +6071,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "动画高清壁纸与24小时天气预报",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5960,7 +6114,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 37,
+                "position": 38,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -5983,8 +6137,8 @@
         "genreDisplayName": "天气",
         "name": "天气预报－精准72小时预报",
         "isPreorder": false,
-        "artistName": "祥琦 孔",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "祥琦 孔",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6038,7 +6192,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6071,7 +6225,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "空气质量和生活指数",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6113,7 +6267,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 38,
+                "position": 39,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -6193,7 +6347,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6226,7 +6380,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "环境 干燥 安慰 湿的",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6269,7 +6423,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 40,
+                "position": 41,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -6292,8 +6446,8 @@
         "genreDisplayName": "天气",
         "name": "静音控制-媒体音量一键控制",
         "isPreorder": false,
-        "artistName": "祥琦 孔",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "祥琦 孔",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6347,7 +6501,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6380,7 +6534,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "音量控制和天气预报的完美结合",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6423,7 +6577,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 41,
+                "position": 42,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -6446,8 +6600,8 @@
         "genreDisplayName": "天气",
         "name": "POCKET RADAR 实时地图 forecast",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Dmitry Alaev",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6501,6 +6655,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6533,7 +6688,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "天气预报、海上天气, China Weather",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6578,7 +6732,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 42,
+                "position": 43,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -6602,8 +6756,8 @@
         "genreDisplayName": "天气",
         "name": "Mooncast",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Mathieu Routhier",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -6658,7 +6812,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6691,8 +6845,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6702,8 +6857,7 @@
                     "textColor2": "e8e8e8",
                     "textColor3": "cad9ed",
                     "textColor4": "bdcce1"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -6743,7 +6897,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 43,
+                "position": 44,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -6766,8 +6920,8 @@
         "genreDisplayName": "天气",
         "name": "气象站",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6821,7 +6975,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6854,7 +7008,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "8个组件和传感器",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6897,7 +7051,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 44,
+                "position": 45,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -6920,8 +7074,8 @@
         "genreDisplayName": "天气",
         "name": "天氣圖 - World Weather",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Elecont LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6975,6 +7129,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7007,7 +7162,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Sea Temperatures",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7049,7 +7203,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 45,
+                "position": 46,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -7072,8 +7226,8 @@
         "genreDisplayName": "天气",
         "name": "Meteogram for iPhone",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Michal Frankowski",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7127,7 +7281,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7160,7 +7314,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7202,7 +7356,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 47,
+                "position": 48,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -7225,8 +7379,8 @@
         "genreDisplayName": "天气",
         "name": "AQI 美国使馆空气数据专业版",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Lionscope OÜ",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7280,7 +7434,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7313,7 +7467,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7335,7 +7489,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739830788242,
+                "MZ_INDEXER": 1739916056247,
                 "RTCI": 1739633374057
             }
         },
@@ -7355,7 +7509,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 48,
+                "position": 49,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -7378,8 +7532,8 @@
         "genreDisplayName": "天气",
         "name": "潮汐在身边 - 无广告",
         "isPreorder": false,
-        "artistName": "Shelter Island Mapping Company, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Shelter Island Mapping Company, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7433,7 +7587,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7466,7 +7620,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7508,7 +7662,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 49,
+                "position": 50,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -7587,7 +7741,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7620,7 +7774,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Tide chart, alert, statistics",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7663,7 +7817,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 50,
+                "position": 51,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -7740,7 +7894,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7773,7 +7927,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7815,7 +7969,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 52,
+                "position": 53,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -7893,7 +8047,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7926,7 +8080,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "精准预报几时几分下雨",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7970,7 +8124,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 53,
+                "position": 54,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -7994,8 +8148,8 @@
         "genreDisplayName": "天气",
         "name": "widget weather",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Trond Rossvoll",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -8050,7 +8204,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8083,9 +8237,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "Makes bad weather look good!",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8095,8 +8250,7 @@
                     "textColor2": "151515",
                     "textColor3": "203744",
                     "textColor4": "203744"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -8137,7 +8291,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 54,
+                "position": 55,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -8217,7 +8371,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8250,8 +8404,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8261,8 +8416,7 @@
                     "textColor2": "b07fdb",
                     "textColor3": "ac8eb8",
                     "textColor4": "926bb7"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -8303,7 +8457,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 55,
+                "position": 56,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -8327,8 +8481,8 @@
         "genreDisplayName": "天气",
         "name": "Temperature App",
         "isPreorder": false,
-        "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Piet Jonas",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -8382,7 +8536,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8415,8 +8569,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8426,8 +8581,7 @@
                     "textColor2": "dddff1",
                     "textColor3": "c4c6de",
                     "textColor4": "b1b5d6"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -8467,7 +8621,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 56,
+                "position": 57,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -8490,8 +8644,8 @@
         "genreDisplayName": "天气",
         "name": "PocketGrib",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Nicko Brennan",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8544,7 +8698,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8577,7 +8731,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8618,7 +8772,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 57,
+                "position": 58,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -8694,7 +8848,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8727,7 +8881,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8768,7 +8922,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 58,
+                "position": 59,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -8791,8 +8945,8 @@
         "genreDisplayName": "天气",
         "name": "历史天气 旅行助手",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "量 沈",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8846,7 +9000,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8879,7 +9033,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8920,7 +9074,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 59,
+                "position": 60,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -8998,7 +9152,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -9031,7 +9185,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "去年的这个时候，天气如何？",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9076,7 +9230,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 60,
+                "position": 61,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -9100,8 +9254,8 @@
         "genreDisplayName": "天气",
         "name": "My Earthquake Alerts Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "JRustonApps B.V.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -9155,6 +9309,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -9187,8 +9342,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9198,8 +9353,7 @@
                     "textColor2": "161616",
                     "textColor3": "411e1d",
                     "textColor4": "412322"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -9239,7 +9393,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 61,
+                "position": 62,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -9263,8 +9417,8 @@
         "genreDisplayName": "天气",
         "name": "晴雨表Plus - 高度计和气压计 PRO",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Ngo Na",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9318,7 +9472,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -9351,7 +9505,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "高度计和气压计",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9395,7 +9549,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 62,
+                "position": 63,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -9420,8 +9574,8 @@
         "genreDisplayName": "天气",
         "name": "Meteo Plus - by iLMeteo.it",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "ILMETEO srl",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -9476,7 +9630,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -9509,8 +9663,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9520,8 +9675,7 @@
                     "textColor2": "161616",
                     "textColor3": "1f2841",
                     "textColor4": "2e3444"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -9561,7 +9715,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 63,
+                "position": 64,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -9584,8 +9738,8 @@
         "genreDisplayName": "天气",
         "name": "风预测 wind forecast",
         "isPreorder": false,
-        "artistName": "Flytomap",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Flytomap",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9639,7 +9793,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -9672,7 +9826,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "详细的风图",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9715,7 +9869,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 65,
+                "position": 66,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -9739,8 +9893,8 @@
         "genreDisplayName": "天气",
         "name": "Golden Hour One",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Michal Kus",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9794,7 +9948,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -9837,7 +9991,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9859,7 +10013,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739487176891,
+                "MZ_INDEXER": 1739910452758,
                 "RTCI": 1731458208146
             }
         },
@@ -9880,7 +10034,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 66,
+                "position": 67,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -9905,8 +10059,8 @@
         "genreDisplayName": "天气",
         "name": "WeatherBug Elite",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "WeatherBug",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -9961,7 +10115,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10004,8 +10158,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10015,8 +10170,7 @@
                     "textColor2": "080f13",
                     "textColor3": "333c41",
                     "textColor4": "393f42"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -10055,7 +10209,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 67,
+                "position": 68,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -10078,8 +10232,8 @@
         "genreDisplayName": "天气",
         "name": "wt360 Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Weather Trends International, Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10132,7 +10286,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10165,7 +10319,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10207,7 +10361,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 68,
+                "position": 69,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -10230,8 +10384,8 @@
         "genreDisplayName": "天气",
         "name": "白天 - 日出和日落时钟",
         "isPreorder": false,
-        "artistName": "Michal Kus",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Michal Kus",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10268,6 +10422,8 @@
                 "releaseDate": "2015-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bezvaapky.DayLight",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -10278,8 +10434,6 @@
                     "textColor3": "323236",
                     "textColor4": "5a5a5b"
                 },
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10295,7 +10449,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10328,7 +10482,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10370,7 +10524,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 69,
+                "position": 70,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -10393,8 +10547,8 @@
         "genreDisplayName": "天气",
         "name": "iDress for Weather",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Pebro Productions",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10447,7 +10601,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10480,7 +10634,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10502,7 +10656,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739484138692,
+                "MZ_INDEXER": 1739907082413,
                 "RTCI": 1738955564447
             }
         },
@@ -10522,7 +10676,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 70,
+                "position": 71,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -10545,8 +10699,8 @@
         "genreDisplayName": "天气",
         "name": "Fine° Rise",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Yoshihiko Eto",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10583,6 +10737,8 @@
                 "releaseDate": "2014-07-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.YoshihikoEto.FineRise",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -10593,8 +10749,6 @@
                     "textColor3": "2a2d35",
                     "textColor4": "2b2d34"
                 },
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10610,7 +10764,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10643,7 +10797,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "世界各地的天气。 时间和时区。",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10685,7 +10839,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 71,
+                "position": 72,
                 "genreName": "天气",
                 "genre": 6001,
                 "chart": "top-paid",
@@ -10708,8 +10862,8 @@
         "genreDisplayName": "天气",
         "name": "Sol: Sun Clock",
         "isPreorder": false,
-        "artistName": "Juggleware, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Juggleware, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10763,194 +10917,40 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1356,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f7/66/13/f76613f7-fbb4-30ee-a780-20570100e703/6cfdce49-ee9e-4361-be45-efe40885f418.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1356,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/19/9e/f9199e5e-f998-fa53-e515-0d56ca20c037/0c6f4077-5389-4196-9194-fa65209b4a42.png/{w}x{h}{c}.{f}",
+                        "bgColor": "32c8ff",
+                        "textColor1": "161000",
+                        "textColor2": "161000",
+                        "textColor3": "1b3533",
+                        "textColor4": "1b3533"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1f/ad/d8/1fadd80b-2628-c00f-1204-96b1fb7a942d/e4f025eb-e858-484f-8dcb-9faaa68da33b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
                 "minimumXROSVersion": "2.0",
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1356,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f7/66/13/f76613f7-fbb4-30ee-a780-20570100e703/6cfdce49-ee9e-4361-be45-efe40885f418.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1356,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/19/9e/f9199e5e-f998-fa53-e515-0d56ca20c037/0c6f4077-5389-4196-9194-fa65209b4a42.png/{w}x{h}{c}.{f}",
-                        "bgColor": "32c8ff",
-                        "textColor1": "161000",
-                        "textColor2": "161000",
-                        "textColor3": "1b3533",
-                        "textColor4": "1b3533"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1f/ad/d8/1fadd80b-2628-c00f-1204-96b1fb7a942d/e4f025eb-e858-484f-8dcb-9faaa68da33b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "isXROSCompatible": true,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1598039955",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1081299878",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739541171155,
-                "RTCI": 1738958505436
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 72,
-                "genreName": "天气",
-                "genre": 6001,
-                "chart": "top-paid",
-                "genreShortName": "天气"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 3.8,
-            "ratingCount": 24,
-            "ratingCountList": [
-                5,
-                1,
-                3,
-                0,
-                15
-            ],
-            "ariaLabelForRatings": "3.8 星"
-        },
-        "genreDisplayName": "天气",
-        "name": "天气 - 每日天气",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "玮 丁",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=8000&salableAdamId=1598039955&pricingParameters=STDQ&pg=default&appExtVrsId=869085613",
-                        "type": "buy",
-                        "priceFormatted": "¥8.00",
-                        "price": 8,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 8001536
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1598039955&pricingParameters=SWUPD&pg=default&appExtVrsId=869085613",
-                        "type": "update",
-                        "priceFormatted": "¥0.00",
-                        "price": 0,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 8001536
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "12.0",
-                "releaseDate": "2021-12-04",
-                "hasInAppPurchases": false,
-                "bundleId": "im.pijin.DailyWeather",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/70/fc/e770fcda-3a71-ca28-cabf-e943fbf995c1/AppIcon_new-0-0-1x_U007epad-0-1-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "d1e5fb",
-                    "textColor1": "12120d",
-                    "textColor2": "12120e",
-                    "textColor3": "383c3c",
-                    "textColor4": "383c3d"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1356,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f7/66/13/f76613f7-fbb4-30ee-a780-20570100e703/6cfdce49-ee9e-4361-be45-efe40885f418.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1356,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/f9/19/9e/f9199e5e-f998-fa53-e515-0d56ca20c037/0c6f4077-5389-4196-9194-fa65209b4a42.png/{w}x{h}{c}.{f}",
-                        "bgColor": "32c8ff",
-                        "textColor1": "161000",
-                        "textColor2": "161000",
-                        "textColor3": "1b3533",
-                        "textColor4": "1b3533"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1f/ad/d8/1fadd80b-2628-c00f-1204-96b1fb7a942d/e4f025eb-e858-484f-8dcb-9faaa68da33b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "isXROSCompatible": true,
-                "subtitle": "全球天气预报",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10972,7 +10972,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550939045,
+                "MZ_INDEXER": 1739918387879,
                 "RTCI": 1738953101686
             }
         },
@@ -11014,8 +11014,8 @@
         "genreDisplayName": "天气",
         "name": "简单天气-唯美好用无广告",
         "isPreorder": false,
-        "artistName": "珠海市轻点文化传播有限公司",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "珠海市轻点文化传播有限公司",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11069,7 +11069,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -11102,7 +11102,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "轻奢用户最爱的天气预报",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11167,8 +11167,8 @@
         "genreDisplayName": "天气",
         "name": "No Ads Meteo",
         "isPreorder": false,
-        "artistName": "Clickaglobe Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Clickaglobe Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11222,7 +11222,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -11255,7 +11255,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11320,8 +11320,8 @@
         "genreDisplayName": "天气",
         "name": "Northern Lights Forecast",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Letovaltsev Maxim",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11375,6 +11375,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -11407,7 +11408,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11527,7 +11527,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -11560,7 +11560,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11626,8 +11626,8 @@
         "genreDisplayName": "天气",
         "name": "SunPath",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Romeo Goosens",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11681,7 +11681,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -11714,7 +11714,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11779,8 +11779,8 @@
         "genreDisplayName": "天气",
         "name": "渔民的潮汐",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11834,7 +11834,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -11867,7 +11867,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "潮汐的时间表和图表",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11991,7 +11991,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -12024,9 +12024,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "UV Index & Rain Radar",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12036,8 +12037,7 @@
                     "textColor2": "0d3143",
                     "textColor3": "385766",
                     "textColor4": "3d5a68"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -12103,8 +12103,8 @@
         "genreDisplayName": "天气",
         "name": "Tides PRO - Tide Times",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Elecont LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -12158,6 +12158,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -12190,8 +12191,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12201,8 +12202,7 @@
                     "textColor2": "143448",
                     "textColor3": "454b57",
                     "textColor4": "435d6c"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -12264,8 +12264,8 @@
         "genreDisplayName": "天气",
         "name": "天气预报PRO-纯净版精准预报天气变化",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "福州天梦信息科技有限公司",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12319,7 +12319,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -12352,7 +12352,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "查询15日天气温度变化和空气质量指数",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12418,8 +12418,8 @@
         "genreDisplayName": "天气",
         "name": "雨量计 - 雨指示器",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12473,7 +12473,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -12506,7 +12506,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "雨今天和明天",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12571,8 +12571,8 @@
         "genreDisplayName": "天气",
         "name": "Snowtam",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Brendan Wholihan",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12620,7 +12620,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -12653,7 +12653,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12719,8 +12719,8 @@
         "genreDisplayName": "天气",
         "name": "Gismeteo",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "MapMakers Group Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12774,6 +12774,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -12806,7 +12807,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12871,8 +12871,8 @@
         "genreDisplayName": "天气",
         "name": "Xasteria Plus - Astro Weather",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dimitrios Kechagias",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12926,7 +12926,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -12959,7 +12959,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13079,7 +13079,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13112,7 +13112,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13177,8 +13177,8 @@
         "genreDisplayName": "天气",
         "name": "WeatherOnline",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "WeatherOnline Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13231,7 +13231,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13264,7 +13264,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13386,7 +13386,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13419,7 +13419,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13541,7 +13541,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13574,7 +13574,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "中国和世界的实时气象雷达图",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13642,8 +13642,8 @@
         "genreDisplayName": "天气",
         "name": "WeatherTrack GRIB",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Best Search Infobrokerage, Inc",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13696,7 +13696,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13729,7 +13729,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13751,7 +13751,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739546200850,
+                "MZ_INDEXER": 1739929593000,
                 "RTCI": 1738961730957
             }
         },
@@ -13794,8 +13794,8 @@
         "genreDisplayName": "天气",
         "name": "WeatherCyclopedia™ Premium",
         "isPreorder": false,
-        "artistName": "Telemet, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Telemet, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13849,7 +13849,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13882,7 +13882,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14002,7 +14002,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14035,7 +14035,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14057,7 +14057,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739551285324,
+                "MZ_INDEXER": 1739918771288,
                 "RTCI": 1738958360544
             }
         },
@@ -14154,7 +14154,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14187,7 +14187,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14253,8 +14253,8 @@
         "genreDisplayName": "天气",
         "name": "Storm Alert for Watch",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Orion Lukasz Gonerski",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.0",
         "platformAttributes": {
@@ -14309,7 +14309,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14342,8 +14342,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14353,8 +14354,7 @@
                     "textColor2": "2d2c2d",
                     "textColor3": "343334",
                     "textColor4": "575757"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -14416,8 +14416,8 @@
         "genreDisplayName": "天气",
         "name": "InstantWeather App",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Besher Al Maleh",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14471,7 +14471,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.1",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14504,7 +14504,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.1",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14625,7 +14625,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14658,7 +14658,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

@@ -1,6 +1,172 @@
 [
     {
         "kind": "app",
+        "id": "1531976425",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "542137548",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738964882356,
+                "MZ_INDEXER": 1739552250803
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsFrance": {
+                "name": "France 18",
+                "value": 600,
+                "rank": 47,
+                "advisories": [
+                    "Accès au Web non contrôlé."
+                ]
+            },
+            "appsApple": {
+                "name": "17+",
+                "value": 600,
+                "rank": 4,
+                "advisories": [
+                    "Accès au Web non contrôlé."
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 1,
+                "genreName": "Actualités",
+                "genre": 6009,
+                "chart": "top-paid",
+                "genreShortName": "Actualités"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4,
+            "ratingCount": 16,
+            "ratingCountList": [
+                3,
+                1,
+                0,
+                1,
+                11
+            ],
+            "ariaLabelForRatings": "4.0 étoiles"
+        },
+        "name": "lire: RSS Reader",
+        "genreDisplayName": "Actualités",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Kunal Sood",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=9990&salableAdamId=1531976425&pricingParameters=STDQ&pg=default&appExtVrsId=869195675",
+                        "type": "buy",
+                        "priceFormatted": "9,99 €",
+                        "price": 9.99,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 98516992
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1531976425&pricingParameters=SWUPD&pg=default&appExtVrsId=869195675",
+                        "type": "update",
+                        "priceFormatted": "0,00 €",
+                        "price": 0,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 98516992
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "usesExternalLinkPurchase": false,
+                "releaseDate": "2020-09-16",
+                "hasInAppPurchases": true,
+                "bundleId": "com.lireapp.smilingAlpaca",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/39/0f/86390f92-a17f-42b7-fd8b-7bbbb04ceeb3/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-sRGB-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "353535",
+                    "textColor1": "d3eee8",
+                    "textColor2": "c5ddd7",
+                    "textColor3": "b3c9c4",
+                    "textColor4": "a8bbb6"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575c62",
+                        "textColor1": "fafbfc",
+                        "textColor2": "f0f1f2",
+                        "textColor3": "d9dbdd",
+                        "textColor4": "d1d3d5"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "usesExternalPurchase": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "1032668306",
         "type": "apps",
         "relationships": {
@@ -47,7 +213,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 1,
+                "position": 2,
                 "genreName": "Actualités",
                 "genre": 6009,
                 "chart": "top-paid",
@@ -71,8 +237,8 @@
         "name": "News Explorer",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Ron Elemans",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Ron Elemans",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.2",
         "platformAttributes": {
@@ -128,8 +294,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "2.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "2.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -226,7 +392,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 3,
                 "genreName": "Actualités",
                 "genre": 6009,
                 "chart": "top-paid",
@@ -236,13 +402,13 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.4,
-            "ratingCount": 42,
+            "ratingCount": 43,
             "ratingCountList": [
                 1,
                 2,
                 4,
                 6,
-                29
+                30
             ],
             "ariaLabelForRatings": "4.4 étoiles"
         },
@@ -305,8 +471,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -382,7 +548,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "Actualités",
                 "genre": 6009,
                 "chart": "top-paid",
@@ -406,8 +572,8 @@
         "name": "Downcast",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Jamawkinaw Enterprises LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Jamawkinaw Enterprises LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.1",
         "platformAttributes": {
@@ -440,8 +606,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.5",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2010-10-01",
                 "hasInAppPurchases": true,
@@ -463,6 +629,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -495,10 +663,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -508,8 +675,7 @@
                     "textColor2": "f7e5e5",
                     "textColor3": "f0cbcb",
                     "textColor4": "ebb7b7"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -530,7 +696,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1733528804631,
-                "MZ_INDEXER": 1739551330853
+                "MZ_INDEXER": 1739928517831
             }
         },
         "supportsArcade": false,
@@ -560,7 +726,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 5,
                 "genreName": "Actualités",
                 "genre": 6009,
                 "chart": "top-paid",
@@ -583,8 +749,8 @@
         "name": "Reeder Classic",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Silvio Rizzi",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -639,8 +805,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -684,10 +850,10 @@
                     }
                 },
                 "usesExternalPurchase": false,
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Au cœur de l’actu"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -731,7 +897,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 7,
                 "genreName": "Actualités",
                 "genre": 6009,
                 "chart": "top-paid",
@@ -752,8 +918,8 @@
             "ariaLabelForRatings": "4.2 étoiles"
         },
         "watchBundleId": "com.joeisanerd.icatcher.watchkitapp",
-        "genreDisplayName": "Actualités",
         "name": "iCatcher! Podcast Player",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Joeisanerd.com",
@@ -812,8 +978,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.1",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.1",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -848,6 +1014,7 @@
                 },
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -857,8 +1024,7 @@
                     "textColor2": "d2d2d2",
                     "textColor3": "cbcbcb",
                     "textColor4": "a7a7a7"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -909,7 +1075,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "Actualités",
                 "genre": 6009,
                 "chart": "top-paid",
@@ -929,8 +1095,8 @@
             ],
             "ariaLabelForRatings": "5.0 étoiles"
         },
-        "genreDisplayName": "Actualités",
         "name": "NewsTap (Usenet Newsreader)",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Alexander Clauss",
@@ -987,8 +1153,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1063,7 +1229,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "Actualités",
                 "genre": 6009,
                 "chart": "top-paid",
@@ -1120,8 +1286,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2014-08-02",
                 "hasInAppPurchases": false,
@@ -1140,9 +1306,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1175,8 +1343,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1221,7 +1387,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 10,
                 "genreName": "Actualités",
                 "genre": 6009,
                 "chart": "top-paid",
@@ -1241,8 +1407,8 @@
             ],
             "ariaLabelForRatings": "1.0 étoiles"
         },
-        "genreDisplayName": "Actualités",
         "name": "Télétexte",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "oxorr",
@@ -1300,174 +1466,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 990,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 990,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575c62",
-                        "textColor1": "fafbfc",
-                        "textColor2": "f0f1f2",
-                        "textColor3": "d9dbdd",
-                        "textColor4": "d1d3d5"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "usesExternalPurchase": false,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1531976425",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "542137548",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738964882356,
-                "MZ_INDEXER": 1739552250803
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsFrance": {
-                "name": "France 18",
-                "value": 600,
-                "rank": 47,
-                "advisories": [
-                    "Accès au Web non contrôlé."
-                ]
-            },
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "Accès au Web non contrôlé."
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 10,
-                "genreName": "Actualités",
-                "genre": 6009,
-                "chart": "top-paid",
-                "genreShortName": "Actualités"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4,
-            "ratingCount": 16,
-            "ratingCountList": [
-                3,
-                1,
-                0,
-                1,
-                11
-            ],
-            "ariaLabelForRatings": "4.0 étoiles"
-        },
-        "name": "lire: RSS Reader",
-        "genreDisplayName": "Actualités",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "Kunal Sood",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=9990&salableAdamId=1531976425&pricingParameters=STDQ&pg=default&appExtVrsId=869195675",
-                        "type": "buy",
-                        "priceFormatted": "9,99 €",
-                        "price": 9.99,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 98516992
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1531976425&pricingParameters=SWUPD&pg=default&appExtVrsId=869195675",
-                        "type": "update",
-                        "priceFormatted": "0,00 €",
-                        "price": 0,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 98516992
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "usesExternalLinkPurchase": false,
-                "releaseDate": "2020-09-16",
-                "hasInAppPurchases": true,
-                "bundleId": "com.lireapp.smilingAlpaca",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/39/0f/86390f92-a17f-42b7-fd8b-7bbbb04ceeb3/AppIcon-0-0-1x_U007epad-0-0-0-11-0-0-sRGB-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "353535",
-                    "textColor1": "d3eee8",
-                    "textColor2": "c5ddd7",
-                    "textColor3": "b3c9c4",
-                    "textColor4": "a8bbb6"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1606,8 +1606,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2010-06-11",
                 "hasInAppPurchases": true,
@@ -1626,9 +1626,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1661,8 +1663,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1686,7 +1686,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731364098199,
-                "MZ_INDEXER": 1739551033259
+                "MZ_INDEXER": 1739920221982
             }
         },
         "supportsArcade": false,
@@ -1740,8 +1740,8 @@
         "name": "Navigateur privé Pro",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Emanuele Floris",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1773,8 +1773,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2014-10-05",
                 "hasInAppPurchases": false,
@@ -1793,9 +1793,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1828,8 +1830,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "subtitle": "Naviguez dans l'anonymat",
                 "hasSafariExtension": false,
@@ -1893,8 +1893,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "Contacts Cleaner Pro",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Emanuele Floris",
@@ -1929,8 +1929,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2013-01-25",
                 "hasInAppPurchases": false,
@@ -1949,9 +1949,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1984,8 +1986,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2054,8 +2054,8 @@
         "name": "Hourly News",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Urban Apps",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Urban Apps",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2087,8 +2087,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2012-01-21",
                 "hasInAppPurchases": true,
@@ -2110,6 +2110,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -2142,8 +2144,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2270,8 +2270,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -2369,8 +2369,8 @@
         "name": "CloudNews - Feed Reader",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Peter Hedlund",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Peter Hedlund",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2424,8 +2424,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -2523,8 +2523,8 @@
         "name": "Tremors",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Francesco Tripicchio",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Francesco Tripicchio",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2612,8 +2612,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "usesExternalPurchase": false,
                 "subtitle": "Tremblements,Carte,Sismographe",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2683,8 +2683,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "Serbian TV+",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kanta",
@@ -2742,8 +2742,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -2880,8 +2880,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2015-01-06",
                 "hasInAppPurchases": true,
@@ -2900,9 +2900,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -2935,8 +2937,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3046,8 +3046,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2013-10-07",
                 "hasInAppPurchases": false,
@@ -3066,9 +3066,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -3101,8 +3103,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3168,8 +3168,8 @@
         "name": "Earthquake 3D",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Richard Wolton",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Richard Wolton",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3224,8 +3224,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -3323,8 +3323,8 @@
         "name": "NSW Fires",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "P4G Pty Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "P4G Pty Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3356,8 +3356,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2010-01-14",
                 "hasInAppPurchases": false,
@@ -3379,6 +3379,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -3411,8 +3413,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3493,8 +3493,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "凤凰新闻(专业版)-头条新闻阅读平台",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Beijing TianyingJiuzhou Network Technology Co. Ltd",
@@ -3552,8 +3552,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -3684,8 +3684,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2017-01-05",
                 "hasInAppPurchases": false,
@@ -3707,6 +3707,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -3739,8 +3741,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3805,8 +3805,8 @@
         "name": "Sauvegarde Contacts Simple Pro",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Giacomo Guglielmi",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Giacomo Guglielmi",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3838,8 +3838,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2015-09-20",
                 "hasInAppPurchases": false,
@@ -3858,167 +3858,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 990,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 990,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575c62",
-                        "textColor1": "fafbfc",
-                        "textColor2": "f0f1f2",
-                        "textColor3": "d9dbdd",
-                        "textColor4": "d1d3d5"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
-                "subtitle": "Récupérer contacts supprimés",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1441890371",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1077840208",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731367802401,
-                "MZ_INDEXER": 1739538423125
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 26,
-                "genreName": "Actualités",
-                "genre": 6009,
-                "chart": "top-paid",
-                "genreShortName": "Actualités"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "wasReset": true,
-            "value": 2,
-            "ratingCount": 2,
-            "ratingCountList": [
-                1,
-                0,
-                1,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "2.0 étoiles"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "1.1",
-        "name": "Alarme de podcast - Lecteur et",
-        "genreDisplayName": "Actualités",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Jonathan Wilson",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=2990&salableAdamId=1441890371&pricingParameters=STDQ&pg=default&appExtVrsId=847755461",
-                        "type": "buy",
-                        "priceFormatted": "2,99 €",
-                        "price": 2.99,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 37553152
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1441890371&pricingParameters=SWUPD&pg=default&appExtVrsId=847755461",
-                        "type": "update",
-                        "priceFormatted": "0,00 €",
-                        "price": 0,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 37553152
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "usesExternalLinkPurchase": false,
-                "releaseDate": "2019-09-30",
-                "hasInAppPurchases": false,
-                "bundleId": "Jonathan-Wilson.Podcast-Alarm",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8f/62/d0/8f62d0e9-f75e-c7dd-5b69-88ef075ff113/AppIcon-1x_U007emarketing-0-8-0-sRGB-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "f74c06",
-                    "textColor1": "151313",
-                    "textColor2": "161616",
-                    "textColor3": "421e10",
-                    "textColor4": "432113"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -4051,9 +3895,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
+                "subtitle": "Récupérer contacts supprimés",
                 "usesExternalPurchase": false,
-                "subtitle": "Réveillez-vous inspiré par le",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4116,8 +3959,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "Clavier Traducteur Pro",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Giacomo Guglielmi",
@@ -4175,8 +4018,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -4308,8 +4151,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2011-02-10",
                 "hasInAppPurchases": false,
@@ -4331,331 +4174,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 990,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 990,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575c62",
-                        "textColor1": "fafbfc",
-                        "textColor2": "f0f1f2",
-                        "textColor3": "d9dbdd",
-                        "textColor4": "d1d3d5"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "usesExternalPurchase": false,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1531645542",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "916419489",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738968135183,
-                "MZ_INDEXER": 1739506570827
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsFrance": {
-                "name": "France 18",
-                "value": 600,
-                "rank": 47,
-                "advisories": [
-                    "Accès au Web non contrôlé."
-                ]
-            },
-            "appsApple": {
-                "name": "17+",
-                "value": 600,
-                "rank": 4,
-                "advisories": [
-                    "Accès au Web non contrôlé."
-                ]
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 29,
-                "genreName": "Actualités",
-                "genre": 6009,
-                "chart": "top-paid",
-                "genreShortName": "Actualités"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 étoile"
-        },
-        "firstVersionSupportingInAppPurchaseApi": "1.5.0",
-        "name": "claw: Unofficial Lobsters App",
-        "genreDisplayName": "Actualités",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Zac Gorak",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=2990&salableAdamId=1531645542&pricingParameters=STDQ&pg=default&appExtVrsId=871528311",
-                        "type": "buy",
-                        "priceFormatted": "2,99 €",
-                        "price": 2.99,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 5296128
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1531645542&pricingParameters=SWUPD&pg=default&appExtVrsId=871528311",
-                        "type": "update",
-                        "priceFormatted": "0,00 €",
-                        "price": 0,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 5296128
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "13.0",
-                "requires32bit": false,
-                "usesExternalLinkPurchase": false,
-                "releaseDate": "2020-09-16",
-                "hasInAppPurchases": true,
-                "bundleId": "com.twodayslate.claw",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/23/91/1a23913b-fbc5-93fe-552d-1c733ccce2a8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "9e2620",
-                    "textColor1": "ffffff",
-                    "textColor2": "f7e0df",
-                    "textColor3": "ebd3d2",
-                    "textColor4": "e5bbb9"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 990,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 990,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
-                        "bgColor": "575c62",
-                        "textColor1": "fafbfc",
-                        "textColor2": "f0f1f2",
-                        "textColor3": "d9dbdd",
-                        "textColor4": "d1d3d5"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
-                "usesExternalPurchase": false,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6475071209",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1710483133",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738967597569,
-                "MZ_INDEXER": 1739489485596
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "watch",
-            "iphone",
-            "ipad"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 30,
-                "genreName": "Actualités",
-                "genre": 6009,
-                "chart": "top-paid",
-                "genreShortName": "Actualités"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 étoile"
-        },
-        "watchBundleId": "com.allradiopro.watchkitapp",
-        "genreDisplayName": "Actualités",
-        "name": "All Radio Pro - Radio App",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "ALL RADIO DEVELOPMENT TECHNOLOGY JOINT STOCK COMPANY",
-        "reviewsRestricted": false,
-        "minimumWatchOSVersion": "9.4",
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=9990&salableAdamId=6475071209&pricingParameters=STDQ&pg=default&appExtVrsId=865817487",
-                        "type": "buy",
-                        "priceFormatted": "9,99 €",
-                        "price": 9.99,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 75128832
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6475071209&pricingParameters=SWUPD&pg=default&appExtVrsId=865817487",
-                        "type": "update",
-                        "priceFormatted": "0,00 €",
-                        "price": 0,
-                        "currencyCode": "EUR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 75128832
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "13.0",
-                "usesExternalLinkPurchase": false,
-                "releaseDate": "2023-12-30",
-                "hasInAppPurchases": false,
-                "bundleId": "com.allradiopro",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/f1/52/99f1523d-c5fd-d130-a05a-b16d47685e87/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "15bae4",
-                    "textColor1": "100101",
-                    "textColor2": "0d0608",
-                    "textColor3": "11262f",
-                    "textColor4": "0f2a34"
-                },
-                "isAppleWatchSupported": true,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -4690,16 +4210,6 @@
                 },
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
-                "circularArtwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/1a/84/eb1a8458-5196-b4cd-051d-ca50248ab9d8/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "15bae4",
-                    "textColor1": "100101",
-                    "textColor2": "0d0608",
-                    "textColor3": "11262f",
-                    "textColor4": "0f2a34"
-                },
                 "requiresGameController": false
             }
         }
@@ -4824,8 +4334,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -4859,6 +4369,163 @@
                     }
                 },
                 "usesExternalPurchase": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1441890371",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1077840208",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1731367802401,
+                "MZ_INDEXER": 1739538423125
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 26,
+                "genreName": "Actualités",
+                "genre": 6009,
+                "chart": "top-paid",
+                "genreShortName": "Actualités"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "wasReset": true,
+            "value": 2,
+            "ratingCount": 2,
+            "ratingCountList": [
+                1,
+                0,
+                1,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "2.0 étoiles"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "1.1",
+        "name": "Alarme de podcast - Lecteur et",
+        "genreDisplayName": "Actualités",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Jonathan Wilson",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=2990&salableAdamId=1441890371&pricingParameters=STDQ&pg=default&appExtVrsId=847755461",
+                        "type": "buy",
+                        "priceFormatted": "2,99 €",
+                        "price": 2.99,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 37553152
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1441890371&pricingParameters=SWUPD&pg=default&appExtVrsId=847755461",
+                        "type": "update",
+                        "priceFormatted": "0,00 €",
+                        "price": 0,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 37553152
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "usesExternalLinkPurchase": false,
+                "releaseDate": "2019-09-30",
+                "hasInAppPurchases": false,
+                "bundleId": "Jonathan-Wilson.Podcast-Alarm",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/8f/62/d0/8f62d0e9-f75e-c7dd-5b69-88ef075ff113/AppIcon-1x_U007emarketing-0-8-0-sRGB-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "f74c06",
+                    "textColor1": "151313",
+                    "textColor2": "161616",
+                    "textColor3": "421e10",
+                    "textColor4": "432113"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575c62",
+                        "textColor1": "fafbfc",
+                        "textColor2": "f0f1f2",
+                        "textColor3": "d9dbdd",
+                        "textColor4": "d1d3d5"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "usesExternalPurchase": false,
+                "subtitle": "Réveillez-vous inspiré par le",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4920,8 +4587,8 @@
             ],
             "ariaLabelForRatings": "4.3 étoiles"
         },
-        "genreDisplayName": "Actualités",
         "name": "Pincase - A Pinboard.in client, that is simple, elegant and powerful, perfect for managing your daily discoveries.",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Keishi Maeda",
@@ -4974,8 +4641,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -5006,6 +4673,172 @@
                         "textColor2": "d3dbe3",
                         "textColor3": "acc1d7",
                         "textColor4": "b3bec8"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "usesExternalPurchase": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1531645542",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "916419489",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738968135183,
+                "MZ_INDEXER": 1739506570827
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsFrance": {
+                "name": "France 18",
+                "value": 600,
+                "rank": 47,
+                "advisories": [
+                    "Accès au Web non contrôlé."
+                ]
+            },
+            "appsApple": {
+                "name": "17+",
+                "value": 600,
+                "rank": 4,
+                "advisories": [
+                    "Accès au Web non contrôlé."
+                ]
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 29,
+                "genreName": "Actualités",
+                "genre": 6009,
+                "chart": "top-paid",
+                "genreShortName": "Actualités"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 étoile"
+        },
+        "firstVersionSupportingInAppPurchaseApi": "1.5.0",
+        "name": "claw: Unofficial Lobsters App",
+        "genreDisplayName": "Actualités",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Zac Gorak",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=2990&salableAdamId=1531645542&pricingParameters=STDQ&pg=default&appExtVrsId=871528311",
+                        "type": "buy",
+                        "priceFormatted": "2,99 €",
+                        "price": 2.99,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 5296128
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1531645542&pricingParameters=SWUPD&pg=default&appExtVrsId=871528311",
+                        "type": "update",
+                        "priceFormatted": "0,00 €",
+                        "price": 0,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 5296128
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
+                "usesExternalLinkPurchase": false,
+                "releaseDate": "2020-09-16",
+                "hasInAppPurchases": true,
+                "bundleId": "com.twodayslate.claw",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/23/91/1a23913b-fbc5-93fe-552d-1c733ccce2a8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "9e2620",
+                    "textColor1": "ffffff",
+                    "textColor2": "f7e0df",
+                    "textColor3": "ebd3d2",
+                    "textColor4": "e5bbb9"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575c62",
+                        "textColor1": "fafbfc",
+                        "textColor2": "f0f1f2",
+                        "textColor3": "d9dbdd",
+                        "textColor4": "d1d3d5"
                     },
                     "brandLogo": {
                         "width": 1080,
@@ -5080,8 +4913,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "Clavier Emoji animé Pro",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "luca calciano",
@@ -5116,8 +4949,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2015-04-04",
                 "hasInAppPurchases": false,
@@ -5136,9 +4969,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -5171,10 +5006,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Smiley et images drôles",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5304,8 +5137,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -5444,8 +5277,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2014-06-20",
                 "hasInAppPurchases": true,
@@ -5467,6 +5300,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -5499,11 +5334,176 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "6475071209",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1710483133",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738967597569,
+                "MZ_INDEXER": 1739489485596
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "watch",
+            "iphone",
+            "ipad"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 30,
+                "genreName": "Actualités",
+                "genre": 6009,
+                "chart": "top-paid",
+                "genreShortName": "Actualités"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 étoile"
+        },
+        "watchBundleId": "com.allradiopro.watchkitapp",
+        "name": "All Radio Pro - Radio App",
+        "genreDisplayName": "Actualités",
+        "isPreorder": false,
+        "artistName": "ALL RADIO DEVELOPMENT TECHNOLOGY JOINT STOCK COMPANY",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "minimumWatchOSVersion": "9.4",
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=9990&salableAdamId=6475071209&pricingParameters=STDQ&pg=default&appExtVrsId=865817487",
+                        "type": "buy",
+                        "priceFormatted": "9,99 €",
+                        "price": 9.99,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 75128832
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6475071209&pricingParameters=SWUPD&pg=default&appExtVrsId=865817487",
+                        "type": "update",
+                        "priceFormatted": "0,00 €",
+                        "price": 0,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 75128832
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
+                "usesExternalLinkPurchase": false,
+                "releaseDate": "2023-12-30",
+                "hasInAppPurchases": false,
+                "bundleId": "com.allradiopro",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/f1/52/99f1523d-c5fd-d130-a05a-b16d47685e87/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "15bae4",
+                    "textColor1": "100101",
+                    "textColor2": "0d0608",
+                    "textColor3": "11262f",
+                    "textColor4": "0f2a34"
+                },
+                "isAppleWatchSupported": true,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575c62",
+                        "textColor1": "fafbfc",
+                        "textColor2": "f0f1f2",
+                        "textColor3": "d9dbdd",
+                        "textColor4": "d1d3d5"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "usesExternalPurchase": false,
+                "hasSafariExtension": false,
+                "requiresGameController": false,
+                "circularArtwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/1a/84/eb1a8458-5196-b4cd-051d-ca50248ab9d8/AppIcon-0-0-1x_U007ewatch-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "15bae4",
+                    "textColor1": "100101",
+                    "textColor2": "0d0608",
+                    "textColor3": "11262f",
+                    "textColor4": "0f2a34"
+                }
             }
         }
     },
@@ -5584,8 +5584,8 @@
         "name": "Deep Web : Unlimited knowledge",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "hasan basusta",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5640,8 +5640,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -5773,8 +5773,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2017-04-30",
                 "hasInAppPurchases": false,
@@ -5793,9 +5793,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -5828,8 +5830,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6093,8 +6093,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2016-01-29",
                 "hasInAppPurchases": false,
@@ -6116,6 +6116,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -6148,10 +6150,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "Transcrire l' audio en texte",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6253,8 +6253,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2013-02-08",
                 "hasInAppPurchases": false,
@@ -6273,9 +6273,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -6308,8 +6310,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6333,7 +6333,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739125466828,
-                "MZ_INDEXER": 1739547319507
+                "MZ_INDEXER": 1739920041117
             }
         },
         "supportsArcade": false,
@@ -6374,8 +6374,8 @@
         "name": "RIP VIP: The Death Alert App.",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "David Ritchie",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "David Ritchie",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6429,8 +6429,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -6486,7 +6486,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738956128451,
-                "MZ_INDEXER": 1739487219391
+                "MZ_INDEXER": 1739923818801
             }
         },
         "supportsArcade": false,
@@ -6549,8 +6549,8 @@
         "name": "网易新闻（专业版）",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "NetEase Media Technology (Beijing) Co., Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6582,8 +6582,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2016-10-24",
                 "hasInAppPurchases": true,
@@ -6605,6 +6605,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -6637,8 +6639,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6758,8 +6758,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2015-03-09",
                 "hasInAppPurchases": false,
@@ -6778,9 +6778,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -6813,10 +6815,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "usesExternalPurchase": false,
                 "subtitle": "convertir les sites en pdf",
+                "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6881,8 +6881,8 @@
         "name": "Yesterday For Old Reddit",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Ritinkar Pramanik",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Ritinkar Pramanik",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6936,8 +6936,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -7041,8 +7041,8 @@
             "ariaLabelForRatings": "0 étoile"
         },
         "watchBundleId": "gr.apergia.ApergiaGR.watchkitapp",
-        "genreDisplayName": "Actualités",
         "name": "ApergiaGR Plus",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Hadokoa",
@@ -7101,8 +7101,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -7137,6 +7137,7 @@
                 },
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7146,8 +7147,7 @@
                     "textColor2": "162263",
                     "textColor3": "333333",
                     "textColor4": "444e82"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -7207,8 +7207,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "VIC Fires",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "P4G Pty Ltd",
@@ -7243,8 +7243,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2009-12-29",
                 "hasInAppPurchases": false,
@@ -7266,6 +7266,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -7298,8 +7300,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7400,8 +7400,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2024-01-18",
                 "hasInAppPurchases": false,
@@ -7420,9 +7420,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -7455,11 +7457,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "subtitle": "Toute l'actualité Africaine",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7469,7 +7470,150 @@
                     "textColor2": "1f1f1f",
                     "textColor3": "333333",
                     "textColor4": "4c4c4c"
+                }
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "425116234",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "418187516",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1739906575943,
+                "MZ_INDEXER": 1739910816100
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipod"
+        ],
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 étoile"
+        },
+        "name": "Schweizer Zeitungen +",
+        "genreDisplayName": "Actualités",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "iBros.ch GmbH",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=990&salableAdamId=425116234&pricingParameters=STDQ&pg=default&appExtVrsId=14328642",
+                        "type": "buy",
+                        "priceFormatted": "0,99 €",
+                        "price": 0.99,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 3481115
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=425116234&pricingParameters=SWUPD&pg=default&appExtVrsId=14328642",
+                        "type": "update",
+                        "priceFormatted": "0,00 €",
+                        "price": 0,
+                        "currencyCode": "EUR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 3481115
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": true,
+                "minimumMacOSVersion": "11.0",
+                "usesExternalLinkPurchase": false,
+                "releaseDate": "2011-03-17",
+                "hasInAppPurchases": false,
+                "bundleId": "ch.ibros.schweizerzeitungenplus",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple/v4/e2/c5/b0/e2c5b044-7e1b-c6e1-80a0-853145bfcbc9/mzl.trhncgtn.png/{w}x{h}{c}.{f}",
+                    "bgColor": "000000",
+                    "textColor1": "ffffff",
+                    "textColor2": "cdccc2",
+                    "textColor3": "cbcbcb",
+                    "textColor4": "a4a39b"
                 },
+                "isAppleWatchSupported": false,
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9b/2f/2c/9b2f2c8d-7f71-4b3d-b3f3-c095e9bdc1b5/bdb47b8f-9739-48e1-b674-ea7060cb7ac9.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 990,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/54/2e/67/542e6752-1df2-3258-d9e6-fea572cced28/9891d8ca-05b5-4667-8bec-b3fc8b2ae24c.png/{w}x{h}{c}.{f}",
+                        "bgColor": "575c62",
+                        "textColor1": "fafbfc",
+                        "textColor2": "f0f1f2",
+                        "textColor3": "d9dbdd",
+                        "textColor4": "d1d3d5"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/19/3e/cd/193ecd3c-921f-8967-67dc-1d3cd9b2ef75/37a49a21-fbec-4f71-966c-2fc8dbcb96b3.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "usesExternalPurchase": false,
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -7567,8 +7711,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2017-02-19",
                 "hasInAppPurchases": false,
@@ -7590,6 +7734,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -7622,8 +7768,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7756,8 +7900,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -7813,7 +7957,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739407221215,
-                "MZ_INDEXER": 1739551415672
+                "MZ_INDEXER": 1739930676594
             }
         },
         "supportsArcade": false,
@@ -8009,8 +8153,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "Clavier de police sympa",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Giacomo Guglielmi",
@@ -8068,8 +8212,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -8208,8 +8352,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.3",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.3",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2013-08-12",
                 "hasInAppPurchases": false,
@@ -8238,9 +8382,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -8273,10 +8419,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8286,8 +8431,7 @@
                     "textColor2": "1b1b1b",
                     "textColor3": "341f10",
                     "textColor4": "483324"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -8346,11 +8490,11 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "News: Astronomy Edition",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "AppYea Inc",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8400,8 +8544,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -8497,8 +8641,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "Make America Kittens Again",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "tomroyal.com",
@@ -8555,6 +8699,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -8587,8 +8733,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": true,
                 "requiresGameController": false
@@ -8674,8 +8818,8 @@
         "name": "Hazumi for Hacker News",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "James O'Reilly",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "James O'Reilly",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "10.1",
         "platformAttributes": {
@@ -8708,8 +8852,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "15.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "15.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2023-03-21",
                 "hasInAppPurchases": true,
@@ -8731,6 +8875,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "2.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -8763,10 +8909,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "2.0",
-                "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8776,8 +8921,7 @@
                     "textColor2": "c6c6c6",
                     "textColor3": "cacaca",
                     "textColor4": "a8a8a8"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -8798,7 +8942,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738960962723,
-                "MZ_INDEXER": 1739546285838
+                "MZ_INDEXER": 1739927004943
             }
         },
         "supportsArcade": false,
@@ -8849,8 +8993,8 @@
             "ariaLabelForRatings": "0 étoile"
         },
         "watchBundleId": "com.mattdelliott.tinyfeeds.watchkitapp",
-        "genreDisplayName": "Actualités",
         "name": "TinyFeeds",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Matthew Elliott",
@@ -8908,6 +9052,7 @@
                 "isHiddenFromSpringboard": true,
                 "isStandaloneForWatchOS": true,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -8940,9 +9085,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8952,8 +9097,7 @@
                     "textColor2": "151615",
                     "textColor3": "273627",
                     "textColor4": "273627"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -9016,8 +9160,8 @@
         "name": "Newstagram",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "Grzegorz Surma",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Grzegorz Surma",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9049,8 +9193,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2018-05-15",
                 "hasInAppPurchases": false,
@@ -9072,6 +9216,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -9104,8 +9250,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9241,8 +9385,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -9277,6 +9421,7 @@
                 },
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9286,8 +9431,7 @@
                     "textColor2": "48c3ff",
                     "textColor3": "40d345",
                     "textColor4": "48abdb"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -9406,8 +9550,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -9562,8 +9706,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2018-05-02",
                 "hasInAppPurchases": false,
@@ -9582,9 +9726,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -9617,8 +9763,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9717,8 +9861,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2014-12-30",
                 "hasInAppPurchases": false,
@@ -9732,9 +9876,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -9767,7 +9912,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9873,8 +10017,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2014-11-14",
                 "hasInAppPurchases": true,
@@ -9896,6 +10040,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -9928,8 +10074,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10006,8 +10150,8 @@
         "name": "Headlines RSS",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "onFoot IT",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "onFoot IT",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10039,8 +10183,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2014-08-14",
                 "hasInAppPurchases": false,
@@ -10059,9 +10203,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -10094,8 +10240,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10217,8 +10361,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -10348,8 +10492,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.5",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2024-10-04",
                 "hasInAppPurchases": false,
@@ -10371,6 +10515,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.2",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -10403,8 +10549,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.2",
-                "isXROSCompatible": false,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10478,8 +10622,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "Hepsi Elazığ",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Ferhat Mikyas",
@@ -10537,8 +10681,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -10692,8 +10836,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -10825,8 +10969,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2016-09-10",
                 "hasInAppPurchases": false,
@@ -10848,6 +10992,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -10880,8 +11026,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10955,8 +11099,8 @@
             ],
             "ariaLabelForRatings": "0 étoile"
         },
-        "genreDisplayName": "Actualités",
         "name": "Pályázati Hírek Pro",
+        "genreDisplayName": "Actualités",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "NLC Consulting Group Ltd.",
@@ -11014,8 +11158,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -11123,8 +11267,8 @@
         "name": "NITAS - Doctor Who News Matrix",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "News in Time and Space Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "News in Time and Space Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11179,8 +11323,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -11281,8 +11425,8 @@
         "name": "FredScanner Pro",
         "genreDisplayName": "Actualités",
         "isPreorder": false,
-        "artistName": "WaveJam Technologies LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "WaveJam Technologies LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11337,8 +11481,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -11491,8 +11635,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -11623,8 +11767,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2011-02-04",
                 "hasInAppPurchases": false,
@@ -11643,9 +11787,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -11678,8 +11824,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11778,8 +11922,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "usesExternalLinkPurchase": false,
                 "releaseDate": "2010-02-17",
                 "hasInAppPurchases": false,
@@ -11801,6 +11945,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -11833,8 +11979,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "usesExternalPurchase": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false

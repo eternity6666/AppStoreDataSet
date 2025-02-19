@@ -55,11 +55,11 @@
             ],
             "ariaLabelForRatings": "4.7 顆星"
         },
-        "name": "Living Earth - Clock & Weather",
         "genreDisplayName": "天氣",
+        "name": "Living Earth - Clock & Weather",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Radiantlabs, LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -96,8 +96,8 @@
                 "releaseDate": "2010-08-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.liability.Earth-Clock",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -208,8 +208,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739816533658,
-                "RTCI": 1738101808908
+                "MZ_INDEXER": 1739916692685,
+                "RTCI": 1739917820789
             }
         },
         "supportsArcade": false,
@@ -259,8 +259,8 @@
         },
         "firstVersionSupportingInAppPurchaseApi": "2.0",
         "watchBundleId": "com.pascaldreer.aeroweatherpro.watchkitapp",
-        "name": "AeroWeather Pro",
         "genreDisplayName": "天氣",
+        "name": "AeroWeather Pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Lakehorn AG",
@@ -296,11 +296,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.3",
+                "requires32bit": false,
                 "releaseDate": "2010-06-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pascaldreer.aeroweatherpro",
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -311,8 +313,6 @@
                     "textColor3": "caaa72",
                     "textColor4": "c48c24"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -328,7 +328,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -362,6 +361,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -435,8 +435,8 @@
             "ariaLabelForRatings": "4.5 顆星"
         },
         "watchBundleId": "net.WeatherMate.WeatherMate.watchkitapp",
-        "name": "天氣伴侶臨的 – 氣象雷達地圖",
         "genreDisplayName": "天氣",
+        "name": "天氣伴侶臨的 – 氣象雷達地圖",
         "isPreorder": false,
         "artistName": "DylogicApps Pvt Ltd",
         "isIOSBinaryMacOSCompatible": false,
@@ -491,11 +491,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -528,6 +526,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "天氣預報 與 惡劣天氣預警",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -599,8 +599,8 @@
             "ariaLabelForRatings": "4.5 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "4.4.4",
-        "name": "WeatherPro for iPad",
         "genreDisplayName": "天氣",
+        "name": "WeatherPro for iPad",
         "isPreorder": false,
         "artistName": "DTN Germany GmbH.",
         "isIOSBinaryMacOSCompatible": false,
@@ -635,13 +635,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-05-27",
                 "hasInAppPurchases": true,
                 "bundleId": "de.meteogroup.WeatherProHD",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -654,10 +654,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -701,6 +700,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -763,10 +763,10 @@
             ],
             "ariaLabelForRatings": "4.7 顆星"
         },
-        "watchBundleId": "com.newblue.weather.pro.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "1.8.38",
-        "name": "國家天氣Pro-15日即時天氣預報&空氣品質",
+        "watchBundleId": "com.newblue.weather.pro.watchkitapp",
         "genreDisplayName": "天氣",
+        "name": "國家天氣Pro-15日即時天氣預報&空氣品質",
         "isPreorder": false,
         "artistName": "政 王",
         "isIOSBinaryMacOSCompatible": true,
@@ -802,13 +802,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-07-14",
                 "hasInAppPurchases": true,
                 "bundleId": "com.newblue.weather.pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -824,7 +824,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -858,6 +857,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -932,8 +932,8 @@
             "ariaLabelForRatings": "4.8 顆星"
         },
         "watchBundleId": "com.elecont.EWeatherClock.watchkitapp2",
-        "name": "eWeather HD",
         "genreDisplayName": "天氣",
+        "name": "eWeather HD",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Elecont LLC",
@@ -973,6 +973,7 @@
                 "releaseDate": "2010-11-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.elecont.EWeatherClock",
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -983,7 +984,6 @@
                     "textColor3": "1e2327",
                     "textColor4": "41312a"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
@@ -997,10 +997,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1033,6 +1032,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Weather & Alerts",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -1105,8 +1105,8 @@
             ],
             "ariaLabelForRatings": "4.4 顆星"
         },
-        "name": "雨雷達 ° -實時天氣圖",
         "genreDisplayName": "天氣",
+        "name": "雨雷達 ° -實時天氣圖",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "DeluxeWare",
@@ -1146,8 +1146,8 @@
                 "releaseDate": "2011-12-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.deluxeware.WeatherNow",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1160,10 +1160,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1196,6 +1195,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "風暴追踪器，警報",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1256,8 +1256,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "Deluxe Moon HD - Moon Phases Calendar",
         "genreDisplayName": "天氣",
+        "name": "Deluxe Moon HD - Moon Phases Calendar",
         "isPreorder": false,
         "artistName": "Sergey Vdovenko",
         "isIOSBinaryMacOSCompatible": false,
@@ -1292,13 +1292,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-11-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lifewaresolutions.deluxemoonhdpro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1313,7 +1313,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1347,6 +1346,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1410,8 +1410,8 @@
             "ariaLabelForRatings": "4.5 顆星"
         },
         "watchBundleId": "com.avilessoftware.ProRainAlarm.watchkitapp",
-        "name": "降雨警報器 Pro",
         "genreDisplayName": "天氣",
+        "name": "降雨警報器 Pro",
         "isPreorder": false,
         "artistName": "Carlos Aviles Software",
         "isIOSBinaryMacOSCompatible": false,
@@ -1447,8 +1447,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2010-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.avilessoftware.ProRainAlarm",
@@ -1505,7 +1505,6 @@
                 "isXROSCompatible": true,
                 "subtitle": "天氣雷達",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1515,7 +1514,8 @@
                     "textColor2": "03a8e8",
                     "textColor3": "0cb5e5",
                     "textColor4": "0490d3"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -1575,8 +1575,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "Meteogram",
         "genreDisplayName": "天氣",
+        "name": "Meteogram",
         "isPreorder": false,
         "artistName": "Michal Frankowski",
         "isIOSBinaryMacOSCompatible": false,
@@ -1687,7 +1687,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739543550348,
+                "MZ_INDEXER": 1739925477417,
                 "RTCI": 1731363747328
             }
         },
@@ -1728,11 +1728,11 @@
             "ariaLabelForRatings": "5.0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.3",
-        "name": "Flight Winds",
         "genreDisplayName": "天氣",
+        "name": "Flight Winds",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "FLEMINGER MEDIA LLC",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1769,8 +1769,8 @@
                 "releaseDate": "2012-05-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pilotscafe.flightwinds",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1786,8 +1786,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1820,6 +1818,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1881,8 +1881,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "PocketGrib",
         "genreDisplayName": "天氣",
+        "name": "PocketGrib",
         "isPreorder": false,
         "artistName": "Nicko Brennan",
         "isIOSBinaryMacOSCompatible": true,
@@ -1917,13 +1917,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-04-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nickobrennan.PocketGrib",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1938,7 +1938,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -1972,6 +1971,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2033,11 +2033,11 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "Seasonality Go",
         "genreDisplayName": "天氣",
+        "name": "Seasonality Go",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Gaucho Software, LLC.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2074,8 +2074,8 @@
                 "releaseDate": "2010-06-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gauchosoft.Seasonality-Go",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2091,8 +2091,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -2145,6 +2143,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2208,8 +2208,8 @@
             "ariaLabelForRatings": "4.7 顆星"
         },
         "watchBundleId": "com.woo-interactive.PixelWeather.watchkitapp",
-        "name": "像素天氣 - 最萌像素風天氣預報",
         "genreDisplayName": "天氣",
+        "name": "像素天氣 - 最萌像素風天氣預報",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "涛 吴",
@@ -2250,8 +2250,8 @@
                 "releaseDate": "2017-09-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.woo-interactive.PixelWeather",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2267,6 +2267,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -2310,7 +2311,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "一款小清新的天氣預報",
                 "editorialNotes": {
                     "short": "透過活潑逗趣的介面，查看全球各大城市氣象、濕度、空氣品質等資訊。",
@@ -2388,8 +2388,8 @@
             "ariaLabelForRatings": "3.6 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "4.6.2",
-        "name": "高清天氣 +",
         "genreDisplayName": "天氣",
+        "name": "高清天氣 +",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Voros Innovation",
@@ -2424,13 +2424,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-05-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vinnov.Living-Weather-HD-iOS",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2446,7 +2446,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2480,6 +2479,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "實時桌布與本地天氣預報",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2544,8 +2544,8 @@
             "ariaLabelForRatings": "4.9 顆星"
         },
         "watchBundleId": "net.morethan.Thermo.watchkitapp",
-        "name": "Thermo-hygrometer",
         "genreDisplayName": "天氣",
+        "name": "Thermo-hygrometer",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "MORETHAN APPS",
@@ -2718,11 +2718,11 @@
             ],
             "ariaLabelForRatings": "4.0 顆星"
         },
-        "name": "豪華釣魚-最佳的釣魚時間和釣魚日曆",
         "genreDisplayName": "天氣",
+        "name": "豪華釣魚-最佳的釣魚時間和釣魚日曆",
         "isPreorder": false,
-        "artistName": "Sergey Vdovenko",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Sergey Vdovenko",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2754,8 +2754,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-12-07",
                 "hasInAppPurchases": true,
                 "bundleId": "com.lifewaresolutions.fishingdeluxe",
@@ -2775,6 +2775,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2808,7 +2809,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2868,11 +2868,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Sun n Moon for iPad",
         "genreDisplayName": "天氣",
+        "name": "Sun n Moon for iPad",
         "isPreorder": false,
-        "artistName": "Catalyst4",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Catalyst4",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2904,13 +2904,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.catalyst4.sunnmoonipad",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2926,7 +2926,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2960,6 +2959,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3023,11 +3023,11 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.0.51",
-        "name": "Weather4D Lite",
         "genreDisplayName": "天氣",
+        "name": "Weather4D Lite",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "APP4NAV",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3059,13 +3059,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-03-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.weather4D.Weather4D",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3081,7 +3081,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3115,6 +3114,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3136,7 +3136,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739548312998,
+                "MZ_INDEXER": 1739918064585,
                 "RTCI": 1738960993013
             }
         },
@@ -3178,11 +3178,11 @@
             "ariaLabelForRatings": "5.0 顆星"
         },
         "watchBundleId": "ru.vpresniak.mooncalendar.watchkitapp",
-        "name": "月相，星座和星星：2021 年农历",
         "genreDisplayName": "天氣",
+        "name": "月相，星座和星星：2021 年农历",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Vadim Presniak",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -3215,8 +3215,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-10-04",
                 "hasInAppPurchases": false,
                 "bundleId": "ru.vpresniak.mooncalendar",
@@ -3301,7 +3301,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739551680974,
+                "MZ_INDEXER": 1739919673944,
                 "RTCI": 1731357645602
             }
         },
@@ -3341,11 +3341,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Wind Seeker",
         "genreDisplayName": "天氣",
+        "name": "Wind Seeker",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "ozPDA",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3494,8 +3494,8 @@
             ],
             "ariaLabelForRatings": "4.8 顆星"
         },
-        "name": "WeatherMap+",
         "genreDisplayName": "天氣",
+        "name": "WeatherMap+",
         "isPreorder": false,
         "artistName": "Michal Frankowski",
         "isIOSBinaryMacOSCompatible": true,
@@ -3530,13 +3530,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-12-06",
                 "hasInAppPurchases": false,
                 "bundleId": "se.weathermap",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3549,10 +3549,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3586,6 +3585,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3650,11 +3650,11 @@
         },
         "watchBundleId": "Bee.liveWeatherPro.app.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "1.5.5",
-        "name": "實況天氣Pro-天氣即時預報",
         "genreDisplayName": "天氣",
+        "name": "實況天氣Pro-天氣即時預報",
         "isPreorder": false,
-        "artistName": "Five Mobile Game",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Five Mobile Game",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -3687,13 +3687,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2018-09-29",
                 "hasInAppPurchases": true,
                 "bundleId": "Bee.liveWeatherPro.app",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3706,10 +3706,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -3743,8 +3742,10 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "中央氣象局氣象預報，天氣即時預報",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3754,8 +3755,7 @@
                     "textColor2": "f6c73c",
                     "textColor3": "cddef4",
                     "textColor4": "c6b259"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -3818,8 +3818,8 @@
             "ariaLabelForRatings": "4.8 顆星"
         },
         "watchBundleId": "com.mathieurouthier.Mooncast.watchkitapp",
-        "name": "Mooncast",
         "genreDisplayName": "天氣",
+        "name": "Mooncast",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Mathieu Routhier",
@@ -3860,8 +3860,8 @@
                 "releaseDate": "2011-10-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mathieurouthier.Mooncast",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3983,8 +3983,8 @@
             "ariaLabelForRatings": "4.8 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "3.5.7",
-        "name": "14天详细天气预报 +",
         "genreDisplayName": "天氣",
+        "name": "14天详细天气预报 +",
         "isPreorder": false,
         "artistName": "Voros Innovation",
         "isIOSBinaryMacOSCompatible": true,
@@ -4024,8 +4024,8 @@
                 "releaseDate": "2014-04-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vinnov.10-Day-Weather",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4137,11 +4137,11 @@
             ],
             "ariaLabelForRatings": "4.9 顆星"
         },
-        "name": "袖珍雷達即時地圖 Pocket Radar",
         "genreDisplayName": "天氣",
+        "name": "袖珍雷達即時地圖 Pocket Radar",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Dmitry Alaev",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4173,8 +4173,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2012-11-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.badmonkeyteam.3DEarthHDW4cast",
@@ -4250,7 +4250,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739484138692,
+                "MZ_INDEXER": 1739907082413,
                 "RTCI": 1738955564447
             }
         },
@@ -4290,8 +4290,8 @@
             ],
             "ariaLabelForRatings": "4.7 顆星"
         },
-        "name": "Fine° Rise",
         "genreDisplayName": "天氣",
+        "name": "Fine° Rise",
         "isPreorder": false,
         "artistName": "Yoshihiko Eto",
         "isIOSBinaryMacOSCompatible": false,
@@ -4326,12 +4326,11 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-07-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.YoshihikoEto.FineRise",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -4342,6 +4341,7 @@
                     "textColor3": "2a2d35",
                     "textColor4": "2b2d34"
                 },
+                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
@@ -4358,6 +4358,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4391,7 +4392,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "世界各地的天氣。時間和時區。",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4454,8 +4454,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "iDress for Weather",
         "genreDisplayName": "天氣",
+        "name": "iDress for Weather",
         "isPreorder": false,
         "artistName": "Pebro Productions",
         "isIOSBinaryMacOSCompatible": true,
@@ -4490,13 +4490,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-08-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pebroproductions.iDress",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4511,7 +4511,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4545,6 +4544,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4566,7 +4566,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739490640026,
+                "MZ_INDEXER": 1739932612427,
                 "RTCI": 1731359593335
             }
         },
@@ -4606,8 +4606,8 @@
             ],
             "ariaLabelForRatings": "3.5 顆星"
         },
-        "name": "YoWindow Weather",
         "genreDisplayName": "天氣",
+        "name": "YoWindow Weather",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Pavel Repkin",
@@ -4642,13 +4642,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-04-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.repkasoft.yowindow.ios",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4661,10 +4661,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4697,6 +4696,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4759,11 +4759,11 @@
             "ariaLabelForRatings": "1.0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "7.2",
-        "name": "ClassicWeather HD",
         "genreDisplayName": "天氣",
+        "name": "ClassicWeather HD",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Demodit GmbH",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4800,8 +4800,8 @@
                 "releaseDate": "2012-09-25",
                 "hasInAppPurchases": false,
                 "bundleId": "ch.demodit.ClassicWeatherHD",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4814,11 +4814,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -4851,6 +4849,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4872,7 +4872,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739809055592,
+                "MZ_INDEXER": 1739912952614,
                 "RTCI": 1738739373407
             }
         },
@@ -4913,8 +4913,8 @@
             "ariaLabelForRatings": "4.9 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "5.2.0",
-        "name": "Windfinder Pro：風力與氣象圖",
         "genreDisplayName": "天氣",
+        "name": "Windfinder Pro：風力與氣象圖",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Windfinder",
@@ -4949,8 +4949,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2009-11-15",
                 "hasInAppPurchases": true,
                 "bundleId": "net.windfinder.windfinderpro",
@@ -4971,7 +4971,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5005,6 +5004,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "潮汐、波浪與風暴預報",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5027,7 +5027,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739551435087,
+                "MZ_INDEXER": 1739910699380,
                 "RTCI": 1739433507482
             }
         },
@@ -5070,11 +5070,11 @@
         },
         "watchBundleId": "net.colorfulclouds.app.pro.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "6.0.0",
-        "name": "彩云天气Pro",
         "genreDisplayName": "天氣",
+        "name": "彩云天气Pro",
         "isPreorder": false,
-        "artistName": "Beijing ColorfulClouds Technology Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Beijing ColorfulClouds Technology Co., Ltd.",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -5107,8 +5107,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2016-02-16",
                 "hasInAppPurchases": true,
                 "bundleId": "net.colorfulclouds.app.pro",
@@ -5129,6 +5129,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5162,9 +5163,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "預報天氣變化和查詢空氣質量",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5174,8 +5175,7 @@
                     "textColor2": "59220d",
                     "textColor3": "734a3b",
                     "textColor4": "7a4e3d"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -5235,8 +5235,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "HF Weather Fax",
         "genreDisplayName": "天氣",
+        "name": "HF Weather Fax",
         "isPreorder": false,
         "artistName": "Black Cat Systems",
         "isIOSBinaryMacOSCompatible": false,
@@ -5271,13 +5271,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-10-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.blackcatsystems.HFFAX",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5292,7 +5292,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5326,6 +5325,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5388,8 +5388,8 @@
             "ariaLabelForRatings": "5.0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.3",
-        "name": "Partly Sunny",
         "genreDisplayName": "天氣",
+        "name": "Partly Sunny",
         "isPreorder": false,
         "artistName": "Joseph Hribar",
         "isIOSBinaryMacOSCompatible": false,
@@ -5439,8 +5439,8 @@
                     "textColor3": "1f3242",
                     "textColor4": "1f3242"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5560,11 +5560,11 @@
             ],
             "ariaLabelForRatings": "4.8 顆星"
         },
-        "name": "Sol: Sun Clock",
         "genreDisplayName": "天氣",
+        "name": "Sol: Sun Clock",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juggleware, LLC",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5601,8 +5601,8 @@
                 "releaseDate": "2012-01-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juggleware.Sol",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5618,6 +5618,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5651,7 +5652,6 @@
                     }
                 },
                 "minimumXROSVersion": "2.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5715,11 +5715,11 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "watchBundleId": "com.speedymarks.apps.Temperature.watchkitapp",
-        "name": "Temperature App",
         "genreDisplayName": "天氣",
+        "name": "Temperature App",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Piet Jonas",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -5838,7 +5838,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550874107,
+                "MZ_INDEXER": 1739929917676,
                 "RTCI": 1738951127107
             }
         },
@@ -5878,8 +5878,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Rain radar and storm tracker for Japan",
         "genreDisplayName": "天氣",
+        "name": "Rain radar and storm tracker for Japan",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Elecont LLC",
@@ -5919,8 +5919,8 @@
                 "releaseDate": "2014-07-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.elecont.EWeatherRadarJapan",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5928,10 +5928,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -5964,6 +5963,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6025,8 +6025,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Weather and wind maps",
         "genreDisplayName": "天氣",
+        "name": "Weather and wind maps",
         "isPreorder": false,
         "artistName": "Elecont LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -6083,7 +6083,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6116,6 +6115,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6175,11 +6175,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "NOAA Hurricane Center HD",
         "genreDisplayName": "天氣",
+        "name": "NOAA Hurricane Center HD",
         "isPreorder": false,
-        "artistName": "Christopher Coudriet",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Christopher Coudriet",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6211,13 +6211,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-06-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.coudriet.hurricanewatchhd",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6233,7 +6233,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6267,6 +6266,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6328,8 +6328,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "Metar-Taf",
         "genreDisplayName": "天氣",
+        "name": "Metar-Taf",
         "isPreorder": false,
         "artistName": "Eveline van den Boom",
         "isIOSBinaryMacOSCompatible": true,
@@ -6481,8 +6481,8 @@
             ],
             "ariaLabelForRatings": "3.3 顆星"
         },
-        "name": "日光 - 日出和日落時鐘",
         "genreDisplayName": "天氣",
+        "name": "日光 - 日出和日落時鐘",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Michal Kus",
@@ -6517,12 +6517,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bezvaapky.DayLight",
                 "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -6533,7 +6534,6 @@
                     "textColor3": "323236",
                     "textColor4": "5a5a5b"
                 },
-                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6549,7 +6549,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6583,6 +6582,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6645,11 +6645,11 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.0.53",
-        "name": "Weather4D Routing",
         "genreDisplayName": "天氣",
+        "name": "Weather4D Routing",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "APP4NAV",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6686,8 +6686,8 @@
                 "releaseDate": "2011-11-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.weather4D.Weather4D-Pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6700,11 +6700,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6737,6 +6735,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6800,11 +6800,11 @@
             "ariaLabelForRatings": "5.0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.6.23",
-        "name": "WeatherTrack GRIB",
         "genreDisplayName": "天氣",
+        "name": "WeatherTrack GRIB",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Best Search Infobrokerage, Inc",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6854,11 +6854,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 location-services ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -6891,6 +6889,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6954,11 +6954,11 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "watchBundleId": "GPQDJ99EGV.com.yourcompany.LCD.watchkitapp",
-        "name": "LCD-Clock",
         "genreDisplayName": "天氣",
+        "name": "LCD-Clock",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kai Bruchmann",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -6996,8 +6996,8 @@
                 "releaseDate": "2011-01-27",
                 "hasInAppPurchases": false,
                 "bundleId": "GPQDJ99EGV.com.yourcompany.LCD",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": true,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7013,8 +7013,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7047,8 +7045,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7058,7 +7057,8 @@
                     "textColor2": "e4e4e4",
                     "textColor3": "d7d7d7",
                     "textColor4": "c2c2c2"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -7118,11 +7118,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "NAIPS",
         "genreDisplayName": "天氣",
+        "name": "NAIPS",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "OzRunways Pty. Ltd.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7154,8 +7154,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rowan.naips",
@@ -7272,13 +7272,13 @@
             ],
             "ariaLabelForRatings": "4.7 顆星"
         },
-        "firstVersionSupportingInAppPurchaseApi": "2.9.3",
         "watchBundleId": "deluxeware.WeatherFull.watchkitapp",
-        "name": "WN PRO: Weather Forecast 天气预报",
+        "firstVersionSupportingInAppPurchaseApi": "2.9.3",
         "genreDisplayName": "天氣",
+        "name": "WN PRO: Weather Forecast 天气预报",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "DeluxeWare",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -7311,8 +7311,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2018-08-25",
                 "hasInAppPurchases": true,
                 "bundleId": "deluxeware.WeatherFull",
@@ -7330,8 +7330,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7398,7 +7398,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739483806746,
+                "MZ_INDEXER": 1739909245941,
                 "RTCI": 1738138002328
             }
         },
@@ -7442,8 +7442,8 @@
             "ariaLabelForRatings": "4.8 顆星"
         },
         "watchBundleId": "com.jrustonapps.My-Aurora-Forecast-Pro.watchkitapp",
-        "name": "My Aurora Forecast Pro",
         "genreDisplayName": "天氣",
+        "name": "My Aurora Forecast Pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "JRustonApps B.V.",
@@ -7479,8 +7479,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2016-01-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jrustonapps.My-Aurora-Forecast-Pro",
@@ -7497,8 +7497,8 @@
                     "textColor4": "4376c9"
                 },
                 "isAppleWatchSupported": true,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7644,8 +7644,8 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "7.1",
-        "name": "NOAA Weather Radar",
         "genreDisplayName": "天氣",
+        "name": "NOAA Weather Radar",
         "isPreorder": false,
         "artistName": "Christopher Coudriet",
         "isIOSBinaryMacOSCompatible": true,
@@ -7680,13 +7680,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2012-01-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.coudriet.weatherradar",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7702,6 +7702,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -7734,8 +7736,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7797,11 +7797,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "NOAA Radar US",
         "genreDisplayName": "天氣",
+        "name": "NOAA Radar US",
         "isPreorder": false,
-        "artistName": "Shuksan Software, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Shuksan Software, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7955,8 +7955,8 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "watchBundleId": "GPQDJ99EGV.com.yourcompany.wetter.watchkitapp",
-        "name": "Weather Globe",
         "genreDisplayName": "天氣",
+        "name": "Weather Globe",
         "isPreorder": false,
         "artistName": "Kai Bruchmann",
         "isIOSBinaryMacOSCompatible": true,
@@ -7992,8 +7992,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-10-18",
                 "hasInAppPurchases": false,
                 "bundleId": "GPQDJ99EGV.com.yourcompany.wetter",
@@ -8014,6 +8014,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8047,8 +8048,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8058,8 +8059,7 @@
                     "textColor2": "dadbd5",
                     "textColor3": "cbd2f6",
                     "textColor4": "b3bad5"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -8079,7 +8079,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739829131241,
+                "MZ_INDEXER": 1739922657338,
                 "RTCI": 1731370533075
             }
         },
@@ -8119,8 +8119,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "NOAA Buoy and Tide Data",
         "genreDisplayName": "天氣",
+        "name": "NOAA Buoy and Tide Data",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Verona Solutions, LLC",
@@ -8160,8 +8160,8 @@
                 "releaseDate": "2009-07-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.shareapicture.buoydatareader",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8174,11 +8174,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8211,6 +8209,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8272,8 +8272,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "天氣 : 天氣預報 Pro",
         "genreDisplayName": "天氣",
+        "name": "天氣 : 天氣預報 Pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Hong Nguyen",
@@ -8313,8 +8313,8 @@
                 "releaseDate": "2018-11-13",
                 "hasInAppPurchases": false,
                 "bundleId": "team.of.xavier.weather.forecast.v10.pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8327,11 +8327,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8364,6 +8362,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "天氣預報和雷達",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8427,8 +8427,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "晴雨表Plus - 高度計和氣壓計 PRO",
         "genreDisplayName": "天氣",
+        "name": "晴雨表Plus - 高度計和氣壓計 PRO",
         "isPreorder": false,
         "artistName": "Ngo Na",
         "isIOSBinaryMacOSCompatible": false,
@@ -8482,11 +8482,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 location-services ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8519,6 +8517,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "高度計和氣壓計",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8584,8 +8584,8 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "watchBundleId": "com.jrustonapps.My-Hurricane-Tracker-Pro.watchkitapp",
-        "name": "My Hurricane Tracker Pro",
         "genreDisplayName": "天氣",
+        "name": "My Hurricane Tracker Pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "JRustonApps B.V.",
@@ -8621,13 +8621,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-07-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jrustonapps.My-Hurricane-Tracker-Pro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8769,11 +8769,11 @@
             "ariaLabelForRatings": "5.0 顆星"
         },
         "watchBundleId": "com.jrustonapps.My-Earthquake-Alerts-Pro.watchkitapp",
-        "name": "My Earthquake Alerts Pro",
         "genreDisplayName": "天氣",
+        "name": "My Earthquake Alerts Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "JRustonApps B.V.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -8811,8 +8811,8 @@
                 "releaseDate": "2015-04-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jrustonapps.My-Earthquake-Alerts-Pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8824,10 +8824,9 @@
                     "textColor4": "412322"
                 },
                 "isAppleWatchSupported": true,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -8860,6 +8859,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -8931,11 +8931,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Sun Calendar",
         "genreDisplayName": "天氣",
+        "name": "Sun Calendar",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Steven Edwards",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8967,8 +8967,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-11-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.edwardsapps.Sun-Calendar",
@@ -9084,8 +9084,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "World Now",
         "genreDisplayName": "天氣",
+        "name": "World Now",
         "isPreorder": false,
         "artistName": "Kelly Technology Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -9120,8 +9120,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-03-07",
                 "hasInAppPurchases": true,
                 "bundleId": "com.kellytechnology.WorldNow",
@@ -9139,8 +9139,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9237,11 +9237,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Flugwetter",
         "genreDisplayName": "天氣",
+        "name": "Flugwetter",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Udo Riedel",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9273,8 +9273,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-01-14",
                 "hasInAppPurchases": false,
                 "bundleId": "aero.riedel.flugwetter",
@@ -9387,8 +9387,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Meteo HD Plus - by iLMeteo.it",
         "genreDisplayName": "天氣",
+        "name": "Meteo HD Plus - by iLMeteo.it",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "ILMETEO srl",
@@ -9423,8 +9423,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-03-11",
                 "hasInAppPurchases": false,
                 "bundleId": "it.ilmeteo.meteohdplus",
@@ -9445,7 +9445,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9479,6 +9478,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9545,8 +9545,8 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "watchBundleId": "GPQDJ99EGV.com.yourcompany.Barometer.watchkitapp",
-        "name": "Barometer antique",
         "genreDisplayName": "天氣",
+        "name": "Barometer antique",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kai Bruchmann",
@@ -9582,13 +9582,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-12-15",
                 "hasInAppPurchases": false,
                 "bundleId": "GPQDJ99EGV.com.yourcompany.Barometer",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9604,7 +9604,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9638,6 +9637,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -9709,8 +9709,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Crosswind Calculator Pro",
         "genreDisplayName": "天氣",
+        "name": "Crosswind Calculator Pro",
         "isPreorder": false,
         "artistName": "Rob Barltrop",
         "isIOSBinaryMacOSCompatible": true,
@@ -9745,8 +9745,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-05-19",
                 "hasInAppPurchases": false,
                 "bundleId": "RobBarltrop.xwind",
@@ -9862,8 +9862,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "天氣 預報 - 氣溫 pro",
         "genreDisplayName": "天氣",
+        "name": "天氣 預報 - 氣溫 pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Hieu Nguyen",
@@ -9898,13 +9898,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-01-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dh.weather.forecast.211.pro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9920,7 +9920,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9954,6 +9953,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9975,7 +9975,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739877640649,
+                "MZ_INDEXER": 1739921808025,
                 "RTCI": 1731352413645
             }
         },
@@ -10015,11 +10015,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Thermo Hygrometer",
         "genreDisplayName": "天氣",
+        "name": "Thermo Hygrometer",
         "isPreorder": false,
-        "artistName": "LionsApp di Nallbati Elton",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "LionsApp di Nallbati Elton",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10051,8 +10051,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lionsapp.THI",
@@ -10073,6 +10073,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10106,7 +10107,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10168,11 +10168,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Solar Time",
         "genreDisplayName": "天氣",
+        "name": "Solar Time",
         "isPreorder": false,
-        "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Piet Jonas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10204,13 +10204,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-04-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.SolarTime",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10225,6 +10225,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10257,8 +10259,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10280,8 +10280,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739833819292,
-                "RTCI": 1739833222699
+                "MZ_INDEXER": 1739915086015,
+                "RTCI": 1739914333807
             }
         },
         "supportsArcade": false,
@@ -10320,8 +10320,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Avalon Offshore",
         "genreDisplayName": "天氣",
+        "name": "Avalon Offshore",
         "isPreorder": false,
         "artistName": "JEAN-FRANCOIS COULON",
         "isIOSBinaryMacOSCompatible": true,
@@ -10356,13 +10356,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-06-18",
                 "hasInAppPurchases": true,
                 "bundleId": "AvalonOffshore",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10378,7 +10378,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10412,6 +10411,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10473,8 +10473,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Solar and Lunar Eclipses - Full and Partial Eclipse Calendar",
         "genreDisplayName": "天氣",
+        "name": "Solar and Lunar Eclipses - Full and Partial Eclipse Calendar",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sergey Vdovenko",
@@ -10514,8 +10514,8 @@
                 "releaseDate": "2014-12-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lifewaresolutions.Eclipses",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10626,11 +10626,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "溫度計小工具",
         "genreDisplayName": "天氣",
+        "name": "溫度計小工具",
         "isPreorder": false,
-        "artistName": "luca calciano",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "luca calciano",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10662,13 +10662,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-01-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.domainname.WidgetWhatsApp",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10684,6 +10684,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10716,8 +10718,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10779,8 +10779,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "global storms pro",
         "genreDisplayName": "天氣",
+        "name": "global storms pro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kelly Technology Inc.",
@@ -10820,8 +10820,8 @@
                 "releaseDate": "2014-07-20",
                 "hasInAppPurchases": true,
                 "bundleId": "com.kellytechnology.noaanowpro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10837,6 +10837,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -10870,7 +10871,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10930,8 +10930,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "台风来了-HD",
         "genreDisplayName": "天氣",
+        "name": "台风来了-HD",
         "isPreorder": false,
         "artistName": "学锋 徐",
         "isIOSBinaryMacOSCompatible": true,
@@ -10966,13 +10966,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-07-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.weifen.typhooncoming.hd",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10988,6 +10988,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -11020,8 +11022,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11083,11 +11083,11 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.5",
-        "name": "Barometer - Air Pressure",
         "genreDisplayName": "天氣",
+        "name": "Barometer - Air Pressure",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11141,8 +11141,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -11175,6 +11173,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11236,11 +11236,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Hurricane Track+ Storm Tracker",
         "genreDisplayName": "天氣",
+        "name": "Hurricane Track+ Storm Tracker",
         "isPreorder": false,
-        "artistName": "Mach Software Design",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Mach Software Design",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11389,11 +11389,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Scope Nights Astronomy Weather",
         "genreDisplayName": "天氣",
+        "name": "Scope Nights Astronomy Weather",
         "isPreorder": false,
-        "artistName": "Martin Dodd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Martin Dodd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11425,8 +11425,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-04-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.eggmoonstudio.scopenights",
@@ -11444,8 +11444,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11542,8 +11542,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "風預報 wind forecast",
         "genreDisplayName": "天氣",
+        "name": "風預報 wind forecast",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Flytomap",
@@ -11578,8 +11578,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-08-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.flytomap.realWind",
@@ -11600,7 +11600,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11634,6 +11633,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "詳細的風圖",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11696,8 +11696,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Radar Pro",
         "genreDisplayName": "天氣",
+        "name": "Radar Pro",
         "isPreorder": false,
         "artistName": "Bryan Neel",
         "isIOSBinaryMacOSCompatible": true,
@@ -11732,8 +11732,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-03-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bryanneel.NWSRADAR",
@@ -11754,6 +11754,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11787,7 +11788,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11849,8 +11849,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Sunset and Sunrise Times",
         "genreDisplayName": "天氣",
+        "name": "Sunset and Sunrise Times",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Fascinating Projects",
@@ -11885,13 +11885,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-01-24",
                 "hasInAppPurchases": false,
                 "bundleId": "nz.co.petesmith.sunrise",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11907,7 +11907,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11941,6 +11940,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12002,8 +12002,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "UV + Weather",
         "genreDisplayName": "天氣",
+        "name": "UV + Weather",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Agzamov Daniyar",
@@ -12155,11 +12155,11 @@
             "ariaLabelForRatings": "4.2 顆星"
         },
         "watchBundleId": "luo.2021.07.TaiwanTide202107.watchkitapp",
-        "name": "朝夕: TW Tide",
         "genreDisplayName": "天氣",
+        "name": "朝夕: TW Tide",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "luo",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "8.0",
         "platformAttributes": {
@@ -12250,6 +12250,7 @@
                 "minimumXROSVersion": "1.0",
                 "subtitle": "Taiwan Tide",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12259,8 +12260,7 @@
                     "textColor2": "15006c",
                     "textColor3": "34272b",
                     "textColor4": "422771"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -12320,8 +12320,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "WeatherٞPro",
         "genreDisplayName": "天氣",
+        "name": "WeatherٞPro",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "嘉妮 赖",
@@ -12473,11 +12473,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "北极光预测",
         "genreDisplayName": "天氣",
+        "name": "北极光预测",
         "isPreorder": false,
-        "artistName": "Letovaltsev Maxim",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Letovaltsev Maxim",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12514,8 +12514,8 @@
                 "releaseDate": "2019-12-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.letovaltsev.NorthernLightsForecast",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12627,8 +12627,8 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.2.0",
-        "name": "RadarOmega",
         "genreDisplayName": "天氣",
+        "name": "RadarOmega",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "SDS Weather LLC",
@@ -12663,8 +12663,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-05-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.stromdamage.RadarX",
@@ -12685,7 +12685,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12719,6 +12718,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12782,11 +12782,11 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "watchBundleId": "com.bjango.snowflake.ios.watchos",
-        "name": "Snowflake Weather",
         "genreDisplayName": "天氣",
+        "name": "Snowflake Weather",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Bjango Pty Ltd",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -12824,8 +12824,8 @@
                 "releaseDate": "2019-12-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.bjango.snowflake.ios",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12841,6 +12841,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -12874,7 +12875,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -12906,7 +12906,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739487110887,
+                "MZ_INDEXER": 1739920294642,
                 "RTCI": 1738951071999
             }
         },
@@ -12946,11 +12946,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "NOAA Aviation PRO Live Weather",
         "genreDisplayName": "天氣",
+        "name": "NOAA Aviation PRO Live Weather",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Andrea Bisegna",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13099,11 +13099,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "NOAA AWC Aviation Weather PRO",
         "genreDisplayName": "天氣",
+        "name": "NOAA AWC Aviation Weather PRO",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Andrea Bisegna",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13154,11 +13154,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13191,6 +13189,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13255,8 +13255,8 @@
         },
         "firstVersionSupportingInAppPurchaseApi": "2.0.65",
         "watchBundleId": "com.app4nav.ios.Weather4D.watchkitapp",
-        "name": "Weather4D Routing & Navigation",
         "genreDisplayName": "天氣",
+        "name": "Weather4D Routing & Navigation",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "APP4NAV",
@@ -13292,8 +13292,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-12-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.app4nav.ios.Weather4D",
@@ -13314,7 +13314,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13348,6 +13347,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -13419,8 +13419,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Sun Alarm",
         "genreDisplayName": "天氣",
+        "name": "Sun Alarm",
         "isPreorder": false,
         "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
@@ -13455,8 +13455,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-04-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.SunAlarm",
@@ -13473,8 +13473,8 @@
                     "textColor4": "6473ca"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13571,11 +13571,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "WDliveapp",
         "genreDisplayName": "天氣",
+        "name": "WDliveapp",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Brian Hamilton",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13612,8 +13612,8 @@
                 "releaseDate": "2014-10-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.weatherdisplay.WDliveapp",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13626,11 +13626,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13663,6 +13661,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13724,8 +13724,8 @@
             ],
             "ariaLabelForRatings": "5.0 顆星"
         },
-        "name": "Anemometer: Wind speed",
         "genreDisplayName": "天氣",
+        "name": "Anemometer: Wind speed",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
@@ -13760,8 +13760,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.0",
                 "releaseDate": "2014-09-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.lionsapp.Anemometer",
@@ -13779,8 +13779,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13879,11 +13879,11 @@
             "ariaLabelForRatings": "4.7 顆星"
         },
         "watchBundleId": "TRApps.widget-weather.watchkitapp",
-        "name": "widget weather",
         "genreDisplayName": "天氣",
+        "name": "widget weather",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Trond Rossvoll",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -13938,8 +13938,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -13972,8 +13970,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13983,7 +13982,8 @@
                     "textColor2": "151515",
                     "textColor3": "203744",
                     "textColor4": "203744"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -14003,7 +14003,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739906110031,
+                "MZ_INDEXER": 1739906586164,
                 "RTCI": 1731355235755
             }
         },
@@ -14043,8 +14043,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Thermo - Temperature",
         "genreDisplayName": "天氣",
+        "name": "Thermo - Temperature",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "LionsApp di Nallbati Elton",
@@ -14196,8 +14196,8 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Rain Info",
         "genreDisplayName": "天氣",
+        "name": "Rain Info",
         "isPreorder": false,
         "artistName": "Shunsuke Sato",
         "isIOSBinaryMacOSCompatible": true,
@@ -14251,11 +14251,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14288,6 +14286,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14352,11 +14352,11 @@
         },
         "firstVersionSupportingInAppPurchaseApi": "4.0",
         "watchBundleId": "com.ajnaware.OzWeatherPlus.watchkitapp",
-        "name": "Oz Weather Plus",
         "genreDisplayName": "天氣",
+        "name": "Oz Weather Plus",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "ozPDA",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -14389,8 +14389,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-11-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ajnaware.OzWeatherPlus",
@@ -14446,7 +14446,6 @@
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14456,7 +14455,8 @@
                     "textColor2": "05090a",
                     "textColor3": "2e3234",
                     "textColor4": "2f3234"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -14516,11 +14516,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Lunar Eclipse",
         "genreDisplayName": "天氣",
+        "name": "Lunar Eclipse",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Piet Jonas",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14552,13 +14552,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-08-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.LunarEclipse",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14573,6 +14573,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14605,8 +14607,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14628,7 +14628,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739547543308,
+                "MZ_INDEXER": 1739925727439,
                 "RTCI": 1738952540818
             }
         },
@@ -14668,11 +14668,11 @@
             ],
             "ariaLabelForRatings": "0 顆星"
         },
-        "name": "Weather Planet Pro",
         "genreDisplayName": "天氣",
+        "name": "Weather Planet Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kai Bruchmann",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14726,8 +14726,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14760,6 +14758,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14781,7 +14781,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739830788242,
+                "MZ_INDEXER": 1739916056247,
                 "RTCI": 1739633374057
             }
         },
@@ -14821,8 +14821,8 @@
             ],
             "ariaLabelForRatings": "4.7 顆星"
         },
-        "name": "潮汐在身邊 - 無廣告",
         "genreDisplayName": "天氣",
+        "name": "潮汐在身邊 - 無廣告",
         "isPreorder": false,
         "artistName": "Shelter Island Mapping Company, LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -14857,13 +14857,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-11-25",
                 "hasInAppPurchases": false,
                 "bundleId": "me.tidesnear.paid",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14879,6 +14879,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -14911,8 +14913,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14934,7 +14934,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739482980914,
+                "MZ_INDEXER": 1739909731920,
                 "RTCI": 1738707436114
             }
         },
@@ -14976,8 +14976,8 @@
             "ariaLabelForRatings": "0 顆星"
         },
         "watchBundleId": "com.speedymarks.apps.Wind.watchkitapp",
-        "name": "Wind App",
         "genreDisplayName": "天氣",
+        "name": "Wind App",
         "isPreorder": false,
         "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
@@ -15013,13 +15013,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-06-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.Wind",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15034,7 +15034,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1356,
@@ -15068,6 +15067,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,

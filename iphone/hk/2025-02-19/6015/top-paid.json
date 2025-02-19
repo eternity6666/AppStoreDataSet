@@ -58,8 +58,8 @@
         },
         "watchBundleId": "com.ibearsoft.moneypro.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "2.4",
-        "genreDisplayName": "理財",
         "name": "Money Pro: 個人財務",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "iBear LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -100,8 +100,8 @@
                 "releaseDate": "2014-10-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ibearsoft.moneypro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -117,6 +117,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -149,14 +151,11 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "輕鬆管理個人帳單、預算和帳號",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "全面專業的理財專家"
                 },
-                "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -166,7 +165,8 @@
                     "textColor2": "fecb01",
                     "textColor3": "cfc443",
                     "textColor4": "d5b312"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -187,7 +187,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1739154989027,
-                "MZ_INDEXER": 1739547662684
+                "MZ_INDEXER": 1739926042505
             }
         },
         "supportsArcade": false,
@@ -230,8 +230,8 @@
         "name": "秒速記帳 1SecMoney",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Ping-Hsien Chou",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Ping-Hsien Chou",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -264,13 +264,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-11-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.umore.FastMoney",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -287,7 +287,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -350,11 +349,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "史上最快的記帳應用",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "簡便快速記帳，清晰管理每日開支"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -366,6 +366,172 @@
                     "textColor3": "1a291c",
                     "textColor4": "19291b"
                 }
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "954724812",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "303191321",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1738858135617,
+                "MZ_INDEXER": 1739500691021
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "watch",
+            "iphone",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 3,
+                "genreName": "理財",
+                "genre": 6015,
+                "chart": "top-paid",
+                "genreShortName": "理財"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.7,
+            "ratingCount": 153,
+            "ratingCountList": [
+                8,
+                0,
+                3,
+                5,
+                137
+            ],
+            "ariaLabelForRatings": "4.7 粒星"
+        },
+        "watchBundleId": "cn.com.10jqka.iHexinFee.watchkitapp",
+        "firstVersionSupportingInAppPurchaseApi": "10.20.41",
+        "name": "同花顺至尊版-股票软件",
+        "genreDisplayName": "理財",
+        "isPreorder": false,
+        "artistName": "Zhejiang Hexin Flush Network Services Ltd",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "minimumWatchOSVersion": "2.0",
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=8000&salableAdamId=954724812&pricingParameters=STDQ&pg=default&appExtVrsId=871990810",
+                        "type": "buy",
+                        "priceFormatted": "HK$ 8.00",
+                        "price": 8,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 419036160
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=954724812&pricingParameters=SWUPD&pg=default&appExtVrsId=871990810",
+                        "type": "update",
+                        "priceFormatted": "HK$ 0.00",
+                        "price": 0,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 419036160
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2015-01-14",
+                "hasInAppPurchases": true,
+                "bundleId": "cn.com.10jqka.iHexinFee",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/95/54/0795542b-08df-f54d-6f7d-a471a6236bbc/AppIcon-0-0-1x_U007emarketing-0-3-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "f64737",
+                    "textColor1": "161310",
+                    "textColor2": "161612",
+                    "textColor3": "431d18",
+                    "textColor4": "431f19"
+                },
+                "isAppleWatchSupported": true,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1168,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/95/7a/d3/957ad33b-ed27-6d93-8ebc-5a7faa577e1d/7c133563-3209-4594-8bf7-7f1abe8fc8a6.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1168,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1c/7c/cd/1c7ccd7c-b0b2-8096-a810-c9924266e5ed/7f2eb988-cc14-46bc-a998-a9b115c8c9f9.png/{w}x{h}{c}.{f}",
+                        "bgColor": "585d62",
+                        "textColor1": "7ffb00",
+                        "textColor2": "7ffb00",
+                        "textColor3": "77db13",
+                        "textColor4": "77db13"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/24/12/e0/2412e0ba-40bd-d36a-1677-7bf2a423c3ad/ec01176a-bd34-41eb-8195-bad9d287f3b6.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "hasSafariExtension": false,
+                "circularArtwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/09/9d/53099d7b-a845-3707-18a2-53847107c76d/AppIcon-0-0-1x_U007emarketing-0-9-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "e62828",
+                    "textColor1": "0b0202",
+                    "textColor2": "170404",
+                    "textColor3": "370909",
+                    "textColor4": "400b0b"
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -409,7 +575,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -431,8 +597,8 @@
         },
         "watchBundleId": "com.kingdee.MyMoneyPro.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "12.5.0",
-        "genreDisplayName": "理財",
         "name": "隨手記Pro–個人家庭生意記帳",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Kingdee",
         "isIOSBinaryMacOSCompatible": true,
@@ -473,8 +639,8 @@
                 "releaseDate": "2010-05-25",
                 "hasInAppPurchases": true,
                 "bundleId": "com.kingdee.MyMoneyPro",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -487,9 +653,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -522,8 +690,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "記帳就用隨手記，多賺會花每一天",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -536,6 +702,159 @@
                     "textColor3": "80373e",
                     "textColor4": "803f3f"
                 },
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "929822826",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "862771578",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "RTCI": 1731383952933,
+                "MZ_INDEXER": 1739835226103
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 5,
+                "genreName": "理財",
+                "genre": 6015,
+                "chart": "top-paid",
+                "genreShortName": "理財"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "wasReset": true,
+            "value": 5,
+            "ratingCount": 1,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "ariaLabelForRatings": "5.0 粒星"
+        },
+        "name": "US Debt Clock .org",
+        "genreDisplayName": "理財",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Chrono Numeric Labs LLC",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=38000&salableAdamId=929822826&pricingParameters=STDQ&pg=default&appExtVrsId=839633716",
+                        "type": "buy",
+                        "priceFormatted": "HK$ 38.00",
+                        "price": 38,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 18608128
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=929822826&pricingParameters=SWUPD&pg=default&appExtVrsId=839633716",
+                        "type": "update",
+                        "priceFormatted": "HK$ 0.00",
+                        "price": 0,
+                        "currencyCode": "HKD",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 18608128
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2014-10-22",
+                "hasInAppPurchases": false,
+                "bundleId": "com.chrononumericlabs.us-debt-clock-real-time",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b4/e4/5c/b4e45c68-5156-2ff6-1934-24e8413c9d79/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "626467",
+                    "textColor1": "f0f6f3",
+                    "textColor2": "d7f4e0",
+                    "textColor3": "d4d9d7",
+                    "textColor4": "c0d7c7"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1168,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/95/7a/d3/957ad33b-ed27-6d93-8ebc-5a7faa577e1d/7c133563-3209-4594-8bf7-7f1abe8fc8a6.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1168,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1c/7c/cd/1c7ccd7c-b0b2-8096-a810-c9924266e5ed/7f2eb988-cc14-46bc-a998-a9b115c8c9f9.png/{w}x{h}{c}.{f}",
+                        "bgColor": "585d62",
+                        "textColor1": "7ffb00",
+                        "textColor2": "7ffb00",
+                        "textColor3": "77db13",
+                        "textColor4": "77db13"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/24/12/e0/2412e0ba-40bd-d36a-1677-7bf2a423c3ad/ec01176a-bd34-41eb-8195-bad9d287f3b6.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -557,7 +876,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738963016041,
-                "MZ_INDEXER": 1739486842207
+                "MZ_INDEXER": 1739908287415
             }
         },
         "supportsArcade": false,
@@ -575,7 +894,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 6,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -632,13 +951,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-04-14",
                 "hasInAppPurchases": false,
                 "bundleId": "Eternal.DailySales",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -654,8 +973,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -730,7 +1049,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 7,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -786,8 +1105,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2023-03-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.SVTSoftware.Accounts3",
@@ -808,8 +1127,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -849,172 +1168,6 @@
     },
     {
         "kind": "app",
-        "id": "954724812",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "303191321",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738858135617,
-                "MZ_INDEXER": 1739500691021
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "watch",
-            "iphone",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 6,
-                "genreName": "理財",
-                "genre": 6015,
-                "chart": "top-paid",
-                "genreShortName": "理財"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.7,
-            "ratingCount": 153,
-            "ratingCountList": [
-                8,
-                0,
-                3,
-                5,
-                137
-            ],
-            "ariaLabelForRatings": "4.7 粒星"
-        },
-        "watchBundleId": "cn.com.10jqka.iHexinFee.watchkitapp",
-        "firstVersionSupportingInAppPurchaseApi": "10.20.41",
-        "name": "同花顺至尊版-股票软件",
-        "genreDisplayName": "理財",
-        "isPreorder": false,
-        "artistName": "Zhejiang Hexin Flush Network Services Ltd",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "minimumWatchOSVersion": "2.0",
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=8000&salableAdamId=954724812&pricingParameters=STDQ&pg=default&appExtVrsId=871990810",
-                        "type": "buy",
-                        "priceFormatted": "HK$ 8.00",
-                        "price": 8,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 419036160
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=954724812&pricingParameters=SWUPD&pg=default&appExtVrsId=871990810",
-                        "type": "update",
-                        "priceFormatted": "HK$ 0.00",
-                        "price": 0,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 419036160
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2015-01-14",
-                "hasInAppPurchases": true,
-                "bundleId": "cn.com.10jqka.iHexinFee",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/95/54/0795542b-08df-f54d-6f7d-a471a6236bbc/AppIcon-0-0-1x_U007emarketing-0-3-0-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "f64737",
-                    "textColor1": "161310",
-                    "textColor2": "161612",
-                    "textColor3": "431d18",
-                    "textColor4": "431f19"
-                },
-                "isAppleWatchSupported": true,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1168,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/95/7a/d3/957ad33b-ed27-6d93-8ebc-5a7faa577e1d/7c133563-3209-4594-8bf7-7f1abe8fc8a6.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1168,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1c/7c/cd/1c7ccd7c-b0b2-8096-a810-c9924266e5ed/7f2eb988-cc14-46bc-a998-a9b115c8c9f9.png/{w}x{h}{c}.{f}",
-                        "bgColor": "585d62",
-                        "textColor1": "7ffb00",
-                        "textColor2": "7ffb00",
-                        "textColor3": "77db13",
-                        "textColor4": "77db13"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/24/12/e0/2412e0ba-40bd-d36a-1677-7bf2a423c3ad/ec01176a-bd34-41eb-8195-bad9d287f3b6.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "hasSafariExtension": false,
-                "requiresGameController": false,
-                "circularArtwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/09/9d/53099d7b-a845-3707-18a2-53847107c76d/AppIcon-0-0-1x_U007emarketing-0-9-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "e62828",
-                    "textColor1": "0b0202",
-                    "textColor2": "170404",
-                    "textColor3": "370909",
-                    "textColor4": "400b0b"
-                }
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "1197275827",
         "type": "apps",
         "relationships": {
@@ -1049,7 +1202,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 8,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -1072,8 +1225,8 @@
         "name": "金十数据专业版-为交易而生",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Guangzhou Jinshi Information and Technology Co., Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Guangzhou Jinshi Information and Technology Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1105,13 +1258,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2017-05-05",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jin10.pro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1128,7 +1281,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -1161,6 +1313,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1201,7 +1354,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 9,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -1221,8 +1374,8 @@
             ],
             "ariaLabelForRatings": "4.8 粒星"
         },
-        "name": "鲨鱼记账Pro-3秒钟快速记账",
         "genreDisplayName": "理財",
+        "name": "鲨鱼记账Pro-3秒钟快速记账",
         "isPreorder": false,
         "artistName": "Beijing Shark Pioneer Network Technology Co.,Ltd",
         "isIOSBinaryMacOSCompatible": false,
@@ -1257,8 +1410,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-12-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.shark.tallypro",
@@ -1279,8 +1432,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -1335,7 +1488,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738967513871,
-                "MZ_INDEXER": 1739487423939
+                "MZ_INDEXER": 1739922196864
             }
         },
         "supportsArcade": false,
@@ -1353,7 +1506,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 9,
+                "position": 10,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -1373,8 +1526,8 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "理財幫手 AndroMoney",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "lee fado",
         "isIOSBinaryMacOSCompatible": false,
@@ -1414,8 +1567,8 @@
                 "releaseDate": "2013-08-05",
                 "hasInAppPurchases": false,
                 "bundleId": "Andro.AndroMoney",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1431,6 +1584,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -1463,8 +1618,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1506,7 +1659,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 10,
+                "position": 11,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -1526,11 +1679,11 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "BA Financial Calculator (PRO)",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Angel Montana",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1562,8 +1715,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-10-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cfa.calculator.pro",
@@ -1584,6 +1737,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -1616,8 +1771,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1659,7 +1812,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 11,
+                "position": 12,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -1681,11 +1834,11 @@
         },
         "watchBundleId": "com.eastmoney.paid.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "8.6",
-        "genreDisplayName": "理財",
         "name": "东方财富领先版-财经资讯&股票开户",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "东方财富信息股份有限公司",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -1718,13 +1871,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-07-20",
                 "hasInAppPurchases": true,
                 "bundleId": "com.eastmoney.paid",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1740,6 +1893,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -1772,11 +1927,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "用东方财富，智能决策选牛股",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1786,7 +1938,8 @@
                     "textColor2": "160603",
                     "textColor3": "361007",
                     "textColor4": "3f1309"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -1807,7 +1960,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738951086302,
-                "MZ_INDEXER": 1739544569389
+                "MZ_INDEXER": 1739927129025
             }
         },
         "supportsArcade": false,
@@ -1826,7 +1979,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 12,
+                "position": 13,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -1850,8 +2003,8 @@
         "name": "存錢記帳-管理預算、掃描記帳、理財分析CWMoney Pro",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "CWMoney.NET",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "CWMoney.NET",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "3.0",
         "platformAttributes": {
@@ -1889,8 +2042,8 @@
                 "releaseDate": "2012-09-13",
                 "hasInAppPurchases": false,
                 "bundleId": "sst.CWMoney",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1903,11 +2056,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -1940,6 +2092,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "理財的第一步記帳",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -1992,7 +2145,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 13,
+                "position": 14,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -2015,8 +2168,8 @@
         "genreDisplayName": "理財",
         "name": "Money Manager (Remove Ads)",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Realbyte Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2053,8 +2206,8 @@
                 "releaseDate": "2012-10-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.realbyteapps.MoneyManager",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2067,11 +2220,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -2104,6 +2256,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "20M+DN,Budget&Expense Tracker",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2146,7 +2299,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 14,
+                "position": 15,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -2203,13 +2356,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-08-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.areix-ai.areix",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2225,6 +2378,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -2257,7 +2411,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "精選操盤高手 量化交易智能 輕鬆邊跟邊賺",
                 "hasSafariExtension": false,
@@ -2301,7 +2454,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 15,
+                "position": 16,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -2322,11 +2475,11 @@
             "ariaLabelForRatings": "4.7 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "9.3.3",
-        "genreDisplayName": "理財",
         "name": "iXpenseIt Pro: 管理財務",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "FYI Mobileware, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "FYI Mobileware, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2362,8 +2515,8 @@
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": true,
                 "bundleId": "iXpenseIt",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2376,9 +2529,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -2411,7 +2565,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2454,7 +2607,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 16,
+                "position": 17,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -2474,8 +2627,8 @@
             ],
             "ariaLabelForRatings": "2.9 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "iCurrency Pad",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sollico Software",
@@ -2510,8 +2663,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-01-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sollico.iCurrencyPad",
@@ -2532,6 +2685,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -2564,7 +2718,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2608,7 +2761,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 17,
+                "position": 18,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -2632,8 +2785,8 @@
         "genreDisplayName": "理財",
         "name": "HomeBudget with Sync",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Anishu, Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -2666,13 +2819,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-02-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.anishu.homebudget",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2687,6 +2840,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -2719,10 +2874,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2732,7 +2884,8 @@
                     "textColor2": "0d0812",
                     "textColor3": "453736",
                     "textColor4": "3e3a41"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -2772,7 +2925,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 18,
+                "position": 19,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -2793,8 +2946,8 @@
             "ariaLabelForRatings": "4.3 粒星"
         },
         "watchBundleId": "tw.jnl.iMMIG.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "iMMIG 記帳小秘書",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jackie Kuang",
@@ -2848,9 +3001,10 @@
                     "textColor4": "23363e"
                 },
                 "isAppleWatchSupported": true,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -2883,7 +3037,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "隨時掌握帳務資訊",
                 "hasSafariExtension": false,
@@ -2936,7 +3089,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 19,
+                "position": 20,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -2956,8 +3109,8 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Money Manager Classic",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "RealByte",
         "isIOSBinaryMacOSCompatible": false,
@@ -3014,6 +3167,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -3046,8 +3201,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3090,7 +3243,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 20,
+                "position": 21,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -3114,8 +3267,8 @@
         "name": "BA金融計算器Pro",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Vicinno Soft LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Vicinno Soft LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.2",
         "platformAttributes": {
@@ -3148,13 +3301,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-11-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vicinno.FinCalcPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3170,7 +3323,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -3203,6 +3355,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "BA II Plus emulator",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -3255,7 +3408,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 21,
+                "position": 22,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -3278,8 +3431,8 @@
         "genreDisplayName": "理財",
         "name": "Financial Calculator",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "joaquin grech",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3329,9 +3482,10 @@
                     "textColor4": "47463e"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -3364,7 +3518,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3388,7 +3541,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1736505843231,
-                "MZ_INDEXER": 1739815484357
+                "MZ_INDEXER": 1739930842547
             }
         },
         "supportsArcade": false,
@@ -3405,7 +3558,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 22,
+                "position": 23,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -3480,9 +3633,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -3515,8 +3670,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "subtitle": "燃油效率, 航海日志, 升/100公里",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3558,7 +3711,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 23,
+                "position": 24,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -3578,11 +3731,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "MoneyCare",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "LAB617",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "LAB617",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3619,8 +3772,8 @@
                 "releaseDate": "2011-02-03",
                 "hasInAppPurchases": false,
                 "bundleId": "A.B.MoneyCare",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3636,6 +3789,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -3668,7 +3822,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3710,7 +3863,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 24,
+                "position": 25,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -3730,8 +3883,8 @@
             ],
             "ariaLabelForRatings": "4.8 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "惠普爾記賬 Pro - 3秒費用經理",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "bumblebee",
@@ -3766,8 +3919,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-06-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.flybumblebee.weplemoney",
@@ -3788,6 +3941,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -3820,7 +3974,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "費用跟踪器和預算",
                 "hasSafariExtension": false,
@@ -3864,7 +4017,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 25,
+                "position": 26,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -3884,8 +4037,8 @@
             ],
             "ariaLabelForRatings": "3.3 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "BA II Plus™ Financial Calc",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Texas Instruments",
         "isIOSBinaryMacOSCompatible": false,
@@ -3925,8 +4078,8 @@
                 "releaseDate": "2013-05-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ti.education.baiiplus",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3942,6 +4095,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -3974,8 +4129,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4016,7 +4169,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 26,
+                "position": 27,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -4037,11 +4190,11 @@
             "ariaLabelForRatings": "4.2 粒星"
         },
         "watchBundleId": "com.xvision.datamannext.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "DataMan - Data Usage Widget",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Johnny Ixe",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Johnny Ixe",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "9.6",
         "platformAttributes": {
@@ -4074,13 +4227,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.5",
                 "releaseDate": "2013-01-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.xvision.datamannext",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4096,6 +4249,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -4128,10 +4282,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "subtitle": "簡單跟踪流量使用",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4141,8 +4295,7 @@
                     "textColor2": "f8e5e5",
                     "textColor3": "f1cbcb",
                     "textColor4": "ebb7b7"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -4182,7 +4335,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 27,
+                "position": 28,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -4203,8 +4356,8 @@
             "ariaLabelForRatings": "3.5 粒星"
         },
         "watchBundleId": "com.oursky.spentable.full.watchapp",
-        "genreDisplayName": "理財",
         "name": "Spentable",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Oursky Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -4259,9 +4412,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -4304,8 +4459,6 @@
                         "textColor4": "c4c4c4"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "超好用的開支追踪工具",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -4361,7 +4514,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 28,
+                "position": 29,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -4381,8 +4534,8 @@
             ],
             "ariaLabelForRatings": "4.8 粒星"
         },
-        "name": "BA Finance Plus",
         "genreDisplayName": "理財",
+        "name": "BA Finance Plus",
         "isPreorder": false,
         "artistName": "Ernest Brock",
         "isIOSBinaryMacOSCompatible": true,
@@ -4439,6 +4592,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -4471,8 +4626,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4514,7 +4667,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 29,
+                "position": 30,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -4534,11 +4687,11 @@
             ],
             "ariaLabelForRatings": "4.6 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "记帳簿-快速記帳，合理消費",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "金 郭",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "金 郭",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4570,13 +4723,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-11-05",
                 "hasInAppPurchases": false,
                 "bundleId": "AXQ9BC56XA.com.goldendreams.account",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4592,6 +4745,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -4624,7 +4778,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "快記帳，簡生活，iCloud 雲端同步",
                 "hasSafariExtension": false,
@@ -4669,7 +4822,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 30,
+                "position": 31,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -4690,8 +4843,8 @@
             "ariaLabelForRatings": "4.7 粒星"
         },
         "watchBundleId": "com.jumpgapsoftware.currency.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "Currency+ (Currency Converter)",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "James Spencer",
@@ -4746,9 +4899,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -4801,7 +4955,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -4852,7 +5005,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 31,
+                "position": 32,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -4872,11 +5025,11 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Income OK - income & expenses",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mobion",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4908,8 +5061,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2015-02-04",
                 "hasInAppPurchases": false,
                 "bundleId": "biz.mobion.IncomeOK",
@@ -4930,6 +5083,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -4962,7 +5116,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5004,7 +5157,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 33,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -5024,8 +5177,8 @@
             ],
             "ariaLabelForRatings": "4.1 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "XpenseTracker",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Silverware Software, LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -5065,8 +5218,8 @@
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.silverware.xpensetracker",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5082,6 +5235,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -5114,8 +5269,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5157,7 +5310,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 33,
+                "position": 34,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -5178,11 +5331,11 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Easy Spending Budget",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Tekton Technologies (P) Ltd.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5214,13 +5367,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-07-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tektontek.finadv",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5236,8 +5389,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -5310,7 +5463,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 34,
+                "position": 35,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -5330,8 +5483,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "iGold",
         "genreDisplayName": "理財",
+        "name": "iGold",
         "isPreorder": false,
         "artistName": "Sollico Software",
         "isIOSBinaryMacOSCompatible": true,
@@ -5366,13 +5519,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sollico.iGold",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5385,9 +5538,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -5420,7 +5574,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5462,7 +5615,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 35,
+                "position": 36,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -5483,11 +5636,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Mina utgifter",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Block21 AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Block21 AB",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5519,13 +5672,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-03-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.block21.minautgifter",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5541,6 +5694,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -5573,7 +5727,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5617,7 +5770,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 36,
+                "position": 37,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -5638,8 +5791,8 @@
             "ariaLabelForRatings": "4.9 粒星"
         },
         "watchBundleId": "com.maxwell.moneymonitor.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "全能記帳王專業版",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "倩 赵",
         "isIOSBinaryMacOSCompatible": true,
@@ -5680,8 +5833,8 @@
                 "releaseDate": "2012-06-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.maxwell.moneymonitor",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5697,6 +5850,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -5729,11 +5884,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "個人家庭生意資金管理，預算和帳單提醒管家，富有生活始於記帳",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5743,7 +5895,8 @@
                     "textColor2": "f4b247",
                     "textColor3": "dbb458",
                     "textColor4": "d39d45"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -5783,7 +5936,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 37,
+                "position": 38,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -5807,8 +5960,8 @@
         "name": "Currenzy",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Raja V",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Raja V",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "9.0",
         "platformAttributes": {
@@ -5846,8 +5999,8 @@
                 "releaseDate": "2013-10-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.waplestuff.Stacks",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5863,6 +6016,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -5935,12 +6089,11 @@
                         "textColor4": "b3bcb2"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "hasSafariExtension": true,
                 "editorialNotes": {
                     "tagline": "在 Safari 內直接換算貨幣"
                 },
-                "hasSafariExtension": true,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -5972,7 +6125,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731381068326,
-                "MZ_INDEXER": 1739484593320
+                "MZ_INDEXER": 1739904646394
             }
         },
         "supportsArcade": false,
@@ -5991,7 +6144,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 38,
+                "position": 39,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -6011,11 +6164,11 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "CalcTape - 紙帶票據計算器",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "schoettler Software GmbH",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "schoettler Software GmbH",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6052,8 +6205,8 @@
                 "releaseDate": "2012-05-16",
                 "hasInAppPurchases": false,
                 "bundleId": "de.sfr.ipad.calctape",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6069,6 +6222,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -6101,7 +6255,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6144,7 +6297,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 39,
+                "position": 40,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -6168,8 +6321,8 @@
         "genreDisplayName": "理財",
         "name": "帳單管家專業版",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "倩 赵",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.0",
         "platformAttributes": {
@@ -6221,9 +6374,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -6256,7 +6410,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "快速簡潔好用的家庭帳單、花費、收入管理和提醒，及時掌控開支",
                 "hasSafariExtension": false,
@@ -6309,7 +6462,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 40,
+                "position": 41,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -6329,8 +6482,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Economy",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Cascade Software Corporation",
         "isIOSBinaryMacOSCompatible": true,
@@ -6387,6 +6540,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -6419,8 +6574,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6462,7 +6615,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 41,
+                "position": 42,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -6482,11 +6635,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "CashFlow",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Takuya Murakami",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6518,8 +6671,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "org.tmurakam.CashFlow",
@@ -6540,6 +6693,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -6572,8 +6727,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6615,7 +6768,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 42,
+                "position": 43,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -6635,8 +6788,8 @@
             ],
             "ariaLabelForRatings": "4.7 粒星"
         },
-        "name": "BA Finance Pro",
         "genreDisplayName": "理財",
+        "name": "BA Finance Pro",
         "isPreorder": false,
         "artistName": "Ernest Brock",
         "isIOSBinaryMacOSCompatible": true,
@@ -6671,8 +6824,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-07-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ErnestBrock.BAFinancePro",
@@ -6693,8 +6846,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -6768,7 +6921,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 43,
+                "position": 44,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -6788,8 +6941,8 @@
             ],
             "ariaLabelForRatings": "1.5 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "HP 12C Platinum Calculator",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "MORAVIA Consulting, spol. s r.o.",
         "isIOSBinaryMacOSCompatible": false,
@@ -6829,8 +6982,8 @@
                 "releaseDate": "2009-08-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hp.12cP",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6843,9 +6996,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -6878,8 +7033,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6902,7 +7055,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738955338229,
-                "MZ_INDEXER": 1739483541194
+                "MZ_INDEXER": 1739909686519
             }
         },
         "supportsArcade": false,
@@ -6924,7 +7077,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 44,
+                "position": 45,
                 "genreName": "理財",
                 "genre": 6015,
                 "chart": "top-paid",
@@ -6944,11 +7097,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Debt Free - Pay Off your Debt",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Mobile Innovations LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mobile Innovations LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6980,13 +7133,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-12-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobinnovations.DebtPayOff",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7001,6 +7154,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -7033,160 +7187,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "929822826",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "862771578",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731383952933,
-                "MZ_INDEXER": 1739835226103
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 45,
-                "genreName": "理財",
-                "genre": 6015,
-                "chart": "top-paid",
-                "genreShortName": "理財"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "wasReset": true,
-            "value": 5,
-            "ratingCount": 1,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                1
-            ],
-            "ariaLabelForRatings": "5.0 粒星"
-        },
-        "genreDisplayName": "理財",
-        "name": "US Debt Clock .org",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Chrono Numeric Labs LLC",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=38000&salableAdamId=929822826&pricingParameters=STDQ&pg=default&appExtVrsId=839633716",
-                        "type": "buy",
-                        "priceFormatted": "HK$ 38.00",
-                        "price": 38,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 18608128
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=929822826&pricingParameters=SWUPD&pg=default&appExtVrsId=839633716",
-                        "type": "update",
-                        "priceFormatted": "HK$ 0.00",
-                        "price": 0,
-                        "currencyCode": "HKD",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 18608128
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2014-10-22",
-                "hasInAppPurchases": false,
-                "bundleId": "com.chrononumericlabs.us-debt-clock-real-time",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/b4/e4/5c/b4e45c68-5156-2ff6-1934-24e8413c9d79/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "626467",
-                    "textColor1": "f0f6f3",
-                    "textColor2": "d7f4e0",
-                    "textColor3": "d4d9d7",
-                    "textColor4": "c0d7c7"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1168,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/95/7a/d3/957ad33b-ed27-6d93-8ebc-5a7faa577e1d/7c133563-3209-4594-8bf7-7f1abe8fc8a6.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1168,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/1c/7c/cd/1c7ccd7c-b0b2-8096-a810-c9924266e5ed/7f2eb988-cc14-46bc-a998-a9b115c8c9f9.png/{w}x{h}{c}.{f}",
-                        "bgColor": "585d62",
-                        "textColor1": "7ffb00",
-                        "textColor2": "7ffb00",
-                        "textColor3": "77db13",
-                        "textColor4": "77db13"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/24/12/e0/2412e0ba-40bd-d36a-1677-7bf2a423c3ad/ec01176a-bd34-41eb-8195-bad9d287f3b6.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7285,13 +7285,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.5",
                 "releaseDate": "2010-10-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.inadaydevelopment.cashcalculator",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7304,9 +7304,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -7339,7 +7340,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7405,8 +7405,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "賭神管家Pro",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Poker Chang Ltd",
@@ -7441,8 +7441,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-05-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iphonepokerincome.",
@@ -7462,6 +7462,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -7494,7 +7495,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "Poker Income Pro",
                 "hasSafariExtension": false,
@@ -7559,8 +7559,8 @@
             "ariaLabelForRatings": "4.8 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "11.2",
-        "name": "iSpreadsheet™",
         "genreDisplayName": "理財",
+        "name": "iSpreadsheet™",
         "isPreorder": false,
         "artistName": "Savy Soda Pty Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -7595,8 +7595,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-11-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.savysoda.iSpreadsheet2",
@@ -7617,8 +7617,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -7714,8 +7714,8 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "watchBundleId": "tw.idv.lusoft.MyAssetPlus.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "我的記帳本 - MyAsset理財版 V2",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Shaowen Lu",
         "isIOSBinaryMacOSCompatible": true,
@@ -7756,8 +7756,8 @@
                 "releaseDate": "2017-11-16",
                 "hasInAppPurchases": false,
                 "bundleId": "tw.idv.lusoft.MyAssetPlus",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7773,6 +7773,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -7805,11 +7807,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "複式簿記 輕鬆理財",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7819,7 +7818,8 @@
                     "textColor2": "160800",
                     "textColor3": "453933",
                     "textColor4": "453933"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -7881,8 +7881,8 @@
             "ariaLabelForRatings": "4.4 粒星"
         },
         "watchBundleId": "com.hcsystem.billtracker.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "DayCost Pro - Personal Finance",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "良峰 侯",
         "isIOSBinaryMacOSCompatible": true,
@@ -7923,8 +7923,8 @@
                 "releaseDate": "2015-02-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hcsystem.billtracker",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7937,9 +7937,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -7972,8 +7974,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Simple & Elegant",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -8049,8 +8049,8 @@
         "genreDisplayName": "理財",
         "name": "HP 12C Financial Calculator",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "MORAVIA Consulting, spol. s r.o.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8101,9 +8101,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -8136,7 +8137,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8199,8 +8199,8 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "繳款小秘書",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Webi & Neti Internet Services Inc.",
@@ -8235,8 +8235,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-03-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.webineti.iReminder",
@@ -8256,6 +8256,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -8288,7 +8289,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "專屬於您的記帳小幫手",
                 "hasSafariExtension": false,
@@ -8354,8 +8354,8 @@
         "name": "Share-a-bill",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Mileware",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mileware",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8392,8 +8392,8 @@
                 "releaseDate": "2008-10-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mileware.ExpenseSharer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8405,11 +8405,10 @@
                     "textColor4": "8ab0d8"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -8442,6 +8441,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8464,7 +8464,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731356513601,
-                "MZ_INDEXER": 1739549189866
+                "MZ_INDEXER": 1739928944915
             }
         },
         "supportsArcade": false,
@@ -8503,8 +8503,8 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Items & Storage & Inventory",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Pascal Meziat",
         "isIOSBinaryMacOSCompatible": true,
@@ -8561,6 +8561,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -8593,8 +8595,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8617,7 +8617,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731373828078,
-                "MZ_INDEXER": 1739551174505
+                "MZ_INDEXER": 1739929914773
             }
         },
         "supportsArcade": false,
@@ -8658,11 +8658,11 @@
             ],
             "ariaLabelForRatings": "2.5 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "StockSpy: Real-time Quotes",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "StockSpy Apps Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8694,13 +8694,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2008-12-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stockspy.StockSpy",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8716,6 +8716,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -8748,8 +8750,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "Stock Market Charts & News",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8812,11 +8812,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "快捷記帳本2Pro - 天天記帳秒速 & 預算理財幫手",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "永文 胡",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "永文 胡",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8853,8 +8853,8 @@
                 "releaseDate": "2014-03-03",
                 "hasInAppPurchases": false,
                 "bundleId": "eternal.ProDailyCost",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8870,6 +8870,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -8902,7 +8903,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "簡單實用的記帳本",
                 "hasSafariExtension": false,
@@ -8927,7 +8927,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731351128830,
-                "MZ_INDEXER": 1739830154008
+                "MZ_INDEXER": 1739923582508
             }
         },
         "supportsArcade": false,
@@ -8965,8 +8965,8 @@
             ],
             "ariaLabelForRatings": "1.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "強積金*好幫手",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "WisdomOne Limited",
         "isIOSBinaryMacOSCompatible": true,
@@ -9006,8 +9006,8 @@
                 "releaseDate": "2012-06-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wisdomone.mpfbuddy",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9015,9 +9015,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 opengles-2 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -9050,8 +9052,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9115,11 +9115,11 @@
             "ariaLabelForRatings": "4.2 粒星"
         },
         "watchBundleId": "com.links.fuelmonitor.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "油耗寶",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "LINKLINKS LTD",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "LINKLINKS LTD",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -9152,13 +9152,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-02-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.links.fuelmonitor",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9171,9 +9171,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -9206,7 +9207,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "汽車油耗/電車電耗計算、加油、保養、維修和其他費用管理助手",
                 "hasSafariExtension": false,
@@ -9334,9 +9334,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -9369,8 +9371,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9431,11 +9431,11 @@
             "ariaLabelForRatings": "4.6 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.1",
-        "genreDisplayName": "理財",
         "name": "Gem - Money tracker",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Oz Pinhas",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Oz Pinhas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9472,8 +9472,8 @@
                 "releaseDate": "2021-02-15",
                 "hasInAppPurchases": true,
                 "bundleId": "co.emerald.Emerald",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9489,6 +9489,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -9521,7 +9522,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9588,8 +9588,8 @@
         "name": "最佳預算專業版",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "倩 赵",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "倩 赵",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.0",
         "platformAttributes": {
@@ -9627,8 +9627,8 @@
                 "releaseDate": "2011-12-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.maxwell.bestbudget",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9641,11 +9641,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -9678,6 +9677,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "旅遊、購物、禮物等用錢消費規劃，家庭生活理財日常帳本",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -9751,8 +9751,8 @@
             "ariaLabelForRatings": "4.8 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "6.9",
-        "genreDisplayName": "理財",
         "name": "Stocks Live+ Best Stock Market",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Cinnamon Mobile LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -9792,8 +9792,8 @@
                 "releaseDate": "2011-11-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.cinnamonmobile.StocksLive",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9806,9 +9806,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -9841,8 +9843,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9904,8 +9904,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "name": "10BII Calc HD",
         "genreDisplayName": "理財",
+        "name": "10BII Calc HD",
         "isPreorder": false,
         "artistName": "Ernest Brock",
         "isIOSBinaryMacOSCompatible": true,
@@ -9940,13 +9940,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2010-09-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ErnestBrock.Calc10BIIHD",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9959,9 +9959,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -9994,7 +9995,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10060,8 +10060,8 @@
         "name": "EZ Financial Calculators Pro",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Bishinew Incorporated",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bishinew Incorporated",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10093,13 +10093,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-03-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.financial.calculator.pro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10116,7 +10116,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -10149,6 +10148,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10215,8 +10215,8 @@
         "genreDisplayName": "理財",
         "name": "Gold - Live Badge Price",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Red Hot Bits",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10248,8 +10248,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-05-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.redhotbits.goldprice",
@@ -10270,8 +10270,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -10364,11 +10364,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Gold Money Pro",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "cheolhyun wang",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "cheolhyun wang",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10405,8 +10405,8 @@
                 "releaseDate": "2009-09-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.arariyo.cashbookpro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10422,6 +10422,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -10454,7 +10455,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10552,13 +10552,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.5",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.5",
                 "releaseDate": "2015-01-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wingreen.stampDuty",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10574,6 +10574,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -10606,7 +10607,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10671,8 +10671,8 @@
             ],
             "ariaLabelForRatings": "4.3 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "万得基金PRO",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "Shanghai Wind Investment Management Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
@@ -10726,9 +10726,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -10761,8 +10763,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10824,11 +10824,11 @@
             ],
             "ariaLabelForRatings": "2.3 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Print Cheque",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Moon Technolabs Pvt Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Moon Technolabs Pvt Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10860,13 +10860,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-03-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.moontechnolabs.printcheque",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10881,6 +10881,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -10913,7 +10914,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10978,8 +10978,8 @@
         "genreDisplayName": "理財",
         "name": "Car Care fuel & service log",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "KB Productions",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11016,8 +11016,8 @@
                 "releaseDate": "2019-02-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.karlbecker.carcare",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11030,11 +11030,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -11067,6 +11066,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11130,8 +11130,8 @@
             "ariaLabelForRatings": "4.7 粒星"
         },
         "watchBundleId": "com.hcsystem.cratepro.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "cRate Pro - 貨幣匯率換算機",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "良峰 侯",
         "isIOSBinaryMacOSCompatible": true,
@@ -11172,8 +11172,8 @@
                 "releaseDate": "2015-06-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hcsystem.cratepro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11186,9 +11186,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -11221,8 +11223,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "超過 160 種貨幣、貴金屬",
                 "hasSafariExtension": false,
                 "circularArtwork": {
@@ -11296,8 +11296,8 @@
             ],
             "ariaLabelForRatings": "2.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "MoneyBook Pro",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "平 邱",
         "isIOSBinaryMacOSCompatible": true,
@@ -11337,8 +11337,8 @@
                 "releaseDate": "2011-04-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appcheer.spendingplus",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11351,9 +11351,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -11386,8 +11388,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "随时随地，快速记账",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11411,7 +11411,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738961059999,
-                "MZ_INDEXER": 1739550673436
+                "MZ_INDEXER": 1739918183126
             }
         },
         "supportsArcade": false,
@@ -11487,13 +11487,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-04-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.anishu.bizexpense",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11508,8 +11508,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -11639,13 +11639,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-03-01",
                 "hasInAppPurchases": false,
                 "bundleId": "hk.strelka.iosapp.optioncalc",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11755,8 +11755,8 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Vicinno金融計算器",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Vicinno Soft LLC",
@@ -11791,8 +11791,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vicinno.V12cFinCalc",
@@ -11812,6 +11812,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -11844,7 +11845,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "HP 12C模擬器",
                 "hasSafariExtension": false,
@@ -11907,8 +11907,8 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Loan Calculator Pro",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "SVT Software",
         "isIOSBinaryMacOSCompatible": false,
@@ -11948,8 +11948,8 @@
                 "releaseDate": "2009-02-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yourcompany.LoanCalcP",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11964,6 +11964,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -11996,8 +11998,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12020,7 +12020,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738963016041,
-                "MZ_INDEXER": 1739485573405
+                "MZ_INDEXER": 1739909924219
             }
         },
         "supportsArcade": false,
@@ -12096,13 +12096,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-10-11",
                 "hasInAppPurchases": false,
                 "bundleId": "EternalLabsiOS2019.SavingMoneyBox",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12118,6 +12118,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -12150,7 +12151,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "跟蹤儲蓄目標的存款與取款",
                 "hasSafariExtension": false,
@@ -12175,7 +12175,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738955074930,
-                "MZ_INDEXER": 1739542822032
+                "MZ_INDEXER": 1739930551832
             }
         },
         "supportsArcade": false,
@@ -12214,8 +12214,8 @@
             ],
             "ariaLabelForRatings": "4.2 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Accounts 2 Checkbook",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "SVT Software",
@@ -12250,8 +12250,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-01-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.SVTSoftware.Accounts2",
@@ -12272,6 +12272,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -12304,7 +12305,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12371,8 +12371,8 @@
         "genreDisplayName": "理財",
         "name": "pick strong stocks",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "建文 田",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12404,13 +12404,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2016-02-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.yuchenStudios.MobGhostStockLite",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12426,6 +12426,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -12458,8 +12460,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12556,13 +12556,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-11-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.qm4investing.fxmeter",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12578,8 +12578,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -12708,8 +12708,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-02-12",
                 "hasInAppPurchases": true,
                 "bundleId": "Eternal.MyWalletPro",
@@ -12730,8 +12730,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -12825,8 +12825,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "WorldStock",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "myINDEX",
@@ -12880,9 +12880,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -12915,7 +12916,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12977,8 +12977,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "KIS Futures",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "KIS Futures Inc",
         "isIOSBinaryMacOSCompatible": true,
@@ -13018,8 +13018,8 @@
                 "releaseDate": "2010-07-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kis.kisfutures",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13032,9 +13032,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -13067,7 +13068,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13129,11 +13129,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "My Budget Book",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Christian Drapatz",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13165,8 +13165,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-02-10",
                 "hasInAppPurchases": false,
                 "bundleId": "net.drapatz.MeinHaushaltsbuch",
@@ -13187,6 +13187,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -13219,8 +13221,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13282,8 +13282,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "金價即時通",
         "genreDisplayName": "理財",
+        "name": "金價即時通",
         "isPreorder": false,
         "artistName": "CHIA JEN CHENG",
         "isIOSBinaryMacOSCompatible": true,
@@ -13318,8 +13318,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2022-03-11",
                 "hasInAppPurchases": false,
                 "bundleId": "org.neocities.goldexpress",
@@ -13340,8 +13340,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -13436,11 +13436,11 @@
             ],
             "ariaLabelForRatings": "3.8 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Easy Expense Pro",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Siu Yuen Ho",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Siu Yuen Ho",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13477,8 +13477,8 @@
                 "releaseDate": "2015-01-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.peterhohsy.EasyExpensePro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13491,9 +13491,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -13526,7 +13527,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13589,11 +13589,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "预算 - 个人理财、家庭预算",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "RARUS-SOFT, OOO",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "RARUS-SOFT, OOO",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13630,8 +13630,8 @@
                 "releaseDate": "2013-09-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.e1c.PersonalFinance",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13644,8 +13644,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13743,8 +13743,8 @@
             "ariaLabelForRatings": "4.8 粒星"
         },
         "watchBundleId": "com.jumpgapsoftware.iDealCalc.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "Margin+ (Margin Calculator)",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "James Spencer",
@@ -13780,8 +13780,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-02-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jumpgapsoftware.iDealCalc",
@@ -13802,6 +13802,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -13834,7 +13835,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -13910,8 +13910,8 @@
         "genreDisplayName": "理財",
         "name": "DailyBill - 個人財務預算軟件",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "坚涛 陈",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13948,8 +13948,8 @@
                 "releaseDate": "2018-06-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.personal.jbill",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13962,11 +13962,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -13999,6 +13998,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Easy Budgeting & Money Saving",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14116,9 +14116,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -14151,8 +14153,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "產品庫存管理，採購與銷售訂單統計",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14214,11 +14214,11 @@
             ],
             "ariaLabelForRatings": "4.4 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Coins - Smart Budgeting",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "Yuzhou Zhu",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Yuzhou Zhu",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14250,13 +14250,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "14.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "14.0",
                 "releaseDate": "2012-11-02",
                 "hasInAppPurchases": true,
                 "bundleId": "zhuyuzhou",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14269,9 +14269,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -14304,7 +14305,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14328,7 +14328,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738954067298,
-                "MZ_INDEXER": 1739551919658
+                "MZ_INDEXER": 1739911045123
             }
         },
         "supportsArcade": false,
@@ -14367,11 +14367,11 @@
             ],
             "ariaLabelForRatings": "5.0 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "iAllowance (Chores Allowances)",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "James Spencer",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14403,13 +14403,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-12-17",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jumpgapsoftware.allowance",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14425,6 +14425,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -14457,8 +14459,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14519,8 +14519,8 @@
             ],
             "ariaLabelForRatings": "3.0 粒星"
         },
-        "name": "Active Money Pro",
         "genreDisplayName": "理財",
+        "name": "Active Money Pro",
         "isPreorder": false,
         "artistName": "East Light Software",
         "isIOSBinaryMacOSCompatible": false,
@@ -14577,6 +14577,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -14619,8 +14621,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14684,8 +14684,8 @@
         "genreDisplayName": "理財",
         "name": "彩色賬本 - 流水賬速記",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "益 余",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14717,13 +14717,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-08-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kat.project.colornote",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14739,6 +14739,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -14771,8 +14773,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "隨手記賬本(記帳本)",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14839,8 +14839,8 @@
             ],
             "ariaLabelForRatings": "4.5 粒星"
         },
-        "genreDisplayName": "理財",
         "name": "Car Manager for Cars & Bikes",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Pascal Meziat",
@@ -14875,8 +14875,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-10-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.kiwiobjects.MV01",
@@ -14897,6 +14897,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -14929,7 +14930,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14996,8 +14996,8 @@
         "name": "Membership widget Pro",
         "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "jaejin lee",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "jaejin lee",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -15030,13 +15030,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-02-26",
                 "hasInAppPurchases": true,
                 "bundleId": "com.leejaejin.memberShipWidgetPro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15053,7 +15053,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -15096,6 +15095,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Rewards Cards Wallet",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -15208,8 +15208,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-04-26",
                 "hasInAppPurchases": true,
                 "bundleId": "iOptionVol",
@@ -15240,8 +15240,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -15275,7 +15275,6 @@
                     }
                 },
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15285,7 +15284,8 @@
                     "textColor2": "160806",
                     "textColor3": "453634",
                     "textColor4": "453938"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -15348,8 +15348,8 @@
             "ariaLabelForRatings": "4.4 粒星"
         },
         "watchBundleId": "com.jrustonapps.mycurrencyconverterpro.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "My Currency Converter Pro",
+        "genreDisplayName": "理財",
         "isPreorder": false,
         "artistName": "JRustonApps B.V.",
         "isIOSBinaryMacOSCompatible": true,
@@ -15406,6 +15406,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -15438,9 +15439,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15450,7 +15449,8 @@
                     "textColor2": "161616",
                     "textColor3": "433b18",
                     "textColor4": "433b18"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -15471,7 +15471,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1731358535975,
-                "MZ_INDEXER": 1739484038169
+                "MZ_INDEXER": 1739907503696
             }
         },
         "supportsArcade": false,
@@ -15510,11 +15510,11 @@
             "ariaLabelForRatings": "3.0 粒星"
         },
         "watchBundleId": "com.mgarciate.ethgas.watchkitapp",
-        "genreDisplayName": "理財",
         "name": "ETHGas Alerts",
+        "genreDisplayName": "理財",
         "isPreorder": false,
-        "artistName": "LIONDYNAMICS",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "LIONDYNAMICS",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "8.0",
         "platformAttributes": {
@@ -15552,8 +15552,8 @@
                 "releaseDate": "2021-01-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mgarciate.ethgas",
-                "isStandaloneWithCompanionForWatchOS": true,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15566,9 +15566,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1168,
@@ -15601,9 +15602,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15613,8 +15614,7 @@
                     "textColor2": "2c2c2c",
                     "textColor3": "333333",
                     "textColor4": "565656"
-                },
-                "requiresGameController": false
+                }
             }
         }
     }

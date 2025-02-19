@@ -64,8 +64,8 @@
         "name": "凤凰新闻(专业版)-头条新闻阅读平台",
         "genreDisplayName": "新聞",
         "isPreorder": false,
-        "artistName": "Beijing TianyingJiuzhou Network Technology Co. Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Beijing TianyingJiuzhou Network Technology Co. Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -102,8 +102,8 @@
                 "releaseDate": "2016-10-08",
                 "hasInAppPurchases": true,
                 "bundleId": "ifengnewsprofessional",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -119,8 +119,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -153,6 +151,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "热点资讯实时报导",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -176,7 +176,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1733528804631,
-                "MZ_INDEXER": 1739551330853
+                "MZ_INDEXER": 1739928517831
             }
         },
         "supportsArcade": false,
@@ -318,8 +318,8 @@
                         "textColor4": "ba9e96"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialNotes": {
                     "tagline": "隨心訂閱新聞，閱覽更輕鬆"
                 },
@@ -476,8 +476,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -541,11 +541,11 @@
             "ariaLabelForRatings": "5.0 粒星"
         },
         "watchBundleId": "com.jamawkinaw.downcast.watchkitapp",
-        "name": "Downcast",
         "genreDisplayName": "新聞",
+        "name": "Downcast",
         "isPreorder": false,
-        "artistName": "Jamawkinaw Enterprises LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Jamawkinaw Enterprises LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.1",
         "platformAttributes": {
@@ -578,13 +578,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.5",
+                "requires32bit": false,
                 "releaseDate": "2010-10-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jamawkinaw.downcast",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -597,11 +597,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 wifi ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -634,7 +632,10 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -644,8 +645,7 @@
                     "textColor2": "f7e5e5",
                     "textColor3": "f0cbcb",
                     "textColor4": "ebb7b7"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -666,7 +666,7 @@
         "meta": {
             "contentVersion": {
                 "RTCI": 1738956128451,
-                "MZ_INDEXER": 1739487219391
+                "MZ_INDEXER": 1739923818801
             }
         },
         "supportsArcade": false,
@@ -713,11 +713,11 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "firstVersionSupportingInAppPurchaseApi": "46.0",
-        "name": "网易新闻（专业版）",
         "genreDisplayName": "新聞",
+        "name": "网易新闻（专业版）",
         "isPreorder": false,
-        "artistName": "NetEase Media Technology (Beijing) Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "NetEase Media Technology (Beijing) Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -749,13 +749,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-10-24",
                 "hasInAppPurchases": true,
                 "bundleId": "com.netease.newspro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -768,11 +768,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -805,6 +803,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "热点新闻资讯视频软件",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -876,11 +876,11 @@
             ],
             "ariaLabelForRatings": "4.0 粒星"
         },
-        "name": "ZAKER专业版",
         "genreDisplayName": "新聞",
+        "name": "ZAKER专业版",
         "isPreorder": false,
-        "artistName": "Guangzhou Jianhe Network Technology Co.,Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Guangzhou Jianhe Network Technology Co.,Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -912,13 +912,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-08-10",
                 "hasInAppPurchases": false,
                 "bundleId": "cn.zaker.iphonepro",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -931,11 +931,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -968,6 +966,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1029,11 +1029,11 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "name": "The Aviation Herald",
         "genreDisplayName": "新聞",
+        "name": "The Aviation Herald",
         "isPreorder": false,
-        "artistName": "The Aviation Herald",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "The Aviation Herald",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1065,13 +1065,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-08-02",
                 "hasInAppPurchases": false,
                 "bundleId": "the.aviationherald",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1084,11 +1084,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1121,6 +1119,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1184,8 +1184,8 @@
         "name": "南方+探索版-广东头条新闻资讯阅读平台",
         "genreDisplayName": "新聞",
         "isPreorder": false,
-        "artistName": "广东南方报业移动媒体有限公司",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "广东南方报业移动媒体有限公司",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1222,8 +1222,8 @@
                 "releaseDate": "2018-11-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nfmedia.nfplus.explore",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1239,8 +1239,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1273,6 +1271,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1336,11 +1336,11 @@
             "ariaLabelForRatings": "0 粒星"
         },
         "watchBundleId": "hk.techmax.MorningHongKong.watchkitapp",
-        "name": "香港新聞 RSS 自動閲讀器 - 香港早晨",
         "genreDisplayName": "新聞",
+        "name": "香港新聞 RSS 自動閲讀器 - 香港早晨",
         "isPreorder": false,
-        "artistName": "TechmaxApp",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "TechmaxApp",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -1373,13 +1373,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-02-14",
                 "hasInAppPurchases": false,
                 "bundleId": "hk.techmax.MorningHongKong",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1392,11 +1392,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -1429,8 +1427,11 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "為用戶朗讀新聞和各類資訊",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1440,8 +1441,7 @@
                     "textColor2": "fddabe",
                     "textColor3": "c9dfe5",
                     "textColor4": "ccc2b5"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1501,8 +1501,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "新聞",
         "name": "Earthquake 3D",
+        "genreDisplayName": "新聞",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Richard Wolton",
@@ -1537,8 +1537,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-07-15",
                 "hasInAppPurchases": false,
                 "bundleId": "net.wolton.earthquake3d",
@@ -1556,8 +1556,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-1 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1591,8 +1591,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1751,8 +1751,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1814,8 +1814,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "新聞",
         "name": "TextTV",
+        "genreDisplayName": "新聞",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Throw Lab",
@@ -1850,8 +1850,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-08-07",
                 "hasInAppPurchases": false,
                 "bundleId": "com.throwlab.TextTV",
@@ -1868,8 +1868,8 @@
                     "textColor4": "a9a9a9"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1903,8 +1903,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1974,8 +1974,8 @@
         "name": "GoodLinks",
         "genreDisplayName": "新聞",
         "isPreorder": false,
-        "artistName": "Ngoc Luu",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Ngoc Luu",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2011,8 +2011,8 @@
                 "releaseDate": "2020-06-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.ngocluu.goodlinks",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2028,8 +2028,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 990,
@@ -2062,6 +2060,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "subtitle": "儲存連結，稍後閱讀。",
                 "hasSafariExtension": true,
                 "requiresGameController": false
@@ -2128,8 +2128,8 @@
             ],
             "ariaLabelForRatings": "0 粒星"
         },
-        "genreDisplayName": "新聞",
         "name": "911 Dispatch",
+        "genreDisplayName": "新聞",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Christopher Coudriet",
@@ -2164,8 +2164,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
                 "releaseDate": "2013-02-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.coudriet.911dispatch",
@@ -2183,8 +2183,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2218,8 +2218,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

@@ -56,13 +56,13 @@
             ],
             "ariaLabelForRatings": "4.7 stars"
         },
-        "firstVersionSupportingInAppPurchaseApi": "5.28",
         "watchBundleId": "com.nibbleapps.FitMenCook.watchkitapp",
+        "firstVersionSupportingInAppPurchaseApi": "5.28",
         "name": "FitMenCook - Healthy Recipes",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Nibble Apps Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Nibble Apps Ltd",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "7.4",
         "platformAttributes": {
@@ -95,11 +95,12 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.3",
+                "requires32bit": false,
                 "releaseDate": "2015-05-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.nibbleapps.FitMenCook",
+                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -110,7 +111,6 @@
                     "textColor3": "42231e",
                     "textColor4": "42231e"
                 },
-                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
@@ -124,8 +124,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
@@ -212,12 +212,12 @@
                     }
                 },
                 "subtitle": "Struggle free and never boring",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Plan the healthiest meals",
                     "standard": "Working out regularly is great, but good health truly begins in the kitchen. This visually dazzling app offers dozens of meal ideas in clever categories like low-carb lunches and post-exercise snacks. Brilliant photos and simple instructions make these recipes easy to follow even for novice chefs, and the built-in shopping list groups items together by grocery-store aisle for shopping efficiency. Now all we need is an app that forces us to hit the gym.",
                     "short": "Healthy recipes for fitness fans."
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -289,11 +289,11 @@
             "ariaLabelForRatings": "4.5 stars"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.14",
-        "name": "Green Kitchen",
         "genreDisplayName": "Food & Drink",
+        "name": "Green Kitchen",
         "isPreorder": false,
-        "artistName": "Green Kitchen Stories",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Green Kitchen Stories",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -325,8 +325,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-10-13",
                 "hasInAppPurchases": true,
                 "bundleId": "se.amazing-apps.gks",
@@ -347,7 +347,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
@@ -421,12 +420,13 @@
                         "textColor4": "9b9e6c"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "Healthy vegetarian recipes",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Are you eating enough green vegetables?",
                     "tagline": "Easy vegetarian recipes"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -529,8 +529,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2017-11-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hindsightlabs.paprika.ios.v3",
@@ -551,6 +551,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -593,13 +595,12 @@
                         "textColor4": "cd4238"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Organize your recipes",
                 "editorialNotes": {
                     "tagline": "Recipes, meal plans and more"
                 },
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -609,8 +610,7 @@
                     "textColor2": "5a0000",
                     "textColor3": "722e08",
                     "textColor4": "7b2e08"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -630,7 +630,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549782735,
+                "MZ_INDEXER": 1739909244303,
                 "RTCI": 1737399140724
             }
         },
@@ -674,8 +674,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "iBartender Cocktail Recipes",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kevin Kozan",
@@ -710,13 +710,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-12",
                 "hasInAppPurchases": true,
                 "bundleId": "com.droidspot.ibartender",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -732,6 +732,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -764,8 +766,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -830,11 +830,11 @@
             ],
             "ariaLabelForRatings": "4.5 stars"
         },
-        "name": "The Recipe Box",
         "genreDisplayName": "Food & Drink",
+        "name": "The Recipe Box",
         "isPreorder": false,
-        "artistName": "Kathleen Tafel",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Kathleen Tafel",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -866,8 +866,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2011-02-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.corpuscollusion.therecipebox",
@@ -954,7 +954,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739547188490,
+                "MZ_INDEXER": 1739908832239,
                 "RTCI": 1731379796166
             }
         },
@@ -1031,13 +1031,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-04-11",
                 "hasInAppPurchases": true,
                 "bundleId": "com.globakeryco.ohsheglows",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1050,9 +1050,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -1115,8 +1117,6 @@
                         "textColor4": "675448"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Healthy Plant-Based Recipes",
                 "editorialNotes": {
                     "short": "Start eating a plant-based diet with these recipes.",
@@ -1143,7 +1143,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739482387470,
+                "MZ_INDEXER": 1739906439101,
                 "RTCI": 1738951269164
             }
         },
@@ -1188,8 +1188,8 @@
         "name": "Nutrients - Nutrition Facts",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Pomegranate Apps LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Pomegranate Apps LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -1222,8 +1222,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-10-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.PomegranateSoftware.MyFood",
@@ -1244,6 +1244,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -1277,7 +1278,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Recipe Manager & Food Journal",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -1386,13 +1386,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-02-26",
                 "hasInAppPurchases": false,
                 "bundleId": "se.amazing-apps.desserts",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1405,9 +1405,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1460,8 +1462,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "editorialNotes": {
                     "short": "Dessert can be healthy, too.",
                     "tagline": "Healthy dessert recipes"
@@ -1568,8 +1568,8 @@
                 "releaseDate": "2008-12-04",
                 "hasInAppPurchases": false,
                 "bundleId": "3EKA4Q3X7Q.Fromage",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1582,9 +1582,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1617,8 +1619,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "App Library of World Cheeses",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1681,8 +1681,8 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Green Smoothies by Young & Raw",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Nibble Apps Ltd",
@@ -1717,8 +1717,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-04-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fatburningman.smoothiechallenge",
@@ -1736,9 +1736,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1791,8 +1793,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Now with 120 smoothie recipes",
                 "editorialNotes": {
                     "short": "Take the 30 Day Challenge and boost your energy."
@@ -1897,8 +1897,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-01-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.filibaba.veggiemeals",
@@ -1919,6 +1919,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -1952,12 +1953,12 @@
                     }
                 },
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Simple Vegetarian Recipes",
                 "editorialNotes": {
                     "short": "Recipes for vegetarian meals that look and taste great."
                 },
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1967,8 +1968,7 @@
                     "textColor2": "413100",
                     "textColor3": "6d341d",
                     "textColor4": "66511d"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -1988,7 +1988,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739544015048,
+                "MZ_INDEXER": 1739925790595,
                 "RTCI": 1739105190934
             }
         },
@@ -2031,8 +2031,8 @@
             ],
             "ariaLabelForRatings": "1.0 stars"
         },
-        "name": "Jason Vale’s 7-Day Juice Diet",
         "genreDisplayName": "Food & Drink",
+        "name": "Jason Vale’s 7-Day Juice Diet",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -2067,13 +2067,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-01-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.juicemaster.7lbsIn7Days",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2089,6 +2089,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2121,8 +2123,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "The world’s most popular",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2185,8 +2185,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Instant Pot Recipes, offline",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "镇 王",
@@ -2221,8 +2221,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2024-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.roetteri.recipesi",
@@ -2240,9 +2240,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2275,8 +2277,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Also includes air fryer",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2342,8 +2342,8 @@
         "name": "KitchenPad® Timer",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Stehlik & Co Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Stehlik & Co Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2375,13 +2375,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-11-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.prativo.kpt",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2507,8 +2507,8 @@
             "ariaLabelForRatings": "5.0 stars"
         },
         "watchBundleId": "com.nibbleapps.Krautkopf.watchkitapp",
-        "name": "Krautkopf",
         "genreDisplayName": "Food & Drink",
+        "name": "Krautkopf",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Nibble Apps Ltd",
@@ -2544,13 +2544,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-08-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.nibbleapps.Krautkopf",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2566,6 +2566,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2618,13 +2620,12 @@
                         "textColor4": "c47c7e"
                     }
                 },
-                "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Healthy vegetarian soul food",
                 "editorialNotes": {
                     "tagline": "Great vegetarian recipes"
                 },
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2634,8 +2635,7 @@
                     "textColor2": "0d0d0d",
                     "textColor3": "3d3d3d",
                     "textColor4": "3d3d3d"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -2753,6 +2753,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -2785,8 +2787,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2856,8 +2856,8 @@
         "name": "Caveman Feast - Paleo Recipes",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Nibble Apps Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Nibble Apps Ltd",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "3.2",
         "platformAttributes": {
@@ -2890,13 +2890,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-07-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.fatburningman.cavemanfeast",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2909,9 +2909,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2965,7 +2966,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Easy, practical, delicious",
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -3044,11 +3044,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "name": "Jason Vale’s 5-Day Juice Diet",
         "genreDisplayName": "Food & Drink",
+        "name": "Jason Vale’s 5-Day Juice Diet",
         "isPreorder": false,
-        "artistName": "Juice Master",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Juice Master",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3080,8 +3080,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-03-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.fiveDayDetox",
@@ -3099,9 +3099,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3135,7 +3136,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Lose weight and feel great",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3158,7 +3158,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739483060431,
+                "MZ_INDEXER": 1739909005212,
                 "RTCI": 1739105190932
             }
         },
@@ -3201,11 +3201,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Jason Vale’s 3-Day Juice Diet",
         "genreDisplayName": "Food & Drink",
+        "name": "Jason Vale’s 3-Day Juice Diet",
         "isPreorder": false,
-        "artistName": "Juice Master",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Juice Master",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3237,8 +3237,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.three-day-detox",
@@ -3256,9 +3256,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3292,7 +3293,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Lose weight and feel great",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3315,7 +3315,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739482455418,
+                "MZ_INDEXER": 1739909022678,
                 "RTCI": 1731381547487
             }
         },
@@ -3358,11 +3358,11 @@
             ],
             "ariaLabelForRatings": "4.3 stars"
         },
-        "name": "The Great Coffee App",
         "genreDisplayName": "Food & Drink",
+        "name": "The Great Coffee App",
         "isPreorder": false,
-        "artistName": "Baglan Dosmagambetov",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Baglan Dosmagambetov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3394,8 +3394,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-09-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mobicreators.GreatCoffeeApp",
@@ -3416,7 +3416,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3460,10 +3459,11 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "hasSafariExtension": false,
+                "isXROSCompatible": true,
                 "editorialNotes": {
                     "short": "Every drink and brewing method, explained by an expert barista."
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -3560,13 +3560,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-04-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superJuiceMe",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3579,9 +3579,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3634,8 +3636,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "The ultimate juice diet",
                 "editorialNotes": {
                     "short": "Transform your health with Jason Vale's powerful 28-day detox."
@@ -3703,8 +3703,8 @@
             "ariaLabelForRatings": "0 stars"
         },
         "watchBundleId": "com.falldaysoftware.mealplan.watchkitapp",
-        "name": "MealPlan+",
         "genreDisplayName": "Food & Drink",
+        "name": "MealPlan+",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Fall Day Software Inc.",
@@ -3740,13 +3740,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-02-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.falldaysoftware.mealplan",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3762,6 +3762,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3804,10 +3806,9 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Meal and Grocery Planner",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3817,8 +3818,7 @@
                     "textColor2": "030d12",
                     "textColor3": "333d42",
                     "textColor4": "353d42"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -3880,8 +3880,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Recipe Manager - Serving Sizer",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Creative Algorithms",
@@ -3916,8 +3916,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.creativealgorithms.servingsizerproipad",
@@ -3935,9 +3935,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -3970,8 +3972,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "your recipes, organized",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4042,8 +4042,8 @@
         "name": "Vegourmet",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Filibaba AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Filibaba AB",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -4076,8 +4076,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-08-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.filibaba.vegourmet",
@@ -4098,6 +4098,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4151,12 +4152,11 @@
                         "textColor4": "37342d"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Delicious Vegan Recipes",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "Eco-conscious vegan recipes"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -4230,8 +4230,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Substitutions",
         "genreDisplayName": "Food & Drink",
+        "name": "Substitutions",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Gormaya",
@@ -4266,13 +4266,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-05-20",
                 "hasInAppPurchases": false,
                 "bundleId": "JWTDFGKG9X.com.gormaya.substitutions",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4288,6 +4288,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4340,8 +4342,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "For Health and Food Allergies",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4407,11 +4407,11 @@
             ],
             "ariaLabelForRatings": "4.0 stars"
         },
-        "name": "Get Juiced",
         "genreDisplayName": "Food & Drink",
+        "name": "Get Juiced",
         "isPreorder": false,
-        "artistName": "Burleigh Creative",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Burleigh Creative",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4443,8 +4443,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-10-16",
                 "hasInAppPurchases": false,
                 "bundleId": "burleigh-labs.Get-Juiced",
@@ -4521,7 +4521,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739546857223,
+                "MZ_INDEXER": 1739929627241,
                 "RTCI": 1738957413872
             }
         },
@@ -4561,11 +4561,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Cost A Cake Pro",
         "genreDisplayName": "Food & Drink",
+        "name": "Cost A Cake Pro",
         "isPreorder": false,
-        "artistName": "Flame Red Productions",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Flame Red Productions",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4597,8 +4597,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-03-19",
                 "hasInAppPurchases": false,
                 "bundleId": "uk.co.thecakemakery.costacakepro",
@@ -4616,9 +4616,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4652,7 +4653,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Cake Pricing you can trust",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4718,8 +4718,8 @@
         "name": "Rawtarian's Raw Recipes",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Brightflock",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Brightflock",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4751,13 +4751,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-11-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brightflock.rawrec",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4769,9 +4769,10 @@
                     "textColor4": "2a3543"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4805,7 +4806,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4903,8 +4903,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-10-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.wolframalpha.culinarymath",
@@ -4924,6 +4924,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -4956,8 +4958,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5022,8 +5022,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Food Additives 2",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "IGRASS PTY LTD",
@@ -5058,13 +5058,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.webartisan.FoodAdditives",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5080,6 +5080,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5112,8 +5114,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Check the safety of your food.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5176,11 +5176,11 @@
             ],
             "ariaLabelForRatings": "3.3 stars"
         },
-        "name": "Recipe Gallery",
         "genreDisplayName": "Food & Drink",
+        "name": "Recipe Gallery",
         "isPreorder": false,
-        "artistName": "Toycar Tools",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Toycar Tools",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5212,8 +5212,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-05-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.toycartools.recipegallery",
@@ -5231,9 +5231,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 still-camera ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5266,7 +5267,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Click. Tap. Organize. Cook.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5329,11 +5329,11 @@
             ],
             "ariaLabelForRatings": "2.0 stars"
         },
-        "name": "Love, Manuela",
         "genreDisplayName": "Food & Drink",
+        "name": "Love, Manuela",
         "isPreorder": false,
-        "artistName": "Passion For Baking AS",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Passion For Baking AS",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5365,8 +5365,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2020-04-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ios.LoveManuellas",
@@ -5523,8 +5523,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-05-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.beersmith.beersmith2",
@@ -5545,6 +5545,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -5577,8 +5579,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5644,11 +5644,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "name": "VinoCell - wine cellar manager",
         "genreDisplayName": "Food & Drink",
+        "name": "VinoCell - wine cellar manager",
         "isPreorder": false,
-        "artistName": "VinoDev",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "VinoDev",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5680,8 +5680,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-06-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.pixyapps.Vinicava",
@@ -5699,8 +5699,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
@@ -5798,11 +5798,11 @@
             ],
             "ariaLabelForRatings": "5.0 stars"
         },
-        "name": "The Tea App",
         "genreDisplayName": "Food & Drink",
+        "name": "The Tea App",
         "isPreorder": false,
-        "artistName": "Baglan Dosmagambetov",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Baglan Dosmagambetov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5834,8 +5834,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-10-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mobicreators.Tea",
@@ -5856,7 +5856,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -5890,11 +5889,12 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "hasSafariExtension": false,
+                "isXROSCompatible": true,
                 "editorialNotes": {
                     "short": "Step-by-step brewing videos and tips to make you a tea expert.",
                     "tagline": "Become a tea connoisseur"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -5955,11 +5955,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Jason Vale’s Super Fast Food",
         "genreDisplayName": "Food & Drink",
+        "name": "Jason Vale’s Super Fast Food",
         "isPreorder": false,
-        "artistName": "Juice Master",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Juice Master",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5991,8 +5991,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superFastFood",
@@ -6118,8 +6118,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Jason Vale’s 5:2 Juice Diet",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -6154,13 +6154,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-02-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.fiveTwoDiet",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6176,6 +6176,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6208,8 +6210,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6275,8 +6275,8 @@
         "name": "Hippie Lane",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Hippie Lane",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hippie Lane",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6308,8 +6308,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-01-18",
                 "hasInAppPurchases": true,
                 "bundleId": "au.com.hippielane.app.HippieLane",
@@ -6326,8 +6326,8 @@
                     "textColor4": "4d4d4d"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
@@ -6384,11 +6384,11 @@
                     }
                 },
                 "subtitle": "Award winning recipe app",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "short": "Delicious raw and baked recipes, suitable for new and experienced treat makers.",
                     "tagline": "Create healthy sweet treats"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -6452,8 +6452,8 @@
         "name": "Garden Plate Pro",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Burleigh Creative",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Burleigh Creative",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6485,8 +6485,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "burleigh-labs.Garden-Plate-Pro",
@@ -6507,6 +6507,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6540,7 +6541,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Veg & Gluten Free diet recipes",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6643,8 +6643,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2012-08-28",
                 "hasInAppPurchases": true,
                 "bundleId": "co.uk.thunderbluff.Wine-Maps",
@@ -6665,6 +6665,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -6697,8 +6699,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "A handy visual reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6767,8 +6767,8 @@
         "name": "Jason Vale’s Super Blend Me!",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Juice Master",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Juice Master",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6800,8 +6800,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2017-12-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.superblend",
@@ -6819,8 +6819,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
@@ -6918,11 +6918,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "GF Plate Pro",
         "genreDisplayName": "Food & Drink",
+        "name": "GF Plate Pro",
         "isPreorder": false,
-        "artistName": "Burleigh Creative",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Burleigh Creative",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6954,8 +6954,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "burleigh-labs.GF-Plate-Pro",
@@ -7070,11 +7070,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "The French Desserts of Nanou",
         "genreDisplayName": "Food & Drink",
+        "name": "The French Desserts of Nanou",
         "isPreorder": false,
-        "artistName": "La Jolie Vie, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "La Jolie Vie, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7106,8 +7106,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-04-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lajolievie.The-French-Desserts-of-Nanou",
@@ -7125,8 +7125,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
@@ -7226,8 +7226,8 @@
         "name": "365 food tips (Full)",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Alexey Batalov",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Alexey Batalov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7259,13 +7259,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-06-04",
                 "hasInAppPurchases": false,
                 "bundleId": "ru.decafe.the3653full",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7277,9 +7277,10 @@
                     "textColor4": "60503a"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7312,7 +7313,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7382,8 +7382,8 @@
         "name": "Bebidas & Drinks",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Martha Luz Rodriguez Leal",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Martha Luz Rodriguez Leal",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -7416,8 +7416,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-11-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.maddevsoftware.bebidasanddrinks",
@@ -7438,6 +7438,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7471,7 +7472,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -7579,8 +7579,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-06-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.rainfroginc.roastmaster",
@@ -7601,6 +7601,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7633,8 +7635,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Coffee roasting toolkit",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7697,11 +7697,11 @@
             ],
             "ariaLabelForRatings": "3.0 stars"
         },
-        "name": "Conversions - Bake & Cook",
         "genreDisplayName": "Food & Drink",
+        "name": "Conversions - Bake & Cook",
         "isPreorder": false,
-        "artistName": "Gormaya",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Gormaya",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7733,8 +7733,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-20",
                 "hasInAppPurchases": false,
                 "bundleId": "K6LTK8V6GC.com.gormaya.conversions",
@@ -7754,7 +7754,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7808,6 +7807,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Per Ingredient Cups to Grams",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7910,8 +7910,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2009-08-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.avinis.VinoAges",
@@ -7932,6 +7932,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -7964,8 +7966,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Find 6070 ratings, 140 regions",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8064,8 +8064,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-09-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.juiceblend",
@@ -8086,6 +8086,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8118,8 +8120,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "7-day health reset",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8216,8 +8216,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2017-01-18",
                 "hasInAppPurchases": false,
                 "bundleId": "nl.ksoft.jugandscaleipad",
@@ -8238,6 +8238,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8270,8 +8272,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "The #1 kitchen app",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8374,13 +8374,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cooperbold.cocktailparty",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8393,9 +8393,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8428,8 +8430,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Drink & Ingredient Library",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8528,8 +8528,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-09-14",
                 "hasInAppPurchases": false,
                 "bundleId": "de.tsigosys.rheumatism",
@@ -8550,6 +8550,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8582,8 +8584,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8605,7 +8605,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549415782,
+                "MZ_INDEXER": 1739925327047,
                 "RTCI": 1731352313968
             }
         },
@@ -8645,11 +8645,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Magnifying Glass Pro (Torch)",
         "genreDisplayName": "Food & Drink",
+        "name": "Magnifying Glass Pro (Torch)",
         "isPreorder": false,
-        "artistName": "RV AppStudios LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "RV AppStudios LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8681,8 +8681,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-07-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iTankster.MagnifyGlassPro",
@@ -8700,8 +8700,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
@@ -8838,13 +8838,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-07-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doudoroff.hairball",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8857,9 +8857,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -8892,8 +8894,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Vintage recipes, organized.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8960,8 +8960,8 @@
         "name": "Ultimate Cookies",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Trellisys.net",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Trellisys.net",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8993,13 +8993,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2013-11-07",
                 "hasInAppPurchases": false,
                 "bundleId": "net.trellisys.papertrell.book81001013039",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9071,7 +9071,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549700212,
+                "MZ_INDEXER": 1739911378234,
                 "RTCI": 1731370175517
             }
         },
@@ -9114,8 +9114,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "5:2 Fast Diet Calculator, Tracker & Planner",
         "genreDisplayName": "Food & Drink",
+        "name": "5:2 Fast Diet Calculator, Tracker & Planner",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "App Ktchn Ltd",
@@ -9150,13 +9150,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-09-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.janakshah.52fastdiet",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9172,6 +9172,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9205,7 +9206,6 @@
                     }
                 },
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9265,8 +9265,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Pâtisserie !",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Editions de La Martiniere",
@@ -9301,8 +9301,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-03-06",
                 "hasInAppPurchases": false,
                 "bundleId": "fr.lamartiniere.patisserie",
@@ -9319,9 +9319,11 @@
                     "textColor4": "cf2980"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9364,8 +9366,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9427,8 +9427,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Catador Cupping",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Softlogic, S.A.",
@@ -9463,13 +9463,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-05-22",
                 "hasInAppPurchases": true,
                 "bundleId": "cs.com.gt.catador",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9485,6 +9485,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9517,8 +9519,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "SCAA cupping scoresheet",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9583,11 +9583,11 @@
             "ariaLabelForRatings": "0 stars"
         },
         "watchBundleId": "com.hacknicity.EasyCookingTimer.watchkitapp",
-        "name": "Easy Cooking Timer",
         "genreDisplayName": "Food & Drink",
+        "name": "Easy Cooking Timer",
         "isPreorder": false,
-        "artistName": "Geoff Hackworth",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Geoff Hackworth",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -9620,8 +9620,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-04-21",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hacknicity.EasyCookingTimer",
@@ -9642,7 +9642,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9676,6 +9675,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "Kitchen meal planner",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -9751,8 +9751,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "eCocktails",
         "genreDisplayName": "Food & Drink",
+        "name": "eCocktails",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "NMS Narcisse Mavoha Solutions Sarl",
@@ -9787,13 +9787,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-11-23",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hadessolutions.eCocktails",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9809,6 +9809,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -9842,7 +9843,6 @@
                     }
                 },
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9908,8 +9908,8 @@
         "name": "iMenu",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "杭州引力网络技术有限公司",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "杭州引力网络技术有限公司",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9941,13 +9941,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-10-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.hotel3g.imenu",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10018,7 +10018,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739829288899,
+                "MZ_INDEXER": 1739907048724,
                 "RTCI": 1739355064395
             }
         },
@@ -10094,8 +10094,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-03-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gigabytesol.talkingBreakfast",
@@ -10115,6 +10115,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10148,7 +10149,6 @@
                     }
                 },
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10214,8 +10214,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Find Craft Beer",
         "genreDisplayName": "Food & Drink",
+        "name": "Find Craft Beer",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Micro Integration Services, Inc.",
@@ -10250,13 +10250,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.5",
+                "requires32bit": false,
                 "releaseDate": "2010-01-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.misdb.FindCraftBeer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10272,6 +10272,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10305,7 +10306,6 @@
                     }
                 },
                 "isXROSCompatible": false,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10327,7 +10327,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550078954,
+                "MZ_INDEXER": 1739911992130,
                 "RTCI": 1738962785855
             }
         },
@@ -10370,8 +10370,8 @@
         "name": "实用家常菜谱大全",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Xiaofei Tang",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Xiaofei Tang",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10403,8 +10403,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-05-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.learnw.crecipes",
@@ -10421,8 +10421,8 @@
                     "textColor4": "3e2502"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
@@ -10519,8 +10519,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Rice Recipes [Pro]",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Muhammad Umair",
@@ -10555,13 +10555,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2023-08-03",
                 "hasInAppPurchases": false,
                 "bundleId": "com.alphazstudio.ricepro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10577,6 +10577,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10609,8 +10611,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Install Rice Recipes Now",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10709,8 +10709,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2022-06-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tanerperman.vegetablerecipesplus",
@@ -10730,6 +10730,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -10762,8 +10764,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10785,7 +10785,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549184609,
+                "MZ_INDEXER": 1739926909286,
                 "RTCI": 1738954909975
             }
         },
@@ -10828,11 +10828,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Baby Solids Food Tracker PRO",
         "genreDisplayName": "Food & Drink",
+        "name": "Baby Solids Food Tracker PRO",
         "isPreorder": false,
-        "artistName": "Four Angles Software Team SRL",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Four Angles Software Team SRL",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10864,8 +10864,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2021-06-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.fast.ios.diversificare.pro",
@@ -10883,9 +10883,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10919,7 +10920,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Your guide for starting solids",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10982,11 +10982,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Chomp Treats",
         "genreDisplayName": "Food & Drink",
+        "name": "Chomp Treats",
         "isPreorder": false,
-        "artistName": "Luis Castro Moreno",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Luis Castro Moreno",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11018,8 +11018,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2020-05-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.luiscastro.chomptreats",
@@ -11037,8 +11037,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
@@ -11139,8 +11139,8 @@
         "name": "App for Panera Bread",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "GUNDA GAYATRI",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "GUNDA GAYATRI",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11172,8 +11172,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2020-01-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appsfactoryid.PaneraBread",
@@ -11191,8 +11191,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
@@ -11249,7 +11249,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739547662701,
+                "MZ_INDEXER": 1739910331178,
                 "RTCI": 1739100279875
             }
         },
@@ -11291,11 +11291,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Cocktail Manual: Drink Recipes",
         "genreDisplayName": "Food & Drink",
+        "name": "Cocktail Manual: Drink Recipes",
         "isPreorder": false,
-        "artistName": "Nicolae Gherasim",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nicolae Gherasim",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11327,8 +11327,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "14.0",
+                "requires32bit": false,
                 "releaseDate": "2019-03-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.devX.Cocktail-Manual",
@@ -11346,9 +11346,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11382,7 +11383,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "Craft Perfect Cocktail Anytime",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11445,11 +11445,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Your Personal Smoothie Chef",
         "genreDisplayName": "Food & Drink",
+        "name": "Your Personal Smoothie Chef",
         "isPreorder": false,
-        "artistName": "Klaas Kremer",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Klaas Kremer",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11481,8 +11481,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-08-03",
                 "hasInAppPurchases": false,
                 "bundleId": "nl.ksoft.NoShoppingSmoothie",
@@ -11500,8 +11500,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
@@ -11559,7 +11559,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739550627795,
+                "MZ_INDEXER": 1739918783737,
                 "RTCI": 1731362271495
             }
         },
@@ -11598,8 +11598,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Bread Boss",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Karen Benhar",
@@ -11634,8 +11634,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2017-12-22",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.sourdoughbreadrecipe.SourdoughAppiOS",
@@ -11653,9 +11653,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11688,7 +11689,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Sourdough bread recipe boss!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11751,8 +11751,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Air Fryer Recipes",
         "genreDisplayName": "Food & Drink",
+        "name": "Air Fryer Recipes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Aaron Chan",
@@ -11787,13 +11787,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2017-09-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.abecook.q56-airfryer",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11808,6 +11808,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -11841,7 +11842,6 @@
                     }
                 },
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11902,11 +11902,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Grill-It-Right",
         "genreDisplayName": "Food & Drink",
+        "name": "Grill-It-Right",
         "isPreorder": false,
-        "artistName": "Sommer Service AG",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Sommer Service AG",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11938,8 +11938,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2017-08-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.soseag.grillitright",
@@ -11960,7 +11960,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11994,6 +11993,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12095,8 +12095,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-02-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doudoroff.modern",
@@ -12117,6 +12117,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12149,8 +12151,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "of the Cocktail Renaissance",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12249,13 +12249,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-02-03",
                 "hasInAppPurchases": false,
                 "bundleId": "de.portableinnovations.recipes",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12268,9 +12268,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 still-camera ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12303,7 +12304,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "Your recipes in your pocket",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12366,8 +12366,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Cake Tin Calculator: Convert recipes for different tin sizes",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Bruce Greig",
@@ -12402,13 +12402,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-03-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brucegreig.caketincalc2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12424,6 +12424,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12456,8 +12458,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12519,8 +12519,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Jason Vale’s Soup & Juice Diet",
         "genreDisplayName": "Food & Drink",
+        "name": "Jason Vale’s Soup & Juice Diet",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Juice Master",
@@ -12555,13 +12555,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-12-13",
                 "hasInAppPurchases": false,
                 "bundleId": "com.juicemaster.soupJuiceMe",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12577,6 +12577,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -12610,7 +12611,6 @@
                     }
                 },
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Lose weight and feel great!",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12679,8 +12679,8 @@
         "name": "SavouryPot - Recipe Manager & Personal Cookbook",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Anton Zherdev",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Anton Zherdev",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12712,13 +12712,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-11-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.antonzherdev.Recipe",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12829,11 +12829,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Purine",
         "genreDisplayName": "Food & Drink",
+        "name": "Purine",
         "isPreorder": false,
-        "artistName": "Tsigosys",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Tsigosys",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12865,8 +12865,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-04-14",
                 "hasInAppPurchases": false,
                 "bundleId": "de.tsigosys.purine",
@@ -12884,8 +12884,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -12990,8 +12990,8 @@
         "name": "Beachbum Berry’s Total Tiki",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Doudoroff LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Doudoroff LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13023,13 +13023,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-04-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doudoroff.tiki3",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13042,9 +13042,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13078,7 +13079,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
                 "subtitle": "The Exotic Drink Reference",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13177,8 +13177,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-01-22",
                 "hasInAppPurchases": false,
                 "bundleId": "burleigh-labs.Paleo-Plate-Pro",
@@ -13199,6 +13199,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13231,8 +13233,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Caveman diet recipes",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13255,7 +13255,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739544262077,
+                "MZ_INDEXER": 1739933442376,
                 "RTCI": 1738722070391
             }
         },
@@ -13295,8 +13295,8 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "genreDisplayName": "Food & Drink",
         "name": "Complete Cook's Companion App",
+        "genreDisplayName": "Food & Drink",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Plumdale Pty/Ltd",
@@ -13331,13 +13331,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-11-28",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.stephaniealexander.cooks.giftable",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13353,6 +13353,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -13385,8 +13387,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Stephanie Alexander Recipes",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13452,8 +13452,8 @@
         "name": "Cooking Converter - Weights, Volumes, Temperatures",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Chewy Applications",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Chewy Applications",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13485,13 +13485,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-08-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.chewyapplications.Cook-Convert",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13605,8 +13605,8 @@
         "name": "Rawtarian's Raw Meal Plans",
         "genreDisplayName": "Food & Drink",
         "isPreorder": false,
-        "artistName": "Brightflock",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Brightflock",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13638,8 +13638,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-05-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brightflock.rawmeal",
@@ -13659,6 +13659,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13692,7 +13693,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13759,11 +13759,11 @@
             "ariaLabelForRatings": "4.5 stars"
         },
         "watchBundleId": "com.filibaba.weekend.watchkitapp",
-        "name": "Veggie Weekend",
         "genreDisplayName": "Food & Drink",
+        "name": "Veggie Weekend",
         "isPreorder": false,
-        "artistName": "Filibaba AB",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Filibaba AB",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -13796,8 +13796,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-07-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.filibaba.weekend",
@@ -13815,8 +13815,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
@@ -13986,8 +13986,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-03-06",
                 "hasInAppPurchases": false,
                 "bundleId": "Marco-Tini.Cocktail",
@@ -14008,6 +14008,7 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14041,8 +14042,8 @@
                     }
                 },
                 "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14052,8 +14053,7 @@
                     "textColor2": "161616",
                     "textColor3": "1a3c2a",
                     "textColor4": "1a3c2a"
-                },
-                "requiresGameController": false
+                }
             }
         }
     },
@@ -14149,8 +14149,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-01-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.chu.souschefpaid",
@@ -14171,6 +14171,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1256,
@@ -14203,8 +14205,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": true,
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Your Personal Kitchen Helper",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14267,11 +14267,11 @@
             ],
             "ariaLabelForRatings": "0 stars"
         },
-        "name": "Bakeshop",
         "genreDisplayName": "Food & Drink",
+        "name": "Bakeshop",
         "isPreorder": false,
-        "artistName": "Richard D. Piazza",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Richard D. Piazza",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14303,8 +14303,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2010-09-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.richardpiazza.bakeshop",
@@ -14325,7 +14325,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14359,6 +14358,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }

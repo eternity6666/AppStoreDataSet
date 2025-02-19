@@ -1,160 +1,6 @@
 [
     {
         "kind": "app",
-        "id": "1668516167",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1668516169",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1739891385683,
-                "MZ_INDEXER": 1739890871057
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "mac",
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 1,
-                "genreName": "ソーシャルネットワーキング",
-                "genre": 6005,
-                "chart": "top-paid",
-                "genreShortName": "ソーシャル"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.3,
-            "ratingCount": 128,
-            "ratingCountList": [
-                15,
-                4,
-                5,
-                10,
-                94
-            ],
-            "ariaLabelForRatings": "星 4.3 個"
-        },
-        "name": "Control Panel for Twitter",
-        "genreDisplayName": "ソーシャルネットワーキング",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "Jonathan Buchanan",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=800000&salableAdamId=1668516167&pricingParameters=STDQ&pg=default&appExtVrsId=872586264",
-                        "type": "buy",
-                        "priceFormatted": "¥800",
-                        "price": 800,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1069056
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1668516167&pricingParameters=SWUPD&pg=default&appExtVrsId=872586264",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1069056
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "releaseDate": "2023-02-03",
-                "hasInAppPurchases": false,
-                "bundleId": "dev.jbscript.Tweak-New-Twitter",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/c2/f1/a2c2f1d6-dca9-6644-081e-84c3f5ce0ce7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "1da1f2",
-                    "textColor1": "01070b",
-                    "textColor2": "03141e",
-                    "textColor3": "062639",
-                    "textColor4": "083048"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1298,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/e5/77/19/e57719b9-42de-af25-7ccd-9be8a082ddcf/7b2c7800-354d-45f4-8f9f-150e0d690ae2.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1298,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ef/97/5a/ef975a6f-497b-9f7c-cca4-da1de9441ba1/cd485bad-e531-48c0-a1b0-4fe2dc7c9d35.png/{w}x{h}{c}.{f}",
-                        "bgColor": "ef184d",
-                        "textColor1": "041116",
-                        "textColor2": "041116",
-                        "textColor3": "331321",
-                        "textColor4": "331321"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/38/29/cf/3829cf79-cba5-0276-2ad0-d9b4234e4fc8/f7e65979-f5dd-4185-bc3c-ebeeec613fc5.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "タイムラインを制御せよ",
-                "hasSafariExtension": true,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "382011064",
         "type": "apps",
         "relationships": {
@@ -169,8 +15,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731356912434,
-                "MZ_INDEXER": 1739482178170
+                "MZ_INDEXER": 1739907345101,
+                "RTCI": 1731356912434
             }
         },
         "supportsArcade": false,
@@ -192,7 +38,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 2,
+                "position": 1,
                 "genreName": "ソーシャルネットワーキング",
                 "genre": 6005,
                 "chart": "top-paid",
@@ -212,11 +58,11 @@
             ],
             "ariaLabelForRatings": "星 4.3 個"
         },
-        "name": "Friendly Plus Social Browser",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Friendly Plus Social Browser",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Friendly, Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -267,10 +113,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -303,7 +150,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -325,8 +171,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731363837193,
-                "MZ_INDEXER": 1739829487024
+                "MZ_INDEXER": 1739829487024,
+                "RTCI": 1731363837193
             }
         },
         "supportsArcade": false,
@@ -348,7 +194,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 2,
                 "genreName": "ソーシャルネットワーキング",
                 "genre": 6005,
                 "chart": "top-paid",
@@ -368,8 +214,8 @@
             ],
             "ariaLabelForRatings": "星 2.3 個"
         },
-        "name": "G-Whizz! Plus for Google Apps - の#1 Google アプリブラウザ",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "G-Whizz! Plus for Google Apps - の#1 Google アプリブラウザ",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Richard A Bloomfield Jr.",
@@ -422,10 +268,11 @@
                     "textColor4": "333112"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -458,7 +305,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -480,8 +326,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955152400,
-                "MZ_INDEXER": 1739549200978
+                "MZ_INDEXER": 1739926009855,
+                "RTCI": 1738955152400
             }
         },
         "supportsArcade": false,
@@ -509,7 +355,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 4,
+                "position": 3,
                 "genreName": "ソーシャルネットワーキング",
                 "genre": 6005,
                 "chart": "top-paid",
@@ -529,8 +375,8 @@
             ],
             "ariaLabelForRatings": "星 4.7 個"
         },
-        "name": "Tumbletail",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Tumbletail",
         "isPreorder": false,
         "artistName": "Naomoto Niwayama",
         "isIOSBinaryMacOSCompatible": true,
@@ -584,10 +430,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -620,7 +467,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Tumblrクライアント",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -643,8 +489,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959478729,
-                "MZ_INDEXER": 1739537096630
+                "MZ_INDEXER": 1739537096630,
+                "RTCI": 1738959478729
             }
         },
         "supportsArcade": false,
@@ -672,7 +518,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 5,
+                "position": 4,
                 "genreName": "ソーシャルネットワーキング",
                 "genre": 6005,
                 "chart": "top-paid",
@@ -692,11 +538,11 @@
             ],
             "ariaLabelForRatings": "星 3.2 個"
         },
-        "name": "FutaView Hercule",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "FutaView Hercule",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "flexfrank.net",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -747,10 +593,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -783,7 +630,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -805,8 +651,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738966759052,
-                "MZ_INDEXER": 1739497781908
+                "MZ_INDEXER": 1739497781908,
+                "RTCI": 1738966759052
             }
         },
         "supportsArcade": false,
@@ -825,7 +671,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 6,
+                "position": 5,
                 "genreName": "ソーシャルネットワーキング",
                 "genre": 6005,
                 "chart": "top-paid",
@@ -900,10 +746,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -936,7 +783,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -958,8 +804,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739392493979,
-                "MZ_INDEXER": 1739510833633
+                "MZ_INDEXER": 1739510833633,
+                "RTCI": 1739392493979
             }
         },
         "supportsArcade": false,
@@ -981,7 +827,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 7,
+                "position": 6,
                 "genreName": "ソーシャルネットワーキング",
                 "genre": 6005,
                 "chart": "top-paid",
@@ -1001,8 +847,8 @@
             ],
             "ariaLabelForRatings": "星 2.0 個"
         },
-        "name": "TeamSpeak 3",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "TeamSpeak 3",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "TeamSpeak Systems Inc",
@@ -1056,10 +902,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -1092,7 +939,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1114,8 +960,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955152201,
-                "MZ_INDEXER": 1739484644367
+                "MZ_INDEXER": 1739908120444,
+                "RTCI": 1738955152201
             }
         },
         "supportsArcade": false,
@@ -1143,7 +989,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 8,
+                "position": 7,
                 "genreName": "ソーシャルネットワーキング",
                 "genre": 6005,
                 "chart": "top-paid",
@@ -1163,11 +1009,11 @@
             ],
             "ariaLabelForRatings": "星 4.4 個"
         },
-        "name": "tview for Tumblr",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "tview for Tumblr",
         "isPreorder": false,
-        "artistName": "Naomoto Niwayama",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Naomoto Niwayama",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1217,10 +1063,11 @@
                     "textColor4": "b4bfcb"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -1253,9 +1100,162 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Tumblrフォトビューア",
                 "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1668516167",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1668516169",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739928148282,
+                "RTCI": 1739932744864
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "mac",
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 8,
+                "genreName": "ソーシャルネットワーキング",
+                "genre": 6005,
+                "chart": "top-paid",
+                "genreShortName": "ソーシャル"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.3,
+            "ratingCount": 127,
+            "ratingCountList": [
+                15,
+                4,
+                5,
+                10,
+                93
+            ],
+            "ariaLabelForRatings": "星 4.3 個"
+        },
+        "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Control Panel for Twitter",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Jonathan Buchanan",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=800000&salableAdamId=1668516167&pricingParameters=STDQ&pg=default&appExtVrsId=872586264",
+                        "type": "buy",
+                        "priceFormatted": "¥800",
+                        "price": 800,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1069056
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1668516167&pricingParameters=SWUPD&pg=default&appExtVrsId=872586264",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1069056
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "releaseDate": "2023-02-03",
+                "hasInAppPurchases": false,
+                "bundleId": "dev.jbscript.Tweak-New-Twitter",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/c2/f1/a2c2f1d6-dca9-6644-081e-84c3f5ce0ce7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "1da1f2",
+                    "textColor1": "01070b",
+                    "textColor2": "03141e",
+                    "textColor3": "062639",
+                    "textColor4": "083048"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1298,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/e5/77/19/e57719b9-42de-af25-7ccd-9be8a082ddcf/7b2c7800-354d-45f4-8f9f-150e0d690ae2.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1298,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ef/97/5a/ef975a6f-497b-9f7c-cca4-da1de9441ba1/cd485bad-e531-48c0-a1b0-4fe2dc7c9d35.png/{w}x{h}{c}.{f}",
+                        "bgColor": "ef184d",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "331321",
+                        "textColor4": "331321"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/38/29/cf/3829cf79-cba5-0276-2ad0-d9b4234e4fc8/f7e65979-f5dd-4185-bc3c-ebeeec613fc5.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "タイムラインを制御せよ",
+                "hasSafariExtension": true,
                 "requiresGameController": false
             }
         }
@@ -1276,8 +1276,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959571355,
-                "MZ_INDEXER": 1739791089372
+                "MZ_INDEXER": 1739791089372,
+                "RTCI": 1738959571355
             }
         },
         "supportsArcade": false,
@@ -1373,10 +1373,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -1409,7 +1410,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "連絡先",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1432,8 +1432,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739192457436,
-                "MZ_INDEXER": 1739518054979
+                "MZ_INDEXER": 1739518054979,
+                "RTCI": 1739192457436
             }
         },
         "supportsArcade": false,
@@ -1531,10 +1531,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -1577,7 +1578,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "出会い、チャット、デート",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1600,8 +1600,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959571530,
-                "MZ_INDEXER": 1739791343973
+                "MZ_INDEXER": 1739791343973,
+                "RTCI": 1738959571530
             }
         },
         "supportsArcade": false,
@@ -1640,11 +1640,11 @@
             ],
             "ariaLabelForRatings": "星 4.0 個"
         },
-        "name": "BirthdaysPro HD",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "BirthdaysPro HD",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Demodit GmbH",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1695,10 +1695,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -1731,7 +1732,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "誕生日リストとリマインダ",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -1754,8 +1754,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354967072,
-                "MZ_INDEXER": 1739829899902
+                "MZ_INDEXER": 1739829899902,
+                "RTCI": 1731354967072
             }
         },
         "supportsArcade": false,
@@ -1794,8 +1794,8 @@
             ],
             "ariaLabelForRatings": "星 4.0 個"
         },
-        "name": "Colloquy - IRC Client",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Colloquy - IRC Client",
         "isPreorder": false,
         "artistName": "Colloquy Project",
         "isIOSBinaryMacOSCompatible": true,
@@ -1848,10 +1848,11 @@
                     "textColor4": "372845"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -1884,7 +1885,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1906,8 +1906,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739785100168,
-                "MZ_INDEXER": 1739785199536
+                "MZ_INDEXER": 1739785199536,
+                "RTCI": 1739785100168
             }
         },
         "supportsArcade": false,
@@ -1936,21 +1936,21 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 3.7,
-            "ratingCount": 41,
+            "ratingCount": 40,
             "ratingCountList": [
                 6,
                 0,
                 9,
-                10,
+                9,
                 16
             ],
             "ariaLabelForRatings": "星 3.7 個"
         },
-        "name": "Threema。安全なメッセンジャー",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Threema。安全なメッセンジャー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Threema GmbH",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2001,10 +2001,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -2047,7 +2048,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "安全。匿名。プライベート。",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2070,8 +2070,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731360423845,
-                "MZ_INDEXER": 1739509885931
+                "MZ_INDEXER": 1739509885931,
+                "RTCI": 1731360423845
             }
         },
         "supportsArcade": false,
@@ -2116,8 +2116,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "3D Animations + Emoji Icons",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dating DNA, Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2167,10 +2167,11 @@
                     "textColor4": "d1b13c"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -2203,7 +2204,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2225,8 +2225,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738954572004,
-                "MZ_INDEXER": 1739506558168
+                "MZ_INDEXER": 1739506558168,
+                "RTCI": 1738954572004
             }
         },
         "supportsArcade": false,
@@ -2274,8 +2274,8 @@
             "ariaLabelForRatings": "星 5.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.50",
-        "name": "エモティコン WeChat",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "エモティコン WeChat",
         "isPreorder": false,
         "artistName": "KISSAPP, S.L.",
         "isIOSBinaryMacOSCompatible": true,
@@ -2339,10 +2339,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -2375,7 +2376,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Send a Sticker to Wechat",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2398,8 +2398,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951333321,
-                "MZ_INDEXER": 1739538018684
+                "MZ_INDEXER": 1739538018684,
+                "RTCI": 1738951333321
             }
         },
         "supportsArcade": false,
@@ -2440,8 +2440,8 @@
             "ariaLabelForRatings": "星 2.0 個"
         },
         "watchBundleId": "com.littlesamsoft.IM-Map-Navigator.watchapp",
-        "name": "モバイル電話トラッカー : IM Map Navigator",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "モバイル電話トラッカー : IM Map Navigator",
         "isPreorder": false,
         "artistName": "Little Sam Software",
         "isIOSBinaryMacOSCompatible": true,
@@ -2506,10 +2506,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -2542,7 +2543,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "電話追跡とチャット",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -2575,8 +2575,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951333322,
-                "MZ_INDEXER": 1739534318248
+                "MZ_INDEXER": 1739534318248,
+                "RTCI": 1738951333322
             }
         },
         "supportsArcade": false,
@@ -2617,8 +2617,8 @@
             "ariaLabelForRatings": "星 3.8 個"
         },
         "watchBundleId": "com.littlesamsoft.Place-.watchkitapp",
-        "name": "訪れた場所の記録、チェックイン、シェア : Place+",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "訪れた場所の記録、チェックイン、シェア : Place+",
         "isPreorder": false,
         "artistName": "Little Sam Software",
         "isIOSBinaryMacOSCompatible": true,
@@ -2683,10 +2683,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -2719,7 +2720,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -2751,8 +2751,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361956083,
-                "MZ_INDEXER": 1739549495339
+                "MZ_INDEXER": 1739918387533,
+                "RTCI": 1731361956083
             }
         },
         "supportsArcade": false,
@@ -2789,11 +2789,11 @@
             ],
             "ariaLabelForRatings": "星 4.0 個"
         },
-        "name": "ChatMate for WhatsApp",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "ChatMate for WhatsApp",
         "isPreorder": false,
-        "artistName": "Bastian Roessler",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Bastian Roessler",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2844,10 +2844,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -2880,7 +2881,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2902,8 +2902,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738968389129,
-                "MZ_INDEXER": 1739548686845
+                "MZ_INDEXER": 1739548686845,
+                "RTCI": 1738968389129
             }
         },
         "supportsArcade": false,
@@ -2941,11 +2941,11 @@
             ],
             "ariaLabelForRatings": "星 4.6 個"
         },
-        "name": "Linky: Share links & more",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Linky: Share links & more",
         "isPreorder": false,
-        "artistName": "Pragmatic Code",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Pragmatic Code",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2996,10 +2996,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -3032,7 +3033,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3054,8 +3054,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955516020,
-                "MZ_INDEXER": 1739518338369
+                "MZ_INDEXER": 1739518338369,
+                "RTCI": 1738955516020
             }
         },
         "supportsArcade": false,
@@ -3099,11 +3099,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "IM+ Pro Social Aggregator",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "IM+ Pro Social Aggregator",
         "isPreorder": false,
-        "artistName": "SHAPE GmbH",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "SHAPE GmbH",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3153,10 +3153,11 @@
                     "textColor4": "2a3744"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -3189,7 +3190,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3211,8 +3211,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738277471615,
-                "MZ_INDEXER": 1739535450944
+                "MZ_INDEXER": 1739535450944,
+                "RTCI": 1738277471615
             }
         },
         "supportsArcade": false,
@@ -3254,8 +3254,8 @@
             ],
             "ariaLabelForRatings": "星 4.3 個"
         },
-        "name": "Toot! for Mastodon",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Toot! for Mastodon",
         "isPreorder": false,
         "artistName": "Dag Agren",
         "isIOSBinaryMacOSCompatible": false,
@@ -3309,10 +3309,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -3345,7 +3346,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3367,8 +3367,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731360788073,
-                "MZ_INDEXER": 1739840849166
+                "MZ_INDEXER": 1739840849166,
+                "RTCI": 1731360788073
             }
         },
         "supportsArcade": false,
@@ -3420,13 +3420,13 @@
             ],
             "ariaLabelForRatings": "星 4.1 個"
         },
-        "watchBundleId": "com.shi.Mast.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "2.0",
-        "name": "Mast: for Mastodon",
+        "watchBundleId": "com.shi.Mast.watchkitapp",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Mast: for Mastodon",
         "isPreorder": false,
-        "artistName": "PoeticBytes Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "PoeticBytes Inc.",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -3477,10 +3477,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -3513,7 +3514,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -3545,8 +3545,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738962019059,
-                "MZ_INDEXER": 1739541088089
+                "MZ_INDEXER": 1739541088089,
+                "RTCI": 1738962019059
             }
         },
         "supportsArcade": false,
@@ -3594,11 +3594,11 @@
             ],
             "ariaLabelForRatings": "星 4.6 個"
         },
-        "name": "Nightfox DAWN for mastodon",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Nightfox DAWN for mastodon",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Tomoya Hirano",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3648,8 +3648,8 @@
                     "textColor4": "433e34"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -3706,8 +3706,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738959249168,
-                "MZ_INDEXER": 1739497345886
+                "MZ_INDEXER": 1739497345886,
+                "RTCI": 1738959249168
             }
         },
         "supportsArcade": false,
@@ -3746,11 +3746,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Animated 3D Emoji Stickers",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Animated 3D Emoji Stickers",
         "isPreorder": false,
-        "artistName": "6S MOBILE",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "6S MOBILE",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3801,10 +3801,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -3837,7 +3838,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3859,8 +3859,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738953192779,
-                "MZ_INDEXER": 1739494874164
+                "MZ_INDEXER": 1739494874164,
+                "RTCI": 1738953192779
             }
         },
         "supportsArcade": false,
@@ -3899,8 +3899,8 @@
             ],
             "ariaLabelForRatings": "星 5.0 個"
         },
-        "name": "ハロー名札",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "ハロー名札",
         "isPreorder": false,
         "artistName": "David Ashton",
         "isIOSBinaryMacOSCompatible": false,
@@ -3953,10 +3953,11 @@
                     "textColor4": "452212"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -3989,7 +3990,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Hello My Name Is nametag ID",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4012,8 +4012,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956610757,
-                "MZ_INDEXER": 1739490943734
+                "MZ_INDEXER": 1739930776120,
+                "RTCI": 1738956610757
             }
         },
         "supportsArcade": false,
@@ -4056,8 +4056,8 @@
         },
         "firstVersionSupportingInAppPurchaseApi": "3.9.21",
         "watchBundleId": "com.fongo.international.watchkitapp",
-        "name": "Fongo World Edition",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Fongo World Edition",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Fongo Inc.",
@@ -4111,10 +4111,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 wifi ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -4147,7 +4148,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -4179,8 +4179,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731381869855,
-                "MZ_INDEXER": 1739829108926
+                "MZ_INDEXER": 1739829108926,
+                "RTCI": 1731381869855
             }
         },
         "supportsArcade": false,
@@ -4273,10 +4273,11 @@
                     "textColor4": "b7c1c2"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -4309,7 +4310,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4331,8 +4331,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1735332160010,
-                "MZ_INDEXER": 1739830446318
+                "MZ_INDEXER": 1739830446318,
+                "RTCI": 1735332160010
             }
         },
         "supportsArcade": false,
@@ -4372,11 +4372,11 @@
             ],
             "ariaLabelForRatings": "星 2.0 個"
         },
-        "name": "Palaver IRC",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Palaver IRC",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "COCODE LTD",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4427,10 +4427,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -4463,162 +4464,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Modern IRC Client",
                 "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "6503911724",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1750301103",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1738955050360,
-                "MZ_INDEXER": 1739537684354
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 30,
-                "genreName": "ソーシャルネットワーキング",
-                "genre": 6005,
-                "chart": "top-paid",
-                "genreShortName": "ソーシャル"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 3.5,
-            "ratingCount": 8,
-            "ratingCountList": [
-                3,
-                0,
-                0,
-                0,
-                5
-            ],
-            "ariaLabelForRatings": "星 3.5 個"
-        },
-        "name": "Clean-Spam-Link-Tweet",
-        "genreDisplayName": "ソーシャルネットワーキング",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
-        "artistName": "Nobumasa Kawaguchi",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=500000&salableAdamId=6503911724&pricingParameters=STDQ&pg=default&appExtVrsId=872181099",
-                        "type": "buy",
-                        "priceFormatted": "¥500",
-                        "price": 500,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 5386240
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=6503911724&pricingParameters=SWUPD&pg=default&appExtVrsId=872181099",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 5386240
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "14.0",
-                "releaseDate": "2024-06-08",
-                "hasInAppPurchases": false,
-                "bundleId": "work.kwdev.Clean-Spam-Link-Tweet",
-                "isStandaloneWithCompanionForWatchOS": false,
-                "hasMessagesExtension": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/19/4f/e3194f85-bba9-f43f-7959-b261b413d555/AppIcon-1x_U007epad-0-1-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "2d166f",
-                    "textColor2": "321f6b",
-                    "textColor3": "57458c",
-                    "textColor4": "5b4b89"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1298,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/e5/77/19/e57719b9-42de-af25-7ccd-9be8a082ddcf/7b2c7800-354d-45f4-8f9f-150e0d690ae2.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1298,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ef/97/5a/ef975a6f-497b-9f7c-cca4-da1de9441ba1/cd485bad-e531-48c0-a1b0-4fe2dc7c9d35.png/{w}x{h}{c}.{f}",
-                        "bgColor": "ef184d",
-                        "textColor1": "041116",
-                        "textColor2": "041116",
-                        "textColor3": "331321",
-                        "textColor4": "331321"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/38/29/cf/3829cf79-cba5-0276-2ad0-d9b4234e4fc8/f7e65979-f5dd-4185-bc3c-ebeeec613fc5.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
-                "subtitle": "ツイート内の悪質なリンクの可視化やスパム投稿を非表示にします",
-                "hasSafariExtension": true,
                 "requiresGameController": false
             }
         }
@@ -4639,8 +4486,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737941998021,
-                "MZ_INDEXER": 1739867195154
+                "MZ_INDEXER": 1739921435925,
+                "RTCI": 1737941998021
             }
         },
         "supportsArcade": false,
@@ -4658,7 +4505,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 32,
+                "position": 31,
                 "genreName": "ソーシャルネットワーキング",
                 "genre": 6005,
                 "chart": "top-paid",
@@ -4734,10 +4581,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 microphone wifi ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -4770,8 +4618,160 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "6503911724",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1750301103",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739537684354,
+                "RTCI": 1738955050360
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 32,
+                "genreName": "ソーシャルネットワーキング",
+                "genre": 6005,
+                "chart": "top-paid",
+                "genreShortName": "ソーシャル"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 3.5,
+            "ratingCount": 8,
+            "ratingCountList": [
+                3,
+                0,
+                0,
+                0,
+                5
+            ],
+            "ariaLabelForRatings": "星 3.5 個"
+        },
+        "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Clean-Spam-Link-Tweet",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nobumasa Kawaguchi",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=500000&salableAdamId=6503911724&pricingParameters=STDQ&pg=default&appExtVrsId=872181099",
+                        "type": "buy",
+                        "priceFormatted": "¥500",
+                        "price": 500,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 5386240
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=6503911724&pricingParameters=SWUPD&pg=default&appExtVrsId=872181099",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 5386240
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "14.0",
+                "releaseDate": "2024-06-08",
+                "hasInAppPurchases": false,
+                "bundleId": "work.kwdev.Clean-Spam-Link-Tweet",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/19/4f/e3194f85-bba9-f43f-7959-b261b413d555/AppIcon-1x_U007epad-0-1-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "2d166f",
+                    "textColor2": "321f6b",
+                    "textColor3": "57458c",
+                    "textColor4": "5b4b89"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1298,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/e5/77/19/e57719b9-42de-af25-7ccd-9be8a082ddcf/7b2c7800-354d-45f4-8f9f-150e0d690ae2.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1298,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/ef/97/5a/ef975a6f-497b-9f7c-cca4-da1de9441ba1/cd485bad-e531-48c0-a1b0-4fe2dc7c9d35.png/{w}x{h}{c}.{f}",
+                        "bgColor": "ef184d",
+                        "textColor1": "041116",
+                        "textColor2": "041116",
+                        "textColor3": "331321",
+                        "textColor4": "331321"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/38/29/cf/3829cf79-cba5-0276-2ad0-d9b4234e4fc8/f7e65979-f5dd-4185-bc3c-ebeeec613fc5.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "ツイート内の悪質なリンクの可視化やスパム投稿を非表示にします",
+                "hasSafariExtension": true,
                 "requiresGameController": false
             }
         }
@@ -4792,8 +4792,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733156537445,
-                "MZ_INDEXER": 1739528853934
+                "MZ_INDEXER": 1739528853934,
+                "RTCI": 1733156537445
             }
         },
         "supportsArcade": false,
@@ -4834,11 +4834,11 @@
             "ariaLabelForRatings": "星 4.5 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "4.6",
-        "name": "SocialFocus: 気が散るものを隠す",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "SocialFocus: 気が散るものを隠す",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Yevhen Tretiakov",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4888,10 +4888,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -4924,7 +4925,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "ブロックフィード,ショートパンツ,関連,広告",
                 "hasSafariExtension": true,
                 "requiresGameController": false
@@ -4947,8 +4947,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378902033,
-                "MZ_INDEXER": 1739831391674
+                "MZ_INDEXER": 1739831391674,
+                "RTCI": 1731378902033
             }
         },
         "supportsArcade": false,
@@ -4990,8 +4990,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "Greeting Cards App - Pro",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sublime applications pty limited",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5042,8 +5042,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -5099,8 +5099,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738968036078,
-                "MZ_INDEXER": 1739520346602
+                "MZ_INDEXER": 1739520346602,
+                "RTCI": 1738968036078
             }
         },
         "supportsArcade": false,
@@ -5144,8 +5144,8 @@
             ],
             "ariaLabelForRatings": "星 3.0 個"
         },
-        "name": "SpeedLight Viewer",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "SpeedLight Viewer",
         "isPreorder": false,
         "artistName": "Oleg Borodkin",
         "isIOSBinaryMacOSCompatible": true,
@@ -5199,8 +5199,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -5256,8 +5256,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738964000202,
-                "MZ_INDEXER": 1739529664652
+                "MZ_INDEXER": 1739529664652,
+                "RTCI": 1738964000202
             }
         },
         "supportsArcade": false,
@@ -5298,8 +5298,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "Pictures Combo",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Alteru Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5350,10 +5350,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -5386,7 +5387,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5408,8 +5408,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955152299,
-                "MZ_INDEXER": 1739544020581
+                "MZ_INDEXER": 1739925441785,
+                "RTCI": 1738955152299
             }
         },
         "supportsArcade": false,
@@ -5458,11 +5458,11 @@
             "ariaLabelForRatings": "星 4.3 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.3.2",
-        "name": "Ore2",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Ore2",
         "isPreorder": false,
-        "artistName": "Naomoto Niwayama",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Naomoto Niwayama",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5513,10 +5513,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -5549,7 +5550,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "SNSチェッカー",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5572,8 +5572,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957758957,
-                "MZ_INDEXER": 1739494345420
+                "MZ_INDEXER": 1739494345420,
+                "RTCI": 1738957758957
             }
         },
         "supportsArcade": false,
@@ -5613,11 +5613,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "1コマまんが",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "1コマまんが",
         "isPreorder": false,
-        "artistName": "KOJI HARA",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "KOJI HARA",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5668,10 +5668,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -5704,7 +5705,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "思いついたことをまんがにしよう",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5727,8 +5727,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738953017421,
-                "MZ_INDEXER": 1739493277215
+                "MZ_INDEXER": 1739493277215,
+                "RTCI": 1738953017421
             }
         },
         "supportsArcade": false,
@@ -5767,11 +5767,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Oxford Let s go phonics 1-3",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Oxford Let s go phonics 1-3",
         "isPreorder": false,
-        "artistName": "阳志 欧",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "阳志 欧",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5822,10 +5822,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -5858,7 +5859,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5880,8 +5880,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738968862316,
-                "MZ_INDEXER": 1739501276931
+                "MZ_INDEXER": 1739501276931,
+                "RTCI": 1738968862316
             }
         },
         "supportsArcade": false,
@@ -5926,8 +5926,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "VFUN - 興味を探しています",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "OKMatrix Co., Ltd",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5978,10 +5978,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -6014,7 +6015,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "釣り、美しさと多くの興味",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6037,8 +6037,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738960228434,
-                "MZ_INDEXER": 1739496769265
+                "MZ_INDEXER": 1739496769265,
+                "RTCI": 1738960228434
             }
         },
         "supportsArcade": false,
@@ -6077,11 +6077,11 @@
             ],
             "ariaLabelForRatings": "星 4.5 個"
         },
-        "name": "核心洽眾：Bahamut BBS Reader",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "核心洽眾：Bahamut BBS Reader",
         "isPreorder": false,
-        "artistName": "Jingwei Wang",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Jingwei Wang",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6132,10 +6132,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -6168,7 +6169,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6190,8 +6190,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955908184,
-                "MZ_INDEXER": 1739527742551
+                "MZ_INDEXER": 1739527742551,
+                "RTCI": 1738955908184
             }
         },
         "supportsArcade": false,
@@ -6230,11 +6230,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "iMessageを改造",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "iMessageを改造",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jan-Niklas FREUNDT",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6280,10 +6280,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -6316,7 +6317,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6338,8 +6338,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732206871516,
-                "MZ_INDEXER": 1739535339265
+                "MZ_INDEXER": 1739535339265,
+                "RTCI": 1732206871516
             }
         },
         "supportsArcade": false,
@@ -6384,11 +6384,11 @@
             ],
             "ariaLabelForRatings": "星 5.0 個"
         },
-        "name": "V2er - Best client for V2EX",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "V2er - Best client for V2EX",
         "isPreorder": false,
-        "artistName": "Huizhou Jiqu Technology Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Huizhou Jiqu Technology Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6439,10 +6439,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -6475,7 +6476,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6497,8 +6497,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738962834962,
-                "MZ_INDEXER": 1739544949751
+                "MZ_INDEXER": 1739917915795,
+                "RTCI": 1738962834962
             }
         },
         "supportsArcade": false,
@@ -6540,8 +6540,8 @@
             ],
             "ariaLabelForRatings": "星 1.0 個"
         },
-        "name": "CNU - 顶尖视觉精选",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "CNU - 顶尖视觉精选",
         "isPreorder": false,
         "artistName": "淮 宋",
         "isIOSBinaryMacOSCompatible": true,
@@ -6594,10 +6594,11 @@
                     "textColor4": "c6c6c6"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -6630,7 +6631,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6652,8 +6652,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731370980975,
-                "MZ_INDEXER": 1739526036103
+                "MZ_INDEXER": 1739526036103,
+                "RTCI": 1731370980975
             }
         },
         "supportsArcade": false,
@@ -6747,10 +6747,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -6783,7 +6784,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6805,8 +6805,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958407797,
-                "MZ_INDEXER": 1739490671046
+                "MZ_INDEXER": 1739490671046,
+                "RTCI": 1738958407797
             }
         },
         "supportsArcade": false,
@@ -6854,8 +6854,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "Blog for Blogger",
         "isPreorder": false,
-        "artistName": "Top Nine",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Top Nine",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.1",
         "platformAttributes": {
@@ -6907,10 +6907,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -6943,7 +6944,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Blog, Manage, and View blogs",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -6976,8 +6976,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731372261620,
-                "MZ_INDEXER": 1739497551396
+                "MZ_INDEXER": 1739497551396,
+                "RTCI": 1731372261620
             }
         },
         "supportsArcade": false,
@@ -7016,11 +7016,11 @@
             ],
             "ariaLabelForRatings": "星 5.0 個"
         },
-        "name": "MyCoverStudio",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "MyCoverStudio",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Alera Apps",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7070,10 +7070,11 @@
                     "textColor4": "a6a6a6"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -7106,7 +7107,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7128,8 +7128,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952540815,
-                "MZ_INDEXER": 1739508732378
+                "MZ_INDEXER": 1739508732378,
+                "RTCI": 1738952540815
             }
         },
         "supportsArcade": false,
@@ -7180,8 +7180,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "Internet News-Paper",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kai Bruchmann",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7232,10 +7232,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -7268,7 +7269,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7290,8 +7290,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731352609121,
-                "MZ_INDEXER": 1739530906247
+                "MZ_INDEXER": 1739530906247,
+                "RTCI": 1731352609121
             }
         },
         "supportsArcade": false,
@@ -7385,10 +7385,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -7421,7 +7422,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "簡単グループビデオ通話。バッテリー制御も可能。",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7444,8 +7444,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365456640,
-                "MZ_INDEXER": 1739537430168
+                "MZ_INDEXER": 1739537430168,
+                "RTCI": 1731365456640
             }
         },
         "supportsArcade": false,
@@ -7544,10 +7544,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -7580,7 +7581,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7602,8 +7602,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738892823670,
-                "MZ_INDEXER": 1739829467404
+                "MZ_INDEXER": 1739829467404,
+                "RTCI": 1738892823670
             }
         },
         "supportsArcade": false,
@@ -7642,8 +7642,8 @@
             ],
             "ariaLabelForRatings": "星 4.5 個"
         },
-        "name": "Birthday Reminder Pro+",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Birthday Reminder Pro+",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "FunPokes Inc.",
@@ -7697,10 +7697,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -7733,7 +7734,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7755,8 +7755,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738960249449,
-                "MZ_INDEXER": 1739495925074
+                "MZ_INDEXER": 1739495925074,
+                "RTCI": 1738960249449
             }
         },
         "supportsArcade": false,
@@ -7799,11 +7799,11 @@
             "ariaLabelForRatings": "星 2.5 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.1.0",
-        "name": "AIちゃん - 人工知能にあなたの声を聞かせてください",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "AIちゃん - 人工知能にあなたの声を聞かせてください",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "迪远 王",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7854,10 +7854,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -7890,7 +7891,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "複数の言語を話すことができます",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7913,8 +7913,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738889028169,
-                "MZ_INDEXER": 1739489049185
+                "MZ_INDEXER": 1739489049185,
+                "RTCI": 1738889028169
             }
         },
         "supportsArcade": false,
@@ -8008,10 +8008,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -8044,7 +8045,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8066,8 +8066,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731371218736,
-                "MZ_INDEXER": 1739536667887
+                "MZ_INDEXER": 1739536667887,
+                "RTCI": 1731371218736
             }
         },
         "supportsArcade": false,
@@ -8110,8 +8110,8 @@
             ],
             "ariaLabelForRatings": "星 4.3 個"
         },
-        "name": "Friends - Live Video Chat",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Friends - Live Video Chat",
         "isPreorder": false,
         "artistName": "Renaissance Apps LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -8165,10 +8165,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -8201,7 +8202,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8223,8 +8223,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733697341803,
-                "MZ_INDEXER": 1739505810380
+                "MZ_INDEXER": 1739505810380,
+                "RTCI": 1733697341803
             }
         },
         "supportsArcade": false,
@@ -8267,8 +8267,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "CLIPish Keyboard",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "CLIPish Keyboard",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dating DNA, Inc.",
@@ -8322,10 +8322,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -8358,7 +8359,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8380,8 +8380,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731351538389,
-                "MZ_INDEXER": 1739500365235
+                "MZ_INDEXER": 1739500365235,
+                "RTCI": 1731351538389
             }
         },
         "supportsArcade": false,
@@ -8420,11 +8420,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "VideoSound - Music to Video",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "VideoSound - Music to Video",
         "isPreorder": false,
-        "artistName": "Bits&Coffee",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Bits&Coffee",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8475,10 +8475,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -8511,7 +8512,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8533,8 +8533,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956202589,
-                "MZ_INDEXER": 1739520394613
+                "MZ_INDEXER": 1739520394613,
+                "RTCI": 1738956202589
             }
         },
         "supportsArcade": false,
@@ -8573,8 +8573,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Comic Puppets",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Comic Puppets",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Touch Multimedia",
@@ -8628,10 +8628,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -8664,7 +8665,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8686,8 +8686,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738889028089,
-                "MZ_INDEXER": 1739534127302
+                "MZ_INDEXER": 1739534127302,
+                "RTCI": 1738889028089
             }
         },
         "supportsArcade": false,
@@ -8726,11 +8726,11 @@
             ],
             "ariaLabelForRatings": "星 4.3 個"
         },
-        "name": "标准日语初级下",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "标准日语初级下",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "强 马",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8781,10 +8781,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -8817,7 +8818,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8839,8 +8839,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955276443,
-                "MZ_INDEXER": 1739489907652
+                "MZ_INDEXER": 1739489907652,
+                "RTCI": 1738955276443
             }
         },
         "supportsArcade": false,
@@ -8879,11 +8879,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "AutoSender Pro - 自動化されたSMSとMMS",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "AutoSender Pro - 自動化されたSMSとMMS",
         "isPreorder": false,
-        "artistName": "FreeRamble Technology Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "FreeRamble Technology Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8934,10 +8934,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -8970,7 +8971,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "完全に自動化されたSMS＆MMS",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8993,8 +8993,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958537203,
-                "MZ_INDEXER": 1739488259993
+                "MZ_INDEXER": 1739488259993,
+                "RTCI": 1738958537203
             }
         },
         "supportsArcade": false,
@@ -9034,8 +9034,8 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.0.0",
-        "name": "Story Cutter for Instagram",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Story Cutter for Instagram",
         "isPreorder": false,
         "artistName": "Metromedya Digital Ad Agency",
         "isIOSBinaryMacOSCompatible": true,
@@ -9089,10 +9089,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -9125,7 +9126,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9147,8 +9147,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958601756,
-                "MZ_INDEXER": 1739485290574
+                "MZ_INDEXER": 1739910670390,
+                "RTCI": 1738958601756
             }
         },
         "supportsArcade": false,
@@ -9198,11 +9198,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "SplitNet Premium",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "SplitNet Premium",
         "isPreorder": false,
-        "artistName": "csaba abel",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "csaba abel",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9253,10 +9253,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -9289,7 +9290,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9311,8 +9311,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731363854222,
-                "MZ_INDEXER": 1739482197061
+                "MZ_INDEXER": 1739910191749,
+                "RTCI": 1731363854222
             }
         },
         "supportsArcade": false,
@@ -9351,11 +9351,11 @@
             ],
             "ariaLabelForRatings": "星 4.5 個"
         },
-        "name": "InstantGrid",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "InstantGrid",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Thomas Coomer",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9406,10 +9406,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -9442,7 +9443,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9464,8 +9464,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956344339,
-                "MZ_INDEXER": 1739498224037
+                "MZ_INDEXER": 1739498224037,
+                "RTCI": 1738956344339
             }
         },
         "supportsArcade": false,
@@ -9512,8 +9512,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "クリスマス カード • Greeting cards",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "クリスマス カード • Greeting cards",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Ghislain Fortin",
@@ -9577,10 +9577,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -9613,7 +9614,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Greeting cards and stickers",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9636,8 +9636,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956937753,
-                "MZ_INDEXER": 1739512649421
+                "MZ_INDEXER": 1739512649421,
+                "RTCI": 1738956937753
             }
         },
         "supportsArcade": false,
@@ -9676,8 +9676,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Griddy Pro: Split Pic in Grids",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Griddy Pro: Split Pic in Grids",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "keang david",
@@ -9731,10 +9731,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -9767,7 +9768,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9789,8 +9789,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958620480,
-                "MZ_INDEXER": 1739504677910
+                "MZ_INDEXER": 1739504677910,
+                "RTCI": 1738958620480
             }
         },
         "supportsArcade": false,
@@ -9832,11 +9832,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Spy Messenger",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Spy Messenger",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kirill Filippov",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9887,10 +9887,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -9923,7 +9924,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9945,8 +9945,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1736441118040,
-                "MZ_INDEXER": 1739551422759
+                "MZ_INDEXER": 1739930725569,
+                "RTCI": 1736441118040
             }
         },
         "supportsArcade": false,
@@ -9987,8 +9987,8 @@
             "ariaLabelForRatings": "星 5.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.9.7",
-        "name": "Моя статистика для ВК",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Моя статистика для ВК",
         "isPreorder": false,
         "artistName": "COOKIE SHARK LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -10042,10 +10042,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -10078,7 +10079,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10100,8 +10100,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738964424512,
-                "MZ_INDEXER": 1739528129556
+                "MZ_INDEXER": 1739528129556,
+                "RTCI": 1738964424512
             }
         },
         "supportsArcade": false,
@@ -10140,11 +10140,11 @@
             ],
             "ariaLabelForRatings": "星 1.0 個"
         },
-        "name": "Email Templates",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Email Templates",
         "isPreorder": false,
-        "artistName": "Thomas Tsopanakis",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Thomas Tsopanakis",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10195,10 +10195,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -10231,7 +10232,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10253,8 +10253,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738963968916,
-                "MZ_INDEXER": 1739508950839
+                "MZ_INDEXER": 1739508950839,
+                "RTCI": 1738963968916
             }
         },
         "supportsArcade": false,
@@ -10294,8 +10294,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Picture Love HD",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Picture Love HD",
         "isPreorder": false,
         "artistName": "LocoShake, Inc",
         "isIOSBinaryMacOSCompatible": true,
@@ -10343,10 +10343,11 @@
                     "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple/f8/33/70/mzm.eadagyax.png/{w}x{h}{c}.{f}"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -10379,7 +10380,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10401,8 +10401,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957350252,
-                "MZ_INDEXER": 1739529616866
+                "MZ_INDEXER": 1739529616866,
+                "RTCI": 1738957350252
             }
         },
         "supportsArcade": false,
@@ -10441,8 +10441,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "ボタンコミュ",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "ボタンコミュ",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "KENJI TAKETO",
@@ -10496,10 +10496,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -10532,7 +10533,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "ボタンで会話、読み上げ",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10555,8 +10555,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738953739864,
-                "MZ_INDEXER": 1739546996596
+                "MZ_INDEXER": 1739546996596,
+                "RTCI": 1738953739864
             }
         },
         "supportsArcade": false,
@@ -10595,8 +10595,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Broadcast: Just Tweet",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Broadcast: Just Tweet",
         "isPreorder": false,
         "artistName": "Dan Eden",
         "isIOSBinaryMacOSCompatible": true,
@@ -10650,10 +10650,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -10686,7 +10687,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10708,8 +10708,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738954882602,
-                "MZ_INDEXER": 1739482935780
+                "MZ_INDEXER": 1739910346991,
+                "RTCI": 1738954882602
             }
         },
         "supportsArcade": false,
@@ -10748,8 +10748,8 @@
             ],
             "ariaLabelForRatings": "星 4.5 個"
         },
-        "name": "Laserhouse: Crypto Laser Eyes",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Laserhouse: Crypto Laser Eyes",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Tae ho Lee",
@@ -10803,10 +10803,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -10839,7 +10840,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10861,8 +10861,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958439410,
-                "MZ_INDEXER": 1739494437477
+                "MZ_INDEXER": 1739494437477,
+                "RTCI": 1738958439410
             }
         },
         "supportsArcade": false,
@@ -10907,11 +10907,11 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "watchBundleId": "com.hemalM.InstaFeed.watchkitapp",
-        "name": "Watch Instagram",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Watch Instagram",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Hemal Modi",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.0",
         "platformAttributes": {
@@ -10963,10 +10963,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -10999,7 +11000,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -11031,8 +11031,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952061486,
-                "MZ_INDEXER": 1739533992835
+                "MZ_INDEXER": 1739533992835,
+                "RTCI": 1738952061486
             }
         },
         "supportsArcade": false,
@@ -11074,11 +11074,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "思慕至尊版",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "思慕至尊版",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "齐芳 彭",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11129,10 +11129,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -11165,7 +11166,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11187,8 +11187,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731355806157,
-                "MZ_INDEXER": 1739501264825
+                "MZ_INDEXER": 1739501264825,
+                "RTCI": 1731355806157
             }
         },
         "supportsArcade": false,
@@ -11227,8 +11227,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "SubWidget - Widget for YouTube",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "SubWidget - Widget for YouTube",
         "isPreorder": false,
         "artistName": "Arjun Dureja",
         "isIOSBinaryMacOSCompatible": false,
@@ -11281,10 +11281,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -11317,7 +11318,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11339,8 +11339,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739287966336,
-                "MZ_INDEXER": 1739544782652
+                "MZ_INDEXER": 1739544782652,
+                "RTCI": 1739287966336
             }
         },
         "supportsArcade": false,
@@ -11382,8 +11382,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "twinme+プライベートメッセンジャー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Twinlife",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11434,10 +11434,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -11470,7 +11471,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "安全なプライベート通信",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11493,8 +11493,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738161101193,
-                "MZ_INDEXER": 1739515715561
+                "MZ_INDEXER": 1739515715561,
+                "RTCI": 1738161101193
             }
         },
         "supportsArcade": false,
@@ -11533,8 +11533,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Captain Marvel Stickers",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Captain Marvel Stickers",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "Marvel Entertainment",
@@ -11598,10 +11598,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -11644,7 +11645,6 @@
                         "textColor4": "122639"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11666,8 +11666,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958056367,
-                "MZ_INDEXER": 1739509926120
+                "MZ_INDEXER": 1739509926120,
+                "RTCI": 1738958056367
             }
         },
         "supportsArcade": false,
@@ -11708,8 +11708,8 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "watchBundleId": "com.passive.wristly.watch",
-        "name": "Wrist for GroupMe",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Wrist for GroupMe",
         "isPreorder": false,
         "artistName": "Sana Siddiqui",
         "isIOSBinaryMacOSCompatible": true,
@@ -11764,10 +11764,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -11800,7 +11801,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -11832,8 +11832,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956344952,
-                "MZ_INDEXER": 1739493512894
+                "MZ_INDEXER": 1739493512894,
+                "RTCI": 1738956344952
             }
         },
         "supportsArcade": false,
@@ -11883,8 +11883,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "Classical Birthday",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Ghislain Fortin",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11945,10 +11945,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -11981,7 +11982,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12003,8 +12003,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738961263503,
-                "MZ_INDEXER": 1739510280800
+                "MZ_INDEXER": 1739510280800,
+                "RTCI": 1738961263503
             }
         },
         "supportsArcade": false,
@@ -12058,8 +12058,8 @@
         "genreDisplayName": "ソーシャルネットワーキング",
         "name": "T plus one - A tumblr client",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "New Mobile Way Inc.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12110,10 +12110,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -12146,7 +12147,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12168,8 +12168,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738953017332,
-                "MZ_INDEXER": 1739511969805
+                "MZ_INDEXER": 1739511969805,
+                "RTCI": 1738953017332
             }
         },
         "supportsArcade": false,
@@ -12208,8 +12208,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "小学英语口语一年级上下册广州版",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "小学英语口语一年级上下册广州版",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "阳志 欧",
@@ -12263,10 +12263,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -12299,7 +12300,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12321,8 +12321,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956344234,
-                "MZ_INDEXER": 1739496743024
+                "MZ_INDEXER": 1739496743024,
+                "RTCI": 1738956344234
             }
         },
         "supportsArcade": false,
@@ -12429,10 +12429,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -12465,7 +12466,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "Greeting cards and stickers",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12488,8 +12488,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1735911078063,
-                "MZ_INDEXER": 1739520344330
+                "MZ_INDEXER": 1739520344330,
+                "RTCI": 1735911078063
             }
         },
         "supportsArcade": false,
@@ -12532,11 +12532,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Asian Gay Chat",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Asian Gay Chat",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Laurand Osmeni",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12587,10 +12587,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -12623,7 +12624,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12645,8 +12645,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738954051100,
-                "MZ_INDEXER": 1739506010540
+                "MZ_INDEXER": 1739506010540,
+                "RTCI": 1738954051100
             }
         },
         "supportsArcade": false,
@@ -12685,8 +12685,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Chat Translator",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Chat Translator",
         "isPreorder": false,
         "artistName": "Primosoft Inc",
         "isIOSBinaryMacOSCompatible": true,
@@ -12740,10 +12740,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -12776,7 +12777,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12798,8 +12798,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952868682,
-                "MZ_INDEXER": 1739535321960
+                "MZ_INDEXER": 1739535321960,
+                "RTCI": 1738952868682
             }
         },
         "supportsArcade": false,
@@ -12841,8 +12841,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "name": "Pinnable+, Pins & Art Maker",
         "genreDisplayName": "ソーシャルネットワーキング",
+        "name": "Pinnable+, Pins & Art Maker",
         "isPreorder": false,
         "artistName": "Excel Heritage Group, Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -12896,10 +12896,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -12932,7 +12933,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "無料画像付きのフォトエディタ | Photo Editor",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12955,8 +12955,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731352997448,
-                "MZ_INDEXER": 1739494136389
+                "MZ_INDEXER": 1739494136389,
+                "RTCI": 1731352997448
             }
         },
         "supportsArcade": false,
@@ -13050,10 +13050,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -13086,7 +13087,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13108,8 +13108,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731355842465,
-                "MZ_INDEXER": 1739502465999
+                "MZ_INDEXER": 1739502465999,
+                "RTCI": 1731355842465
             }
         },
         "supportsArcade": false,
@@ -13205,10 +13205,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1298,
@@ -13241,7 +13242,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {

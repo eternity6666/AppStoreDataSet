@@ -15,8 +15,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737981389877,
-                "MZ_INDEXER": 1739528115819
+                "MZ_INDEXER": 1739528115819,
+                "RTCI": 1737981389877
             }
         },
         "supportsArcade": false,
@@ -110,11 +110,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -147,6 +145,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -154,13 +154,13 @@
     },
     {
         "kind": "app",
-        "id": "566517346",
+        "id": "564147165",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "572453557",
+                        "id": "416798604",
                         "type": "developers"
                     }
                 ]
@@ -168,8 +168,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733969061404,
-                "MZ_INDEXER": 1739494425495
+                "MZ_INDEXER": 1739531380412,
+                "RTCI": 1731351485291
             }
         },
         "supportsArcade": false,
@@ -197,6 +197,170 @@
         },
         "supportsStreamlinedBuy": true,
         "userRating": {
+            "value": 4,
+            "ratingCount": 37,
+            "ratingCountList": [
+                2,
+                3,
+                3,
+                14,
+                15
+            ],
+            "ariaLabelForRatings": "星 4.0 個"
+        },
+        "name": "アインシュタインの脳トレ",
+        "genreDisplayName": "トリビア",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "BBG Entertainment GmbH",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=800000&salableAdamId=564147165&pricingParameters=STDQ&pg=default&appExtVrsId=828708082",
+                        "type": "buy",
+                        "priceFormatted": "¥800",
+                        "price": 800,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1098423296
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=564147165&pricingParameters=SWUPD&pg=default&appExtVrsId=828708082",
+                        "type": "update",
+                        "priceFormatted": "¥0",
+                        "price": 0,
+                        "currencyCode": "JPY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 1098423296
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2012-10-31",
+                "hasInAppPurchases": false,
+                "bundleId": "de.bbg.EinsteinJap",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/9d/68/6f/9d686f02-cceb-0add-5d62-061d88703ce6/AppIcon-1x_U007emarketing-0-85-220-0-8.png/{w}x{h}{c}.{f}",
+                    "bgColor": "0d5a8a",
+                    "textColor1": "ffffff",
+                    "textColor2": "d9d9d9",
+                    "textColor3": "cedee7",
+                    "textColor4": "b0c0c9"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1154,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a5/78/64/a5786418-8a14-fd29-f54e-a50cf76cbed4/2bfb160c-67ca-4af1-a249-cb5fccdfda82.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1154,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/42/68/44/42684481-2a6e-f5b3-c444-3a4129c56fcf/c12e366c-2bc3-4079-94d6-cfbf475cf934.png/{w}x{h}{c}.{f}",
+                        "bgColor": "f6b500",
+                        "textColor1": "0c0900",
+                        "textColor2": "181200",
+                        "textColor3": "3b2b00",
+                        "textColor4": "443200"
+                    },
+                    "originalFlowcaseBrick": {
+                        "width": 1778,
+                        "height": 600,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6f/dc/35/6fdc357a-efa8-4341-ea3a-ce59cd1faa4e/mza_7466211599120905519.png/{w}x{h}{c}.{f}",
+                        "bgColor": "135682",
+                        "textColor1": "d8e7ee",
+                        "textColor2": "f1c8a7",
+                        "textColor3": "b1cad9",
+                        "textColor4": "c4b1a0"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/84/20/97842090-f1c2-1ec9-6246-1dcd35c65c19/b11322a7-2c31-458c-b160-c2b37f03ad05.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "isXROSCompatible": true,
+                "subtitle": "超ハマる脳の体操。30の脳天直撃トレーニング",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "566517346",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "572453557",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739494425495,
+                "RTCI": 1733969061404
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 3,
+                "genreName": "トリビア",
+                "genre": 7018,
+                "chart": "top-paid",
+                "genreShortName": "トリビア"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
             "value": 3.4,
             "ratingCount": 30,
             "ratingCountList": [
@@ -208,11 +372,11 @@
             ],
             "ariaLabelForRatings": "星 3.4 個"
         },
-        "genreDisplayName": "ファミリー",
         "name": "空気読み。２",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "G-MODE Corporation",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -249,8 +413,8 @@
                 "releaseDate": "2012-10-10",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.gmode.kysp2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -266,7 +430,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -299,7 +463,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -321,8 +485,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733969061407,
-                "MZ_INDEXER": 1739482127367
+                "MZ_INDEXER": 1739908526783,
+                "RTCI": 1733969061407
             }
         },
         "supportsArcade": false,
@@ -341,7 +505,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 4,
                 "genreName": "トリビア",
                 "genre": 7018,
                 "chart": "top-paid",
@@ -402,8 +566,8 @@
                 "releaseDate": "2011-09-20",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.co.gmode.kysp1",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -420,7 +584,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -453,170 +616,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "564147165",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "416798604",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "RTCI": 1731351485291,
-                "MZ_INDEXER": 1739531380412
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 4,
-                "genreName": "トリビア",
-                "genre": 7018,
-                "chart": "top-paid",
-                "genreShortName": "トリビア"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4,
-            "ratingCount": 37,
-            "ratingCountList": [
-                2,
-                3,
-                3,
-                14,
-                15
-            ],
-            "ariaLabelForRatings": "星 4.0 個"
-        },
-        "genreDisplayName": "トリビア",
-        "name": "アインシュタインの脳トレ",
-        "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
-        "artistName": "BBG Entertainment GmbH",
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=800000&salableAdamId=564147165&pricingParameters=STDQ&pg=default&appExtVrsId=828708082",
-                        "type": "buy",
-                        "priceFormatted": "¥800",
-                        "price": 800,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1098423296
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=564147165&pricingParameters=SWUPD&pg=default&appExtVrsId=828708082",
-                        "type": "update",
-                        "priceFormatted": "¥0",
-                        "price": 0,
-                        "currencyCode": "JPY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 1098423296
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "minimumMacOSVersion": "11.0",
-                "releaseDate": "2012-10-31",
-                "hasInAppPurchases": false,
-                "bundleId": "de.bbg.EinsteinJap",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/9d/68/6f/9d686f02-cceb-0add-5d62-061d88703ce6/AppIcon-1x_U007emarketing-0-85-220-0-8.png/{w}x{h}{c}.{f}",
-                    "bgColor": "0d5a8a",
-                    "textColor1": "ffffff",
-                    "textColor2": "d9d9d9",
-                    "textColor3": "cedee7",
-                    "textColor4": "b0c0c9"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1154,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a5/78/64/a5786418-8a14-fd29-f54e-a50cf76cbed4/2bfb160c-67ca-4af1-a249-cb5fccdfda82.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1154,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/42/68/44/42684481-2a6e-f5b3-c444-3a4129c56fcf/c12e366c-2bc3-4079-94d6-cfbf475cf934.png/{w}x{h}{c}.{f}",
-                        "bgColor": "f6b500",
-                        "textColor1": "0c0900",
-                        "textColor2": "181200",
-                        "textColor3": "3b2b00",
-                        "textColor4": "443200"
-                    },
-                    "originalFlowcaseBrick": {
-                        "width": 1778,
-                        "height": 600,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6f/dc/35/6fdc357a-efa8-4341-ea3a-ce59cd1faa4e/mza_7466211599120905519.png/{w}x{h}{c}.{f}",
-                        "bgColor": "135682",
-                        "textColor1": "d8e7ee",
-                        "textColor2": "f1c8a7",
-                        "textColor3": "b1cad9",
-                        "textColor4": "c4b1a0"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/84/20/97842090-f1c2-1ec9-6246-1dcd35c65c19/b11322a7-2c31-458c-b160-c2b37f03ad05.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
-                "subtitle": "超ハマる脳の体操。30の脳天直撃トレーニング",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -638,8 +638,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365769674,
-                "MZ_INDEXER": 1739904922873
+                "MZ_INDEXER": 1739904922873,
+                "RTCI": 1731365769674
             }
         },
         "supportsArcade": false,
@@ -714,8 +714,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-10-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jpt.amazingmatch",
@@ -732,10 +732,9 @@
                     "textColor4": "381f18"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -768,6 +767,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -789,8 +789,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738703058371,
-                "MZ_INDEXER": 1739518464803
+                "MZ_INDEXER": 1739518464803,
+                "RTCI": 1738703058371
             }
         },
         "supportsArcade": false,
@@ -830,11 +830,11 @@
             "ariaLabelForRatings": "星 5.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "5.0.0",
-        "genreDisplayName": "トリビア",
         "name": "GeoExpert +: 世界地図 暗記 ゲーム (地理)",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Sierra Chica Software SL",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -885,10 +885,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -921,6 +920,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "subtitle": "地図ゲーム。世界の地理。国、首都、国旗、川、大洋、海、山",
                 "hasSafariExtension": false,
@@ -944,8 +944,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359559717,
-                "MZ_INDEXER": 1739510531461
+                "MZ_INDEXER": 1739510531461,
+                "RTCI": 1731359559717
             }
         },
         "supportsArcade": false,
@@ -984,8 +984,8 @@
             ],
             "ariaLabelForRatings": "星 2.0 個"
         },
-        "genreDisplayName": "パズル",
         "name": "Shape Puzzle - Toddler games",
+        "genreDisplayName": "パズル",
         "isPreorder": false,
         "artistName": "Jia Ningrui",
         "isIOSBinaryMacOSCompatible": false,
@@ -1020,8 +1020,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-09-22",
                 "hasInAppPurchases": true,
                 "bundleId": "com.jpt.shapepuzzle",
@@ -1095,8 +1095,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731371102620,
-                "MZ_INDEXER": 1739505230827
+                "MZ_INDEXER": 1739505230827,
+                "RTCI": 1731371102620
             }
         },
         "supportsArcade": false,
@@ -1183,11 +1183,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -1241,8 +1241,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955461923,
-                "MZ_INDEXER": 1739697549121
+                "MZ_INDEXER": 1739697549121,
+                "RTCI": 1738955461923
             }
         },
         "supportsArcade": false,
@@ -1281,11 +1281,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Spell&Speak",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Mattia Confalonieri",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1336,8 +1336,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -1393,8 +1393,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731376660286,
-                "MZ_INDEXER": 1739517754550
+                "MZ_INDEXER": 1739517754550,
+                "RTCI": 1731376660286
             }
         },
         "supportsArcade": false,
@@ -1433,8 +1433,8 @@
             ],
             "ariaLabelForRatings": "星 2.6 個"
         },
-        "genreDisplayName": "ボード",
         "name": "Coffee-Roaster",
+        "genreDisplayName": "ボード",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "BrettspielWelt",
@@ -1469,8 +1469,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2019-09-26",
                 "hasInAppPurchases": false,
                 "bundleId": "de.brettspielwelt.coffee",
@@ -1487,10 +1487,10 @@
                     "textColor4": "503a26"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -1523,7 +1523,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1545,8 +1545,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958713634,
-                "MZ_INDEXER": 1739494942822
+                "MZ_INDEXER": 1739494942822,
+                "RTCI": 1738958713634
             }
         },
         "supportsArcade": false,
@@ -1585,11 +1585,11 @@
             ],
             "ariaLabelForRatings": "星 5.0 個"
         },
-        "name": "First & Sight Words Games",
         "genreDisplayName": "単語",
+        "name": "First & Sight Words Games",
         "isPreorder": false,
-        "artistName": "JP Game LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "JP Game LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1621,8 +1621,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-12-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jpt.AmazingFirstWord",
@@ -1639,10 +1639,9 @@
                     "textColor4": "00a6ba"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -1675,6 +1674,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1696,8 +1696,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958713875,
-                "MZ_INDEXER": 1739497747521
+                "MZ_INDEXER": 1739497747521,
+                "RTCI": 1738958713875
             }
         },
         "supportsArcade": false,
@@ -1736,8 +1736,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "パズル",
         "name": "Animal Preschool! Circus",
+        "genreDisplayName": "パズル",
         "isPreorder": false,
         "artistName": "JP Game LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -1772,8 +1772,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-03-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jpt.animalcircus",
@@ -1847,8 +1847,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361302655,
-                "MZ_INDEXER": 1739533972973
+                "MZ_INDEXER": 1739533972973,
+                "RTCI": 1731361302655
             }
         },
         "supportsArcade": false,
@@ -1888,8 +1888,8 @@
             "ariaLabelForRatings": "星 5.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.8",
-        "genreDisplayName": "ボード",
         "name": "Twice as Clever",
+        "genreDisplayName": "ボード",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "BrettspielWelt",
@@ -1947,7 +1947,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -1980,6 +1979,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2001,8 +2001,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1732180419333,
-                "MZ_INDEXER": 1739541019984
+                "MZ_INDEXER": 1739541019984,
+                "RTCI": 1732180419333
             }
         },
         "supportsArcade": false,
@@ -2081,8 +2081,8 @@
                 "releaseDate": "2012-01-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.idinobook.AircraftRecognitionQuiz",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2098,6 +2098,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -2130,7 +2131,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2153,8 +2153,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738958713832,
-                "MZ_INDEXER": 1739541824498
+                "MZ_INDEXER": 1739541824498,
+                "RTCI": 1738958713832
             }
         },
         "supportsArcade": false,
@@ -2196,8 +2196,8 @@
         "name": "ABC Circus - Learn Alphabets",
         "genreDisplayName": "パズル",
         "isPreorder": false,
-        "artistName": "JP Game LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "JP Game LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2229,8 +2229,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2012-04-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jpt.ABCCircus.en-universal-paid",
@@ -2247,10 +2247,9 @@
                     "textColor4": "5c2c01"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -2283,6 +2282,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2304,8 +2304,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731382101613,
-                "MZ_INDEXER": 1739552368776
+                "MZ_INDEXER": 1739552368776,
+                "RTCI": 1731382101613
             }
         },
         "supportsArcade": false,
@@ -2399,11 +2399,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -2468,8 +2468,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731365927950,
-                "MZ_INDEXER": 1739518946381
+                "MZ_INDEXER": 1739518946381,
+                "RTCI": 1731365927950
             }
         },
         "supportsArcade": false,
@@ -2509,8 +2509,8 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.3",
-        "genreDisplayName": "ボード",
         "name": "Clever cubed",
+        "genreDisplayName": "ボード",
         "isPreorder": false,
         "artistName": "BrettspielWelt",
         "isIOSBinaryMacOSCompatible": true,
@@ -2545,8 +2545,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-10-02",
                 "hasInAppPurchases": true,
                 "bundleId": "de.brettspielwelt.cleverhochdrei",
@@ -2567,8 +2567,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -2601,6 +2599,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2622,8 +2622,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354081574,
-                "MZ_INDEXER": 1739517464703
+                "MZ_INDEXER": 1739517464703,
+                "RTCI": 1731354081574
             }
         },
         "supportsArcade": false,
@@ -2704,8 +2704,8 @@
                 "releaseDate": "2014-04-21",
                 "hasInAppPurchases": true,
                 "bundleId": "com.asmolgam.functional",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2720,7 +2720,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -2753,7 +2753,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "すべての重要な機能グループの名前を簡単に学ぶことができます。",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2776,8 +2776,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957589579,
-                "MZ_INDEXER": 1739519639225
+                "MZ_INDEXER": 1739519639225,
+                "RTCI": 1738957589579
             }
         },
         "supportsArcade": false,
@@ -2816,8 +2816,8 @@
             ],
             "ariaLabelForRatings": "星 4.4 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "GeoGuesser 2",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Shogo Studios LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -2852,8 +2852,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-07-16",
                 "hasInAppPurchases": false,
                 "bundleId": "com.NewGeoGameRNI",
@@ -2874,8 +2874,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -2929,8 +2929,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739873366062,
-                "MZ_INDEXER": 1739886695718
+                "MZ_INDEXER": 1739886695718,
+                "RTCI": 1739873366062
             }
         },
         "supportsArcade": false,
@@ -2970,8 +2970,8 @@
             ],
             "ariaLabelForRatings": "星 4.5 個"
         },
-        "watchBundleId": "com.etermax.preguntados.pro.watchkitapp",
         "firstVersionSupportingInAppPurchaseApi": "2.79.0",
+        "watchBundleId": "com.etermax.preguntados.pro.watchkitapp",
         "name": "トリビア・クラック (広告なし)",
         "genreDisplayName": "トリビア",
         "isPreorder": false,
@@ -3038,11 +3038,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -3117,7 +3117,6 @@
                 },
                 "subtitle": "Play Fun Trivia Quiz Questions",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3127,7 +3126,8 @@
                     "textColor2": "09345d",
                     "textColor3": "654b74",
                     "textColor4": "3a5d7d"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -3147,8 +3147,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738716599638,
-                "MZ_INDEXER": 1739533985509
+                "MZ_INDEXER": 1739533985509,
+                "RTCI": 1738716599638
             }
         },
         "supportsArcade": false,
@@ -3229,8 +3229,8 @@
                 "releaseDate": "2011-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.distinctdev.tmt2",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3246,7 +3246,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -3279,6 +3278,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3300,8 +3300,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361298247,
-                "MZ_INDEXER": 1739513104797
+                "MZ_INDEXER": 1739513104797,
+                "RTCI": 1731361298247
             }
         },
         "supportsArcade": false,
@@ -3340,8 +3340,8 @@
             ],
             "ariaLabelForRatings": "星 3.9 個"
         },
-        "name": "クラシック音楽の有名な作曲家 - 肖像画クイズ",
         "genreDisplayName": "ゲーム",
+        "name": "クラシック音楽の有名な作曲家 - 肖像画クイズ",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Andrey Solovyev",
@@ -3381,8 +3381,8 @@
                 "releaseDate": "2017-03-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.asmolgam.composers",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3397,6 +3397,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "brandLogo": {
                         "width": 1080,
@@ -3409,7 +3410,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3432,8 +3432,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731353413154,
-                "MZ_INDEXER": 1739502760828
+                "MZ_INDEXER": 1739502760828,
+                "RTCI": 1731353413154
             }
         },
         "supportsArcade": false,
@@ -3530,10 +3530,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "accelerometer arm64 gamekit opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -3566,6 +3565,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "ウォッチの脳トレーニングゲーム",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -3598,8 +3598,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731368948413,
-                "MZ_INDEXER": 1739548581299
+                "MZ_INDEXER": 1739548581299,
+                "RTCI": 1731368948413
             }
         },
         "supportsArcade": false,
@@ -3638,11 +3638,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "ファミリー",
         "name": "Conni ABC",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Carlsen Verlag GmbH",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3679,8 +3679,8 @@
                 "releaseDate": "2011-02-01",
                 "hasInAppPurchases": false,
                 "bundleId": "de.carlsen.connibuchstaben",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3695,7 +3695,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -3728,6 +3727,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3749,8 +3749,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731377152255,
-                "MZ_INDEXER": 1739537908359
+                "MZ_INDEXER": 1739537908359,
+                "RTCI": 1731377152255
             }
         },
         "supportsArcade": false,
@@ -3830,8 +3830,8 @@
                 "releaseDate": "2011-11-01",
                 "hasInAppPurchases": false,
                 "bundleId": "de.bbg.Einstein",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3848,7 +3848,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -3881,6 +3880,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3902,8 +3902,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731378092996,
-                "MZ_INDEXER": 1739546196766
+                "MZ_INDEXER": 1739546196766,
+                "RTCI": 1731378092996
             }
         },
         "supportsArcade": false,
@@ -3945,8 +3945,8 @@
         "name": "Sudoku Institute",
         "genreDisplayName": "パズル",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "大胜 纪",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3997,9 +3997,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "accelerometer arm64 opengles-1 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -4032,7 +4033,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4054,8 +4054,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731380831895,
-                "MZ_INDEXER": 1739483053310
+                "MZ_INDEXER": 1739916186764,
+                "RTCI": 1731380831895
             }
         },
         "supportsArcade": false,
@@ -4097,8 +4097,8 @@
         "genreDisplayName": "ゲーム",
         "name": "日本の都道府県：クイズ",
         "isPreorder": false,
-        "artistName": "Andrey Solovyev",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Andrey Solovyev",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4152,7 +4152,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "brandLogo": {
                         "width": 1080,
@@ -4165,6 +4164,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "首都、フラグや日本地図上の位置についてのクイズ",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4187,8 +4187,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955473256,
-                "MZ_INDEXER": 1739496724944
+                "MZ_INDEXER": 1739496724944,
+                "RTCI": 1738955473256
             }
         },
         "supportsArcade": false,
@@ -4234,8 +4234,8 @@
         "name": "脱出ゲーム ボスサイズ",
         "genreDisplayName": "パズル",
         "isPreorder": false,
-        "artistName": "Yukihiro Hozumi",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Yukihiro Hozumi",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4267,8 +4267,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2024-04-28",
                 "hasInAppPurchases": false,
                 "bundleId": "jp.hozdesign.BOTHGAMES",
@@ -4286,11 +4286,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -4323,6 +4322,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "2つの脱出ゲーム「あやかし」と「ある日」",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4345,8 +4345,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373903498,
-                "MZ_INDEXER": 1739506470310
+                "MZ_INDEXER": 1739506470310,
+                "RTCI": 1731373903498
             }
         },
         "supportsArcade": false,
@@ -4386,11 +4386,11 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.3",
-        "genreDisplayName": "ボード",
         "name": "Clever 4Ever",
+        "genreDisplayName": "ボード",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "BrettspielWelt",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4441,8 +4441,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4476,8 +4476,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4499,8 +4499,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957589581,
-                "MZ_INDEXER": 1739539093253
+                "MZ_INDEXER": 1739539093253,
+                "RTCI": 1738957589581
             }
         },
         "supportsArcade": false,
@@ -4575,8 +4575,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-07-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.smnl.GeoGame",
@@ -4594,9 +4594,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -4629,7 +4630,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4652,8 +4652,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731360959857,
-                "MZ_INDEXER": 1739780220244
+                "MZ_INDEXER": 1739780220244,
+                "RTCI": 1731360959857
             }
         },
         "supportsArcade": false,
@@ -4734,8 +4734,8 @@
                 "releaseDate": "2010-12-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.thebinaryfamily.iphone.knowledgetrainer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4751,6 +4751,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "brandLogo": {
                         "width": 1080,
@@ -4763,7 +4764,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4786,8 +4786,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1734992973317,
-                "MZ_INDEXER": 1739487544824
+                "MZ_INDEXER": 1739921649509,
+                "RTCI": 1734992973317
             }
         },
         "supportsArcade": false,
@@ -4867,8 +4867,8 @@
                 "releaseDate": "2011-12-07",
                 "hasInAppPurchases": false,
                 "bundleId": "Impulse-Innovations.Game-Buzzer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4885,7 +4885,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -4918,6 +4917,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4939,8 +4939,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731355665487,
-                "MZ_INDEXER": 1739545608279
+                "MZ_INDEXER": 1739928947017,
+                "RTCI": 1731355665487
             }
         },
         "supportsArcade": false,
@@ -4979,8 +4979,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "ファミリー",
         "name": "Conni Rechnen 1-100",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
         "artistName": "Carlsen Verlag GmbH",
         "isIOSBinaryMacOSCompatible": true,
@@ -5015,8 +5015,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-08-08",
                 "hasInAppPurchases": false,
                 "bundleId": "de.carlsen.conni.Rechnen",
@@ -5036,7 +5036,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -5079,6 +5078,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5100,8 +5100,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738707400486,
-                "MZ_INDEXER": 1739532724176
+                "MZ_INDEXER": 1739532724176,
+                "RTCI": 1738707400486
             }
         },
         "supportsArcade": false,
@@ -5143,8 +5143,8 @@
         "name": "Country Quiz",
         "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Piet Jonas",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5195,9 +5195,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -5230,8 +5232,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5253,8 +5253,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731379765490,
-                "MZ_INDEXER": 1739523146799
+                "MZ_INDEXER": 1739523146799,
+                "RTCI": 1731379765490
             }
         },
         "supportsArcade": false,
@@ -5293,11 +5293,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "ボード",
         "name": "Cahoots - The Card Game",
+        "genreDisplayName": "ボード",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "BrettspielWelt",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5347,10 +5347,11 @@
                     "textColor4": "cac223"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -5383,7 +5384,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5405,8 +5405,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739511254037,
-                "MZ_INDEXER": 1739837049055
+                "MZ_INDEXER": 1739837049055,
+                "RTCI": 1739511254037
             }
         },
         "supportsArcade": false,
@@ -5445,8 +5445,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Kamisado",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Scorpius Forge GmbH",
         "isIOSBinaryMacOSCompatible": true,
@@ -5481,8 +5481,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-03-24",
                 "hasInAppPurchases": false,
                 "bundleId": "com.scorpiusforge.kamisado",
@@ -5503,8 +5503,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -5537,6 +5535,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5558,8 +5558,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731379226659,
-                "MZ_INDEXER": 1739537861114
+                "MZ_INDEXER": 1739537861114,
+                "RTCI": 1731379226659
             }
         },
         "supportsArcade": false,
@@ -5601,8 +5601,8 @@
         "name": "The fabulous Animal Playground",
         "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "artistName": "Jan Essig",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Jan Essig",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5634,8 +5634,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-10-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.essig.spielplatzhd",
@@ -5653,10 +5653,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -5699,6 +5698,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5720,8 +5720,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738707402563,
-                "MZ_INDEXER": 1739497384572
+                "MZ_INDEXER": 1739497384572,
+                "RTCI": 1738707402563
             }
         },
         "supportsArcade": false,
@@ -5763,8 +5763,8 @@
         "name": "State Quiz",
         "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Piet Jonas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5796,8 +5796,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2008-10-31",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.StateQuiz",
@@ -5815,11 +5815,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -5852,6 +5851,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5873,8 +5873,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361343246,
-                "MZ_INDEXER": 1739488972613
+                "MZ_INDEXER": 1739488972613,
+                "RTCI": 1731361343246
             }
         },
         "supportsArcade": false,
@@ -5917,8 +5917,8 @@
         "genreDisplayName": "ボード",
         "name": "Blätterrauschen",
         "isPreorder": false,
-        "artistName": "BrettspielWelt",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "BrettspielWelt",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5950,13 +5950,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2021-11-25",
                 "hasInAppPurchases": false,
                 "bundleId": "de.brettspielwelt.blaetterrauschen",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5968,11 +5968,10 @@
                     "textColor4": "374936"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -6005,6 +6004,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6026,8 +6026,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738953868827,
-                "MZ_INDEXER": 1739527652348
+                "MZ_INDEXER": 1739527652348,
+                "RTCI": 1738953868827
             }
         },
         "supportsArcade": false,
@@ -6069,8 +6069,8 @@
         "genreDisplayName": "カジュアル",
         "name": "円周率数字記憶ゲーム (は広告ません)",
         "isPreorder": false,
-        "artistName": "Peter Li",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Peter Li",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6102,13 +6102,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-11-10",
                 "hasInAppPurchases": false,
                 "bundleId": "apptato.game.pifull",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6121,11 +6121,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -6158,6 +6157,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "1000 円周率の数字を記憶する",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6180,8 +6180,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361854897,
-                "MZ_INDEXER": 1739532417196
+                "MZ_INDEXER": 1739532417196,
+                "RTCI": 1731361854897
             }
         },
         "supportsArcade": false,
@@ -6220,11 +6220,11 @@
             ],
             "ariaLabelForRatings": "星 3.5 個"
         },
-        "genreDisplayName": "ゲーム",
         "name": "世界の鳥 - 地球の有名な鳥のクイズ",
+        "genreDisplayName": "ゲーム",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Andrey Solovyev",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6256,8 +6256,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-02-09",
                 "hasInAppPurchases": true,
                 "bundleId": "com.asmolgam.birds",
@@ -6277,8 +6277,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "brandLogo": {
                         "width": 1080,
@@ -6291,6 +6289,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6312,8 +6312,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1734531239668,
-                "MZ_INDEXER": 1739490659223
+                "MZ_INDEXER": 1739490659223,
+                "RTCI": 1734531239668
             }
         },
         "supportsArcade": false,
@@ -6355,8 +6355,8 @@
         "genreDisplayName": "トリビア",
         "name": "魔法の眼立体クイズ",
         "isPreorder": false,
-        "artistName": "Alexander Mokrushin",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Alexander Mokrushin",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6388,13 +6388,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-11-20",
                 "hasInAppPurchases": false,
                 "bundleId": "alex.mokrushin.magiceyequiz",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6406,10 +6406,9 @@
                     "textColor4": "b8d181"
                 },
                 "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -6442,6 +6441,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6463,8 +6463,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1735107787967,
-                "MZ_INDEXER": 1739483750083
+                "MZ_INDEXER": 1739906762885,
+                "RTCI": 1735107787967
             }
         },
         "supportsArcade": false,
@@ -6544,8 +6544,8 @@
                 "releaseDate": "2024-08-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.feeJoshiki",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6561,6 +6561,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -6593,7 +6594,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "あなたの「常識力」を診断！",
                 "hasSafariExtension": false,
@@ -6617,8 +6617,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731355550932,
-                "MZ_INDEXER": 1739517364042
+                "MZ_INDEXER": 1739517364042,
+                "RTCI": 1731355550932
             }
         },
         "supportsArcade": false,
@@ -6667,8 +6667,8 @@
             ],
             "ariaLabelForRatings": "星 4.0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Interrogation: Deceived",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Assemble Entertainment",
         "isIOSBinaryMacOSCompatible": true,
@@ -6703,8 +6703,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2020-03-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.mixtvision.interrogation",
@@ -6725,8 +6725,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -6759,6 +6757,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6780,8 +6780,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738962209297,
-                "MZ_INDEXER": 1739496066419
+                "MZ_INDEXER": 1739496066419,
+                "RTCI": 1738962209297
             }
         },
         "supportsArcade": false,
@@ -6860,8 +6860,8 @@
                 "releaseDate": "2014-05-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.cscexams.com",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6877,6 +6877,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -6909,7 +6910,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6932,8 +6932,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738955710103,
-                "MZ_INDEXER": 1739504082101
+                "MZ_INDEXER": 1739504082101,
+                "RTCI": 1738955710103
             }
         },
         "supportsArcade": false,
@@ -7013,8 +7013,8 @@
                 "releaseDate": "2019-06-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.crevasse.cessabit",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7030,6 +7030,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -7072,7 +7073,6 @@
                         "textColor4": "2e2e2e"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "ミニマリスト",
                 "hasSafariExtension": false,
@@ -7096,8 +7096,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357236540,
-                "MZ_INDEXER": 1739524257190
+                "MZ_INDEXER": 1739524257190,
+                "RTCI": 1731357236540
             }
         },
         "supportsArcade": false,
@@ -7136,11 +7136,11 @@
             ],
             "ariaLabelForRatings": "星 4.5 個"
         },
-        "genreDisplayName": "単語",
         "name": "Subwords: Word Game & Trivia",
+        "genreDisplayName": "単語",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Klemens Strasser",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7191,8 +7191,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -7258,8 +7258,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731372473375,
-                "MZ_INDEXER": 1739510623575
+                "MZ_INDEXER": 1739510623575,
+                "RTCI": 1731372473375
             }
         },
         "supportsArcade": false,
@@ -7341,8 +7341,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-11-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jackboxgames.tjpp3.os",
@@ -7360,10 +7360,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -7436,7 +7436,7 @@
                         "textColor4": "a4a4a4"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7458,8 +7458,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354756577,
-                "MZ_INDEXER": 1739538582812
+                "MZ_INDEXER": 1739538582812,
+                "RTCI": 1731354756577
             }
         },
         "supportsArcade": false,
@@ -7502,11 +7502,11 @@
             ],
             "ariaLabelForRatings": "星 1.0 個"
         },
-        "genreDisplayName": "ファミリー",
         "name": "The Jackbox Party Pack",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Jackbox Games, Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7557,10 +7557,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -7633,6 +7632,7 @@
                         "textColor4": "b7cceb"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7655,8 +7655,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738707411421,
-                "MZ_INDEXER": 1739512838797
+                "MZ_INDEXER": 1739512838797,
+                "RTCI": 1738707411421
             }
         },
         "supportsArcade": false,
@@ -7696,8 +7696,8 @@
         "name": "Capital Quiz HD",
         "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Piet Jonas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7729,8 +7729,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.CapitalQuizPad",
@@ -7747,11 +7747,10 @@
                     "textColor4": "d8640c"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -7784,6 +7783,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7805,8 +7805,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731367435897,
-                "MZ_INDEXER": 1739490237472
+                "MZ_INDEXER": 1739490237472,
+                "RTCI": 1731367435897
             }
         },
         "supportsArcade": false,
@@ -7848,8 +7848,8 @@
         "genreDisplayName": "トリビア",
         "name": "キッズ車の男の子のためのゲームや女の子6歳未満",
         "isPreorder": false,
-        "artistName": "Istvan Kiss",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Istvan Kiss",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7903,7 +7903,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -7936,6 +7935,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "6歳、サウンド、パズルとマッチングおもちゃの下で幼児のための",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7958,8 +7958,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738962209102,
-                "MZ_INDEXER": 1739490544324
+                "MZ_INDEXER": 1739490544324,
+                "RTCI": 1738962209102
             }
         },
         "supportsArcade": false,
@@ -7997,11 +7997,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "LET Exams - Philippines",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jovito Jr. Auza",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8052,8 +8052,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8087,8 +8087,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8110,8 +8110,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737559271353,
-                "MZ_INDEXER": 1739531596541
+                "MZ_INDEXER": 1739531596541,
+                "RTCI": 1737559271353
             }
         },
         "supportsArcade": false,
@@ -8150,11 +8150,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "ファミリー",
         "name": "Toddler puzzle games full",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kids Academy Co apps: Preschool & Kindergarten Learning Kids Games, Educational Books, Free Songs",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8204,9 +8204,11 @@
                     "textColor4": "143219"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -8239,8 +8241,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8262,8 +8262,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731362935573,
-                "MZ_INDEXER": 1739548026299
+                "MZ_INDEXER": 1739924217597,
+                "RTCI": 1731362935573
             }
         },
         "supportsArcade": false,
@@ -8344,8 +8344,8 @@
                 "releaseDate": "2014-01-31",
                 "hasInAppPurchases": true,
                 "bundleId": "com.mobilemillionaire.qvgdm2014",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8361,7 +8361,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -8404,7 +8404,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8426,8 +8426,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951335188,
-                "MZ_INDEXER": 1739493297851
+                "MZ_INDEXER": 1739493297851,
+                "RTCI": 1738951335188
             }
         },
         "supportsArcade": false,
@@ -8465,11 +8465,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Arabic Alphabet Game",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Zeshan Bilal",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8520,8 +8520,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8555,8 +8555,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8578,8 +8578,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738707429840,
-                "MZ_INDEXER": 1739531003422
+                "MZ_INDEXER": 1739531003422,
+                "RTCI": 1738707429840
             }
         },
         "supportsArcade": false,
@@ -8619,8 +8619,8 @@
         "name": "Country Quiz HD",
         "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "artistName": "Piet Jonas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Piet Jonas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8652,8 +8652,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": false,
                 "bundleId": "com.speedymarks.apps.CountryQuizPad",
@@ -8671,11 +8671,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -8708,6 +8707,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8729,8 +8729,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738967540007,
-                "MZ_INDEXER": 1739491474704
+                "MZ_INDEXER": 1739491474704,
+                "RTCI": 1738967540007
             }
         },
         "supportsArcade": false,
@@ -8811,8 +8811,8 @@
                 "releaseDate": "2016-12-27",
                 "hasInAppPurchases": false,
                 "bundleId": "com.chaos.engapppro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8828,7 +8828,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -8861,7 +8861,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8883,8 +8883,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737559271338,
-                "MZ_INDEXER": 1739539993459
+                "MZ_INDEXER": 1739539993459,
+                "RTCI": 1737559271338
             }
         },
         "supportsArcade": false,
@@ -8923,11 +8923,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "ファミリー",
         "name": "Puzzle games for toddlers full",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "artistName": "Kids Academy Co apps: Preschool & Kindergarten Learning Kids Games, Educational Books, Free Songs",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Kids Academy Co apps: Preschool & Kindergarten Learning Kids Games, Educational Books, Free Songs",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8980,7 +8980,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -9013,6 +9012,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9034,8 +9034,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1739492732785,
-                "MZ_INDEXER": 1739505067076
+                "MZ_INDEXER": 1739505067076,
+                "RTCI": 1739492732785
             }
         },
         "supportsArcade": false,
@@ -9080,8 +9080,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "単語",
         "name": "Phrase Party! — Guess Phrases",
+        "genreDisplayName": "単語",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": false,
         "artistName": "logan sease",
@@ -9116,8 +9116,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-03-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.dev.games.phraseparty.main",
@@ -9135,9 +9135,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -9170,7 +9171,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -9193,8 +9193,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731361125290,
-                "MZ_INDEXER": 1739550712047
+                "MZ_INDEXER": 1739550712047,
+                "RTCI": 1731361125290
             }
         },
         "supportsArcade": false,
@@ -9240,11 +9240,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "The Jackbox Party Pack 6",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Jackbox Games, Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9295,10 +9295,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -9351,7 +9352,6 @@
                         "textColor4": "482f3c"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9373,8 +9373,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731351368425,
-                "MZ_INDEXER": 1739527786384
+                "MZ_INDEXER": 1739527786384,
+                "RTCI": 1731351368425
             }
         },
         "supportsArcade": false,
@@ -9418,8 +9418,8 @@
             ],
             "ariaLabelForRatings": "星 1.0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "The Jackbox Party Pack 5",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Jackbox Games, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -9473,11 +9473,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -9530,6 +9528,8 @@
                         "textColor4": "6f98ae"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9551,8 +9551,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731379354270,
-                "MZ_INDEXER": 1739535412774
+                "MZ_INDEXER": 1739535412774,
+                "RTCI": 1731379354270
             }
         },
         "supportsArcade": false,
@@ -9595,11 +9595,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "The Jackbox Party Pack 4",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "artistName": "Jackbox Games, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Jackbox Games, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9654,7 +9654,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -9737,6 +9736,7 @@
                         "textColor4": "3e3f3d"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9758,8 +9758,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731358253728,
-                "MZ_INDEXER": 1739551533064
+                "MZ_INDEXER": 1739930865203,
+                "RTCI": 1731358253728
             }
         },
         "supportsArcade": false,
@@ -9839,8 +9839,8 @@
                 "releaseDate": "2014-03-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.essig.feiertag",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9920,8 +9920,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738962208930,
-                "MZ_INDEXER": 1739542512520
+                "MZ_INDEXER": 1739542512520,
+                "RTCI": 1738962208930
             }
         },
         "supportsArcade": false,
@@ -9959,11 +9959,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "LTO Driver's License Exam Test",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Jovito Jr. Auza",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10014,10 +10014,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -10050,7 +10051,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10072,8 +10072,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731360183510,
-                "MZ_INDEXER": 1739542550087
+                "MZ_INDEXER": 1739542550087,
+                "RTCI": 1731360183510
             }
         },
         "supportsArcade": false,
@@ -10112,8 +10112,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "ファミリー",
         "name": "Conni Weihnachten",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
         "artistName": "Carlsen Verlag GmbH",
         "isIOSBinaryMacOSCompatible": true,
@@ -10153,8 +10153,6 @@
                 "releaseDate": "2011-11-17",
                 "hasInAppPurchases": false,
                 "bundleId": "de.carlsen.conni.Weihnachten",
-                "hasMessagesExtension": true,
-                "isStandaloneWithCompanionForWatchOS": false,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -10165,6 +10163,8 @@
                     "textColor3": "332702",
                     "textColor4": "62310c"
                 },
+                "hasMessagesExtension": true,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10176,10 +10176,9 @@
                     "textColor4": "514204"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -10222,6 +10221,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10243,8 +10243,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731366638027,
-                "MZ_INDEXER": 1739546840882
+                "MZ_INDEXER": 1739932643631,
+                "RTCI": 1731366638027
             }
         },
         "supportsArcade": false,
@@ -10284,8 +10284,8 @@
             "ariaLabelForRatings": "星 1.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.4.1",
-        "genreDisplayName": "トリビア",
         "name": "iSong Quiz",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Imesart S.a.r.l.",
         "isIOSBinaryMacOSCompatible": true,
@@ -10320,8 +10320,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.imesart.iSongQuiz",
@@ -10342,8 +10342,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -10397,8 +10397,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364293328,
-                "MZ_INDEXER": 1739546679364
+                "MZ_INDEXER": 1739922294282,
+                "RTCI": 1731364293328
             }
         },
         "supportsArcade": false,
@@ -10441,8 +10441,8 @@
         "genreDisplayName": "ボード",
         "name": "Clever Mixed",
         "isPreorder": false,
-        "artistName": "BrettspielWelt",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "BrettspielWelt",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10497,7 +10497,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 752,
@@ -10530,6 +10529,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10551,8 +10551,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738966689046,
-                "MZ_INDEXER": 1739546934730
+                "MZ_INDEXER": 1739546934730,
+                "RTCI": 1738966689046
             }
         },
         "supportsArcade": false,
@@ -10591,11 +10591,11 @@
             ],
             "ariaLabelForRatings": "星 5.0 個"
         },
-        "genreDisplayName": "カジュアル",
         "name": "日本史年号グリッド",
+        "genreDisplayName": "カジュアル",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Masahiko Furuta",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10646,9 +10646,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -10681,8 +10683,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "年号200個を覚えるゲーム",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -10705,8 +10705,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731370731678,
-                "MZ_INDEXER": 1739523085525
+                "MZ_INDEXER": 1739523085525,
+                "RTCI": 1731370731678
             }
         },
         "supportsArcade": false,
@@ -10807,11 +10807,11 @@
                     "textColor4": "a98847"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -10865,8 +10865,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731362076848,
-                "MZ_INDEXER": 1739536150131
+                "MZ_INDEXER": 1739536150131,
+                "RTCI": 1731362076848
             }
         },
         "supportsArcade": false,
@@ -10907,11 +10907,11 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "watchBundleId": "at.klemensstrasser.Elementary-Minute.watchkitapp",
-        "genreDisplayName": "トリビア",
         "name": "Elementary Minute",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Klemens Strasser",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -10949,8 +10949,8 @@
                 "releaseDate": "2014-12-01",
                 "hasInAppPurchases": false,
                 "bundleId": "at.klemensstrasser.Elementary-Minute",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10966,7 +10966,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -11010,7 +11010,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "circularArtwork": {
                     "width": 1024,
@@ -11042,8 +11042,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731376583624,
-                "MZ_INDEXER": 1739519996203
+                "MZ_INDEXER": 1739519996203,
+                "RTCI": 1731376583624
             }
         },
         "supportsArcade": false,
@@ -11123,8 +11123,8 @@
                 "releaseDate": "2014-07-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.asmolgam.operas",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11140,7 +11140,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -11173,6 +11172,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11194,8 +11194,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738954946712,
-                "MZ_INDEXER": 1739548139096
+                "MZ_INDEXER": 1739548139096,
+                "RTCI": 1738954946712
             }
         },
         "supportsArcade": false,
@@ -11234,11 +11234,11 @@
             ],
             "ariaLabelForRatings": "星 4.0 個"
         },
-        "genreDisplayName": "ミュージック",
         "name": "Music Quiz: Know Your Library?",
+        "genreDisplayName": "ミュージック",
         "isPreorder": false,
-        "artistName": "Zach McGaughey",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Zach McGaughey",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11270,8 +11270,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-05-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.zachmcgaughey.Music-Quiz",
@@ -11289,11 +11289,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -11326,6 +11325,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11347,8 +11347,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738962209095,
-                "MZ_INDEXER": 1739510703739
+                "MZ_INDEXER": 1739510703739,
+                "RTCI": 1738962209095
             }
         },
         "supportsArcade": false,
@@ -11386,8 +11386,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Panyero - Philippine Law Quiz",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Jovito Jr. Auza",
         "isIOSBinaryMacOSCompatible": true,
@@ -11422,8 +11422,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "13.3",
                 "requires32bit": false,
+                "minimumMacOSVersion": "13.3",
                 "releaseDate": "2013-09-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.philippinelawquiz.com",
@@ -11444,8 +11444,8 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -11499,8 +11499,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738952891557,
-                "MZ_INDEXER": 1739533328783
+                "MZ_INDEXER": 1739533328783,
+                "RTCI": 1738952891557
             }
         },
         "supportsArcade": false,
@@ -11539,11 +11539,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Миллионер викторина PRO",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Dimitri Herber",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11594,8 +11594,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11629,8 +11629,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11652,8 +11652,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731382642076,
-                "MZ_INDEXER": 1739541436306
+                "MZ_INDEXER": 1739541436306,
+                "RTCI": 1731382642076
             }
         },
         "supportsArcade": false,
@@ -11692,11 +11692,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "ファミリー",
         "name": "Conni Memo",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Carlsen Verlag GmbH",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11728,8 +11728,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-04-19",
                 "hasInAppPurchases": false,
                 "bundleId": "de.carlsen.conni.memo",
@@ -11803,8 +11803,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1733330866754,
-                "MZ_INDEXER": 1739551042143
+                "MZ_INDEXER": 1739929417314,
+                "RTCI": 1733330866754
             }
         },
         "supportsArcade": false,
@@ -11844,11 +11844,11 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.4.0",
-        "genreDisplayName": "ファミリー",
         "name": "The Questions Game",
+        "genreDisplayName": "ファミリー",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Thirteen32 Pty Ltd",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11899,10 +11899,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -11935,6 +11934,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11957,8 +11957,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738707402560,
-                "MZ_INDEXER": 1739506998887
+                "MZ_INDEXER": 1739506998887,
+                "RTCI": 1738707402560
             }
         },
         "supportsArcade": false,
@@ -11997,11 +11997,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Capital Quiz",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Piet Jonas",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12052,10 +12052,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -12088,7 +12089,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12110,8 +12110,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731359422335,
-                "MZ_INDEXER": 1739485696580
+                "MZ_INDEXER": 1739916700567,
+                "RTCI": 1731359422335
             }
         },
         "supportsArcade": false,
@@ -12151,8 +12151,8 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.1",
-        "genreDisplayName": "トリビア",
         "name": "世界の地理 Pro",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Horea Bucerzan",
@@ -12210,7 +12210,6 @@
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -12243,6 +12242,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "地理を学ぶ",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12265,8 +12265,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731352904080,
-                "MZ_INDEXER": 1739840256186
+                "MZ_INDEXER": 1739840256186,
+                "RTCI": 1731352904080
             }
         },
         "supportsArcade": false,
@@ -12305,11 +12305,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "ミュージック",
         "name": "Perfect Pitch.",
+        "genreDisplayName": "ミュージック",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Pavel Aristov",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12360,9 +12360,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 952,
@@ -12395,7 +12396,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12417,8 +12417,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731372162802,
-                "MZ_INDEXER": 1739549043053
+                "MZ_INDEXER": 1739549043053,
+                "RTCI": 1731372162802
             }
         },
         "supportsArcade": false,
@@ -12462,8 +12462,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "The Jackbox Party Pack 2",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Jackbox Games, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -12498,8 +12498,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-03-15",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jackboxgames.tjpp2.os",
@@ -12520,8 +12520,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -12594,6 +12592,8 @@
                         "textColor4": "474747"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -12615,8 +12615,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731372219886,
-                "MZ_INDEXER": 1739535410777
+                "MZ_INDEXER": 1739535410777,
+                "RTCI": 1731372219886
             }
         },
         "supportsArcade": false,
@@ -12655,8 +12655,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "カジュアル",
         "name": "海の世界：子供のイルカのゲーム",
+        "genreDisplayName": "カジュアル",
         "isPreorder": false,
         "artistName": "Istvan Kiss",
         "isIOSBinaryMacOSCompatible": true,
@@ -12691,8 +12691,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-03-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.appsmoment.DolphingameiOSPAID",
@@ -12768,8 +12768,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737554627744,
-                "MZ_INDEXER": 1739486506450
+                "MZ_INDEXER": 1739907508472,
+                "RTCI": 1737554627744
             }
         },
         "supportsArcade": false,
@@ -12863,11 +12863,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -12921,8 +12921,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738956493726,
-                "MZ_INDEXER": 1739498859208
+                "MZ_INDEXER": 1739498859208,
+                "RTCI": 1738956493726
             }
         },
         "supportsArcade": false,
@@ -12964,8 +12964,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Majotori",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Alvaro Mahillo Sanchez-Mateos",
         "isIOSBinaryMacOSCompatible": true,
@@ -13000,8 +13000,8 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-03-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.Majorariatto.Majotori",
@@ -13022,8 +13022,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -13066,6 +13064,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13087,8 +13087,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731352294887,
-                "MZ_INDEXER": 1739540245178
+                "MZ_INDEXER": 1739540245178,
+                "RTCI": 1731352294887
             }
         },
         "supportsArcade": false,
@@ -13128,11 +13128,11 @@
             "ariaLabelForRatings": "星 5.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.2",
-        "genreDisplayName": "単語",
         "name": "Word²",
+        "genreDisplayName": "単語",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "BorderLeap",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13182,8 +13182,8 @@
                     "textColor4": "1f2f3f"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13227,8 +13227,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13250,8 +13250,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1737554627756,
-                "MZ_INDEXER": 1739503697650
+                "MZ_INDEXER": 1739503697650,
+                "RTCI": 1737554627756
             }
         },
         "supportsArcade": false,
@@ -13345,11 +13345,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1098,
@@ -13403,8 +13403,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731379610627,
-                "MZ_INDEXER": 1739484150715
+                "MZ_INDEXER": 1739907596278,
+                "RTCI": 1731379610627
             }
         },
         "supportsArcade": false,
@@ -13443,8 +13443,8 @@
             ],
             "ariaLabelForRatings": "星 4.6 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "アフリカの国 - フラグ、首都、地図 - クイズ",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Andrey Solovyev",
@@ -13479,8 +13479,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-05-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.asmolgam.africa",
@@ -13497,10 +13497,10 @@
                     "textColor4": "eea301"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -13533,7 +13533,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13555,8 +13555,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731375447692,
-                "MZ_INDEXER": 1739491070032
+                "MZ_INDEXER": 1739491070032,
+                "RTCI": 1731375447692
             }
         },
         "supportsArcade": false,
@@ -13595,11 +13595,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "単語",
         "name": "City Names: Word Chain Game",
+        "genreDisplayName": "単語",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Vladislav Kovalyov",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13650,10 +13650,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -13686,6 +13685,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -13708,8 +13708,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731354975384,
-                "MZ_INDEXER": 1739518066321
+                "MZ_INDEXER": 1739518066321,
+                "RTCI": 1731354975384
             }
         },
         "supportsArcade": false,
@@ -13803,10 +13803,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -13839,6 +13838,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13860,8 +13860,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731357571000,
-                "MZ_INDEXER": 1739830125212
+                "MZ_INDEXER": 1739830125212,
+                "RTCI": 1731357571000
             }
         },
         "supportsArcade": false,
@@ -13900,8 +13900,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Vismory",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
         "artistName": "Pascal Mermoz",
         "isIOSBinaryMacOSCompatible": true,
@@ -13936,13 +13936,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-12-21",
                 "hasInAppPurchases": false,
                 "bundleId": "net.mermoz.VisualMemory",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13955,11 +13955,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "gamekit ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -13992,6 +13991,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14013,8 +14013,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738957905707,
-                "MZ_INDEXER": 1739503197604
+                "MZ_INDEXER": 1739503197604,
+                "RTCI": 1738957905707
             }
         },
         "supportsArcade": false,
@@ -14053,11 +14053,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "Office Trivia Quiz",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "jakechasan.com",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14108,8 +14108,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "gamekit ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14143,8 +14143,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14166,8 +14166,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1735813070088,
-                "MZ_INDEXER": 1739507786817
+                "MZ_INDEXER": 1739507786817,
+                "RTCI": 1735813070088
             }
         },
         "supportsArcade": false,
@@ -14212,8 +14212,8 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "単語",
         "name": "Word Fill - Fill in puzzles",
+        "genreDisplayName": "単語",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Algoritmico Ltd",
@@ -14248,8 +14248,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "13.0",
+                "requires32bit": false,
                 "releaseDate": "2011-07-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.algoritmico.ios.Word-Fill",
@@ -14267,10 +14267,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -14303,7 +14303,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14325,8 +14325,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731352492690,
-                "MZ_INDEXER": 1739495748791
+                "MZ_INDEXER": 1739495748791,
+                "RTCI": 1731352492690
             }
         },
         "supportsArcade": false,
@@ -14401,8 +14401,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-09-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.965studios.dumdumbpaid",
@@ -14420,9 +14420,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1248,
@@ -14455,7 +14456,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14478,8 +14478,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1734393280239,
-                "MZ_INDEXER": 1739507604441
+                "MZ_INDEXER": 1739507604441,
+                "RTCI": 1734393280239
             }
         },
         "supportsArcade": false,
@@ -14523,11 +14523,11 @@
             ],
             "ariaLabelForRatings": "星 0 個"
         },
-        "genreDisplayName": "トリビア",
         "name": "The Jackbox Survey Scramble",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Jackbox Games, Inc.",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14577,10 +14577,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -14613,6 +14612,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -14635,8 +14635,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1734772714569,
-                "MZ_INDEXER": 1739527161641
+                "MZ_INDEXER": 1739527161641,
+                "RTCI": 1734772714569
             }
         },
         "supportsArcade": false,
@@ -14716,8 +14716,8 @@
                 "releaseDate": "2023-12-19",
                 "hasInAppPurchases": false,
                 "bundleId": "com.JINAJU.MentalCalculationAbacusPro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14733,6 +14733,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -14765,7 +14766,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "暗算をプレイし、珠算を学ぶ",
                 "hasSafariExtension": false,
@@ -14789,8 +14789,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731356825555,
-                "MZ_INDEXER": 1739489295022
+                "MZ_INDEXER": 1739489295022,
+                "RTCI": 1731356825555
             }
         },
         "supportsArcade": false,
@@ -14875,8 +14875,8 @@
                 "releaseDate": "2022-10-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jackboxgames.tjpp9",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14892,6 +14892,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1446,
@@ -14944,7 +14945,6 @@
                         "textColor4": "3a263d"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "editorialNotes": {
@@ -14970,8 +14970,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1738951854828,
-                "MZ_INDEXER": 1739532710700
+                "MZ_INDEXER": 1739532710700,
+                "RTCI": 1738951854828
             }
         },
         "supportsArcade": false,
@@ -15064,11 +15064,9 @@
                     "textColor4": "b371ab"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -15101,6 +15099,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -15122,8 +15122,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731373307707,
-                "MZ_INDEXER": 1739540659066
+                "MZ_INDEXER": 1739540659066,
+                "RTCI": 1731373307707
             }
         },
         "supportsArcade": false,
@@ -15163,8 +15163,8 @@
             "ariaLabelForRatings": "星 5.0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.1.5",
-        "genreDisplayName": "パズル",
         "name": "Math Master IQ 数 学 ゲーム | クロスマス",
+        "genreDisplayName": "パズル",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "DivineCode Productions",
@@ -15199,8 +15199,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2021-10-06",
                 "hasInAppPurchases": true,
                 "bundleId": "com.divinecodeproductions.MathMaster2",
@@ -15218,9 +15218,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1354,
@@ -15253,7 +15254,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "subtitle": "毎 日 脳 トレ - 数学検定 | 数学の謎 | マッチ 棒",
                 "hasSafariExtension": false,
@@ -15277,8 +15277,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731371344377,
-                "MZ_INDEXER": 1739508644193
+                "MZ_INDEXER": 1739508644193,
+                "RTCI": 1731371344377
             }
         },
         "supportsArcade": false,
@@ -15317,11 +15317,11 @@
             ],
             "ariaLabelForRatings": "星 1.0 個"
         },
-        "name": "ポーカー ハンド クイズ",
         "genreDisplayName": "トリビア",
+        "name": "ポーカー ハンド クイズ",
         "isPreorder": false,
-        "artistName": "altaibayar tseveenbayar",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "altaibayar tseveenbayar",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15358,8 +15358,8 @@
                 "releaseDate": "2021-01-02",
                 "hasInAppPurchases": false,
                 "bundleId": "me.bayar.PokerTrainer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15376,7 +15376,6 @@
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -15409,6 +15408,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": true,
                 "subtitle": "ポーカークイズと確率",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15431,8 +15431,8 @@
         },
         "meta": {
             "contentVersion": {
-                "RTCI": 1731364679694,
-                "MZ_INDEXER": 1739521435615
+                "MZ_INDEXER": 1739521435615,
+                "RTCI": 1731364679694
             }
         },
         "supportsArcade": false,
@@ -15472,11 +15472,11 @@
             "ariaLabelForRatings": "星 0 個"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.1",
-        "genreDisplayName": "トリビア",
         "name": "歴史 Pro",
+        "genreDisplayName": "トリビア",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Horea Bucerzan",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15527,10 +15527,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
+                "minimumXROSVersion": "1.0",
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1154,
@@ -15563,7 +15564,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "世界の歴史",
                 "hasSafariExtension": false,
                 "requiresGameController": false

@@ -1,13 +1,13 @@
 [
     {
         "kind": "app",
-        "id": "1049254261",
+        "id": "1581312955",
         "type": "apps",
         "relationships": {
             "developer": {
                 "data": [
                     {
-                        "id": "303486870",
+                        "id": "391905315",
                         "type": "developers"
                     }
                 ]
@@ -15,8 +15,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739521903509,
-                "RTCI": 1737932308288
+                "MZ_INDEXER": 1739534953656,
+                "RTCI": 1738965279378
             }
         },
         "supportsArcade": false,
@@ -29,12 +29,14 @@
             }
         },
         "deviceFamilies": [
+            "mac",
             "iphone",
-            "ipad"
+            "ipad",
+            "ipod"
         ],
         "chartPositions": {
             "appStore": {
-                "position": 1,
+                "position": 52,
                 "genreName": "Developer Tools",
                 "genre": 6026,
                 "chart": "top-paid",
@@ -43,41 +45,41 @@
         },
         "supportsStreamlinedBuy": true,
         "userRating": {
-            "value": 4.7,
-            "ratingCount": 30,
+            "value": 0,
+            "ratingCount": 0,
             "ratingCountList": [
-                1,
                 0,
                 0,
-                4,
-                25
+                0,
+                0,
+                0
             ],
-            "ariaLabelForRatings": "4.7 stars"
+            "ariaLabelForRatings": "0 stars"
         },
-        "name": "Textastic Code Editor",
+        "name": "MermaidEditor",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Alexander Blach",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "基伟 徐",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=999000&salableAdamId=1049254261&pricingParameters=STDQ&pg=default&appExtVrsId=872024265",
+                        "buyParams": "productType=C&price=399000&salableAdamId=1581312955&pricingParameters=STDQ&pg=default&appExtVrsId=866211195",
                         "type": "buy",
-                        "priceFormatted": "₹ 999",
-                        "price": 999,
+                        "priceFormatted": "₹ 399",
+                        "price": 399,
                         "currencyCode": "INR",
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 22917120
+                                "size": 66359296
                             }
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=1049254261&pricingParameters=SWUPD&pg=default&appExtVrsId=872024265",
+                        "buyParams": "productType=C&price=0&salableAdamId=1581312955&pricingParameters=SWUPD&pg=default&appExtVrsId=866211195",
                         "type": "update",
                         "priceFormatted": "₹ 0",
                         "price": 0,
@@ -85,32 +87,31 @@
                         "assets": [
                             {
                                 "flavor": "iosSoftware",
-                                "size": 22917120
+                                "size": 66359296
                             }
                         ]
                     }
                 ],
                 "requires32bit": false,
-                "minimumMacOSVersion": "13.0",
-                "releaseDate": "2016-03-12",
+                "releaseDate": "2021-08-15",
                 "hasInAppPurchases": false,
-                "bundleId": "com.textasticapp.textastic-universal",
+                "bundleId": "com.tickplant.MermaidEditor",
                 "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/6d/a2/286da2d5-c629-b62f-83de-277fe00fae3c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "59c3f8",
-                    "textColor1": "070b14",
-                    "textColor2": "070b14",
-                    "textColor3": "183041",
-                    "textColor4": "183041"
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/21/82/57218228-e485-48d6-dc07-a7cf2ff304f7/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "140504",
+                    "textColor2": "140504",
+                    "textColor3": "433736",
+                    "textColor4": "433736"
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -146,7 +147,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "subtitle": "Text, Coding, SFTP Client, SSH",
+                "subtitle": "Write diagram on all devices",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -211,8 +212,8 @@
         "name": "Programming Notebook LITE",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Ryan Rudes",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Ryan Rudes",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -263,8 +264,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -301,6 +302,159 @@
                     }
                 },
                 "subtitle": "Code Editors For Programmers",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1049254261",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "303486870",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739521903509,
+                "RTCI": 1737932308288
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 1,
+                "genreName": "Developer Tools",
+                "genre": 6026,
+                "chart": "top-paid",
+                "genreShortName": "Dev Tools"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.7,
+            "ratingCount": 30,
+            "ratingCountList": [
+                1,
+                0,
+                0,
+                4,
+                25
+            ],
+            "ariaLabelForRatings": "4.7 stars"
+        },
+        "name": "Textastic Code Editor",
+        "genreDisplayName": "Developer Tools",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Alexander Blach",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=999000&salableAdamId=1049254261&pricingParameters=STDQ&pg=default&appExtVrsId=872024265",
+                        "type": "buy",
+                        "priceFormatted": "₹ 999",
+                        "price": 999,
+                        "currencyCode": "INR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 22917120
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1049254261&pricingParameters=SWUPD&pg=default&appExtVrsId=872024265",
+                        "type": "update",
+                        "priceFormatted": "₹ 0",
+                        "price": 0,
+                        "currencyCode": "INR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 22917120
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "13.0",
+                "releaseDate": "2016-03-12",
+                "hasInAppPurchases": false,
+                "bundleId": "com.textasticapp.textastic-universal",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/6d/a2/286da2d5-c629-b62f-83de-277fe00fae3c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "59c3f8",
+                    "textColor1": "070b14",
+                    "textColor2": "070b14",
+                    "textColor3": "183041",
+                    "textColor4": "183041"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1044,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/e1/3f/0de13fa1-5559-bd04-e331-2f28462b45e8/8443b5bd-2084-44d0-ab26-87afd140601b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1044,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/e1/28/52e12832-87a6-6c38-b241-480374608255/4125805d-2ebf-4f1f-900d-065fa62f81f8.png/{w}x{h}{c}.{f}",
+                        "bgColor": "0095ff",
+                        "textColor1": "00070c",
+                        "textColor2": "000f19",
+                        "textColor3": "00243d",
+                        "textColor4": "002a47"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/be/bb/fc/bebbfc47-98df-2708-064d-e75bfce80d00/792f12e0-ef1c-4dfb-a8f8-033cacffa077.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "Text, Coding, SFTP Client, SSH",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -366,8 +520,8 @@
         "name": "OpenTerm",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "逸鸣 赵",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "逸鸣 赵",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -418,8 +572,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -519,8 +673,8 @@
         "name": "Smart NFC",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Alec O'Connor",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Alec O'Connor",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -571,8 +725,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -630,7 +784,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739525451597,
+                "MZ_INDEXER": 1739908517709,
                 "RTCI": 1731365769259
             }
         },
@@ -672,8 +826,8 @@
         "name": "Code App",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "thebaselab Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "thebaselab Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -724,8 +878,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -827,8 +981,8 @@
         "name": "WiFi Home Automation",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Gopi Gadhiya",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Gopi Gadhiya",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -878,8 +1032,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -980,8 +1134,8 @@
         "name": "Buffer Editor - Code Editor",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Blakzero Oy",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Blakzero Oy",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1032,8 +1186,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -1137,8 +1291,8 @@
         "name": "Inspect Browser",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Parallax Dynamics Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Parallax Dynamics Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1189,8 +1343,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -1227,160 +1381,6 @@
                     }
                 },
                 "subtitle": "Web Inspector and Dev Tools",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1633950905",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "1456326418",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739488178639,
-                "RTCI": 1738957791675
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "mac",
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 9,
-                "genreName": "Developer Tools",
-                "genre": 6026,
-                "chart": "top-paid",
-                "genreShortName": "Dev Tools"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 stars"
-        },
-        "name": "SMTPTester - Test smtp service",
-        "genreDisplayName": "Developer Tools",
-        "isPreorder": false,
-        "artistName": "峰 高",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=99000&salableAdamId=1633950905&pricingParameters=STDQ&pg=default&appExtVrsId=857974304",
-                        "type": "buy",
-                        "priceFormatted": "₹ 99",
-                        "price": 99,
-                        "currencyCode": "INR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 26463232
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1633950905&pricingParameters=SWUPD&pg=default&appExtVrsId=857974304",
-                        "type": "update",
-                        "priceFormatted": "₹ 0",
-                        "price": 0,
-                        "currencyCode": "INR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 26463232
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "releaseDate": "2022-07-11",
-                "hasInAppPurchases": false,
-                "bundleId": "com.appgao.smtptester",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/63/5f/04/635f0413-ea76-7d4e-f0ed-89dbd0ccd144/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "022846",
-                    "textColor2": "18364f",
-                    "textColor3": "34536b",
-                    "textColor4": "465e72"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1044,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/e1/3f/0de13fa1-5559-bd04-e331-2f28462b45e8/8443b5bd-2084-44d0-ab26-87afd140601b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1044,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/e1/28/52e12832-87a6-6c38-b241-480374608255/4125805d-2ebf-4f1f-900d-065fa62f81f8.png/{w}x{h}{c}.{f}",
-                        "bgColor": "0095ff",
-                        "textColor1": "00070c",
-                        "textColor2": "000f19",
-                        "textColor3": "00243d",
-                        "textColor4": "002a47"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/be/bb/fc/bebbfc47-98df-2708-064d-e75bfce80d00/792f12e0-ef1c-4dfb-a8f8-033cacffa077.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "subtitle": "Test SMTP Server.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1445,8 +1445,8 @@
         "name": "Flutter Cheats",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Christopher Kreymborg",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Christopher Kreymborg",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1496,8 +1496,8 @@
                     "textColor4": "2498d0"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -1555,7 +1555,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739844697064,
+                "MZ_INDEXER": 1739912186751,
                 "RTCI": 1739315209700
             }
         },
@@ -1599,8 +1599,8 @@
         "name": "ESP32 BLE Terminal",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Gopi Gadhiya",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Gopi Gadhiya",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1650,8 +1650,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -1751,8 +1751,8 @@
         "name": "SQLed - SQL Database Manager",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Andreas Zimnas",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Andreas Zimnas",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1803,8 +1803,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.3",
                 "isXROSCompatible": true,
@@ -1841,6 +1841,160 @@
                     }
                 },
                 "subtitle": "The SQLite Database Manager",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "1633950905",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "1456326418",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739488178639,
+                "RTCI": 1738957791675
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "mac",
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 9,
+                "genreName": "Developer Tools",
+                "genre": 6026,
+                "chart": "top-paid",
+                "genreShortName": "Dev Tools"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 0,
+            "ratingCount": 0,
+            "ratingCountList": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "ariaLabelForRatings": "0 stars"
+        },
+        "name": "SMTPTester - Test smtp service",
+        "genreDisplayName": "Developer Tools",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": false,
+        "artistName": "峰 高",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=99000&salableAdamId=1633950905&pricingParameters=STDQ&pg=default&appExtVrsId=857974304",
+                        "type": "buy",
+                        "priceFormatted": "₹ 99",
+                        "price": 99,
+                        "currencyCode": "INR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 26463232
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=1633950905&pricingParameters=SWUPD&pg=default&appExtVrsId=857974304",
+                        "type": "update",
+                        "priceFormatted": "₹ 0",
+                        "price": 0,
+                        "currencyCode": "INR",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 26463232
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "releaseDate": "2022-07-11",
+                "hasInAppPurchases": false,
+                "bundleId": "com.appgao.smtptester",
+                "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/63/5f/04/635f0413-ea76-7d4e-f0ed-89dbd0ccd144/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "022846",
+                    "textColor2": "18364f",
+                    "textColor3": "34536b",
+                    "textColor4": "465e72"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1044,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/e1/3f/0de13fa1-5559-bd04-e331-2f28462b45e8/8443b5bd-2084-44d0-ab26-87afd140601b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1044,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/e1/28/52e12832-87a6-6c38-b241-480374608255/4125805d-2ebf-4f1f-900d-065fa62f81f8.png/{w}x{h}{c}.{f}",
+                        "bgColor": "0095ff",
+                        "textColor1": "00070c",
+                        "textColor2": "000f19",
+                        "textColor3": "00243d",
+                        "textColor4": "002a47"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/be/bb/fc/bebbfc47-98df-2708-064d-e75bfce80d00/792f12e0-ef1c-4dfb-a8f8-033cacffa077.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "subtitle": "Test SMTP Server.",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1906,8 +2060,8 @@
         "name": "Zeitgeist",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Dan Eden",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Dan Eden",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1958,8 +2112,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -2061,8 +2215,8 @@
         "name": "RegEx Lab: Regular Expressions",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "sovio",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "sovio",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2112,8 +2266,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -2215,8 +2369,8 @@
         "name": "Scarlet",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Steven Troughton-Smith",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Steven Troughton-Smith",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2266,8 +2420,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -2379,8 +2533,8 @@
         "name": "Adaptivity (A)",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Geoff Hackworth",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Geoff Hackworth",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -2417,6 +2571,7 @@
                 "releaseDate": "2015-11-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.hacknicity.adaptivity.a",
+                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -2427,7 +2582,6 @@
                     "textColor3": "402d19",
                     "textColor4": "402f1c"
                 },
-                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
@@ -2441,8 +2595,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -2553,8 +2707,8 @@
         "name": "MongoLime - manage databases",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Mobibean, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Mobibean, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2605,8 +2759,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -2711,8 +2865,8 @@
         "name": "Juno Connect: Jupyter Client",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Rational Matter",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Rational Matter",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2763,8 +2917,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -2865,8 +3019,8 @@
         "name": "Programming Notebook PRO",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Ryan Rudes",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Ryan Rudes",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2917,8 +3071,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -3019,8 +3173,8 @@
         "name": "Continuous .NET C# and F# IDE",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Krueger Systems, Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Krueger Systems, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3071,8 +3225,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -3174,8 +3328,8 @@
         "name": "Simple Server: HTTP Server",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Bitsbaker LLC.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bitsbaker LLC.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3226,8 +3380,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -3328,8 +3482,8 @@
         "name": "Harbour - Docker Manager",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Kacper Kaczmarzyk",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Kacper Kaczmarzyk",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3379,8 +3533,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "2.0",
                 "isXROSCompatible": true,
@@ -3482,8 +3636,8 @@
         "name": "Text Editor - Document Editor",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Supagarn Pattananuchart",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Supagarn Pattananuchart",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3534,8 +3688,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -3636,8 +3790,8 @@
         "name": "LadderTouch",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Motonari Hibi",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Motonari Hibi",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3688,8 +3842,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -3747,7 +3901,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739486902414,
+                "MZ_INDEXER": 1739917946529,
                 "RTCI": 1738956417390
             }
         },
@@ -3789,8 +3943,8 @@
         "name": "Packet Sender - UDP/ TCP/ SSL",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "NagleCode, LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "NagleCode, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3841,8 +3995,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.3",
                 "isXROSCompatible": true,
@@ -3946,8 +4100,8 @@
         "name": "Haptics - Test Haptic Feedback",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Adam Foot",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Adam Foot",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "10.0",
         "platformAttributes": {
@@ -3997,8 +4151,8 @@
                     "textColor4": "432630"
                 },
                 "isAppleWatchSupported": true,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -4108,8 +4262,8 @@
         "name": "Cookie Editor Safari Extension",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Zamalabs Yazılım ve Bilgi Teknolojileri Limited Şirketi",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4159,8 +4313,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -4262,8 +4416,8 @@
         "name": "Logger for Shortcuts",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Snailed It Development Ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Snailed It Development Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4313,8 +4467,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -4415,8 +4569,8 @@
         "name": "JSON to XML Converter",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Mohammed Aadhil",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mohammed Aadhil",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4467,8 +4621,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -4575,8 +4729,8 @@
         "name": "C/C++$-LLVM Clang",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "小文 黄",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "小文 黄",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -4628,8 +4782,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -4740,8 +4894,8 @@
         "name": "In2Python",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Karuna Yennawaram",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Karuna Yennawaram",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4792,8 +4946,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -4895,8 +5049,8 @@
         "name": "MQTT Home Automation",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Gopi Gadhiya",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Gopi Gadhiya",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4946,8 +5100,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -5049,8 +5203,8 @@
         "name": "DNS Client",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Sergii Kryvoblotskyi",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Sergii Kryvoblotskyi",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5100,8 +5254,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -5159,7 +5313,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739878891605,
+                "MZ_INDEXER": 1739921365704,
                 "RTCI": 1739878216914
             }
         },
@@ -5206,8 +5360,8 @@
         "name": "RevenueCat Sales: RCReporting",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "INNOVATIVE DIGITAL TECHNOLOGIES LIMITED",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "INNOVATIVE DIGITAL TECHNOLOGIES LIMITED",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "9.0",
         "platformAttributes": {
@@ -5257,8 +5411,8 @@
                     "textColor4": "422123"
                 },
                 "isAppleWatchSupported": true,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -5377,8 +5531,8 @@
         "name": "Fabula",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "PoeticBytes Inc.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "PoeticBytes Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5414,6 +5568,7 @@
                 "releaseDate": "2020-03-20",
                 "hasInAppPurchases": false,
                 "bundleId": "fabula",
+                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -5424,7 +5579,6 @@
                     "textColor3": "3e2d42",
                     "textColor4": "3e2f42"
                 },
-                "hasMessagesExtension": true,
                 "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
@@ -5438,8 +5592,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -5540,8 +5694,8 @@
         "name": "Source 3",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "永涛 宗",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "永涛 宗",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5592,8 +5746,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -5651,7 +5805,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739843639459,
+                "MZ_INDEXER": 1739931353955,
                 "RTCI": 1737949866718
             }
         },
@@ -5694,8 +5848,8 @@
         "name": "Node-PAD",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Michael Angelo Ruta",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Michael Angelo Ruta",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5746,8 +5900,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -5848,8 +6002,8 @@
         "name": "Netdata server monitoring",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Arjun Komath",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Arjun Komath",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5899,8 +6053,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -6002,8 +6156,8 @@
         "name": "MQTT Terminal Pro",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Gopi Gadhiya",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Gopi Gadhiya",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6053,8 +6207,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -6155,8 +6309,8 @@
         "name": "Kuber - Kubernetes Dashboard",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Surge Networks Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Surge Networks Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6207,8 +6361,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -6309,8 +6463,8 @@
         "name": "Http Traffic pro - sniffer",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "岚 赵",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "岚 赵",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6361,8 +6515,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -6420,7 +6574,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549341822,
+                "MZ_INDEXER": 1739930703971,
                 "RTCI": 1732215450568
             }
         },
@@ -6463,8 +6617,8 @@
         "name": "iHTTP Tracker -Network monitor",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Phoenix Lab Technology Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Phoenix Lab Technology Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6515,8 +6669,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -6618,8 +6772,8 @@
         "name": "PPHub For GitHub - Developer",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "凡程 庞",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "凡程 庞",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6670,8 +6824,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -6771,8 +6925,8 @@
         "name": "iPulse - Monitor Your Device",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "The Iconfactory",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "The Iconfactory",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6823,8 +6977,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -6923,8 +7077,8 @@
         "name": "Kube Cat",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "艳华 顾",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "艳华 顾",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6975,8 +7129,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -7033,7 +7187,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739523322573,
+                "MZ_INDEXER": 1739920572044,
                 "RTCI": 1738957938310
             }
         },
@@ -7077,8 +7231,8 @@
         "name": "C Code Develop",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "铖 邢",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "铖 邢",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7128,8 +7282,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -7230,8 +7384,8 @@
         "name": "PasteMe - Pastebin Client",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "RanduSoft SRL",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "RanduSoft SRL",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7282,8 +7436,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -7341,7 +7495,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739492109034,
+                "MZ_INDEXER": 1739925713494,
                 "RTCI": 1737680797691
             }
         },
@@ -7389,8 +7543,8 @@
         "name": "php$ - programming language",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "小文 黄",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "小文 黄",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -7441,8 +7595,8 @@
                     "textColor4": "545767"
                 },
                 "isAppleWatchSupported": true,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -7553,8 +7707,8 @@
         "name": "DraftCode for PHP IDE",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Solesignal Limited",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Solesignal Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7605,8 +7759,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -7707,8 +7861,8 @@
         "name": "Source Code Reader",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Alexander Eichhorn",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Alexander Eichhorn",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7759,8 +7913,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -7862,8 +8016,8 @@
         "name": "Sweet SWOT",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "DataAppz Tecnologia Ltda",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "DataAppz Tecnologia Ltda",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7913,8 +8067,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -7951,160 +8105,6 @@
                     }
                 },
                 "subtitle": "SWOT Analysis in a sweet way!",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "1581312955",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "391905315",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739534953656,
-                "RTCI": 1738965279378
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "mac",
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 52,
-                "genreName": "Developer Tools",
-                "genre": 6026,
-                "chart": "top-paid",
-                "genreShortName": "Dev Tools"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 0,
-            "ratingCount": 0,
-            "ratingCountList": [
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "ariaLabelForRatings": "0 stars"
-        },
-        "name": "MermaidEditor",
-        "genreDisplayName": "Developer Tools",
-        "isPreorder": false,
-        "artistName": "基伟 徐",
-        "isIOSBinaryMacOSCompatible": false,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=399000&salableAdamId=1581312955&pricingParameters=STDQ&pg=default&appExtVrsId=866211195",
-                        "type": "buy",
-                        "priceFormatted": "₹ 399",
-                        "price": 399,
-                        "currencyCode": "INR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 66359296
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=1581312955&pricingParameters=SWUPD&pg=default&appExtVrsId=866211195",
-                        "type": "update",
-                        "priceFormatted": "₹ 0",
-                        "price": 0,
-                        "currencyCode": "INR",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 66359296
-                            }
-                        ]
-                    }
-                ],
-                "requires32bit": false,
-                "releaseDate": "2021-08-15",
-                "hasInAppPurchases": false,
-                "bundleId": "com.tickplant.MermaidEditor",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/21/82/57218228-e485-48d6-dc07-a7cf2ff304f7/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "140504",
-                    "textColor2": "140504",
-                    "textColor3": "433736",
-                    "textColor4": "433736"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
-                "isHiddenFromSpringboard": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1044,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/0d/e1/3f/0de13fa1-5559-bd04-e331-2f28462b45e8/8443b5bd-2084-44d0-ab26-87afd140601b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1044,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/52/e1/28/52e12832-87a6-6c38-b241-480374608255/4125805d-2ebf-4f1f-900d-065fa62f81f8.png/{w}x{h}{c}.{f}",
-                        "bgColor": "0095ff",
-                        "textColor1": "00070c",
-                        "textColor2": "000f19",
-                        "textColor3": "00243d",
-                        "textColor4": "002a47"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/be/bb/fc/bebbfc47-98df-2708-064d-e75bfce80d00/792f12e0-ef1c-4dfb-a8f8-033cacffa077.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "subtitle": "Write diagram on all devices",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8171,8 +8171,8 @@
         "name": "Golang & SQL Pro",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Fedor Obraztsov",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Fedor Obraztsov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8222,8 +8222,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -8323,8 +8323,8 @@
         "name": "Code Develop IDE",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "铖 邢",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "铖 邢",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8375,8 +8375,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -8477,8 +8477,8 @@
         "name": "Globe Topper",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Trevor Kamhunga",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Trevor Kamhunga",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8529,8 +8529,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -8632,8 +8632,8 @@
         "name": "Wireshark Helper - Decrypt TLS",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "TxThinking, Inc.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "TxThinking, Inc.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8684,8 +8684,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -8743,7 +8743,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739547651275,
+                "MZ_INDEXER": 1739920543861,
                 "RTCI": 1738965696967
             }
         },
@@ -8788,8 +8788,8 @@
         "name": "Docker LifeTime",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Nevis Shkenza",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nevis Shkenza",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8840,8 +8840,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -8899,7 +8899,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739843447817,
+                "MZ_INDEXER": 1739931349638,
                 "RTCI": 1731370080503
             }
         },
@@ -8942,8 +8942,8 @@
         "name": "JSON Tools",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Mohammed Aadhil",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mohammed Aadhil",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8994,8 +8994,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -9097,8 +9097,8 @@
         "name": "Code - Compile & Run Program",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Arjun Komath",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Arjun Komath",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9148,8 +9148,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -9250,8 +9250,8 @@
         "name": "RegEx+",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "圣罡 汤",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "圣罡 汤",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9301,8 +9301,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -9403,8 +9403,8 @@
         "name": "View Source Premier",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Andrey Uspanov",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Andrey Uspanov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9454,8 +9454,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -9512,8 +9512,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739741862623,
-                "RTCI": 1738957374924
+                "MZ_INDEXER": 1739916052411,
+                "RTCI": 1739915236238
             }
         },
         "supportsArcade": false,
@@ -9555,14 +9555,14 @@
         "name": "SSL Checker",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Orave Technologies",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Orave Technologies",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
                 "offers": [
                     {
-                        "buyParams": "productType=C&price=299000&salableAdamId=1347743213&pricingParameters=STDQ&pg=default&appExtVrsId=872274562",
+                        "buyParams": "productType=C&price=299000&salableAdamId=1347743213&pricingParameters=STDQ&pg=default&appExtVrsId=872329879",
                         "type": "buy",
                         "priceFormatted": "₹ 299",
                         "price": 299,
@@ -9575,7 +9575,7 @@
                         ]
                     },
                     {
-                        "buyParams": "productType=C&price=0&salableAdamId=1347743213&pricingParameters=SWUPD&pg=default&appExtVrsId=872274562",
+                        "buyParams": "productType=C&price=0&salableAdamId=1347743213&pricingParameters=SWUPD&pg=default&appExtVrsId=872329879",
                         "type": "update",
                         "priceFormatted": "₹ 0",
                         "price": 0,
@@ -9598,7 +9598,7 @@
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/b9/b6/5ab9b65e-1e85-c74d-67be-1459ce93398b/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/{w}x{h}{c}.{f}",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/80/4e/9f804e04-f85d-698c-94f2-405304e6de36/AppIcon-0-0-1x_U007epad-0-11-0-0-85-220.png/{w}x{h}{c}.{f}",
                     "bgColor": "fcfcfc",
                     "textColor1": "160b02",
                     "textColor2": "160b02",
@@ -9607,8 +9607,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -9709,8 +9709,8 @@
         "name": "Pixel Resizer: Custom Metadata",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Bad Assassin Games",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bad Assassin Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9761,8 +9761,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -9864,8 +9864,8 @@
         "name": "App Icon Generator",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Thomas Coomer",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Thomas Coomer",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9914,8 +9914,8 @@
                     "textColor4": "4a7ed2"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -10015,8 +10015,8 @@
         "name": "Arduino Bluetooth Pro",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Bad Assassin Games",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bad Assassin Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10067,8 +10067,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -10171,8 +10171,8 @@
         "name": "Code Recipes Pro",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Fedor Obraztsov",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Fedor Obraztsov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10222,8 +10222,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -10323,8 +10323,8 @@
         "name": "Learn Python (Step-By-Step)",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Paulo Narra",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Paulo Narra",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10375,8 +10375,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -10476,8 +10476,8 @@
         "name": "Playing Haptics",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Maxim Svitavsky",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Maxim Svitavsky",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10528,8 +10528,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -10629,8 +10629,8 @@
         "name": "iKeleton OSC",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Gwangyu Lee",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Gwangyu Lee",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10681,8 +10681,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -10783,8 +10783,8 @@
         "name": "VSCoW - Code Wrapper",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Christoph Gogolin",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Christoph Gogolin",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10835,8 +10835,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -10937,8 +10937,8 @@
         "name": "React Skill Assessment",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Osman Okkes Kanadikirik",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Osman Okkes Kanadikirik",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10989,8 +10989,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -11092,8 +11092,8 @@
         "name": "Mockup Screenshot",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Mert Can Kus",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Mert Can Kus",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11143,8 +11143,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -11202,7 +11202,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739485205880,
+                "MZ_INDEXER": 1739911193800,
                 "RTCI": 1731381183467
             }
         },
@@ -11245,8 +11245,8 @@
         "name": "Bee - Cookie Editor For Safari",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Yury Apollov",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Yury Apollov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11297,8 +11297,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -11399,8 +11399,8 @@
         "name": "Simple DNS",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Daniel Linsenmeier",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Daniel Linsenmeier",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11450,8 +11450,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -11551,8 +11551,8 @@
         "name": "ReactElements Studio",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "STRICS IT GmbH",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "STRICS IT GmbH",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11603,8 +11603,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -11706,8 +11706,8 @@
         "name": "App icon Generator: icon Maker",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Digital Hole Pvt. Ltd.",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Digital Hole Pvt. Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11757,8 +11757,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -11859,8 +11859,8 @@
         "name": "Pro Markdown Editor and Reader",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Julian Lau",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Julian Lau",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11911,8 +11911,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -12015,8 +12015,8 @@
         "name": "Css Pixels",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Leighton West",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Leighton West",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "8.0",
         "platformAttributes": {
@@ -12068,8 +12068,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -12180,8 +12180,8 @@
         "name": "Beacons Pro",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Zain Haider",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Zain Haider",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12232,8 +12232,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -12334,8 +12334,8 @@
         "name": "Matplotlib教程",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "强 马",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "强 马",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12386,8 +12386,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -12487,8 +12487,8 @@
         "name": "UCoW - Ultimate Code Wrapper",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Christoph Gogolin",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Christoph Gogolin",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12539,8 +12539,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -12641,8 +12641,8 @@
         "name": "BASIC: programming language",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Nikolay Denislamov",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Nikolay Denislamov",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12693,8 +12693,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -12794,8 +12794,8 @@
         "name": "SeeLess - C Compiler",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Develobile S.p.A.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Develobile S.p.A.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12846,8 +12846,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -12949,8 +12949,8 @@
         "name": "Mango 5Star",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Mango Umbrella LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Mango Umbrella LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12999,8 +12999,8 @@
                     "textColor4": "1b3641"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -13100,8 +13100,8 @@
         "name": "Face Mesh",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Tech Positive",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Tech Positive",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13152,8 +13152,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -13256,8 +13256,8 @@
         "name": "Kodika - No Code App Builder",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Kodika.io Software Limited",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Kodika.io Software Limited",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13308,8 +13308,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -13416,8 +13416,8 @@
         "name": "myActor",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Sergey Tolkachev",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Sergey Tolkachev",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "5.0",
         "platformAttributes": {
@@ -13468,8 +13468,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -13537,7 +13537,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739487320629,
+                "MZ_INDEXER": 1739916281837,
                 "RTCI": 1738957424065
             }
         },
@@ -13579,8 +13579,8 @@
         "name": "AirTerminal - BLE Terminal",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "晓忠 马",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "晓忠 马",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13631,8 +13631,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -13732,8 +13732,8 @@
         "name": "Arduino Voice",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Bad Assassin Games",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Bad Assassin Games",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13784,8 +13784,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 metal ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -13889,8 +13889,8 @@
         "name": "Colourdrop: Colour Picker",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "George Jones",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "George Jones",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "6.2",
         "platformAttributes": {
@@ -13942,8 +13942,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -14011,7 +14011,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739488384182,
+                "MZ_INDEXER": 1739926378488,
                 "RTCI": 1737680797691
             }
         },
@@ -14059,8 +14059,8 @@
         "name": "Ruby 2.0-run code,pro",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "小文 黄",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "小文 黄",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -14111,8 +14111,8 @@
                     "textColor4": "183241"
                 },
                 "isAppleWatchSupported": true,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -14180,7 +14180,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739876384416,
+                "MZ_INDEXER": 1739927022035,
                 "RTCI": 1739873662541
             }
         },
@@ -14228,8 +14228,8 @@
         "name": "python3$",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "小文 黄",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "小文 黄",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "2.0",
         "platformAttributes": {
@@ -14281,8 +14281,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -14350,7 +14350,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739487562915,
+                "MZ_INDEXER": 1739931330525,
                 "RTCI": 1738951584627
             }
         },
@@ -14396,8 +14396,8 @@
         "name": "AirCodum",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Priyankar Kumar",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Priyankar Kumar",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14448,8 +14448,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -14550,8 +14550,8 @@
         "name": "PrettyJsonInBrowser",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Sebastian Bolling",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Sebastian Bolling",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14602,8 +14602,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -14704,8 +14704,8 @@
         "name": "Simple Code Editor for Web",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Hardi Darweish",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Hardi Darweish",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14756,8 +14756,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 gamekit location-services wifi ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -14858,8 +14858,8 @@
         "name": "JSON Web Token",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Prismatic Apps",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Prismatic Apps",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14909,8 +14909,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
@@ -15010,8 +15010,8 @@
         "name": "Sutāto - Retro Emulator",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Valentin Dreyfus",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Valentin Dreyfus",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15062,8 +15062,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -15164,8 +15164,8 @@
         "name": "Mondroid",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Mehmet Yurekli",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Mehmet Yurekli",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15216,8 +15216,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -15318,8 +15318,8 @@
         "name": "SQL Sheep",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Ciwei Tech",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Ciwei Tech",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15370,8 +15370,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -15470,8 +15470,8 @@
         "name": "PeterJohnNumPyMatplotlib",
         "genreDisplayName": "Developer Tools",
         "isPreorder": false,
-        "artistName": "Yasushi Obata",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Yasushi Obata",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15522,8 +15522,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,

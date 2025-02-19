@@ -91,13 +91,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2009-06-09",
                 "hasInAppPurchases": false,
                 "bundleId": "net.liveatc.LiveATC",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -110,9 +110,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -146,7 +147,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -212,11 +212,11 @@
             ],
             "ariaLabelForRatings": "4.8 星"
         },
-        "genreDisplayName": "旅游",
         "name": "航班管家Pro-特价机票酒店火车票专车预订平台",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Shenzhen Huo Li Tian Hui Technology Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Shenzhen Huo Li Tian Hui Technology Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -253,8 +253,8 @@
                 "releaseDate": "2013-11-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.openet.hbgjpro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -267,8 +267,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -312,6 +312,346 @@
     },
     {
         "kind": "app",
+        "id": "294710480",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "294710483",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739922354720,
+                "RTCI": 1731379505746
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 3,
+                "genreName": "旅游",
+                "genre": 6003,
+                "chart": "top-paid",
+                "genreShortName": "旅游"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.6,
+            "ratingCount": 11,
+            "ratingCountList": [
+                1,
+                0,
+                0,
+                0,
+                10
+            ],
+            "ariaLabelForRatings": "4.6 星"
+        },
+        "name": "Packing (+TO DO!)",
+        "genreDisplayName": "旅游",
+        "isPreorder": false,
+        "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Quinn Genzel",
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=8000&salableAdamId=294710480&pricingParameters=STDQ&pg=default&appExtVrsId=849410187",
+                        "type": "buy",
+                        "priceFormatted": "¥8.00",
+                        "price": 8,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 20662272
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=294710480&pricingParameters=SWUPD&pg=default&appExtVrsId=849410187",
+                        "type": "update",
+                        "priceFormatted": "¥0.00",
+                        "price": 0,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 20662272
+                            }
+                        ]
+                    }
+                ],
+                "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
+                "releaseDate": "2008-10-28",
+                "hasInAppPurchases": true,
+                "bundleId": "com.quinngenzel.Packing",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fc/60/09/fc6009a0-5a6c-5307-a3e2-b31245d32c01/AppIcon-1x_U007emarketing-0-10-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "964814",
+                    "textColor1": "ffffff",
+                    "textColor2": "ead29e",
+                    "textColor3": "e9dacf",
+                    "textColor4": "d9b782"
+                },
+                "isAppleWatchSupported": false,
+                "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1188,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/2a/e2/f8/2ae2f8f6-1044-4ffd-7157-9c04dc291dcf/c2acc888-ba89-4619-ad7d-a05128d9f10b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1188,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/4e/8f/974e8fbf-1b93-b5a9-2452-98676d7b93b5/7c6e760b-c02f-4ca9-9d79-3df4f4cd048a.png/{w}x{h}{c}.{f}",
+                        "bgColor": "31c4ff",
+                        "textColor1": "02090c",
+                        "textColor2": "051319",
+                        "textColor3": "0c2f3d",
+                        "textColor4": "0e3747"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9c/3c/d1/9c3cd1ea-9eb2-90a4-57ae-906f3f39cf1f/0d9c2b59-b496-440f-810e-1446bf3f8d6f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    }
+                },
+                "minimumXROSVersion": "1.0",
+                "subtitle": "旅行装箱单助理",
+                "hasSafariExtension": false,
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
+        "id": "357421934",
+        "type": "apps",
+        "relationships": {
+            "developer": {
+                "data": [
+                    {
+                        "id": "357421937",
+                        "type": "developers"
+                    }
+                ]
+            }
+        },
+        "meta": {
+            "contentVersion": {
+                "MZ_INDEXER": 1739505648696,
+                "RTCI": 1731369063007
+            }
+        },
+        "supportsArcade": false,
+        "isFirstPartyHideableApp": false,
+        "contentRatingsBySystem": {
+            "appsApple": {
+                "name": "4+",
+                "value": 100,
+                "rank": 1
+            }
+        },
+        "deviceFamilies": [
+            "iphone",
+            "ipad",
+            "ipod"
+        ],
+        "chartPositions": {
+            "appStore": {
+                "position": 4,
+                "genreName": "旅游",
+                "genre": 6003,
+                "chart": "top-paid",
+                "genreShortName": "旅游"
+            }
+        },
+        "supportsStreamlinedBuy": true,
+        "userRating": {
+            "value": 4.3,
+            "ratingCount": 172,
+            "ratingCountList": [
+                26,
+                4,
+                1,
+                8,
+                133
+            ],
+            "ariaLabelForRatings": "4.3 星"
+        },
+        "name": "PeakFinder",
+        "genreDisplayName": "旅游",
+        "isPreorder": false,
+        "artistName": "PeakFinder GmbH",
+        "isIOSBinaryMacOSCompatible": true,
+        "reviewsRestricted": false,
+        "platformAttributes": {
+            "ios": {
+                "offers": [
+                    {
+                        "buyParams": "productType=C&price=38000&salableAdamId=357421934&pricingParameters=STDQ&pg=default&appExtVrsId=870260691",
+                        "type": "buy",
+                        "priceFormatted": "¥38.00",
+                        "price": 38,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 39069696
+                            }
+                        ]
+                    },
+                    {
+                        "buyParams": "productType=C&price=0&salableAdamId=357421934&pricingParameters=SWUPD&pg=default&appExtVrsId=870260691",
+                        "type": "update",
+                        "priceFormatted": "¥0.00",
+                        "price": 0,
+                        "currencyCode": "CNY",
+                        "assets": [
+                            {
+                                "flavor": "iosSoftware",
+                                "size": 39069696
+                            }
+                        ]
+                    }
+                ],
+                "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
+                "releaseDate": "2010-03-12",
+                "hasInAppPurchases": false,
+                "bundleId": "ch.peakfinder.peakfinder-alps",
+                "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
+                "artwork": {
+                    "width": 1024,
+                    "height": 1024,
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/3a/4a/c33a4a39-7906-e5b0-83a4-dee44ede44ce/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/{w}x{h}{c}.{f}",
+                    "bgColor": "ffffff",
+                    "textColor1": "111111",
+                    "textColor2": "313131",
+                    "textColor3": "414141",
+                    "textColor4": "5a5a5a"
+                },
+                "isAppleWatchSupported": false,
+                "requiredCapabilitiesForRealityDevice": "arm64 ",
+                "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
+                "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
+                "editorialArtwork": {
+                    "contentIconTrimmedMonochrome": {
+                        "width": 1188,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/2a/e2/f8/2ae2f8f6-1044-4ffd-7157-9c04dc291dcf/c2acc888-ba89-4619-ad7d-a05128d9f10b.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "contentIconTrimmed": {
+                        "width": 1188,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/4e/8f/974e8fbf-1b93-b5a9-2452-98676d7b93b5/7c6e760b-c02f-4ca9-9d79-3df4f4cd048a.png/{w}x{h}{c}.{f}",
+                        "bgColor": "31c4ff",
+                        "textColor1": "02090c",
+                        "textColor2": "051319",
+                        "textColor3": "0c2f3d",
+                        "textColor4": "0e3747"
+                    },
+                    "storeFlowcase": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features111/v4/0e/dd/8b/0edd8b6a-ab90-2fde-39d9-7d627fd4c2c3/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "154b9c",
+                        "textColor1": "e2e7e9",
+                        "textColor2": "c9e1f7",
+                        "textColor3": "b9c7d9",
+                        "textColor4": "a5c3e5"
+                    },
+                    "originalFlowcaseBrick": {
+                        "width": 3200,
+                        "height": 600,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features5/v4/02/69/1e/02691ecd-11fe-5e14-afdd-20ddbd77ea52/mza_491242274406436136.png/{w}x{h}{c}.{f}",
+                        "bgColor": "0066a4",
+                        "textColor1": "f9fafa",
+                        "textColor2": "cee8fd",
+                        "textColor3": "c7dde9",
+                        "textColor4": "a5ceeb"
+                    },
+                    "brandLogo": {
+                        "width": 1080,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9c/3c/d1/9c3cd1ea-9eb2-90a4-57ae-906f3f39cf1f/0d9c2b59-b496-440f-810e-1446bf3f8d6f.png/{w}x{h}{c}.{f}",
+                        "bgColor": "000000",
+                        "textColor1": "f2f2f2",
+                        "textColor2": "e5e5e5",
+                        "textColor3": "c1c1c1",
+                        "textColor4": "b7b7b7"
+                    },
+                    "subscriptionHero": {
+                        "width": 4320,
+                        "height": 1080,
+                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features62/v4/61/49/6d/61496d69-162b-0083-ddaa-6e17dab98b04/pr_source.png/{w}x{h}{c}.{f}",
+                        "bgColor": "c3ddee",
+                        "textColor1": "26201e",
+                        "textColor2": "2b2a2a",
+                        "textColor3": "454647",
+                        "textColor4": "494e51"
+                    }
+                },
+                "subtitle": "群山在召唤！",
+                "hasSafariExtension": false,
+                "editorialNotes": {
+                    "tagline": "探索 360 度全景"
+                },
+                "requiresGameController": false
+            }
+        }
+    },
+    {
+        "kind": "app",
         "id": "1304908187",
         "type": "apps",
         "relationships": {
@@ -346,7 +686,7 @@
         ],
         "chartPositions": {
             "appStore": {
-                "position": 3,
+                "position": 5,
                 "genreName": "旅游",
                 "genre": 6003,
                 "chart": "top-paid",
@@ -367,8 +707,8 @@
             ],
             "ariaLabelForRatings": "1.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "牛津少儿英语Let’s Go 1/2 -最佳初级小学教材",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "阳志 欧",
         "isIOSBinaryMacOSCompatible": true,
@@ -465,346 +805,6 @@
     },
     {
         "kind": "app",
-        "id": "294710480",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "294710483",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739829074844,
-                "RTCI": 1731379505746
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 4,
-                "genreName": "旅游",
-                "genre": 6003,
-                "chart": "top-paid",
-                "genreShortName": "旅游"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.6,
-            "ratingCount": 11,
-            "ratingCountList": [
-                1,
-                0,
-                0,
-                0,
-                10
-            ],
-            "ariaLabelForRatings": "4.6 星"
-        },
-        "name": "Packing (+TO DO!)",
-        "genreDisplayName": "旅游",
-        "isPreorder": false,
-        "artistName": "Quinn Genzel",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=8000&salableAdamId=294710480&pricingParameters=STDQ&pg=default&appExtVrsId=849410187",
-                        "type": "buy",
-                        "priceFormatted": "¥8.00",
-                        "price": 8,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 20662272
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=294710480&pricingParameters=SWUPD&pg=default&appExtVrsId=849410187",
-                        "type": "update",
-                        "priceFormatted": "¥0.00",
-                        "price": 0,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 20662272
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2008-10-28",
-                "hasInAppPurchases": true,
-                "bundleId": "com.quinngenzel.Packing",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/fc/60/09/fc6009a0-5a6c-5307-a3e2-b31245d32c01/AppIcon-1x_U007emarketing-0-10-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "964814",
-                    "textColor1": "ffffff",
-                    "textColor2": "ead29e",
-                    "textColor3": "e9dacf",
-                    "textColor4": "d9b782"
-                },
-                "isAppleWatchSupported": false,
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1188,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/2a/e2/f8/2ae2f8f6-1044-4ffd-7157-9c04dc291dcf/c2acc888-ba89-4619-ad7d-a05128d9f10b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1188,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/4e/8f/974e8fbf-1b93-b5a9-2452-98676d7b93b5/7c6e760b-c02f-4ca9-9d79-3df4f4cd048a.png/{w}x{h}{c}.{f}",
-                        "bgColor": "31c4ff",
-                        "textColor1": "02090c",
-                        "textColor2": "051319",
-                        "textColor3": "0c2f3d",
-                        "textColor4": "0e3747"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9c/3c/d1/9c3cd1ea-9eb2-90a4-57ae-906f3f39cf1f/0d9c2b59-b496-440f-810e-1446bf3f8d6f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    }
-                },
-                "subtitle": "旅行装箱单助理",
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
-        "id": "357421934",
-        "type": "apps",
-        "relationships": {
-            "developer": {
-                "data": [
-                    {
-                        "id": "357421937",
-                        "type": "developers"
-                    }
-                ]
-            }
-        },
-        "meta": {
-            "contentVersion": {
-                "MZ_INDEXER": 1739505648696,
-                "RTCI": 1731369063007
-            }
-        },
-        "supportsArcade": false,
-        "isFirstPartyHideableApp": false,
-        "contentRatingsBySystem": {
-            "appsApple": {
-                "name": "4+",
-                "value": 100,
-                "rank": 1
-            }
-        },
-        "deviceFamilies": [
-            "iphone",
-            "ipad",
-            "ipod"
-        ],
-        "chartPositions": {
-            "appStore": {
-                "position": 5,
-                "genreName": "旅游",
-                "genre": 6003,
-                "chart": "top-paid",
-                "genreShortName": "旅游"
-            }
-        },
-        "supportsStreamlinedBuy": true,
-        "userRating": {
-            "value": 4.3,
-            "ratingCount": 172,
-            "ratingCountList": [
-                26,
-                4,
-                1,
-                8,
-                133
-            ],
-            "ariaLabelForRatings": "4.3 星"
-        },
-        "genreDisplayName": "旅游",
-        "name": "PeakFinder",
-        "isPreorder": false,
-        "artistName": "PeakFinder GmbH",
-        "isIOSBinaryMacOSCompatible": true,
-        "reviewsRestricted": false,
-        "platformAttributes": {
-            "ios": {
-                "offers": [
-                    {
-                        "buyParams": "productType=C&price=38000&salableAdamId=357421934&pricingParameters=STDQ&pg=default&appExtVrsId=870260691",
-                        "type": "buy",
-                        "priceFormatted": "¥38.00",
-                        "price": 38,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 39069696
-                            }
-                        ]
-                    },
-                    {
-                        "buyParams": "productType=C&price=0&salableAdamId=357421934&pricingParameters=SWUPD&pg=default&appExtVrsId=870260691",
-                        "type": "update",
-                        "priceFormatted": "¥0.00",
-                        "price": 0,
-                        "currencyCode": "CNY",
-                        "assets": [
-                            {
-                                "flavor": "iosSoftware",
-                                "size": 39069696
-                            }
-                        ]
-                    }
-                ],
-                "minimumMacOSVersion": "11.0",
-                "requires32bit": false,
-                "releaseDate": "2010-03-12",
-                "hasInAppPurchases": false,
-                "bundleId": "ch.peakfinder.peakfinder-alps",
-                "hasMessagesExtension": false,
-                "isStandaloneWithCompanionForWatchOS": false,
-                "artwork": {
-                    "width": 1024,
-                    "height": 1024,
-                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/3a/4a/c33a4a39-7906-e5b0-83a4-dee44ede44ce/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/{w}x{h}{c}.{f}",
-                    "bgColor": "ffffff",
-                    "textColor1": "111111",
-                    "textColor2": "313131",
-                    "textColor3": "414141",
-                    "textColor4": "5a5a5a"
-                },
-                "isAppleWatchSupported": false,
-                "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
-                "isStandaloneForWatchOS": false,
-                "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
-                "editorialArtwork": {
-                    "contentIconTrimmedMonochrome": {
-                        "width": 1188,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/2a/e2/f8/2ae2f8f6-1044-4ffd-7157-9c04dc291dcf/c2acc888-ba89-4619-ad7d-a05128d9f10b.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "contentIconTrimmed": {
-                        "width": 1188,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/97/4e/8f/974e8fbf-1b93-b5a9-2452-98676d7b93b5/7c6e760b-c02f-4ca9-9d79-3df4f4cd048a.png/{w}x{h}{c}.{f}",
-                        "bgColor": "31c4ff",
-                        "textColor1": "02090c",
-                        "textColor2": "051319",
-                        "textColor3": "0c2f3d",
-                        "textColor4": "0e3747"
-                    },
-                    "storeFlowcase": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features111/v4/0e/dd/8b/0edd8b6a-ab90-2fde-39d9-7d627fd4c2c3/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "154b9c",
-                        "textColor1": "e2e7e9",
-                        "textColor2": "c9e1f7",
-                        "textColor3": "b9c7d9",
-                        "textColor4": "a5c3e5"
-                    },
-                    "originalFlowcaseBrick": {
-                        "width": 3200,
-                        "height": 600,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features5/v4/02/69/1e/02691ecd-11fe-5e14-afdd-20ddbd77ea52/mza_491242274406436136.png/{w}x{h}{c}.{f}",
-                        "bgColor": "0066a4",
-                        "textColor1": "f9fafa",
-                        "textColor2": "cee8fd",
-                        "textColor3": "c7dde9",
-                        "textColor4": "a5ceeb"
-                    },
-                    "brandLogo": {
-                        "width": 1080,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9c/3c/d1/9c3cd1ea-9eb2-90a4-57ae-906f3f39cf1f/0d9c2b59-b496-440f-810e-1446bf3f8d6f.png/{w}x{h}{c}.{f}",
-                        "bgColor": "000000",
-                        "textColor1": "f2f2f2",
-                        "textColor2": "e5e5e5",
-                        "textColor3": "c1c1c1",
-                        "textColor4": "b7b7b7"
-                    },
-                    "subscriptionHero": {
-                        "width": 4320,
-                        "height": 1080,
-                        "url": "https://is1-ssl.mzstatic.com/image/thumb/Features62/v4/61/49/6d/61496d69-162b-0083-ddaa-6e17dab98b04/pr_source.png/{w}x{h}{c}.{f}",
-                        "bgColor": "c3ddee",
-                        "textColor1": "26201e",
-                        "textColor2": "2b2a2a",
-                        "textColor3": "454647",
-                        "textColor4": "494e51"
-                    }
-                },
-                "subtitle": "群山在召唤！",
-                "editorialNotes": {
-                    "tagline": "探索 360 度全景"
-                },
-                "hasSafariExtension": false,
-                "requiresGameController": false
-            }
-        }
-    },
-    {
-        "kind": "app",
         "id": "327783342",
         "type": "apps",
         "relationships": {
@@ -859,8 +859,8 @@
             ],
             "ariaLabelForRatings": "4.7 星"
         },
-        "genreDisplayName": "旅游",
         "name": "CityMaps2Go Pro 离线地图",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kulemba GmbH",
@@ -895,12 +895,11 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-09-03",
                 "hasInAppPurchases": true,
                 "bundleId": "com.tymonwiedemair.maps2go",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -912,6 +911,7 @@
                     "textColor4": "ef9e94"
                 },
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -924,9 +924,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -980,12 +981,11 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "旅行计划和旅游指南",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "旅行必备"
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1006,7 +1006,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549090446,
+                "MZ_INDEXER": 1739922317795,
                 "RTCI": 1738963949261
             }
         },
@@ -1036,13 +1036,13 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.9,
-            "ratingCount": 7956,
+            "ratingCount": 7955,
             "ratingCountList": [
                 127,
                 37,
                 104,
                 277,
-                7411
+                7410
             ],
             "ariaLabelForRatings": "4.9 星"
         },
@@ -1082,13 +1082,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-09-18",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ollix.FogOfWorld",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1101,9 +1101,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 location-services metal wifi ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -1157,12 +1158,11 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "subtitle": "记录走遍天下的每个角落",
-                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "记录真实足迹 消除地图迷雾 "
                 },
+                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -1223,11 +1223,11 @@
             ],
             "ariaLabelForRatings": "4.2 星"
         },
-        "genreDisplayName": "旅游",
         "name": "高铁管家pro",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Shenzhen Huo Li Tian Hui Technology Co., Ltd.",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Shenzhen Huo Li Tian Hui Technology Co., Ltd.",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1278,8 +1278,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -1376,8 +1376,8 @@
             ],
             "ariaLabelForRatings": "4.5 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Packing Pro",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Quinn Genzel",
         "isIOSBinaryMacOSCompatible": true,
@@ -1412,8 +1412,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-04-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.quinngenzel.PackingPro",
@@ -1430,8 +1430,8 @@
                     "textColor4": "c5822a"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -1592,7 +1592,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -1626,6 +1625,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -1687,11 +1687,11 @@
             ],
             "ariaLabelForRatings": "4.1 星"
         },
-        "genreDisplayName": "旅游",
         "name": "旅行清单",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Leonardo Nakashima",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Leonardo Nakashima",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -1728,8 +1728,8 @@
                 "releaseDate": "2010-01-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.037.travellist",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1742,8 +1742,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -1897,13 +1897,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2015-04-04",
                 "hasInAppPurchases": true,
                 "bundleId": "uk.co.miflights.miflightradarpro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -1916,9 +1916,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 magnetometer ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -1951,7 +1952,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "航班纵横 飞行器, 航班查询, 航班管家, airplane",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -2014,8 +2014,8 @@
             ],
             "ariaLabelForRatings": "1.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Translator with Voice",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Alteru Inc.",
         "isIOSBinaryMacOSCompatible": true,
@@ -2050,13 +2050,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2008-12-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.yourcompany.Translater",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2178,11 +2178,11 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Offline Pages",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Codium Labs LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Codium Labs LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2219,8 +2219,8 @@
                 "releaseDate": "2010-04-01",
                 "hasInAppPurchases": true,
                 "bundleId": "com.codiumlabs.offlinepages",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2232,10 +2232,9 @@
                     "textColor4": "113044"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -2269,6 +2268,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2369,8 +2369,8 @@
                 "releaseDate": "2010-06-19",
                 "hasInAppPurchases": true,
                 "bundleId": "com.earthcam.ecearthcamhd",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2386,6 +2386,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -2418,8 +2420,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2441,7 +2441,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739829722655,
+                "MZ_INDEXER": 1739911740316,
                 "RTCI": 1731364605945
             }
         },
@@ -2481,11 +2481,11 @@
             ],
             "ariaLabelForRatings": "4.5 星"
         },
-        "name": "SpeakEasy French Pro",
         "genreDisplayName": "旅游",
+        "name": "SpeakEasy French Pro",
         "isPreorder": false,
-        "artistName": "Pocketglow LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Pocketglow LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2522,8 +2522,8 @@
                 "releaseDate": "2011-02-23",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pocketglow.ios.speakeasyfrench",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2539,8 +2539,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -2573,6 +2571,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -2635,11 +2635,11 @@
             ],
             "ariaLabelForRatings": "3.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "牛津少儿英语Let’s Go 3/4 -最佳初级小学教材",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "阳志 欧",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "阳志 欧",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2676,8 +2676,8 @@
                 "releaseDate": "2017-11-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.scott.OxfordLetsGo3Grade",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2690,8 +2690,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -2785,8 +2785,8 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Azul - Video player for iPad",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Kathleen Gallagher Mody",
         "isIOSBinaryMacOSCompatible": true,
@@ -2826,8 +2826,8 @@
                 "releaseDate": "2010-12-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gplexdb.mymediaplayer",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2840,8 +2840,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
@@ -2937,11 +2937,11 @@
             ],
             "ariaLabelForRatings": "4.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "MyEterm",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "仲坚 黄",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "仲坚 黄",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -2973,13 +2973,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-06-04",
                 "hasInAppPurchases": false,
                 "bundleId": "pop.MyEterm",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -2992,11 +2992,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -3029,6 +3027,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3131,8 +3131,8 @@
                 "releaseDate": "2013-02-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.avencode.Suitcases",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3148,7 +3148,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -3181,6 +3180,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "isXROSCompatible": false,
                 "subtitle": "东西打包很简单！",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -3301,7 +3301,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -3335,6 +3334,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3387,13 +3387,13 @@
         "supportsStreamlinedBuy": true,
         "userRating": {
             "value": 4.9,
-            "ratingCount": 2546,
+            "ratingCount": 2547,
             "ratingCountList": [
                 18,
                 9,
                 24,
                 99,
-                2396
+                2397
             ],
             "ariaLabelForRatings": "4.9 星"
         },
@@ -3401,8 +3401,8 @@
         "genreDisplayName": "旅游",
         "name": "TripView",
         "isPreorder": false,
-        "artistName": "TripView Pty Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "TripView Pty Ltd",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "4.0",
         "platformAttributes": {
@@ -3435,13 +3435,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-03-26",
                 "hasInAppPurchases": false,
                 "bundleId": "com.grofsoft.TripView",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3457,7 +3457,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "bannerUber": {
@@ -3531,6 +3530,7 @@
                         "textColor4": "45230d"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -3562,7 +3562,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549320433,
+                "MZ_INDEXER": 1739931228776,
                 "RTCI": 1738955650004
             }
         },
@@ -3609,8 +3609,8 @@
         "genreDisplayName": "旅游",
         "name": "WikiCamps Australia",
         "isPreorder": false,
-        "artistName": "WikiCamps pty ltd",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "WikiCamps pty ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -3642,13 +3642,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2012-03-01",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.angryrobot.wikicamps",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3661,11 +3661,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "bannerUber": {
                         "width": 4320,
@@ -3708,6 +3706,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3773,8 +3773,8 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "World Travel Guide Offline",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Tom's Apps, LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -3809,8 +3809,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-06-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.tomsapps.travelguide",
@@ -3830,6 +3830,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -3863,7 +3864,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -3966,8 +3966,8 @@
                 "releaseDate": "2016-06-28",
                 "hasInAppPurchases": false,
                 "bundleId": "cn.liuanke.JapaneseWord",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -3983,6 +3983,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -4015,8 +4017,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "subtitle": "图片轻松快速分类学习日语助手",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4140,7 +4140,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -4174,8 +4173,8 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4185,7 +4184,8 @@
                     "textColor2": "b6cee8",
                     "textColor3": "d0dbe6",
                     "textColor4": "96b4d4"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -4205,7 +4205,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739483989083,
+                "MZ_INDEXER": 1739905559475,
                 "RTCI": 1731364403361
             }
         },
@@ -4248,8 +4248,8 @@
         "name": "韩语单词卡 - 学习韩国语每日常用基础词汇教程",
         "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "佩佩 伍",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "佩佩 伍",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4286,8 +4286,8 @@
                 "releaseDate": "2016-06-14",
                 "hasInAppPurchases": false,
                 "bundleId": "cn.liuanke.KoreanWord",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4300,8 +4300,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -4359,7 +4359,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739547333568,
+                "MZ_INDEXER": 1739909922916,
                 "RTCI": 1738965028537
             }
         },
@@ -4400,11 +4400,11 @@
             "ariaLabelForRatings": "3.9 星"
         },
         "watchBundleId": "com.xmartsoft.XTranslate.Watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "智能多翻译",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "XHLIU",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "9.0",
         "platformAttributes": {
@@ -4442,7 +4442,6 @@
                 "releaseDate": "2013-12-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.xmartsoft.XTranslate",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -4454,6 +4453,7 @@
                     "textColor4": "0c223a"
                 },
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4469,6 +4469,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.3",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -4501,11 +4503,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.3",
-                "isXROSCompatible": true,
                 "subtitle": "同声传译语音翻译工具大全",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4515,7 +4514,8 @@
                     "textColor2": "040c15",
                     "textColor3": "0b1d32",
                     "textColor4": "0c223a"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -4535,7 +4535,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739548800710,
+                "MZ_INDEXER": 1739931039242,
                 "RTCI": 1731358453277
             }
         },
@@ -4616,8 +4616,8 @@
                 "releaseDate": "2009-08-27",
                 "hasInAppPurchases": false,
                 "bundleId": "me.myLanguage.myLangPro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4632,6 +4632,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -4664,8 +4666,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -4731,8 +4731,8 @@
         "name": "航班追踪器专业版 - 航班 管家, 实时 航班, 飞行 雷达",
         "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Flight Tracker Apps Studio",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4764,8 +4764,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2012-05-22",
                 "hasInAppPurchases": true,
                 "bundleId": "uk.co.miflights",
@@ -4786,6 +4786,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4819,7 +4820,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "实时 航班 动态 飞 机场 查询 管家 北京首都 航空公司",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -4885,8 +4885,8 @@
         "genreDisplayName": "旅游",
         "name": "SpeakEasy Russian Pro",
         "isPreorder": false,
-        "artistName": "Pocketglow LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Pocketglow LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -4918,13 +4918,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "12.0",
+                "requires32bit": false,
                 "releaseDate": "2008-10-30",
                 "hasInAppPurchases": true,
                 "bundleId": "com.yourcompany.BMRussian",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -4937,9 +4937,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -4973,7 +4974,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5038,8 +5038,8 @@
         "genreDisplayName": "旅游",
         "name": "意语单词卡 - 分类学习意大利语每日常用基础词汇教程",
         "isPreorder": false,
-        "artistName": "佩佩 伍",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "佩佩 伍",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5071,13 +5071,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-06-21",
                 "hasInAppPurchases": false,
                 "bundleId": "cn.liuanke.ItalianWord",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5090,11 +5090,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -5127,6 +5125,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "图片闪卡轻松快速学习意大利语词语",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5229,13 +5229,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2009-07-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ascendo-inc.FreEngStandard",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5286,7 +5286,6 @@
                     }
                 },
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5296,7 +5295,8 @@
                     "textColor2": "081d36",
                     "textColor3": "203c5b",
                     "textColor4": "1b3e59"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -5356,8 +5356,8 @@
             ],
             "ariaLabelForRatings": "3.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "ICOON 全球图解词典",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Malgorzata Karolina Warrink",
@@ -5414,7 +5414,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -5448,6 +5447,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5509,8 +5509,8 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "旅行译宝",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Jourist Verlags GmbH",
         "isIOSBinaryMacOSCompatible": true,
@@ -5545,8 +5545,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2010-02-22",
                 "hasInAppPurchases": false,
                 "bundleId": "de.jourist.PhrasebookGiantEnglish",
@@ -5563,8 +5563,8 @@
                     "textColor4": "502f30"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -5662,11 +5662,11 @@
             ],
             "ariaLabelForRatings": "4.9 星"
         },
-        "name": "阿语单词卡 - 学习阿拉伯语每日常用基础词汇教程",
         "genreDisplayName": "旅游",
+        "name": "阿语单词卡 - 学习阿拉伯语每日常用基础词汇教程",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "佩佩 伍",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -5703,8 +5703,8 @@
                 "releaseDate": "2016-06-24",
                 "hasInAppPurchases": false,
                 "bundleId": "cn.liuanke.ArabicWord",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5720,6 +5720,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -5752,8 +5754,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "图片闪卡轻松快速分类学习阿拉伯语单词",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -5852,13 +5852,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-05-31",
                 "hasInAppPurchases": true,
                 "bundleId": "com.silverware.flightupdatepro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -5871,9 +5871,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -5907,7 +5908,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -5929,7 +5929,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739488779930,
+                "MZ_INDEXER": 1739931470137,
                 "RTCI": 1738957240095
             }
         },
@@ -5973,11 +5973,11 @@
             "ariaLabelForRatings": "2.8 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "1.2",
-        "name": "Whats Playing - UK TV Guide",
         "genreDisplayName": "旅游",
+        "name": "Whats Playing - UK TV Guide",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kathleen Gallagher Mody",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6014,8 +6014,8 @@
                 "releaseDate": "2009-05-22",
                 "hasInAppPurchases": false,
                 "bundleId": "com.gplexdb.jiveturkey",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6031,6 +6031,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -6063,8 +6065,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6086,8 +6086,8 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739517459690,
-                "RTCI": 1738961484541
+                "MZ_INDEXER": 1739919959396,
+                "RTCI": 1739920157295
             }
         },
         "supportsArcade": false,
@@ -6129,11 +6129,11 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "HappyCow - Vegan Food Near You",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "HappyCow",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "HappyCow",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6165,13 +6165,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2011-05-12",
                 "hasInAppPurchases": false,
                 "bundleId": "com.smoothlandon.happycow",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6184,11 +6184,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -6231,11 +6229,13 @@
                         "textColor4": "384d3e"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": false,
                 "subtitle": "Find vegan options worldwide!",
+                "hasSafariExtension": false,
                 "editorialNotes": {
                     "tagline": "全球素食餐馆"
                 },
-                "hasSafariExtension": false,
                 "requiresGameController": false
             }
         }
@@ -6296,11 +6296,11 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Am I Going Down? - 害怕飞行",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Vanilla Pixel",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6332,13 +6332,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-01-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.vanillapixel.AmIGoingDown",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6350,9 +6350,10 @@
                     "textColor4": "452f1a"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -6386,7 +6387,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "AmIGoingDown? Fear of Flying",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -6453,8 +6453,8 @@
         "name": "British Museum Full Buddy",
         "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Trishti Systems Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Trishti Systems Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6486,13 +6486,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-12-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.bm.london.vusiem.fullpack",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -6505,11 +6505,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-2 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -6542,6 +6540,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -6603,8 +6603,8 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "WikiCamps Canada",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "WikiCamps pty ltd",
         "isIOSBinaryMacOSCompatible": false,
@@ -6760,11 +6760,11 @@
             "ariaLabelForRatings": "3.5 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "5.7.15",
-        "genreDisplayName": "旅游",
         "name": "WikiCamps New Zealand",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "WikiCamps pty ltd",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6815,8 +6815,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -6916,8 +6916,8 @@
         "genreDisplayName": "旅游",
         "name": "OpenADSB",
         "isPreorder": false,
-        "artistName": "Steve Kuo",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Steve Kuo",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -6949,8 +6949,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2018-01-20",
                 "hasInAppPurchases": false,
                 "bundleId": "com.stevefrog.tracker",
@@ -6968,8 +6968,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -7066,11 +7066,11 @@
             ],
             "ariaLabelForRatings": "1.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "湖南山东小学英语五年级上下册",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "阳志 欧",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7102,13 +7102,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2017-11-09",
                 "hasInAppPurchases": false,
                 "bundleId": "com.scott.XLEnglish3Grade",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7121,9 +7121,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7157,7 +7158,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "subtitle": "湘鲁版课本助手",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -7223,8 +7223,8 @@
         "genreDisplayName": "旅游",
         "name": "Melbourne Trams",
         "isPreorder": false,
-        "artistName": "JOhn Lyons",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "JOhn Lyons",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7261,8 +7261,8 @@
                 "releaseDate": "2013-10-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.MelTrams",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7277,8 +7277,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -7311,6 +7309,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7412,13 +7412,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2009-07-30",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ascendo-inc.ItaEngStandard",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7469,7 +7469,6 @@
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7479,7 +7478,8 @@
                     "textColor2": "081d36",
                     "textColor3": "203c5b",
                     "textColor4": "1b3e59"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -7598,8 +7598,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -7697,11 +7697,11 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "SpeakEasy Italian Pro",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Pocketglow LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Pocketglow LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -7733,13 +7733,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "12.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "12.0",
                 "releaseDate": "2012-03-19",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pocketglow.ios.speakeasyitalian",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7755,7 +7755,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -7789,6 +7788,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -7891,8 +7891,8 @@
                 "releaseDate": "2012-02-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.skycode.SkyCode-Translate",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -7908,8 +7908,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -7942,6 +7940,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "8種語言的語音，照片，文字",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8003,11 +8003,11 @@
             ],
             "ariaLabelForRatings": "3.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Air Traffic Control - Live ATC",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Dora Dalyanoglu",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Dora Dalyanoglu",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8044,8 +8044,8 @@
                 "releaseDate": "2016-10-04",
                 "hasInAppPurchases": false,
                 "bundleId": "com.doradalyanoglu.havakontrol",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8061,8 +8061,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -8095,6 +8093,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -8159,8 +8159,8 @@
         "genreDisplayName": "旅游",
         "name": "SpeakEasy Spanish Pro",
         "isPreorder": false,
-        "artistName": "Pocketglow LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Pocketglow LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8363,8 +8363,8 @@
                     "textColor4": "12333f"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -8464,8 +8464,8 @@
         "name": "广东省3~5A级旅游景区大全",
         "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "强 马",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8516,9 +8516,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -8551,8 +8553,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "旅游攻略｜测试题库",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -8615,11 +8615,11 @@
             ],
             "ariaLabelForRatings": "1.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Changi Airport (SIN) + Radar",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Renji Mathew",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Renji Mathew",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -8651,13 +8651,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-02-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.webport.airportsinprohd",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8770,8 +8770,8 @@
             "ariaLabelForRatings": "0 星"
         },
         "watchBundleId": "com.discoverukraine.metrobangkok.watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "曼谷地铁导游",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Discover Ukraine LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -8807,8 +8807,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-06-04",
                 "hasInAppPurchases": true,
                 "bundleId": "com.discoverukraine.metrobangkok",
@@ -8829,6 +8829,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -8862,9 +8863,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -8874,7 +8873,8 @@
                     "textColor2": "d2e2f1",
                     "textColor3": "d0dbe6",
                     "textColor4": "acc4dc"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -8894,7 +8894,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549192177,
+                "MZ_INDEXER": 1739918712330,
                 "RTCI": 1732214477917
             }
         },
@@ -8970,13 +8970,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2019-10-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.dazhuogroup.hotel",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9124,13 +9124,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-07-01",
                 "hasInAppPurchases": false,
                 "bundleId": "Mq126.test.scly",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9243,8 +9243,8 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "香港國際機場航班資訊 - HK Flight Info.",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "TechmaxApp",
@@ -9284,8 +9284,8 @@
                 "releaseDate": "2013-08-20",
                 "hasInAppPurchases": false,
                 "bundleId": "hk.techmax.flightinfohk",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9301,8 +9301,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -9335,6 +9333,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9400,11 +9400,11 @@
             "ariaLabelForRatings": "0 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.2.296 ",
-        "genreDisplayName": "旅游",
         "name": "Louvre Full Buddy",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Trishti Systems Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Trishti Systems Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9436,13 +9436,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2016-06-02",
                 "hasInAppPurchases": false,
                 "bundleId": "com.lvr.paris.vusiem.fullpack",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9458,7 +9458,6 @@
                 "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9492,6 +9491,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9555,8 +9555,8 @@
             "ariaLabelForRatings": "3.0 星"
         },
         "watchBundleId": "com.discoverukraine.metrolondon.watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "伦敦地铁导游",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Discover Ukraine LLC",
@@ -9592,13 +9592,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-08-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.discoverukraine.metrolondon",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9611,9 +9611,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -9647,7 +9648,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -9720,11 +9720,11 @@
             "ariaLabelForRatings": "4.9 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "6.0.0",
-        "genreDisplayName": "旅游",
         "name": "OBD Fusion",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "OCTech, LLC",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "OCTech, LLC",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -9761,8 +9761,8 @@
                 "releaseDate": "2013-06-02",
                 "hasInAppPurchases": true,
                 "bundleId": "net.obdsoftware.obdfusion",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9775,10 +9775,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9812,6 +9811,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -9875,11 +9875,11 @@
             "ariaLabelForRatings": "2.3 星"
         },
         "watchBundleId": "com.jaysquared.checkintheair.watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "Boarding Pass 登机 通行证",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Till Henrik Jonathan Hillebrand",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Till Henrik Jonathan Hillebrand",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "3.0",
         "platformAttributes": {
@@ -9917,8 +9917,8 @@
                 "releaseDate": "2011-04-08",
                 "hasInAppPurchases": false,
                 "bundleId": "com.jaysquared.checkintheair",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -9931,10 +9931,9 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -9968,6 +9967,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "登机 验票 & 行程 管理",
                 "hasSafariExtension": false,
                 "requiresGameController": false,
@@ -10042,11 +10042,11 @@
             "ariaLabelForRatings": "4.0 星"
         },
         "watchBundleId": "com.discoverukraine.metrodubai.watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "迪拜地铁导游",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Discover Ukraine LLC",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Discover Ukraine LLC",
         "reviewsRestricted": false,
         "minimumWatchOSVersion": "3.0",
         "platformAttributes": {
@@ -10084,8 +10084,8 @@
                 "releaseDate": "2014-07-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.discoverukraine.metrodubai",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10098,8 +10098,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -10136,7 +10136,6 @@
                     }
                 },
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10146,7 +10145,8 @@
                     "textColor2": "f1c659",
                     "textColor3": "d0dbe6",
                     "textColor4": "c5ad62"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -10208,8 +10208,8 @@
             "ariaLabelForRatings": "0 星"
         },
         "watchBundleId": "com.discoverukraine.metroathens.watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "雅典地铁导游",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Discover Ukraine LLC",
@@ -10245,13 +10245,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2014-07-13",
                 "hasInAppPurchases": true,
                 "bundleId": "com.discoverukraine.metroathens",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10264,9 +10264,10 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -10300,7 +10301,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false,
                 "circularArtwork": {
@@ -10372,11 +10372,11 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Route 66: Points of Interest",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "iStuff",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10408,13 +10408,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2013-08-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.iStuff.Destinations",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10427,9 +10427,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10463,7 +10464,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10528,11 +10528,11 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Wiki City",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Kai Bruchmann",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10564,13 +10564,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2011-07-12",
                 "hasInAppPurchases": false,
                 "bundleId": "GPQDJ99EGV.de.pocketkai.wikicity",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10583,9 +10583,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -10619,7 +10620,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10681,8 +10681,8 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "London Map & Walks (F)",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "GPSmyCity.com, Inc.",
         "isIOSBinaryMacOSCompatible": false,
@@ -10793,7 +10793,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739551438797,
+                "MZ_INDEXER": 1739921871831,
                 "RTCI": 1732633165285
             }
         },
@@ -10836,8 +10836,8 @@
         "name": "TripRider - Travel Planner",
         "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Minoa d.o.o.",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -10874,8 +10874,8 @@
                 "releaseDate": "2012-09-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.minoa.triprider",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -10890,6 +10890,8 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -10922,8 +10924,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -10986,8 +10986,8 @@
             "ariaLabelForRatings": "0 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.9.38",
-        "name": "Natural History Museum Full",
         "genreDisplayName": "旅游",
+        "name": "Natural History Museum Full",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Trishti Systems Ltd",
@@ -11041,9 +11041,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -11076,8 +11078,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11139,11 +11139,11 @@
             ],
             "ariaLabelForRatings": "1.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Zona traffico limitato - ZTL - Italy - avoid ticket",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Victor Wickstrom",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11175,8 +11175,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-09-06",
                 "hasInAppPurchases": false,
                 "bundleId": "com.victorw.ztl",
@@ -11196,6 +11196,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -11229,7 +11230,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11292,11 +11292,11 @@
             "ariaLabelForRatings": "5.0 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "8.0",
-        "genreDisplayName": "旅游",
         "name": "GPS Log",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Geospike Pty Ltd",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Geospike Pty Ltd",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11333,8 +11333,8 @@
                 "releaseDate": "2009-02-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.williamdenniss.GPSLog",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11350,8 +11350,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -11384,6 +11382,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -11445,8 +11445,8 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "英文图片词典专业版",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "siarhei yatsuk",
         "isIOSBinaryMacOSCompatible": true,
@@ -11486,8 +11486,8 @@
                 "releaseDate": "2020-05-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.softser.wordtopicture.pro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11500,8 +11500,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -11602,8 +11602,8 @@
         "name": "模拟旅行 : MapWalker",
         "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Little Sam Software",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Little Sam Software",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -11635,12 +11635,11 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2017-05-17",
                 "hasInAppPurchases": true,
                 "bundleId": "com.littlesamsoft.MapWalker",
-                "hasMessagesExtension": true,
                 "ovalArtwork": {
                     "width": 1024,
                     "height": 768,
@@ -11652,6 +11651,7 @@
                     "textColor4": "675a33"
                 },
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": true,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11664,11 +11664,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -11701,6 +11699,8 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "subtitle": "虚拟旅行及路线规划",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -11765,8 +11765,8 @@
             "ariaLabelForRatings": "5.0 星"
         },
         "watchBundleId": "com.discoverukraine.metrowashington.watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "华盛顿地铁导游",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Discover Ukraine LLC",
@@ -11802,13 +11802,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2015-09-10",
                 "hasInAppPurchases": true,
                 "bundleId": "com.discoverukraine.metrowashington",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11859,7 +11859,6 @@
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -11869,7 +11868,8 @@
                     "textColor2": "8bcbef",
                     "textColor3": "d0dbe6",
                     "textColor4": "74b2da"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -11931,8 +11931,8 @@
             "ariaLabelForRatings": "0 星"
         },
         "watchBundleId": "com.discoverukraine.metroberlin.watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "柏林地铁导游",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "Discover Ukraine LLC",
@@ -11990,7 +11990,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": true,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -12024,8 +12023,8 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12035,7 +12034,8 @@
                     "textColor2": "8bcbef",
                     "textColor3": "d0dbe6",
                     "textColor4": "74b2da"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -12055,7 +12055,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739549753011,
+                "MZ_INDEXER": 1739918772731,
                 "RTCI": 1738959972347
             }
         },
@@ -12099,8 +12099,8 @@
         "name": "行李规划师",
         "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": false,
         "artistName": "Evgeny Turchaninov",
+        "isIOSBinaryMacOSCompatible": false,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12137,8 +12137,8 @@
                 "releaseDate": "2015-08-05",
                 "hasInAppPurchases": false,
                 "bundleId": "com.avencode.SuitcaseSynced",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12154,6 +12154,7 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": false,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -12186,7 +12187,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "isXROSCompatible": false,
                 "subtitle": "旅行打包行李助手",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12254,11 +12254,11 @@
             "ariaLabelForRatings": "0 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "2.8.970",
-        "genreDisplayName": "旅游",
         "name": "National Gallery Full Buddy",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Trishti Systems Ltd",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12290,8 +12290,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-04-25",
                 "hasInAppPurchases": false,
                 "bundleId": "com.ng.london.vusiem",
@@ -12309,8 +12309,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -12407,11 +12407,11 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Airports Plus",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Alexander Flohr",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -12462,8 +12462,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -12616,9 +12616,11 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -12651,8 +12653,6 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "subtitle": "货币转换器",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -12717,8 +12717,8 @@
             "ariaLabelForRatings": "5.0 星"
         },
         "firstVersionSupportingInAppPurchaseApi": "30.0",
-        "genreDisplayName": "旅游",
         "name": "WiFox",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "foXnoMad, LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -12753,8 +12753,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2016-09-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.Foxnomad.WiFox",
@@ -12772,8 +12772,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -12830,7 +12830,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739832897572,
+                "MZ_INDEXER": 1739923459962,
                 "RTCI": 1739804609457
             }
         },
@@ -12928,9 +12928,11 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
+                "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -12963,10 +12965,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
-                "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -12976,7 +12975,8 @@
                     "textColor2": "e9f1f8",
                     "textColor3": "d0dbe6",
                     "textColor4": "bfd0e1"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -13092,8 +13092,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -13249,7 +13249,6 @@
                 "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -13283,6 +13282,7 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
+                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13344,8 +13344,8 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "SpeakEasy German Pro",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Pocketglow LLC",
         "isIOSBinaryMacOSCompatible": false,
@@ -13385,8 +13385,8 @@
                 "releaseDate": "2013-05-08",
                 "hasInAppPurchases": true,
                 "bundleId": "com.pocketglow.ios.speakeasygerman",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13399,8 +13399,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isHiddenFromSpringboard": false,
                 "isStandaloneForWatchOS": false,
+                "isHiddenFromSpringboard": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -13495,8 +13495,8 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "KyotoTrekker for iPad",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Roderick Kar",
         "isIOSBinaryMacOSCompatible": true,
@@ -13531,8 +13531,8 @@
                         ]
                     }
                 ],
-                "requires32bit": true,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": true,
                 "releaseDate": "2011-10-14",
                 "hasInAppPurchases": false,
                 "bundleId": "com.rodkar.kyototrekkeripadtchinese",
@@ -13544,8 +13544,8 @@
                     "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple/e7/67/10/mzi.uxxydjbi.png/{w}x{h}{c}.{f}"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -13642,11 +13642,11 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "London Tube Map and Guide",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "Brainflash",
         "isIOSBinaryMacOSCompatible": false,
+        "artistName": "Brainflash",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -13683,8 +13683,8 @@
                 "releaseDate": "2010-05-11",
                 "hasInAppPurchases": false,
                 "bundleId": "com.brainflash.tubeguide",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -13696,10 +13696,9 @@
                     "textColor4": "193041"
                 },
                 "isAppleWatchSupported": false,
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -13733,6 +13732,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -13852,8 +13852,8 @@
                 },
                 "isAppleWatchSupported": true,
                 "requiredCapabilitiesForRealityDevice": "armv7 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": true,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -13960,8 +13960,8 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Translate Offline: German Pro",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "SkyCode Ltd.",
         "isIOSBinaryMacOSCompatible": true,
@@ -14113,8 +14113,8 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Road Trip Planner™",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "William Modesitt",
         "isIOSBinaryMacOSCompatible": true,
@@ -14168,8 +14168,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": true,
                 "editorialArtwork": {
@@ -14268,8 +14268,8 @@
             "ariaLabelForRatings": "0 星"
         },
         "watchBundleId": "com.discoverukraine.metrorome.watchkitapp",
-        "genreDisplayName": "旅游",
         "name": "罗马地铁导游",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Discover Ukraine LLC",
         "isIOSBinaryMacOSCompatible": true,
@@ -14362,7 +14362,6 @@
                     }
                 },
                 "hasSafariExtension": false,
-                "requiresGameController": false,
                 "circularArtwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14372,7 +14371,8 @@
                     "textColor2": "03e386",
                     "textColor3": "d0dbe6",
                     "textColor4": "07c586"
-                }
+                },
+                "requiresGameController": false
             }
         }
     },
@@ -14432,8 +14432,8 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "WikiCamps USA",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "WikiCamps pty ltd",
         "isIOSBinaryMacOSCompatible": false,
@@ -14468,13 +14468,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-04-16",
                 "hasInAppPurchases": false,
                 "bundleId": "au.com.angryrobot.wikicampsusa",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14585,8 +14585,8 @@
             ],
             "ariaLabelForRatings": "5.0 星"
         },
-        "name": "Moscow Metro & Subway",
         "genreDisplayName": "旅游",
+        "name": "Moscow Metro & Subway",
         "isPreorder": false,
         "isIOSBinaryMacOSCompatible": true,
         "artistName": "LASZLO FACZAN",
@@ -14621,13 +14621,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2013-03-04",
                 "hasInAppPurchases": true,
                 "bundleId": "hu.faczan.moscowmetro",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14741,8 +14741,8 @@
         "name": "Barcelona Art & Culture",
         "genreDisplayName": "旅游",
         "isPreorder": false,
-        "isIOSBinaryMacOSCompatible": true,
         "artistName": "Agorite",
+        "isIOSBinaryMacOSCompatible": true,
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14774,13 +14774,13 @@
                         ]
                     }
                 ],
-                "minimumMacOSVersion": "11.0",
                 "requires32bit": false,
+                "minimumMacOSVersion": "11.0",
                 "releaseDate": "2011-07-28",
                 "hasInAppPurchases": false,
                 "bundleId": "com.sutromedia.BarcelonaExplorer-592",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14793,9 +14793,10 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
+                "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
                         "width": 1188,
@@ -14829,7 +14830,6 @@
                     }
                 },
                 "minimumXROSVersion": "1.0",
-                "isXROSCompatible": true,
                 "hasSafariExtension": false,
                 "requiresGameController": false
             }
@@ -14851,7 +14851,7 @@
         },
         "meta": {
             "contentVersion": {
-                "MZ_INDEXER": 1739548580358,
+                "MZ_INDEXER": 1739928999437,
                 "RTCI": 1738956076678
             }
         },
@@ -14891,11 +14891,11 @@
             ],
             "ariaLabelForRatings": "2.3 星"
         },
-        "genreDisplayName": "旅游",
         "name": "导游资格考试题库大全",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
-        "artistName": "强 马",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "强 马",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -14932,8 +14932,8 @@
                 "releaseDate": "2017-07-18",
                 "hasInAppPurchases": false,
                 "bundleId": "job.test.daoyou",
-                "hasMessagesExtension": false,
                 "isStandaloneWithCompanionForWatchOS": false,
+                "hasMessagesExtension": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -14946,10 +14946,9 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
-                "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
                 "editorialArtwork": {
                     "contentIconTrimmedMonochrome": {
@@ -14983,6 +14982,7 @@
                         "textColor4": "b7b7b7"
                     }
                 },
+                "minimumXROSVersion": "1.0",
                 "subtitle": "笔记｜题库",
                 "hasSafariExtension": false,
                 "requiresGameController": false
@@ -15045,8 +15045,8 @@
             ],
             "ariaLabelForRatings": "0 星"
         },
-        "genreDisplayName": "旅游",
         "name": "Nolli - Navigate Rome in 1748",
+        "genreDisplayName": "旅游",
         "isPreorder": false,
         "artistName": "Martin Koppenhoefer",
         "isIOSBinaryMacOSCompatible": true,
@@ -15081,8 +15081,8 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2014-06-29",
                 "hasInAppPurchases": false,
                 "bundleId": "com.23maps.nolli",
@@ -15100,8 +15100,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "arm64 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "minimumXROSVersion": "1.0",
                 "isXROSCompatible": true,
@@ -15201,8 +15201,8 @@
         "genreDisplayName": "旅游",
         "name": "Rome MVR - Time Window",
         "isPreorder": false,
-        "artistName": "Altair4 Multimedia srl",
         "isIOSBinaryMacOSCompatible": true,
+        "artistName": "Altair4 Multimedia srl",
         "reviewsRestricted": false,
         "platformAttributes": {
             "ios": {
@@ -15234,13 +15234,13 @@
                         ]
                     }
                 ],
-                "requires32bit": false,
                 "minimumMacOSVersion": "11.0",
+                "requires32bit": false,
                 "releaseDate": "2015-11-10",
                 "hasInAppPurchases": false,
                 "bundleId": "com.altair4.romemvr2",
-                "isStandaloneWithCompanionForWatchOS": false,
                 "hasMessagesExtension": false,
+                "isStandaloneWithCompanionForWatchOS": false,
                 "artwork": {
                     "width": 1024,
                     "height": 1024,
@@ -15253,8 +15253,8 @@
                 },
                 "isAppleWatchSupported": false,
                 "requiredCapabilitiesForRealityDevice": "accelerometer location-services opengles-2 ",
-                "isStandaloneForWatchOS": false,
                 "isHiddenFromSpringboard": false,
+                "isStandaloneForWatchOS": false,
                 "isDeliveredInIOSAppForWatchOS": false,
                 "isXROSCompatible": false,
                 "editorialArtwork": {
