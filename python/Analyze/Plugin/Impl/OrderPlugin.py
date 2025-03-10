@@ -29,10 +29,10 @@ class OrderPlugin(AnalyzePlugin):
             result.append(appId)
         if platform not in fileData:
             fileData[platform] = {}
-        if country not in fileData[platform]:
-            fileData[platform][country] = {}
-        fileData[platform][country][genreId] = result
-        fileData[platform][country] = dict(sorted(fileData[platform][country].items(), key=lambda x: x[0]))
+        if genreId not in fileData[platform]:
+            fileData[platform][genreId] = {}
+        fileData[platform][genreId][country] = result
+        fileData[platform][genreId] = dict(sorted(fileData[platform][genreId].items(), key=lambda x: x[0]))
         fileData[platform] = dict(sorted(fileData[platform].items(), key=lambda x: x[0]))
         fileData = dict(sorted(fileData.items(), key=lambda x: x[0]))
         writeTo(fileUrl, fileData)
