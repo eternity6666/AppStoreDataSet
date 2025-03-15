@@ -17,10 +17,10 @@ class AnalyzeHandler:
 
     def analyze(self):
         for tag, plugin in self.pluginList.items():
-            try:
+            # try:
                 plugin.startAnalyze()
-            except Exception as e:
-                logE(f'startAnalyze Error: {tag} {e}')
+            # except Exception as e:
+                # logE(f'startAnalyze Error: {tag} {e}')
 
         for item in self.dataList:
             date = item['date']

@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
 
+import os
 from typing import override
 from Analyze.Plugin.Abstract.AnalyzePlugin import AnalyzePlugin
 from Utils.Utils import readJsonFrom, writeTo
@@ -38,7 +39,6 @@ class AppInfoPlugin(AnalyzePlugin):
     def startAnalyze(self):
         if not os.path.exists(self.filePath):
             os.makedirs(self.filePath)
-        self.log('startAnalyze')
     
     @override
     def handleItem(self, platform, country, genreId, date, data):
@@ -75,7 +75,8 @@ class AppInfoPlugin(AnalyzePlugin):
                 if key not in fileData:
                     fileData[key] = []
                 newValue = fileData[key]
-                targetItemIndex = newValue.find(lambda x: x['k'] == value)
+                # Replace the find method with a list comprehension
+                targetItemIndex = next((i for i, x in enumerate(newValue) if x['k'] == value), -1)
                 if targetItemIndex == -1:
                     newValue.append({
                         'k': value,
@@ -94,7 +95,8 @@ class AppInfoPlugin(AnalyzePlugin):
                         targetItem['v'][platform] = {}
                     if country not in targetItem['v'][platform]:
                         targetItem['v'][platform][country] = []
-                    targetItem['v'][platform][country].append(date)
+                    if date not in targetItem['v'][platform][country]:
+                        targetItem['v'][platform][country].append(date)
                     newValue[targetItemIndex] = targetItem
                     fileData[key] = newValue
 

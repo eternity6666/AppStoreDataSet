@@ -14,8 +14,6 @@ class AppTestPlugin(AnalyzePlugin):
     def startAnalyze(self):
         if not os.path.exists(self.filedChangeAnalyzePath):
             os.makedirs(self.filePath)
-        logI('startAnalyze')
-
 
     @override
     def handleItem(self, platform, country, genreId, date, data):

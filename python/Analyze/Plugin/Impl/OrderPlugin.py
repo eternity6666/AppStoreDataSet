@@ -15,7 +15,6 @@ class OrderPlugin(AnalyzePlugin):
     def startAnalyze(self):
         if not os.path.exists(self.filePath):
             os.makedirs(self.filePath)
-        logI('startAnalyze')
     
     @override
     def handleItem(self, platform, country, genreId, date, data):

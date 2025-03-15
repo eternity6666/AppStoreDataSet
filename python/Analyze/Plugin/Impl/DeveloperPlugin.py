@@ -37,7 +37,7 @@ class DeveloperPlugin(AnalyzePlugin):
                 if developerId not in self.developerToApp:
                     self.developerToApp[developerId] = [developerTypeId, []]
                 elif self.developerToApp[developerId][0] != developerTypeId:
-                    logI(f'Developer type mismatch: {developerId} {self.developerToApp[developerId][0]} {developerTypeId}')
+                    logE(f'Developer type mismatch: {developerId} {self.developerToApp[developerId][0]} {developerTypeId}')
                 appList = self.developerToApp[developerId][1]
                 if appId not in appList:
                     appList.append(appId)

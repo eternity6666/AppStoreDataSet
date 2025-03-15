@@ -28,7 +28,10 @@ def writeTo(path, data):
         os.makedirs(os.path.dirname(path))
     with open(path, 'w') as f:
         f.write(json.dumps(data, indent=2, ensure_ascii=False))
-    logI(f'{path} is write success')
+    logD(f'{path} is write success')
+
+def logD(message):
+    printForDebug(message)
 
 def logI(message):
     logging.info(message)
