@@ -11,46 +11,46 @@ class DeveloperPlugin(AnalyzePlugin):
         filePath = 'simple/developer'
         if not os.path.exists(filePath):
             os.makedirs(filePath)
-        self.typeListPath = f'{filePath}/typeList.json'
         self.developerToAppPath = f'{filePath}/developerToApp.json'
+        self.appToDeveloperPath = f'{filePath}/appToDeveloper.json'
+
+    def recordToDeveloperToApp(self, appId, developerId):
+        if developerId not in self.developerToApp:
+            self.developerToApp[developerId] = []
+        if appId not in self.developerToApp[developerId]:
+            self.developerToApp[developerId].append(appId)
+
+    def recordToAppToDeveloper(self, developerId, appId):
+        if appId not in self.appToDeveloper:
+            self.appToDeveloper[appId] = []
+        if developerId not in self.appToDeveloper[appId]:
+            self.appToDeveloper[appId].append(developerId)
 
     @override
     def startAnalyze(self):
-        self.typeList = readJsonFrom(self.typeListPath) or []
         self.developerToApp = readJsonFrom(self.developerToAppPath) or {}
-        self.appToDeveloper = {}
+        self.appToDeveloper = readJsonFrom(self.appToDeveloperPath) or {}
 
     @override
     def handleItem(self, platform, country, genreId, date, data):
         for item in data:
             appId = item['id']
+            if len(appId) == 0:
+                continue
             developerList = item.get('relationships', {}).get('developer', {}).get('data', [])
             if len(developerList) == 0:
                 logE(f'No developer: {appId} {platform} {country} {genreId} {date}')
                 continue
             for developer in developerList:
                 developerId = developer.get('id')
-                developerType = developer.get('type') 
-                if developerType not in self.typeList:
-                    self.typeList.append(developerType)
-                developerTypeId = self.typeList.index(developerType)
-                if developerId not in self.developerToApp:
-                    self.developerToApp[developerId] = [developerTypeId, []]
-                elif self.developerToApp[developerId][0] != developerTypeId:
-                    logE(f'Developer type mismatch: {developerId} {self.developerToApp[developerId][0]} {developerTypeId}')
-                appList = self.developerToApp[developerId][1]
-                if appId not in appList:
-                    appList.append(appId)
-                    appList.sort()
-                    self.developerToApp[developerId][1] = appList
+                self.recordToDeveloperToApp(appId, developerId)
+                self.recordToAppToDeveloper(developerId, appId)
 
     @override
     def endAnalyze(self):
-        writeTo(self.typeListPath, self.typeList)
-        self.developerToApp = dict(sorted(self.developerToApp.items(), key=lambda x: x[0]))
         writeTo(self.developerToAppPath, self.developerToApp)
+        writeTo(self.appToDeveloperPath, self.appToDeveloper)
     
     @override
     def forceWrite(self):
-        writeTo(self.developerToAppPath, self.developerToApp)
-        writeTo(self.typeListPath, self.typeList)
+        pass

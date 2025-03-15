@@ -1,6 +1,7 @@
 #-*- coding: utf-8 -*-
 
 import json
+import os
 from typing import override
 from Analyze.Plugin.Abstract.AnalyzePlugin import AnalyzePlugin
 from Utils.Utils import readJsonFrom, writeTo
@@ -31,9 +32,6 @@ class OrderPlugin(AnalyzePlugin):
         if genreId not in fileData[platform]:
             fileData[platform][genreId] = {}
         fileData[platform][genreId][country] = result
-        fileData[platform][genreId] = dict(sorted(fileData[platform][genreId].items(), key=lambda x: x[0]))
-        fileData[platform] = dict(sorted(fileData[platform].items(), key=lambda x: x[0]))
-        fileData = dict(sorted(fileData.items(), key=lambda x: x[0]))
         writeTo(fileUrl, fileData)
 
     @override
