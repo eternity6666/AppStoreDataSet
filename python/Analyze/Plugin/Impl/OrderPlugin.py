@@ -25,7 +25,7 @@ class OrderPlugin(AnalyzePlugin):
             fileData[platform] = {}
         if genreId not in fileData[platform]:
             fileData[platform][genreId] = {}
-        if country not in fileData[platform][genreId][country]:
+        if country not in fileData[platform][genreId]:
             fileData[platform][genreId][country] = {}
         if fileName not in fileData[platform][genreId][country]:
             fileData[platform][genreId][country][fileName] = []
