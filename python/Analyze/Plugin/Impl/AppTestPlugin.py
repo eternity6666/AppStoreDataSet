@@ -16,7 +16,7 @@ class AppTestPlugin(AnalyzePlugin):
             os.makedirs(self.filePath)
 
     @override
-    def handleItem(self, platform, country, genreId, date, data):
+    def handleItem(self, platform, country, genreId, date, fileName, data):
         pass
             
 

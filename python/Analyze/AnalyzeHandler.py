@@ -31,14 +31,21 @@ class AnalyzeHandler:
                 platform = splitArray[0]
                 country = splitArray[1]
                 genreId = splitArray[3]
-                fileList = splitArray[4]
+                fileName = splitArray[4].split('.')[0]
                 logI(f'Analyzing path={path}')
                 logI(f'platform={platform} country={country} genreId={genreId} date={date}')
                 with open(path, 'r') as f:
                     data = json.load(f)
                     for tag, plugin in self.pluginList.items():
                         try:
-                            plugin.handleItem(platform, country, genreId, date, data)
+                            plugin.handleItem(
+                                platform=platform,
+                                country=country,
+                                genreId=genreId,
+                                date=date,
+                                fileName=fileName,
+                                data=data
+                            )
                         except Exception as e:
                             logE(f'handleItem Error: {tag} {e}')
 

@@ -11,7 +11,7 @@ class AnalyzePlugin:
         raise Exception('Not implemented')
 
     @abstractmethod
-    def handleItem(self, platform, country, genreId, date, data):
+    def handleItem(self, platform, country, genreId, date, fileName, data):
         raise Exception('Not implemented')
 
     @abstractmethod

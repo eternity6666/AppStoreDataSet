@@ -18,20 +18,24 @@ class OrderPlugin(AnalyzePlugin):
             os.makedirs(self.filePath)
     
     @override
-    def handleItem(self, platform, country, genreId, date, data):
+    def handleItem(self, platform, country, genreId, date, fileName, data):
         fileUrl = f'{self.filePath}/{date}.json'
         fileData = readJsonFrom(fileUrl) or {}
-        result = []
+        if platform not in fileData:
+            fileData[platform] = {}
+        if genreId not in fileData[platform]:
+            fileData[platform][genreId] = {}
+        if country not in fileData[platform][genreId][country]:
+            fileData[platform][genreId][country] = {}
+        if fileName not in fileData[platform][genreId][country]:
+            fileData[platform][genreId][country][fileName] = []
+        result = fileData[platform][genreId][country][fileName]
         for item in data:
             appId = item['id'] or ''
             if len(appId) == 0:
                 continue
             result.append(appId)
-        if platform not in fileData:
-            fileData[platform] = {}
-        if genreId not in fileData[platform]:
-            fileData[platform][genreId] = {}
-        fileData[platform][genreId][country] = result
+        fileData[platform][genreId][country][fileName] = result
         writeTo(fileUrl, fileData)
 
     @override

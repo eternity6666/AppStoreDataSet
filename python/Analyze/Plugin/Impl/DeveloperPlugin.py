@@ -32,7 +32,7 @@ class DeveloperPlugin(AnalyzePlugin):
         self.appToDeveloper = readJsonFrom(self.appToDeveloperPath) or {}
 
     @override
-    def handleItem(self, platform, country, genreId, date, data):
+    def handleItem(self, platform, country, genreId, date, fileName, data):
         for item in data:
             appId = item['id']
             if len(appId) == 0:

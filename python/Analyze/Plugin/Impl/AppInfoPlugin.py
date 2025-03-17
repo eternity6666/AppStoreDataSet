@@ -41,7 +41,7 @@ class AppInfoPlugin(AnalyzePlugin):
             os.makedirs(self.filePath)
     
     @override
-    def handleItem(self, platform, country, genreId, date, data):
+    def handleItem(self, platform, country, genreId, date, fileName, data):
         def traverse_json(jsonObj, prefix = ''):
             keyValueDict = {}
             for key, value in jsonObj.items():
