@@ -30,13 +30,17 @@ class OrderPlugin(AnalyzePlugin):
         if fileName not in fileData[platform][genreId][country]:
             fileData[platform][genreId][country][fileName] = []
         result = fileData[platform][genreId][country][fileName]
+        isDataChange = False
         for item in data:
             appId = item['id'] or ''
             if len(appId) == 0:
                 continue
-            result.append(appId)
-        fileData[platform][genreId][country][fileName] = result
-        writeTo(fileUrl, fileData)
+            if appId not in result:
+                isDataChange = True
+                result.append(appId)
+        if isDataChange:
+            fileData[platform][genreId][country][fileName] = result
+            writeTo(fileUrl, fileData)
 
     @override
     def endAnalyze(self):
