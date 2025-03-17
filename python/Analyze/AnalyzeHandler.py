@@ -31,6 +31,7 @@ class AnalyzeHandler:
                 platform = splitArray[0]
                 country = splitArray[1]
                 genreId = splitArray[3]
+                fileList = splitArray[4]
                 logI(f'Analyzing path={path}')
                 logI(f'platform={platform} country={country} genreId={genreId} date={date}')
                 with open(path, 'r') as f:
