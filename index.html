@@ -9,7 +9,7 @@
     <h1>这个仓库是用来存放 AppStore 排行榜 TOP100 的应用程序和游戏</h1>
     <a href="https://github.com/eternity6666/AppStoreDataSet">仓库地址</a>
     <script>
-        fetch('simple/developer/appToDeveloper.json')
+        fetch('./simple/developer/appToDeveloper.json')
             .then(response => response.json())
             .then(data => {
                 const developer = document.createElement('ul')
