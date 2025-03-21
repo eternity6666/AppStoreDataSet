@@ -4,22 +4,17 @@
 <head>
     <meta charset="utf-8">
     <title>AppStoreDataSet</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>这个仓库是用来存放 AppStore 排行榜 TOP100 的应用程序和游戏</h1>
-    <a href="https://github.com/eternity6666/AppStoreDataSet">仓库地址</a>
-    <script>
-        fetch('./simple/developer/appToDeveloper.json')
-            .then(response => response.json())
-            .then(data => {
-                const developer = document.createElement('ul')
-                for (const key in data) {
-                    const li = document.createElement('li')
-                    li.textContent = `${key}: ${data[key]}`
-                    developer.appendChild(li)
-                }
-                document.body.appendChild(developer)
-            })
-    </script>
+
+<body class="bg-gray-100 font-sans flex flex-col items-center p-8">
+    <h1 class="text-3xl font-bold text-blue-600 mb-4">这个仓库是用来存放 AppStore 排行榜 TOP100 的应用程序和游戏</h1>
+    <a href="https://github.com/eternity6666/AppStoreDataSet" class="text-blue-600 hover:underline mb-8">仓库地址</a>
+    <div id="dataArea" class="bg-white p-6 rounded-lg shadow-md w-4/5 max-w-4xl">
+        <!-- 数据区域内容将由 JavaScript 动态添加 -->
+    </div>
+    <script src="./src/js/script.js"></script>
 </body>
+
 </html>
