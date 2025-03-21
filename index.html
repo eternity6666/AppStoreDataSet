@@ -8,10 +8,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 font-sans flex flex-col items-center p-8">
-    <h1 class="text-3xl font-bold text-blue-600 mb-4">这个仓库是用来存放 AppStore 排行榜 TOP100 的应用程序和游戏</h1>
-    <a href="https://github.com/eternity6666/AppStoreDataSet" class="text-blue-600 hover:underline mb-8">仓库地址</a>
-    <div id="dataArea" class="bg-white p-6 rounded-lg shadow-md w-4/5 max-w-4xl">
+<body class="bg-gray-100 font-sans flex flex-col items-center p-8 space-y-8">
+    <h1 class="text-3xl font-bold text-blue-600">这个仓库是用来存放 AppStore 排行榜 TOP100 的应用程序和游戏</h1>
+    <a href="https://github.com/eternity6666/AppStoreDataSet" class="text-blue-600 hover:underline">仓库地址</a>
+    <div class="flex flex-wrap justify-center space-x-4 space-y-2">
+        <div id="dateArea"></div>
+        <div id="platformArea"></div>
+        <div id="genreIdArea"></div>
+        <div id="countryArea"></div>
+        <div id="typeArea"></div>
+    </div>
+    <div id="dataListArea" class="bg-white p-6 rounded-lg shadow-md w-full max-w-8xl grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
         <!-- 数据区域内容将由 JavaScript 动态添加 -->
     </div>
     <script src="./src/js/script.js"></script>
