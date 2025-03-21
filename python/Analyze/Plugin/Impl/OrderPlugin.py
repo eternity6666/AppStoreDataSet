@@ -41,6 +41,14 @@ class OrderPlugin(AnalyzePlugin):
         if isDataChange:
             fileData[platform][genreId][country][fileName] = result
             writeTo(fileUrl, fileData)
+            self.tryUpdateDateList(date)
+
+    def tryUpdateDateList(self, date):
+        fileUrl = f'{self.filePath}/dateList.json'
+        dateList = readJsonFrom(fileUrl) or []        
+        if date not in dateList:
+            dateList.append(date)
+            writeTo(fileUrl, dateList)
 
     @override
     def endAnalyze(self):
