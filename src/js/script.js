@@ -1,224 +1,204 @@
-// 获取数据区域元素
+// 获取选择器元素
+const dateSelect = document.getElementById("dateSelect");
+const platformSelect = document.getElementById("platformSelect");
+const genreSelect = document.getElementById("genreSelect");
+const countrySelect = document.getElementById("countrySelect");
+const typeSelect = document.getElementById("typeSelect");
 const dataListArea = document.getElementById("dataListArea");
-const dateArea = document.getElementById("dateArea");
-const platformArea = document.getElementById("platformArea");
-const genreIdArea = document.getElementById("genreIdArea");
-const countryArea = document.getElementById("countryArea");
-const typeArea = document.getElementById("typeArea");
 
-// 图表目录路径
+// 配置
 const chartsDirs = "./simple/charts";
 const itemDirs = "./simple/appInfo";
 const STORAGE_KEYS = {
-  PLATFORM: 'AppStoreDataSet_platform',
-  GENRE_ID: 'AppStoreDataSet_genreId',
-  COUNTRY: 'AppStoreDataSet_country',
-  TYPE: 'AppStoreDataSet_type',
+    DATE: 'AppStoreDataSet_date',
+    PLATFORM: 'AppStoreDataSet_platform',
+    GENRE_ID: 'AppStoreDataSet_genreId',
+    COUNTRY: 'AppStoreDataSet_country',
+    TYPE: 'AppStoreDataSet_type',
 };
 
-// 存储原始数据
+// 存储状态
 let originData = {};
-// 存储数据信息
 let dataInfo = {
-  date: "",
-  platform: localStorage.getItem(STORAGE_KEYS.PLATFORM) || "",
-  genreId: localStorage.getItem(STORAGE_KEYS.GENRE_ID) || "",
-  country: localStorage.getItem(STORAGE_KEYS.COUNTRY) || "",
-  type: localStorage.getItem(STORAGE_KEYS.TYPE) || "",
+    date: localStorage.getItem(STORAGE_KEYS.DATE) || "",
+    platform: localStorage.getItem(STORAGE_KEYS.PLATFORM) || "",
+    genreId: localStorage.getItem(STORAGE_KEYS.GENRE_ID) || "",
+    country: localStorage.getItem(STORAGE_KEYS.COUNTRY) || "",
+    type: localStorage.getItem(STORAGE_KEYS.TYPE) || "",
 };
 
-// 更新 UI 函数
-function updateUI(uiArea, key) {
-  Array.from(uiArea.getElementsByTagName("button")).forEach((button) => {
-    button.classList.toggle("btn-selected", button.textContent === key);
-  });
-}
-
-// 加载平台数据
-function loadPlatformData(platform) {
-  dataInfo.platform = platform;
-  localStorage.setItem(STORAGE_KEYS.PLATFORM, platform);
-  updateUI(platformArea, platform);
-  const genreIdList = Object.keys(originData[platform] || {});
-  genreIdArea.innerHTML = "";
-  genreIdList.forEach((genreId) => {
-    const button = createButton(genreId, () => loadGenreIdData(genreId));
-    genreIdArea.appendChild(button);
-  });
-  if (genreIdList.length > 0) {
-    const selectedGenreId = genreIdList.includes(dataInfo.genreId) ? dataInfo.genreId : genreIdList[0];
-    loadGenreIdData(selectedGenreId);
-  }
-}
-
-// 加载 genreId 数据
-function loadGenreIdData(genreId) {
-  dataInfo.genreId = genreId;
-  localStorage.setItem(STORAGE_KEYS.GENRE_ID, genreId);
-  updateUI(genreIdArea, genreId);
-  const countryList = Object.keys(
-    originData[dataInfo.platform]?.[genreId] || {}
-  );
-  countryArea.innerHTML = "";
-  countryList.forEach((country) => {
-    const button = createButton(country, () => loadCountryData(country));
-    countryArea.appendChild(button);
-  });
-  if (countryList.length > 0) {
-    const selectedCountry = countryList.includes(dataInfo.country) ? dataInfo.country : countryList[0];
-    loadCountryData(selectedCountry);
-  }
-}
-
-// 加载国家数据
-function loadCountryData(country) {
-  dataInfo.country = country;
-  localStorage.setItem(STORAGE_KEYS.COUNTRY, country);
-  updateUI(countryArea, country);
-  const typeList = Object.keys(
-    originData[dataInfo.platform]?.[dataInfo.genreId]?.[country] || {}
-  );
-  typeArea.innerHTML = "";
-  typeList.forEach((type) => {
-    const button = createButton(type, () => loadTypeData(type));
-    typeArea.appendChild(button);
-  });
-  if (typeList.length > 0) {
-    const selectedType = typeList.includes(dataInfo.type) ? dataInfo.type : typeList[0];
-    loadTypeData(selectedType);
-  }
-}
-
-// 加载类型数据
-function loadTypeData(type) {
-  dataInfo.type = type;
-  localStorage.setItem(STORAGE_KEYS.TYPE, type);
-  updateUI(typeArea, type);
-  const dataList =
-    originData[dataInfo.platform]?.[dataInfo.genreId]?.[dataInfo.country]?.[
-      type
-    ] || [];
-  dataListArea.innerHTML = "";
-  dataList.forEach((item) => {
-    const div = document.createElement("div");
-    div.classList.add("bg-gray-200", "p-4", "rounded-md", "flex", "gap-4");
-    loadItemData(div, item);
-    dataListArea.appendChild(div);
-  });
-}
-
-function createItem(div, json) {
-  div.innerHTML = "";
-
-  let imageUrl = json["platformAttributes.ios.artwork.url"]?.[0]?.["k"] || "";
-  let name = json["name"]?.[0]?.["k"] || "";
-  let subtitle = json["platformAttributes.ios.subtitle"]?.[0]?.["k"] || "";
-
-  let shrink = document.createElement("div");
-  shrink.classList.add("shrink-0");
-  shrink.innerHTML = `<img class="size-12" src="${imageUrl.replace(
-    "{w}x{h}{c}.{f}",
-    "1024x0w.webp"
-  )}" alt="Logo">`;
-  div.appendChild(shrink);
-
-  let textListDiv = document.createElement("div");
-  textListDiv.innerHTML = `
-  <div class="text-xl font-medium text-black">${name}</div>
-  <p class="text-slate-500">${subtitle}</p>
-  `;
-  div.appendChild(textListDiv);
-}
-
-function loadItemData(div, item) {
-  div.textContent = JSON.stringify(item);
-  fetch(`${itemDirs}/${item[0]}/${item}.json`)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then((jsonData) => {
-      createItem(div, jsonData);
-    })
-    .catch((error) => {
-      console.error("Error loading date data:", error);
+// 初始化选择器
+function initializeSelect(element) {
+    $(element).select2({
+        width: '100%',
+        placeholder: '请选择',
+        allowClear: true
     });
 }
 
-// 加载日期数据
-function loadDateData(date) {
-  fetch(`${chartsDirs}/${date}.json`)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then((jsonData) => {
-      dataInfo.date = date;
-      originData = jsonData;
-      const platformList = Object.keys(jsonData);
-      platformArea.innerHTML = "";
-      platformList.forEach((platform) => {
-        const button = createButton(platform, () => loadPlatformData(platform));
-        platformArea.appendChild(button);
-      });
-      if (platformList.length > 0) {
-        const selectedPlatform = platformList.includes(dataInfo.platform) ? dataInfo.platform : platformList[0];
-        loadPlatformData(selectedPlatform);
-      }
-    })
-    .catch((error) => {
-      console.error("Error loading date data:", error);
+// 更新选择器选项
+function updateSelect(element, options, selectedValue) {
+    element.innerHTML = '<option value="">请选择</option>';
+    options.forEach(option => {
+        const optionElement = document.createElement('option');
+        optionElement.value = option;
+        optionElement.textContent = option;
+        optionElement.selected = option === selectedValue;
+        element.appendChild(optionElement);
     });
+    $(element).trigger('change');
 }
 
-// 创建按钮函数
-function createButton(text, clickHandler) {
-  const button = document.createElement("button");
-  button.textContent = text;
-  button.classList.add(
-    "bg-blue-600",
-    "text-white",
-    "px-4",
-    "py-2",
-    "rounded-md",
-    "hover:bg-blue-700",
-    "m-2"
-  );
-  button.addEventListener("click", clickHandler);
-  return button;
+// 创建应用卡片
+function createAppCard(appData) {
+    const imageUrl = appData["platformAttributes.ios.artwork.url"]?.[0]?.["k"] || "";
+    const name = appData["name"]?.[0]?.["k"] || "";
+    const subtitle = appData["platformAttributes.ios.subtitle"]?.[0]?.["k"] || "";
+    
+    return `
+        <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+            <div class="p-6 flex items-start space-x-4">
+                <img class="h-16 w-16 rounded-lg object-cover" 
+                     src="${imageUrl.replace("{w}x{h}{c}.{f}", "1024x0w.webp")}" 
+                     alt="${name}">
+                <div class="space-y-1">
+                    <h3 class="font-semibold leading-none tracking-tight">${name}</h3>
+                    <p class="text-sm text-muted-foreground">${subtitle}</p>
+                </div>
+            </div>
+        </div>
+    `;
 }
 
-// 加载日期列表
-function loadDateList(dateListPath) {
-  fetch(dateListPath)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then((dateList) => {
-      dateArea.innerHTML = "";
-      dateList.forEach((date) => {
-        const button = createButton(date, () => loadDateData(date));
-        dateArea.appendChild(button);
-      });
-      if (dateList.length > 0) {
-        const selectedDate =
-          dataInfo.date in dateList
-            ? dataInfo.date
-            : dateList[dateList.length - 1];
-        loadDateData(selectedDate);
-      }
-    })
-    .catch((error) => {
-      console.error("Error loading date list:", error);
-    });
+// 加载应用数据
+async function loadAppData(item) {
+    try {
+        const response = await fetch(`${itemDirs}/${item[0]}/${item}.json`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const jsonData = await response.json();
+        return createAppCard(jsonData);
+    } catch (error) {
+        console.error("Error loading app data:", error);
+        return '';
+    }
 }
 
-// 启动加载日期列表
-loadDateList(`${chartsDirs}/dateList.json`);
+// 更新数据展示区域
+async function updateDataList() {
+    const dataList = originData[dataInfo.platform]?.[dataInfo.genreId]?.[dataInfo.country]?.[dataInfo.type] || [];
+    dataListArea.innerHTML = '<div class="col-span-full text-center">加载中...</div>';
+    
+    const cardPromises = dataList.map(item => loadAppData(item));
+    const cards = await Promise.all(cardPromises);
+    dataListArea.innerHTML = cards.join('');
+}
+
+// 事件处理器
+dateSelect.addEventListener('change', async (e) => {
+    const date = e.target.value;
+    if (!date) return;
+    
+    dataInfo.date = date;
+    localStorage.setItem(STORAGE_KEYS.DATE, date);
+    
+    try {
+        const response = await fetch(`${chartsDirs}/${date}.json`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        originData = await response.json();
+        
+        const platforms = Object.keys(originData);
+        updateSelect(platformSelect, platforms, dataInfo.platform);
+        
+        if (platforms.length > 0) {
+            const selectedPlatform = platforms.includes(dataInfo.platform) ? dataInfo.platform : platforms[0];
+            platformSelect.value = selectedPlatform;
+            platformSelect.dispatchEvent(new Event('change'));
+        }
+    } catch (error) {
+        console.error("Error loading date data:", error);
+    }
+});
+
+platformSelect.addEventListener('change', (e) => {
+    const platform = e.target.value;
+    if (!platform) return;
+    
+    dataInfo.platform = platform;
+    localStorage.setItem(STORAGE_KEYS.PLATFORM, platform);
+    
+    const genres = Object.keys(originData[platform] || {});
+    updateSelect(genreSelect, genres, dataInfo.genreId);
+    
+    if (genres.length > 0) {
+        const selectedGenre = genres.includes(dataInfo.genreId) ? dataInfo.genreId : genres[0];
+        genreSelect.value = selectedGenre;
+        genreSelect.dispatchEvent(new Event('change'));
+    }
+});
+
+genreSelect.addEventListener('change', (e) => {
+    const genre = e.target.value;
+    if (!genre) return;
+    
+    dataInfo.genreId = genre;
+    localStorage.setItem(STORAGE_KEYS.GENRE_ID, genre);
+    
+    const countries = Object.keys(originData[dataInfo.platform]?.[genre] || {});
+    updateSelect(countrySelect, countries, dataInfo.country);
+    
+    if (countries.length > 0) {
+        const selectedCountry = countries.includes(dataInfo.country) ? dataInfo.country : countries[0];
+        countrySelect.value = selectedCountry;
+        countrySelect.dispatchEvent(new Event('change'));
+    }
+});
+
+countrySelect.addEventListener('change', (e) => {
+    const country = e.target.value;
+    if (!country) return;
+    
+    dataInfo.country = country;
+    localStorage.setItem(STORAGE_KEYS.COUNTRY, country);
+    
+    const types = Object.keys(originData[dataInfo.platform]?.[dataInfo.genreId]?.[country] || {});
+    updateSelect(typeSelect, types, dataInfo.type);
+    
+    if (types.length > 0) {
+        const selectedType = types.includes(dataInfo.type) ? dataInfo.type : types[0];
+        typeSelect.value = selectedType;
+        typeSelect.dispatchEvent(new Event('change'));
+    }
+});
+
+typeSelect.addEventListener('change', (e) => {
+    const type = e.target.value;
+    if (!type) return;
+    
+    dataInfo.type = type;
+    localStorage.setItem(STORAGE_KEYS.TYPE, type);
+    
+    updateDataList();
+});
+
+// 初始化
+async function initialize() {
+    // 初始化所有选择器
+    [dateSelect, platformSelect, genreSelect, countrySelect, typeSelect].forEach(initializeSelect);
+    
+    try {
+        // 加载日期列表
+        const response = await fetch(`${chartsDirs}/dateList.json`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const dateList = await response.json();
+        
+        updateSelect(dateSelect, dateList, dataInfo.date || dateList[dateList.length - 1]);
+        
+        // 触发日期选择以加载后续数据
+        dateSelect.dispatchEvent(new Event('change'));
+    } catch (error) {
+        console.error("Error initializing:", error);
+    }
+}
+
+// 启动应用
+initialize();
