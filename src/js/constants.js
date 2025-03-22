@@ -1,6 +1,6 @@
 const GENRE_ID_NAME = [
     {
-        country: ["cn", "us"],
+        country: ["cn"],
         genre: {
             "36": "儿童",
             "6000": "商务",

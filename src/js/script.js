@@ -10,7 +10,6 @@ const dataListArea = document.getElementById("dataListArea");
 const chartsDirs = "./simple/charts";
 const itemDirs = "./simple/appInfo";
 const STORAGE_KEYS = {
-    DATE: 'AppStoreDataSet_date',
     PLATFORM: 'AppStoreDataSet_platform',
     GENRE_ID: 'AppStoreDataSet_genreId',
     COUNTRY: 'AppStoreDataSet_country',
@@ -20,7 +19,7 @@ const STORAGE_KEYS = {
 // 存储状态
 let originData = {};
 let dataInfo = {
-    date: localStorage.getItem(STORAGE_KEYS.DATE) || "",
+    date: "",
     platform: localStorage.getItem(STORAGE_KEYS.PLATFORM) || "",
     genreId: localStorage.getItem(STORAGE_KEYS.GENRE_ID) || "",
     country: localStorage.getItem(STORAGE_KEYS.COUNTRY) || "",
@@ -33,6 +32,9 @@ function initializeSelect(element) {
         width: '100%',
         placeholder: '请选择',
         allowClear: true
+    }).on('select2:select', function(e) {
+        // 触发原生 change 事件
+        this.dispatchEvent(new Event('change'));
     });
 }
 
@@ -114,6 +116,9 @@ dateSelect.addEventListener('change', async (e) => {
             platformSelect.value = selectedPlatform;
             platformSelect.dispatchEvent(new Event('change'));
         }
+        
+        // 更新数据列表
+        updateDataList();
     } catch (error) {
         console.error("Error loading date data:", error);
     }
@@ -134,6 +139,9 @@ platformSelect.addEventListener('change', (e) => {
         genreSelect.value = selectedGenre;
         genreSelect.dispatchEvent(new Event('change'));
     }
+    
+    // 更新数据列表
+    updateDataList();
 });
 
 genreSelect.addEventListener('change', (e) => {
@@ -151,6 +159,9 @@ genreSelect.addEventListener('change', (e) => {
         countrySelect.value = selectedCountry;
         countrySelect.dispatchEvent(new Event('change'));
     }
+    
+    // 更新数据列表
+    updateDataList();
 });
 
 countrySelect.addEventListener('change', (e) => {
@@ -168,6 +179,9 @@ countrySelect.addEventListener('change', (e) => {
         typeSelect.value = selectedType;
         typeSelect.dispatchEvent(new Event('change'));
     }
+    
+    // 更新数据列表
+    updateDataList();
 });
 
 typeSelect.addEventListener('change', (e) => {
@@ -191,9 +205,12 @@ async function initialize() {
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const dateList = await response.json();
         
-        updateSelect(dateSelect, dateList, dataInfo.date || dateList[dateList.length - 1]);
+        // 设置日期选择器，但使用最新的日期
+        const latestDate = dateList[dateList.length - 1];
+        updateSelect(dateSelect, dateList, latestDate);
         
         // 触发日期选择以加载后续数据
+        dateSelect.value = latestDate;
         dateSelect.dispatchEvent(new Event('change'));
     } catch (error) {
         console.error("Error initializing:", error);
