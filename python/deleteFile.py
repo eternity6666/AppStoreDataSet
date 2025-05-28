@@ -26,7 +26,7 @@ def deleteFile(path, targetPath):
 
 if __name__ == '__main__':
     dictPathList = ['ipad', 'iphone']
-    needRemoveDataList = ['2025-05-22', '2025-05-23', '2025-05-24']
+    needRemoveDataList = ['2025-05-25', '2025-05-26', '2025-05-27']
     for dictPath in dictPathList:
         for targetPath in needRemoveDataList:
             deleteFile(dictPath, targetPath)
