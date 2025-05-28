@@ -1,6 +1,7 @@
 #-*- coding: utf-8 -*-
 
 import os
+import sys
 
 def deleteFile(path, targetPath):
     # 删除 path 下面的所有路径含有 targetPath 的文件，并清理空文件夹
@@ -26,8 +27,9 @@ def deleteFile(path, targetPath):
 
 if __name__ == '__main__':
     dictPathList = ['ipad', 'iphone']
-    needRemoveDataList = ['2025-05-25', '2025-05-26', '2025-05-27']
+    needRemoveDataList = []
+    if len(sys.argv) > 1:
+        needRemoveDataList.append(sys.argv[1])
     for dictPath in dictPathList:
         for targetPath in needRemoveDataList:
             deleteFile(dictPath, targetPath)
-
