@@ -17,14 +17,16 @@ class DeveloperPlugin(AnalyzePlugin):
     def recordToDeveloperToApp(self, appId, developerId):
         if developerId not in self.developerToApp:
             self.developerToApp[developerId] = []
-        if appId not in self.developerToApp[developerId]:
-            self.developerToApp[developerId].append(appId)
+        intAppId = int(appId)
+        if intAppId not in self.developerToApp[developerId]:
+            self.developerToApp[developerId].append(intAppId)
 
     def recordToAppToDeveloper(self, developerId, appId):
         if appId not in self.appToDeveloper:
             self.appToDeveloper[appId] = []
-        if developerId not in self.appToDeveloper[appId]:
-            self.appToDeveloper[appId].append(developerId)
+        intDeveloperId = int(developerId)
+        if intDeveloperId not in self.appToDeveloper[appId]:
+            self.appToDeveloper[appId].append(intDeveloperId)
 
     @override
     def startAnalyze(self):
