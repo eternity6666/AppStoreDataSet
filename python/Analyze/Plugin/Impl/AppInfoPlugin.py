@@ -1,55 +1,37 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 import os
 from typing import override
 from Analyze.Plugin.Abstract.AnalyzePlugin import AnalyzePlugin
 from Utils.Utils import readJsonFrom, writeTo
+from Utils.Consts import Consts
 
 class AppInfoPlugin(AnalyzePlugin):
 
     def __init__(self):
         super().__init__()
         self.filePath = 'simple/appInfo'
-        self.notHandleKeyList = [
-            "relationships",
-            "meta",
-            "genreDisplayName",
-            "ariaLabelForRatings",
-            "chartPositions",
-            "userRating.value",
-            "userRating.ratingCount",
-            "editorialArtwork",
-            "contentIconTrimmedMonochrome",
-            "contentIconTrimmed",
-            "brandLogo",
-            "width",
-            "height",
-            "bgColor",
-            "textColor1",
-            "textColor2",
-            "textColor3",
-            "textColor4"
-        ]
+        self.notHandleKeyList = Consts.APP_INFO_NOT_HANDLE_KEY_LIST
         self.keyListUrl = f'{self.filePath}/keyList.json'
         self.keyList = readJsonFrom(self.keyListUrl) or []
         self.advisoriesUrl = f'{self.filePath}/advisories.json'
         self.advisories = readJsonFrom(self.advisoriesUrl) or {}
-    
+
     @override
     def startAnalyze(self):
         if not os.path.exists(self.filePath):
             os.makedirs(self.filePath)
-    
+
     @override
     def handleItem(self, platform, country, genreId, date, fileName, data):
-        def traverse_json(jsonObj, prefix = ''):
+        def traverse_json(jsonObj, prefix=''):
             keyValueDict = {}
             for key, value in jsonObj.items():
                 full_key = f"{prefix}.{key}" if prefix else key
                 if key in self.notHandleKeyList or full_key in self.notHandleKeyList:
                     continue
                 if isinstance(value, dict):
-                    keyValueDict.update(traverse_json(value, full_key)) 
+                    keyValueDict.update(traverse_json(value, full_key))
                 elif "contentRatingsBySystem.appsApple.advisories" == full_key:
                     newValue = []
                     for valueItem in value:
