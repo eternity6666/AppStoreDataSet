@@ -21,6 +21,7 @@ class Consts:
         "ariaLabelForRatings",
         "chartPositions",
         "userRating.value",
+        "userRating.wasReset",
         "userRating.ratingCount",
         "editorialArtwork",
         "contentIconTrimmedMonochrome",
