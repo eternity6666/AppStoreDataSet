@@ -160,7 +160,7 @@ class DataService {
         try {
             const country = app.appState.dataInfo.country;
             const jsonData = await this.fetchWithAbort(`https://itunes.apple.com/lookup?id=${appId}&entity=software&country=${country}`);
-            return jsonData && jsonData['results'] ? this.ui.createAppCard(new AppInfo(jsonData['results'])) : '';
+            return jsonData && jsonData['results'] ? app.ui.createAppCard(new AppInfo(jsonData['results'][0])) : '';
         } catch (error) {
             console.error("Error loading app data:", error);
             return '';
