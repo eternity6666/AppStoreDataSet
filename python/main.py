@@ -11,6 +11,6 @@ if __name__ == '__main__':
     analyzeHandler = AnalyzeHandler(FilePathListManager().dataList)
     # analyzeHandler.register(DeveloperPlugin())
     analyzeHandler.register(OrderPlugin())
-    analyzeHandler.register(AppInfoPlugin())
+    # analyzeHandler.register(AppInfoPlugin())
     # analyzeHandler.register(AppTestPlugin())
     analyzeHandler.analyze()
