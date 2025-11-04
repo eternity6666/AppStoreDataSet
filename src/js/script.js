@@ -53,74 +53,17 @@ class AppState {
 }
 
 class AppInfo {
-    static FIELD_MAP = {
-        name: {
-            key: "name",
-            handler: (originValue) => {
-                return originValue || "";
-            }
-        },
-        subtitle: {
-            key: "platformAttributes.ios.subtitle",
-            handler: (originValue) => {
-                return originValue || "";
-            }
-        },
-        artworkUrl: {
-            key: "platformAttributes.ios.artwork.url",
-            handler: (originValue) => {
-                try {
-                    return originValue.replace("{w}x{h}{c}.{f}", "1024x0w.webp");
-                } catch (error) {
-                    return "";
-                }
-            }
-        },
-        userRating: {
-            key: "userRating.ratingCountList",
-            handler: (originValue) => {
-                const value = originValue || [];
-                if (value.length >= 5) {
-                    const totalCount = value.reduce((acc, item) => {
-                        return acc + item;
-                    }, 0);
-                    const score = value.slice(0, 5).reduce((acc, item, index) => {
-                        return acc + item * (index + 1);
-                    }, 0) / totalCount;
-                    return score.toFixed(2);
-                }
-                return "0.00";
-            }
-        }
-    }
     constructor(jsonData) {
         this.jsonData = jsonData;
-        this.appInfo = {};
-        Object.keys(AppInfo.FIELD_MAP).forEach(key => {
-            const keyName = AppInfo.FIELD_MAP[key].key;
-            const filedList = this.jsonData[keyName] || [];
-            const originValue = filedList.find(item => {
-                const v = item['v'];
-                const platform = app.appState.dataInfo.platform;
-                const country = app.appState.dataInfo.country;
-                const date = app.appState.dataInfo.date;
-                if (platform in v) {
-                    if (country in v[platform]) {
-                        if (v[platform][country].includes(date)) {
-                            return true;
-                        }
-                    }
-                }
-                return false;
-            })?.k;
-            const value = AppInfo.FIELD_MAP[key].handler(originValue);
-            console.log(key, value);
-            this.appInfo[key] = value;
-        });
-    }
-
-    getAppInfo() {
-        return this.appInfo;
+        this.appInfo = {
+          iconUrl: jsonData['artworkUrl512'],
+          name: jsonData['trackName'],
+          description: jsonData['description'],
+          developerName: jsonData['artistName'],
+          price: jsonData['price'],
+          currency: jsonData['currency'],
+          averageUserRating: jsonData['averageUserRating'],
+        };
     }
 }
 
@@ -162,10 +105,10 @@ class UI {
     }
 
     createAppCard(appInfo) {
-        const imageUrl = appInfo.appInfo.artworkUrl;
+        const imageUrl = appInfo.appInfo.iconUrl;
         const name = appInfo.appInfo.name;
-        const subtitle = appInfo.appInfo.subtitle;
-        const userRating = appInfo.appInfo.userRating;
+        const subtitle = appInfo.appInfo.price;
+        const userRating = appInfo.appInfo.averageUserRating;
         return `
             <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
                 <div class="p-6 flex items-start space-x-4">
@@ -213,11 +156,11 @@ class DataService {
         }
     }
 
-    async loadAppData(item) {
+    async loadAppData(appId) {
         try {
-            const jsonData = await this.fetchWithAbort(`${CONFIG.DIRS.APP_INFO}/${item[0]}/${item}.json`);
-            console.log(item);
-            return jsonData ? this.ui.createAppCard(new AppInfo(jsonData)) : '';
+            const country = app.appState.dataInfo.country;
+            const jsonData = await this.fetchWithAbort(`https://itunes.apple.com/lookup?id=${appId}&entity=software&country=${country}`);
+            return jsonData && jsonData['results'] ? this.ui.createAppCard(new AppInfo(jsonData['results'])) : '';
         } catch (error) {
             console.error("Error loading app data:", error);
             return '';
@@ -225,7 +168,7 @@ class DataService {
     }
 
     async updateDataList() {
-        this.ui.showLoading();
+        app.ui.showLoading();
         this.appState.abortRequests();
 
         const dataList = this.appState.originData[this.appState.dataInfo.platform]?.[
@@ -234,7 +177,7 @@ class DataService {
 
         const cardPromises = dataList.map(item => this.loadAppData(item));
         const cards = await Promise.all(cardPromises);
-        this.ui.updateDataList(cards);
+        app.ui.updateDataList(cards);
     }
 }
 
