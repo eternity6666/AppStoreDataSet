@@ -107,7 +107,9 @@ class UI {
     createAppCard(appInfo) {
         const imageUrl = appInfo.appInfo.iconUrl;
         const name = appInfo.appInfo.name;
-        const subtitle = appInfo.appInfo.price;
+        const developerName = appInfo.appInfo.developerName;
+        const price = appInfo.appInfo.price;
+        const currency = appInfo.appInfo.currency;
         const userRating = appInfo.appInfo.averageUserRating;
         return `
             <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
@@ -117,7 +119,8 @@ class UI {
                          alt="${name}">
                     <div class="space-y-1">
                         <h3 class="font-semibold leading-none tracking-tight">${name}</h3>
-                        <p class="text-sm text-muted-foreground">${subtitle}</p>
+                        <p class="text-sm text-muted-foreground">${developerName}</p>
+                        <p class="text-sm text-muted-foreground">${price}${currency}</p>
                         <p class="text-sm text-muted-foreground">${userRating}</p>
                     </div>
                 </div>
