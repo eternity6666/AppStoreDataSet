@@ -8,8 +8,8 @@ from pickle import NONE
 logDirs = 'logs'
 logDate = datetime.datetime.now().strftime("%Y%m%d")
 
-if not os.path.exists(logDirs):
-    os.makedirs(logDirs)
+#if not os.path.exists(logDirs):
+#    os.makedirs(logDirs)
 
 logging.basicConfig(
     filename=f'{logDirs}/{logDate}.log',
@@ -34,11 +34,11 @@ def logD(message):
     printForDebug(message)
 
 def logI(message):
-    logging.info(message)
+    # logging.info(message)
     printForDebug(message)
 
 def logE(message):
-    logging.error(message)
+    # logging.error(message)
     printForDebug(message)
 
 def printForDebug(message):
