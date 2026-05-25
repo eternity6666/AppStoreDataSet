@@ -11,11 +11,11 @@ logDate = datetime.datetime.now().strftime("%Y%m%d")
 #if not os.path.exists(logDirs):
 #    os.makedirs(logDirs)
 
-logging.basicConfig(
-    filename=f'{logDirs}/{logDate}.log',
-    level=logging.INFO,
-    format='%(asctime)s %(levelname)s %(message)s',
-)
+#logging.basicConfig(
+#    filename=f'{logDirs}/{logDate}.log',
+#    level=logging.INFO,
+#    format='%(asctime)s %(levelname)s %(message)s',
+#)
 
 def readJsonFrom(path):
     if os.path.exists(path):
